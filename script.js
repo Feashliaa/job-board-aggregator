@@ -1,5 +1,5 @@
 // ============================================================
-// JOB BOARD APP 
+// JOB BOARD APP
 // ============================================================
 
 class JobBoardApp {
@@ -51,19 +51,13 @@ class JobBoardApp {
         const resultsEl = document.getElementById('results');
 
         try {
-            // Fetch compressed JSON from repo
-            const response = await fetch('./data/all_jobs.json.gz');
+            // Fetch from GitHub Releases (update URL when deploying)
+            // const response = await fetch('https://github.com/Feashliaa/job-board-aggregator/releases/latest/download/all_jobs.json');
+            const response = await fetch('./scripts/output/all_jobs.json');
 
             if (!response.ok) throw new Error('Failed to load jobs');
 
-            // Decompress gzip
-            const blob = await response.blob();
-            const ds = new DecompressionStream('gzip');
-            const decompressedStream = blob.stream().pipeThrough(ds);
-            const decompressedBlob = await new Response(decompressedStream).blob();
-            const text = await decompressedBlob.text();
-            const data = JSON.parse(text);
-
+            const data = await response.json();
             this.allJobs = data;
             this.filteredJobs = data;
 
@@ -82,11 +76,11 @@ class JobBoardApp {
         } catch (error) {
             console.error('Error loading jobs:', error);
             loadingEl.innerHTML = `
-            <div class="alert alert-danger">
-                Failed to load jobs. Please try again later.
-                <br><small>${error.message}</small>
-            </div>
-        `;
+                <div class="alert alert-danger">
+                    Failed to load jobs. Please try again later.
+                    <br><small>${error.message}</small>
+                </div>
+            `;
         }
     }
 
@@ -181,9 +175,14 @@ class JobBoardApp {
         this.filteredJobs = this.allJobs.filter(job => {
             const title = (job.title || '').toLowerCase();
             const company = ((job.company || job.company_slug) || '').toLowerCase();
-            const location = typeof job.location === 'object'
-                ? (job.location.name || '').toLowerCase()
-                : (job.location || '').toLowerCase();
+
+            // Safe location handling
+            let location = '';
+            if (job.location) {
+                location = typeof job.location === 'object' && job.location !== null
+                    ? (job.location.name || '').toLowerCase()
+                    : (job.location || '').toLowerCase();
+            }
 
             return (
                 (!titleFilter || title.includes(titleFilter)) &&
@@ -233,10 +232,14 @@ class JobBoardApp {
             let aVal = a[key] || '';
             let bVal = b[key] || '';
 
-            // Handle location object
+            // Handle location object with null checks
             if (key === 'location') {
-                aVal = typeof aVal === 'object' ? (aVal.name || '') : aVal;
-                bVal = typeof bVal === 'object' ? (bVal.name || '') : bVal;
+                if (aVal && typeof aVal === 'object') {
+                    aVal = aVal.name || '';
+                }
+                if (bVal && typeof bVal === 'object') {
+                    bVal = bVal.name || '';
+                }
             }
 
             // Handle company_slug fallback
@@ -310,9 +313,13 @@ class JobBoardApp {
                 } else {
                     let value = job[col.key];
 
-                    // Handle location object
-                    if (col.key === 'location' && typeof value === 'object') {
-                        value = value.name || 'Not specified';
+                    // Handle location object with null checks
+                    if (col.key === 'location') {
+                        if (value && typeof value === 'object') {
+                            value = value.name || 'Not specified';
+                        } else {
+                            value = value || 'Not specified';
+                        }
                     }
 
                     // Handle company fallback
