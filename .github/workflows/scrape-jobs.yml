@@ -2,66 +2,66 @@ name: Update Job Listings
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-  workflow_dispatch:  # Manual trigger button
+    - cron: "0 0 * * *" # Daily at midnight UTC
+  workflow_dispatch: # Manual trigger button
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 180  # 3 hours max
-    
+    timeout-minutes: 180 # 3 hours max
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    
-    - name: Install dependencies
-      run: pip install requests
-    
-    - name: Run job scraper
-      run: |
-        cd scripts
-        python mega_scraper.py
-    
-    - name: Get job count and timestamp
-      id: metadata
-      run: |
-        JOBS=$(jq '. | length' scripts/output/all_jobs.json)
-        COMPANIES=$(jq '. | length' scripts/output/active_companies.json)
-        DATE=$(date +'%Y-%m-%d %H:%M UTC')
-        echo "jobs=$JOBS" >> $GITHUB_OUTPUT
-        echo "companies=$COMPANIES" >> $GITHUB_OUTPUT
-        echo "date=$DATE" >> $GITHUB_OUTPUT
-        echo "tag=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
-    
-    - name: Create Release with job data
-      uses: softprops/action-gh-release@v1
-      with:
-        tag_name: jobs-${{ steps.metadata.outputs.tag }}
-        name: Jobs Update - ${{ steps.metadata.outputs.date }}
-        body: |
-          ##  Job Board Update
-          
-          **Total Jobs:** ${{ steps.metadata.outputs.jobs }}  
-          **Active Companies:** ${{ steps.metadata.outputs.companies }}  
-          **Last Updated:** ${{ steps.metadata.outputs.date }}
-          
-          ---
-          
-          ### Files Included:
-          - `all_jobs.json` - Complete job listings (150MB+)
-          - `active_companies.json` - Companies with active postings
-          - `metadata.json` - Scrape metadata and stats
-          
-          ### Using This Data:
-          Visit [job-board-aggregator](https://Feashliaa.github.io/job-board-aggregator) to browse jobs with filtering and search.
-        files: |
-          scripts/output/all_jobs.json
-          scripts/output/active_companies.json
-          scripts/output/metadata.json
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run job scraper
+        run: |
+          cd scripts
+          python scraper.py
+
+      - name: Get job count and timestamp
+        id: metadata
+        run: |
+          JOBS=$(jq '. | length' scripts/output/all_jobs.json)
+          COMPANIES=$(jq '. | length' scripts/output/active_companies.json)
+          DATE=$(date +'%Y-%m-%d %H:%M UTC')
+          echo "jobs=$JOBS" >> $GITHUB_OUTPUT
+          echo "companies=$COMPANIES" >> $GITHUB_OUTPUT
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+          echo "tag=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
+
+      - name: Create Release with job data
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: jobs-${{ steps.metadata.outputs.tag }}
+          name: Jobs Update - ${{ steps.metadata.outputs.date }}
+          body: |
+            ##  Job Board Update
+
+            **Total Jobs:** ${{ steps.metadata.outputs.jobs }}  
+            **Active Companies:** ${{ steps.metadata.outputs.companies }}  
+            **Last Updated:** ${{ steps.metadata.outputs.date }}
+
+            ---
+
+            ### Files Included:
+            - `all_jobs.json` - Complete job listings (150MB+)
+            - `active_companies.json` - Companies with active postings
+            - `metadata.json` - Scrape metadata and stats
+
+            ### Using This Data:
+            Visit [job-board-aggregator](https://Feashliaa.github.io/job-board-aggregator) to browse jobs with filtering and search.
+          files: |
+            scripts/output/all_jobs.json
+            scripts/output/active_companies.json
+            scripts/output/metadata.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
