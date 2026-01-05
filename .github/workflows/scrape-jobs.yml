@@ -27,6 +27,20 @@ jobs:
           cd scripts
           python scraper.py
 
+      - name: Copy compressed file to data directory
+        run: |
+          mkdir -p data
+          cp scripts/output/all_jobs.json.gz data/all_jobs.json.gz
+          cp scripts/output/metadata.json data/metadata.json
+
+      - name: Commit and push compressed data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/all_jobs.json.gz data/metadata.json
+          git diff --staged --quiet || git commit -m "Update job data - $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
+
       - name: Get job count and timestamp
         id: metadata
         run: |
@@ -44,21 +58,13 @@ jobs:
           tag_name: jobs-${{ steps.metadata.outputs.tag }}
           name: Jobs Update - ${{ steps.metadata.outputs.date }}
           body: |
-            ##  Job Board Update
+            ## 📊 Job Board Update
 
             **Total Jobs:** ${{ steps.metadata.outputs.jobs }}  
             **Active Companies:** ${{ steps.metadata.outputs.companies }}  
             **Last Updated:** ${{ steps.metadata.outputs.date }}
 
-            ---
-
-            ### Files Included:
-            - `all_jobs.json` - Complete job listings (150MB+)
-            - `active_companies.json` - Companies with active postings
-            - `metadata.json` - Scrape metadata and stats
-
-            ### Using This Data:
-            Visit [job-board-aggregator](https://Feashliaa.github.io/job-board-aggregator) to browse jobs with filtering and search.
+            The compressed job data is available in the repo at `data/all_jobs.json.gz`
           files: |
             scripts/output/all_jobs.json
             scripts/output/active_companies.json

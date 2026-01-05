@@ -2,6 +2,7 @@ import requests
 import json
 import re
 import os
+import gzip
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
@@ -21,6 +22,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # LOAD COMPANIES + SCRAPE GITHUB + CURATED LIST
 # ============================================================
 
+
 def load_existing_companies():
     """Load your Greenhouse companies from CDX scan."""
     print("\n" + "=" * 80)
@@ -36,6 +38,7 @@ def load_existing_companies():
         print(f"File not found: {INPUT_FILE}")
         print("Make sure the path is correct!\n")
         return set()
+
 
 def scrape_github_lists():
     """Scrape GitHub awesome lists to supplement your existing list."""
@@ -71,6 +74,7 @@ def scrape_github_lists():
 
     print(f"\nGitHub total: {len(companies)} companies\n")
     return companies
+
 
 def get_curated_companies():
     print("Adding curated tech companies...\n")
@@ -126,9 +130,11 @@ def get_curated_companies():
 
     return set(companies)
 
+
 # ============================================================
 # VERIFY ACTIVE JOBS + FETCH ALL JOBS
 # ============================================================
+
 
 def fetch_company_jobs(slug):
     """Fetch all jobs for a company."""
@@ -169,6 +175,7 @@ def fetch_company_jobs(slug):
 
     return slug, []
 
+
 def fetch_all_jobs(companies):
     """Fetch jobs from all companies in parallel."""
     print("=" * 80)
@@ -201,55 +208,69 @@ def fetch_all_jobs(companies):
 
     return active_companies, all_jobs
 
+
 # ============================================================
 # SAVE RESULTS
 # ============================================================
 
+
 def save_results(all_companies, active_companies, all_jobs):
     """Save all data to JSON files."""
-    print("=" * 80)
+    print("="*80)
     print("SAVING RESULTS")
-    print("=" * 80 + "\n")
-
-    timestamp = datetime.utcnow().isoformat() + "Z"
-
-    # 1. Save all companies list
-    companies_file = os.path.join(OUTPUT_DIR, "all_companies.json")
-    with open(companies_file, "w") as f:
+    print("="*80 + "\n")
+    
+    timestamp = datetime.utcnow().isoformat() + 'Z'
+    
+    # Save all companies list
+    companies_file = os.path.join(OUTPUT_DIR, 'all_companies.json')
+    with open(companies_file, 'w') as f:
         json.dump(sorted(list(all_companies)), f, indent=2)
     print(f"All companies: {companies_file}")
-
-    # 2. Save active companies with job counts
-    active_file = os.path.join(OUTPUT_DIR, "active_companies.json")
-    with open(active_file, "w") as f:
+    
+    # Save active companies with job counts
+    active_file = os.path.join(OUTPUT_DIR, 'active_companies.json')
+    with open(active_file, 'w') as f:
         json.dump(active_companies, f, indent=2, sort_keys=True)
     print(f"Active companies: {active_file}")
-
-    # 3. Save all jobs with metadata
-    all_jobs_file = os.path.join(OUTPUT_DIR, "all_jobs.json")
-    with open(all_jobs_file, "w") as f:
+    
+    # Save all jobs (regular JSON)
+    all_jobs_file = os.path.join(OUTPUT_DIR, 'all_jobs.json')
+    with open(all_jobs_file, 'w') as f:
         json.dump(all_jobs, f, indent=2)
     print(f"All jobs: {all_jobs_file} ({len(all_jobs):,} jobs)")
-
-    # 4. Save metadata summary
-    summary = {
-        "last_updated": timestamp,
-        "total_companies": len(all_companies),
-        "active_companies": len(active_companies),
-        "total_jobs": len(all_jobs),
-        "source": "greenhouse_api",
+    
+    # Save compressed version for GitHub Pages
+    compressed_file = os.path.join(OUTPUT_DIR, 'all_jobs.json.gz')
+    with gzip.open(compressed_file, 'wt', encoding='utf-8') as f:
+        json.dump(all_jobs, f)
+    
+    # Check compression ratio
+    original_size = os.path.getsize(all_jobs_file) / (1024 * 1024)
+    compressed_size = os.path.getsize(compressed_file) / (1024 * 1024)
+    print(f"Compressed: {compressed_file} ({compressed_size:.1f}MB, {compressed_size/original_size*100:.1f}% of original)")
+    
+    # Save metadata summary
+    metadata = {
+        'last_updated': timestamp,
+        'total_companies': len(all_companies),
+        'active_companies': len(active_companies),
+        'total_jobs': len(all_jobs),
+        'source': 'greenhouse_api'
     }
-
-    summary_file = os.path.join(OUTPUT_DIR, "metadata.json")
-    with open(summary_file, "w") as f:
-        json.dump(summary, f, indent=2)
-    print(f"Metadata: {summary_file}")
-
+    
+    metadata_file = os.path.join(OUTPUT_DIR, 'metadata.json')
+    with open(metadata_file, 'w') as f:
+        json.dump(metadata, f, indent=2)
+    print(f"Metadata: {metadata_file}")
+    
     print()
+
 
 # ============================================================
 # MAIN
 # ============================================================
+
 
 def main():
     print("\n" + "=" * 80)
@@ -257,16 +278,16 @@ def main():
     print("Scraping all jobs from Greenhouse companies")
     print("=" * 80)
 
-    # Step 1: Load your existing companies
+    # Load existing companies
     existing = load_existing_companies()
     if not existing:
         print("Exiting - no companies loaded!")
         return
 
-    # Step 2: Add GitHub lists
+    # Add GitHub lists
     github = scrape_github_lists()
 
-    # Step 3: Add curated companies
+    # Add curated companies
     curated = get_curated_companies()
     print(f"Added {len(curated)} curated companies\n")
 
@@ -282,10 +303,10 @@ def main():
     print(f"Total unique:      {len(all_companies):,}")
     print()
 
-    # Step 4: Fetch all jobs from all companies
+    # Fetch all jobs from all companies
     active_companies, all_jobs = fetch_all_jobs(all_companies)
 
-    # Step 5: Save everything
+    # Save everything
     save_results(all_companies, active_companies, all_jobs)
 
     # Final summary
@@ -297,6 +318,7 @@ def main():
     print(f"Total jobs:        {len(all_jobs):,}")
     print(f"\nAll data saved to '{OUTPUT_DIR}/' directory")
     print("=" * 80 + "\n")
+
 
 if __name__ == "__main__":
     main()

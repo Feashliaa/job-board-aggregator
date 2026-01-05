@@ -51,14 +51,19 @@ class JobBoardApp {
         const resultsEl = document.getElementById('results');
 
         try {
-            // Fetch from GitHub Releases (update URL when deploying)
-            const response = await fetch('https://github.com/Feashliaa/job-board-aggregator/releases/latest/download/all_jobs.json');
-            // This is for local testing
-            //const response = await fetch('./scripts/output/all_jobs.json');
+            // Fetch compressed JSON from repo
+            const response = await fetch('./data/all_jobs.json.gz');
 
             if (!response.ok) throw new Error('Failed to load jobs');
 
-            const data = await response.json();
+            // Decompress gzip
+            const blob = await response.blob();
+            const ds = new DecompressionStream('gzip');
+            const decompressedStream = blob.stream().pipeThrough(ds);
+            const decompressedBlob = await new Response(decompressedStream).blob();
+            const text = await decompressedBlob.text();
+            const data = JSON.parse(text);
+
             this.allJobs = data;
             this.filteredJobs = data;
 
@@ -77,11 +82,11 @@ class JobBoardApp {
         } catch (error) {
             console.error('Error loading jobs:', error);
             loadingEl.innerHTML = `
-                <div class="alert alert-danger">
-                    Failed to load jobs. Please try again later.
-                    <br><small>${error.message}</small>
-                </div>
-            `;
+            <div class="alert alert-danger">
+                Failed to load jobs. Please try again later.
+                <br><small>${error.message}</small>
+            </div>
+        `;
         }
     }
 
