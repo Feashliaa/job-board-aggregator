@@ -1,0 +1,708 @@
+/* ========================================
+   GLOBAL & THEME
+   ======================================== */
+:root {
+    --bg-gradient: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    --card-bg: rgba(255, 255, 255, 0.92);
+    --card-border: rgba(255, 255, 255, 0.3);
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.12);
+    --accent: #0073b1;
+    --accent-hover: #005a8c;
+    --text: #1a1a1a;
+    --text-light: #555;
+    --border: #d8dee4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--bg-gradient);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 16px 8px;
+    min-height: 100vh;
+    color: var(--text);
+    overflow-x: hidden;
+}
+
+/* Subtle noise texture overlay */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" /><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.03 0"/></filter><rect width="100" height="100" filter="url(%23n)" opacity="0.04"/></svg>') repeat;
+    pointer-events: none;
+    z-index: -1;
+}
+
+h2.card-title {
+    text-align: center;
+    margin: 16px 0;
+    color: #004f7c;
+    font-size: clamp(1.4rem, 4vw, 2.2rem);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* ========================================
+   LAYOUT
+   ======================================== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.dashboard {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 80px;
+}
+
+/* Form spacing */
+#jobForm .col-12 {
+    margin-bottom: 14px;
+}
+
+.form-select {
+    min-height: 46px;
+}
+
+.form-select:hover {
+    cursor: pointer;
+}
+
+
+/* ========================================
+   FILTER PANEL
+   ======================================== */
+
+.filter-panel {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.filter-panel .filter-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.filter-toggle.open {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.filter-controls {
+    padding: 1.2rem;
+    background: rgba(240, 245, 255, 0.6);
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.filter-panel .form-control,
+.filter-panel .form-select,
+.filter-panel .input-group-text {
+    height: 48px;
+}
+
+
+/* ========================================
+   FAB WITH LABEL
+   ======================================== */
+#process-fab-container {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 1050;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 8px 12px;
+    border-radius: 32px;
+    box-shadow: 0 8px 24px rgba(0, 115, 177, 0.25);
+    transition: all 0.3s ease;
+    font-weight: 600;
+    color: #004f7c;
+    font-size: 14px;
+    max-width: 220px;
+}
+
+#process-fab-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(0, 115, 177, 0.35);
+}
+
+#process-fab {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 0;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+#process-fab:hover {
+    background: var(--accent-hover);
+    transform: scale(1.08);
+}
+
+#process-fab svg {
+    width: 22px;
+    height: 22px;
+}
+
+#fab-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #004f7c;
+    font-weight: 600;
+}
+
+#event-handler {
+    width: 100%;
+}
+
+/* ========================================
+   DESKTOP TABLE
+   ======================================== */
+.job-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.job-table caption {
+    caption-side: top !important;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #004f7c;
+    padding: 12px 16px;
+    background: rgba(0, 115, 177, 0.08);
+    border-radius: 12px 12px 0 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.job-table tbody {
+    border: 1px solid var(--border);
+    border-radius: 0 0 12px 12px;
+    overflow: hidden;
+}
+
+.job-table th,
+.job-table td {
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.job-table th {
+    background: var(--accent);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+.job-table th:hover {
+    background: var(--accent-hover);
+    cursor: pointer;
+}
+
+.job-table td {
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.job-table a {
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.job-table td .btn-sm {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+.job-table th,
+.job-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.job-table th {
+    font-weight: 600;
+}
+
+.job-table td:nth-child(1),
+.job-table td:nth-child(2) {
+    text-align: left;
+}
+
+.job-table td a {
+    display: inline-block;
+}
+
+.job-table td input[type="checkbox"] {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* Desktop stripes */
+.table-striped-desktop>tbody>tr:nth-of-type(odd)>td {
+    background: rgba(240, 248, 255, 0.6);
+}
+
+/* Desktop badges */
+.badge {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
+.badge.new {
+    background-color: #d1ecf1 !important;
+    color: #0c5460 !important;
+}
+
+.badge.applied {
+    background-color: #d4edda !important;
+    color: #155724 !important;
+}
+
+.badge.interview {
+    background-color: #fff3cd !important;
+    color: #856404 !important;
+}
+
+.badge.rejected {
+    background-color: #f8d7da !important;
+    color: #721c24 !important;
+}
+
+.badge.ignored {
+    background-color: #fff5f5 !important;
+    color: #dc3545 !important;
+}
+
+
+
+/* ========================================
+   Elements
+   ======================================== */
+
+.resume-upload-label {
+    margin-bottom: 10px;
+}
+
+#resumeForm .form-control {
+    max-width: 100%;
+    height: 5%;
+}
+
+#resumeForm .input-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#resumeFile {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.job-table td.checkbox-cell input.form-check-input.remove-checkbox {
+    width: 28px !important;
+    height: 28px !important;
+    margin: 0 auto !important;
+    flex-shrink: 0;
+    border-radius: 6px;
+    accent-color: var(--accent);
+    box-shadow: 0 0 0 2px #fff, 0 0 0 5px rgba(0, 115, 177, .25);
+}
+
+.job-table td.checkbox-cell input.form-check-input.apply-checkbox {
+    width: 28px !important;
+    height: 28px !important;
+    margin: 0 auto !important;
+    flex-shrink: 0;
+    border-radius: 6px;
+    accent-color: var(--accent);
+    box-shadow: 0 0 0 2px #fff, 0 0 0 5px rgba(0, 115, 177, .25);
+}
+
+.job-table td.checkbox-cell input.form-check-input:hover {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 7px rgba(0, 115, 177, .35);
+    cursor: pointer;
+}
+
+
+/* ========================================
+   MOBILE CARD MODE
+   ======================================== */
+@media (max-width: 900px) {
+    body {
+        padding: 12px 6px;
+        background: linear-gradient(135deg, #dfe9f3 0%, #c9d6ea 100%);
+    }
+
+    .job-table thead {
+        display: none !important;
+    }
+
+    .job-table {
+        display: block;
+        width: 100%;
+    }
+
+    .job-table tbody {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .job-table th,
+    .job-table td {
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    #process-fab-container {
+        flex-direction: column;
+        padding: 10px;
+        gap: 8px;
+        right: 12px;
+        bottom: 12px;
+        border-radius: 20px;
+    }
+
+    #fab-label {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* === CARD === */
+    .job-table tr {
+        display: flex;
+        flex-direction: column;
+        background: var(--card-bg);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid var(--card-border);
+        border-radius: 18px;
+        padding: 18px 20px;
+        width: 95%;
+        max-width: 620px;
+        box-shadow: var(--shadow-sm);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .job-table tr::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(0, 115, 177, 0.05), transparent 50%);
+        pointer-events: none;
+        border-radius: 18px;
+    }
+
+    .job-table tr:hover {
+        transform: translateY(-4px) scale(1.005);
+        box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+        border-color: rgba(0, 115, 177, 0.3);
+    }
+
+    /* Card rows */
+    .job-table td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        font-size: 15px;
+        color: var(--text);
+    }
+
+    .job-table td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: #004f7c;
+        flex: 1 1 45%;
+        min-width: 100px;
+    }
+
+    .job-table td>* {
+        flex: 1 1 50%;
+        text-align: right;
+        max-width: 60%;
+        overflow-wrap: break-word;
+    }
+
+    /* Link button */
+    .job-table a {
+        background: var(--accent);
+        color: white !important;
+        padding: 8px 8px;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 14px;
+        max-width: 50px;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        box-shadow: 0 2px 6px rgba(0, 115, 177, 0.3);
+        transition: all 0.2s ease;
+    }
+
+    .job-table a:hover {
+        background: var(--accent-hover);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 10px rgba(0, 115, 177, 0.4);
+    }
+
+    .job-table caption {
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #004f7c;
+        padding: 16px 8px 8px;
+        background: transparent;
+        border-radius: 0;
+        margin-bottom: 8px;
+    }
+
+    .job-table td .badge {
+        flex: 0 0 auto;
+        max-width: fit-content;
+    }
+
+
+    /* === BADGES === */
+    .badge {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 12px !important;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 8px;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .badge.new {
+        background: linear-gradient(135deg, #a7d8f0, #d1ecf1);
+        color: #0c5460;
+    }
+
+    .badge.applied {
+        background: linear-gradient(135deg, #a8e6cf, #d4edda);
+        color: #155724;
+    }
+
+    .badge.interview {
+        background: linear-gradient(135deg, #ffeaa7, #fff3cd);
+        color: #856404;
+    }
+
+    .badge.rejected {
+        background: linear-gradient(135deg, #fca5a5, #f8d7da);
+        color: #721c24;
+    }
+
+    .badge.ignored {
+        background: linear-gradient(135deg, #fca5a5, #ffe6e6);
+        color: #c20000;
+    }
+
+    /* === CHECKBOXES === */
+    .job-table td.checkbox-cell input[type="checkbox"] {
+        flex: 0 0 auto !important;
+        width: 24px !important;
+        height: 24px !important;
+        accent-color: var(--accent);
+        cursor: pointer;
+        border-radius: 6px;
+        box-shadow: 0 0 0 2px white, 0 0 0 5px rgba(0, 115, 177, 0.25);
+    }
+
+    .job-table td.checkbox-cell {
+        padding-right: 6px !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+}
+
+/* ========================================
+   TINY MOBILE: Stack Buttons
+   ======================================== */
+
+@media (max-width: 500px) {
+    #resumeDiv .row.mt-3 {
+        flex-direction: column;
+    }
+
+    #resumeDiv .row.mt-3>[class^="col-"] {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    #resumeDiv .row.mt-3 .btn {
+        width: 100%;
+        font-size: 15px;
+        padding: 12px;
+        border-radius: 10px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .job-table td {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 4px;
+    }
+
+    .job-table td::before {
+        flex: 0 0 auto;
+        min-width: 0;
+        margin-bottom: 0 !important;
+        line-height: 1.2;
+    }
+
+    .job-table td>* {
+        flex: 0 0 auto;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .job-table td a,
+    .job-table td .badge {
+        align-self: flex-start;
+    }
+
+    .job-table td.checkbox-cell {
+        position: relative !important;
+        text-align: left !important;
+        padding-left: 0 !important;
+        min-height: 80px;
+    }
+
+    .job-table td.checkbox-cell::before {
+        display: block !important;
+        margin: 0 !important;
+        text-align: left !important;
+    }
+
+    .job-table td.checkbox-cell input[type="checkbox"] {
+        position: absolute !important;
+        top: 40px !important;
+        left: 5px !important;
+        accent-color: var(--accent);
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 0 0 0 1px white, 0 0 0 3px rgba(0, 115, 177, 0.25);
+    }
+
+    /* Stack pagination controls vertically */
+    .pagination-controls {
+        flex-direction: column !important;
+        gap: 10px;
+        align-items: stretch !important;
+    }
+
+    .pagination-controls>div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pagination-controls .btn-group {
+        width: 100%;
+        display: flex;
+    }
+
+    .pagination-controls .btn-group button {
+        flex: 1;
+        font-size: 13px;
+        padding: 8px 4px;
+    }
+
+    .pagination-controls select {
+        width: 100% !important;
+    }
+
+    #page-info,
+    #page-info-bottom {
+        font-size: 13px;
+    }
+}
+
+/* Keep dropdown visible and clean on sticky button */
+.position-fixed.top-0.end-0 {
+    z-index: 1050;
+}
+
+.dropdown-menu {
+    width: 260px;
+}
+
+
+.pagination-controls {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+#loading {
+    min-height: 400px;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
