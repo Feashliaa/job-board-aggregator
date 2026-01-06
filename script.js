@@ -53,7 +53,7 @@ class JobBoardApp {
         try {
             // Fetch from GitHub Releases (update URL when deploying)
             // const response = await fetch('https://github.com/Feashliaa/job-board-aggregator/releases/latest/download/all_jobs.json');
-            const response = await fetch('./scripts/output/all_jobs.json');
+            const response = await fetch('./data/all_jobs.json.gz');
 
             if (!response.ok) throw new Error('Failed to load jobs');
 
