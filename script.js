@@ -1,5 +1,5 @@
 // ============================================================
-// JOB BOARD APP
+// JOB BOARD APP - OOP VERSION
 // ============================================================
 
 class JobBoardApp {
@@ -51,8 +51,7 @@ class JobBoardApp {
         const resultsEl = document.getElementById('results');
 
         try {
-            // Fetch from GitHub Releases (update URL when deploying)
-            // const response = await fetch('https://github.com/Feashliaa/job-board-aggregator/releases/latest/download/all_jobs.json');
+            // Fetch compressed JSON from repo
             const response = await fetch('./data/all_jobs.json.gz');
 
             if (!response.ok) throw new Error('Failed to load jobs');
