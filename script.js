@@ -1,5 +1,5 @@
 // ============================================================
-// JOB BOARD APP - OOP VERSION
+// JOB BOARD APP 
 // ============================================================
 
 class JobBoardApp {
@@ -56,7 +56,14 @@ class JobBoardApp {
 
             if (!response.ok) throw new Error('Failed to load jobs');
 
-            const data = await response.json();
+            // Decompress gzip
+            const blob = await response.blob();
+            const ds = new DecompressionStream('gzip');
+            const decompressedStream = blob.stream().pipeThrough(ds);
+            const decompressedBlob = await new Response(decompressedStream).blob();
+            const text = await decompressedBlob.text();
+            const data = JSON.parse(text);
+
             this.allJobs = data;
             this.filteredJobs = data;
 
@@ -75,11 +82,11 @@ class JobBoardApp {
         } catch (error) {
             console.error('Error loading jobs:', error);
             loadingEl.innerHTML = `
-                <div class="alert alert-danger">
-                    Failed to load jobs. Please try again later.
-                    <br><small>${error.message}</small>
-                </div>
-            `;
+            <div class="alert alert-danger">
+                Failed to load jobs. Please try again later.
+                <br><small>${error.message}</small>
+            </div>
+        `;
         }
     }
 
@@ -174,14 +181,9 @@ class JobBoardApp {
         this.filteredJobs = this.allJobs.filter(job => {
             const title = (job.title || '').toLowerCase();
             const company = ((job.company || job.company_slug) || '').toLowerCase();
-
-            // Safe location handling
-            let location = '';
-            if (job.location) {
-                location = typeof job.location === 'object' && job.location !== null
-                    ? (job.location.name || '').toLowerCase()
-                    : (job.location || '').toLowerCase();
-            }
+            const location = typeof job.location === 'object'
+                ? (job.location.name || '').toLowerCase()
+                : (job.location || '').toLowerCase();
 
             return (
                 (!titleFilter || title.includes(titleFilter)) &&
@@ -231,14 +233,10 @@ class JobBoardApp {
             let aVal = a[key] || '';
             let bVal = b[key] || '';
 
-            // Handle location object with null checks
+            // Handle location object
             if (key === 'location') {
-                if (aVal && typeof aVal === 'object') {
-                    aVal = aVal.name || '';
-                }
-                if (bVal && typeof bVal === 'object') {
-                    bVal = bVal.name || '';
-                }
+                aVal = typeof aVal === 'object' ? (aVal.name || '') : aVal;
+                bVal = typeof bVal === 'object' ? (bVal.name || '') : bVal;
             }
 
             // Handle company_slug fallback
@@ -312,13 +310,9 @@ class JobBoardApp {
                 } else {
                     let value = job[col.key];
 
-                    // Handle location object with null checks
-                    if (col.key === 'location') {
-                        if (value && typeof value === 'object') {
-                            value = value.name || 'Not specified';
-                        } else {
-                            value = value || 'Not specified';
-                        }
+                    // Handle location object
+                    if (col.key === 'location' && typeof value === 'object') {
+                        value = value.name || 'Not specified';
                     }
 
                     // Handle company fallback
