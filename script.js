@@ -181,9 +181,12 @@ class JobBoardApp {
         this.filteredJobs = this.allJobs.filter(job => {
             const title = (job.title || '').toLowerCase();
             const company = ((job.company || job.company_slug) || '').toLowerCase();
-            const location = typeof job.location === 'object'
-                ? (job.location.name || '').toLowerCase()
-                : (job.location || '').toLowerCase();
+            let location = '';
+            if (job.location) {
+                location = typeof job.location === 'object'
+                    ? (job.location.name || '').toLowerCase()
+                    : (job.location || '').toLowerCase();
+            }
 
             return (
                 (!titleFilter || title.includes(titleFilter)) &&
@@ -235,8 +238,12 @@ class JobBoardApp {
 
             // Handle location object
             if (key === 'location') {
-                aVal = typeof aVal === 'object' ? (aVal.name || '') : aVal;
-                bVal = typeof bVal === 'object' ? (bVal.name || '') : bVal;
+                if (aVal && typeof aVal === 'object') {
+                    aVal = aVal.name || '';
+                }
+                if (bVal && typeof bVal === 'object') {
+                    bVal = bVal.name || '';
+                }
             }
 
             // Handle company_slug fallback
@@ -311,8 +318,12 @@ class JobBoardApp {
                     let value = job[col.key];
 
                     // Handle location object
-                    if (col.key === 'location' && typeof value === 'object') {
-                        value = value.name || 'Not specified';
+                    if (col.key === 'location') {
+                        if (value && typeof value === 'object') {
+                            value = value.name || 'Not specified';
+                        } else {
+                            value = value || 'Not specified';
+                        }
                     }
 
                     // Handle company fallback
