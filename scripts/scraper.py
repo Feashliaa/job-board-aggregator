@@ -11,124 +11,28 @@ from collections import defaultdict
 # CONFIGURATION
 # ============================================================
 
-# Flexible path handling for both local and GitHub Actions
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
-INPUT_FILE = os.path.join(ROOT_DIR, "data", "greenhouse_companies.json")
+GREENHOUSE_FILE = os.path.join(ROOT_DIR, "data", "greenhouse_companies.json")
+ASHBY_FILE = os.path.join(ROOT_DIR, "data", "ashby_companies.json")
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ============================================================
-# LOAD COMPANIES + SCRAPE GITHUB + CURATED LIST
+# LOAD COMPANIES
 # ============================================================
 
 
-def load_existing_companies():
-    """Load your Greenhouse companies from CDX scan."""
-    print("\n" + "=" * 80)
-    print("LOADING EXISTING COMPANIES")
-    print("=" * 80 + "\n")
-
+def load_companies(filepath):
+    """Load companies from JSON file."""
     try:
-        with open(INPUT_FILE, "r") as f:
+        with open(filepath, "r") as f:
             companies = set(json.load(f))
-        print(f"Loaded {len(companies):,} companies from {INPUT_FILE}\n")
+        print(f"Loaded {len(companies):,} companies from {filepath}")
         return companies
     except FileNotFoundError:
-        print(f"File not found: {INPUT_FILE}")
-        print("Make sure the path is correct!\n")
+        print(f"File not found: {filepath}")
         return set()
-
-
-def scrape_github_lists():
-    """Scrape GitHub awesome lists to supplement your existing list."""
-    print("=" * 80)
-    print("SCRAPING GITHUB AWESOME LISTS (SUPPLEMENT)")
-    print("=" * 80 + "\n")
-
-    companies = set()
-
-    repos = [
-        "poteto/hiring-without-whiteboards",
-        "remoteintech/remote-jobs",
-        "lukasz-madon/awesome-remote-job",
-    ]
-
-    pattern = r'boards\.greenhouse\.io/([^/)\s"\'>]+)'
-
-    for repo in repos:
-        print(f"Checking {repo}...")
-        for branch in ["master", "main"]:
-            try:
-                url = f"https://raw.githubusercontent.com/{repo}/{branch}/README.md"
-                response = requests.get(url, timeout=30)
-                if response.status_code == 200:
-                    matches = re.findall(pattern, response.text)
-                    before = len(companies)
-                    companies.update(m.lower().strip() for m in matches)
-                    after = len(companies)
-                    print(f"  Found {after - before} new companies")
-                    break
-            except Exception as e:
-                continue
-
-    print(f"\nGitHub total: {len(companies)} companies\n")
-    return companies
-
-
-def get_curated_companies():
-    print("Adding curated tech companies...\n")
-
-    companies = [
-        "google",
-        "meta",
-        "amazon",
-        "microsoft",
-        "apple",
-        "netflix",
-        "openai",
-        "anthropic",
-        "cohere",
-        "adept",
-        "huggingface",
-        "characterai",
-        "midjourney",
-        "runwayml",
-        "stabilityai",
-        "stripe",
-        "databricks",
-        "scaleai",
-        "figma",
-        "notion",
-        "airtable",
-        "webflow",
-        "vercel",
-        "replicate",
-        "modal",
-        "snowflake",
-        "datadog",
-        "gitlab",
-        "hashicorp",
-        "cockroachlabs",
-        "confluent",
-        "elastic",
-        "mongodb",
-        "redis",
-        "planetscale",
-        "retool",
-        "gusto",
-        "brex",
-        "ramp",
-        "rippling",
-        "lattice",
-        "faire",
-        "plaid",
-        "checkr",
-        "flexport",
-        "anduril",
-    ]
-
-    return set(companies)
 
 
 # ============================================================
@@ -136,7 +40,7 @@ def get_curated_companies():
 # ============================================================
 
 
-def fetch_company_jobs(slug):
+def fetch_company_jobs_greenhouse(slug):
     """Fetch all jobs for a company."""
     try:
         url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"
@@ -176,10 +80,56 @@ def fetch_company_jobs(slug):
     return slug, []
 
 
-def fetch_all_jobs(companies):
+"""
+fetch("https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams", {
+  method: "POST",
+  headers: {"Content-Type": "application/json"},
+  body: JSON.stringify({
+    operationName: "ApiJobBoardWithTeams",
+    variables: {organizationHostedJobsPageName: "zip"},
+    query: "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName } } }"
+  })
+}).then(r => r.json()).then(console.log)
+"""
+
+
+def fetch_company_jobs_ashby(slug):
+    try:
+        url = f"https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+        payload = {
+            "operationName": "ApiJobBoardWithTeams",
+            "variables": {"organizationHostedJobsPageName": slug},
+            "query": "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName } } }",
+        }
+
+        response = requests.post(url, json=payload, timeout=15)
+
+        if response.status_code == 200:
+            data = response.json()
+            jobs = data.get("data", {}).get("jobBoard", {}).get("jobPostings", [])
+
+            if jobs:
+                normalized = []
+                for job in jobs:
+                    normalized.append(
+                        {
+                            "company": slug,
+                            "company_slug": slug,
+                            "title": job.get("title"),
+                            "location": job.get("locationName", "Not specified"),
+                            "url": f"https://jobs.ashbyhq.com/{slug}/jobs/{job.get('id')}",
+                        }
+                    )
+                return slug, normalized
+    except Exception as e:
+        pass
+    return slug, []
+
+
+def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
     print("=" * 80)
-    print(f"FETCHING JOBS FROM {len(companies):,} COMPANIES")
+    print(f"FETCHING JOBS FROM {len(companies):,} COMPANIES FROM PLATFORM: {platform}")
     print("=" * 80 + "\n")
 
     all_jobs = []
@@ -187,9 +137,7 @@ def fetch_all_jobs(companies):
     failed = 0
 
     with ThreadPoolExecutor(max_workers=30) as executor:
-        futures = {
-            executor.submit(fetch_company_jobs, slug): slug for slug in companies
-        }
+        futures = {executor.submit(fetcher, slug): slug for slug in companies}
 
         for i, future in enumerate(as_completed(futures), 1):
             slug, jobs = future.result()
@@ -216,54 +164,56 @@ def fetch_all_jobs(companies):
 
 def save_results(all_companies, active_companies, all_jobs):
     """Save all data to JSON files."""
-    print("="*80)
+    print("=" * 80)
     print("SAVING RESULTS")
-    print("="*80 + "\n")
-    
-    timestamp = datetime.utcnow().isoformat() + 'Z'
-    
+    print("=" * 80 + "\n")
+
+    timestamp = datetime.utcnow().isoformat() + "Z"
+
     # Save all companies list
-    companies_file = os.path.join(OUTPUT_DIR, 'all_companies.json')
-    with open(companies_file, 'w') as f:
+    companies_file = os.path.join(OUTPUT_DIR, "all_companies.json")
+    with open(companies_file, "w") as f:
         json.dump(sorted(list(all_companies)), f, indent=2)
     print(f"All companies: {companies_file}")
-    
+
     # Save active companies with job counts
-    active_file = os.path.join(OUTPUT_DIR, 'active_companies.json')
-    with open(active_file, 'w') as f:
+    active_file = os.path.join(OUTPUT_DIR, "active_companies.json")
+    with open(active_file, "w") as f:
         json.dump(active_companies, f, indent=2, sort_keys=True)
     print(f"Active companies: {active_file}")
-    
+
     # Save all jobs (regular JSON)
-    all_jobs_file = os.path.join(OUTPUT_DIR, 'all_jobs.json')
-    with open(all_jobs_file, 'w') as f:
+    all_jobs_file = os.path.join(OUTPUT_DIR, "all_jobs.json")
+    with open(all_jobs_file, "w") as f:
         json.dump(all_jobs, f, indent=2)
     print(f"All jobs: {all_jobs_file} ({len(all_jobs):,} jobs)")
-    
+
     # Save compressed version for GitHub Pages
-    compressed_file = os.path.join(OUTPUT_DIR, 'all_jobs.json.gz')
-    with gzip.open(compressed_file, 'wt', encoding='utf-8') as f:
+    compressed_file = os.path.join(OUTPUT_DIR, "all_jobs.json.gz")
+    with gzip.open(compressed_file, "wt", encoding="utf-8") as f:
         json.dump(all_jobs, f)
-    
+
     # Check compression ratio
     original_size = os.path.getsize(all_jobs_file) / (1024 * 1024)
     compressed_size = os.path.getsize(compressed_file) / (1024 * 1024)
-    print(f"Compressed: {compressed_file} ({compressed_size:.1f}MB, {compressed_size/original_size*100:.1f}% of original)")
-    
+    print(
+        f"Compressed: {compressed_file} ({compressed_size:.1f}MB, {compressed_size/original_size*100:.1f}% of original)"
+    )
+
     # Save metadata summary
     metadata = {
-        'last_updated': timestamp,
-        'total_companies': len(all_companies),
-        'active_companies': len(active_companies),
-        'total_jobs': len(all_jobs),
-        'source': 'greenhouse_api'
+        "last_updated": timestamp,
+        "total_companies": len(all_companies),
+        "active_companies": len(active_companies),
+        "total_jobs": len(all_jobs),
+        "source": "greenhouse_api, ashby_api",
     }
-    
-    metadata_file = os.path.join(OUTPUT_DIR, 'metadata.json')
-    with open(metadata_file, 'w') as f:
+
+    metadata_file = os.path.join(OUTPUT_DIR, "metadata.json")
+    with open(metadata_file, "w") as f:
         json.dump(metadata, f, indent=2)
     print(f"Metadata: {metadata_file}")
-    
+
     print()
 
 
@@ -279,42 +229,33 @@ def main():
     print("=" * 80)
 
     # Load existing companies
-    existing = load_existing_companies()
-    if not existing:
+    greenhouse_companies = load_companies(GREENHOUSE_FILE)
+    ashby_companies = load_companies(ASHBY_FILE)
+    if not greenhouse_companies:
         print("Exiting - no companies loaded!")
         return
 
-    # Add GitHub lists
-    github = scrape_github_lists()
+    # Fetch from all sources
+    active_greenhouse, jobs_greenhouse = fetch_all_jobs(
+        greenhouse_companies, fetch_company_jobs_greenhouse, "GREENHOUSE"
+    )
+    active_ashby, jobs_ashby = fetch_all_jobs(
+        ashby_companies, fetch_company_jobs_ashby, "ASHBY"
+    )
 
-    # Add curated companies
-    curated = get_curated_companies()
-    print(f"Added {len(curated)} curated companies\n")
+    # Combine results
+    all_companies = greenhouse_companies | ashby_companies
+    all_active_companies = {**active_greenhouse, **active_ashby}
+    all_jobs = jobs_greenhouse + jobs_ashby
 
-    # Combine all
-    all_companies = existing | github | curated
-
-    print("=" * 80)
-    print("TOTAL COMPANIES TO PROCESS")
-    print("=" * 80)
-    print(f"From CDX scan:     {len(existing):,}")
-    print(f"From GitHub:       {len(github):,}")
-    print(f"From curated list: {len(curated):,}")
-    print(f"Total unique:      {len(all_companies):,}")
-    print()
-
-    # Fetch all jobs from all companies
-    active_companies, all_jobs = fetch_all_jobs(all_companies)
-
-    # Save everything
-    save_results(all_companies, active_companies, all_jobs)
+    save_results(all_companies, all_active_companies, all_jobs)
 
     # Final summary
     print("=" * 80)
     print("FINAL SUMMARY")
     print("=" * 80)
     print(f"Total companies:   {len(all_companies):,}")
-    print(f"Active companies:  {len(active_companies):,}")
+    print(f"Active companies:  {len(all_active_companies):,}")
     print(f"Total jobs:        {len(all_jobs):,}")
     print(f"\nAll data saved to '{OUTPUT_DIR}/' directory")
     print("=" * 80 + "\n")
