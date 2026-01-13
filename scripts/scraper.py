@@ -250,7 +250,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "total_companies": len(all_companies),
         "active_companies": len(active_companies),
         "total_jobs": len(all_jobs),
-        "source": "greenhouse_api, ashby_api", 
+        "source": "greenhouse_api, ashby_api, bamboohr_api", 
     }
 
     metadata_file = os.path.join(OUTPUT_DIR, "metadata.json")
@@ -269,14 +269,14 @@ def save_results(all_companies, active_companies, all_jobs):
 def main():
     print("\n" + "=" * 80)
     print("JOB BOARD AGGREGATOR")
-    print("Scraping all jobs from Greenhouse companies")
+    print("Scraping all jobs from ATS companies")
     print("=" * 80)
 
     # Load existing companies
     greenhouse_companies = load_companies(GREENHOUSE_FILE)
     ashby_companies = load_companies(ASHBY_FILE)
     bamboohr_companies = load_companies(BAMBOOHR_FILE)
-    if not greenhouse_companies:
+    if not greenhouse_companies and not ashby_companies and not bamboohr_companies:
         print("Exiting - no companies loaded!")
         return
 
