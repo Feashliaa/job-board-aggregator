@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-13T01:04:28.919941Z",
+  "last_updated": "2026-01-13T21:01:19.085471Z",
   "total_companies": 5265,
-  "active_companies": 3825,
-  "total_jobs": 132610,
-  "source": "greenhouse_api, ashby_api"
+  "active_companies": 3817,
+  "total_jobs": 133216,
+  "source": "greenhouse_api, ashby_api, bamboohr_api"
 }
