@@ -49,6 +49,7 @@ scripts/output/*.gz
 !data/greenhouse_companies.json
 !data/metadata.json
 !data/ashby_companies.json
+!data/bamboohr_companies.json
 
 # Allow gzip files in data/
 !data/*.gz
