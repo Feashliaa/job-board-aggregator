@@ -168,6 +168,7 @@ class JobBoardApp {
     // FILTERING
     // ============================================================
     applyFilters() {
+        const hideRecruiters = document.getElementById('filter-hide-recruiters').checked;
         const titleFilter = document.getElementById('filter-title').value.toLowerCase().trim();
         const companyFilter = document.getElementById('filter-company').value.toLowerCase().trim();
         const locationFilter = document.getElementById('filter-location').value.toLowerCase().trim();
@@ -179,6 +180,11 @@ class JobBoardApp {
         };
 
         this.filteredJobs = this.allJobs.filter(job => {
+
+            if (hideRecruiters && job.is_recruiter === true) {
+                return false;
+            }
+
             const title = (job.title || '').toLowerCase();
             const company = ((job.company || job.company_slug) || '').toLowerCase();
             let location = '';
@@ -203,6 +209,7 @@ class JobBoardApp {
         document.getElementById('filter-title').value = '';
         document.getElementById('filter-company').value = '';
         document.getElementById('filter-location').value = '';
+        document.getElementById('filter-hide-recruiters').checked = true;
 
         this.filterState = { title: '', company: '', location: '' };
         this.filteredJobs = [...this.allJobs];

@@ -19,6 +19,16 @@ BAMBOOHR_FILE = os.path.join(ROOT_DIR, "data", "bamboohr_companies.json")
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+RECRUITER_TERMS = [
+    "recruit", "recruiting", "recruiter",
+    "staffing", "staff", "talent", 
+    "talenthub", "talentgroup",
+    "solutions","consulting",
+    "placement","search",
+    "resources","agency",
+]
+
+
 # ============================================================
 # LOAD COMPANIES
 # ============================================================
@@ -70,6 +80,7 @@ def fetch_company_jobs_greenhouse(slug):
                             ],
                             "id": job.get("id"),
                             "updated_at": job.get("updated_at"),
+                            "is_recruiter": is_recruiter_company(slug),
                         }
                     )
 
@@ -81,6 +92,7 @@ def fetch_company_jobs_greenhouse(slug):
     return slug, []
 
 
+# Example API requests 
 """
 fetch("https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams", {
   method: "POST",
@@ -129,6 +141,7 @@ def fetch_company_jobs_ashby(slug):
                             "title": job.get("title"),
                             "location": job.get("locationName", "Not specified"),
                             "url": f"https://jobs.ashbyhq.com/{slug}/jobs/{job.get('id')}",
+                            "is_recruiter": is_recruiter_company(slug),
                         }
                     )
                 return slug, normalized
@@ -161,6 +174,7 @@ def fetch_company_jobs_bamboohr(slug):
                             "title": job.get("jobOpeningName"),
                             "location": job.get("location", "Not specified"),
                             "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
+                            "is_recruiter": is_recruiter_company(slug),
                         }
                     )
                 return slug, normalized
@@ -168,8 +182,7 @@ def fetch_company_jobs_bamboohr(slug):
         pass
     return slug, []
     
-    
-    
+       
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
     print("=" * 80)
@@ -200,6 +213,19 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
 
     return active_companies, all_jobs
 
+# ============================================================
+# Helper Functions
+# ============================================================
+
+def is_recruiter_company(slug):
+    slug = slug.lower()
+
+    # Keyword-based detection
+    if any(term in slug for term in RECRUITER_TERMS):
+        return True
+
+    return False
+
 
 # ============================================================
 # SAVE RESULTS
@@ -211,6 +237,8 @@ def save_results(all_companies, active_companies, all_jobs):
     print("=" * 80)
     print("SAVING RESULTS")
     print("=" * 80 + "\n")
+    
+    
 
     timestamp = datetime.utcnow().isoformat() + "Z"
 
@@ -226,7 +254,7 @@ def save_results(all_companies, active_companies, all_jobs):
         json.dump(active_companies, f, indent=2, sort_keys=True)
     print(f"Active companies: {active_file}")
 
-    # Save all jobs (regular JSON)
+    # Save all jobs
     all_jobs_file = os.path.join(OUTPUT_DIR, "all_jobs.json")
     with open(all_jobs_file, "w") as f:
         json.dump(all_jobs, f, indent=2)
@@ -243,6 +271,8 @@ def save_results(all_companies, active_companies, all_jobs):
     print(
         f"Compressed: {compressed_file} ({compressed_size:.1f}MB, {compressed_size/original_size*100:.1f}% of original)"
     )
+    
+    recruiter_jobs = sum(1 for job in all_jobs if job.get("is_recruiter"))
 
     # Save metadata summary
     metadata = {
@@ -250,6 +280,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "total_companies": len(all_companies),
         "active_companies": len(active_companies),
         "total_jobs": len(all_jobs),
+        "recruiter_jobs": recruiter_jobs,
         "source": "greenhouse_api, ashby_api, bamboohr_api", 
     }
 
