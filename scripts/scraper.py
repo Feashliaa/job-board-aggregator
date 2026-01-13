@@ -15,6 +15,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 GREENHOUSE_FILE = os.path.join(ROOT_DIR, "data", "greenhouse_companies.json")
 ASHBY_FILE = os.path.join(ROOT_DIR, "data", "ashby_companies.json")
+BAMBOOHR_FILE = os.path.join(ROOT_DIR, "data", "bamboohr_companies.json")
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -90,6 +91,16 @@ fetch("https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams", {
     query: "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName } } }"
   })
 }).then(r => r.json()).then(console.log)
+
+
+fetch("https://{slug}.bamboohr.com/careers/list"){
+    method: "GET",
+    headers: {"Content-Type": "application/json"},
+}.then(r => r.json()).then(console.log)
+
+}
+
+
 """
 
 
@@ -126,6 +137,39 @@ def fetch_company_jobs_ashby(slug):
     return slug, []
 
 
+def fetch_company_jobs_bamboohr(slug):
+    '''https://{slug}.bamboohr.com/careers
+       https://{slug}.bamboohr.com/careers/list
+    
+    '''
+    
+    try:
+        url = f"https://{slug}.bamboohr.com/careers/list"
+        response = requests.get(url, timeout=15)
+        
+        if response.status_code == 200:
+            data = response.json()
+            jobs = data.get("result", [])
+            
+            if jobs:
+                normalized = []
+                for job in jobs:
+                    normalized.append(
+                        {
+                            "company": slug,
+                            "company_slug": slug,
+                            "title": job.get("jobOpeningName"),
+                            "location": job.get("location", "Not specified"),
+                            "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
+                        }
+                    )
+                return slug, normalized
+    except Exception as e:
+        pass
+    return slug, []
+    
+    
+    
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
     print("=" * 80)
@@ -206,7 +250,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "total_companies": len(all_companies),
         "active_companies": len(active_companies),
         "total_jobs": len(all_jobs),
-        "source": "greenhouse_api, ashby_api",
+        "source": "greenhouse_api, ashby_api", 
     }
 
     metadata_file = os.path.join(OUTPUT_DIR, "metadata.json")
@@ -231,6 +275,7 @@ def main():
     # Load existing companies
     greenhouse_companies = load_companies(GREENHOUSE_FILE)
     ashby_companies = load_companies(ASHBY_FILE)
+    bamboohr_companies = load_companies(BAMBOOHR_FILE)
     if not greenhouse_companies:
         print("Exiting - no companies loaded!")
         return
@@ -242,11 +287,15 @@ def main():
     active_ashby, jobs_ashby = fetch_all_jobs(
         ashby_companies, fetch_company_jobs_ashby, "ASHBY"
     )
+    
+    active_bamboohy, jobs_bamboohr, = fetch_all_jobs(
+        bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR"
+    )
 
     # Combine results
-    all_companies = greenhouse_companies | ashby_companies
-    all_active_companies = {**active_greenhouse, **active_ashby}
-    all_jobs = jobs_greenhouse + jobs_ashby
+    all_companies = greenhouse_companies | ashby_companies | bamboohr_companies
+    all_active_companies = {**active_greenhouse, **active_ashby, **active_bamboohy}
+    all_jobs = jobs_greenhouse + jobs_ashby + jobs_bamboohr
 
     save_results(all_companies, all_active_companies, all_jobs)
 
