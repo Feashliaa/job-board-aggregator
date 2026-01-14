@@ -38,6 +38,10 @@ class JobBoardApp {
         return div.innerHTML;
     }
 
+    escapeRegex(str) {
+        return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
     async init() {
         await this.loadJobs();
         this.setupEventListeners();
@@ -173,6 +177,10 @@ class JobBoardApp {
         const companyFilter = document.getElementById('filter-company').value.toLowerCase().trim();
         const locationFilter = document.getElementById('filter-location').value.toLowerCase().trim();
 
+        const titleRegex = titleFilter ? new RegExp(`\\b${this.escapeRegex(titleFilter)}\\b`, 'i') : null;
+        const companyRegex = companyFilter ? new RegExp(`\\b${this.escapeRegex(companyFilter)}\\b`, 'i') : null;
+        const locationRegex = locationFilter ? new RegExp(`\\b${this.escapeRegex(locationFilter)}\\b`, 'i') : null;
+
         this.filterState = {
             title: titleFilter,
             company: companyFilter,
@@ -195,9 +203,9 @@ class JobBoardApp {
             }
 
             return (
-                (!titleFilter || title.includes(titleFilter)) &&
-                (!companyFilter || company.includes(companyFilter)) &&
-                (!locationFilter || location.includes(locationFilter))
+                (!titleRegex || titleRegex.test(title)) &&
+                (!companyRegex || companyRegex.test(company)) &&
+                (!locationRegex || locationRegex.test(location))
             );
         });
 
