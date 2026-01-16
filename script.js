@@ -17,13 +17,33 @@ class JobBoardApp {
             { key: 'title', label: 'Title', sortable: true },
             { key: 'location', label: 'Location', sortable: true },
             {
+                key: 'ats',
+                label: 'ATS',
+                sortable: false,
+                render: job => {
+                    const ats = job.ats || 'unknown';
+                    const colors = {
+                        'greenhouse': 'success',
+                        'lever': 'primary',
+                        'workday': 'warning',
+                        'ashby': 'info',
+                        'icms': 'secondary',
+                        'bamboohr': 'danger',
+                        'workable': 'dark',
+                        'unknown': 'light'
+                    }
+                    const color = colors[ats.toLowerCase()] || 'light';
+                    return `<span class="badge bg-${color}">${this.escape(ats)}</span>`;
+                }
+            },
+            {
                 key: 'url',
-                label: 'Job URL',
+                label: 'Apply',
                 sortable: false,
                 render: job => {
                     const url = job.absolute_url || job.url;
                     return url
-                        ? `<a href="${this.escape(url)}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary" title="Open job">Link</a>`
+                        ? `<a href="${this.escape(url)}" target="_blank" rel="noopener class="btn btn-sm btn-outline-primary">Apply</a>`
                         : 'N/A';
                 }
             }
@@ -45,6 +65,7 @@ class JobBoardApp {
     async init() {
         await this.loadJobs();
         this.setupEventListeners();
+        this.loadFromURL();
     }
 
     // ============================================================
@@ -173,6 +194,7 @@ class JobBoardApp {
     // ============================================================
     applyFilters() {
         const hideRecruiters = document.getElementById('filter-hide-recruiters').checked;
+        const remoteOnly = document.getElementById('filter-remote-only').checked;
         const titleFilter = document.getElementById('filter-title').value.toLowerCase().trim();
         const companyFilter = document.getElementById('filter-company').value.toLowerCase().trim();
         const locationFilter = document.getElementById('filter-location').value.toLowerCase().trim();
@@ -184,7 +206,8 @@ class JobBoardApp {
         this.filterState = {
             title: titleFilter,
             company: companyFilter,
-            location: locationFilter
+            location: locationFilter,
+            remoteOnly: remoteOnly
         };
 
         this.filteredJobs = this.allJobs.filter(job => {
@@ -192,6 +215,7 @@ class JobBoardApp {
             if (hideRecruiters && job.is_recruiter === true) {
                 return false;
             }
+
 
             const title = (job.title || '').toLowerCase();
             const company = ((job.company || job.company_slug) || '').toLowerCase();
@@ -202,6 +226,15 @@ class JobBoardApp {
                     : (job.location || '').toLowerCase();
             }
 
+            // remote only filter
+            if (remoteOnly) {
+                const isRemote = location.includes('remote')
+                    || (job.workplaceType && job.workplaceType.toLowerCase() === 'remote')
+                if (!isRemote) {
+                    return false;
+                }
+            }
+
             return (
                 (!titleRegex || titleRegex.test(title)) &&
                 (!companyRegex || companyRegex.test(company)) &&
@@ -210,6 +243,7 @@ class JobBoardApp {
         });
 
         this.currentPage = 1;
+        this.updateURL();
         this.render();
     }
 
@@ -218,10 +252,12 @@ class JobBoardApp {
         document.getElementById('filter-company').value = '';
         document.getElementById('filter-location').value = '';
         document.getElementById('filter-hide-recruiters').checked = true;
+        document.getElementById('filter-remote-only').checked = false;
 
-        this.filterState = { title: '', company: '', location: '' };
+        this.filterState = { title: '', company: '', location: '', remoteOnly: false };
         this.filteredJobs = [...this.allJobs];
         this.currentPage = 1;
+        this.updateURL();
         this.render();
     }
 
@@ -353,6 +389,45 @@ class JobBoardApp {
 
         this.updatePagination(totalPages);
         this.updateSortIndicators();
+    }
+
+    // ============================================================
+    // URL STATE MANAGEMENT
+    // ============================================================
+    updateURL() {
+        const params = new URLSearchParams();
+        if (this.filterState.title) params.set('title', this.filterState.title);
+        if (this.filterState.company) params.set('company', this.filterState.company);
+        if (this.filterState.location) params.set('location', this.filterState.location);
+        if (this.filterState.remoteOnly) params.set('remote', '1');
+        if (this.currentPage > 1) params.set('page', this.currentPage.toString());
+
+        const newURL = params.toString()
+            ? `${window.location.pathname}?${params.toString()}`
+            : window.location.pathname;
+
+        window.history.replaceState({}, '', newURL);
+    }
+
+    loadFromURL() {
+        const params = new URLSearchParams(window.location.search);
+
+        const title = params.get('title') || '';
+        const company = params.get('company') || '';
+        const location = params.get('location') || '';
+        const remote = params.get('remote') === '1';
+        const page = parseInt(params.get('page')) || 1;
+
+        document.getElementById('filter-title').value = title;
+        document.getElementById('filter-company').value = company;
+        document.getElementById('filter-location').value = location;
+        document.getElementById('filter-remote-only').checked = remote;
+
+        this.currentPage = page;
+
+        if (title || company || location || remote) {
+            this.applyFilters();
+        }
     }
 }
 
