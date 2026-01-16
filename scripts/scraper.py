@@ -111,6 +111,7 @@ def fetch_company_jobs_greenhouse(slug):
                             "id": job.get("id"),
                             "updated_at": job.get("updated_at"),
                             "is_recruiter": is_recruiter_company(slug),
+                            "ats": "Greenhouse",
                         }
                     )
 
@@ -148,6 +149,7 @@ def fetch_company_jobs_ashby(slug):
                             "location": job.get("locationName", "Not specified"),
                             "url": f"https://jobs.ashbyhq.com/{slug}/jobs/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
+                            "ats": "Ashby",
                         }
                     )
                 return slug, normalized
@@ -181,6 +183,7 @@ def fetch_company_jobs_bamboohr(slug):
                             "location": job.get("location", "Not specified"),
                             "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
+                            "ats": "BambooHR",
                         }
                     )
                 return slug, normalized
@@ -211,6 +214,7 @@ def fetch_company_jobs_lever(slug):
                             "location": categories.get("location", "Not specified"),
                             "url": job.get("hostedUrl"),
                             "is_recruiter": is_recruiter_company(slug),
+                            "ats": "Lever",
                         }
                     )
                 return slug, normalized
@@ -269,6 +273,7 @@ def fetch_company_jobs_workday(slug):
                         "location": job.get("locationsText", "Not specified"),
                         "url": f"{base_url}{job_path}",
                         "is_recruiter": is_recruiter_company(company),
+                        "ats": "Workday",
                     }
                 )
 
