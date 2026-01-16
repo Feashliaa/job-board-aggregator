@@ -307,7 +307,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "active_companies": len(active_companies),
         "total_jobs": len(all_jobs),
         "recruiter_jobs": recruiter_jobs,
-        "source": "greenhouse_api, ashby_api, bamboohr_api", 
+        "source": "greenhouse_api, ashby_api, bamboohr_api, lever_api", 
     }
 
     metadata_file = os.path.join(OUTPUT_DIR, "metadata.json")
@@ -333,7 +333,8 @@ def main():
     greenhouse_companies = load_companies(GREENHOUSE_FILE)
     ashby_companies = load_companies(ASHBY_FILE)
     bamboohr_companies = load_companies(BAMBOOHR_FILE)
-    if not greenhouse_companies and not ashby_companies and not bamboohr_companies:
+    lever_companies = load_companies(LEVER_FILE)
+    if not greenhouse_companies and not ashby_companies and not bamboohr_companies and not lever_companies:
         print("Exiting - no companies loaded!")
         return
 
@@ -348,11 +349,15 @@ def main():
     active_bamboohy, jobs_bamboohr, = fetch_all_jobs(
         bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR"
     )
+    
+    active_lever, jobs_lever = fetch_all_jobs(
+        lever_companies, fetch_company_jobs_lever, "LEVER"
+    )
 
     # Combine results
-    all_companies = greenhouse_companies | ashby_companies | bamboohr_companies
-    all_active_companies = {**active_greenhouse, **active_ashby, **active_bamboohy}
-    all_jobs = jobs_greenhouse + jobs_ashby + jobs_bamboohr
+    all_companies = greenhouse_companies | ashby_companies | bamboohr_companies | lever_companies
+    all_active_companies = {**active_greenhouse, **active_ashby, **active_bamboohy , **active_lever}
+    all_jobs = jobs_greenhouse + jobs_ashby + jobs_bamboohr + jobs_lever
 
     save_results(all_companies, all_active_companies, all_jobs)
 
