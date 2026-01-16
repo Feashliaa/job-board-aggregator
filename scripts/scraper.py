@@ -22,12 +22,20 @@ OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 RECRUITER_TERMS = [
-    "recruit", "recruiting", "recruiter",
-    "staffing", "staff", "talent", 
-    "talenthub", "talentgroup",
-    "solutions","consulting",
-    "placement","search",
-    "resources","agency",
+    "recruit",
+    "recruiting",
+    "recruiter",
+    "staffing",
+    "staff",
+    "talent",
+    "talenthub",
+    "talentgroup",
+    "solutions",
+    "consulting",
+    "placement",
+    "search",
+    "resources",
+    "agency",
 ]
 
 
@@ -113,6 +121,7 @@ def fetch_company_jobs_greenhouse(slug):
 
     return slug, []
 
+
 def fetch_company_jobs_ashby(slug):
     try:
         url = f"https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
@@ -146,20 +155,21 @@ def fetch_company_jobs_ashby(slug):
         pass
     return slug, []
 
+
 def fetch_company_jobs_bamboohr(slug):
-    '''https://{slug}.bamboohr.com/careers
-       https://{slug}.bamboohr.com/careers/list
-    
-    '''
-    
+    """https://{slug}.bamboohr.com/careers
+    https://{slug}.bamboohr.com/careers/list
+
+    """
+
     try:
         url = f"https://{slug}.bamboohr.com/careers/list"
         response = requests.get(url, timeout=15)
-        
+
         if response.status_code == 200:
             data = response.json()
             jobs = data.get("result", [])
-            
+
             if jobs:
                 normalized = []
                 for job in jobs:
@@ -177,17 +187,18 @@ def fetch_company_jobs_bamboohr(slug):
     except Exception as e:
         pass
     return slug, []
-    
+
+
 def fetch_company_jobs_lever(slug):
-    '''https://api.lever.co/v0/postings/{slug}'''
-    
+    """https://api.lever.co/v0/postings/{slug}"""
+
     try:
         url = f"https://api.lever.co/v0/postings/{slug}"
         response = requests.get(url, timeout=15)
-        
+
         if response.status_code == 200:
             jobs = response.json()
-            
+
             if jobs:
                 normalized = []
                 for job in jobs:
@@ -206,9 +217,72 @@ def fetch_company_jobs_lever(slug):
     except Exception as e:
         pass
     return slug, []
-    
-    
-       
+
+
+def fetch_company_jobs_workday(slug):
+    """
+    slug format: "company|wd#|site_id" e.g. "kohls|wd1|kohlscareers"
+    url: https://{company}.wd{num}.myworkdayjobs.com/wday/cxs/{company}/{site_id}/jobs
+    """
+
+    try:
+        parts = slug.split("|")
+        if len(parts) != 3:
+            return slug, []
+
+        company, wd, site_id = parts
+        wd_num = wd.replace("wd", "")
+
+        base_url = f"https://{company}.wd{wd_num}.myworkdayjobs.com"
+        api_url = f"{base_url}/wday/cxs/{company}/{site_id}/jobs"
+
+        headers = {"Content-Type": "application/json", "Accept": "application/json"}
+
+        normalized = []
+        offset = 0
+        limit = 20
+
+        while True:
+            payload = {
+                "appliedFacets": {},
+                "limit": limit,
+                "offset": offset,
+                "searchText": "",
+            }
+
+            response = requests.post(api_url, json=payload, headers=headers, timeout=15)
+
+            if response.status_code != 200:
+                break
+
+            data = response.json()
+            jobs = data.get("jobPostings", [])
+            total = data.get("total", 0)
+
+            for job in jobs:
+                job_path = job.get("externalPath", "")
+                normalized.append(
+                    {
+                        "company": company,
+                        "company_slug": slug,
+                        "title": job.get("title"),
+                        "location": job.get("locationsText", "Not specified"),
+                        "url": f"{base_url}{job_path}",
+                        "is_recruiter": is_recruiter_company(company),
+                    }
+                )
+
+            offset += limit
+            if offset >= total:
+                break
+
+        return slug, normalized
+
+    except Exception as e:
+        pass
+    return slug, []
+
+
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
     print("=" * 80)
@@ -239,9 +313,11 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
 
     return active_companies, all_jobs
 
+
 # ============================================================
 # Helper Functions
 # ============================================================
+
 
 def is_recruiter_company(slug):
     slug = slug.lower()
@@ -263,8 +339,6 @@ def save_results(all_companies, active_companies, all_jobs):
     print("=" * 80)
     print("SAVING RESULTS")
     print("=" * 80 + "\n")
-    
-    
 
     timestamp = datetime.utcnow().isoformat() + "Z"
 
@@ -297,7 +371,7 @@ def save_results(all_companies, active_companies, all_jobs):
     print(
         f"Compressed: {compressed_file} ({compressed_size:.1f}MB, {compressed_size/original_size*100:.1f}% of original)"
     )
-    
+
     recruiter_jobs = sum(1 for job in all_jobs if job.get("is_recruiter"))
 
     # Save metadata summary
@@ -307,7 +381,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "active_companies": len(active_companies),
         "total_jobs": len(all_jobs),
         "recruiter_jobs": recruiter_jobs,
-        "source": "greenhouse_api, ashby_api, bamboohr_api, lever_api", 
+        "source": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api",
     }
 
     metadata_file = os.path.join(OUTPUT_DIR, "metadata.json")
@@ -334,7 +408,14 @@ def main():
     ashby_companies = load_companies(ASHBY_FILE)
     bamboohr_companies = load_companies(BAMBOOHR_FILE)
     lever_companies = load_companies(LEVER_FILE)
-    if not greenhouse_companies and not ashby_companies and not bamboohr_companies and not lever_companies:
+    workday_companies = load_companies(WORKDAY_FILE)
+    if (
+        not greenhouse_companies
+        and not ashby_companies
+        and not bamboohr_companies
+        and not lever_companies
+        and not workday_companies
+    ):
         print("Exiting - no companies loaded!")
         return
 
@@ -345,19 +426,36 @@ def main():
     active_ashby, jobs_ashby = fetch_all_jobs(
         ashby_companies, fetch_company_jobs_ashby, "ASHBY"
     )
-    
-    active_bamboohy, jobs_bamboohr, = fetch_all_jobs(
-        bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR"
-    )
-    
+
+    (
+        active_bamboohy,
+        jobs_bamboohr,
+    ) = fetch_all_jobs(bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR")
+
     active_lever, jobs_lever = fetch_all_jobs(
         lever_companies, fetch_company_jobs_lever, "LEVER"
     )
 
+    active_workday, jobs_workday = fetch_all_jobs(
+        workday_companies, fetch_company_jobs_workday, "WORKDAY"
+    )
+
     # Combine results
-    all_companies = greenhouse_companies | ashby_companies | bamboohr_companies | lever_companies
-    all_active_companies = {**active_greenhouse, **active_ashby, **active_bamboohy , **active_lever}
-    all_jobs = jobs_greenhouse + jobs_ashby + jobs_bamboohr + jobs_lever
+    all_companies = (
+        greenhouse_companies
+        | ashby_companies
+        | bamboohr_companies
+        | lever_companies
+        | workday_companies
+    )
+    all_active_companies = {
+        **active_greenhouse,
+        **active_ashby,
+        **active_bamboohy,
+        **active_lever,
+        **active_workday,
+    }
+    all_jobs = jobs_greenhouse + jobs_ashby + jobs_bamboohr + jobs_lever + jobs_workday
 
     save_results(all_companies, all_active_companies, all_jobs)
 
