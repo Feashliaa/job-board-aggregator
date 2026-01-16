@@ -16,6 +16,8 @@ ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 GREENHOUSE_FILE = os.path.join(ROOT_DIR, "data", "greenhouse_companies.json")
 ASHBY_FILE = os.path.join(ROOT_DIR, "data", "ashby_companies.json")
 BAMBOOHR_FILE = os.path.join(ROOT_DIR, "data", "bamboohr_companies.json")
+WORKDAY_FILE = os.path.join(ROOT_DIR, "data", "workday_companies.json")
+LEVER_FILE = os.path.join(ROOT_DIR, "data", "lever_companies.json")
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -49,6 +51,26 @@ def load_companies(filepath):
 # ============================================================
 # VERIFY ACTIVE JOBS + FETCH ALL JOBS
 # ============================================================
+
+# API requests for testing in browser console
+"""
+fetch("https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams", {
+  method: "POST",
+  headers: {"Content-Type": "application/json"},
+  body: JSON.stringify({
+    operationName: "ApiJobBoardWithTeams",
+    variables: {organizationHostedJobsPageName: "zip"},
+    query: "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName } } }"
+  })
+}).then(r => r.json()).then(console.log)
+
+fetch("https://{slug}.bamboohr.com/careers/list"){
+    method: "GET",
+    headers: {"Content-Type": "application/json"},
+}.then(r => r.json()).then(console.log)
+
+}
+"""
 
 
 def fetch_company_jobs_greenhouse(slug):
@@ -91,31 +113,6 @@ def fetch_company_jobs_greenhouse(slug):
 
     return slug, []
 
-
-# Example API requests 
-"""
-fetch("https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams", {
-  method: "POST",
-  headers: {"Content-Type": "application/json"},
-  body: JSON.stringify({
-    operationName: "ApiJobBoardWithTeams",
-    variables: {organizationHostedJobsPageName: "zip"},
-    query: "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName } } }"
-  })
-}).then(r => r.json()).then(console.log)
-
-
-fetch("https://{slug}.bamboohr.com/careers/list"){
-    method: "GET",
-    headers: {"Content-Type": "application/json"},
-}.then(r => r.json()).then(console.log)
-
-}
-
-
-"""
-
-
 def fetch_company_jobs_ashby(slug):
     try:
         url = f"https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
@@ -149,7 +146,6 @@ def fetch_company_jobs_ashby(slug):
         pass
     return slug, []
 
-
 def fetch_company_jobs_bamboohr(slug):
     '''https://{slug}.bamboohr.com/careers
        https://{slug}.bamboohr.com/careers/list
@@ -181,6 +177,36 @@ def fetch_company_jobs_bamboohr(slug):
     except Exception as e:
         pass
     return slug, []
+    
+def fetch_company_jobs_lever(slug):
+    '''https://api.lever.co/v0/postings/{slug}'''
+    
+    try:
+        url = f"https://api.lever.co/v0/postings/{slug}"
+        response = requests.get(url, timeout=15)
+        
+        if response.status_code == 200:
+            jobs = response.json()
+            
+            if jobs:
+                normalized = []
+                for job in jobs:
+                    categories = job.get("categories", {})
+                    normalized.append(
+                        {
+                            "company": slug,
+                            "company_slug": slug,
+                            "title": job.get("text"),
+                            "location": categories.get("location", "Not specified"),
+                            "url": job.get("hostedUrl"),
+                            "is_recruiter": is_recruiter_company(slug),
+                        }
+                    )
+                return slug, normalized
+    except Exception as e:
+        pass
+    return slug, []
+    
     
        
 def fetch_all_jobs(companies, fetcher, platform="ATS"):

@@ -50,6 +50,8 @@ scripts/output/*.gz
 !data/metadata.json
 !data/ashby_companies.json
 !data/bamboohr_companies.json
+!data/workday_companies.json
+!data/lever_companies.json
 
 # Allow gzip files in data/
 !data/*.gz
