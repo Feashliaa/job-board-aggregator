@@ -1,5 +1,7 @@
 import requests
 import json
+import random
+import time
 import re
 import os
 import gzip
@@ -39,6 +41,25 @@ RECRUITER_TERMS = [
     "search",
     "resources",
     "agency",
+]
+
+USER_AGENTS = [
+    # Chrome 144 - Windows
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    # Chrome 144 - macOS
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    # Chrome 144 - Linux
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    # Firefox 147 - Windows
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+    # Firefox 147 - macOS
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0",
+    # Firefox 147 - Linux
+    "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0",
+    # Safari 26 - macOS
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
+    # Edge 144 - Windows
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
 ]
 
 
@@ -249,11 +270,20 @@ def fetch_company_jobs_workday(slug):
         base_url = f"https://{company}.wd{wd_num}.myworkdayjobs.com"
         api_url = f"{base_url}/wday/cxs/{company}/{site_id}/jobs"
 
-        headers = {"Content-Type": "application/json", "Accept": "application/json"}
+        headers = {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "User-Agent": random.choice(USER_AGENTS),
+            "Origin": base_url,
+            "Referer": f"{base_url}/{site_id}",
+        }
 
         normalized = []
         offset = 0
         limit = 20
+        retries = 0
+        max_retries = 2
+        observed_total = None
 
         while True:
             payload = {
@@ -263,14 +293,33 @@ def fetch_company_jobs_workday(slug):
                 "searchText": "",
             }
 
-            response = requests.post(api_url, json=payload, headers=headers, timeout=30)
+            response = requests.post(
+                api_url,
+                json=payload,
+                headers=headers,
+                timeout=30,
+            )
 
             if response.status_code != 200:
+                if retries < max_retries:
+                    retries += 1
+                    time.sleep(random.uniform(2.0, 4.0))
+                    continue
                 break
 
             data = response.json()
             jobs = data.get("jobPostings", [])
             total = data.get("total", 0)
+
+            # Detect silent blocking / truncation
+            if observed_total is None:
+                observed_total = total
+            elif total != observed_total:
+                # Workday sometimes lies mid-pagination when blocking
+                break
+
+            if not jobs:
+                break
 
             for job in jobs:
                 job_path = job.get("externalPath", "")
@@ -287,14 +336,17 @@ def fetch_company_jobs_workday(slug):
                 )
 
             offset += limit
+
             if offset >= total:
                 break
 
+            # Jitter between pages (critical)
+            time.sleep(random.uniform(0.8, 1.8))
+
         return slug, normalized
 
-    except Exception as e:
-        pass
-    return slug, []
+    except Exception:
+        return slug, []
 
 
 def fetch_company_jobs_icims(slug):
