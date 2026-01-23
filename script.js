@@ -9,17 +9,49 @@ class JobBoardApp {
         this.currentPage = 1;
         this.perPage = 50;
         this.sortState = { key: null, direction: 'asc' };
-        this.filterState = { title: '', company: '', location: '' };
+        this.filterState = { title: '', company: '', location: '', status: '' };
+        this.debounceTimer = null;
 
         // Column configuration
         this.columns = [
+            {
+                key: 'status',
+                label: 'Status',
+                sortable: false,
+                render: job => {
+                    const url = job.absolute_url || job.url;
+                    const apps = this.loadApplicationStatus();
+                    const current = apps[url]?.status || '';
+
+                    const options = [
+                        { value: '', label: '-', color: 'secondary' },
+                        { value: 'saved', label: 'Saved', color: 'info' },
+                        { value: 'applied', label: 'Applied', color: 'success' },
+                        { value: 'ignored', label: 'Ignored', color: 'dark' }
+                    ];
+
+                    const selectedOption = options.find(opt => opt.value === current) || options[0];
+
+                    return `
+                <select class="form-select form-select-sm status-dropdown" 
+                        data-job-url="${this.escape(url)}"
+                        style="min-width: 100px;">
+                    ${options.map(opt => `
+                        <option value="${opt.value}" ${opt.value === current ? 'selected' : ''}>
+                            ${opt.label}
+                        </option>
+                    `).join('')}
+                </select>
+            `;
+                }
+            },
             { key: 'company', label: 'Company', sortable: true },
             { key: 'title', label: 'Title', sortable: true },
             { key: 'location', label: 'Location', sortable: true },
             {
                 key: 'ats',
                 label: 'ATS',
-                sortable: false,
+                sortable: true,
                 render: job => {
                     const ats = job.ats || 'unknown';
                     const colors = {
@@ -30,7 +62,7 @@ class JobBoardApp {
                         'icms': 'secondary',
                         'bamboohr': 'danger',
                         'workable': 'dark',
-                        'unknown': 'light'
+                        'unknown': 'primary'
                     }
                     const color = colors[ats.toLowerCase()] || 'light';
                     return `<span class="badge bg-${color}">${this.escape(ats)}</span>`;
@@ -43,8 +75,29 @@ class JobBoardApp {
                 render: job => {
                     const url = job.absolute_url || job.url;
                     return url
-                        ? `<a href="${this.escape(url)}" target="_blank" rel="noopener class="btn btn-sm btn-outline-primary">Apply</a>`
+                        ? `<a href="${this.escape(url)}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">Apply</a>`
                         : 'N/A';
+                }
+            },
+            {
+                key: 'actions',
+                label: 'Actions',
+                sortable: false,
+                render: job => {
+                    const url = job.absolute_url || job.url;
+                    return `
+                <div class="btn-group" role="group">
+                    <input type="checkbox" class="btn-check apply-checkbox" 
+                           id="apply-${this.escape(url)}" 
+                           data-job-url="${this.escape(url)}">
+                    <label class="btn btn-sm btn-outline-success" for="apply-${this.escape(url)}">Applied</label>
+                    
+                    <input type="checkbox" class="btn-check ignored-checkbox" 
+                           id="ignore-${this.escape(url)}" 
+                           data-job-url="${this.escape(url)}">
+                    <label class="btn btn-sm btn-outline-secondary" for="ignore-${this.escape(url)}">Ignored</label>
+                </div>
+            `;
                 }
             }
         ];
@@ -116,6 +169,51 @@ class JobBoardApp {
     }
 
     // ============================================================
+    // BATCH PROCESSING HANDLER
+    // ============================================================
+    handleBatch() {
+        const selected = document.querySelectorAll('.apply-checkbox:checked, .ignored-checkbox:checked');
+
+        if (selected.length === 0) {
+            this.showToast('Please select at least one job first.', 'warning');
+            return;
+        }
+
+        this.setUIBusy(true);
+
+        try {
+            // Process "applied" checkboxes
+            const appliedBoxes = document.querySelectorAll('.apply-checkbox:checked');
+            appliedBoxes.forEach(box => {
+                const jobUrl = box.dataset.jobUrl;
+                if (jobUrl) {
+                    this.saveApplicationStatus(jobUrl, 'applied');
+                }
+            });
+
+            // Process "ignored" checkboxes
+            const ignoredBoxes = document.querySelectorAll('.ignored-checkbox:checked');
+            ignoredBoxes.forEach(box => {
+                const jobUrl = box.dataset.jobUrl;
+                if (jobUrl) {
+                    this.saveApplicationStatus(jobUrl, 'ignored');
+                }
+            });
+
+            this.showToast(`Updated ${selected.length} job(s) successfully!`, 'success');
+
+            // Hide FAB after processing
+            this.updateFABVisibility();
+
+        } catch (err) {
+            this.showToast('Error updating job status.', 'danger');
+            console.error(err);
+        } finally {
+            this.setUIBusy(false);
+        }
+    }
+
+    // ============================================================
     // EVENT LISTENERS
     // ============================================================
     setupEventListeners() {
@@ -151,6 +249,44 @@ class JobBoardApp {
             if (column && column.sortable) {
                 th.style.cursor = 'pointer';
                 th.addEventListener('click', () => this.handleSort(column.key));
+            }
+        });
+
+        // Status filter
+        document.getElementById('filter-status').addEventListener('change', (e) => {
+            this.filterState.status = e.target.value;
+            this.currentPage = 1;
+            this.applyFilters();
+        });
+
+        // Hide applied/ignored filter
+        document.getElementById('filter-hide-applied').addEventListener('change', () => {
+            this.applyFilters();
+        });
+
+        // Batch processing buttons
+        document.getElementById('process-batch').addEventListener('click', () => this.handleBatch());
+        document.getElementById('process-fab').addEventListener('click', () => this.handleBatch());
+
+        // Status dropdown changes (delegated)
+        document.addEventListener('change', (e) => {
+            if (e.target.classList.contains('status-dropdown')) {
+                const url = e.target.dataset.jobUrl;
+                const status = e.target.value;
+                if (status) {
+                    this.saveApplicationStatus(url, status);
+                    this.showToast(`Job marked as ${status}`, 'success');
+                } else {
+                    this.deleteApplicationStatus(url);
+                    this.showToast('Status cleared', 'info');
+                }
+            }
+        });
+
+        // Show/hide FAB based on selections
+        document.addEventListener('change', (e) => {
+            if (e.target.classList.contains('apply-checkbox') || e.target.classList.contains('ignored-checkbox')) {
+                this.updateFABVisibility();
             }
         });
     }
@@ -195,9 +331,13 @@ class JobBoardApp {
     applyFilters() {
         const hideRecruiters = document.getElementById('filter-hide-recruiters').checked;
         const remoteOnly = document.getElementById('filter-remote-only').checked;
+        const hideApplied = document.getElementById('filter-hide-applied').checked;
         const titleFilter = document.getElementById('filter-title').value.toLowerCase().trim();
         const companyFilter = document.getElementById('filter-company').value.toLowerCase().trim();
         const locationFilter = document.getElementById('filter-location').value.toLowerCase().trim();
+        const statusFilter = document.getElementById('filter-status').value;
+
+        const apps = this.loadApplicationStatus();
 
         const titleRegex = titleFilter ? new RegExp(`\\b${this.escapeRegex(titleFilter)}\\b`, 'i') : null;
         const companyRegex = companyFilter ? new RegExp(`\\b${this.escapeRegex(companyFilter)}\\b`, 'i') : null;
@@ -207,7 +347,8 @@ class JobBoardApp {
             title: titleFilter,
             company: companyFilter,
             location: locationFilter,
-            remoteOnly: remoteOnly
+            remoteOnly: remoteOnly,
+            status: statusFilter
         };
 
         this.filteredJobs = this.allJobs.filter(job => {
@@ -216,6 +357,16 @@ class JobBoardApp {
                 return false;
             }
 
+            const url = job.absolute_url || job.url;
+            const jobStatus = apps[url]?.status || ''; // Load application status
+
+            if (hideApplied && (jobStatus === 'applied' || jobStatus === 'ignored')) {
+                return false;
+            }
+
+            if (statusFilter && jobStatus !== statusFilter) {
+                return false;
+            }
 
             const title = (job.title || '').toLowerCase();
             const company = ((job.company || job.company_slug) || '').toLowerCase();
@@ -251,10 +402,12 @@ class JobBoardApp {
         document.getElementById('filter-title').value = '';
         document.getElementById('filter-company').value = '';
         document.getElementById('filter-location').value = '';
+        document.getElementById('filter-status').value = '';
         document.getElementById('filter-hide-recruiters').checked = true;
         document.getElementById('filter-remote-only').checked = false;
+        document.getElementById('filter-hide-applied').checked = false;
 
-        this.filterState = { title: '', company: '', location: '', remoteOnly: false };
+        this.filterState = { title: '', company: '', location: '', remoteOnly: false, status: '' };
         this.filteredJobs = [...this.allJobs];
         this.currentPage = 1;
         this.updateURL();
@@ -428,6 +581,163 @@ class JobBoardApp {
         if (title || company || location || remote) {
             this.applyFilters();
         }
+    }
+
+    // ============================================================
+    // DEBOUNCE RENDERING
+    // ============================================================
+
+    debounceRender() {
+        clearTimeout(this.debounceTimer);
+        this.debounceTimer = setTimeout(() => this.render(), 300);
+    }
+
+    setUIBusy(isBusy) {
+        const controls = ['#apply-filters', '#clear-filters', '#prev-page', '#next-page'];
+        controls.forEach(sel => {
+            const el = document.querySelector(sel);
+            if (el) el.disabled = isBusy;
+        });
+        document.body.style.cursor = isBusy ? 'wait' : 'default';
+    }
+
+    // ============================================================
+    // Toast Notifications
+    // ============================================================
+    showLoadingToast(message = 'Loading, please wait...') {
+        const toastEl = document.getElementById('job-toast');
+        const body = document.getElementById('toast-message');
+        if (!toastEl) return { hide: () => { } };
+
+        // hard cancel any running transition
+        toastEl.classList.remove('show');
+        toastEl.offsetHeight;
+
+        // force cleanup of any instance
+        const existingInstance = bootstrap.Toast.getInstance(toastEl);
+        if (existingInstance) {
+            try { existingInstance.dispose(); } catch { }
+        }
+
+        // Style for loading spinner toast
+        toastEl.className = 'toast align-items-center text-white bg-secondary border-0';
+        body.innerHTML = `
+        <div class="d-flex align-items-center gap-2">
+            <div class="spinner-border spinner-border-sm text-light" role="status"></div>
+            <span>${message}</span>
+        </div>`;
+
+        // Show the toast
+        const toastInstance = bootstrap.Toast.getOrCreateInstance(toastEl, { autohide: false });
+        toastInstance.show();
+
+        // Return controller for hiding it later
+        return {
+            hide: () => {
+                const instance = bootstrap.Toast.getInstance(toastEl);
+                if (instance && toastEl.classList.contains('show')) instance.hide();
+            }
+        };
+    }
+
+    showToast(message, type = 'primary') {
+        const toastEl = document.getElementById('job-toast');
+        const body = document.getElementById('toast-message');
+        if (!toastEl) return { hide: () => { } };
+
+        // hard cancel any running transition
+        toastEl.classList.remove('show');
+        toastEl.offsetHeight;
+
+        // force cleanup of any instance
+        const existingInstance = bootstrap.Toast.getInstance(toastEl);
+        if (existingInstance) {
+            try { existingInstance.dispose(); } catch { }
+        }
+
+        // Reset class and set color
+        toastEl.className = `toast align-items-center text-white bg-${type} border-0`;
+        body.textContent = message;
+
+        // Display toast with short delay
+        const toastInstance = bootstrap.Toast.getOrCreateInstance(toastEl, { autohide: true, delay: 4000 });
+        toastInstance.show();
+
+        return {
+            hide: () => {
+                const instance = bootstrap.Toast.getInstance(toastEl);
+                if (instance && toastEl.classList.contains('show')) instance.hide();
+            }
+        };
+    }
+
+    // ============================================================
+    // Local STORAGE UTILITIES
+    // ============================================================
+    loadApplicationStatus() {
+        const saved = localStorage.getItem('job-applications');
+        return saved ? JSON.parse(saved) : {};
+    }
+
+    saveApplicationStatus(jobUrl, status) {
+        const apps = this.loadApplicationStatus();
+        apps[jobUrl] = {
+            status: status, // 'saved', 'applied', 'ignored'
+            date: new Date().toISOString()
+        };
+        localStorage.setItem('job-applications', JSON.stringify(apps));
+        this.render(); // Re-render to show updated status
+    }
+
+    deleteApplicationStatus(jobUrl) {
+        const apps = this.loadApplicationStatus();
+        delete apps[jobUrl];
+        localStorage.setItem('job-applications', JSON.stringify(apps));
+        this.render();
+    }
+
+    // ============================================================
+    // UTILITIES
+    // ============================================================
+
+    parseSalary(salaryString) {
+        if (!salaryString) return null;
+
+        // Remove $, commas, whitespace
+        let s = salaryString.replace(/\$/g, '').replace(/,/g, '').trim().toLowerCase();
+
+        // Detect hourly or yearly
+        const isHourly = s.includes('/hr');
+        const isYearly = s.includes('/yr') || s.includes('/year');
+
+        // Extract numeric part before /hr or /yr
+        let parts = s.split('/')[0];
+        let range = parts.split('-').map(x => x.trim());
+
+        const convert = (val) => {
+            if (!val) return null;
+            if (val.includes('k')) return parseFloat(val) * 1000;
+            return parseFloat(val);
+        };
+
+        let min = convert(range[0]);
+        let max = convert(range[1] ?? range[0]);
+
+        if (min == null || isNaN(min)) return null;
+
+        // Normalize hourly → yearly
+        if (isHourly) {
+            min *= 2080;
+            max *= 2080;
+        }
+
+        return { min, max };
+    }
+
+    updateFABVisibility() {
+        const anyChecked = document.querySelectorAll('.apply-checkbox:checked, .ignored-checkbox:checked').length > 0;
+        const fabContainer = document.getElementById('process-fab-container');
+        fabContainer.style.display = anyChecked ? 'block' : 'none';
     }
 }
 

@@ -58,7 +58,7 @@ jobs:
           tag_name: jobs-${{ steps.metadata.outputs.tag }}
           name: Jobs Update - ${{ steps.metadata.outputs.date }}
           body: |
-            ## 📊 Job Board Update
+            ## Job Board Update
 
             **Total Jobs:** ${{ steps.metadata.outputs.jobs }}  
             **Active Companies:** ${{ steps.metadata.outputs.companies }}  

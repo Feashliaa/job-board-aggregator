@@ -1,6 +1,6 @@
 # Job Board Aggregator
 
-Automated job board aggregating 50,000+ positions from 4,000+ companies using Greenhouse and other ATS platforms.
+Automated job board aggregating 300,000+ positions from 7,000+ companies using Greenhouse and other ATS platforms.
 
 ## Features
 - Daily automated scraping via GitHub Actions

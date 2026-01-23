@@ -39,19 +39,19 @@ helper.txt
 jobs_backup.sql
 cheatsheet.md
 backup.sql
+refresh-local.bat
 
-# Scraper output (temporary files)
-scripts/output/*.json
-scripts/output/*.gz
+# Scraper output 
+scripts/output/
 
 # Ignore JSON files globally, except specific ones
 *.json
 !data/greenhouse_companies.json
-!data/metadata.json
 !data/ashby_companies.json
 !data/bamboohr_companies.json
 !data/workday_companies.json
 !data/lever_companies.json
+!data/metadata.json
 
-# Allow gzip files in data/
+# Allow gzip files in data/ only
 !data/*.gz

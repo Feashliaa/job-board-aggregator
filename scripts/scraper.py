@@ -3,7 +3,7 @@ import json
 import re
 import os
 import gzip
-from datetime import datetime
+from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
 
@@ -18,6 +18,9 @@ ASHBY_FILE = os.path.join(ROOT_DIR, "data", "ashby_companies.json")
 BAMBOOHR_FILE = os.path.join(ROOT_DIR, "data", "bamboohr_companies.json")
 WORKDAY_FILE = os.path.join(ROOT_DIR, "data", "workday_companies.json")
 LEVER_FILE = os.path.join(ROOT_DIR, "data", "lever_companies.json")
+
+ICIMS_FILE = os.path.join(ROOT_DIR, "data", "icims_companies.json")
+
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -122,7 +125,6 @@ def fetch_company_jobs_greenhouse(slug):
 
     return slug, []
 
-
 def fetch_company_jobs_ashby(slug):
     try:
         url = f"https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
@@ -157,7 +159,6 @@ def fetch_company_jobs_ashby(slug):
         pass
     return slug, []
 
-
 def fetch_company_jobs_bamboohr(slug):
     """https://{slug}.bamboohr.com/careers
     https://{slug}.bamboohr.com/careers/list
@@ -191,7 +192,6 @@ def fetch_company_jobs_bamboohr(slug):
         pass
     return slug, []
 
-
 def fetch_company_jobs_lever(slug):
     """https://api.lever.co/v0/postings/{slug}"""
 
@@ -221,7 +221,6 @@ def fetch_company_jobs_lever(slug):
     except Exception as e:
         pass
     return slug, []
-
 
 def fetch_company_jobs_workday(slug):
     """
@@ -287,6 +286,12 @@ def fetch_company_jobs_workday(slug):
         pass
     return slug, []
 
+def fetch_company_jobs_icims(slug):
+    
+    # URL: https://careers-{company}.icims.com/jobs/search?ss
+
+    
+    return slug, []
 
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
@@ -334,6 +339,44 @@ def is_recruiter_company(slug):
     return False
 
 
+
+def clean_job_data(jobs):
+    """Remove invalid/useless job entries."""
+    cleaned = []
+    skipped_reasons = {'no_title': 0, 'no_url': 0, 'no_company': 0}
+    
+    for job in jobs:
+        title = (job.get('title') or '').strip().lower()
+        url = job.get('url') or job.get('absolute_url')
+        company = job.get('company') or job.get('company_slug')
+        
+        # Skip jobs with invalid titles
+        if not title or title in ['not specified', 'n/a', 'unknown', '']:
+            skipped_reasons['no_title'] += 1
+            continue
+        
+        # Skip jobs without URLs
+        if not url:
+            skipped_reasons['no_url'] += 1
+            continue
+            
+        # Skip jobs without company info
+        if not company:
+            skipped_reasons['no_company'] += 1
+            continue
+            
+        cleaned.append(job)
+    
+    # Print summary
+    total_skipped = sum(skipped_reasons.values())
+    if total_skipped > 0:
+        print(f"\n  Skipped {total_skipped:,} invalid jobs:")
+        for reason, count in skipped_reasons.items():
+            if count > 0:
+                print(f"    - {reason.replace('_', ' ').title()}: {count:,}")
+    
+    return cleaned
+
 # ============================================================
 # SAVE RESULTS
 # ============================================================
@@ -344,8 +387,13 @@ def save_results(all_companies, active_companies, all_jobs):
     print("=" * 80)
     print("SAVING RESULTS")
     print("=" * 80 + "\n")
+    
+    original_count = len(all_jobs)
+    all_jobs = clean_job_data(all_jobs)
+    cleaned_count = original_count - len(all_jobs)
+    print(f"Removed {cleaned_count:,} invalid jobs (blank/not specified titles)")
 
-    timestamp = datetime.utcnow().isoformat() + "Z"
+    timestamp = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
     # Save all companies list
     companies_file = os.path.join(OUTPUT_DIR, "all_companies.json")
@@ -414,6 +462,8 @@ def main():
     bamboohr_companies = load_companies(BAMBOOHR_FILE)
     lever_companies = load_companies(LEVER_FILE)
     workday_companies = load_companies(WORKDAY_FILE)
+    
+    
     if (
         not greenhouse_companies
         and not ashby_companies

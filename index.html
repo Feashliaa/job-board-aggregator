@@ -46,6 +46,15 @@
                                 <label for="filter-location" class="form-label">Location</label>
                                 <input type="text" id="filter-location" class="form-control" placeholder="e.g., Remote">
                             </div>
+                            <div class="col-12 col-md-6">
+                                <label for="filter-status" class="form-label">Status</label>
+                                <select id="filter-status" class="form-select">
+                                    <option value="">All Statuses</option>
+                                    <option value="saved">Saved</option>
+                                    <option value="applied">Applied</option>
+                                    <option value="ignored">Ignored</option>
+                                </select>
+                            </div>
                             <div class="col-12">
                                 <div class="form-check mt-2">
                                     <input class="form-check-input" type="checkbox" id="filter-hide-recruiters" checked>
@@ -57,6 +66,12 @@
                                     <input class="form-check-input" type="checkbox" id="filter-remote-only">
                                     <label class="form-check-label" for="filter-remote-only">
                                         Remote only
+                                    </label>
+                                </div>
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="checkbox" id="filter-hide-applied">
+                                    <label class="form-check-label" for="filter-hide-applied">
+                                        Hide applied/ignored jobs
                                     </label>
                                 </div>
                             </div>
@@ -107,16 +122,18 @@
                         <caption class="visually-hidden">List of Job Openings</caption>
                         <thead>
                             <tr>
+                                <th>Status</th>
                                 <th>Company</th>
                                 <th>Title</th>
                                 <th>Location</th>
                                 <th>ATS</th>
                                 <th>Apply</th>
+                                <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody id="jobs-body">
                             <tr>
-                                <td colspan="5" class="text-center">No jobs found</td>
+                                <td colspan="7" class="text-center">No jobs found</td>
                             </tr>
                         </tbody>
                     </table>
@@ -132,6 +149,12 @@
                             Previous</button>
                         <button class="btn btn-sm btn-outline-primary" id="next-page-bottom">Next →</button>
                     </div>
+                </div>
+                <!-- Batch Update Button -->
+                <div class="mt-3 text-center">
+                    <button type="button" class="btn btn-primary" id="process-batch">
+                        Update Selected Jobs
+                    </button>
                 </div>
             </div>
         </div>
@@ -185,6 +208,30 @@
             </div>
         </div>
     </footer>
+
+    <!-- Toast container for notifications -->
+    <div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3" style="z-index: 1060;">
+        <div id="job-toast" class="toast align-items-center text-white bg-primary border-0" role="alert"
+            aria-live="polite">
+            <div class="d-flex">
+                <div class="toast-body" id="toast-message">Processing complete.</div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Floating Action Button for Batch Processing -->
+    <div id="process-fab-container" class="position-fixed bottom-0 end-0 m-4" style="z-index: 1050; display: none;">
+        <button type="button" class="btn btn-primary btn-lg rounded-circle shadow" id="process-fab"
+            title="Update Selected Jobs">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                <path
+                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+            </svg>
+        </button>
+    </div>
+
 </body>
 
 </html>
