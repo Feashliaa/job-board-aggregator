@@ -318,8 +318,11 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
                 if i % 50 == 0:
                     print(f"  [{i}/{len(companies)}] Checked... ({failed} inactive)")
 
-    print(f"\nActive companies: {len(active_companies):,}/{len(companies):,}")
-    print(f"Total jobs found: {len(all_jobs):,}\n")
+    print(f"\nDETAILED STATS FOR {platform}:")
+    print(f"  Companies checked: {len(companies)}")
+    print(f"  Companies with jobs: {len(active_companies)}")
+    print(f"  Failed/empty: {failed}")
+    print(f"  Total jobs: {len(all_jobs)}")
 
     return active_companies, all_jobs
 
