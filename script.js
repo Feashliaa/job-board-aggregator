@@ -130,6 +130,8 @@ class JobBoardApp {
 
         try {
             // Fetch compressed JSON from repo
+            // local testing: scripts/output/all_jobs.json.gz
+            // production: ./data/all_jobs.json.gz
             const response = await fetch('./data/all_jobs.json.gz');
 
             if (!response.ok) throw new Error('Failed to load jobs');

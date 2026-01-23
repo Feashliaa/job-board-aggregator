@@ -1,5 +1,4 @@
 name: Update Job Listings
-
 on:
   schedule:
     - cron: "0 0 * * *" # Daily at midnight UTC
@@ -9,7 +8,6 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 180 # 3 hours max
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -25,26 +23,23 @@ jobs:
       - name: Run job scraper
         run: |
           cd scripts
-          python scraper.py
+          python scraper.py --source automated
 
-      - name: Copy compressed file to data directory
-        run: |
-          mkdir -p data
-          cp scripts/output/all_jobs.json.gz data/all_jobs.json.gz
-          cp scripts/output/metadata.json data/metadata.json
+      - name: Merge with existing data
+        run: python scripts/merge_data.py
 
-      - name: Commit and push compressed data
+      - name: Commit and push merged data
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/all_jobs.json.gz data/metadata.json
-          git diff --staged --quiet || git commit -m "Update job data - $(date +'%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "Automated scrape + merge - $(date +'%Y-%m-%d %H:%M UTC')"
           git push
 
       - name: Get job count and timestamp
         id: metadata
         run: |
-          JOBS=$(jq '. | length' scripts/output/all_jobs.json)
+          JOBS=$(jq -r '.total_jobs' data/metadata.json)
           COMPANIES=$(jq '. | length' scripts/output/active_companies.json)
           DATE=$(date +'%Y-%m-%d %H:%M UTC')
           echo "jobs=$JOBS" >> $GITHUB_OUTPUT
@@ -58,8 +53,7 @@ jobs:
           tag_name: jobs-${{ steps.metadata.outputs.tag }}
           name: Jobs Update - ${{ steps.metadata.outputs.date }}
           body: |
-            ## Job Board Update
-
+            ## Job Board Update (Automated)
             **Total Jobs:** ${{ steps.metadata.outputs.jobs }}  
             **Active Companies:** ${{ steps.metadata.outputs.companies }}  
             **Last Updated:** ${{ steps.metadata.outputs.date }}

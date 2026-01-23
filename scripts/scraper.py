@@ -5,6 +5,7 @@ import time
 import re
 import os
 import gzip
+import argparse
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
@@ -67,7 +68,6 @@ USER_AGENTS = [
 # LOAD COMPANIES
 # ============================================================
 
-
 def load_companies(filepath):
     """Load companies from JSON file."""
     try:
@@ -105,6 +105,15 @@ fetch("https://{slug}.bamboohr.com/careers/list"){
 """
 
 
+SOURCE_TYPE = "automated"
+
+def get_job_metadata():
+    """Generate consistent metadata for each job."""
+    return {
+        "scraped_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "source": SOURCE_TYPE
+    }
+
 def fetch_company_jobs_greenhouse(slug):
     """Fetch all jobs for a company."""
     try:
@@ -136,6 +145,7 @@ def fetch_company_jobs_greenhouse(slug):
                             "updated_at": job.get("updated_at"),
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Greenhouse",
+                            **get_job_metadata()
                         }
                     )
 
@@ -175,11 +185,12 @@ def fetch_company_jobs_ashby(slug):
                         {
                             "company": slug,
                             "company_slug": slug,
-                            "title": job.get("title"),
-                            "location": job.get("locationName", "Not specified"),
+                            "title": job.get("title", ""),
+                            "location": job.get("locationName", "Not specified")[:50],
                             "url": f"https://jobs.ashbyhq.com/{slug}/jobs/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Ashby",
+                            **get_job_metadata()
                         }
                     )
                 return slug, normalized
@@ -210,10 +221,11 @@ def fetch_company_jobs_bamboohr(slug):
                             "company": slug,
                             "company_slug": slug,
                             "title": job.get("jobOpeningName"),
-                            "location": job.get("location", "Not specified"),
+                            "location": job.get("location", "Not specified")[:50],
                             "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "BambooHR",
+                            **get_job_metadata()
                         }
                     )
                 return slug, normalized
@@ -241,10 +253,11 @@ def fetch_company_jobs_lever(slug):
                             "company": slug,
                             "company_slug": slug,
                             "title": job.get("text"),
-                            "location": categories.get("location", "Not specified"),
+                            "location": categories.get("location", "Not specified") [:50],
                             "url": job.get("hostedUrl"),
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Lever",
+                            **get_job_metadata()
                         }
                     )
                 return slug, normalized
@@ -328,10 +341,11 @@ def fetch_company_jobs_workday(slug):
                         "company": company,
                         "company_slug": slug,
                         "title": job.get("title"),
-                        "location": job.get("locationsText", "Not specified"),
+                        "location": job.get("locationsText", "Not specified") [:50],
                         "url": f"{base_url}{job_path}",
                         "is_recruiter": is_recruiter_company(company),
                         "ats": "Workday",
+                        **get_job_metadata()
                     }
                 )
 
@@ -500,7 +514,8 @@ def save_results(all_companies, active_companies, all_jobs):
         "active_companies": len(active_companies),
         "total_jobs": len(all_jobs),
         "recruiter_jobs": recruiter_jobs,
-        "source": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api",
+        "source_type": SOURCE_TYPE,
+        "platforms": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api",
     }
 
     metadata_file = os.path.join(OUTPUT_DIR, "metadata.json")
@@ -591,4 +606,15 @@ def main():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Job Board Aggregator Scraper')
+    parser.add_argument('--source', 
+                       choices=['automated', 'manual'], 
+                       default='automated',
+                       help='Source type: automated (GitHub Actions) or manual (local run)')
+    
+    args = parser.parse_args()
+    SOURCE_TYPE = args.source
+    
+    print(f"\nRunning in {SOURCE_TYPE.upper()} mode\n")
+    
     main()
