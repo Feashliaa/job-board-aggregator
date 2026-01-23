@@ -1,8 +1,16 @@
 {
+<<<<<<< Updated upstream
   "last_updated": "2026-01-23T19:43:46.389630Z",
   "total_companies": 12187,
   "active_companies": 7373,
   "total_jobs": 241109,
   "recruiter_jobs": 4320,
+=======
+  "last_updated": "2026-01-23T20:12:53.741370Z",
+  "total_companies": 12187,
+  "active_companies": 8016,
+  "total_jobs": 328336,
+  "recruiter_jobs": 4496,
+>>>>>>> Stashed changes
   "source": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api"
 }

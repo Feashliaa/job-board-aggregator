@@ -88,7 +88,7 @@ def fetch_company_jobs_greenhouse(slug):
     """Fetch all jobs for a company."""
     try:
         url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"
-        response = requests.get(url, timeout=15)
+        response = requests.get(url, timeout=30)
 
         if response.status_code == 200:
             data = response.json()
@@ -125,6 +125,7 @@ def fetch_company_jobs_greenhouse(slug):
 
     return slug, []
 
+
 def fetch_company_jobs_ashby(slug):
     try:
         url = f"https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
@@ -134,7 +135,13 @@ def fetch_company_jobs_ashby(slug):
             "query": "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName } } }",
         }
 
-        response = requests.post(url, json=payload, timeout=15)
+        headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": "Mozilla/5.0 (compatible; JobFetcher/1.0)",
+        }
+
+        response = requests.post(url, json=payload, headers=headers, timeout=30)
 
         if response.status_code == 200:
             data = response.json()
@@ -159,6 +166,7 @@ def fetch_company_jobs_ashby(slug):
         pass
     return slug, []
 
+
 def fetch_company_jobs_bamboohr(slug):
     """https://{slug}.bamboohr.com/careers
     https://{slug}.bamboohr.com/careers/list
@@ -167,7 +175,7 @@ def fetch_company_jobs_bamboohr(slug):
 
     try:
         url = f"https://{slug}.bamboohr.com/careers/list"
-        response = requests.get(url, timeout=15)
+        response = requests.get(url, timeout=30)
 
         if response.status_code == 200:
             data = response.json()
@@ -192,12 +200,13 @@ def fetch_company_jobs_bamboohr(slug):
         pass
     return slug, []
 
+
 def fetch_company_jobs_lever(slug):
     """https://api.lever.co/v0/postings/{slug}"""
 
     try:
         url = f"https://api.lever.co/v0/postings/{slug}"
-        response = requests.get(url, timeout=15)
+        response = requests.get(url, timeout=30)
 
         if response.status_code == 200:
             jobs = response.json()
@@ -221,6 +230,7 @@ def fetch_company_jobs_lever(slug):
     except Exception as e:
         pass
     return slug, []
+
 
 def fetch_company_jobs_workday(slug):
     """
@@ -253,7 +263,7 @@ def fetch_company_jobs_workday(slug):
                 "searchText": "",
             }
 
-            response = requests.post(api_url, json=payload, headers=headers, timeout=15)
+            response = requests.post(api_url, json=payload, headers=headers, timeout=30)
 
             if response.status_code != 200:
                 break
@@ -286,12 +296,13 @@ def fetch_company_jobs_workday(slug):
         pass
     return slug, []
 
+
 def fetch_company_jobs_icims(slug):
-    
+
     # URL: https://careers-{company}.icims.com/jobs/search?ss
 
-    
     return slug, []
+
 
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
@@ -342,34 +353,33 @@ def is_recruiter_company(slug):
     return False
 
 
-
 def clean_job_data(jobs):
     """Remove invalid/useless job entries."""
     cleaned = []
-    skipped_reasons = {'no_title': 0, 'no_url': 0, 'no_company': 0}
-    
+    skipped_reasons = {"no_title": 0, "no_url": 0, "no_company": 0}
+
     for job in jobs:
-        title = (job.get('title') or '').strip().lower()
-        url = job.get('url') or job.get('absolute_url')
-        company = job.get('company') or job.get('company_slug')
-        
+        title = (job.get("title") or "").strip().lower()
+        url = job.get("url") or job.get("absolute_url")
+        company = job.get("company") or job.get("company_slug")
+
         # Skip jobs with invalid titles
-        if not title or title in ['not specified', 'n/a', 'unknown', '']:
-            skipped_reasons['no_title'] += 1
+        if not title or title in ["not specified", "n/a", "unknown", ""]:
+            skipped_reasons["no_title"] += 1
             continue
-        
+
         # Skip jobs without URLs
         if not url:
-            skipped_reasons['no_url'] += 1
+            skipped_reasons["no_url"] += 1
             continue
-            
+
         # Skip jobs without company info
         if not company:
-            skipped_reasons['no_company'] += 1
+            skipped_reasons["no_company"] += 1
             continue
-            
+
         cleaned.append(job)
-    
+
     # Print summary
     total_skipped = sum(skipped_reasons.values())
     if total_skipped > 0:
@@ -377,8 +387,9 @@ def clean_job_data(jobs):
         for reason, count in skipped_reasons.items():
             if count > 0:
                 print(f"    - {reason.replace('_', ' ').title()}: {count:,}")
-    
+
     return cleaned
+
 
 # ============================================================
 # SAVE RESULTS
@@ -390,7 +401,7 @@ def save_results(all_companies, active_companies, all_jobs):
     print("=" * 80)
     print("SAVING RESULTS")
     print("=" * 80 + "\n")
-    
+
     original_count = len(all_jobs)
     all_jobs = clean_job_data(all_jobs)
     cleaned_count = original_count - len(all_jobs)
@@ -465,8 +476,7 @@ def main():
     bamboohr_companies = load_companies(BAMBOOHR_FILE)
     lever_companies = load_companies(LEVER_FILE)
     workday_companies = load_companies(WORKDAY_FILE)
-    
-    
+
     if (
         not greenhouse_companies
         and not ashby_companies
