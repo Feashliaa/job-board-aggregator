@@ -161,12 +161,9 @@ class JobBoardApp {
 
         } catch (error) {
             console.error('Error loading jobs:', error);
-            loadingEl.innerHTML = `
-            <div class="alert alert-danger">
-                Failed to load jobs. Please try again later.
-                <br><small>${error.message}</small>
-            </div>
-        `;
+            this.showToast('Error loading job data.', 'danger');
+            loadingEl.textContent = 'Failed to load job data.';
+
         }
     }
 
@@ -235,9 +232,12 @@ class JobBoardApp {
         });
 
         // Filters
-        document.getElementById('apply-filters').addEventListener('click', () => this.applyFilters());
-        document.getElementById('clear-filters').addEventListener('click', () => this.clearFilters());
-
+        document.getElementById('apply-filters').addEventListener('click', () => {
+            this.applyFilters();
+        });
+        document.getElementById('clear-filters').addEventListener('click', () => {
+            this.clearFilters();
+        });
         // Enter key on filter inputs
         ['filter-title', 'filter-company', 'filter-location'].forEach(id => {
             document.getElementById(id).addEventListener('keypress', (e) => {
@@ -291,6 +291,20 @@ class JobBoardApp {
                 this.updateFABVisibility();
             }
         });
+
+        // Have .apply-checkbox and .ignored-checkbox be mutually exclusive
+        document.addEventListener('change', (e) => {
+            if (e.target.classList.contains('apply-checkbox') && e.target.checked) {
+                const jobUrl = e.target.dataset.jobUrl;
+                const ignoreBox = document.querySelector(`.ignored-checkbox[data-job-url="${this.escape(jobUrl)}"]`);
+                if (ignoreBox) ignoreBox.checked = false;
+            }
+            if (e.target.classList.contains('ignored-checkbox') && e.target.checked) {
+                const jobUrl = e.target.dataset.jobUrl;
+                const applyBox = document.querySelector(`.apply-checkbox[data-job-url="${this.escape(jobUrl)}"]`);
+                if (applyBox) applyBox.checked = false;
+            }
+        });
     }
 
     // ============================================================
@@ -338,6 +352,7 @@ class JobBoardApp {
         const companyFilter = document.getElementById('filter-company').value.toLowerCase().trim();
         const locationFilter = document.getElementById('filter-location').value.toLowerCase().trim();
         const statusFilter = document.getElementById('filter-status').value;
+        const atsFilter = document.getElementById('filter-ats').value;
 
         const apps = this.loadApplicationStatus();
 
@@ -350,26 +365,32 @@ class JobBoardApp {
             company: companyFilter,
             location: locationFilter,
             remoteOnly: remoteOnly,
-            status: statusFilter
+            status: statusFilter,
+            ats: atsFilter
         };
 
         this.filteredJobs = this.allJobs.filter(job => {
 
+            // filter by if the job is posted by a recruiter
             if (hideRecruiters && job.is_recruiter === true) {
                 return false;
             }
 
+            // get the application status based on job URL
             const url = job.absolute_url || job.url;
             const jobStatus = apps[url]?.status || ''; // Load application status
 
+            // filter by application status
             if (hideApplied && (jobStatus === 'applied' || jobStatus === 'ignored')) {
                 return false;
             }
 
+            // filter by status
             if (statusFilter && jobStatus !== statusFilter) {
                 return false;
             }
 
+            // get the title, company, location in lowercase for matching
             const title = (job.title || '').toLowerCase();
             const company = ((job.company || job.company_slug) || '').toLowerCase();
             let location = '';
@@ -388,13 +409,20 @@ class JobBoardApp {
                 }
             }
 
+            // filter by ATS
+            if (atsFilter) {
+                const jobAts = (job.ats || '').toLowerCase();
+                if (jobAts !== atsFilter.toLowerCase()) {
+                    return false;
+                }
+            }
+
             return (
                 (!titleRegex || titleRegex.test(title)) &&
                 (!companyRegex || companyRegex.test(company)) &&
                 (!locationRegex || locationRegex.test(location))
             );
         });
-
         this.currentPage = 1;
         this.updateURL();
         this.render();
@@ -405,11 +433,13 @@ class JobBoardApp {
         document.getElementById('filter-company').value = '';
         document.getElementById('filter-location').value = '';
         document.getElementById('filter-status').value = '';
+        document.getElementById('filter-ats').value = '';
         document.getElementById('filter-hide-recruiters').checked = true;
         document.getElementById('filter-remote-only').checked = false;
         document.getElementById('filter-hide-applied').checked = false;
 
-        this.filterState = { title: '', company: '', location: '', remoteOnly: false, status: '' };
+
+        this.filterState = { title: '', company: '', location: '', remoteOnly: false, status: '', ats: '' };
         this.filteredJobs = [...this.allJobs];
         this.currentPage = 1;
         this.updateURL();
@@ -483,8 +513,9 @@ class JobBoardApp {
 
     // ============================================================
     // RENDERING
-    // ============================================================
+    // ============================================================/*  */
     render() {
+
         const tbody = document.getElementById('jobs-body');
 
         // Apply sorting to filtered jobs
@@ -541,7 +572,6 @@ class JobBoardApp {
                 }
             });
         });
-
         this.updatePagination(totalPages);
         this.updateSortIndicators();
     }
@@ -555,6 +585,8 @@ class JobBoardApp {
         if (this.filterState.company) params.set('company', this.filterState.company);
         if (this.filterState.location) params.set('location', this.filterState.location);
         if (this.filterState.remoteOnly) params.set('remote', '1');
+        if (this.filterState.status) params.set('status', this.filterState.status);
+        if (this.filterState.ats) params.set('ats', this.filterState.ats);
         if (this.currentPage > 1) params.set('page', this.currentPage.toString());
 
         const newURL = params.toString()
@@ -572,15 +604,20 @@ class JobBoardApp {
         const location = params.get('location') || '';
         const remote = params.get('remote') === '1';
         const page = parseInt(params.get('page')) || 1;
+        const status = params.get('status') || '';
+        const ats = params.get('ats') || '';
+
 
         document.getElementById('filter-title').value = title;
         document.getElementById('filter-company').value = company;
         document.getElementById('filter-location').value = location;
         document.getElementById('filter-remote-only').checked = remote;
+        document.getElementById('filter-status').value = status;
+        document.getElementById('filter-ats').value = ats;
 
         this.currentPage = page;
 
-        if (title || company || location || remote) {
+        if (title || company || location || remote || status || ats) {
             this.applyFilters();
         }
     }

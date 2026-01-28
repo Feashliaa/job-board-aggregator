@@ -68,6 +68,7 @@ USER_AGENTS = [
 # LOAD COMPANIES
 # ============================================================
 
+
 def load_companies(filepath):
     """Load companies from JSON file."""
     try:
@@ -107,12 +108,14 @@ fetch("https://{slug}.bamboohr.com/careers/list"){
 
 SOURCE_TYPE = "automated"
 
+
 def get_job_metadata():
     """Generate consistent metadata for each job."""
     return {
         "scraped_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "source": SOURCE_TYPE
+        "source": SOURCE_TYPE,
     }
+
 
 def fetch_company_jobs_greenhouse(slug):
     """Fetch all jobs for a company."""
@@ -145,7 +148,7 @@ def fetch_company_jobs_greenhouse(slug):
                             "updated_at": job.get("updated_at"),
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Greenhouse",
-                            **get_job_metadata()
+                            **get_job_metadata(),
                         }
                     )
 
@@ -190,7 +193,7 @@ def fetch_company_jobs_ashby(slug):
                             "url": f"https://jobs.ashbyhq.com/{slug}/jobs/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Ashby",
-                            **get_job_metadata()
+                            **get_job_metadata(),
                         }
                     )
                 return slug, normalized
@@ -225,7 +228,7 @@ def fetch_company_jobs_bamboohr(slug):
                             "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "BambooHR",
-                            **get_job_metadata()
+                            **get_job_metadata(),
                         }
                     )
                 return slug, normalized
@@ -253,11 +256,13 @@ def fetch_company_jobs_lever(slug):
                             "company": slug,
                             "company_slug": slug,
                             "title": job.get("text"),
-                            "location": categories.get("location", "Not specified") [:50],
+                            "location": categories.get("location", "Not specified")[
+                                :50
+                            ],
                             "url": job.get("hostedUrl"),
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Lever",
-                            **get_job_metadata()
+                            **get_job_metadata(),
                         }
                     )
                 return slug, normalized
@@ -341,11 +346,11 @@ def fetch_company_jobs_workday(slug):
                         "company": company,
                         "company_slug": slug,
                         "title": job.get("title"),
-                        "location": job.get("locationsText", "Not specified") [:50],
+                        "location": job.get("locationsText", "Not specified")[:50],
                         "url": f"{base_url}{job_path}",
                         "is_recruiter": is_recruiter_company(company),
                         "ats": "Workday",
-                        **get_job_metadata()
+                        **get_job_metadata(),
                     }
                 )
 
@@ -606,15 +611,17 @@ def main():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Job Board Aggregator Scraper')
-    parser.add_argument('--source', 
-                       choices=['automated', 'manual'], 
-                       default='automated',
-                       help='Source type: automated (GitHub Actions) or manual (local run)')
-    
+    parser = argparse.ArgumentParser(description="Job Board Aggregator Scraper")
+    parser.add_argument(
+        "--source",
+        choices=["automated", "manual"],
+        default="automated",
+        help="Source type: automated (GitHub Actions) or manual (local run)",
+    )
+
     args = parser.parse_args()
     SOURCE_TYPE = args.source
-    
+
     print(f"\nRunning in {SOURCE_TYPE.upper()} mode\n")
-    
+
     main()
