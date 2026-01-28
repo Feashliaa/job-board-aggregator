@@ -9,7 +9,7 @@ class JobBoardApp {
         this.currentPage = 1;
         this.perPage = 50;
         this.sortState = { key: null, direction: 'asc' };
-        this.filterState = { title: '', company: '', location: '', status: '' };
+        this.filterState = { title: '', company: '', location: '', status: '', ats: '', remoteOnly: false };
         this.debounceTimer = null;
 
         // Column configuration
@@ -257,6 +257,13 @@ class JobBoardApp {
         // Status filter
         document.getElementById('filter-status').addEventListener('change', (e) => {
             this.filterState.status = e.target.value;
+            this.currentPage = 1;
+            this.applyFilters();
+        });
+
+        // ATS filter
+        document.getElementById('filter-ats').addEventListener('change', (e) => {
+            this.filterState.ats = e.target.value;
             this.currentPage = 1;
             this.applyFilters();
         });
