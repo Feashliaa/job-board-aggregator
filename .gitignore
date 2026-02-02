@@ -51,6 +51,7 @@ scripts/output/
 !data/bamboohr_companies.json
 !data/workday_companies.json
 !data/lever_companies.json
+
 !data/metadata.json
 
 # Allow gzip files in data/ only

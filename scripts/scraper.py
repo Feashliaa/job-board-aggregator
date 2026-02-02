@@ -63,11 +63,11 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
 ]
 
+SKILL_LEVELS = ["intern", "entry", "mid", "senior"]
 
 # ============================================================
 # LOAD COMPANIES
 # ============================================================
-
 
 def load_companies(filepath):
     """Load companies from JSON file."""
@@ -79,7 +79,6 @@ def load_companies(filepath):
     except FileNotFoundError:
         print(f"File not found: {filepath}")
         return set()
-
 
 # ============================================================
 # VERIFY ACTIVE JOBS + FETCH ALL JOBS
@@ -105,9 +104,7 @@ fetch("https://{slug}.bamboohr.com/careers/list"){
 }
 """
 
-
 SOURCE_TYPE = "automated"
-
 
 def get_job_metadata():
     """Generate consistent metadata for each job."""
@@ -115,7 +112,6 @@ def get_job_metadata():
         "scraped_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source": SOURCE_TYPE,
     }
-
 
 def fetch_company_jobs_greenhouse(slug):
     """Fetch all jobs for a company."""
@@ -148,6 +144,7 @@ def fetch_company_jobs_greenhouse(slug):
                             "updated_at": job.get("updated_at"),
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Greenhouse",
+                            "skill_level": job_tier_classification(job.get("title", "")),
                             **get_job_metadata(),
                         }
                     )
@@ -158,7 +155,6 @@ def fetch_company_jobs_greenhouse(slug):
         pass
 
     return slug, []
-
 
 def fetch_company_jobs_ashby(slug):
     try:
@@ -193,6 +189,7 @@ def fetch_company_jobs_ashby(slug):
                             "url": f"https://jobs.ashbyhq.com/{slug}/jobs/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Ashby",
+                            "skill_level": job_tier_classification(job.get("title", "")),
                             **get_job_metadata(),
                         }
                     )
@@ -200,7 +197,6 @@ def fetch_company_jobs_ashby(slug):
     except Exception as e:
         pass
     return slug, []
-
 
 def fetch_company_jobs_bamboohr(slug):
     """https://{slug}.bamboohr.com/careers
@@ -228,6 +224,7 @@ def fetch_company_jobs_bamboohr(slug):
                             "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "BambooHR",
+                            "skill_level": job_tier_classification(job.get("jobOpeningName", "")),
                             **get_job_metadata(),
                         }
                     )
@@ -235,7 +232,6 @@ def fetch_company_jobs_bamboohr(slug):
     except Exception as e:
         pass
     return slug, []
-
 
 def fetch_company_jobs_lever(slug):
     """https://api.lever.co/v0/postings/{slug}"""
@@ -262,6 +258,7 @@ def fetch_company_jobs_lever(slug):
                             "url": job.get("hostedUrl"),
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Lever",
+                            "skill_level": job_tier_classification(job.get("text", "")),
                             **get_job_metadata(),
                         }
                     )
@@ -269,7 +266,6 @@ def fetch_company_jobs_lever(slug):
     except Exception as e:
         pass
     return slug, []
-
 
 def fetch_company_jobs_workday(slug):
     """
@@ -350,6 +346,7 @@ def fetch_company_jobs_workday(slug):
                         "url": f"{base_url}{job_path}",
                         "is_recruiter": is_recruiter_company(company),
                         "ats": "Workday",
+                        "skill_level": job_tier_classification(job.get("title", "")),
                         **get_job_metadata(),
                     }
                 )
@@ -367,13 +364,11 @@ def fetch_company_jobs_workday(slug):
     except Exception:
         return slug, []
 
-
 def fetch_company_jobs_icims(slug):
 
     # URL: https://careers-{company}.icims.com/jobs/search?ss
 
     return slug, []
-
 
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
@@ -408,11 +403,9 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
 
     return active_companies, all_jobs
 
-
 # ============================================================
 # Helper Functions
 # ============================================================
-
 
 def is_recruiter_company(slug):
     slug = slug.lower()
@@ -422,7 +415,6 @@ def is_recruiter_company(slug):
         return True
 
     return False
-
 
 def clean_job_data(jobs):
     """Remove invalid/useless job entries."""
@@ -461,11 +453,37 @@ def clean_job_data(jobs):
 
     return cleaned
 
+def job_tier_classification(title):
+    """Classify job tier based on title keywords."""
+    
+    title_lower = f"{title.lower()} "
+    
+    if "intern" in title_lower:
+        return "intern"
+    
+    senior_keywords = [
+        "senior ", " sr ", "sr. ", "lead ", "principal ", "staff ", "manager ", "director ",
+        "vp ", "vice president ", "chief ", "cxo ", "head of ", "founder ", "co-founder ",
+        " architect ", " distinguished ", " fellow ", "engr 4 ", "engr 5 ",
+        " iii ", " iv ", " v ", " vi ", " vii " " 3 ", " 4 ", " 5 ", " 6 "
+    ]
+    
+    if any(keyword in title_lower for keyword in senior_keywords):
+        return "senior"
+    
+    entry_keywords = [
+        " junior ", " jr ", "jr. ", "associate ", " trainee ",
+        " entry level ", " graduate ", " new grad ", " new graduate ",
+        " level 1 ", " i ", " 1 ", " early career "
+    ]
+    if any(keyword in title_lower for keyword in entry_keywords):
+        return "entry"
+    
+    return "mid" 
 
 # ============================================================
 # SAVE RESULTS
 # ============================================================
-
 
 def save_results(all_companies, active_companies, all_jobs):
     """Save all data to JSON files."""
@@ -530,11 +548,9 @@ def save_results(all_companies, active_companies, all_jobs):
 
     print()
 
-
 # ============================================================
 # MAIN
 # ============================================================
-
 
 def main():
     print("\n" + "=" * 80)

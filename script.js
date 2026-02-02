@@ -2,6 +2,7 @@
 // JOB BOARD APP 
 // ============================================================
 
+SKILL_LEVELS = ["intern", "entry", "mid", "senior"];
 class JobBoardApp {
     constructor() {
         this.allJobs = [];
@@ -9,7 +10,12 @@ class JobBoardApp {
         this.currentPage = 1;
         this.perPage = 50;
         this.sortState = { key: null, direction: 'asc' };
-        this.filterState = { title: '', company: '', location: '', status: '', ats: '', remoteOnly: false };
+
+        this.filterState = {
+            title: '', company: '', location: '', status: '',
+            ats: '', skill_level: '', remoteOnly: false
+        };
+
         this.debounceTimer = null;
 
         // Column configuration
@@ -268,6 +274,13 @@ class JobBoardApp {
             this.applyFilters();
         });
 
+        // Skill level filter
+        document.getElementById('filter-skill-level').addEventListener('change', (e) => {
+            this.filterState.skill_level = e.target.value;
+            this.currentPage = 1;
+            this.applyFilters();
+        });
+
         // Hide applied/ignored filter
         document.getElementById('filter-hide-applied').addEventListener('change', () => {
             this.applyFilters();
@@ -360,6 +373,7 @@ class JobBoardApp {
         const locationFilter = document.getElementById('filter-location').value.toLowerCase().trim();
         const statusFilter = document.getElementById('filter-status').value;
         const atsFilter = document.getElementById('filter-ats').value;
+        const skillLevelFilter = document.getElementById('filter-skill-level').value;
 
         const apps = this.loadApplicationStatus();
 
@@ -373,7 +387,8 @@ class JobBoardApp {
             location: locationFilter,
             remoteOnly: remoteOnly,
             status: statusFilter,
-            ats: atsFilter
+            ats: atsFilter,
+            skill_level: skillLevelFilter
         };
 
         this.filteredJobs = this.allJobs.filter(job => {
@@ -424,6 +439,14 @@ class JobBoardApp {
                 }
             }
 
+            // filter by skill level
+            if (skillLevelFilter) {
+                const jobSkillLevel = (job.skill_level || '').toLowerCase();
+                if (jobSkillLevel !== skillLevelFilter.toLowerCase()) {
+                    return false;
+                }
+            }
+
             return (
                 (!titleRegex || titleRegex.test(title)) &&
                 (!companyRegex || companyRegex.test(company)) &&
@@ -441,12 +464,17 @@ class JobBoardApp {
         document.getElementById('filter-location').value = '';
         document.getElementById('filter-status').value = '';
         document.getElementById('filter-ats').value = '';
+        document.getElementById('filter-skill-level').value = '';
         document.getElementById('filter-hide-recruiters').checked = true;
         document.getElementById('filter-remote-only').checked = false;
         document.getElementById('filter-hide-applied').checked = false;
 
 
-        this.filterState = { title: '', company: '', location: '', remoteOnly: false, status: '', ats: '' };
+        this.filterState = {
+            title: '', company: '', location: '', status: '',
+            ats: '', skill_level: '', remoteOnly: false
+        };
+
         this.filteredJobs = [...this.allJobs];
         this.currentPage = 1;
         this.updateURL();
@@ -594,6 +622,7 @@ class JobBoardApp {
         if (this.filterState.remoteOnly) params.set('remote', '1');
         if (this.filterState.status) params.set('status', this.filterState.status);
         if (this.filterState.ats) params.set('ats', this.filterState.ats);
+        if (this.filterState.skill_level) params.set('skill_level', this.filterState.skill_level);
         if (this.currentPage > 1) params.set('page', this.currentPage.toString());
 
         const newURL = params.toString()
@@ -613,6 +642,7 @@ class JobBoardApp {
         const page = parseInt(params.get('page')) || 1;
         const status = params.get('status') || '';
         const ats = params.get('ats') || '';
+        const skillLevel = params.get('skill_level') || '';
 
 
         document.getElementById('filter-title').value = title;
@@ -621,10 +651,11 @@ class JobBoardApp {
         document.getElementById('filter-remote-only').checked = remote;
         document.getElementById('filter-status').value = status;
         document.getElementById('filter-ats').value = ats;
+        document.getElementById('filter-skill-level').value = skillLevel;
 
         this.currentPage = page;
 
-        if (title || company || location || remote || status || ats) {
+        if (title || company || location || remote || status || ats || skillLevel) {
             this.applyFilters();
         }
     }
