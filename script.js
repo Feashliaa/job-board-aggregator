@@ -1,8 +1,6 @@
 // ============================================================
 // JOB BOARD APP 
 // ============================================================
-
-SKILL_LEVELS = ["intern", "entry", "mid", "senior"];
 class JobBoardApp {
     constructor() {
         this.allJobs = [];
