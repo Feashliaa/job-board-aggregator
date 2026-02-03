@@ -371,6 +371,17 @@ h2.card-title {
     cursor: pointer;
 }
 
+.donate-section {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.paypal-donate-form {
+    margin-top: 10px;
+}
+
 
 /* ========================================
    MOBILE CARD MODE

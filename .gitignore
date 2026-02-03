@@ -40,6 +40,7 @@ jobs_backup.sql
 cheatsheet.md
 backup.sql
 refresh-local.bat
+fetch_script.js
 
 # Scraper output 
 scripts/output/
