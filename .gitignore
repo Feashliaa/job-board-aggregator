@@ -41,6 +41,7 @@ cheatsheet.md
 backup.sql
 refresh-local.bat
 fetch_script.js
+test.py
 
 # Scraper output 
 scripts/output/

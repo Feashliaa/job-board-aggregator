@@ -63,8 +63,6 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
 ]
 
-SKILL_LEVELS = ["intern", "entry", "mid", "senior"]
-
 # ============================================================
 # LOAD COMPANIES
 # ============================================================
@@ -454,32 +452,61 @@ def clean_job_data(jobs):
     return cleaned
 
 def job_tier_classification(title):
-    """Classify job tier based on title keywords."""
-    
-    title_lower = f"{title.lower()} "
-    
-    if "intern" in title_lower:
+    """Classify job tier using weighted keyword scoring."""
+
+    title_lower = title.lower()
+    score = 0
+
+    # Weights: positive = senior, negative = junior
+    keywords = {
+        # Strong senior indicators
+        r"\b(?:chief|cto|ceo|cfo|vp|vice president|director)\b": 50, # chief, cto, ceo, cfo, vp, vice president, director
+        r"\b(?:principal|distinguished|fellow)\b": 40, # principal, distinguished, fellow
+        r"\b(?:staff|lead|head of)\b": 30, # staff, lead, head of
+        r"\b(?:senior|sr\.?)\b": 20, # senior, sr.
+        r"\b(?:architect|manager)\b": 15, # architect, manager
+        r"\b(?:iii|iv|v|vi)\b": 15,  # Roman numerals, i.e. III, IV, V, VI for levels
+        r"\blevel\s*[4-9]\b": 15, # e.g. Level 4, Level 5, Level 6, Level 7, Level 8, Level 9
+        r"\bengr?\s*[4-6]\b": 15, # e.g. Engr 4, Engr 5, Engr 6
+        r"\b(?:counsel|of\s*counsel)\b": 20,  # senior attorney
+        
+        r"\b(?:attending|charge)\b": 20,  # attending physician, charge nurse = senior
+
+        
+        # Weak senior indicators
+        r"\b(?:ii|2)\b": 5, # level II or 2
+        r"\blevel\s*3\b": 5, # level 3
+        
+        # Entry-level indicators
+        r"\b(?:associate)\b": -10, # associate
+        r"\b(?:junior|jr\.?)\b": -20, # junior, jr.
+        r"\b(?:trainee|graduate|new\s*grad)\b": -25, # trainee, graduate, new grad
+        r"\bentry[\s-]?level\b": -25, # entry-level
+        r"\b(?:i|1)\b(?!\s*-|\d)": -15,  # "I" or "1" but not "1-2" or "10"
+        r"\b(?:trainee|graduate|new\s*grad)\b": -25, # trainee, graduate, new grad
+        r"\b(?:paralegal|clerk)\b": -15,  # entry-level legal
+        r"\b(?:resident|clinical\s*fellow)\b": -15,  # medical residency = entry-ish
+        r"\b(?:aide|assistant|tech)\b": -10,  # nurse aide, medical assistant
+        
+        # Intern (heavily weighted)
+        r"\bintern(?:ship)?\b": -100, # intern or internship
+        
+    }
+
+    # Calculate score
+    for pattern, weight in keywords.items():
+        if re.search(pattern, title_lower): # if pattern matches
+            score += weight
+
+    # tiers
+    if score <= -50:
         return "intern"
-    
-    senior_keywords = [
-        "senior ", " sr ", "sr. ", "lead ", "principal ", "staff ", "manager ", "director ",
-        "vp ", "vice president ", "chief ", "cxo ", "head of ", "founder ", "co-founder ",
-        " architect ", " distinguished ", " fellow ", "engr 4 ", "engr 5 ",
-        " iii ", " iv ", " v ", " vi ", " vii " " 3 ", " 4 ", " 5 ", " 6 "
-    ]
-    
-    if any(keyword in title_lower for keyword in senior_keywords):
-        return "senior"
-    
-    entry_keywords = [
-        " junior ", " jr ", "jr. ", "associate ", " trainee ",
-        " entry level ", " graduate ", " new grad ", " new graduate ",
-        " level 1 ", " i ", " 1 ", " early career "
-    ]
-    if any(keyword in title_lower for keyword in entry_keywords):
+    elif score <= -5:
         return "entry"
-    
-    return "mid" 
+    elif score >= 15:
+        return "senior"
+    else:
+        return "mid"
 
 # ============================================================
 # SAVE RESULTS
