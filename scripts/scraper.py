@@ -67,6 +67,7 @@ USER_AGENTS = [
 # LOAD COMPANIES
 # ============================================================
 
+
 def load_companies(filepath):
     """Load companies from JSON file."""
     try:
@@ -77,6 +78,7 @@ def load_companies(filepath):
     except FileNotFoundError:
         print(f"File not found: {filepath}")
         return set()
+
 
 # ============================================================
 # VERIFY ACTIVE JOBS + FETCH ALL JOBS
@@ -104,12 +106,14 @@ fetch("https://{slug}.bamboohr.com/careers/list"){
 
 SOURCE_TYPE = "automated"
 
+
 def get_job_metadata():
     """Generate consistent metadata for each job."""
     return {
         "scraped_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source": SOURCE_TYPE,
     }
+
 
 def fetch_company_jobs_greenhouse(slug):
     """Fetch all jobs for a company."""
@@ -142,7 +146,9 @@ def fetch_company_jobs_greenhouse(slug):
                             "updated_at": job.get("updated_at"),
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Greenhouse",
-                            "skill_level": job_tier_classification(job.get("title", "")),
+                            "skill_level": job_tier_classification(
+                                job.get("title", "")
+                            ),
                             **get_job_metadata(),
                         }
                     )
@@ -153,6 +159,7 @@ def fetch_company_jobs_greenhouse(slug):
         pass
 
     return slug, []
+
 
 def fetch_company_jobs_ashby(slug):
     try:
@@ -187,7 +194,9 @@ def fetch_company_jobs_ashby(slug):
                             "url": f"https://jobs.ashbyhq.com/{slug}/jobs/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Ashby",
-                            "skill_level": job_tier_classification(job.get("title", "")),
+                            "skill_level": job_tier_classification(
+                                job.get("title", "")
+                            ),
                             **get_job_metadata(),
                         }
                     )
@@ -195,6 +204,7 @@ def fetch_company_jobs_ashby(slug):
     except Exception as e:
         pass
     return slug, []
+
 
 def fetch_company_jobs_bamboohr(slug):
     """https://{slug}.bamboohr.com/careers
@@ -222,7 +232,9 @@ def fetch_company_jobs_bamboohr(slug):
                             "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "BambooHR",
-                            "skill_level": job_tier_classification(job.get("jobOpeningName", "")),
+                            "skill_level": job_tier_classification(
+                                job.get("jobOpeningName", "")
+                            ),
                             **get_job_metadata(),
                         }
                     )
@@ -230,6 +242,7 @@ def fetch_company_jobs_bamboohr(slug):
     except Exception as e:
         pass
     return slug, []
+
 
 def fetch_company_jobs_lever(slug):
     """https://api.lever.co/v0/postings/{slug}"""
@@ -264,6 +277,7 @@ def fetch_company_jobs_lever(slug):
     except Exception as e:
         pass
     return slug, []
+
 
 def fetch_company_jobs_workday(slug):
     """
@@ -341,7 +355,7 @@ def fetch_company_jobs_workday(slug):
                         "company_slug": slug,
                         "title": job.get("title"),
                         "location": job.get("locationsText", "Not specified")[:50],
-                        "url": f"{base_url}{job_path}",
+                        "url": f"{base_url}/{site_id}{job_path}",
                         "is_recruiter": is_recruiter_company(company),
                         "ats": "Workday",
                         "skill_level": job_tier_classification(job.get("title", "")),
@@ -362,11 +376,13 @@ def fetch_company_jobs_workday(slug):
     except Exception:
         return slug, []
 
+
 def fetch_company_jobs_icims(slug):
 
     # URL: https://careers-{company}.icims.com/jobs/search?ss
 
     return slug, []
+
 
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
@@ -401,9 +417,11 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
 
     return active_companies, all_jobs
 
+
 # ============================================================
 # Helper Functions
 # ============================================================
+
 
 def is_recruiter_company(slug):
     slug = slug.lower()
@@ -413,6 +431,7 @@ def is_recruiter_company(slug):
         return True
 
     return False
+
 
 def clean_job_data(jobs):
     """Remove invalid/useless job entries."""
@@ -451,6 +470,7 @@ def clean_job_data(jobs):
 
     return cleaned
 
+
 def job_tier_classification(title):
     """Classify job tier using weighted keyword scoring."""
 
@@ -460,42 +480,36 @@ def job_tier_classification(title):
     # Weights: positive = senior, negative = junior
     keywords = {
         # Strong senior indicators
-        r"\b(?:chief|cto|ceo|cfo|vp|vice president|director)\b": 50, # chief, cto, ceo, cfo, vp, vice president, director
-        r"\b(?:principal|distinguished|fellow)\b": 40, # principal, distinguished, fellow
-        r"\b(?:staff|lead|head of)\b": 30, # staff, lead, head of
-        r"\b(?:senior|sr\.?)\b": 20, # senior, sr.
-        r"\b(?:architect|manager)\b": 15, # architect, manager
+        r"\b(?:chief|cto|ceo|cfo|vp|vice president|director)\b": 50,  # chief, cto, ceo, cfo, vp, vice president, director
+        r"\b(?:principal|distinguished|fellow)\b": 40,  # principal, distinguished, fellow
+        r"\b(?:staff|lead|head of)\b": 30,  # staff, lead, head of
+        r"\b(?:senior|sr\.?)\b": 20,  # senior, sr.
+        r"\b(?:architect|manager)\b": 15,  # architect, manager
         r"\b(?:iii|iv|v|vi)\b": 15,  # Roman numerals, i.e. III, IV, V, VI for levels
-        r"\blevel\s*[4-9]\b": 15, # e.g. Level 4, Level 5, Level 6, Level 7, Level 8, Level 9
-        r"\bengr?\s*[4-6]\b": 15, # e.g. Engr 4, Engr 5, Engr 6
+        r"\blevel\s*[4-9]\b": 15,  # e.g. Level 4, Level 5, Level 6, Level 7, Level 8, Level 9
+        r"\bengr?\s*[4-6]\b": 15,  # e.g. Engr 4, Engr 5, Engr 6
         r"\b(?:counsel|of\s*counsel)\b": 20,  # senior attorney
-        
         r"\b(?:attending|charge)\b": 20,  # attending physician, charge nurse = senior
-
-        
         # Weak senior indicators
-        r"\b(?:ii|2)\b": 5, # level II or 2
-        r"\blevel\s*3\b": 5, # level 3
-        
+        r"\b(?:ii|2)\b": 5,  # level II or 2
+        r"\blevel\s*3\b": 5,  # level 3
         # Entry-level indicators
-        r"\b(?:associate)\b": -10, # associate
-        r"\b(?:junior|jr\.?)\b": -20, # junior, jr.
-        r"\b(?:trainee|graduate|new\s*grad)\b": -25, # trainee, graduate, new grad
-        r"\bentry[\s-]?level\b": -25, # entry-level
+        r"\b(?:associate)\b": -10,  # associate
+        r"\b(?:junior|jr\.?)\b": -20,  # junior, jr.
+        r"\b(?:trainee|graduate|new\s*grad)\b": -25,  # trainee, graduate, new grad
+        r"\bentry[\s-]?level\b": -25,  # entry-level
         r"\b(?:i|1)\b(?!\s*-|\d)": -15,  # "I" or "1" but not "1-2" or "10"
-        r"\b(?:trainee|graduate|new\s*grad)\b": -25, # trainee, graduate, new grad
+        r"\b(?:trainee|graduate|new\s*grad)\b": -25,  # trainee, graduate, new grad
         r"\b(?:paralegal|clerk)\b": -15,  # entry-level legal
         r"\b(?:resident|clinical\s*fellow)\b": -15,  # medical residency = entry-ish
         r"\b(?:aide|assistant|tech)\b": -10,  # nurse aide, medical assistant
-        
         # Intern (heavily weighted)
-        r"\bintern(?:ship)?\b": -100, # intern or internship
-        
+        r"\bintern(?:ship)?\b": -100,  # intern or internship
     }
 
     # Calculate score
     for pattern, weight in keywords.items():
-        if re.search(pattern, title_lower): # if pattern matches
+        if re.search(pattern, title_lower):  # if pattern matches
             score += weight
 
     # tiers
@@ -508,9 +522,11 @@ def job_tier_classification(title):
     else:
         return "mid"
 
+
 # ============================================================
 # SAVE RESULTS
 # ============================================================
+
 
 def save_results(all_companies, active_companies, all_jobs):
     """Save all data to JSON files."""
@@ -575,9 +591,11 @@ def save_results(all_companies, active_companies, all_jobs):
 
     print()
 
+
 # ============================================================
 # MAIN
 # ============================================================
+
 
 def main():
     print("\n" + "=" * 80)
