@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="script.js" defer></script>
+    <script type="module" src="js/app.js" defer></script>
 </head>
 
 <body>
@@ -76,6 +76,11 @@
                                     <option value="senior">Senior</option>
                                 </select>
                             </div>
+                            <div class="col-12 col-md-6">
+                                <label for="filter-exclude" class="form-label">Exclude Keywords</label>
+                                <input type="text" id="filter-exclude" class="form-control"
+                                    placeholder="e.g., senior, staff, lead">
+                            </div>
                             <div class="col-12">
                                 <div class="form-check mt-2">
                                     <input class="form-check-input" type="checkbox" id="filter-hide-recruiters" checked>
@@ -136,6 +141,20 @@
                 <p class="mt-3">Loading job listings...</p>
             </div>
 
+            <!-- Sort bar - mobile only -->
+            <div class="mobile-sort-bar d-none">
+                <select id="mobile-sort-key" class="form-select form-select-sm">
+                    <option value="">Sort by...</option>
+                    <option value="company">Company</option>
+                    <option value="title">Title</option>
+                    <option value="location">Location</option>
+                    <option value="ats">ATS</option>
+                </select>
+                <button id="mobile-sort-dir" class="btn btn-sm btn-outline-secondary">
+                    A-Z
+                </button>
+            </div>
+
             <!-- Job Table -->
             <div id="results" style="display:none;">
                 <div class="table-responsive">
@@ -143,7 +162,6 @@
                         <caption class="visually-hidden">List of Job Openings</caption>
                         <thead>
                             <tr>
-                                <th>Status</th>
                                 <th>Company</th>
                                 <th>Title</th>
                                 <th>Location</th>
@@ -154,7 +172,7 @@
                         </thead>
                         <tbody id="jobs-body">
                             <tr>
-                                <td colspan="7" class="text-center">No jobs found</td>
+                                <td colspan="6" class="text-center">No jobs found</td>
                             </tr>
                         </tbody>
                     </table>

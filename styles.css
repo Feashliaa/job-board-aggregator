@@ -382,6 +382,9 @@ h2.card-title {
     margin-top: 10px;
 }
 
+.mobile-sort-bar {
+    display: none;
+}
 
 /* ========================================
    MOBILE CARD MODE
