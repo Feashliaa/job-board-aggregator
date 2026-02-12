@@ -596,8 +596,6 @@ def save_results(all_companies, active_companies, all_jobs):
         json.dump(all_jobs, f, indent=2)
     print(f"All jobs: {all_jobs_file} ({len(all_jobs):,} jobs)")
     
-    
-    
     # Build slim version for frontend
     FRONTEND_FIELDS = {
         'title', 'company', 'location', 'url',
@@ -612,17 +610,34 @@ def save_results(all_companies, active_companies, all_jobs):
     # Pre-sort by company name for better frontend caching
     slim_jobs.sort(key=lambda x: (x.get('company', '').lower(), x.get('title', '').lower()))
 
-    # Save compressed version for GitHub Pages
-    compressed_file = os.path.join(OUTPUT_DIR, "all_jobs.json.gz")
-    with gzip.open(compressed_file, "wt", encoding="utf-8") as f:
-        json.dump(slim_jobs, f, indent=0)
+    # Remove old chunk files to prevent confusion and save space
+    for old_chunk in os.listdir(OUTPUT_DIR):
+        if old_chunk.startswith("jobs_chunk_") and old_chunk.endswith(".json.gz"):
+            os.remove(os.path.join(OUTPUT_DIR, old_chunk))
 
-    # Check compression ratio
-    original_size = os.path.getsize(all_jobs_file) / (1024 * 1024)
-    compressed_size = os.path.getsize(compressed_file) / (1024 * 1024)
-    print(
-        f"Compressed: {compressed_file} ({compressed_size:.1f}MB, {compressed_size/original_size*100:.1f}% of original)"
-    )
+    # Split into chunks of ~25k for frontend loading (with gzip compression)
+    CHUNK_SIZE = 25_000
+
+    chunks = [slim_jobs[i:i + CHUNK_SIZE] for i in range(0, len(slim_jobs), CHUNK_SIZE)]
+
+    chunk_filenames = []
+    for idx, chunk in enumerate(chunks):
+        chunk_file = os.path.join(OUTPUT_DIR, f"jobs_chunk_{idx}.json.gz")
+        with gzip.open(chunk_file, "wt", encoding="utf-8") as f:
+            json.dump(chunk, f, indent=0)
+        chunk_filenames.append(f"jobs_chunk_{idx}.json.gz")
+        size_mb = os.path.getsize(chunk_file) / (1024 * 1024)
+        print(f"  Chunk {idx}: {len(chunk):,} jobs ({size_mb:.1f}MB)")
+
+    # Manifest so the frontend knows what to load
+    manifest = {
+        "chunks": chunk_filenames,
+        "totalJobs": len(slim_jobs),
+        "last_updated": timestamp,
+    }
+    manifest_file = os.path.join(OUTPUT_DIR, "jobs_manifest.json")
+    with open(manifest_file, "w") as f:
+        json.dump(manifest, f, indent=2)
 
     recruiter_jobs = sum(1 for job in all_jobs if job.get("is_recruiter"))
 

@@ -5,7 +5,7 @@
 import { showToast, showLoadingToast, setUIBusy, updateFABVisibility } from './ui-utilities.js';
 import { saveApplicationStatus } from './storage.js';
 import { createColumns } from './columns.js';
-import { fetchJobs, updateStats } from './jobs-loader.js';
+import { loadJobsProgressive, updateStats } from './jobs-loader.js';
 import { filterJobs, clearFilterInputs } from './filters.js';
 import { render } from './renderer.js';
 import { updateURL, loadFromURL } from './url-state.js';
@@ -43,22 +43,14 @@ class JobBoardApp {
         const resultsEl = document.getElementById('results');
 
         try {
-            const data = await fetchJobs();
+            await loadJobsProgressive(this);
 
-            // Pre-sort by company name once on load
-            applySorting(data, { key: 'company', direction: 'asc' });
-
-            this.allJobs = data;
-            this.filteredJobs = data;
             this.sortState = { key: null, direction: 'asc' };
-
-            console.log(`Loaded ${data.length} jobs`);
-            updateStats(data);
 
             loadingEl.style.display = 'none';
             resultsEl.style.display = 'block';
 
-            this.render();
+            console.log(`Loaded ${this.allJobs.length} jobs (more loading...)`);
 
         } catch (error) {
             console.error('Error loading jobs:', error);

@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/all_jobs.json.gz data/metadata.json
+          git add data/jobs_chunk_*.json.gz data/jobs_manifest.json data/metadata.json
           git diff --staged --quiet || git commit -m "Automated scrape + merge - $(date +'%Y-%m-%d %H:%M UTC')"
           git push
 
@@ -57,8 +57,7 @@ jobs:
             **Total Jobs:** ${{ steps.metadata.outputs.jobs }}  
             **Active Companies:** ${{ steps.metadata.outputs.companies }}  
             **Last Updated:** ${{ steps.metadata.outputs.date }}
-
-            The compressed job data is available in the repo at `data/all_jobs.json.gz`
+            The chunked job data is available in the repo at `data/jobs_chunk_*.json.gz`
           files: |
             scripts/output/all_jobs.json
             scripts/output/active_companies.json
