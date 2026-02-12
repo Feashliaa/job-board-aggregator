@@ -55,6 +55,7 @@ scripts/output/
 !data/lever_companies.json
 
 !data/metadata.json
+!data/jobs_manifest.json
 
 # Allow gzip files in data/ only
 !data/*.gz

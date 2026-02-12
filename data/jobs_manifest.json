@@ -1,0 +1,18 @@
+{
+  "chunks": [
+    "jobs_chunk_0.json.gz",
+    "jobs_chunk_1.json.gz",
+    "jobs_chunk_2.json.gz",
+    "jobs_chunk_3.json.gz",
+    "jobs_chunk_4.json.gz",
+    "jobs_chunk_5.json.gz",
+    "jobs_chunk_6.json.gz",
+    "jobs_chunk_7.json.gz",
+    "jobs_chunk_8.json.gz",
+    "jobs_chunk_9.json.gz",
+    "jobs_chunk_10.json.gz",
+    "jobs_chunk_11.json.gz"
+  ],
+  "totalJobs": 284575,
+  "last_updated": "2026-02-12T04:34:14.707226Z"
+}
