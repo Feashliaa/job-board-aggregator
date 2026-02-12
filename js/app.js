@@ -91,6 +91,20 @@ class JobBoardApp {
         this.render();
     }
 
+    refilter() {
+        if (this.hasActiveFilters()) {
+            this.applyFilters();
+        } else {
+            this.filteredJobs = this.allJobs;
+        }
+    }
+
+    hasActiveFilters() {
+        const f = this.filterState;
+        return f.title || f.company || f.location || f.status ||
+            f.ats || f.skill_level || f.remoteOnly;
+    }
+
     // ── Sorting ──────────────────────────────────────────────
     handleSort(key) {
         if (this.sortState.key === key) {

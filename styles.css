@@ -91,7 +91,7 @@ h2.card-title {
    ======================================== */
 
 .filter-panel {
-    border-radius: 12px;
+    border-radius: 12px !important;
     overflow: hidden;
 }
 
@@ -104,8 +104,8 @@ h2.card-title {
 }
 
 .filter-toggle.open {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .filter-controls {
@@ -410,6 +410,9 @@ h2.card-title {
         align-items: center;
         gap: 20px;
         width: 100%;
+
+        /* give the top some breathing room from the caption */
+        padding-top: 12px;
     }
 
     .job-table th,
@@ -439,33 +442,15 @@ h2.card-title {
         background: var(--card-bg);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        border: 1px solid var(--card-border);
+        border: 1px solid rgba(0, 115, 177, 0.3);
         border-radius: 18px;
         padding: 18px 20px;
         width: 95%;
         max-width: 620px;
-        box-shadow: var(--shadow-sm);
-        transition: all 0.3s ease;
+        box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+        transform: translateY(-4px) scale(1.005);
         position: relative;
         overflow: hidden;
-    }
-
-    .job-table tr::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(135deg, rgba(0, 115, 177, 0.05), transparent 50%);
-        pointer-events: none;
-        border-radius: 18px;
-    }
-
-    .job-table tr:hover {
-        transform: translateY(-4px) scale(1.005);
-        box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
-        border-color: rgba(0, 115, 177, 0.3);
     }
 
     /* Card rows */

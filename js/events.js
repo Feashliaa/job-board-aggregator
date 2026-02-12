@@ -107,4 +107,15 @@ export function setupEventListeners(app) {
             }
         });
     });
+
+    const filterCollapse = document.getElementById('filter-controls');
+    const filterToggle = document.querySelector('.filter-toggle');
+
+    filterCollapse.addEventListener('show.bs.collapse', () => {
+        filterToggle.classList.add('open');
+    });
+
+    filterCollapse.addEventListener('hidden.bs.collapse', () => {
+        filterToggle.classList.remove('open');
+    });
 }

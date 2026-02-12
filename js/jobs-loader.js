@@ -46,7 +46,7 @@ export async function loadJobsProgressive(app, basePath = './data') {
     };
 
     manifest.chunks.slice(1).forEach(chunk => {
-        worker.postMessage(`${basePath}/${chunk}`);
+        worker.postMessage(`/${basePath}/${chunk}`);
     });
 }
 
