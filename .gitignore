@@ -42,6 +42,7 @@ backup.sql
 refresh-local.bat
 fetch_script.js
 test.py
+js/old_script.js
 
 # Scraper output 
 scripts/output/
