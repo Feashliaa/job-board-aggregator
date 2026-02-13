@@ -2,7 +2,7 @@
 // COLUMN CONFIGURATION
 // ============================================================
 
-import { escape } from './ui-utilities.js';
+import { escape } from './ui_utils.js';
 import { loadApplicationStatus } from './storage.js';
 
 /** Build and return the column definitions for the job table */

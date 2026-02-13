@@ -34,7 +34,7 @@ export async function loadJobsProgressive(app, basePath = './data') {
     if (manifest.chunks.length <= 1) return;
 
     // Remaining chunks via web worker
-    const worker = new Worker('./js/chunkWorker.js');
+    const worker = new Worker('./js/chunk_worker.js');
     let pending = manifest.chunks.length - 1;
 
     worker.onmessage = ({ data: jobs }) => {

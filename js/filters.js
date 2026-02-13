@@ -2,7 +2,7 @@
 // FILTERING
 // ============================================================
 
-import { escapeRegex } from './ui-utilities.js';
+import { escapeRegex } from './ui_utils.js';
 import { loadApplicationStatus } from './storage.js';
 
 /**
@@ -53,7 +53,7 @@ export function filterJobs(allJobs) {
         if (f.hideRecruiters && job.is_recruiter === true) return false;
 
         // Application status
-        const url = job.absolute_url || job.url;
+        const url = job.url;
         const jobStatus = apps[url]?.status || '';
 
         if (f.hideApplied && (jobStatus === 'applied' || jobStatus === 'ignored')) return false;

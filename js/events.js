@@ -2,7 +2,7 @@
 // EVENT LISTENERS
 // ============================================================
 
-import { escape, showToast, updateFABVisibility } from './ui-utilities.js';
+import { escape, showToast, updateFABVisibility } from './ui_utils.js';
 import { saveApplicationStatus, deleteApplicationStatus } from './storage.js';
 
 const ACTION_CHECKBOXES = ['.save-checkbox', '.apply-checkbox', '.ignored-checkbox'];

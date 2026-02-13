@@ -2,13 +2,13 @@
 // JOB BOARD APP 
 // ============================================================
 
-import { showToast, showLoadingToast, setUIBusy, updateFABVisibility } from './ui-utilities.js';
+import { showToast, showLoadingToast, setUIBusy, updateFABVisibility } from './ui_utils.js';
 import { saveApplicationStatus } from './storage.js';
 import { createColumns } from './columns.js';
-import { loadJobsProgressive, updateStats } from './jobs-loader.js';
+import { loadJobsProgressive, updateStats } from './jobs_loader.js';
 import { filterJobs, clearFilterInputs } from './filters.js';
 import { render } from './renderer.js';
-import { updateURL, loadFromURL } from './url-state.js';
+import { updateURL, loadFromURL } from './url_state.js';
 import { setupEventListeners } from './events.js';
 import { applySorting } from './sorting.js';
 
