@@ -22,10 +22,14 @@ export async function fetchAndDecompress(url) {
  * @param {string} basePath - Directory containing manifest and chunks
  */
 export async function loadJobsProgressive(app, basePath = './data') {
-    const manifest = await fetch(`${basePath}/jobs_manifest.json`).then(r => r.json());
+    const base_url = new URL(basePath, location.href).href;
+    const manifest = await fetch(`${base_url}/jobs_manifest.json`).then(res => {
+        if (!res.ok) throw new Error('Failed to load jobs manifest');
+        return res.json();
+    });
 
     // First chunk on main thread — renders immediately
-    const firstChunk = await fetchAndDecompress(`${basePath}/${manifest.chunks[0]}`);
+    const firstChunk = await fetchAndDecompress(`${base_url}/${manifest.chunks[0]}`);
     app.allJobs = firstChunk;
     app.filteredJobs = firstChunk;
     updateStats(app.allJobs, manifest.last_updated);
@@ -46,7 +50,7 @@ export async function loadJobsProgressive(app, basePath = './data') {
     };
 
     manifest.chunks.slice(1).forEach(chunk => {
-        worker.postMessage(`/${basePath}/${chunk}`);
+        worker.postMessage(`${base_url}/${chunk}`);
     });
 }
 
