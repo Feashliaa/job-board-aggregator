@@ -8,14 +8,14 @@ Automated job board aggregating 200,000+ positions from 5,000+ companies across 
 
 ## Features
 
-- **Multi-platform scraping** : Greenhouse, Lever, Ashby, BambooHR, and Workday APIs scraped in parallel using `concurrent.futures`
-- **Progressive loading** : Chunked gzip data loaded via Web Workers for fast initial render
-- **Advanced filtering** : Filter by title, company, location, ATS platform, experience level, and exclude keywords. Toggle remote-only, hide recruiter postings, or hide already-applied jobs
-- **Job tier classification** : Automatic skill-level tagging (intern/entry/mid/senior) using weighted keyword scoring on job titles
-- **Application tracking** : Mark jobs as saved, applied, or ignored with batch update support via localStorage
-- **URL state sync** : Filter/sort/page state persisted in the URL for shareable/bookmarkable searches
-- **Responsive design** : Desktop table view with card-based mobile layout
-- **Automated pipeline** : Daily GitHub Actions workflow: scrape → merge with existing data → commit chunks → create release
+- **Multi-platform scraping**: Greenhouse, Lever, Ashby, BambooHR, and Workday APIs scraped in parallel using `concurrent.futures`
+- **Progressive loading**: Chunked gzip data loaded via Web Workers for fast initial render
+- **Advanced filtering**: Filter by title, company, location, ATS platform, experience level, and exclude keywords. Toggle remote-only, hide recruiter postings, or hide already-applied jobs
+- **Job tier classification**: Automatic skill-level tagging (intern/entry/mid/senior) using weighted keyword scoring on job titles
+- **Application tracking**: Mark jobs as saved, applied, or ignored with batch update support via localStorage
+- **URL state sync**: Filter/sort/page state persisted in the URL for shareable/bookmarkable searches
+- **Responsive design**: Desktop table view with card-based mobile layout
+- **Automated pipeline**: Daily GitHub Actions workflow: scrape → merge with existing data → commit chunks → create release
 
 ## Tech Stack
 
@@ -55,12 +55,12 @@ data/
 
 ## Data Pipeline
 
-1. **Scrape** : `scraper.py` fetches jobs from all five ATS APIs concurrently (30 workers per platform, 10 for BambooHR to respect rate limits)
-2. **Classify** : Each job is tagged with a skill level based on title keywords and flagged if posted by a recruiting agency
-3. **Clean** : Jobs missing titles, URLs, or company info are dropped
-4. **Chunk** : Results are split into ~25k-job gzipped chunks with a manifest file
-5. **Merge** : `merge_data.py` deduplicates against existing data and prunes jobs older than 30 days
-6. **Deploy** : GitHub Actions commits updated chunks and creates a tagged release
+1. **Scrape**: `scraper.py` fetches jobs from all five ATS APIs concurrently (30 workers per platform, 10 for BambooHR to respect rate limits)
+2. **Classify**: Each job is tagged with a skill level based on title keywords and flagged if posted by a recruiting agency
+3. **Clean**: Jobs missing titles, URLs, or company info are dropped
+4. **Chunk**: Results are split into ~25k-job gzipped chunks with a manifest file
+5. **Merge**: `merge_data.py` deduplicates against existing data and prunes jobs older than 30 days
+6. **Deploy**: GitHub Actions commits updated chunks and creates a tagged release
 
 ## Local Development
 
