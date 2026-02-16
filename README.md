@@ -75,7 +75,7 @@ To run the scraper locally:
 
 ```bash
 cd scripts
-pip install requests
+pip install -r requirements.txt
 python scraper.py --source manual
 ```
 
