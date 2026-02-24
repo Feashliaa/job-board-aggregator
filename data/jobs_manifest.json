@@ -17,8 +17,9 @@
     "jobs_chunk_14.json.gz",
     "jobs_chunk_15.json.gz",
     "jobs_chunk_16.json.gz",
-    "jobs_chunk_17.json.gz"
+    "jobs_chunk_17.json.gz",
+    "jobs_chunk_18.json.gz"
   ],
-  "totalJobs": 446488,
-  "last_updated": "2026-02-23T01:57:26.699379Z"
+  "totalJobs": 461794,
+  "last_updated": "2026-02-24T01:44:37.039936Z"
 }
