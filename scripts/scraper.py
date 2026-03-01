@@ -21,6 +21,7 @@ ASHBY_FILE = os.path.join(ROOT_DIR, "data", "ashby_companies.json")
 BAMBOOHR_FILE = os.path.join(ROOT_DIR, "data", "bamboohr_companies.json")
 WORKDAY_FILE = os.path.join(ROOT_DIR, "data", "workday_companies.json")
 LEVER_FILE = os.path.join(ROOT_DIR, "data", "lever_companies.json")
+WORKABLE_FILE = os.path.join(ROOT_DIR, "data", "workable_companies.json")
 
 ICIMS_FILE = os.path.join(ROOT_DIR, "data", "icims_companies.json")
 
@@ -156,7 +157,7 @@ def fetch_company_jobs_greenhouse(slug):
                 return slug, normalized
 
     except Exception as e:
-        print(f"Error fetching Greenhouse for {slug}: {e}") 
+        print(f"Error fetching Greenhouse for {slug}: {e}")
     return slug, []
 
 
@@ -191,7 +192,7 @@ def fetch_company_jobs_ashby(slug):
                             "company_slug": slug,
                             "title": job.get("title", ""),
                             "location": job.get("locationName", "Not specified")[:50],
-                            "url": f"https://jobs.ashbyhq.com/{slug}/jobs/{job.get('id')}",
+                            "url": f"https://jobs.ashbyhq.com/{slug}/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Ashby",
                             "skill_level": job_tier_classification(
@@ -218,29 +219,37 @@ def fetch_company_jobs_bamboohr(slug):
     }
 
     try:
-        response = requests.get(url, timeout=30, headers=headers,)
+        response = requests.get(
+            url,
+            timeout=30,
+            headers=headers,
+        )
 
         if response.status_code == 200:
-            
+
             if "application/json" not in response.headers.get("Content-Type", ""):
-                print(f"Unexpected content type for {slug}: {response.headers.get('Content-Type')}")
+                print(
+                    f"Unexpected content type for {slug}: {response.headers.get('Content-Type')}"
+                )
                 return slug, []
-            
+
             data = response.json()
             jobs = data.get("result", [])
 
             if jobs:
                 normalized = []
                 for job in jobs:
-                    
+
                     loc = job.get("location") or {}
                     if isinstance(loc, dict):
                         city = loc.get("city", "")
                         state = loc.get("state", "")
-                        location = ", ".join(filter(None, [city, state])) or "Not specified"
+                        location = (
+                            ", ".join(filter(None, [city, state])) or "Not specified"
+                        )
                     else:
                         location = str(loc) if loc else "Not specified"
-                        
+
                     normalized.append(
                         {
                             "company": slug,
@@ -395,6 +404,72 @@ def fetch_company_jobs_workday(slug):
         return slug, []
 
 
+def fetch_company_jobs_workable(slug):
+    # URL: "https://apply.workable.com/api/v3/accounts/{company}/jobs"
+
+    url = f"https://apply.workable.com/api/v3/accounts/{slug}/jobs"
+    headers = {
+        "Content-Type": "application/json",
+        "Referer": "https://apply.workable.com/{slug}/",
+        "Origin": "https://apply.workable.com",
+        "User-Agent": random.choice(USER_AGENTS),
+    }
+
+    # response format: {"total":6,"results":[{"id":5542984,"shortcode":"72D952483B","title":"Senior Systems Engineer (Linux and Storage)","remote":false
+    # {"location": {"country": "Greece", "countryCode": "GR","city": "Athens", "region": "Attica"}}
+
+    while True:
+        try:
+            payload = {
+                "query": "",
+                "location": [],
+                "department": [],
+                "worktype": [],
+                "remote": [],
+            }
+            response = requests.post(url, json=payload, headers=headers)
+
+            if response.status_code == 200:
+                data = response.json()
+                jobs = data.get("results", [])
+
+                normalized = []
+                for job in jobs:
+                    location_info = job.get("location") or {}
+                    location = (
+                        ", ".join(
+                            filter(
+                                None,
+                                [
+                                    location_info.get("city", ""),
+                                    location_info.get("region", ""),
+                                    location_info.get("country", ""),
+                                ],
+                            )
+                        )
+                        or "Not specified"
+                    )
+
+                    normalized.append(
+                        {
+                            "company": slug,
+                            "company_slug": slug,
+                            "title": job.get("title"),
+                            "location": location[:50],
+                            "url": f"https://apply.workable.com/{slug}/jobs/{job.get('shortcode')}",
+                            "is_recruiter": is_recruiter_company(slug),
+                            "ats": "Workable",
+                            "skill_level": job_tier_classification(
+                                job.get("title", "")
+                            ),
+                            **get_job_metadata(),
+                        }
+                    )
+                return slug, normalized
+        except Exception:
+            return slug, []
+
+
 def fetch_company_jobs_icims(slug):
 
     # URL: https://careers-{company}.icims.com/jobs/search?ss
@@ -411,7 +486,7 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
     all_jobs = []
     active_companies = {}
     failed = 0
-    
+
     MAX_WORKERS = {
         "bamboohr": 10,
         "greenhouse": 30,
@@ -419,20 +494,18 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
         "lever": 30,
         "workday": 30,
         "icims": 30,
+        "workable": 30,
     }
-    
+
     platform_lower = platform.lower()
-    
+
     max_workers = MAX_WORKERS.get(platform_lower, 30)
-    
+
     session = None
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
 
-        futures = {
-            executor.submit(fetcher, slug): slug
-            for slug in companies
-        }
+        futures = {executor.submit(fetcher, slug): slug for slug in companies}
 
         for i, future in enumerate(as_completed(futures), 1):
             slug, jobs = future.result()
@@ -595,20 +668,28 @@ def save_results(all_companies, active_companies, all_jobs):
     with open(all_jobs_file, "w") as f:
         json.dump(all_jobs, f, indent=2)
     print(f"All jobs: {all_jobs_file} ({len(all_jobs):,} jobs)")
-    
+
     # Build slim version for frontend
     FRONTEND_FIELDS = {
-        'title', 'company', 'location', 'url',
-        'ats', 'skill_level', 'is_recruiter', 'workplaceType'
+        "title",
+        "company",
+        "location",
+        "url",
+        "ats",
+        "skill_level",
+        "is_recruiter",
+        "workplaceType",
+        "scraped_at",
     }
-    
+
     slim_jobs = [
-        {k: job.get(k) for k in FRONTEND_FIELDS if k in job}
-        for job in all_jobs
+        {k: job.get(k) for k in FRONTEND_FIELDS if k in job} for job in all_jobs
     ]
-    
+
     # Pre-sort by company name for better frontend caching
-    slim_jobs.sort(key=lambda x: (x.get('company', '').lower(), x.get('title', '').lower()))
+    slim_jobs.sort(
+        key=lambda x: (x.get("company", "").lower(), x.get("title", "").lower())
+    )
 
     # Remove old chunk files to prevent confusion and save space
     for old_chunk in os.listdir(OUTPUT_DIR):
@@ -618,7 +699,9 @@ def save_results(all_companies, active_companies, all_jobs):
     # Split into chunks of ~25k for frontend loading (with gzip compression)
     CHUNK_SIZE = 25_000
 
-    chunks = [slim_jobs[i:i + CHUNK_SIZE] for i in range(0, len(slim_jobs), CHUNK_SIZE)]
+    chunks = [
+        slim_jobs[i : i + CHUNK_SIZE] for i in range(0, len(slim_jobs), CHUNK_SIZE)
+    ]
 
     chunk_filenames = []
     for idx, chunk in enumerate(chunks):
@@ -695,11 +778,10 @@ def main():
     active_ashby, jobs_ashby = fetch_all_jobs(
         ashby_companies, fetch_company_jobs_ashby, "ASHBY"
     )
-
-    (
-        active_bamboohr,
-        jobs_bamboohr,
-    ) = fetch_all_jobs(bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR")
+    
+    active_bamboohr, jobs_bamboohr = fetch_all_jobs(
+        bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR"
+    )
 
     active_lever, jobs_lever = fetch_all_jobs(
         lever_companies, fetch_company_jobs_lever, "LEVER"
@@ -724,7 +806,13 @@ def main():
         **active_lever,
         **active_workday,
     }
-    all_jobs = jobs_greenhouse + jobs_ashby + jobs_bamboohr + jobs_lever + jobs_workday
+    all_jobs = (
+        jobs_greenhouse
+        + jobs_ashby
+        + jobs_bamboohr
+        + jobs_lever
+        + jobs_workday
+    )
 
     save_results(all_companies, all_active_companies, all_jobs)
 

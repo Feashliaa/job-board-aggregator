@@ -1,10 +1,22 @@
 import json
 import gzip
 import os
+import re
 from pathlib import Path
 from datetime import datetime, timezone
 
+
 CHUNK_SIZE = 25_000
+
+def get_dedup_key(job):
+    url = job.get("url", "")
+    if job.get("ats") == "Workday":
+        # Extract numeric job ID from URL, fall back to url if not found
+        match = re.search(r'/jobs/(\d+)', url)
+        if match:
+            company = job.get("company", "")
+            return f"workday:{company}:{match.group(1)}"
+    return url
 
 def load_chunks(directory):
     """Load all jobs from chunked gzip files via manifest."""
@@ -68,8 +80,8 @@ def merge_job_data():
     stale_count = 0
 
     for job in existing_jobs:
-        url = job.get("url")
-        if not url:
+        key = get_dedup_key(job)
+        if not key:
             continue
         scraped = job.get("scraped_at")
         if scraped:
@@ -77,22 +89,22 @@ def merge_job_data():
                 scraped_date = datetime.fromisoformat(scraped.replace("Z", ""))
                 age_days = (datetime.now(timezone.utc) - scraped_date).days
                 if age_days <= 30:
-                    merged[url] = job
+                    merged[key] = job
                 else:
                     stale_count += 1
             except Exception:
-                merged[url] = job
+                merged[key] = job
         else:
-            merged[url] = job
+            merged[key] = job
 
     if stale_count > 0:
         print(f"Dropped {stale_count:,} stale jobs (>30 days old)")
 
     # New scrape always wins on duplicates
     for job in new_jobs:
-        url = job.get("url")
-        if url:
-            merged[url] = job
+        key = get_dedup_key(job)
+        if key:
+            merged[key] = job
 
     final_jobs = list(merged.values())
     print(f"Merged result: {len(final_jobs):,} jobs")
