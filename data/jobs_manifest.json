@@ -11,18 +11,8 @@
     "jobs_chunk_8.json.gz",
     "jobs_chunk_9.json.gz",
     "jobs_chunk_10.json.gz",
-    "jobs_chunk_11.json.gz",
-    "jobs_chunk_12.json.gz",
-    "jobs_chunk_13.json.gz",
-    "jobs_chunk_14.json.gz",
-    "jobs_chunk_15.json.gz",
-    "jobs_chunk_16.json.gz",
-    "jobs_chunk_17.json.gz",
-    "jobs_chunk_18.json.gz",
-    "jobs_chunk_19.json.gz",
-    "jobs_chunk_20.json.gz",
-    "jobs_chunk_21.json.gz"
+    "jobs_chunk_11.json.gz"
   ],
-  "totalJobs": 540143,
-  "last_updated": "2026-03-02T01:45:19.215307Z"
+  "totalJobs": 279572,
+  "last_updated": "2026-03-02T19:15:58.981431Z"
 }
