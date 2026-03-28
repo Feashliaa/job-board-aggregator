@@ -17,7 +17,7 @@ class JobBoardApp {
         this.allJobs = [];
         this.filteredJobs = [];
         this.currentPage = 1;
-        this.perPage = window.innerWidth <= 900 ? 25 : 100;
+        this.perPage = window.innerWidth <= 900 ? 25 : 50;
         this.sortState = { key: null, direction: 'asc' };
 
         this.filterState = {
