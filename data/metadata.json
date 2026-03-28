@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-27T01:50:20.366651Z",
+  "last_updated": "2026-03-28T01:38:04.069327Z",
   "total_companies": 12191,
-  "active_companies": 7393,
-  "total_jobs": 636035,
-  "recruiter_jobs": 3903,
+  "active_companies": 7673,
+  "total_jobs": 650819,
+  "recruiter_jobs": 4089,
   "source_type": "automated",
   "platforms": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api"
 }
