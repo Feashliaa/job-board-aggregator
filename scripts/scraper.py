@@ -159,45 +159,64 @@ def fetch_company_jobs_greenhouse(slug):
 
 def fetch_company_jobs_ashby(slug):
     try:
-        url = f"https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+        url = "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
         payload = {
             "operationName": "ApiJobBoardWithTeams",
             "variables": {"organizationHostedJobsPageName": slug},
             "query": "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName } } }",
         }
-
         headers = {
             "Content-Type": "application/json",
             "Accept": "application/json",
-            "User-Agent": "Mozilla/5.0 (compatible; JobFetcher/1.0)",
+            "User-Agent": random.choice(USER_AGENTS),
         }
 
-        response = requests.post(url, json=payload, headers=headers, timeout=30)
+        # Jitter before request to spread out concurrent workers
+        time.sleep(random.uniform(0.3, 1.2))
 
-        if response.status_code == 200:
-            data = response.json()
-            jobs = (data.get("data") or {}).get("jobBoard") or {}
-            jobs = jobs.get("jobPostings") or []
+        max_retries = 2
+        for attempt in range(max_retries + 1):
+            response = requests.post(url, json=payload, headers=headers, timeout=30)
 
-            if jobs:
-                normalized = []
-                for job in jobs:
-                    normalized.append(
-                        {
-                            "company": slug,
-                            "company_slug": slug,
-                            "title": job.get("title", ""),
-                            "location": job.get("locationName", "Not specified")[:50],
-                            "url": f"https://jobs.ashbyhq.com/{slug}/{job.get('id')}",
-                            "is_recruiter": is_recruiter_company(slug),
-                            "ats": "Ashby",
-                            "skill_level": job_tier_classification(
-                                job.get("title", "")
-                            ),
-                            **get_job_metadata(),
-                        }
-                    )
-                return slug, normalized
+            if response.status_code == 200:
+                break
+            elif response.status_code in (429, 503, 502):
+                if attempt < max_retries:
+                    backoff = (2 ** attempt) + random.uniform(0.5, 1.5)
+                    print(f"  Ashby {slug}: {response.status_code}, retrying in {backoff:.1f}s")
+                    time.sleep(backoff)
+                    headers["User-Agent"] = random.choice(USER_AGENTS)
+                    continue
+            # Non-retryable status
+            return slug, []
+
+        if response.status_code != 200:
+            return slug, []
+
+        data = response.json()
+        jobs = (data.get("data") or {}).get("jobBoard") or {}
+        jobs = jobs.get("jobPostings") or []
+
+        if jobs:
+            normalized = []
+            for job in jobs:
+                normalized.append(
+                    {
+                        "company": slug,
+                        "company_slug": slug,
+                        "title": job.get("title", ""),
+                        "location": job.get("locationName", "Not specified")[:50],
+                        "url": f"https://jobs.ashbyhq.com/{slug}/{job.get('id')}",
+                        "is_recruiter": is_recruiter_company(slug),
+                        "ats": "Ashby",
+                        "skill_level": job_tier_classification(
+                            job.get("title", "")
+                        ),
+                        **get_job_metadata(),
+                    }
+                )
+            return slug, normalized
+
     except Exception as e:
         print(f"Error fetching Ashby for {slug}: {e}")
     return slug, []
@@ -480,7 +499,7 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
     MAX_WORKERS = {
         "bamboohr": 10,
         "greenhouse": 30,
-        "ashby": 30,
+        "ashby": 10,
         "lever": 30,
         "workday": 30,
         "icims": 30,
