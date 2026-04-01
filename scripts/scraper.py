@@ -68,7 +68,6 @@ USER_AGENTS = [
 # LOAD COMPANIES
 # ============================================================
 
-
 def load_companies(filepath):
     """Load companies from JSON file."""
     try:
@@ -79,7 +78,6 @@ def load_companies(filepath):
     except FileNotFoundError:
         print(f"File not found: {filepath}")
         return set()
-
 
 # ============================================================
 # VERIFY ACTIVE JOBS + FETCH ALL JOBS
@@ -114,7 +112,6 @@ def get_job_metadata():
         "scraped_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source": SOURCE_TYPE,
     }
-
 
 def fetch_company_jobs_greenhouse(slug):
     """Fetch all jobs for a company."""
@@ -160,7 +157,6 @@ def fetch_company_jobs_greenhouse(slug):
         print(f"Error fetching Greenhouse for {slug}: {e}")
     return slug, []
 
-
 def fetch_company_jobs_ashby(slug):
     try:
         url = f"https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
@@ -205,7 +201,6 @@ def fetch_company_jobs_ashby(slug):
     except Exception as e:
         print(f"Error fetching Ashby for {slug}: {e}")
     return slug, []
-
 
 def fetch_company_jobs_bamboohr(slug):
     """https://{slug}.bamboohr.com/careers
@@ -270,7 +265,6 @@ def fetch_company_jobs_bamboohr(slug):
         print(f"Error fetching BambooHR for {slug}: {e}")
     return slug, []
 
-
 def fetch_company_jobs_lever(slug):
     """https://api.lever.co/v0/postings/{slug}"""
 
@@ -304,7 +298,6 @@ def fetch_company_jobs_lever(slug):
     except Exception as e:
         print(f"Error fetching Lever for {slug}: {e}")
     return slug, []
-
 
 def fetch_company_jobs_workday(slug):
     """
@@ -403,7 +396,6 @@ def fetch_company_jobs_workday(slug):
     except Exception:
         return slug, []
 
-
 def fetch_company_jobs_workable(slug):
     # URL: "https://apply.workable.com/api/v3/accounts/{company}/jobs"
 
@@ -469,13 +461,11 @@ def fetch_company_jobs_workable(slug):
         except Exception:
             return slug, []
 
-
 def fetch_company_jobs_icims(slug):
 
     # URL: https://careers-{company}.icims.com/jobs/search?ss
 
     return slug, []
-
 
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
@@ -527,12 +517,9 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
 
     return active_companies, all_jobs
 
-
 # ============================================================
 # Helper Functions
 # ============================================================
-
-
 def is_recruiter_company(slug):
     slug = slug.lower()
 
@@ -541,7 +528,6 @@ def is_recruiter_company(slug):
         return True
 
     return False
-
 
 def clean_job_data(jobs):
     """Remove invalid/useless job entries."""
@@ -579,7 +565,6 @@ def clean_job_data(jobs):
                 print(f"    - {reason.replace('_', ' ').title()}: {count:,}")
 
     return cleaned
-
 
 def job_tier_classification(title):
     """Classify job tier using weighted keyword scoring."""
@@ -632,12 +617,9 @@ def job_tier_classification(title):
     else:
         return "mid"
 
-
 # ============================================================
 # SAVE RESULTS
 # ============================================================
-
-
 def save_results(all_companies, active_companies, all_jobs):
     """Save all data to JSON files."""
     print("=" * 80)
@@ -742,12 +724,9 @@ def save_results(all_companies, active_companies, all_jobs):
 
     print()
 
-
 # ============================================================
 # MAIN
 # ============================================================
-
-
 def main():
     print("\n" + "=" * 80)
     print("JOB BOARD AGGREGATOR")
