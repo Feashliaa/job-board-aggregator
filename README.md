@@ -1,6 +1,6 @@
 # Job Board Aggregator
 
-Automated job board aggregating 200,000+ positions from 5,000+ companies across five major ATS platforms. Updated daily via GitHub Actions.
+Automated job board aggregating 500,000+ positions from 10,000+ companies across six major ATS platforms. Updated daily via GitHub Actions.
 
 ## Live Site
 
