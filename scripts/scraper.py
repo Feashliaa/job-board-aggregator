@@ -6,9 +6,10 @@ import re
 import os
 import gzip
 import argparse
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from collections import defaultdict
+from urllib.parse import unquote
 
 # ============================================================
 # CONFIGURATION
@@ -21,9 +22,10 @@ ASHBY_FILE = os.path.join(ROOT_DIR, "data", "ashby_companies.json")
 BAMBOOHR_FILE = os.path.join(ROOT_DIR, "data", "bamboohr_companies.json")
 WORKDAY_FILE = os.path.join(ROOT_DIR, "data", "workday_companies.json")
 LEVER_FILE = os.path.join(ROOT_DIR, "data", "lever_companies.json")
-WORKABLE_FILE = os.path.join(ROOT_DIR, "data", "workable_companies.json")
-
 ICIMS_FILE = os.path.join(ROOT_DIR, "data", "icims_companies.json")
+
+WORKABLE_FILE = os.path.join(ROOT_DIR, "data", "workable_companies.json") # not in use yet
+
 
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -105,7 +107,6 @@ fetch("https://{slug}.bamboohr.com/careers/list"){
 
 SOURCE_TYPE = "automated"
 
-
 def get_job_metadata():
     """Generate consistent metadata for each job."""
     return {
@@ -182,8 +183,10 @@ def fetch_company_jobs_ashby(slug):
                 break
             elif response.status_code in (429, 503, 502):
                 if attempt < max_retries:
-                    backoff = (2 ** attempt) + random.uniform(0.5, 1.5)
-                    print(f"  Ashby {slug}: {response.status_code}, retrying in {backoff:.1f}s")
+                    backoff = (2**attempt) + random.uniform(0.5, 1.5)
+                    print(
+                        f"  Ashby {slug}: {response.status_code}, retrying in {backoff:.1f}s"
+                    )
                     time.sleep(backoff)
                     headers["User-Agent"] = random.choice(USER_AGENTS)
                     continue
@@ -209,9 +212,7 @@ def fetch_company_jobs_ashby(slug):
                         "url": f"https://jobs.ashbyhq.com/{slug}/{job.get('id')}",
                         "is_recruiter": is_recruiter_company(slug),
                         "ats": "Ashby",
-                        "skill_level": job_tier_classification(
-                            job.get("title", "")
-                        ),
+                        "skill_level": job_tier_classification(job.get("title", "")),
                         **get_job_metadata(),
                     }
                 )
@@ -415,7 +416,68 @@ def fetch_company_jobs_workday(slug):
     except Exception:
         return slug, []
 
+def fetch_company_jobs_icims(slug):
+    """
+    https://careers-{slug}.icims.com/sitemap.xml
+    
+    Sitemap contains job URLs like:
+        https://careers-{slug}.icims.com/jobs/9620/financial-service-representative/job
+    
+    Title extracted from URL path. Location not available via sitemap. Might look into fetching individual job pages for location, 
+    but that would be a lot more requests so skipping for now.
+    """
+    
+
+    sitemap_url = f"https://careers-{slug}.icims.com/sitemap.xml"
+    headers = {
+        "Accept": "application/xml",
+        "User-Agent": random.choice(USER_AGENTS),
+    }
+
+    try:
+        resp = requests.get(sitemap_url, headers=headers, timeout=10)
+        if resp.status_code != 200:
+            return slug, []
+
+        root = ET.fromstring(resp.content)
+        ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+
+        normalized = []
+        for loc in root.findall(".//s:url/s:loc", ns):
+            job_url = loc.text.strip() if loc.text else ""
+            if not job_url or "/jobs/" not in job_url or job_url.endswith("/jobs/intro"):
+                continue
+
+            path = job_url.split("/jobs/")[-1]
+            parts = path.split("/")
+            if len(parts) >= 2:
+                title = unquote(parts[1]).replace("-", " ").strip().title()
+            else:
+                continue
+
+            normalized.append({
+                "company": slug,
+                "company_slug": slug,
+                "title": title,
+                "location": "Not specified",
+                "url": job_url,
+                "is_recruiter": is_recruiter_company(slug),
+                "ats": "iCIMS",
+                "skill_level": job_tier_classification(title),
+                **get_job_metadata(),
+            })
+
+        return slug, normalized
+
+    except Exception as e:
+        print(f"Error fetching iCIMS for {slug}: {e}")
+        return slug, []
+
+#TODO - Try and get this working
 def fetch_company_jobs_workable(slug):
+    
+    #TODO - Try and get this working
+    
     # URL: "https://apply.workable.com/api/v3/accounts/{company}/jobs"
 
     url = f"https://apply.workable.com/api/v3/accounts/{slug}/jobs"
@@ -480,12 +542,6 @@ def fetch_company_jobs_workable(slug):
         except Exception:
             return slug, []
 
-def fetch_company_jobs_icims(slug):
-
-    # URL: https://careers-{company}.icims.com/jobs/search?ss
-
-    return slug, []
-
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
     print("=" * 80)
@@ -502,7 +558,7 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
         "ashby": 10,
         "lever": 30,
         "workday": 30,
-        "icims": 30,
+        "icims": 10,
         "workable": 30,
     }
 
@@ -733,7 +789,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "total_jobs": len(all_jobs),
         "recruiter_jobs": recruiter_jobs,
         "source_type": SOURCE_TYPE,
-        "platforms": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api",
+        "platforms": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api, icims_sitemap,",
     }
 
     metadata_file = os.path.join(OUTPUT_DIR, "metadata.json")
@@ -758,6 +814,7 @@ def main():
     bamboohr_companies = load_companies(BAMBOOHR_FILE)
     lever_companies = load_companies(LEVER_FILE)
     workday_companies = load_companies(WORKDAY_FILE)
+    icims_companies = load_companies(ICIMS_FILE)
 
     if (
         not greenhouse_companies
@@ -765,6 +822,7 @@ def main():
         and not bamboohr_companies
         and not lever_companies
         and not workday_companies
+        and not icims_companies
     ):
         print("Exiting - no companies loaded!")
         return
@@ -776,7 +834,7 @@ def main():
     active_ashby, jobs_ashby = fetch_all_jobs(
         ashby_companies, fetch_company_jobs_ashby, "ASHBY"
     )
-    
+
     active_bamboohr, jobs_bamboohr = fetch_all_jobs(
         bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR"
     )
@@ -789,6 +847,10 @@ def main():
         workday_companies, fetch_company_jobs_workday, "WORKDAY"
     )
 
+    active_icims, jobs_icims = fetch_all_jobs(
+        icims_companies, fetch_company_jobs_icims, "iCIMS"
+    )
+
     # Combine results
     all_companies = (
         greenhouse_companies
@@ -796,6 +858,7 @@ def main():
         | bamboohr_companies
         | lever_companies
         | workday_companies
+        | icims_companies
     )
     all_active_companies = {
         **active_greenhouse,
@@ -803,6 +866,7 @@ def main():
         **active_bamboohr,
         **active_lever,
         **active_workday,
+        **active_icims,
     }
     all_jobs = (
         jobs_greenhouse
@@ -810,6 +874,7 @@ def main():
         + jobs_bamboohr
         + jobs_lever
         + jobs_workday
+        + jobs_icims
     )
 
     save_results(all_companies, all_active_companies, all_jobs)
@@ -823,7 +888,6 @@ def main():
     print(f"Total jobs:        {len(all_jobs):,}")
     print(f"\nAll data saved to '{OUTPUT_DIR}/' directory")
     print("=" * 80 + "\n")
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Job Board Aggregator Scraper")

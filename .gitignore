@@ -47,6 +47,9 @@ js/old_script.js
 # Scraper output 
 scripts/output/
 
+# Test Files
+scripts/test_icims.py
+
 # Ignore JSON files globally, except specific ones
 *.json
 !data/greenhouse_companies.json
@@ -54,6 +57,8 @@ scripts/output/
 !data/bamboohr_companies.json
 !data/workday_companies.json
 !data/lever_companies.json
+!data/icims_companies.json
+
 
 !data/metadata.json
 !data/jobs_manifest.json
