@@ -152,11 +152,11 @@ def fetch_company_jobs_greenhouse(slug):
                         }
                     )
 
-                return slug, normalized
+                return slug, normalized, response.status_code
 
     except Exception as e:
         print(f"Error fetching Greenhouse for {slug}: {e}")
-    return slug, []
+    return slug, [], None
 
 def fetch_company_jobs_ashby(slug):
     try:
@@ -216,11 +216,11 @@ def fetch_company_jobs_ashby(slug):
                         **get_job_metadata(),
                     }
                 )
-            return slug, normalized
+            return slug, normalized, response.status_code
 
     except Exception as e:
         print(f"Error fetching Ashby for {slug}: {e}")
-    return slug, []
+    return slug, [], None
 
 def fetch_company_jobs_bamboohr(slug):
     """https://{slug}.bamboohr.com/careers
@@ -280,10 +280,10 @@ def fetch_company_jobs_bamboohr(slug):
                             **get_job_metadata(),
                         }
                     )
-                return slug, normalized
+                return slug, normalized, response.status_code
     except Exception as e:
         print(f"Error fetching BambooHR for {slug}: {e}")
-    return slug, []
+    return slug, [], 
 
 def fetch_company_jobs_lever(slug):
     """https://api.lever.co/v0/postings/{slug}"""
@@ -314,10 +314,10 @@ def fetch_company_jobs_lever(slug):
                             **get_job_metadata(),
                         }
                     )
-                return slug, normalized
+                return slug, normalized, response.status_code
     except Exception as e:
         print(f"Error fetching Lever for {slug}: {e}")
-    return slug, []
+    return slug, [], None
 
 def fetch_company_jobs_workday(slug):
     """
@@ -411,10 +411,10 @@ def fetch_company_jobs_workday(slug):
             # Jitter between pages (critical)
             time.sleep(random.uniform(0.8, 1.8))
 
-        return slug, normalized
+        return slug, normalized, response.status_code
 
     except Exception:
-        return slug, []
+        return slug, [], None
 
 def fetch_company_jobs_icims(slug):
     """
@@ -427,7 +427,6 @@ def fetch_company_jobs_icims(slug):
     but that would be a lot more requests so skipping for now.
     """
     
-
     sitemap_url = f"https://careers-{slug}.icims.com/sitemap.xml"
     headers = {
         "Accept": "application/xml",
@@ -467,11 +466,11 @@ def fetch_company_jobs_icims(slug):
                 **get_job_metadata(),
             })
 
-        return slug, normalized
+        return slug, normalized, resp.status_code
 
     except Exception as e:
         print(f"Error fetching iCIMS for {slug}: {e}")
-        return slug, []
+        return slug, [], None
 
 #TODO - Try and get this working
 def fetch_company_jobs_workable(slug):
@@ -548,9 +547,19 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
     print(f"FETCHING JOBS FROM {len(companies):,} COMPANIES FROM PLATFORM: {platform}")
     print("=" * 80 + "\n")
 
+    platform_lower = platform.lower()
+
+    # Skip known dead slugs
+    dead_slugs = load_dead_slugs(platform_lower)
+    live_companies = [s for s in companies if s not in dead_slugs]
+    if dead_slugs:
+        print(f"  Skipping {len(dead_slugs):,} known dead slugs")
+        print(f"  Checking {len(live_companies):,} potentially active companies\n")
+
     all_jobs = []
     active_companies = {}
     failed = 0
+    new_dead = set()
 
     MAX_WORKERS = {
         "bamboohr": 10,
@@ -562,32 +571,38 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
         "workable": 30,
     }
 
-    platform_lower = platform.lower()
-
     max_workers = MAX_WORKERS.get(platform_lower, 30)
 
-    session = None
-
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-
-        futures = {executor.submit(fetcher, slug): slug for slug in companies}
+        futures = {executor.submit(fetcher, slug): slug for slug in live_companies}
 
         for i, future in enumerate(as_completed(futures), 1):
-            slug, jobs = future.result()
+
+            # fetcher returns slug, jobs, status_code (if implemented)
+            slug, jobs, status_code = future.result()
 
             if jobs:
                 all_jobs.extend(jobs)
                 active_companies[slug] = len(jobs)
-                print(f"  [{i}/{len(companies)}] {slug}: {len(jobs)} jobs")
+                print(f"  [{i}/{len(live_companies)}] {slug}: {len(jobs)} jobs")
             else:
                 failed += 1
+                # Only cache permanent failures
+                if status_code in (404, 410):
+                    new_dead.add(slug)
                 if i % 50 == 0:
-                    print(f"  [{i}/{len(companies)}] Checked... ({failed} inactive)")
+                    print(f"  [{i}/{len(live_companies)}] Checked... ({failed} inactive)")
+
+    # Update dead slug cache
+    if new_dead:
+        all_dead = dead_slugs | new_dead
+        save_dead_slugs(platform_lower, all_dead)
 
     print(f"\nDETAILED STATS FOR {platform}:")
-    print(f"  Companies checked: {len(companies)}")
+    print(f"  Companies checked: {len(live_companies)}")
     print(f"  Companies with jobs: {len(active_companies)}")
     print(f"  Failed/empty: {failed}")
+    print(f"  Newly dead: {len(new_dead)}")
     print(f"  Total jobs: {len(all_jobs)}")
 
     return active_companies, all_jobs
@@ -692,6 +707,32 @@ def job_tier_classification(title):
     else:
         return "mid"
 
+
+# ============================================================
+# DEAD SLUG CACHE
+# ============================================================
+
+DEAD_SLUG_DIR = os.path.join(ROOT_DIR, "data", "dead_slugs")
+os.makedirs(DEAD_SLUG_DIR, exist_ok=True)
+
+def load_dead_slugs(platform):
+    """Load cached dead slugs for a platform."""
+    filepath = os.path.join(DEAD_SLUG_DIR, f"{platform}.json")
+    if not os.path.exists(filepath):
+        return set()
+    try:
+        with open(filepath, "r") as f:
+            return set(json.load(f))
+    except (json.JSONDecodeError, IOError):
+        return set()
+
+def save_dead_slugs(platform, slugs):
+    """Save dead slugs for a platform."""
+    filepath = os.path.join(DEAD_SLUG_DIR, f"{platform}.json")
+    with open(filepath, "w") as f:
+        json.dump(sorted(slugs), f, indent=2)
+    print(f"  Cached {len(slugs):,} dead slugs for {platform}")
+
 # ============================================================
 # SAVE RESULTS
 # ============================================================
@@ -789,7 +830,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "total_jobs": len(all_jobs),
         "recruiter_jobs": recruiter_jobs,
         "source_type": SOURCE_TYPE,
-        "platforms": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api, icims_sitemap,",
+        "platforms": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api, icims_sitemap",
     }
 
     metadata_file = os.path.join(OUTPUT_DIR, "metadata.json")
