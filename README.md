@@ -61,6 +61,10 @@ data/
 4. **Chunk**: Results are split into ~25k-job gzipped chunks with a manifest file
 5. **Merge**: `merge_data.py` deduplicates against existing data and prunes jobs older than 30 days
 6. **Deploy**: GitHub Actions commits updated chunks and creates a tagged release
+   
+## Company Discovery
+
+Company lists are built from Common Crawl index data using a separate harvesting pipeline. The harvester scans CDX archives for URLs matching 20+ ATS domain patterns, extracts company slugs via regex, and deduplicates across multiple crawl snapshots. This currently yields give or take 95,000 unique company identifiers.
 
 ## Local Development
 
@@ -81,7 +85,9 @@ python scraper.py --source manual
 
 ## License
 
-This project is licensed under the MIT License → see the [LICENSE](LICENSE) file for details.
+Code in this repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The curated company datasets in `data/` are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You're free to use, modify, and share the data for non-commercial purposes. Commercial use of the datasets requires permission - reach out via [GitHub Issues](https://github.com/Feashliaa/job-board-aggregator/issues) or email.
 
 ---
 
