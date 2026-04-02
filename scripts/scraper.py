@@ -24,7 +24,9 @@ WORKDAY_FILE = os.path.join(ROOT_DIR, "data", "workday_companies.json")
 LEVER_FILE = os.path.join(ROOT_DIR, "data", "lever_companies.json")
 ICIMS_FILE = os.path.join(ROOT_DIR, "data", "icims_companies.json")
 
-WORKABLE_FILE = os.path.join(ROOT_DIR, "data", "workable_companies.json") # not in use yet
+WORKABLE_FILE = os.path.join(
+    ROOT_DIR, "data", "workable_companies.json"
+)  # not in use yet
 
 
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
@@ -70,6 +72,7 @@ USER_AGENTS = [
 # LOAD COMPANIES
 # ============================================================
 
+
 def load_companies(filepath):
     """Load companies from JSON file."""
     try:
@@ -80,6 +83,7 @@ def load_companies(filepath):
     except FileNotFoundError:
         print(f"File not found: {filepath}")
         return set()
+
 
 # ============================================================
 # VERIFY ACTIVE JOBS + FETCH ALL JOBS
@@ -107,12 +111,14 @@ fetch("https://{slug}.bamboohr.com/careers/list"){
 
 SOURCE_TYPE = "automated"
 
+
 def get_job_metadata():
     """Generate consistent metadata for each job."""
     return {
         "scraped_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source": SOURCE_TYPE,
     }
+
 
 def fetch_company_jobs_greenhouse(slug):
     """Fetch all jobs for a company."""
@@ -158,6 +164,7 @@ def fetch_company_jobs_greenhouse(slug):
         print(f"Error fetching Greenhouse for {slug}: {e}")
     return slug, [], None
 
+
 def fetch_company_jobs_ashby(slug):
     try:
         url = "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
@@ -173,7 +180,7 @@ def fetch_company_jobs_ashby(slug):
         }
 
         # Jitter before request to spread out concurrent workers
-        time.sleep(random.uniform(0.3, 1.2))
+        time.sleep(random.uniform(0.5, 2.0))
 
         max_retries = 2
         for attempt in range(max_retries + 1):
@@ -221,6 +228,7 @@ def fetch_company_jobs_ashby(slug):
     except Exception as e:
         print(f"Error fetching Ashby for {slug}: {e}")
     return slug, [], None
+
 
 def fetch_company_jobs_bamboohr(slug):
     """https://{slug}.bamboohr.com/careers
@@ -283,7 +291,11 @@ def fetch_company_jobs_bamboohr(slug):
                 return slug, normalized, response.status_code
     except Exception as e:
         print(f"Error fetching BambooHR for {slug}: {e}")
-    return slug, [], 
+    return (
+        slug,
+        [],
+    )
+
 
 def fetch_company_jobs_lever(slug):
     """https://api.lever.co/v0/postings/{slug}"""
@@ -318,6 +330,7 @@ def fetch_company_jobs_lever(slug):
     except Exception as e:
         print(f"Error fetching Lever for {slug}: {e}")
     return slug, [], None
+
 
 def fetch_company_jobs_workday(slug):
     """
@@ -416,17 +429,18 @@ def fetch_company_jobs_workday(slug):
     except Exception:
         return slug, [], None
 
+
 def fetch_company_jobs_icims(slug):
     """
     https://careers-{slug}.icims.com/sitemap.xml
-    
+
     Sitemap contains job URLs like:
         https://careers-{slug}.icims.com/jobs/9620/financial-service-representative/job
-    
-    Title extracted from URL path. Location not available via sitemap. Might look into fetching individual job pages for location, 
+
+    Title extracted from URL path. Location not available via sitemap. Might look into fetching individual job pages for location,
     but that would be a lot more requests so skipping for now.
     """
-    
+
     sitemap_url = f"https://careers-{slug}.icims.com/sitemap.xml"
     headers = {
         "Accept": "application/xml",
@@ -444,7 +458,11 @@ def fetch_company_jobs_icims(slug):
         normalized = []
         for loc in root.findall(".//s:url/s:loc", ns):
             job_url = loc.text.strip() if loc.text else ""
-            if not job_url or "/jobs/" not in job_url or job_url.endswith("/jobs/intro"):
+            if (
+                not job_url
+                or "/jobs/" not in job_url
+                or job_url.endswith("/jobs/intro")
+            ):
                 continue
 
             path = job_url.split("/jobs/")[-1]
@@ -454,17 +472,19 @@ def fetch_company_jobs_icims(slug):
             else:
                 continue
 
-            normalized.append({
-                "company": slug,
-                "company_slug": slug,
-                "title": title,
-                "location": "Not specified",
-                "url": job_url,
-                "is_recruiter": is_recruiter_company(slug),
-                "ats": "iCIMS",
-                "skill_level": job_tier_classification(title),
-                **get_job_metadata(),
-            })
+            normalized.append(
+                {
+                    "company": slug,
+                    "company_slug": slug,
+                    "title": title,
+                    "location": "Not specified",
+                    "url": job_url,
+                    "is_recruiter": is_recruiter_company(slug),
+                    "ats": "iCIMS",
+                    "skill_level": job_tier_classification(title),
+                    **get_job_metadata(),
+                }
+            )
 
         return slug, normalized, resp.status_code
 
@@ -472,11 +492,12 @@ def fetch_company_jobs_icims(slug):
         print(f"Error fetching iCIMS for {slug}: {e}")
         return slug, [], None
 
-#TODO - Try and get this working
+
+# TODO - Try and get this working
 def fetch_company_jobs_workable(slug):
-    
-    #TODO - Try and get this working
-    
+
+    # TODO - Try and get this working
+
     # URL: "https://apply.workable.com/api/v3/accounts/{company}/jobs"
 
     url = f"https://apply.workable.com/api/v3/accounts/{slug}/jobs"
@@ -541,6 +562,7 @@ def fetch_company_jobs_workable(slug):
         except Exception:
             return slug, []
 
+
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
     print("=" * 80)
@@ -564,7 +586,7 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
     MAX_WORKERS = {
         "bamboohr": 10,
         "greenhouse": 30,
-        "ashby": 10,
+        "ashby": 5,
         "lever": 30,
         "workday": 30,
         "icims": 10,
@@ -591,7 +613,9 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
                 if status_code in (404, 410):
                     new_dead.add(slug)
                 if i % 50 == 0:
-                    print(f"  [{i}/{len(live_companies)}] Checked... ({failed} inactive)")
+                    print(
+                        f"  [{i}/{len(live_companies)}] Checked... ({failed} inactive)"
+                    )
 
     # Update dead slug cache
     if new_dead:
@@ -607,6 +631,7 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
 
     return active_companies, all_jobs
 
+
 # ============================================================
 # Helper Functions
 # ============================================================
@@ -618,6 +643,7 @@ def is_recruiter_company(slug):
         return True
 
     return False
+
 
 def clean_job_data(jobs):
     """Remove invalid/useless job entries."""
@@ -655,6 +681,7 @@ def clean_job_data(jobs):
                 print(f"    - {reason.replace('_', ' ').title()}: {count:,}")
 
     return cleaned
+
 
 def job_tier_classification(title):
     """Classify job tier using weighted keyword scoring."""
@@ -715,6 +742,7 @@ def job_tier_classification(title):
 DEAD_SLUG_DIR = os.path.join(ROOT_DIR, "data", "dead_slugs")
 os.makedirs(DEAD_SLUG_DIR, exist_ok=True)
 
+
 def load_dead_slugs(platform):
     """Load cached dead slugs for a platform."""
     filepath = os.path.join(DEAD_SLUG_DIR, f"{platform}.json")
@@ -726,12 +754,14 @@ def load_dead_slugs(platform):
     except (json.JSONDecodeError, IOError):
         return set()
 
+
 def save_dead_slugs(platform, slugs):
     """Save dead slugs for a platform."""
     filepath = os.path.join(DEAD_SLUG_DIR, f"{platform}.json")
     with open(filepath, "w") as f:
         json.dump(sorted(slugs), f, indent=2)
     print(f"  Cached {len(slugs):,} dead slugs for {platform}")
+
 
 # ============================================================
 # SAVE RESULTS
@@ -840,9 +870,7 @@ def save_results(all_companies, active_companies, all_jobs):
 
     print()
 
-# ============================================================
-# MAIN
-# ============================================================
+
 def main():
     print("\n" + "=" * 80)
     print("JOB BOARD AGGREGATOR")
@@ -868,31 +896,34 @@ def main():
         print("Exiting - no companies loaded!")
         return
 
-    # Fetch from all sources
-    active_greenhouse, jobs_greenhouse = fetch_all_jobs(
-        greenhouse_companies, fetch_company_jobs_greenhouse, "GREENHOUSE"
-    )
-    active_ashby, jobs_ashby = fetch_all_jobs(
-        ashby_companies, fetch_company_jobs_ashby, "ASHBY"
-    )
+    # Define all platform jobs
+    platforms = [
+        (greenhouse_companies, fetch_company_jobs_greenhouse, "GREENHOUSE"),
+        (ashby_companies, fetch_company_jobs_ashby, "ASHBY"),
+        (bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR"),
+        (lever_companies, fetch_company_jobs_lever, "LEVER"),
+        (workday_companies, fetch_company_jobs_workday, "WORKDAY"),
+        (icims_companies, fetch_company_jobs_icims, "iCIMS"),
+    ]
 
-    active_bamboohr, jobs_bamboohr = fetch_all_jobs(
-        bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR"
-    )
+    # Run all platforms concurrently
+    all_active_companies = {}
+    all_jobs = []
 
-    active_lever, jobs_lever = fetch_all_jobs(
-        lever_companies, fetch_company_jobs_lever, "LEVER"
-    )
+    with ThreadPoolExecutor(max_workers=len(platforms)) as platform_executor:
+        futures = {
+            platform_executor.submit(fetch_all_jobs, companies, fetcher, name): name
+            for companies, fetcher, name in platforms
+        }
 
-    active_workday, jobs_workday = fetch_all_jobs(
-        workday_companies, fetch_company_jobs_workday, "WORKDAY"
-    )
+        for future in as_completed(futures):
+            name = futures[future]
+            active, jobs = future.result()
+            all_active_companies.update(active)
+            all_jobs.extend(jobs)
+            print(f"\n  >>> {name} COMPLETE: {len(active):,} active, {len(jobs):,} jobs <<<\n")
 
-    active_icims, jobs_icims = fetch_all_jobs(
-        icims_companies, fetch_company_jobs_icims, "iCIMS"
-    )
-
-    # Combine results
+    # Combine all company sets for total count
     all_companies = (
         greenhouse_companies
         | ashby_companies
@@ -900,22 +931,6 @@ def main():
         | lever_companies
         | workday_companies
         | icims_companies
-    )
-    all_active_companies = {
-        **active_greenhouse,
-        **active_ashby,
-        **active_bamboohr,
-        **active_lever,
-        **active_workday,
-        **active_icims,
-    }
-    all_jobs = (
-        jobs_greenhouse
-        + jobs_ashby
-        + jobs_bamboohr
-        + jobs_lever
-        + jobs_workday
-        + jobs_icims
     )
 
     save_results(all_companies, all_active_companies, all_jobs)
@@ -929,6 +944,7 @@ def main():
     print(f"Total jobs:        {len(all_jobs):,}")
     print(f"\nAll data saved to '{OUTPUT_DIR}/' directory")
     print("=" * 80 + "\n")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Job Board Aggregator Scraper")
