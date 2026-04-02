@@ -160,6 +160,8 @@ def fetch_company_jobs_greenhouse(slug):
 
                 return slug, normalized, response.status_code
 
+        return slug, [], response.status_code  # got a response, just not 200
+
     except Exception as e:
         print(f"Error fetching Greenhouse for {slug}: {e}")
     return slug, [], None
@@ -198,10 +200,10 @@ def fetch_company_jobs_ashby(slug):
                     headers["User-Agent"] = random.choice(USER_AGENTS)
                     continue
             # Non-retryable status
-            return slug, []
+            return slug, [], response.status_code
 
         if response.status_code != 200:
-            return slug, []
+            return slug, [], response.status_code
 
         data = response.json()
         jobs = (data.get("data") or {}).get("jobBoard") or {}
@@ -224,6 +226,8 @@ def fetch_company_jobs_ashby(slug):
                     }
                 )
             return slug, normalized, response.status_code
+
+        return slug, [], response.status_code  # got a response, just not 200
 
     except Exception as e:
         print(f"Error fetching Ashby for {slug}: {e}")
@@ -254,7 +258,7 @@ def fetch_company_jobs_bamboohr(slug):
                 print(
                     f"Unexpected content type for {slug}: {response.headers.get('Content-Type')}"
                 )
-                return slug, []
+                return slug, [], 404
 
             data = response.json()
             jobs = data.get("result", [])
@@ -289,12 +293,10 @@ def fetch_company_jobs_bamboohr(slug):
                         }
                     )
                 return slug, normalized, response.status_code
+        return slug, [], response.status_code  # got a response, just not 200
     except Exception as e:
         print(f"Error fetching BambooHR for {slug}: {e}")
-    return (
-        slug,
-        [],
-    )
+    return slug, [], None
 
 
 def fetch_company_jobs_lever(slug):
@@ -327,6 +329,7 @@ def fetch_company_jobs_lever(slug):
                         }
                     )
                 return slug, normalized, response.status_code
+        return slug, [], response.status_code  # got a response, just not 200
     except Exception as e:
         print(f"Error fetching Lever for {slug}: {e}")
     return slug, [], None
@@ -341,7 +344,7 @@ def fetch_company_jobs_workday(slug):
     try:
         parts = slug.split("|")
         if len(parts) != 3:
-            return slug, []
+            return slug, [], None
 
         company, wd, site_id = parts
         wd_num = wd.replace("wd", "")
@@ -422,7 +425,7 @@ def fetch_company_jobs_workday(slug):
                 break
 
             # Jitter between pages (critical)
-            time.sleep(random.uniform(0.8, 1.8))
+            time.sleep(random.uniform(0.3, 1.0))
 
         return slug, normalized, response.status_code
 
@@ -450,7 +453,7 @@ def fetch_company_jobs_icims(slug):
     try:
         resp = requests.get(sitemap_url, headers=headers, timeout=10)
         if resp.status_code != 200:
-            return slug, []
+            return slug, [], resp.status_code
 
         root = ET.fromstring(resp.content)
         ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
@@ -558,9 +561,10 @@ def fetch_company_jobs_workable(slug):
                             **get_job_metadata(),
                         }
                     )
-                return slug, normalized
+                return slug, normalized, response.status_code
+            
         except Exception:
-            return slug, []
+            return slug, [], None
 
 
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
@@ -584,12 +588,12 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
     new_dead = set()
 
     MAX_WORKERS = {
-        "bamboohr": 10,
+        "bamboohr": 15,
         "greenhouse": 30,
         "ashby": 5,
         "lever": 30,
-        "workday": 30,
-        "icims": 10,
+        "workday": 50,
+        "icims": 30,
         "workable": 30,
     }
 
@@ -921,7 +925,9 @@ def main():
             active, jobs = future.result()
             all_active_companies.update(active)
             all_jobs.extend(jobs)
-            print(f"\n  >>> {name} COMPLETE: {len(active):,} active, {len(jobs):,} jobs <<<\n")
+            print(
+                f"\n  >>> {name} COMPLETE: {len(active):,} active, {len(jobs):,} jobs <<<\n"
+            )
 
     # Combine all company sets for total count
     all_companies = (

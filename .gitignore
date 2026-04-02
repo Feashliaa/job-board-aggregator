@@ -49,6 +49,7 @@ scripts/output/
 
 # Test Files
 scripts/test_icims.py
+scripts/test_workday.py
 
 # Ignore JSON files globally, except specific ones
 *.json
