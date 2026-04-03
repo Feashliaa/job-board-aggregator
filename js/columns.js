@@ -22,7 +22,7 @@ export function createColumns() {
                     'lever': 'primary',
                     'workday': 'warning',
                     'ashby': 'info',
-                    'icms': 'secondary',
+                    'icms': 'dark',
                     'bamboohr': 'danger',
                     'workable': 'dark',
                     'unknown': 'primary'
