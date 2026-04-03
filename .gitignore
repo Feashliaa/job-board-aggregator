@@ -51,6 +51,7 @@ scripts/output/
 scripts/test_icims.py
 scripts/test_workday.py
 scripts/test_bamboohr.py
+scripts/run_icims.py
 
 # Ignore JSON files globally, except specific ones
 *.json

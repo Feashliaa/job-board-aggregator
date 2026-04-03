@@ -24,10 +24,6 @@ WORKDAY_FILE = os.path.join(ROOT_DIR, "data", "workday_companies.json")
 LEVER_FILE = os.path.join(ROOT_DIR, "data", "lever_companies.json")
 ICIMS_FILE = os.path.join(ROOT_DIR, "data", "icims_companies.json")
 
-WORKABLE_FILE = os.path.join(
-    ROOT_DIR, "data", "workable_companies.json"
-)  # not in use yet
-
 
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -496,76 +492,7 @@ def fetch_company_jobs_icims(slug):
         return slug, [], None
 
 
-# TODO - Try and get this working
-def fetch_company_jobs_workable(slug):
-
-    # TODO - Try and get this working
-
-    # URL: "https://apply.workable.com/api/v3/accounts/{company}/jobs"
-
-    url = f"https://apply.workable.com/api/v3/accounts/{slug}/jobs"
-    headers = {
-        "Content-Type": "application/json",
-        "Referer": "https://apply.workable.com/{slug}/",
-        "Origin": "https://apply.workable.com",
-        "User-Agent": random.choice(USER_AGENTS),
-    }
-
-    # response format: {"total":6,"results":[{"id":5542984,"shortcode":"72D952483B","title":"Senior Systems Engineer (Linux and Storage)","remote":false
-    # {"location": {"country": "Greece", "countryCode": "GR","city": "Athens", "region": "Attica"}}
-
-    while True:
-        try:
-            payload = {
-                "query": "",
-                "location": [],
-                "department": [],
-                "worktype": [],
-                "remote": [],
-            }
-            response = requests.post(url, json=payload, headers=headers)
-
-            if response.status_code == 200:
-                data = response.json()
-                jobs = data.get("results", [])
-
-                normalized = []
-                for job in jobs:
-                    location_info = job.get("location") or {}
-                    location = (
-                        ", ".join(
-                            filter(
-                                None,
-                                [
-                                    location_info.get("city", ""),
-                                    location_info.get("region", ""),
-                                    location_info.get("country", ""),
-                                ],
-                            )
-                        )
-                        or "Not specified"
-                    )
-
-                    normalized.append(
-                        {
-                            "company": slug,
-                            "company_slug": slug,
-                            "title": job.get("title"),
-                            "location": location[:50],
-                            "url": f"https://apply.workable.com/{slug}/jobs/{job.get('shortcode')}",
-                            "is_recruiter": is_recruiter_company(slug),
-                            "ats": "Workable",
-                            "skill_level": job_tier_classification(
-                                job.get("title", "")
-                            ),
-                            **get_job_metadata(),
-                        }
-                    )
-                return slug, normalized, response.status_code
-            
-        except Exception:
-            return slug, [], None
-
+# TODO - Add Workable
 
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
@@ -588,13 +515,12 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
     new_dead = set()
 
     MAX_WORKERS = {
-        "bamboohr": 15,
+        "bamboohr": 20,
         "greenhouse": 30,
         "ashby": 5,
         "lever": 30,
         "workday": 50,
-        "icims": 30,
-        "workable": 30,
+        "icims": 30
     }
 
     max_workers = MAX_WORKERS.get(platform_lower, 30)
