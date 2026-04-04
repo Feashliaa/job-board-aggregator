@@ -3,11 +3,10 @@ on:
   schedule:
     - cron: "0 0 * * *" # Daily at midnight UTC
   workflow_dispatch: # Manual trigger button
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 180 # 3 hours max
+    timeout-minutes: 360 # 6 hours max to prevent hanging
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -28,11 +27,70 @@ jobs:
       - name: Merge with existing data
         run: python scripts/merge_data.py
 
+      - name: Save trend snapshot
+        run: |
+          mkdir -p data/trends
+          DATE=$(date +'%Y-%m-%d')
+
+          # Per-platform breakdown from the scraper output
+          GREENHOUSE=$(jq '[.[] | select(.ats == "Greenhouse")] | length' scripts/output/all_jobs.json)
+          ASHBY=$(jq '[.[] | select(.ats == "Ashby")] | length' scripts/output/all_jobs.json)
+          BAMBOOHR=$(jq '[.[] | select(.ats == "BambooHR")] | length' scripts/output/all_jobs.json)
+          LEVER=$(jq '[.[] | select(.ats == "Lever")] | length' scripts/output/all_jobs.json)
+          WORKDAY=$(jq '[.[] | select(.ats == "Workday")] | length' scripts/output/all_jobs.json)
+          ICIMS=$(jq '[.[] | select(.ats == "iCIMS")] | length' scripts/output/all_jobs.json)
+
+          # Tier breakdown
+          INTERN=$(jq '[.[] | select(.skill_level == "intern")] | length' scripts/output/all_jobs.json)
+          ENTRY=$(jq '[.[] | select(.skill_level == "entry")] | length' scripts/output/all_jobs.json)
+          MID=$(jq '[.[] | select(.skill_level == "mid")] | length' scripts/output/all_jobs.json)
+          SENIOR=$(jq '[.[] | select(.skill_level == "senior")] | length' scripts/output/all_jobs.json)
+
+          # Active companies count
+          COMPANIES=$(jq '. | length' scripts/output/active_companies.json)
+          RECRUITER=$(jq -r '.recruiter_jobs' scripts/output/metadata.json)
+
+          jq -n \
+            --arg date "$DATE" \
+            --argjson total_jobs "$(jq -r '.total_jobs' data/metadata.json)" \
+            --argjson active_companies "$COMPANIES" \
+            --argjson recruiter_jobs "$RECRUITER" \
+            --argjson greenhouse "$GREENHOUSE" \
+            --argjson ashby "$ASHBY" \
+            --argjson bamboohr "$BAMBOOHR" \
+            --argjson lever "$LEVER" \
+            --argjson workday "$WORKDAY" \
+            --argjson icims "$ICIMS" \
+            --argjson intern "$INTERN" \
+            --argjson entry "$ENTRY" \
+            --argjson mid "$MID" \
+            --argjson senior "$SENIOR" \
+            '{
+              date: $date,
+              total_jobs: $total_jobs,
+              active_companies: $active_companies,
+              recruiter_jobs: $recruiter_jobs,
+              by_platform: {
+                greenhouse: $greenhouse,
+                ashby: $ashby,
+                bamboohr: $bamboohr,
+                lever: $lever,
+                workday: $workday,
+                icims: $icims
+              },
+              by_tier: {
+                intern: $intern,
+                entry: $entry,
+                mid: $mid,
+                senior: $senior
+              }
+            }' >> data/trends/daily.jsonl
+
       - name: Commit and push merged data
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/jobs_chunk_*.json.gz data/jobs_manifest.json data/metadata.json
+          git add data/jobs_chunk_*.json.gz data/jobs_manifest.json data/metadata.json data/trends/
           git diff --staged --quiet || git commit -m "Automated scrape + merge - $(date +'%Y-%m-%d %H:%M UTC')"
           git push
 
@@ -47,7 +105,24 @@ jobs:
           echo "date=$DATE" >> $GITHUB_OUTPUT
           echo "tag=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
 
-      - name: Create Release with job data
+      - name: Compress release files
+        run: gzip -k scripts/output/all_jobs.json
+
+      - name: Clean old releases (keep last 10)
+        run: |
+          RELEASES=$(gh release list --limit 100 --json tagName -q '.[10:] | .[].tagName')
+          if [ -n "$RELEASES" ]; then
+            echo "$RELEASES" | while read tag; do
+              echo "Deleting release: $tag"
+              gh release delete "$tag" --cleanup-tag -y
+            done
+          else
+            echo "No old releases to clean up"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create release with job data
         uses: softprops/action-gh-release@v1
         with:
           tag_name: jobs-${{ steps.metadata.outputs.tag }}
@@ -59,7 +134,7 @@ jobs:
             **Last Updated:** ${{ steps.metadata.outputs.date }}
             The chunked job data is available in the repo at `data/jobs_chunk_*.json.gz`
           files: |
-            scripts/output/all_jobs.json
+            scripts/output/all_jobs.json.gz
             scripts/output/active_companies.json
             scripts/output/metadata.json
         env:
