@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-05",
+  "total_jobs": 1132651,
+  "active_companies": 21255,
+  "recruiter_jobs": 8746,
+  "by_platform": {
+    "greenhouse": 169682,
+    "ashby": 34888,
+    "bamboohr": 47905,
+    "lever": 60317,
+    "workday": 185866,
+    "icims": 174439
+  },
+  "by_tier": {
+    "intern": 10753,
+    "entry": 74336,
+    "mid": 389171,
+    "senior": 198837
+  }
+}
