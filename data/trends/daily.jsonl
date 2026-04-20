@@ -298,3 +298,23 @@
     "senior": 200169
   }
 }
+{
+  "date": "2026-04-20",
+  "total_jobs": 1445705,
+  "active_companies": 21328,
+  "recruiter_jobs": 8747,
+  "by_platform": {
+    "greenhouse": 168070,
+    "ashby": 34383,
+    "bamboohr": 47453,
+    "lever": 54051,
+    "workday": 175155,
+    "icims": 173107
+  },
+  "by_tier": {
+    "intern": 9834,
+    "entry": 70501,
+    "mid": 379866,
+    "senior": 192018
+  }
+}
