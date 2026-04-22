@@ -66,7 +66,7 @@ scripts/backfill_all.py
 
 
 !data/metadata.json
-!data/jobs_manifest.json
+!data/chunks/jobs_manifest.json
 
 # Allow gzip files in data/ only
 !data/*.gz
