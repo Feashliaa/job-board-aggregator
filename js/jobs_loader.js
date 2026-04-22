@@ -21,7 +21,7 @@ export async function fetchAndDecompress(url) {
  * @param {Object} app - App instance with allJobs, filteredJobs, render(), refilter()
  * @param {string} basePath - Directory containing manifest and chunks
  */
-export async function loadJobsProgressive(app, basePath = './data') {
+export async function loadJobsProgressive(app, basePath = './data/chunks') {
     const base_url = new URL(basePath, location.href).href;
     const manifest = await fetch(`${base_url}/jobs_manifest.json`).then(res => {
         if (!res.ok) throw new Error('Failed to load jobs manifest');

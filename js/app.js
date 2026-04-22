@@ -11,6 +11,7 @@ import { render } from './renderer.js';
 import { updateURL, loadFromURL } from './url_state.js';
 import { setupEventListeners } from './events.js';
 import { applySorting } from './sorting.js';
+import { toggleView, updateHeatmapIfVisible } from './map_view.js';
 
 class JobBoardApp {
     constructor() {
@@ -34,6 +35,7 @@ class JobBoardApp {
         await this.loadJobs();
         setupEventListeners(this);
         this.loadFromURL();
+        this.setupViewToggle();  // ← add this
         this.render();
     }
 
@@ -77,6 +79,7 @@ class JobBoardApp {
         this.currentPage = 1;
         updateURL(this.filterState, this.currentPage, this.sortState);
         this.render();
+        updateHeatmapIfVisible();  // ← add
     }
 
     clearFilters() {
@@ -89,13 +92,15 @@ class JobBoardApp {
         this.currentPage = 1;
         updateURL(this.filterState, this.currentPage, this.sortState);
         this.render();
+        updateHeatmapIfVisible();  // ← add
     }
 
     refilter() {
         if (this.hasActiveFilters()) {
-            this.applyFilters();
+            this.applyFilters();  // already updates heatmap via applyFilters()
         } else {
             this.filteredJobs = this.allJobs;
+            updateHeatmapIfVisible();  // ← add
         }
     }
 
@@ -182,6 +187,21 @@ class JobBoardApp {
         } finally {
             setUIBusy(false);
         }
+    }
+
+    // ── View Toggle ──────────────────────────────────────────
+    setupViewToggle() {
+        document.querySelectorAll('.view-toggle').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.view-toggle').forEach(b => {
+                    b.classList.remove('active', 'btn-primary');
+                    b.classList.add('btn-outline-primary');
+                });
+                btn.classList.add('active', 'btn-primary');
+                btn.classList.remove('btn-outline-primary');
+                toggleView(btn.dataset.view, this);  // ← pass `this` (the app)
+            });
+        });
     }
 }
 

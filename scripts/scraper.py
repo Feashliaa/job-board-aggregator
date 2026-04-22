@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import unquote
+from geolocation import build_lookup, lookup_location
 
 # ============================================================
 # CONFIGURATION
@@ -24,9 +25,26 @@ WORKDAY_FILE = os.path.join(ROOT_DIR, "data", "workday_companies.json")
 LEVER_FILE = os.path.join(ROOT_DIR, "data", "lever_companies.json")
 ICIMS_FILE = os.path.join(ROOT_DIR, "data", "icims_companies.json")
 
+LOCATIONS_FILE = os.path.join(ROOT_DIR, "data", "locations.json")
+
 
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# ============================================================
+# GEOLOCATION LOOKUP (loaded once, shared across all workers)
+# ============================================================
+
+print("Loading location lookup from locations.json...")
+LOCATION_MAPS = build_lookup(LOCATIONS_FILE)
+print(f"  {len(LOCATION_MAPS['city']):,} city-only entries loaded")
+
+
+def enrich_location(location_str):
+    """Resolve a location string to (remote, coords). Safe to call from worker threads."""
+    result = lookup_location(location_str, LOCATION_MAPS)
+    return result["remote"], result["coords"]
+
 
 RECRUITER_TERMS = [
     "recruit",
@@ -130,14 +148,16 @@ def fetch_company_jobs_greenhouse(slug):
                 # Normalize job structure for frontend
                 normalized = []
                 for job in jobs:
+                    location = job.get("location", {}).get("name", "Not specified")
+                    remote, coords = enrich_location(location)
                     normalized.append(
                         {
                             "company": slug,
                             "company_slug": slug,
                             "title": job.get("title"),
-                            "location": job.get("location", {}).get(
-                                "name", "Not specified"
-                            ),
+                            "location": location,
+                            "remote": remote,
+                            "coords": coords,
                             "url": job.get("absolute_url"),
                             "absolute_url": job.get("absolute_url"),
                             "departments": [
@@ -273,12 +293,15 @@ def fetch_company_jobs_bamboohr(slug):
                     else:
                         location = str(loc) if loc else "Not specified"
 
+                    remote, coords = enrich_location(location)
                     normalized.append(
                         {
                             "company": slug,
                             "company_slug": slug,
                             "title": job.get("jobOpeningName"),
                             "location": location[:50],
+                            "remote": remote,
+                            "coords": coords,
                             "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "BambooHR",
@@ -309,14 +332,16 @@ def fetch_company_jobs_lever(slug):
                 normalized = []
                 for job in jobs:
                     categories = job.get("categories", {})
+                    location = categories.get("location", "Not specified")[:50]
+                    remote, coords = enrich_location(location)
                     normalized.append(
                         {
                             "company": slug,
                             "company_slug": slug,
                             "title": job.get("text"),
-                            "location": categories.get("location", "Not specified")[
-                                :50
-                            ],
+                            "location": location,
+                            "remote": remote,
+                            "coords": coords,
                             "url": job.get("hostedUrl"),
                             "is_recruiter": is_recruiter_company(slug),
                             "ats": "Lever",
@@ -401,12 +426,16 @@ def fetch_company_jobs_workday(slug):
 
             for job in jobs:
                 job_path = job.get("externalPath", "")
+                location = (job.get("locationsText") or "Not specified")[:50]
+                remote, coords = enrich_location(location)
                 normalized.append(
                     {
                         "company": company,
                         "company_slug": slug,
                         "title": job.get("title"),
-                        "location": job.get("locationsText", "Not specified")[:50],
+                        "location": location,
+                        "remote": remote,
+                        "coords": coords,
                         "url": f"{base_url}/{site_id}{job_path}",
                         "is_recruiter": is_recruiter_company(company),
                         "ats": "Workday",
@@ -470,13 +499,16 @@ def fetch_company_jobs_icims(slug):
                 title = unquote(parts[1]).replace("-", " ").strip().title()
             else:
                 continue
-
+            
+            remote, coords = False, None
             normalized.append(
                 {
                     "company": slug,
                     "company_slug": slug,
                     "title": title,
                     "location": "Not specified",
+                    "remote": remote,
+                    "coords": coords,
                     "url": job_url,
                     "is_recruiter": is_recruiter_company(slug),
                     "ats": "iCIMS",
@@ -493,6 +525,7 @@ def fetch_company_jobs_icims(slug):
 
 
 # TODO - Add Workable
+
 
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
     """Fetch jobs from all companies in parallel."""
@@ -520,7 +553,7 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
         "ashby": 5,
         "lever": 30,
         "workday": 50,
-        "icims": 30
+        "icims": 30,
     }
 
     max_workers = MAX_WORKERS.get(platform_lower, 30)
@@ -738,6 +771,8 @@ def save_results(all_companies, active_companies, all_jobs):
         "is_recruiter",
         "workplaceType",
         "scraped_at",
+        "remote",
+        "coords",
     }
 
     slim_jobs = [
@@ -749,10 +784,14 @@ def save_results(all_companies, active_companies, all_jobs):
         key=lambda x: (x.get("company", "").lower(), x.get("title", "").lower())
     )
 
+    # Chunks go in a subdirectory to keep the output folder organized
+    chunks_dir = os.path.join(OUTPUT_DIR, "chunks")
+    os.makedirs(chunks_dir, exist_ok=True)
+
     # Remove old chunk files to prevent confusion and save space
-    for old_chunk in os.listdir(OUTPUT_DIR):
+    for old_chunk in os.listdir(chunks_dir):
         if old_chunk.startswith("jobs_chunk_") and old_chunk.endswith(".json.gz"):
-            os.remove(os.path.join(OUTPUT_DIR, old_chunk))
+            os.remove(os.path.join(chunks_dir, old_chunk))
 
     # Split into chunks of ~25k for frontend loading (with gzip compression)
     CHUNK_SIZE = 25_000
@@ -763,7 +802,7 @@ def save_results(all_companies, active_companies, all_jobs):
 
     chunk_filenames = []
     for idx, chunk in enumerate(chunks):
-        chunk_file = os.path.join(OUTPUT_DIR, f"jobs_chunk_{idx}.json.gz")
+        chunk_file = os.path.join(chunks_dir, f"jobs_chunk_{idx}.json.gz")
         with gzip.open(chunk_file, "wt", encoding="utf-8") as f:
             json.dump(chunk, f, indent=0)
         chunk_filenames.append(f"jobs_chunk_{idx}.json.gz")
@@ -776,7 +815,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "totalJobs": len(slim_jobs),
         "last_updated": timestamp,
     }
-    manifest_file = os.path.join(OUTPUT_DIR, "jobs_manifest.json")
+    manifest_file = os.path.join(chunks_dir, "jobs_manifest.json")
     with open(manifest_file, "w") as f:
         json.dump(manifest, f, indent=2)
 

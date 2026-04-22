@@ -11,190 +11,225 @@
     <link href="styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
     <script type="module" src="js/app.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 </head>
 
 <body>
     <main class="container mt-4">
-        <div class="dashboard card p-3 shadow-sm">
-            <h1 class="visually-hidden">Job Board Aggregator</h1>
-            <h2 class="card-title text-center mb-3">Job Board Aggregator</h2>
-            <p class="text-center text-muted mb-4">
-                <span id="total-jobs">Loading...</span> jobs from <span id="total-companies">0</span> companies
-                <br>
-                <small>Last updated: <span id="last-updated">--</span></small>
-            </p>
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div class="flex-grow-1 text-center">
+                <h2 class="card-title mb-1">Job Board Aggregator</h2>
+                <p class="text-muted mb-0">
+                    <span id="total-jobs">Loading...</span> jobs from <span id="total-companies">0</span> companies
+                    <br>
+                    <small>Last updated: <span id="last-updated">--</span></small>
+                </p>
+            </div>
+            <div class="view-toggle-container ms-3">
+                <div class="btn-group btn-group-sm" role="group">
+                    <button type="button" class="btn btn-primary view-toggle active" data-view="table"
+                        title="Table view">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="8" y1="6" x2="21" y2="6" />
+                            <line x1="8" y1="12" x2="21" y2="12" />
+                            <line x1="8" y1="18" x2="21" y2="18" />
+                            <line x1="3" y1="6" x2="3.01" y2="6" />
+                            <line x1="3" y1="12" x2="3.01" y2="12" />
+                            <line x1="3" y1="18" x2="3.01" y2="18" />
+                        </svg>
+                    </button>
+                    <button type="button" class="btn btn-outline-primary view-toggle" data-view="map" title="Map view">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" />
+                            <line x1="8" y1="2" x2="8" y2="18" />
+                            <line x1="16" y1="6" x2="16" y2="22" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Filter Panel -->
+        <div class="filter-panel card p-3 mb-3">
+            <button class="btn btn-primary w-100 filter-toggle collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#filter-controls" aria-expanded="false">🔍 Filters</button>
+            <div id="filter-controls" class="collapse">
+                <div class="filter-controls">
+                    <div class="row g-2 mt-2">
+                        <div class="col-12 col-md-6">
+                            <label for="filter-title" class="form-label">Job Title</label>
+                            <input type="text" id="filter-title" class="form-control"
+                                placeholder="e.g., Software Engineer">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="filter-company" class="form-label">Company</label>
+                            <input type="text" id="filter-company" class="form-control" placeholder="e.g., Google">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="filter-location" class="form-label">Location</label>
+                            <input type="text" id="filter-location" class="form-control" placeholder="e.g., Remote">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="filter-status" class="form-label">Status</label>
+                            <select id="filter-status" class="form-select">
+                                <option value="">All Statuses</option>
+                                <option value="saved">Saved</option>
+                                <option value="applied">Applied</option>
+                                <option value="ignored">Ignored</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="filter-ats" class="form-label">ATS</label>
+                            <select id="filter-ats" class="form-select">
+                                <option value="">All ATS</option>
+                                <option value="Ashby">Ashby</option>
+                                <option value="Bamboohr">BambooHR</option>
+                                <option value="Greenhouse">Greenhouse</option>
+                                <option value="Lever">Lever</option>
+                                <option value="Workday">Workday</option>
+                                <option value="iCIMS">iCIMS</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="filter-skill-level" class="form-label">Experience Level</label>
+                            <select id="filter-skill-level" class="form-select">
+                                <option value="">All</option>
+                                <option value="intern">Intern</option>
+                                <option value="entry">Entry</option>
+                                <option value="mid">Mid</option>
+                                <option value="senior">Senior</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="filter-exclude" class="form-label">Exclude Keywords</label>
+                            <input type="text" id="filter-exclude" class="form-control"
+                                placeholder="e.g., senior, staff, lead">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check mt-2">
+                                <input class="form-check-input" type="checkbox" id="filter-hide-recruiters" checked>
+                                <label class="form-check-label" for="filter-hide-recruiters">
+                                    Hide recruiter-posted jobs
+                                </label>
+                            </div>
+                            <div class="form-check mt-2">
+                                <input class="form-check-input" type="checkbox" id="filter-remote-only">
+                                <label class="form-check-label" for="filter-remote-only">
+                                    Remote only
+                                </label>
+                            </div>
+                            <div class="form-check mt-2">
+                                <input class="form-check-input" type="checkbox" id="filter-hide-applied">
+                                <label class="form-check-label" for="filter-hide-applied">
+                                    Hide applied/ignored jobs
+                                </label>
+                            </div>
+                        </div>
 
-            <!-- Filter Panel -->
-            <div class="filter-panel card p-3 mb-3">
-                <button class="btn btn-primary w-100 filter-toggle collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#filter-controls" aria-expanded="false">🔍 Filters</button>
-                <div id="filter-controls" class="collapse">
-                    <div class="filter-controls">
-                        <div class="row g-2 mt-2">
-                            <div class="col-12 col-md-6">
-                                <label for="filter-title" class="form-label">Job Title</label>
-                                <input type="text" id="filter-title" class="form-control"
-                                    placeholder="e.g., Software Engineer">
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="filter-company" class="form-label">Company</label>
-                                <input type="text" id="filter-company" class="form-control" placeholder="e.g., Google">
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="filter-location" class="form-label">Location</label>
-                                <input type="text" id="filter-location" class="form-control" placeholder="e.g., Remote">
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="filter-status" class="form-label">Status</label>
-                                <select id="filter-status" class="form-select">
-                                    <option value="">All Statuses</option>
-                                    <option value="saved">Saved</option>
-                                    <option value="applied">Applied</option>
-                                    <option value="ignored">Ignored</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="filter-ats" class="form-label">ATS</label>
-                                <select id="filter-ats" class="form-select">
-                                    <option value="">All ATS</option>
-                                    <option value="Ashby">Ashby</option>
-                                    <option value="Bamboohr">BambooHR</option>
-                                    <option value="Greenhouse">Greenhouse</option>
-                                    <option value="Lever">Lever</option>
-                                    <option value="Workday">Workday</option>
-                                    <option value="iCIMS">iCIMS</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="filter-skill-level" class="form-label">Experience Level</label>
-                                <select id="filter-skill-level" class="form-select">
-                                    <option value="">All</option>
-                                    <option value="intern">Intern</option>
-                                    <option value="entry">Entry</option>
-                                    <option value="mid">Mid</option>
-                                    <option value="senior">Senior</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="filter-exclude" class="form-label">Exclude Keywords</label>
-                                <input type="text" id="filter-exclude" class="form-control"
-                                    placeholder="e.g., senior, staff, lead">
-                            </div>
-                            <div class="col-12">
-                                <div class="form-check mt-2">
-                                    <input class="form-check-input" type="checkbox" id="filter-hide-recruiters" checked>
-                                    <label class="form-check-label" for="filter-hide-recruiters">
-                                        Hide recruiter-posted jobs
-                                    </label>
-                                </div>
-                                <div class="form-check mt-2">
-                                    <input class="form-check-input" type="checkbox" id="filter-remote-only">
-                                    <label class="form-check-label" for="filter-remote-only">
-                                        Remote only
-                                    </label>
-                                </div>
-                                <div class="form-check mt-2">
-                                    <input class="form-check-input" type="checkbox" id="filter-hide-applied">
-                                    <label class="form-check-label" for="filter-hide-applied">
-                                        Hide applied/ignored jobs
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <button type="button" class="btn btn-secondary w-100 mt-2" id="apply-filters">
-                                    Apply Filters
-                                </button>
-                                <button type="button" class="btn btn-outline-danger w-100 mt-2" id="clear-filters">
-                                    Clear Filters
-                                </button>
-                            </div>
+                        <div class="col-12">
+                            <button type="button" class="btn btn-secondary w-100 mt-2" id="apply-filters">
+                                Apply Filters
+                            </button>
+                            <button type="button" class="btn btn-outline-danger w-100 mt-2" id="clear-filters">
+                                Clear Filters
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Pagination Controls (Top) -->
-            <div class="pagination-controls d-flex justify-content-between align-items-center mb-3">
+
+
+        <!-- Pagination Controls (Top) -->
+        <div class="pagination-controls d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <span id="page-info">Page 1 of 1</span>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-sm btn-outline-primary" id="prev-page" disabled>← Previous</button>
+                <button class="btn btn-sm btn-outline-primary" id="next-page">Next →</button>
+            </div>
+            <div>
+                <select id="per-page" class="form-select form-select-sm" style="width: auto;">
+                    <option value="25">25 per page</option>
+                    <option value="50" selected>50 per page</option>
+                    <option value="100">100 per page</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading" class="text-center py-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading jobs...</span>
+            </div>
+            <p class="mt-3">Loading job listings...</p>
+        </div>
+
+        <!-- Sort bar - mobile only -->
+        <div class="mobile-sort-bar d-none">
+            <select id="mobile-sort-key" class="form-select form-select-sm">
+                <option value="">Sort by...</option>
+                <option value="company">Company</option>
+                <option value="title">Title</option>
+                <option value="location">Location</option>
+                <option value="ats">ATS</option>
+            </select>
+            <button id="mobile-sort-dir" class="btn btn-sm btn-outline-secondary">
+                A-Z
+            </button>
+        </div>
+
+        <!-- Job Table -->
+        <div id="results" style="display:none;">
+            <div class="table-responsive">
+                <table class="job-table table table-striped-desktop">
+                    <caption class="visually-hidden">List of Job Openings</caption>
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Title</th>
+                            <th>Location</th>
+                            <th>ATS</th>
+                            <th>Apply</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="jobs-body">
+                        <tr>
+                            <td colspan="6" class="text-center">No jobs found</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Pagination Controls (Bottom) -->
+            <div class="pagination-controls d-flex justify-content-between align-items-center mt-3">
                 <div>
-                    <span id="page-info">Page 1 of 1</span>
+                    <span id="page-info-bottom">Page 1 of 1</span>
                 </div>
                 <div class="btn-group">
-                    <button class="btn btn-sm btn-outline-primary" id="prev-page" disabled>← Previous</button>
-                    <button class="btn btn-sm btn-outline-primary" id="next-page">Next →</button>
-                </div>
-                <div>
-                    <select id="per-page" class="form-select form-select-sm" style="width: auto;">
-                        <option value="25">25 per page</option>
-                        <option value="50" selected>50 per page</option>
-                        <option value="100">100 per page</option>
-                    </select>
+                    <button class="btn btn-sm btn-outline-primary" id="prev-page-bottom" disabled>←
+                        Previous</button>
+                    <button class="btn btn-sm btn-outline-primary" id="next-page-bottom">Next →</button>
                 </div>
             </div>
-
-            <!-- Loading State -->
-            <div id="loading" class="text-center py-5">
-                <div class="spinner-border text-primary" role="status">
-                    <span class="visually-hidden">Loading jobs...</span>
-                </div>
-                <p class="mt-3">Loading job listings...</p>
-            </div>
-
-            <!-- Sort bar - mobile only -->
-            <div class="mobile-sort-bar d-none">
-                <select id="mobile-sort-key" class="form-select form-select-sm">
-                    <option value="">Sort by...</option>
-                    <option value="company">Company</option>
-                    <option value="title">Title</option>
-                    <option value="location">Location</option>
-                    <option value="ats">ATS</option>
-                </select>
-                <button id="mobile-sort-dir" class="btn btn-sm btn-outline-secondary">
-                    A-Z
+            <!-- Batch Update Button -->
+            <div class="mt-3 text-center">
+                <button type="button" class="btn btn-primary" id="process-batch">
+                    Update Selected Jobs
                 </button>
             </div>
+        </div>
 
-            <!-- Job Table -->
-            <div id="results" style="display:none;">
-                <div class="table-responsive">
-                    <table class="job-table table table-striped-desktop">
-                        <caption class="visually-hidden">List of Job Openings</caption>
-                        <thead>
-                            <tr>
-                                <th>Company</th>
-                                <th>Title</th>
-                                <th>Location</th>
-                                <th>ATS</th>
-                                <th>Apply</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody id="jobs-body">
-                            <tr>
-                                <td colspan="6" class="text-center">No jobs found</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Pagination Controls (Bottom) -->
-                <div class="pagination-controls d-flex justify-content-between align-items-center mt-3">
-                    <div>
-                        <span id="page-info-bottom">Page 1 of 1</span>
-                    </div>
-                    <div class="btn-group">
-                        <button class="btn btn-sm btn-outline-primary" id="prev-page-bottom" disabled>←
-                            Previous</button>
-                        <button class="btn btn-sm btn-outline-primary" id="next-page-bottom">Next →</button>
-                    </div>
-                </div>
-                <!-- Batch Update Button -->
-                <div class="mt-3 text-center">
-                    <button type="button" class="btn btn-primary" id="process-batch">
-                        Update Selected Jobs
-                    </button>
-                </div>
-            </div>
+        <!-- Map View (hidden by default) -->
+        <div id="map-view" style="display:none; height: 600px; position: relative;">
+            <div id="map" style="height: 100%; width: 100%;"></div>
+        </div>
         </div>
     </main>
 

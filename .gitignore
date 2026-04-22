@@ -52,6 +52,8 @@ scripts/test_icims.py
 scripts/test_workday.py
 scripts/test_bamboohr.py
 scripts/run_icims.py
+scripts/test_enrich.py
+scripts/backfill_all.py
 
 # Ignore JSON files globally, except specific ones
 *.json
@@ -68,3 +70,13 @@ scripts/run_icims.py
 
 # Allow gzip files in data/ only
 !data/*.gz
+
+# dont allow python files in data
+data/*.py
+
+# Ignore CSV files globally, except specific ones
+/city_aggregator/*.csv
+/city_aggregator/*.py
+/city_aggregator/admin1CodesASCII.txt
+/city_aggregator/cities500.txt
+
