@@ -63,6 +63,7 @@ scripts/backfill_all.py
 !data/workday_companies.json
 !data/lever_companies.json
 !data/icims_companies.json
+!data/locations.json
 
 
 !data/metadata.json
