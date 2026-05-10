@@ -55,28 +55,8 @@
     "jobs_chunk_52.json.gz",
     "jobs_chunk_53.json.gz",
     "jobs_chunk_54.json.gz",
-    "jobs_chunk_55.json.gz",
-    "jobs_chunk_56.json.gz",
-    "jobs_chunk_57.json.gz",
-    "jobs_chunk_58.json.gz",
-    "jobs_chunk_59.json.gz",
-    "jobs_chunk_60.json.gz",
-    "jobs_chunk_61.json.gz",
-    "jobs_chunk_62.json.gz",
-    "jobs_chunk_63.json.gz",
-    "jobs_chunk_64.json.gz",
-    "jobs_chunk_65.json.gz",
-    "jobs_chunk_66.json.gz",
-    "jobs_chunk_67.json.gz",
-    "jobs_chunk_68.json.gz",
-    "jobs_chunk_69.json.gz",
-    "jobs_chunk_70.json.gz",
-    "jobs_chunk_71.json.gz",
-    "jobs_chunk_72.json.gz",
-    "jobs_chunk_73.json.gz",
-    "jobs_chunk_74.json.gz",
-    "jobs_chunk_75.json.gz"
+    "jobs_chunk_55.json.gz"
   ],
-  "totalJobs": 1892515,
-  "last_updated": "2026-05-10T02:34:53.262467Z"
+  "totalJobs": 1388915,
+  "last_updated": "2026-05-10T23:42:59.365222Z"
 }

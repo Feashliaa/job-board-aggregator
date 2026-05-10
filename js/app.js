@@ -107,7 +107,7 @@ class JobBoardApp {
     hasActiveFilters() {
         const f = this.filterState;
         return f.title || f.company || f.location || f.status ||
-            f.ats || f.skill_level || f.remoteOnly;
+            f.ats || f.skill_level || f.remoteOnly || f.exclude || f.include;
     }
 
     // ── Sorting ──────────────────────────────────────────────
@@ -199,7 +199,7 @@ class JobBoardApp {
                 });
                 btn.classList.add('active', 'btn-primary');
                 btn.classList.remove('btn-outline-primary');
-                toggleView(btn.dataset.view, this);  // ← pass `this` (the app)
+                toggleView(btn.dataset.view, this); 
             });
         });
     }

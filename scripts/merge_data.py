@@ -85,7 +85,7 @@ def merge_job_data():
         scraped = job.get("scraped_at")
         if scraped:
             try:
-                scraped_date = datetime.fromisoformat(scraped.replace("Z", ""))
+                scraped_date = datetime.fromisoformat(scraped.replace("Z", "+00:00"))
                 age_days = (datetime.now(timezone.utc) - scraped_date).days
                 if age_days <= 30:
                     merged[key] = job

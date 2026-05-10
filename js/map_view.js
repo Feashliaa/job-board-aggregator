@@ -79,8 +79,7 @@ export function renderHeatmap(jobs) {
         },
     }).addTo(mapInstance);
 
-    console.log(`Heatmap: ${points.length} locations, ${jobs.length} jobs, max=${Math.max(...points.map(p => p[2]))}`);
-    console.log(`Heatmap: ${points.length} cities shown (filtered from ${buckets.size}), ${jobs.length} jobs`);
+    console.log(`Heatmap: ${points.length} cities shown (filtered from ${buckets.size}, ${jobs.length} jobs)`)
 }
 
 export function toggleView(view, app) {

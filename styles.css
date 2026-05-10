@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
     background: var(--bg-gradient);
     background-attachment: fixed;
     margin: 0;
@@ -72,11 +72,6 @@ h2.card-title {
     margin-bottom: 80px;
 }
 
-/* Form spacing */
-#jobForm .col-12 {
-    margin-bottom: 14px;
-}
-
 .form-select {
     min-height: 46px;
 }
@@ -111,10 +106,6 @@ body.map-mode #loading,
 body.map-mode .mobile-sort-bar,
 body.map-mode #process-fab-container {
     display: none !important;
-}
-
-body.map-mode .dashboard {
-    margin-bottom: 20px;
 }
 
 /* Map container sizing */
@@ -162,6 +153,16 @@ body.map-mode .dashboard {
 .filter-toggle.open {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.filter-toggle .filter-chevron {
+    transition: transform 0.25s ease;
+    margin-left: 6px;
+    flex-shrink: 0;
+}
+
+.filter-toggle.open .filter-chevron {
+    transform: rotate(180deg);
 }
 
 .filter-controls {
@@ -235,14 +236,6 @@ body.map-mode .dashboard {
     height: 22px;
 }
 
-#fab-label {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #004f7c;
-    font-weight: 600;
-}
-
 #event-handler {
     width: 100%;
 }
@@ -284,16 +277,16 @@ body.map-mode .dashboard {
 }
 
 .job-table th {
-    background: var(--accent);
-    color: white;
-    font-weight: 600;
-    font-size: 14px;
+    background: #f0f6ff;
+    color: #004f7c;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0073b1;
     transition: background 0.2s ease;
-}
 
-.job-table th:hover {
-    background: var(--accent-hover);
-    cursor: pointer;
+    user-select: none;
 }
 
 .job-table td {
@@ -341,6 +334,18 @@ body.map-mode .dashboard {
     background: rgba(240, 248, 255, 0.6);
 }
 
+/* Desktop row hover */
+@media (min-width: 901px) {
+    .job-table tbody tr:hover td {
+        background: rgba(0, 115, 177, 0.06) !important;
+        transition: background 0.12s ease;
+    }
+
+    .job-table tbody tr:hover td:first-child {
+        box-shadow: inset 3px 0 0 var(--accent);
+    }
+}
+
 /* Desktop badges */
 .badge {
     font-size: 12px;
@@ -376,6 +381,16 @@ body.map-mode .dashboard {
     background-color: #fff5f5 !important;
     color: #dc3545 !important;
 }
+
+/* ATS-specific badge colours */
+.badge.ats-greenhouse { background: #dcf5e7; color: #166534; }
+.badge.ats-lever      { background: #dbeafe; color: #1e40af; }
+.badge.ats-workday    { background: #fef3c7; color: #92400e; }
+.badge.ats-ashby      { background: #ede9fe; color: #5b21b6; }
+.badge.ats-icims      { background: #cffafe; color: #155e75; }
+.badge.ats-bamboohr   { background: #fce7f3; color: #9d174d; }
+.badge.ats-workable   { background: #f1f5f9; color: #334155; }
+.badge.ats-unknown    { background: #f1f5f9; color: #64748b; }
 
 
 
@@ -486,11 +501,6 @@ body.map-mode .dashboard {
         border-radius: 20px;
     }
 
-    #fab-label {
-        font-size: 13px;
-        text-align: center;
-    }
-
     /* === CARD === */
     .job-table tr {
         display: flex;
@@ -542,7 +552,7 @@ body.map-mode .dashboard {
         border-radius: 8px;
         font-weight: 600;
         font-size: 14px;
-        max-width: 50px;
+        max-width: 60px;
         text-decoration: none;
         text-align: center;
         display: inline-block;

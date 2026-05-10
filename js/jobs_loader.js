@@ -49,6 +49,11 @@ export async function loadJobsProgressive(app, basePath = './data/chunks') {
         if (--pending === 0) worker.terminate();
     };
 
+    worker.onerror = (err) => {
+        console.error('Chunk worker error:', err);
+        worker.terminate();
+    }
+
     manifest.chunks.slice(1).forEach(chunk => {
         worker.postMessage(`${base_url}/${chunk}`);
     });

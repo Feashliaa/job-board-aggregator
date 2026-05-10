@@ -18,6 +18,8 @@ export function updateURL(filterState, currentPage, sortState) {
     if (filterState.status) params.set('status', filterState.status);
     if (filterState.ats) params.set('ats', filterState.ats);
     if (filterState.skill_level) params.set('skill_level', filterState.skill_level);
+    if (filterState.exclude) params.set('exclude', filterState.exclude)
+    if (filterState.include) params.set('include', filterState.include)
     if (currentPage > 1) params.set('page', currentPage.toString());
 
     if (sortState.key) {
@@ -47,6 +49,8 @@ export function loadFromURL() {
     const status = params.get('status') || '';
     const ats = params.get('ats') || '';
     const skillLevel = params.get('skill_level') || '';
+    const exclude = params.get('exclude') || '';
+    const include = params.get('include') || '';
 
     document.getElementById('filter-title').value = title;
     document.getElementById('filter-company').value = company;
@@ -55,8 +59,10 @@ export function loadFromURL() {
     document.getElementById('filter-status').value = status;
     document.getElementById('filter-ats').value = ats;
     document.getElementById('filter-skill-level').value = skillLevel;
+    document.getElementById('filter-exclude').value = exclude;
+    document.getElementById('filter-include').value = include;
 
-    const hasFilters = !!(title || company || location || remote || status || ats || skillLevel);
+    const hasFilters = !!(title || company || location || remote || status || ats || skillLevel || exclude || include);
 
     return { hasFilters, page };
 }

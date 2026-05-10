@@ -31,7 +31,7 @@ export function setupEventListeners(app) {
     document.getElementById('clear-filters').addEventListener('click', () => app.clearFilters());
 
     // Enter key on text filter inputs
-    ['filter-title', 'filter-company', 'filter-location', 'filter-exclude'].forEach(id => {
+    ['filter-title', 'filter-company', 'filter-location', 'filter-exclude', 'filter-include'].forEach(id => {
         document.getElementById(id).addEventListener('keypress', (e) => {
             if (e.key === 'Enter') app.applyFilters();
         });
@@ -86,14 +86,14 @@ export function setupEventListeners(app) {
 
     // ── Delegated: FAB visibility on checkbox toggle ─────────
     document.addEventListener('change', (e) => {
-        if (e.target.matches(ACTION_CHECKBOXES)) {
+        if (e.target.matches(ACTION_CHECKBOXES.join(', '))) {
             updateFABVisibility();
         }
     });
 
     // ── Delegated: mutual exclusion (only one state at a time) ──
     document.addEventListener('change', (e) => {
-        if (!e.target.matches(ACTION_CHECKBOXES) || !e.target.checked) return;
+        if (!e.target.matches(ACTION_CHECKBOXES.join(', ')) || !e.target.checked) return;
 
         const jobUrl = e.target.dataset.jobUrl;
         const allClasses = ['save-checkbox', 'apply-checkbox', 'ignored-checkbox'];
@@ -102,7 +102,7 @@ export function setupEventListeners(app) {
         // Uncheck the other two
         allClasses.forEach(cls => {
             if (cls !== clickedClass) {
-                const other = document.querySelector(`.${cls}[data-job-url="${escape(jobUrl)}"]`);
+                const other = document.querySelector(`.${cls}[data-job-url="${CSS.escape(jobUrl)}"]`);
                 if (other) other.checked = false;
             }
         });

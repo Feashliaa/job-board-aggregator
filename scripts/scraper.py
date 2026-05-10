@@ -256,65 +256,78 @@ def fetch_company_jobs_bamboohr(slug):
 
     """
     url = f"https://{slug}.bamboohr.com/careers/list"
-    headers = {
-        "Accept": "application/json",
-        "User-Agent": "Mozilla/5.0 (compatible; ATSProbe/1.0)",
-    }
 
-    try:
-        response = requests.get(
-            url,
-            timeout=30,
-            headers=headers,
-        )
+    time.sleep(random.uniform(0.5, 2.0))
 
-        if response.status_code == 200:
+    max_retries = 2
+    for attempt in range(max_retries + 1):
+        headers = {
+            "Accept": "application/json",
+            "User-Agent": random.choice(USER_AGENTS),
+        }
 
-            if "application/json" not in response.headers.get("Content-Type", ""):
-                print(
-                    f"Unexpected content type for {slug}: {response.headers.get('Content-Type')}"
-                )
-                return slug, [], 404
+        try:
+            response = requests.get(url, timeout=30, headers=headers)
 
-            data = response.json()
-            jobs = data.get("result", [])
+            if response.status_code == 200:
+                if "application/json" not in response.headers.get("Content-Type", ""):
+                    return slug, [], 404
 
-            if jobs:
-                normalized = []
-                for job in jobs:
+                data = response.json()
+                jobs = data.get("result", [])
 
-                    loc = job.get("location") or {}
-                    if isinstance(loc, dict):
-                        city = loc.get("city", "")
-                        state = loc.get("state", "")
-                        location = (
-                            ", ".join(filter(None, [city, state])) or "Not specified"
+                if jobs:
+                    normalized = []
+                    for job in jobs:
+                        loc = job.get("location") or {}
+                        if isinstance(loc, dict):
+                            city = loc.get("city", "")
+                            state = loc.get("state", "")
+                            location = (
+                                ", ".join(filter(None, [city, state])) or "Not specified"
+                            )
+                        else:
+                            location = str(loc) if loc else "Not specified"
+
+                        remote, coords = enrich_location(location)
+                        normalized.append(
+                            {
+                                "company": slug,
+                                "company_slug": slug,
+                                "title": job.get("jobOpeningName"),
+                                "location": location[:50],
+                                "remote": remote,
+                                "coords": coords,
+                                "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
+                                "is_recruiter": is_recruiter_company(slug),
+                                "ats": "BambooHR",
+                                "skill_level": job_tier_classification(
+                                    job.get("jobOpeningName", "")
+                                ),
+                                **get_job_metadata(),
+                            }
                         )
-                    else:
-                        location = str(loc) if loc else "Not specified"
+                    return slug, normalized, response.status_code
 
-                    remote, coords = enrich_location(location)
-                    normalized.append(
-                        {
-                            "company": slug,
-                            "company_slug": slug,
-                            "title": job.get("jobOpeningName"),
-                            "location": location[:50],
-                            "remote": remote,
-                            "coords": coords,
-                            "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
-                            "is_recruiter": is_recruiter_company(slug),
-                            "ats": "BambooHR",
-                            "skill_level": job_tier_classification(
-                                job.get("jobOpeningName", "")
-                            ),
-                            **get_job_metadata(),
-                        }
-                    )
-                return slug, normalized, response.status_code
-        return slug, [], response.status_code  # got a response, just not 200
-    except Exception as e:
-        print(f"Error fetching BambooHR for {slug}: {e}")
+                return slug, [], response.status_code
+
+            if response.status_code in (429, 503, 502):
+                if attempt < max_retries:
+                    backoff = (2 ** attempt) + random.uniform(0.5, 1.5)
+                    time.sleep(backoff)
+                    continue
+
+            return slug, [], response.status_code
+
+        except requests.exceptions.SSLError:
+            if attempt < max_retries:
+                time.sleep((2 ** attempt) + random.uniform(0.5, 1.5))
+                continue
+            return slug, [], None
+        except Exception as e:
+            print(f"Error fetching BambooHR for {slug}: {e}")
+            return slug, [], None
+
     return slug, [], None
 
 
@@ -548,7 +561,7 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
     new_dead = set()
 
     MAX_WORKERS = {
-        "bamboohr": 20,
+        "bamboohr": 10,
         "greenhouse": 30,
         "ashby": 5,
         "lever": 30,

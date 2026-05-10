@@ -21,6 +21,7 @@ export function readFilterInputs() {
         ats: document.getElementById('filter-ats').value,
         skill_level: document.getElementById('filter-skill-level').value,
         exclude: document.getElementById('filter-exclude').value.toLowerCase().trim(),
+        include: document.getElementById('filter-include').value.toLowerCase().trim(),
     };
 }
 
@@ -45,7 +46,8 @@ export function filterJobs(allJobs) {
         status: f.status,
         ats: f.ats,
         skill_level: f.skill_level,
-        exclude: f.exclude
+        exclude: f.exclude,
+        include: f.include
     };
 
     const filteredJobs = allJobs.filter(job => {
@@ -94,6 +96,12 @@ export function filterJobs(allJobs) {
             if (excludeTerms.some(term => title.includes(term))) return false;
         }
 
+        // Include Title keywords
+        if (f.include){
+            const includeTerms = f.include.split(',').map(t => t.trim()).filter(Boolean);
+            if (!includeTerms.some(term => title.includes(term))) return false;
+        }
+
         return (
             (!titleRegex || titleRegex.test(title)) &&
             (!companyRegex || companyRegex.test(company)) &&
@@ -109,6 +117,8 @@ export function clearFilterInputs() {
     document.getElementById('filter-title').value = '';
     document.getElementById('filter-company').value = '';
     document.getElementById('filter-location').value = '';
+    document.getElementById('filter-exclude').value = '';
+    document.getElementById('filter-include').value = '';
     document.getElementById('filter-status').value = '';
     document.getElementById('filter-ats').value = '';
     document.getElementById('filter-skill-level').value = '';

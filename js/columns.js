@@ -17,18 +17,17 @@ export function createColumns() {
             sortable: false,
             render: job => {
                 const ats = job.ats || 'unknown';
-                const colors = {
-                    'greenhouse': 'success',
-                    'lever': 'primary',
-                    'workday': 'warning',
-                    'ashby': 'info',
-                    'icms': 'dark',
-                    'bamboohr': 'danger',
-                    'workable': 'dark',
-                    'unknown': 'primary'
+                const classes = {
+                    'greenhouse': 'ats-greenhouse',
+                    'lever': 'ats-lever',
+                    'workday': 'ats-workday',
+                    'ashby': 'ats-ashby',
+                    'icims': 'ats-icims',
+                    'bamboohr': 'ats-bamboohr',
+                    'workable': 'ats-workable',
                 };
-                const color = colors[ats.toLowerCase()] || 'light';
-                return `<span class="badge bg-${color}">${escape(ats)}</span>`;
+                const cls = classes[ats.toLowerCase()] || 'ats-unknown';
+                return `<span class="badge ${cls}">${escape(ats)}</span>`;
             }
         },
         {

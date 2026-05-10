@@ -6,8 +6,12 @@ const STORAGE_KEY = 'job-applications';
 
 /** Load all application statuses from localStorage */
 export function loadApplicationStatus() {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    return saved ? JSON.parse(saved) : {};
+    try{
+        const saved = localStorage.getItem(STORAGE_KEY);
+        return saved ? JSON.parse(saved) : {};
+    } catch{
+        return {};
+    }
 }
 
 /** Save a job's application status */
