@@ -81,6 +81,10 @@
                             <input type="text" id="filter-location" class="form-control" placeholder="e.g., Remote">
                         </div>
                         <div class="col-12 col-md-6">
+                            <label for="filter-salary-min" class="form-label">Min Salary (estimated)</label>
+                            <input type="number" id="filter-salary-min" class="form-control" placeholder="e.g., 80000">
+                        </div>
+                        <div class="col-12 col-md-6">
                             <label for="filter-status" class="form-label">Status</label>
                             <select id="filter-status" class="form-select">
                                 <option value="">All Statuses</option>
@@ -207,6 +211,7 @@
                             <th>Company</th>
                             <th>Title</th>
                             <th>Location</th>
+                            <th>Salary</th>
                             <th>ATS</th>
                             <th>Apply</th>
                             <th>Actions</th>
@@ -214,7 +219,7 @@
                     </thead>
                     <tbody id="jobs-body">
                         <tr>
-                            <td colspan="6" class="text-center">No jobs found</td>
+                            <td colspan="7" class="text-center">No jobs found</td>
                         </tr>
                     </tbody>
                 </table>

@@ -12,6 +12,17 @@ export function createColumns() {
         { key: 'title', label: 'Title', sortable: false },
         { key: 'location', label: 'Location', sortable: false },
         {
+            key: 'salary',
+            label: 'Salary (est.)',
+            sortable: false,
+            render: job => {
+                const s = job.salary;
+                if (!s?.median) return '<span class="text-muted">—</span>';
+                const fmt = n => '$' + (n / 1000).toFixed(0) + 'k';
+                return `<span title="p25: ${fmt(s.p25)} / p75: ${fmt(s.p75)} (n=${s.n})">${fmt(s.median)}</span>`;
+            }
+        },
+        {
             key: 'ats',
             label: 'ATS',
             sortable: false,

@@ -14,6 +14,7 @@ export function updateURL(filterState, currentPage, sortState) {
     if (filterState.title) params.set('title', filterState.title);
     if (filterState.company) params.set('company', filterState.company);
     if (filterState.location) params.set('location', filterState.location);
+    if (filterState.salary) params.set('salary', filterState.salary)
     if (filterState.remoteOnly) params.set('remote', '1');
     if (filterState.status) params.set('status', filterState.status);
     if (filterState.ats) params.set('ats', filterState.ats);
@@ -44,6 +45,7 @@ export function loadFromURL() {
     const title = params.get('title') || '';
     const company = params.get('company') || '';
     const location = params.get('location') || '';
+    const salary = params.get('salary') || '';
     const remote = params.get('remote') === '1';
     const page = parseInt(params.get('page')) || 1;
     const status = params.get('status') || '';
@@ -55,6 +57,7 @@ export function loadFromURL() {
     document.getElementById('filter-title').value = title;
     document.getElementById('filter-company').value = company;
     document.getElementById('filter-location').value = location;
+    document.getElementById('filter-salary-min').value = salary;
     document.getElementById('filter-remote-only').checked = remote;
     document.getElementById('filter-status').value = status;
     document.getElementById('filter-ats').value = ats;
@@ -62,7 +65,7 @@ export function loadFromURL() {
     document.getElementById('filter-exclude').value = exclude;
     document.getElementById('filter-include').value = include;
 
-    const hasFilters = !!(title || company || location || remote || status || ats || skillLevel || exclude || include);
+    const hasFilters = !!(title || company || location || salary || remote || status || ats || skillLevel || exclude || include);
 
     return { hasFilters, page };
 }

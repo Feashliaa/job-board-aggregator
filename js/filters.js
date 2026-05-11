@@ -17,6 +17,7 @@ export function readFilterInputs() {
         title: document.getElementById('filter-title').value.toLowerCase().trim(),
         company: document.getElementById('filter-company').value.toLowerCase().trim(),
         location: document.getElementById('filter-location').value.toLowerCase().trim(),
+        salary: document.getElementById('filter-salary-min').value,
         status: document.getElementById('filter-status').value,
         ats: document.getElementById('filter-ats').value,
         skill_level: document.getElementById('filter-skill-level').value,
@@ -42,6 +43,7 @@ export function filterJobs(allJobs) {
         title: f.title,
         company: f.company,
         location: f.location,
+        salary: f.salary,
         remoteOnly: f.remoteOnly,
         status: f.status,
         ats: f.ats,
@@ -71,6 +73,15 @@ export function filterJobs(allJobs) {
                 : (job.location || '').toLowerCase();
         }
 
+        // in your filter state collection
+        const minSalary = parseInt(document.getElementById('filter-salary-min').value) || 0;
+
+        // in filteredJobs
+        if (minSalary > 0) {
+            const median = job.salary?.median;
+            if (!median || median < minSalary) return false;
+        }
+
         // Remote only
         if (f.remoteOnly) {
             const isRemote = location.includes('remote')
@@ -97,7 +108,7 @@ export function filterJobs(allJobs) {
         }
 
         // Include Title keywords
-        if (f.include){
+        if (f.include) {
             const includeTerms = f.include.split(',').map(t => t.trim()).filter(Boolean);
             if (!includeTerms.some(term => title.includes(term))) return false;
         }
@@ -117,6 +128,7 @@ export function clearFilterInputs() {
     document.getElementById('filter-title').value = '';
     document.getElementById('filter-company').value = '';
     document.getElementById('filter-location').value = '';
+    document.getElementById('filter-salary-min').value = '';
     document.getElementById('filter-exclude').value = '';
     document.getElementById('filter-include').value = '';
     document.getElementById('filter-status').value = '';

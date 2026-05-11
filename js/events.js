@@ -31,11 +31,12 @@ export function setupEventListeners(app) {
     document.getElementById('clear-filters').addEventListener('click', () => app.clearFilters());
 
     // Enter key on text filter inputs
-    ['filter-title', 'filter-company', 'filter-location', 'filter-exclude', 'filter-include'].forEach(id => {
-        document.getElementById(id).addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') app.applyFilters();
+    ['filter-title', 'filter-company', 'filter-location', 'filter-salary-min',
+        'filter-exclude', 'filter-include'].forEach(id => {
+            document.getElementById(id).addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') app.applyFilters();
+            });
         });
-    });
 
     // ── Sorting — table header clicks ────────────────────────
     document.querySelectorAll('.job-table thead th').forEach((th, index) => {

@@ -766,6 +766,31 @@ def save_results(all_companies, active_companies, all_jobs):
     with open(active_file, "w") as f:
         json.dump(active_companies, f, indent=2, sort_keys=True)
     print(f"Active companies: {active_file}")
+    
+    # Load salary lookup once
+    salary_lookup_path = os.path.join(ROOT_DIR, "data", "salary", "salary_lookup.json")
+    salary_lookup = {}
+    salary_fallback = {}
+    if os.path.exists(salary_lookup_path):
+        with open(salary_lookup_path) as f:
+            data = json.load(f)
+            salary_lookup = data.get("primary", {})
+            salary_fallback = data.get("fallback", {})
+        print(f"Loaded {len(salary_lookup):,} salary entries")
+
+    # Enrich jobs with salary data
+    for job in all_jobs:
+        company = (job.get("company") or "").lower().strip()
+        title = (job.get("title") or "").lower().strip()
+        level = job.get("skill_level", "mid")
+        
+        primary_key = f"{company}|{title}|{level}"
+        fallback_key = f"{title}|{level}"
+        
+        job["salary"] = (
+            salary_lookup.get(primary_key) or
+            salary_fallback.get(fallback_key)
+        )
 
     # Save all jobs
     all_jobs_file = os.path.join(OUTPUT_DIR, "all_jobs.json")
@@ -786,6 +811,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "scraped_at",
         "remote",
         "coords",
+        "salary"
     }
 
     slim_jobs = [
