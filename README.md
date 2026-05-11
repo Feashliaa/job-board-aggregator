@@ -16,6 +16,7 @@ Automated job board aggregating 500,000+ positions from 10,000+ companies across
 - **URL state sync**: Filter/sort/page state persisted in the URL for shareable/bookmarkable searches
 - **Responsive design**: Desktop table view with card-based mobile layout
 - **Automated pipeline**: Daily GitHub Actions workflow: scrape → merge with existing data → commit chunks → create release
+- **Heatmap**: A more interesting way to view the data, if you like maps, check it out
 
 ## Tech Stack
 
