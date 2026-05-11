@@ -2,6 +2,8 @@
 // JOBS LOADER
 // ============================================================
 
+import { enableMap } from "./map_view.js";
+
 /**
  * Fetch and decompress a single gzipped JSON file.
  * @param {string} url - Path to the .json.gz file
@@ -35,7 +37,10 @@ export async function loadJobsProgressive(app, basePath = './data/chunks') {
     updateStats(app.allJobs, manifest.last_updated);
     app.render();
 
-    if (manifest.chunks.length <= 1) return;
+    if (manifest.chunks.length <= 1) {
+        enableMap();
+        return;
+    }
 
     // Remaining chunks via web worker
     const worker = new Worker('./js/chunk_worker.js');
@@ -46,7 +51,10 @@ export async function loadJobsProgressive(app, basePath = './data/chunks') {
         app.refilter();
         app.render();
         updateStats(app.allJobs, manifest.last_updated);
-        if (--pending === 0) worker.terminate();
+        if (--pending === 0) {
+            worker.terminate();
+            enableMap();
+        }
     };
 
     worker.onerror = (err) => {
