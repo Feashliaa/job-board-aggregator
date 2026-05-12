@@ -1,0 +1,2690 @@
+{
+    "n consulting llc|software developer|mid": {
+        "p25": 156000,
+        "median": 156000,
+        "p75": 156000,
+        "n": 8
+    },
+    "naas technologies llc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 111191,
+        "n": 6
+    },
+    "nagarro, inc|associate distinguished engineer|senior": {
+        "p25": 123656,
+        "median": 138590,
+        "p75": 151819,
+        "n": 5
+    },
+    "nagarro, inc|associate principal engineer|senior": {
+        "p25": 91728,
+        "median": 105227,
+        "p75": 122970,
+        "n": 9
+    },
+    "nagarro, inc|business analyst|mid": {
+        "p25": 78879,
+        "median": 88317,
+        "p75": 100474,
+        "n": 10
+    },
+    "nagarro, inc|computer programmer|mid": {
+        "p25": 81578,
+        "median": 98301,
+        "p75": 106662,
+        "n": 43
+    },
+    "nagarro, inc|developer|mid": {
+        "p25": 102627,
+        "median": 123656,
+        "p75": 131997,
+        "n": 5
+    },
+    "nagarro, inc|java developer|mid": {
+        "p25": 79706,
+        "median": 79747,
+        "p75": 85779,
+        "n": 5
+    },
+    "nagarro, inc|principal engineer|senior": {
+        "p25": 105227,
+        "median": 109845,
+        "p75": 122970,
+        "n": 9
+    },
+    "nagarro, inc|project manager|senior": {
+        "p25": 93512,
+        "median": 101962,
+        "p75": 117842,
+        "n": 16
+    },
+    "nagarro, inc|quality engineer|mid": {
+        "p25": 69337,
+        "median": 79976,
+        "p75": 81172,
+        "n": 7
+    },
+    "nagarro, inc|senior developer|senior": {
+        "p25": 100256,
+        "median": 102752,
+        "p75": 123484,
+        "n": 14
+    },
+    "nagarro, inc|software developer|mid": {
+        "p25": 87651,
+        "median": 105227,
+        "p75": 105227,
+        "n": 11
+    },
+    "nagarro, inc|staff engineer|senior": {
+        "p25": 85311,
+        "median": 92331,
+        "p75": 102481,
+        "n": 7
+    },
+    "nagarro, inc|technical architect|senior": {
+        "p25": 105227,
+        "median": 108160,
+        "p75": 119064,
+        "n": 8
+    },
+    "nagarro, inc|technical lead|senior": {
+        "p25": 95222,
+        "median": 109106,
+        "p75": 120063,
+        "n": 10
+    },
+    "nam technologies inc.|software developer|mid": {
+        "p25": 102650,
+        "median": 106000,
+        "p75": 107650,
+        "n": 7
+    },
+    "namitus technologies inc|human resources generalist|mid": {
+        "p25": 44160,
+        "median": 57782,
+        "p75": 57782,
+        "n": 5
+    },
+    "namitus technologies inc|software developer|mid": {
+        "p25": 95910,
+        "median": 106020,
+        "p75": 106425,
+        "n": 82
+    },
+    "namo technologies llc|python developer|mid": {
+        "p25": 81333,
+        "median": 84437,
+        "p75": 92815,
+        "n": 6
+    },
+    "nan inc|civil engineer|mid": {
+        "p25": 66000,
+        "median": 75000,
+        "p75": 82500,
+        "n": 6
+    },
+    "nan, inc.|project engineer-civil|mid": {
+        "p25": 80000,
+        "median": 87500,
+        "p75": 99000,
+        "n": 12
+    },
+    "nanolab technologies, inc.|materials analyst, dual beam|mid": {
+        "p25": 83430,
+        "median": 84240,
+        "p75": 109658,
+        "n": 8
+    },
+    "naples community hospital, inc.|medical technologists|mid": {
+        "p25": 64251,
+        "median": 64812,
+        "p75": 65374,
+        "n": 8
+    },
+    "narvee tech inc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 87817,
+        "n": 15
+    },
+    "nash county board of education|elementary school teacher|mid": {
+        "p25": 43343,
+        "median": 43343,
+        "p75": 47937,
+        "n": 17
+    },
+    "nash county board of education|high school math teacher|mid": {
+        "p25": 43404,
+        "median": 44768,
+        "p75": 51030,
+        "n": 6
+    },
+    "nash county board of education|middle school social studies teacher|mid": {
+        "p25": 43363,
+        "median": 43363,
+        "p75": 43363,
+        "n": 6
+    },
+    "nash county public schools|teacher|mid": {
+        "p25": 37880,
+        "median": 38750,
+        "p75": 38750,
+        "n": 23
+    },
+    "natera, inc.|staff software engineer|senior": {
+        "p25": 132215,
+        "median": 155605,
+        "p75": 180960,
+        "n": 7
+    },
+    "nathan littauer hospital & nursing home|clinical laboratory technologist|mid": {
+        "p25": 69014,
+        "median": 69014,
+        "p75": 69014,
+        "n": 5
+    },
+    "national bureau of economic research, inc.|researcher|mid": {
+        "p25": 212100,
+        "median": 220396,
+        "p75": 353736,
+        "n": 5
+    },
+    "national charitable services llc d/b/a fidelity investments|principal software engineer/developer|senior": {
+        "p25": 124084,
+        "median": 125119,
+        "p75": 149781,
+        "n": 5
+    },
+    "national charitable services llc d/b/a fidelity investments|senior full stack engineer|senior": {
+        "p25": 112923,
+        "median": 112923,
+        "p75": 117551,
+        "n": 10
+    },
+    "national consulting group inc|software developer|mid": {
+        "p25": 106267,
+        "median": 109844,
+        "p75": 118320,
+        "n": 15
+    },
+    "national financial services llc d/b/a fidelity investments|senior manager, data science|senior": {
+        "p25": 140109,
+        "median": 141170,
+        "p75": 148762,
+        "n": 5
+    },
+    "national hospitalist services, pc|hospitalist physician|mid": {
+        "p25": 239200,
+        "median": 239200,
+        "p75": 239200,
+        "n": 33
+    },
+    "national institutes of health, hhs|clinical fellow|senior": {
+        "p25": 86877,
+        "median": 93116,
+        "p75": 100051,
+        "n": 14
+    },
+    "national institutes of health, hhs|investigator tenure track|mid": {
+        "p25": 157356,
+        "median": 159674,
+        "p75": 162312,
+        "n": 8
+    },
+    "national institutes of health, hhs|research fellow|senior": {
+        "p25": 94151,
+        "median": 99892,
+        "p75": 108427,
+        "n": 110
+    },
+    "national institutes of health, hhs|staff scientist|senior": {
+        "p25": 120000,
+        "median": 125000,
+        "p75": 130974,
+        "n": 49
+    },
+    "national marrow donor program|senior software engineer|senior": {
+        "p25": 130500,
+        "median": 133500,
+        "p75": 138750,
+        "n": 6
+    },
+    "national railroad passenger corporation|lead software engineer|senior": {
+        "p25": 128500,
+        "median": 130200,
+        "p75": 130900,
+        "n": 8
+    },
+    "national railroad passenger corporation|principal software engineer|senior": {
+        "p25": 133575,
+        "median": 145939,
+        "p75": 146078,
+        "n": 6
+    },
+    "national rehabilitation hospital, inc.|physical therapist op|mid": {
+        "p25": 91520,
+        "median": 96096,
+        "p75": 101920,
+        "n": 5
+    },
+    "national vision, inc|optometrist|mid": {
+        "p25": 145000,
+        "median": 149368,
+        "p75": 160000,
+        "n": 5
+    },
+    "nationwide insurance|consultant, software engineer|mid": {
+        "p25": 138590,
+        "median": 139000,
+        "p75": 140026,
+        "n": 13
+    },
+    "nationwide insurance|specialist, software engineer|mid": {
+        "p25": 120000,
+        "median": 122000,
+        "p75": 125000,
+        "n": 9
+    },
+    "natrona county school district  no. 1|dual language immersion classroom teacher|mid": {
+        "p25": 53114,
+        "median": 54295,
+        "p75": 62096,
+        "n": 6
+    },
+    "natsoft corporation|network engineer|mid": {
+        "p25": 90563,
+        "median": 99902,
+        "p75": 104832,
+        "n": 13
+    },
+    "natsoft corporation|software engineer|mid": {
+        "p25": 105997,
+        "median": 123656,
+        "p75": 131601,
+        "n": 217
+    },
+    "natsoft corporation|systems analyst|mid": {
+        "p25": 93101,
+        "median": 104000,
+        "p75": 106184,
+        "n": 33
+    },
+    "nav consulting inc.|senior  auditor - hedge fund|senior": {
+        "p25": 118500,
+        "median": 149000,
+        "p75": 152375,
+        "n": 8
+    },
+    "navan, inc.|senior software engineer|senior": {
+        "p25": 187741,
+        "median": 199534,
+        "p75": 199534,
+        "n": 11
+    },
+    "navasal inc.|aem developer|mid": {
+        "p25": 104707,
+        "median": 105997,
+        "p75": 110635,
+        "n": 12
+    },
+    "navi technologies inc|sap consultant|mid": {
+        "p25": 106517,
+        "median": 109574,
+        "p75": 111072,
+        "n": 6
+    },
+    "navi technologies inc|software developer|mid": {
+        "p25": 85269,
+        "median": 105976,
+        "p75": 111134,
+        "n": 27
+    },
+    "navillus tile, inc.|project manager|senior": {
+        "p25": 63750,
+        "median": 76500,
+        "p75": 90750,
+        "n": 6
+    },
+    "navinta iii inc.|production chemist|mid": {
+        "p25": 69000,
+        "median": 69000,
+        "p75": 69000,
+        "n": 6
+    },
+    "navinta iii inc.|quality assurance chemist|mid": {
+        "p25": 69000,
+        "median": 69000,
+        "p75": 69000,
+        "n": 6
+    },
+    "navoinfo inc.|software developers|mid": {
+        "p25": 84300,
+        "median": 88000,
+        "p75": 97700,
+        "n": 20
+    },
+    "navy federal credit union|ai/ml engineer|mid": {
+        "p25": 159993,
+        "median": 168230,
+        "p75": 168230,
+        "n": 5
+    },
+    "navy federal credit union|application engineer|mid": {
+        "p25": 136808,
+        "median": 145666,
+        "p75": 150189,
+        "n": 8
+    },
+    "navy federal credit union|business intel analyst|mid": {
+        "p25": 97727,
+        "median": 103266,
+        "p75": 120329,
+        "n": 8
+    },
+    "navy federal credit union|data scientist|mid": {
+        "p25": 106108,
+        "median": 111507,
+        "p75": 115753,
+        "n": 7
+    },
+    "navy federal credit union|principal data scientist|senior": {
+        "p25": 172086,
+        "median": 174597,
+        "p75": 179500,
+        "n": 5
+    },
+    "navy federal credit union|senior data engineer|senior": {
+        "p25": 169197,
+        "median": 173771,
+        "p75": 179284,
+        "n": 20
+    },
+    "navy federal credit union|senior data scientist|senior": {
+        "p25": 138815,
+        "median": 140000,
+        "p75": 140000,
+        "n": 5
+    },
+    "navy federal credit union|senior platform engineer|senior": {
+        "p25": 161487,
+        "median": 165124,
+        "p75": 170308,
+        "n": 5
+    },
+    "navy federal credit union|sr. data scientist|senior": {
+        "p25": 124037,
+        "median": 132886,
+        "p75": 145824,
+        "n": 7
+    },
+    "nb alpha omega, llc|data engineer|mid": {
+        "p25": 92040,
+        "median": 107016,
+        "p75": 107016,
+        "n": 5
+    },
+    "nb alpha omega, llc|software developer|mid": {
+        "p25": 88962,
+        "median": 104499,
+        "p75": 127878,
+        "n": 5
+    },
+    "nb ventures, inc.|principal software engineer - engg|senior": {
+        "p25": 127433,
+        "median": 138000,
+        "p75": 140000,
+        "n": 5
+    },
+    "nb ventures, inc.|senior associate - consulting|mid": {
+        "p25": 104250,
+        "median": 115000,
+        "p75": 121250,
+        "n": 12
+    },
+    "nb ventures, inc.|senior manager - consulting|senior": {
+        "p25": 160000,
+        "median": 170000,
+        "p75": 175000,
+        "n": 7
+    },
+    "nbbj architecture pllc|designer|mid": {
+        "p25": 66269,
+        "median": 72120,
+        "p75": 82525,
+        "n": 5
+    },
+    "nbbj lp|designer|mid": {
+        "p25": 69590,
+        "median": 73430,
+        "p75": 79643,
+        "n": 13
+    },
+    "nc health affiliates, llc|sr data engineer|senior": {
+        "p25": 136191,
+        "median": 136707,
+        "p75": 137836,
+        "n": 5
+    },
+    "nc health affiliates, llc|sr developer|senior": {
+        "p25": 129879,
+        "median": 134677,
+        "p75": 136209,
+        "n": 6
+    },
+    "ncr voyix corporation|sw engineer ii|mid": {
+        "p25": 97600,
+        "median": 102445,
+        "p75": 105419,
+        "n": 12
+    },
+    "ncr voyix corporation|sw engineer iii|senior": {
+        "p25": 124174,
+        "median": 127504,
+        "p75": 127504,
+        "n": 7
+    },
+    "ncs pearson, inc.|senior software developer|senior": {
+        "p25": 126557,
+        "median": 135515,
+        "p75": 140000,
+        "n": 9
+    },
+    "nd global consulting services inc.|cqv engineer|mid": {
+        "p25": 86637,
+        "median": 88462,
+        "p75": 101603,
+        "n": 10
+    },
+    "nd global consulting services inc.|quality engineer|mid": {
+        "p25": 86013,
+        "median": 90969,
+        "p75": 98784,
+        "n": 10
+    },
+    "nd global consulting services inc.|validation engineer|mid": {
+        "p25": 89336,
+        "median": 92810,
+        "p75": 99632,
+        "n": 15
+    },
+    "nebraska pediatric practice, inc.|physician|mid": {
+        "p25": 141742,
+        "median": 203000,
+        "p75": 204000,
+        "n": 7
+    },
+    "nectar info tek llc|data engineer|mid": {
+        "p25": 82700,
+        "median": 82700,
+        "p75": 95680,
+        "n": 5
+    },
+    "nectar info tek llc|developer|mid": {
+        "p25": 82600,
+        "median": 89300,
+        "p75": 94400,
+        "n": 5
+    },
+    "neetha consulting llc|design engineer|mid": {
+        "p25": 124200,
+        "median": 124200,
+        "p75": 124200,
+        "n": 8
+    },
+    "nelnet business solutions, inc.|senior software engineer|senior": {
+        "p25": 116000,
+        "median": 116000,
+        "p75": 130000,
+        "n": 5
+    },
+    "nelson county board of education|diverse learning / special education classroom teacher|mid": {
+        "p25": 43840,
+        "median": 47690,
+        "p75": 51392,
+        "n": 7
+    },
+    "nemaha county hospital|medical technologist|mid": {
+        "p25": 71011,
+        "median": 71011,
+        "p75": 71011,
+        "n": 5
+    },
+    "nemo it solutions, inc|software developer|mid": {
+        "p25": 104000,
+        "median": 106000,
+        "p75": 109000,
+        "n": 15
+    },
+    "neni techsystems inc|software engineer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 12
+    },
+    "nenine technologies inc|qa automation test engineer|mid": {
+        "p25": 70000,
+        "median": 72000,
+        "p75": 98000,
+        "n": 5
+    },
+    "neo prism solutions llc|bi developer|mid": {
+        "p25": 101100,
+        "median": 104053,
+        "p75": 105799,
+        "n": 6
+    },
+    "neo prism solutions llc|data engineer|mid": {
+        "p25": 86000,
+        "median": 96369,
+        "p75": 103512,
+        "n": 7
+    },
+    "neo prism solutions llc|full stack developer|mid": {
+        "p25": 84094,
+        "median": 84440,
+        "p75": 87235,
+        "n": 10
+    },
+    "neo prism solutions llc|java developer|mid": {
+        "p25": 80803,
+        "median": 82724,
+        "p75": 92826,
+        "n": 8
+    },
+    "neo prism solutions llc|software developer|mid": {
+        "p25": 82284,
+        "median": 87498,
+        "p75": 96059,
+        "n": 12
+    },
+    "neo prism solutions llc|software engineer|mid": {
+        "p25": 83813,
+        "median": 84097,
+        "p75": 96876,
+        "n": 8
+    },
+    "neo tech solutions inc.|database administrator|mid": {
+        "p25": 87879,
+        "median": 90000,
+        "p75": 110250,
+        "n": 6
+    },
+    "neo tech solutions inc.|software developer|mid": {
+        "p25": 95493,
+        "median": 100942,
+        "p75": 102190,
+        "n": 9
+    },
+    "neon it llc|software developer|mid": {
+        "p25": 77418,
+        "median": 80735,
+        "p75": 88815,
+        "n": 48
+    },
+    "neosis it solutions llc|computer programmer|mid": {
+        "p25": 79706,
+        "median": 85000,
+        "p75": 85000,
+        "n": 13
+    },
+    "neosis it solutions llc|network engineer|mid": {
+        "p25": 82659,
+        "median": 82659,
+        "p75": 82659,
+        "n": 7
+    },
+    "nephrology associates, p.a.|nephrologist|mid": {
+        "p25": 225000,
+        "median": 227500,
+        "p75": 236900,
+        "n": 6
+    },
+    "nerdpine solutions llc|computer systems engineer|mid": {
+        "p25": 88754,
+        "median": 88754,
+        "p75": 88754,
+        "n": 8
+    },
+    "nerdwallet, inc.|senior software engineer|senior": {
+        "p25": 189100,
+        "median": 216300,
+        "p75": 219600,
+        "n": 5
+    },
+    "ness usa, inc.|senior engineering lead|senior": {
+        "p25": 165000,
+        "median": 165000,
+        "p75": 175000,
+        "n": 5
+    },
+    "nest technologies corporation|software engineer|mid": {
+        "p25": 122699,
+        "median": 122699,
+        "p75": 122699,
+        "n": 9
+    },
+    "nestor technologies, inc.|data engineer|mid": {
+        "p25": 70000,
+        "median": 88500,
+        "p75": 98000,
+        "n": 8
+    },
+    "nestor technologies, inc.|programmer analyst|mid": {
+        "p25": 83000,
+        "median": 83000,
+        "p75": 84000,
+        "n": 5
+    },
+    "nestor technologies, inc.|software engineer|mid": {
+        "p25": 83250,
+        "median": 84000,
+        "p75": 86750,
+        "n": 10
+    },
+    "netapp, inc.|business systems analyst|mid": {
+        "p25": 111709,
+        "median": 121469,
+        "p75": 131091,
+        "n": 8
+    },
+    "netapp, inc.|information systems engineer|mid": {
+        "p25": 130000,
+        "median": 135000,
+        "p75": 140000,
+        "n": 5
+    },
+    "netapp, inc.|manager, software engineer|senior": {
+        "p25": 191864,
+        "median": 196351,
+        "p75": 209392,
+        "n": 6
+    },
+    "netapp, inc.|product manager|senior": {
+        "p25": 165000,
+        "median": 188212,
+        "p75": 205000,
+        "n": 5
+    },
+    "netapp, inc.|site reliability engineer|mid": {
+        "p25": 118750,
+        "median": 130000,
+        "p75": 136750,
+        "n": 6
+    },
+    "netapp, inc.|software engineer|mid": {
+        "p25": 135172,
+        "median": 155000,
+        "p75": 172744,
+        "n": 125
+    },
+    "netapp, inc.|software quality assurance engineer|mid": {
+        "p25": 132787,
+        "median": 142139,
+        "p75": 148494,
+        "n": 7
+    },
+    "netflix, inc.|analytics engineer|mid": {
+        "p25": 211536,
+        "median": 275850,
+        "p75": 275850,
+        "n": 13
+    },
+    "netflix, inc.|data engineer|mid": {
+        "p25": 226158,
+        "median": 264514,
+        "p75": 264514,
+        "n": 18
+    },
+    "netflix, inc.|data scientist|mid": {
+        "p25": 211536,
+        "median": 211536,
+        "p75": 275850,
+        "n": 12
+    },
+    "netflix, inc.|distributed systems engineer|mid": {
+        "p25": 226158,
+        "median": 226158,
+        "p75": 226158,
+        "n": 5
+    },
+    "netflix, inc.|engineering manager|senior": {
+        "p25": 294299,
+        "median": 294299,
+        "p75": 388918,
+        "n": 10
+    },
+    "netflix, inc.|machine learning engineer|mid": {
+        "p25": 226158,
+        "median": 226158,
+        "p75": 264514,
+        "n": 18
+    },
+    "netflix, inc.|research scientist|mid": {
+        "p25": 212211,
+        "median": 257421,
+        "p75": 257421,
+        "n": 10
+    },
+    "netflix, inc.|security engineer|mid": {
+        "p25": 201323,
+        "median": 201323,
+        "p75": 202134,
+        "n": 7
+    },
+    "netflix, inc.|security software engineer|mid": {
+        "p25": 202134,
+        "median": 264514,
+        "p75": 264514,
+        "n": 5
+    },
+    "netflix, inc.|senior product designer|senior": {
+        "p25": 217610,
+        "median": 217610,
+        "p75": 217610,
+        "n": 5
+    },
+    "netflix, inc.|software engineer|mid": {
+        "p25": 226158,
+        "median": 226158,
+        "p75": 264514,
+        "n": 183
+    },
+    "netflix, inc.|ui engineer|mid": {
+        "p25": 226158,
+        "median": 264514,
+        "p75": 264514,
+        "n": 7
+    },
+    "netjets services inc.|senior software engineer|senior": {
+        "p25": 122125,
+        "median": 132904,
+        "p75": 144429,
+        "n": 6
+    },
+    "netresolute inc.|software developer|mid": {
+        "p25": 92695,
+        "median": 95493,
+        "p75": 95909,
+        "n": 8
+    },
+    "netskope, inc.|software engineer iv|senior": {
+        "p25": 158735,
+        "median": 200000,
+        "p75": 210000,
+        "n": 13
+    },
+    "network objects, inc.|software developer|mid": {
+        "p25": 106558,
+        "median": 106558,
+        "p75": 111711,
+        "n": 18
+    },
+    "neumeric technologies corporation|software engineer|mid": {
+        "p25": 102350,
+        "median": 104000,
+        "p75": 106080,
+        "n": 15
+    },
+    "neurasol, inc.|software developer|mid": {
+        "p25": 90600,
+        "median": 93538,
+        "p75": 95520,
+        "n": 5
+    },
+    "neutronit inc|database developer|mid": {
+        "p25": 96304,
+        "median": 96304,
+        "p75": 105976,
+        "n": 8
+    },
+    "neutronit inc|power bi developer|mid": {
+        "p25": 105997,
+        "median": 106558,
+        "p75": 107890,
+        "n": 5
+    },
+    "neutronit inc|sql bi developer|mid": {
+        "p25": 102871,
+        "median": 103605,
+        "p75": 105399,
+        "n": 6
+    },
+    "neuveon inc|computer programmer|mid": {
+        "p25": 64459,
+        "median": 64459,
+        "p75": 64459,
+        "n": 6
+    },
+    "new century school|teacher|mid": {
+        "p25": 55000,
+        "median": 58000,
+        "p75": 60000,
+        "n": 11
+    },
+    "new england center for children, inc.|rehabilitation counselor|mid": {
+        "p25": 48760,
+        "median": 48800,
+        "p75": 48838,
+        "n": 27
+    },
+    "new jersey institute of technology|assistant professor|entry": {
+        "p25": 120000,
+        "median": 122000,
+        "p75": 130000,
+        "n": 17
+    },
+    "new jersey institute of technology|postdoctoral research associate|entry": {
+        "p25": 62366,
+        "median": 62400,
+        "p75": 67548,
+        "n": 7
+    },
+    "new jersey tech systems, llc.|computer programmer|mid": {
+        "p25": 70699,
+        "median": 70699,
+        "p75": 74714,
+        "n": 5
+    },
+    "new math data llc|data engineer|mid": {
+        "p25": 140000,
+        "median": 155000,
+        "p75": 180000,
+        "n": 9
+    },
+    "new mexico institute of mining and technology|assistant professor|entry": {
+        "p25": 70720,
+        "median": 75000,
+        "p75": 82851,
+        "n": 5
+    },
+    "new mexico state university|assistant professor|entry": {
+        "p25": 78679,
+        "median": 97500,
+        "p75": 104375,
+        "n": 24
+    },
+    "new mexico state university|post doctoral|mid": {
+        "p25": 58500,
+        "median": 60000,
+        "p75": 63750,
+        "n": 6
+    },
+    "new paradigm for education|elementary teacher|mid": {
+        "p25": 53715,
+        "median": 57680,
+        "p75": 58435,
+        "n": 12
+    },
+    "new town public school district 1|public school teacher|mid": {
+        "p25": 52000,
+        "median": 52000,
+        "p75": 52000,
+        "n": 14
+    },
+    "new york blood center|quality assurance engineer|mid": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 135000,
+        "n": 5
+    },
+    "new york city health and hospitals corporation|internal medicine resident|entry": {
+        "p25": 82481,
+        "median": 82481,
+        "p75": 82481,
+        "n": 17
+    },
+    "new york city health and hospitals corporation|pediatrics resident|entry": {
+        "p25": 82481,
+        "median": 82481,
+        "p75": 82481,
+        "n": 5
+    },
+    "new york genome center, inc.|postdoctoral research associate|entry": {
+        "p25": 92263,
+        "median": 94491,
+        "p75": 95263,
+        "n": 5
+    },
+    "new york life insurance company|actuarial assistant|entry": {
+        "p25": 83678,
+        "median": 86675,
+        "p75": 91619,
+        "n": 6
+    },
+    "new york life insurance company|actuarial associate|entry": {
+        "p25": 84876,
+        "median": 90370,
+        "p75": 117775,
+        "n": 6
+    },
+    "new york life insurance company|associate|entry": {
+        "p25": 89128,
+        "median": 97614,
+        "p75": 98793,
+        "n": 7
+    },
+    "new york life insurance company|corporate vice president|senior": {
+        "p25": 126277,
+        "median": 152432,
+        "p75": 158974,
+        "n": 24
+    },
+    "new york life insurance company|corporate vice president & actuary|senior": {
+        "p25": 118706,
+        "median": 124673,
+        "p75": 126277,
+        "n": 5
+    },
+    "new york life insurance company|corporate vice president, lead data scientist|senior": {
+        "p25": 138912,
+        "median": 140338,
+        "p75": 163072,
+        "n": 6
+    },
+    "new york life insurance company|senior actuarial associate|mid": {
+        "p25": 120411,
+        "median": 126277,
+        "p75": 126277,
+        "n": 9
+    },
+    "new york life insurance company|senior associate|mid": {
+        "p25": 114002,
+        "median": 127433,
+        "p75": 151320,
+        "n": 35
+    },
+    "new york physical and occupational therapy services, pllc|exercise physiologist|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 85000,
+        "n": 5
+    },
+    "new york physical and occupational therapy services, pllc|physical therapist|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 85000,
+        "n": 5
+    },
+    "new york structural biology center|scientist|mid": {
+        "p25": 113350,
+        "median": 113400,
+        "p75": 114625,
+        "n": 7
+    },
+    "new york technology partners inc|programmer analyst|mid": {
+        "p25": 70553,
+        "median": 77417,
+        "p75": 93080,
+        "n": 6
+    },
+    "new york technology partners, inc.|programmer analyst/developer|mid": {
+        "p25": 90100,
+        "median": 90100,
+        "p75": 90100,
+        "n": 5
+    },
+    "new york university|assistant professor|entry": {
+        "p25": 111242,
+        "median": 145000,
+        "p75": 212500,
+        "n": 30
+    },
+    "new york university|assistant research scientist|entry": {
+        "p25": 74725,
+        "median": 79420,
+        "p75": 79565,
+        "n": 8
+    },
+    "new york university|clinical assistant professor|entry": {
+        "p25": 129973,
+        "median": 142166,
+        "p75": 171393,
+        "n": 7
+    },
+    "new york university|postdoctoral associate|entry": {
+        "p25": 65822,
+        "median": 68378,
+        "p75": 74725,
+        "n": 42
+    },
+    "new york university|research scientist|mid": {
+        "p25": 76192,
+        "median": 82500,
+        "p75": 90750,
+        "n": 12
+    },
+    "new york university|senior laboratory associate|mid": {
+        "p25": 68250,
+        "median": 72000,
+        "p75": 80250,
+        "n": 5
+    },
+    "newera it services llc|software developer|mid": {
+        "p25": 104000,
+        "median": 108825,
+        "p75": 116480,
+        "n": 5
+    },
+    "newquest, llc|application development advisor|mid": {
+        "p25": 123516,
+        "median": 128029,
+        "p75": 131241,
+        "n": 7
+    },
+    "newquest, llc|software engineering senior advisor|senior": {
+        "p25": 139987,
+        "median": 146171,
+        "p75": 155000,
+        "n": 22
+    },
+    "newrez llc|lead software engineer|senior": {
+        "p25": 126999,
+        "median": 131300,
+        "p75": 135630,
+        "n": 5
+    },
+    "newron tech inc|senior software engineer|senior": {
+        "p25": 110000,
+        "median": 128000,
+        "p75": 150522,
+        "n": 10
+    },
+    "newton consulting inc.|consultant|mid": {
+        "p25": 69607,
+        "median": 70179,
+        "p75": 72280,
+        "n": 11
+    },
+    "nexaq llc|software developer|mid": {
+        "p25": 101108,
+        "median": 101109,
+        "p75": 103568,
+        "n": 8
+    },
+    "nexinfo solutions, inc|software engineer|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 143500,
+        "n": 11
+    },
+    "nexpro technologies, inc|clinical data manager|senior": {
+        "p25": 84198,
+        "median": 96034,
+        "p75": 111352,
+        "n": 7
+    },
+    "nextdoor, inc.|data scientist|mid": {
+        "p25": 200000,
+        "median": 206400,
+        "p75": 214500,
+        "n": 5
+    },
+    "nextdoor, inc.|software engineer|mid": {
+        "p25": 165000,
+        "median": 187000,
+        "p75": 220000,
+        "n": 25
+    },
+    "nextera energy resources, llc|senior pgd engineer|senior": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 112270,
+        "n": 5
+    },
+    "nexterapath, inc.|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 112923,
+        "n": 9
+    },
+    "nextgen consulting, inc.,|computer systems engineer|mid": {
+        "p25": 85051,
+        "median": 90000,
+        "p75": 104416,
+        "n": 7
+    },
+    "nextgen solutions inc|software developer|mid": {
+        "p25": 100630,
+        "median": 105726,
+        "p75": 108826,
+        "n": 6
+    },
+    "nexthop systems inc|software engineer|mid": {
+        "p25": 185000,
+        "median": 197500,
+        "p75": 212500,
+        "n": 16
+    },
+    "nexturn inc|business analyst|mid": {
+        "p25": 118414,
+        "median": 120000,
+        "p75": 120000,
+        "n": 5
+    },
+    "nexturn inc|software developer|mid": {
+        "p25": 105000,
+        "median": 105000,
+        "p75": 105000,
+        "n": 11
+    },
+    "nexturn inc|software engineer|mid": {
+        "p25": 105000,
+        "median": 105000,
+        "p75": 105206,
+        "n": 9
+    },
+    "nexus it inc|database administrator|mid": {
+        "p25": 82763,
+        "median": 85727,
+        "p75": 91140,
+        "n": 8
+    },
+    "nexus it inc|software developer|mid": {
+        "p25": 105227,
+        "median": 105997,
+        "p75": 112637,
+        "n": 12
+    },
+    "nexus it inc|software engineer|mid": {
+        "p25": 85800,
+        "median": 91582,
+        "p75": 94848,
+        "n": 21
+    },
+    "nga group, inc.|computer programmer|mid": {
+        "p25": 102814,
+        "median": 106662,
+        "p75": 106662,
+        "n": 9
+    },
+    "nga group, inc.|software developer|mid": {
+        "p25": 107890,
+        "median": 114754,
+        "p75": 123656,
+        "n": 13
+    },
+    "nga group, inc.|software engineer|mid": {
+        "p25": 107890,
+        "median": 107890,
+        "p75": 123656,
+        "n": 13
+    },
+    "niantic, inc.|senior software engineer|senior": {
+        "p25": 201655,
+        "median": 203300,
+        "p75": 211650,
+        "n": 7
+    },
+    "niantic, inc.|software engineer|mid": {
+        "p25": 153750,
+        "median": 165000,
+        "p75": 167350,
+        "n": 7
+    },
+    "niantic, inc.|staff software engineer|senior": {
+        "p25": 234600,
+        "median": 245800,
+        "p75": 250900,
+        "n": 5
+    },
+    "nic info tek inc|computer systems engineer|mid": {
+        "p25": 82846,
+        "median": 90501,
+        "p75": 94682,
+        "n": 5
+    },
+    "nic info tek inc|software developer|mid": {
+        "p25": 93382,
+        "median": 106558,
+        "p75": 123854,
+        "n": 7
+    },
+    "nicklaus children's pediatric specialists, llc|physician attending|senior": {
+        "p25": 241847,
+        "median": 241847,
+        "p75": 305552,
+        "n": 7
+    },
+    "niha technologies inc|software applications developer|mid": {
+        "p25": 102752,
+        "median": 106000,
+        "p75": 113000,
+        "n": 9
+    },
+    "niha technologies, inc|software application developer|mid": {
+        "p25": 94390,
+        "median": 97157,
+        "p75": 102877,
+        "n": 5
+    },
+    "nike usa inc.|lead software engineer|senior": {
+        "p25": 185589,
+        "median": 185657,
+        "p75": 197957,
+        "n": 5
+    },
+    "nike, inc.|data engineer|mid": {
+        "p25": 122703,
+        "median": 124689,
+        "p75": 126326,
+        "n": 8
+    },
+    "nike, inc.|lead data engineer|senior": {
+        "p25": 175898,
+        "median": 177597,
+        "p75": 180315,
+        "n": 7
+    },
+    "nike, inc.|lead software engineer|senior": {
+        "p25": 190062,
+        "median": 195984,
+        "p75": 203592,
+        "n": 31
+    },
+    "nike, inc.|manager, software engineering|senior": {
+        "p25": 193720,
+        "median": 196607,
+        "p75": 201331,
+        "n": 6
+    },
+    "nike, inc.|principal software engineer|senior": {
+        "p25": 221663,
+        "median": 239480,
+        "p75": 253231,
+        "n": 6
+    },
+    "nike, inc.|senior data engineer|senior": {
+        "p25": 149247,
+        "median": 151770,
+        "p75": 160143,
+        "n": 21
+    },
+    "nike, inc.|senior software engineer|senior": {
+        "p25": 161195,
+        "median": 164890,
+        "p75": 167182,
+        "n": 6
+    },
+    "nike, inc.|software engineer|mid": {
+        "p25": 154095,
+        "median": 161354,
+        "p75": 169820,
+        "n": 70
+    },
+    "nike, inc.|software engineer ii|mid": {
+        "p25": 163377,
+        "median": 168714,
+        "p75": 169988,
+        "n": 13
+    },
+    "nike, inc.|software engineer iii|senior": {
+        "p25": 155459,
+        "median": 160000,
+        "p75": 169440,
+        "n": 15
+    },
+    "nile group|software engineer|mid": {
+        "p25": 92310,
+        "median": 101234,
+        "p75": 101234,
+        "n": 5
+    },
+    "nile tech inc.|software engineer|mid": {
+        "p25": 95493,
+        "median": 98457,
+        "p75": 103210,
+        "n": 8
+    },
+    "nimbusaitech llc|data engineer|mid": {
+        "p25": 95951,
+        "median": 108000,
+        "p75": 110000,
+        "n": 6
+    },
+    "nino finance, inc.|software engineer|mid": {
+        "p25": 130250,
+        "median": 146000,
+        "p75": 146000,
+        "n": 5
+    },
+    "nisum technologies inc.|senior software engineer i|mid": {
+        "p25": 121000,
+        "median": 124827,
+        "p75": 130250,
+        "n": 16
+    },
+    "nisum technologies inc.|senior software engineer ii|senior": {
+        "p25": 125000,
+        "median": 130250,
+        "p75": 135374,
+        "n": 17
+    },
+    "nisum technologies inc.|software engineer i|entry": {
+        "p25": 97850,
+        "median": 130250,
+        "p75": 130250,
+        "n": 5
+    },
+    "nisum technologies inc.|software engineer ii|mid": {
+        "p25": 128470,
+        "median": 130250,
+        "p75": 144040,
+        "n": 7
+    },
+    "nisum technologies inc.|technical lead i|senior": {
+        "p25": 137892,
+        "median": 146718,
+        "p75": 156435,
+        "n": 14
+    },
+    "nisum technologies inc.|technical lead ii|senior": {
+        "p25": 147264,
+        "median": 156436,
+        "p75": 159744,
+        "n": 14
+    },
+    "nisum technologies inc.|technical lead iii|senior": {
+        "p25": 162242,
+        "median": 168735,
+        "p75": 177725,
+        "n": 6
+    },
+    "nitco inc|software developer|mid": {
+        "p25": 87932,
+        "median": 103210,
+        "p75": 105986,
+        "n": 15
+    },
+    "nitya software solutions inc|data engineer|mid": {
+        "p25": 109491,
+        "median": 109491,
+        "p75": 109491,
+        "n": 5
+    },
+    "nitya software solutions inc|programmer analyst|mid": {
+        "p25": 104458,
+        "median": 107629,
+        "p75": 109815,
+        "n": 10
+    },
+    "nivagen pharmaceuticals, inc.|chemist|mid": {
+        "p25": 79625,
+        "median": 89570,
+        "p75": 99035,
+        "n": 6
+    },
+    "nj tech inc|software developer|mid": {
+        "p25": 110240,
+        "median": 114400,
+        "p75": 128960,
+        "n": 7
+    },
+    "noblesoft solutions, inc.|software engineer|mid": {
+        "p25": 96000,
+        "median": 105263,
+        "p75": 105450,
+        "n": 10
+    },
+    "noesys,inc|java developer|mid": {
+        "p25": 75899,
+        "median": 97157,
+        "p75": 97157,
+        "n": 11
+    },
+    "nokia of america corporation|performance and optimization expert|mid": {
+        "p25": 132770,
+        "median": 134725,
+        "p75": 136767,
+        "n": 6
+    },
+    "nokia of america corporation|senior npi support engineer|senior": {
+        "p25": 115000,
+        "median": 119750,
+        "p75": 119763,
+        "n": 5
+    },
+    "nokia of america corporation|senior test engineer|senior": {
+        "p25": 116280,
+        "median": 118828,
+        "p75": 148000,
+        "n": 5
+    },
+    "nokia of america corporation|software development engineer|mid": {
+        "p25": 126349,
+        "median": 132183,
+        "p75": 149654,
+        "n": 16
+    },
+    "nokia of america corporation|software quality assurance engineer|mid": {
+        "p25": 135000,
+        "median": 158678,
+        "p75": 177273,
+        "n": 17
+    },
+    "nokia of america corporation|software quality engineer|mid": {
+        "p25": 172857,
+        "median": 189695,
+        "p75": 202482,
+        "n": 6
+    },
+    "nomura holding america, inc.|analyst, software engineer|mid": {
+        "p25": 96000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 9
+    },
+    "nomura holding america, inc.|associate, principal software engineer|senior": {
+        "p25": 127500,
+        "median": 131458,
+        "p75": 162500,
+        "n": 7
+    },
+    "nomura securities international, inc.|analyst, global markets|mid": {
+        "p25": 102500,
+        "median": 110000,
+        "p75": 110000,
+        "n": 10
+    },
+    "nomura securities international, inc.|analyst, investment banking|mid": {
+        "p25": 100000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 13
+    },
+    "nomura securities international, inc.|associate, investment banking|entry": {
+        "p25": 170000,
+        "median": 175000,
+        "p75": 175000,
+        "n": 12
+    },
+    "nordstrom, inc.|data analyst 3|mid": {
+        "p25": 131375,
+        "median": 142425,
+        "p75": 151337,
+        "n": 6
+    },
+    "nordstrom, inc.|data scientist 2|mid": {
+        "p25": 159002,
+        "median": 168644,
+        "p75": 175401,
+        "n": 6
+    },
+    "nordstrom, inc.|engineer 1 es|entry": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 125000,
+        "n": 15
+    },
+    "nordstrom, inc.|engineer 2|mid": {
+        "p25": 139787,
+        "median": 148300,
+        "p75": 155563,
+        "n": 59
+    },
+    "nordstrom, inc.|engineer sr|senior": {
+        "p25": 162753,
+        "median": 173517,
+        "p75": 179401,
+        "n": 28
+    },
+    "nordstrom, inc.|engineer sr 2|senior": {
+        "p25": 198198,
+        "median": 199006,
+        "p75": 210520,
+        "n": 6
+    },
+    "nordstrom, inc.|engineer sr.|senior": {
+        "p25": 166067,
+        "median": 172984,
+        "p75": 181731,
+        "n": 12
+    },
+    "nordstrom, inc.|mgr engineering|mid": {
+        "p25": 200000,
+        "median": 207879,
+        "p75": 218833,
+        "n": 13
+    },
+    "nordstrom, inc.|technical program manager 2|senior": {
+        "p25": 147149,
+        "median": 150000,
+        "p75": 160000,
+        "n": 5
+    },
+    "north american lighting, inc.|senior design engineer|senior": {
+        "p25": 117853,
+        "median": 117901,
+        "p75": 118812,
+        "n": 6
+    },
+    "north carolina state university|assistant professor|entry": {
+        "p25": 94000,
+        "median": 107770,
+        "p75": 128544,
+        "n": 53
+    },
+    "north carolina state university|assistant research professor|entry": {
+        "p25": 70337,
+        "median": 77595,
+        "p75": 84415,
+        "n": 8
+    },
+    "north carolina state university|postdoctoral research scholar|mid": {
+        "p25": 59863,
+        "median": 61809,
+        "p75": 65000,
+        "n": 40
+    },
+    "north carolina state university|research associate|entry": {
+        "p25": 62300,
+        "median": 64000,
+        "p75": 69150,
+        "n": 10
+    },
+    "north carolina state university|research scholar|mid": {
+        "p25": 68895,
+        "median": 78371,
+        "p75": 88374,
+        "n": 15
+    },
+    "north chicago community unit school district 187|teacher|mid": {
+        "p25": 50405,
+        "median": 52487,
+        "p75": 55599,
+        "n": 14
+    },
+    "north dakota state university|postdoctoral research fellow|senior": {
+        "p25": 53550,
+        "median": 55000,
+        "p75": 59500,
+        "n": 7
+    },
+    "north sanpete school district|dual immersion teacher|mid": {
+        "p25": 65754,
+        "median": 68159,
+        "p75": 68159,
+        "n": 5
+    },
+    "northeast medical group, inc.|hospitalist|mid": {
+        "p25": 270276,
+        "median": 270276,
+        "p75": 272362,
+        "n": 13
+    },
+    "northeast medical group, inc.|night hospitalist|mid": {
+        "p25": 272362,
+        "median": 272362,
+        "p75": 281240,
+        "n": 9
+    },
+    "northeastern conference of seventh-day adventists|elementary school teacher|mid": {
+        "p25": 63708,
+        "median": 68295,
+        "p75": 68295,
+        "n": 6
+    },
+    "northeastern conference of seventh-day adventists|teacher|mid": {
+        "p25": 62180,
+        "median": 62180,
+        "p75": 62180,
+        "n": 10
+    },
+    "northeastern university|assistant professor|entry": {
+        "p25": 117813,
+        "median": 121957,
+        "p75": 146000,
+        "n": 23
+    },
+    "northeastern university|postdoctoral research associate|entry": {
+        "p25": 61428,
+        "median": 69360,
+        "p75": 79082,
+        "n": 13
+    },
+    "northern arizona university|assistant professor|entry": {
+        "p25": 72100,
+        "median": 88000,
+        "p75": 93642,
+        "n": 9
+    },
+    "northern illinois university|assistant professor|entry": {
+        "p25": 77750,
+        "median": 86811,
+        "p75": 92639,
+        "n": 10
+    },
+    "northstar group, inc|project manager|senior": {
+        "p25": 102482,
+        "median": 107182,
+        "p75": 113214,
+        "n": 5
+    },
+    "northstar group, inc|software engineer|mid": {
+        "p25": 105206,
+        "median": 109845,
+        "p75": 123656,
+        "n": 67
+    },
+    "northstar technology services llc|computer systems analyst|mid": {
+        "p25": 74693,
+        "median": 90667,
+        "p75": 90667,
+        "n": 9
+    },
+    "northwell health|nocturnist|mid": {
+        "p25": 270000,
+        "median": 280000,
+        "p75": 322400,
+        "n": 5
+    },
+    "northwell health|non-gme fellow|senior": {
+        "p25": 92500,
+        "median": 92500,
+        "p75": 105625,
+        "n": 6
+    },
+    "northwell health|physician|mid": {
+        "p25": 237750,
+        "median": 275000,
+        "p75": 315000,
+        "n": 27
+    },
+    "northwell health|resident/fellow|senior": {
+        "p25": 84488,
+        "median": 89775,
+        "p75": 94264,
+        "n": 69
+    },
+    "northwestern memorial healthcare|analytics developer|mid": {
+        "p25": 77057,
+        "median": 79394,
+        "p75": 79394,
+        "n": 5
+    },
+    "northwestern memorial healthcare|cytogenetics technologist|mid": {
+        "p25": 69963,
+        "median": 69963,
+        "p75": 71593,
+        "n": 5
+    },
+    "northwestern memorial healthcare|medical laboratory scientist|mid": {
+        "p25": 74110,
+        "median": 74255,
+        "p75": 83154,
+        "n": 21
+    },
+    "northwestern mutual life insurance company|iam engineer|mid": {
+        "p25": 97445,
+        "median": 101900,
+        "p75": 108400,
+        "n": 5
+    },
+    "northwestern mutual life insurance company|manager software engineering|senior": {
+        "p25": 163836,
+        "median": 167580,
+        "p75": 167580,
+        "n": 5
+    },
+    "northwestern mutual life insurance company|senior data engineer|senior": {
+        "p25": 128298,
+        "median": 130000,
+        "p75": 140736,
+        "n": 7
+    },
+    "northwestern mutual life insurance company|senior software engineer|senior": {
+        "p25": 132050,
+        "median": 135738,
+        "p75": 145800,
+        "n": 37
+    },
+    "northwestern mutual life insurance company|software engineer|mid": {
+        "p25": 110114,
+        "median": 120000,
+        "p75": 124800,
+        "n": 21
+    },
+    "northwestern university|assistant professor|entry": {
+        "p25": 128500,
+        "median": 140000,
+        "p75": 208760,
+        "n": 20
+    },
+    "northwestern university|assistant professor of instruction|entry": {
+        "p25": 70000,
+        "median": 77500,
+        "p75": 92000,
+        "n": 13
+    },
+    "northwestern university|clinical research associate|entry": {
+        "p25": 61101,
+        "median": 63960,
+        "p75": 68182,
+        "n": 5
+    },
+    "northwestern university|postdoctoral scholar|mid": {
+        "p25": 61008,
+        "median": 64356,
+        "p75": 68287,
+        "n": 83
+    },
+    "northwestern university|research assistant professor|entry": {
+        "p25": 79000,
+        "median": 86108,
+        "p75": 98003,
+        "n": 37
+    },
+    "northwestern university|research associate|entry": {
+        "p25": 66999,
+        "median": 70000,
+        "p75": 74219,
+        "n": 50
+    },
+    "northwestern university|research specialist|mid": {
+        "p25": 51657,
+        "median": 63772,
+        "p75": 63856,
+        "n": 5
+    },
+    "notion labs, inc.|software engineer|mid": {
+        "p25": 190000,
+        "median": 231000,
+        "p75": 260000,
+        "n": 17
+    },
+    "nous infosystems inc|programmer analyst|mid": {
+        "p25": 107000,
+        "median": 107000,
+        "p75": 107000,
+        "n": 11
+    },
+    "nous infosystems inc|test engineer|mid": {
+        "p25": 104000,
+        "median": 104000,
+        "p75": 115000,
+        "n": 7
+    },
+    "nova southeastern university|assistant professor|entry": {
+        "p25": 72000,
+        "median": 109000,
+        "p75": 118758,
+        "n": 5
+    },
+    "novartis institutes for biomedical research, inc.|discovery postdoctoral fellow|senior": {
+        "p25": 66331,
+        "median": 66331,
+        "p75": 71208,
+        "n": 7
+    },
+    "novartis institutes for biomedical research, inc.|principal scientist i|senior": {
+        "p25": 105331,
+        "median": 115149,
+        "p75": 124842,
+        "n": 20
+    },
+    "novartis institutes for biomedical research, inc.|principal scientist ii|senior": {
+        "p25": 126006,
+        "median": 127628,
+        "p75": 136817,
+        "n": 6
+    },
+    "novartis institutes for biomedical research, inc.|research scientist ii|mid": {
+        "p25": 85842,
+        "median": 85842,
+        "p75": 85842,
+        "n": 10
+    },
+    "novartis institutes for biomedical research, inc.|senior scientist i|mid": {
+        "p25": 91978,
+        "median": 104416,
+        "p75": 107099,
+        "n": 25
+    },
+    "novartis institutes for biomedical research, inc.|senior scientist ii|senior": {
+        "p25": 105331,
+        "median": 107099,
+        "p75": 115060,
+        "n": 12
+    },
+    "novartis pharmaceuticals corporation|principal biostatistician|senior": {
+        "p25": 139042,
+        "median": 142771,
+        "p75": 142771,
+        "n": 12
+    },
+    "novelty infotech, inc.|software developer|mid": {
+        "p25": 106259,
+        "median": 109262,
+        "p75": 120270,
+        "n": 10
+    },
+    "novitium pharma llc.|qc chemist|mid": {
+        "p25": 62500,
+        "median": 62500,
+        "p75": 62500,
+        "n": 25
+    },
+    "novitium pharma llc.|quality control analyst|mid": {
+        "p25": 67000,
+        "median": 68000,
+        "p75": 68000,
+        "n": 9
+    },
+    "novitium pharma llc.|sr. quality control analyst|senior": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 80000,
+        "n": 19
+    },
+    "novos solutions llc|software developer|mid": {
+        "p25": 85400,
+        "median": 100000,
+        "p75": 110000,
+        "n": 25
+    },
+    "novozen healthcare llc.|quality engineer|mid": {
+        "p25": 104000,
+        "median": 104000,
+        "p75": 114400,
+        "n": 5
+    },
+    "ntrust infotech inc.|software developer|mid": {
+        "p25": 112923,
+        "median": 119932,
+        "p75": 126942,
+        "n": 6
+    },
+    "ntt data americas, inc.|application management senior analyst|senior": {
+        "p25": 90199,
+        "median": 103418,
+        "p75": 103418,
+        "n": 7
+    },
+    "ntt data americas, inc.|application management senior specialist|senior": {
+        "p25": 105417,
+        "median": 114348,
+        "p75": 116122,
+        "n": 10
+    },
+    "ntt data americas, inc.|application management specialist|mid": {
+        "p25": 108451,
+        "median": 110198,
+        "p75": 110531,
+        "n": 5
+    },
+    "ntt data americas, inc.|business intelligence senior specialist|senior": {
+        "p25": 114619,
+        "median": 115324,
+        "p75": 116702,
+        "n": 8
+    },
+    "ntt data americas, inc.|business intelligence specialist|mid": {
+        "p25": 93922,
+        "median": 103917,
+        "p75": 110440,
+        "n": 7
+    },
+    "ntt data americas, inc.|data & analytics consulting manager|senior": {
+        "p25": 119808,
+        "median": 133640,
+        "p75": 133869,
+        "n": 5
+    },
+    "ntt data americas, inc.|data & analytics consulting sr. manager|senior": {
+        "p25": 133869,
+        "median": 138112,
+        "p75": 163966,
+        "n": 5
+    },
+    "ntt data americas, inc.|digital engineering lead engineer|senior": {
+        "p25": 106517,
+        "median": 109886,
+        "p75": 133702,
+        "n": 13
+    },
+    "ntt data americas, inc.|digital engineering mgmt. senior manager|senior": {
+        "p25": 141773,
+        "median": 149781,
+        "p75": 149781,
+        "n": 5
+    },
+    "ntt data americas, inc.|digital engineering sr. engineer|senior": {
+        "p25": 86923,
+        "median": 86923,
+        "p75": 91374,
+        "n": 9
+    },
+    "ntt data americas, inc.|digital solution cnslt. lead consultant|senior": {
+        "p25": 136807,
+        "median": 139974,
+        "p75": 160139,
+        "n": 8
+    },
+    "ntt data americas, inc.|enterprise resource planning advisor|mid": {
+        "p25": 115966,
+        "median": 125372,
+        "p75": 138222,
+        "n": 8
+    },
+    "ntt data americas, inc.|erp senior specialist|senior": {
+        "p25": 109328,
+        "median": 111957,
+        "p75": 116273,
+        "n": 6
+    },
+    "ntt data americas, inc.|software development advisor|mid": {
+        "p25": 118726,
+        "median": 125985,
+        "p75": 126131,
+        "n": 10
+    },
+    "ntt data americas, inc.|software development senior analyst|senior": {
+        "p25": 86923,
+        "median": 86923,
+        "p75": 87048,
+        "n": 11
+    },
+    "ntt data americas, inc.|software development senior specialist|senior": {
+        "p25": 113427,
+        "median": 119933,
+        "p75": 126895,
+        "n": 38
+    },
+    "ntt data americas, inc.|software development specialist|mid": {
+        "p25": 106517,
+        "median": 106517,
+        "p75": 115450,
+        "n": 37
+    },
+    "ntt data americas, inc.|software development specialist advisor|mid": {
+        "p25": 121732,
+        "median": 127576,
+        "p75": 129022,
+        "n": 6
+    },
+    "ntt data americas, inc.|software quality assurance specialist|mid": {
+        "p25": 98384,
+        "median": 102669,
+        "p75": 121129,
+        "n": 7
+    },
+    "ntt data services, llc|software development advisor|mid": {
+        "p25": 122998,
+        "median": 126131,
+        "p75": 126131,
+        "n": 23
+    },
+    "ntt data services, llc|software development senior specialist|senior": {
+        "p25": 109886,
+        "median": 114204,
+        "p75": 115531,
+        "n": 15
+    },
+    "ntt data services, llc|software development specialist|mid": {
+        "p25": 106517,
+        "median": 106517,
+        "p75": 110198,
+        "n": 11
+    },
+    "ntt data services, llc|software development specialist advisor|mid": {
+        "p25": 126067,
+        "median": 126131,
+        "p75": 129022,
+        "n": 28
+    },
+    "nube9 llc|data engineer|mid": {
+        "p25": 92875,
+        "median": 106000,
+        "p75": 112750,
+        "n": 8
+    },
+    "nucleusteq, inc.|technical lead|senior": {
+        "p25": 95750,
+        "median": 115500,
+        "p75": 119500,
+        "n": 6
+    },
+    "nuforce, llc|healthcare practitioner|mid": {
+        "p25": 46842,
+        "median": 46842,
+        "p75": 46842,
+        "n": 5
+    },
+    "numeric technologies inc.|sr. sap fico consultant|senior": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 145000,
+        "n": 5
+    },
+    "numerix llc|financial engineer|mid": {
+        "p25": 102250,
+        "median": 112500,
+        "p75": 120000,
+        "n": 8
+    },
+    "nuro, inc|senior software engineer|senior": {
+        "p25": 189520,
+        "median": 189640,
+        "p75": 209100,
+        "n": 5
+    },
+    "nuro, inc|software engineer|mid": {
+        "p25": 164941,
+        "median": 185000,
+        "p75": 211955,
+        "n": 20
+    },
+    "nutanix, inc.|member of technical staff|senior": {
+        "p25": 151232,
+        "median": 181374,
+        "p75": 182630,
+        "n": 91
+    },
+    "nutanix, inc.|senior member of technical staff|senior": {
+        "p25": 190486,
+        "median": 213891,
+        "p75": 219536,
+        "n": 33
+    },
+    "nutanix, inc.|sr. member of technical staff|senior": {
+        "p25": 204891,
+        "median": 216184,
+        "p75": 216615,
+        "n": 7
+    },
+    "nutanix, inc.|sr. systems reliability engineer|senior": {
+        "p25": 106900,
+        "median": 106900,
+        "p75": 126664,
+        "n": 11
+    },
+    "nutanix, inc.|staff engineer|senior": {
+        "p25": 212202,
+        "median": 226158,
+        "p75": 226158,
+        "n": 17
+    },
+    "nutanix, inc.|systems reliability engineer|mid": {
+        "p25": 84182,
+        "median": 106245,
+        "p75": 107816,
+        "n": 13
+    },
+    "nutech systems, inc.|programmer analyst|mid": {
+        "p25": 83857,
+        "median": 87915,
+        "p75": 91012,
+        "n": 6
+    },
+    "nutech systems, inc.|software developer|mid": {
+        "p25": 105250,
+        "median": 105250,
+        "p75": 105250,
+        "n": 5
+    },
+    "nutech systems, inc.|software engineer|mid": {
+        "p25": 99145,
+        "median": 105250,
+        "p75": 105375,
+        "n": 7
+    },
+    "nuthan technologies llc|software engineer|mid": {
+        "p25": 84320,
+        "median": 85000,
+        "p75": 85000,
+        "n": 6
+    },
+    "nutritious lifestyles, llc|registered dietitian|mid": {
+        "p25": 58406,
+        "median": 58936,
+        "p75": 59727,
+        "n": 10
+    },
+    "nuview technologies, inc.|software developer|mid": {
+        "p25": 83037,
+        "median": 90015,
+        "p75": 100750,
+        "n": 8
+    },
+    "nva technologies inc|software engineer|mid": {
+        "p25": 93038,
+        "median": 93038,
+        "p75": 93038,
+        "n": 5
+    },
+    "nvidia corporation|account manager|senior": {
+        "p25": 161076,
+        "median": 212152,
+        "p75": 224000,
+        "n": 6
+    },
+    "nvidia corporation|analyst|mid": {
+        "p25": 121777,
+        "median": 130981,
+        "p75": 146648,
+        "n": 7
+    },
+    "nvidia corporation|analyst business systems senior staff|senior": {
+        "p25": 168000,
+        "median": 168000,
+        "p75": 194792,
+        "n": 5
+    },
+    "nvidia corporation|applications engineer|mid": {
+        "p25": 171194,
+        "median": 186472,
+        "p75": 189484,
+        "n": 7
+    },
+    "nvidia corporation|architect|senior": {
+        "p25": 148772,
+        "median": 184000,
+        "p75": 220000,
+        "n": 158
+    },
+    "nvidia corporation|architect senior|senior": {
+        "p25": 182995,
+        "median": 186472,
+        "p75": 216091,
+        "n": 28
+    },
+    "nvidia corporation|architect solutions|senior": {
+        "p25": 158287,
+        "median": 168958,
+        "p75": 172827,
+        "n": 6
+    },
+    "nvidia corporation|architect, hardware|senior": {
+        "p25": 184000,
+        "median": 189066,
+        "p75": 191048,
+        "n": 5
+    },
+    "nvidia corporation|architecture manager|senior": {
+        "p25": 224000,
+        "median": 224000,
+        "p75": 243256,
+        "n": 9
+    },
+    "nvidia corporation|asic engineer|mid": {
+        "p25": 196000,
+        "median": 204901,
+        "p75": 216091,
+        "n": 42
+    },
+    "nvidia corporation|business analyst|mid": {
+        "p25": 121061,
+        "median": 128439,
+        "p75": 137858,
+        "n": 6
+    },
+    "nvidia corporation|business systems analyst|mid": {
+        "p25": 164760,
+        "median": 168198,
+        "p75": 190819,
+        "n": 16
+    },
+    "nvidia corporation|cad engineer|mid": {
+        "p25": 166340,
+        "median": 196000,
+        "p75": 207698,
+        "n": 20
+    },
+    "nvidia corporation|data scientist|mid": {
+        "p25": 153336,
+        "median": 173436,
+        "p75": 180002,
+        "n": 6
+    },
+    "nvidia corporation|dev ops engineer|mid": {
+        "p25": 166000,
+        "median": 180710,
+        "p75": 206523,
+        "n": 15
+    },
+    "nvidia corporation|engineer senior asic|senior": {
+        "p25": 164573,
+        "median": 196000,
+        "p75": 216091,
+        "n": 43
+    },
+    "nvidia corporation|engineer senior dev ops|senior": {
+        "p25": 164000,
+        "median": 202733,
+        "p75": 204134,
+        "n": 5
+    },
+    "nvidia corporation|engineer senior mixed signal design|senior": {
+        "p25": 168000,
+        "median": 168000,
+        "p75": 178837,
+        "n": 7
+    },
+    "nvidia corporation|engineer senior network infrastructure|senior": {
+        "p25": 177258,
+        "median": 177258,
+        "p75": 177258,
+        "n": 6
+    },
+    "nvidia corporation|engineer senior physical design|senior": {
+        "p25": 174020,
+        "median": 194040,
+        "p75": 196000,
+        "n": 10
+    },
+    "nvidia corporation|engineer senior software|senior": {
+        "p25": 151549,
+        "median": 168000,
+        "p75": 185155,
+        "n": 9
+    },
+    "nvidia corporation|engineer senior sys sw|senior": {
+        "p25": 148949,
+        "median": 148949,
+        "p75": 153317,
+        "n": 5
+    },
+    "nvidia corporation|engineer senior systems software|senior": {
+        "p25": 173329,
+        "median": 184000,
+        "p75": 204134,
+        "n": 95
+    },
+    "nvidia corporation|engineer senior verification|senior": {
+        "p25": 162027,
+        "median": 168000,
+        "p75": 196509,
+        "n": 30
+    },
+    "nvidia corporation|engineer systems software|mid": {
+        "p25": 143383,
+        "median": 143383,
+        "p75": 144547,
+        "n": 14
+    },
+    "nvidia corporation|financial analyst|mid": {
+        "p25": 152421,
+        "median": 162926,
+        "p75": 182478,
+        "n": 8
+    },
+    "nvidia corporation|hardware engineer, electronics|mid": {
+        "p25": 151091,
+        "median": 178006,
+        "p75": 196007,
+        "n": 236
+    },
+    "nvidia corporation|manager it|senior": {
+        "p25": 190368,
+        "median": 208125,
+        "p75": 232877,
+        "n": 7
+    },
+    "nvidia corporation|manager systems software|senior": {
+        "p25": 224000,
+        "median": 224000,
+        "p75": 248643,
+        "n": 25
+    },
+    "nvidia corporation|manager, engineering|senior": {
+        "p25": 208125,
+        "median": 233628,
+        "p75": 243256,
+        "n": 10
+    },
+    "nvidia corporation|manager, systems software|senior": {
+        "p25": 197155,
+        "median": 216590,
+        "p75": 224791,
+        "n": 5
+    },
+    "nvidia corporation|mask design engineer|mid": {
+        "p25": 142808,
+        "median": 159984,
+        "p75": 182636,
+        "n": 11
+    },
+    "nvidia corporation|mechanical engineer|mid": {
+        "p25": 155043,
+        "median": 155043,
+        "p75": 181397,
+        "n": 9
+    },
+    "nvidia corporation|mixed signal design engineer|mid": {
+        "p25": 191453,
+        "median": 204901,
+        "p75": 216091,
+        "n": 15
+    },
+    "nvidia corporation|physical design engineer|mid": {
+        "p25": 156994,
+        "median": 183510,
+        "p75": 204901,
+        "n": 22
+    },
+    "nvidia corporation|principal architect|senior": {
+        "p25": 272000,
+        "median": 272000,
+        "p75": 272000,
+        "n": 5
+    },
+    "nvidia corporation|principal research scientist|senior": {
+        "p25": 272000,
+        "median": 272000,
+        "p75": 272000,
+        "n": 5
+    },
+    "nvidia corporation|principal software engineer|senior": {
+        "p25": 272000,
+        "median": 272000,
+        "p75": 272000,
+        "n": 7
+    },
+    "nvidia corporation|principal systems software engineer|senior": {
+        "p25": 272000,
+        "median": 272000,
+        "p75": 272000,
+        "n": 9
+    },
+    "nvidia corporation|product development engineer|mid": {
+        "p25": 184046,
+        "median": 196983,
+        "p75": 207698,
+        "n": 8
+    },
+    "nvidia corporation|product manager|senior": {
+        "p25": 173477,
+        "median": 199204,
+        "p75": 220106,
+        "n": 56
+    },
+    "nvidia corporation|product marketing engineer|mid": {
+        "p25": 155948,
+        "median": 169770,
+        "p75": 169770,
+        "n": 5
+    },
+    "nvidia corporation|product marketing manager|senior": {
+        "p25": 141616,
+        "median": 152000,
+        "p75": 173715,
+        "n": 5
+    },
+    "nvidia corporation|program manager|senior": {
+        "p25": 183358,
+        "median": 192002,
+        "p75": 220231,
+        "n": 46
+    },
+    "nvidia corporation|program manager (technical)|senior": {
+        "p25": 185826,
+        "median": 185826,
+        "p75": 201323,
+        "n": 5
+    },
+    "nvidia corporation|research scientist|mid": {
+        "p25": 160000,
+        "median": 184000,
+        "p75": 224000,
+        "n": 97
+    },
+    "nvidia corporation|researcher|mid": {
+        "p25": 169999,
+        "median": 235996,
+        "p75": 298989,
+        "n": 6
+    },
+    "nvidia corporation|senior architect|senior": {
+        "p25": 180000,
+        "median": 201323,
+        "p75": 222000,
+        "n": 15
+    },
+    "nvidia corporation|senior asic engineer|senior": {
+        "p25": 164000,
+        "median": 168000,
+        "p75": 205814,
+        "n": 11
+    },
+    "nvidia corporation|senior research scientist|senior": {
+        "p25": 201094,
+        "median": 220000,
+        "p75": 224682,
+        "n": 9
+    },
+    "nvidia corporation|senior verification engineer|senior": {
+        "p25": 173003,
+        "median": 178006,
+        "p75": 190228,
+        "n": 7
+    },
+    "nvidia corporation|signal integrity engineer|mid": {
+        "p25": 204901,
+        "median": 204901,
+        "p75": 204901,
+        "n": 7
+    },
+    "nvidia corporation|software engineer|mid": {
+        "p25": 166990,
+        "median": 187253,
+        "p75": 213283,
+        "n": 545
+    },
+    "nvidia corporation|software manager|senior": {
+        "p25": 200295,
+        "median": 216590,
+        "p75": 216590,
+        "n": 7
+    },
+    "nvidia corporation|software qa engineer|mid": {
+        "p25": 164154,
+        "median": 164154,
+        "p75": 194875,
+        "n": 9
+    },
+    "nvidia corporation|software qa test developer|mid": {
+        "p25": 201053,
+        "median": 201053,
+        "p75": 201053,
+        "n": 5
+    },
+    "nvidia corporation|software qa test engineer|mid": {
+        "p25": 164154,
+        "median": 194875,
+        "p75": 194875,
+        "n": 5
+    },
+    "nvidia corporation|software quality assurance engineer|mid": {
+        "p25": 152000,
+        "median": 170483,
+        "p75": 200000,
+        "n": 5
+    },
+    "nvidia corporation|solutions architect|senior": {
+        "p25": 148000,
+        "median": 180710,
+        "p75": 200304,
+        "n": 31
+    },
+    "nvidia corporation|supply chain planner|mid": {
+        "p25": 142085,
+        "median": 152000,
+        "p75": 152884,
+        "n": 7
+    },
+    "nvidia corporation|system design engineer|mid": {
+        "p25": 155415,
+        "median": 157779,
+        "p75": 195549,
+        "n": 15
+    },
+    "nvidia corporation|technical program manager|senior": {
+        "p25": 185196,
+        "median": 191442,
+        "p75": 199035,
+        "n": 6
+    },
+    "nvidia corporation|test engineer|mid": {
+        "p25": 141753,
+        "median": 142298,
+        "p75": 193190,
+        "n": 15
+    },
+    "nvidia corporation|verification engineer|mid": {
+        "p25": 166195,
+        "median": 191432,
+        "p75": 213293,
+        "n": 54
+    },
+    "nwe technology, inc.|product & process development engineer|mid": {
+        "p25": 129000,
+        "median": 132000,
+        "p75": 138000,
+        "n": 7
+    },
+    "nxp usa, inc.|digital design engineer|mid": {
+        "p25": 127484,
+        "median": 136295,
+        "p75": 143812,
+        "n": 10
+    },
+    "nxp usa, inc.|digital verification engineer|mid": {
+        "p25": 132020,
+        "median": 135950,
+        "p75": 158464,
+        "n": 5
+    },
+    "nxp usa, inc.|field application engineer|mid": {
+        "p25": 110846,
+        "median": 152637,
+        "p75": 153504,
+        "n": 5
+    },
+    "nxp usa, inc.|product/test engineer|mid": {
+        "p25": 118479,
+        "median": 124918,
+        "p75": 127258,
+        "n": 6
+    },
+    "nxp usa, inc.|systems & applications engineer|mid": {
+        "p25": 139878,
+        "median": 143361,
+        "p75": 185608,
+        "n": 6
+    },
+    "nxt it llc.|java developer|mid": {
+        "p25": 85280,
+        "median": 104000,
+        "p75": 108160,
+        "n": 5
+    },
+    "nyc health and hospitals corp.|physician in a post graduate training program|entry": {
+        "p25": 81769,
+        "median": 84426,
+        "p75": 87935,
+        "n": 9
+    },
+    "nycasoft, inc|software applications developer|mid": {
+        "p25": 109221,
+        "median": 113890,
+        "p75": 122970,
+        "n": 10
+    },
+    "nysarc inc clinton county chapter|habilitation counselor|mid": {
+        "p25": 37211,
+        "median": 37211,
+        "p75": 37211,
+        "n": 5
+    },
+    "nysarc inc. rockland county chapter|habilitation counselor|mid": {
+        "p25": 38604,
+        "median": 38604,
+        "p75": 38604,
+        "n": 40
+    },
+    "nysarc, inc essex county chapter|residential habilitation specialist|mid": {
+        "p25": 39520,
+        "median": 39520,
+        "p75": 39520,
+        "n": 60
+    },
+    "nyse market (de), inc.|lead qa engineer|senior": {
+        "p25": 150300,
+        "median": 150300,
+        "p75": 150300,
+        "n": 5
+    },
+    "nyu grossman school of medicine|assistant professor (research)|entry": {
+        "p25": 137812,
+        "median": 143526,
+        "p75": 153470,
+        "n": 8
+    },
+    "nyu grossman school of medicine|assistant research scientist|entry": {
+        "p25": 73616,
+        "median": 74000,
+        "p75": 78228,
+        "n": 5
+    },
+    "nyu grossman school of medicine|associate research scientist|entry": {
+        "p25": 70000,
+        "median": 75000,
+        "p75": 77532,
+        "n": 9
+    },
+    "nyu grossman school of medicine|data analyst|mid": {
+        "p25": 70112,
+        "median": 81224,
+        "p75": 90100,
+        "n": 5
+    },
+    "nyu grossman school of medicine|faculty/research scientist|mid": {
+        "p25": 99225,
+        "median": 131250,
+        "p75": 155000,
+        "n": 5
+    },
+    "nyu grossman school of medicine|postdoctoral fellow|senior": {
+        "p25": 74200,
+        "median": 75877,
+        "p75": 79601,
+        "n": 45
+    },
+    "nyu grossman school of medicine|research associate|entry": {
+        "p25": 62213,
+        "median": 65734,
+        "p75": 65749,
+        "n": 10
+    },
+    "nyu grossman school of medicine|research scientist|mid": {
+        "p25": 77633,
+        "median": 87305,
+        "p75": 93203,
+        "n": 24
+    },
+    "nyu grossman school of medicine|senior research scientist|senior": {
+        "p25": 101055,
+        "median": 114003,
+        "p75": 134071,
+        "n": 6
+    },
+    "nyu grossman school of medicine|staff physician|senior": {
+        "p25": 267500,
+        "median": 357500,
+        "p75": 400000,
+        "n": 19
+    },
+    "nyx llc|industrial engineer|mid": {
+        "p25": 73424,
+        "median": 80829,
+        "p75": 91166,
+        "n": 6
+    },
+    "nyx llc|mechanical engineer|mid": {
+        "p25": 72467,
+        "median": 77233,
+        "p75": 93642,
+        "n": 8
+    }
+}

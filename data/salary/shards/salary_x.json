@@ -1,0 +1,224 @@
+{
+    "x corp.|software engineer i|entry": {
+        "p25": 160000,
+        "median": 175000,
+        "p75": 175000,
+        "n": 5
+    },
+    "x corp.|software engineer ii|mid": {
+        "p25": 170625,
+        "median": 193750,
+        "p75": 222500,
+        "n": 6
+    },
+    "x corp.|sr. software engineer|senior": {
+        "p25": 200000,
+        "median": 212000,
+        "p75": 230000,
+        "n": 5
+    },
+    "x. ai llc|member of technical staff|senior": {
+        "p25": 300000,
+        "median": 300000,
+        "p75": 320000,
+        "n": 5
+    },
+    "x.ai corp.|member of technical staff|senior": {
+        "p25": 233750,
+        "median": 287500,
+        "p75": 322500,
+        "n": 6
+    },
+    "x.ai llc|member of technical staff|senior": {
+        "p25": 240000,
+        "median": 318781,
+        "p75": 375000,
+        "n": 29
+    },
+    "xceedance inc.|tech lead|senior": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 125000,
+        "n": 5
+    },
+    "xceltrait, inc.|software developer|mid": {
+        "p25": 109500,
+        "median": 126000,
+        "p75": 135944,
+        "n": 6
+    },
+    "xchanging solutions (usa) inc.|associate manager software engineering|mid": {
+        "p25": 101134,
+        "median": 102930,
+        "p75": 106860,
+        "n": 6
+    },
+    "xduce corporation|software developer|mid": {
+        "p25": 133000,
+        "median": 134160,
+        "p75": 139000,
+        "n": 5
+    },
+    "xebia usa inc.|associate director|senior": {
+        "p25": 96226,
+        "median": 135668,
+        "p75": 178568,
+        "n": 8
+    },
+    "xebia usa inc.|principal consultant|senior": {
+        "p25": 112420,
+        "median": 176124,
+        "p75": 178568,
+        "n": 6
+    },
+    "xebia usa inc.|software developer|mid": {
+        "p25": 105227,
+        "median": 105227,
+        "p75": 105227,
+        "n": 8
+    },
+    "xenoninfotek, inc|it project manager|senior": {
+        "p25": 90001,
+        "median": 90001,
+        "p75": 90001,
+        "n": 16
+    },
+    "xgare technologies llc|software developer|mid": {
+        "p25": 84094,
+        "median": 105997,
+        "p75": 105997,
+        "n": 16
+    },
+    "xilinx, inc.|mts silicon design engineer|mid": {
+        "p25": 167512,
+        "median": 185300,
+        "p75": 195700,
+        "n": 51
+    },
+    "xilinx, inc.|mts software development eng.|mid": {
+        "p25": 172022,
+        "median": 179338,
+        "p75": 199534,
+        "n": 25
+    },
+    "xilinx, inc.|mts software development engineer|mid": {
+        "p25": 181125,
+        "median": 187741,
+        "p75": 190000,
+        "n": 7
+    },
+    "xilinx, inc.|silicon design engineer|mid": {
+        "p25": 130000,
+        "median": 131675,
+        "p75": 136250,
+        "n": 12
+    },
+    "xilinx, inc.|smts silicon design engineer|mid": {
+        "p25": 204901,
+        "median": 204901,
+        "p75": 215818,
+        "n": 14
+    },
+    "xilinx, inc.|smts software development eng.|mid": {
+        "p25": 204145,
+        "median": 204500,
+        "p75": 227118,
+        "n": 12
+    },
+    "xilinx, inc.|sr. silicon design engineer|senior": {
+        "p25": 140858,
+        "median": 151091,
+        "p75": 156853,
+        "n": 28
+    },
+    "xilinx, inc.|sr. software development engineer|senior": {
+        "p25": 141445,
+        "median": 151232,
+        "p75": 169250,
+        "n": 23
+    },
+    "xilinx, inc.|systems design engineer|mid": {
+        "p25": 127234,
+        "median": 128617,
+        "p75": 133750,
+        "n": 6
+    },
+    "xl softek inc.|software engineer|mid": {
+        "p25": 97386,
+        "median": 123656,
+        "p75": 123656,
+        "n": 5
+    },
+    "xmotors.ai, inc.|senior machine learning engineer|senior": {
+        "p25": 260000,
+        "median": 265000,
+        "p75": 265000,
+        "n": 5
+    },
+    "xoriant corporation|business analyst|mid": {
+        "p25": 107000,
+        "median": 107000,
+        "p75": 117200,
+        "n": 5
+    },
+    "xoriant corporation|computer systems analyst|mid": {
+        "p25": 103523,
+        "median": 105020,
+        "p75": 115347,
+        "n": 6
+    },
+    "xoriant corporation|data engineer|mid": {
+        "p25": 102450,
+        "median": 116780,
+        "p75": 122950,
+        "n": 9
+    },
+    "xoriant corporation|software engineer|mid": {
+        "p25": 103940,
+        "median": 114715,
+        "p75": 123975,
+        "n": 8
+    },
+    "xpand it solutions inc|software developer|mid": {
+        "p25": 84100,
+        "median": 95493,
+        "p75": 105976,
+        "n": 37
+    },
+    "xpanse, llc|software engineer|mid": {
+        "p25": 88577,
+        "median": 95493,
+        "p75": 113089,
+        "n": 7
+    },
+    "xpo enterprise services, llc|senior engineer, software engineering|senior": {
+        "p25": 126880,
+        "median": 127878,
+        "p75": 134347,
+        "n": 5
+    },
+    "xpress global it solutions llc|software developer|mid": {
+        "p25": 111191,
+        "median": 112986,
+        "p75": 115653,
+        "n": 8
+    },
+    "xprotean inc.|software engineer|mid": {
+        "p25": 97157,
+        "median": 146307,
+        "p75": 146307,
+        "n": 5
+    },
+    "xtracit inc|software engineer|mid": {
+        "p25": 90896,
+        "median": 91644,
+        "p75": 112923,
+        "n": 5
+    },
+    "xylo consulting, llc.|software developer|mid": {
+        "p25": 96000,
+        "median": 101000,
+        "p75": 106000,
+        "n": 6
+    }
+}

@@ -1,0 +1,4910 @@
+{
+    "m digital llc|systems engineer|mid": {
+        "p25": 88961,
+        "median": 93631,
+        "p75": 107333,
+        "n": 6
+    },
+    "m&t bank|engineering team lead|senior": {
+        "p25": 143666,
+        "median": 143666,
+        "p75": 145995,
+        "n": 9
+    },
+    "m&t bank|software engineer ii|mid": {
+        "p25": 98509,
+        "median": 103718,
+        "p75": 123656,
+        "n": 28
+    },
+    "m&t bank|software engineer iii|senior": {
+        "p25": 123365,
+        "median": 127878,
+        "p75": 143666,
+        "n": 23
+    },
+    "m&t bank|technical engineer iv|senior": {
+        "p25": 121077,
+        "median": 143666,
+        "p75": 143666,
+        "n": 5
+    },
+    "m. a. mortenson company|assistant project manager|mid": {
+        "p25": 99486,
+        "median": 104400,
+        "p75": 109949,
+        "n": 9
+    },
+    "m. a. mortenson company|project manager i|mid": {
+        "p25": 119865,
+        "median": 123916,
+        "p75": 126552,
+        "n": 12
+    },
+    "m. a. mortenson company|project manager ii|senior": {
+        "p25": 129681,
+        "median": 134274,
+        "p75": 141148,
+        "n": 6
+    },
+    "m. arthur gensler jr. & associates, inc.|architect|senior": {
+        "p25": 82401,
+        "median": 85000,
+        "p75": 93750,
+        "n": 11
+    },
+    "m. arthur gensler jr. & associates, inc.|designer|mid": {
+        "p25": 76750,
+        "median": 79000,
+        "p75": 96246,
+        "n": 8
+    },
+    "m. arthur gensler jr. & associates, inc.|job captain|mid": {
+        "p25": 82200,
+        "median": 88000,
+        "p75": 89500,
+        "n": 5
+    },
+    "m. arthur gensler jr. & associates, inc.|technical designer|mid": {
+        "p25": 74691,
+        "median": 81500,
+        "p75": 92550,
+        "n": 24
+    },
+    "m9 consulting, inc.|software engineer|mid": {
+        "p25": 92955,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "maantic, inc.|software engineer|mid": {
+        "p25": 130000,
+        "median": 142000,
+        "p75": 150000,
+        "n": 27
+    },
+    "mach 2000 technologies, inc.|quality assurance test engineer|mid": {
+        "p25": 76128,
+        "median": 78260,
+        "p75": 83246,
+        "n": 6
+    },
+    "macias gini & o'connell llp|assurance experienced associate|entry": {
+        "p25": 72000,
+        "median": 72000,
+        "p75": 79000,
+        "n": 5
+    },
+    "macias gini & o'connell llp|supervisor - faas|mid": {
+        "p25": 103613,
+        "median": 103650,
+        "p75": 105373,
+        "n": 5
+    },
+    "macquarie america holdings inc.|senior analyst|senior": {
+        "p25": 120000,
+        "median": 125000,
+        "p75": 125000,
+        "n": 5
+    },
+    "macquarie global services (usa) llc|associate director|senior": {
+        "p25": 177500,
+        "median": 197000,
+        "p75": 227500,
+        "n": 7
+    },
+    "macquarie global services (usa) llc|executive|mid": {
+        "p25": 99000,
+        "median": 106000,
+        "p75": 108000,
+        "n": 10
+    },
+    "macquarie global services (usa) llc|manager|senior": {
+        "p25": 112500,
+        "median": 126000,
+        "p75": 136000,
+        "n": 7
+    },
+    "macquarie global services (usa) llc|senior analyst|senior": {
+        "p25": 98000,
+        "median": 117000,
+        "p75": 125000,
+        "n": 5
+    },
+    "macquarie global services (usa) llc|senior manager|senior": {
+        "p25": 147150,
+        "median": 155000,
+        "p75": 164250,
+        "n": 14
+    },
+    "macquarie global services (usa) llc|vice president|senior": {
+        "p25": 135000,
+        "median": 145000,
+        "p75": 152500,
+        "n": 7
+    },
+    "macquarie holdings (usa) inc.|associate|entry": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 175000,
+        "n": 8
+    },
+    "macquarie holdings (usa) inc.|associate director|senior": {
+        "p25": 277500,
+        "median": 285000,
+        "p75": 288750,
+        "n": 10
+    },
+    "macquarie holdings (usa) inc.|executive|mid": {
+        "p25": 118750,
+        "median": 142500,
+        "p75": 155000,
+        "n": 6
+    },
+    "macquarie holdings (usa) inc.|manager|senior": {
+        "p25": 120000,
+        "median": 195000,
+        "p75": 205000,
+        "n": 9
+    },
+    "macquarie holdings (usa) inc.|senior manager|senior": {
+        "p25": 163500,
+        "median": 175000,
+        "p75": 205000,
+        "n": 15
+    },
+    "macquarie holdings (usa) inc.|vice president|senior": {
+        "p25": 171500,
+        "median": 175000,
+        "p75": 260000,
+        "n": 7
+    },
+    "macy's systems & technology, inc.|lead, software engineer|senior": {
+        "p25": 150550,
+        "median": 155500,
+        "p75": 162300,
+        "n": 23
+    },
+    "macy's systems & technology, inc.|senior, software engineer|senior": {
+        "p25": 138150,
+        "median": 144750,
+        "p75": 147625,
+        "n": 16
+    },
+    "macy's systems & technology, inc.|staff, software engineer|senior": {
+        "p25": 171100,
+        "median": 179100,
+        "p75": 185000,
+        "n": 25
+    },
+    "macy's systems & technology, inc.|tech manager, engineering|mid": {
+        "p25": 179900,
+        "median": 182700,
+        "p75": 185500,
+        "n": 13
+    },
+    "macy's systems & technology, inc.|tech senior manager, engineering|senior": {
+        "p25": 207800,
+        "median": 219200,
+        "p75": 251700,
+        "n": 5
+    },
+    "maddisoft llc|software engineer|mid": {
+        "p25": 111280,
+        "median": 130000,
+        "p75": 142800,
+        "n": 11
+    },
+    "magna electronics, inc.|senior software engineer|senior": {
+        "p25": 114691,
+        "median": 114691,
+        "p75": 118934,
+        "n": 6
+    },
+    "magna electronics, inc.|software algorithm engineer|mid": {
+        "p25": 77792,
+        "median": 80922,
+        "p75": 86705,
+        "n": 6
+    },
+    "magna electronics, inc.|system test engineer|mid": {
+        "p25": 87589,
+        "median": 88234,
+        "p75": 88234,
+        "n": 5
+    },
+    "magnum opus it, inc.|sap consultant|mid": {
+        "p25": 84929,
+        "median": 97387,
+        "p75": 105227,
+        "n": 6
+    },
+    "magtech consulting and solutions development corporation|computer (devops) programmer|mid": {
+        "p25": 80000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "magtech consulting and solutions development corporation|computer programmer|mid": {
+        "p25": 70500,
+        "median": 72000,
+        "p75": 78000,
+        "n": 7
+    },
+    "maharishi international university|instructor|mid": {
+        "p25": 63600,
+        "median": 64517,
+        "p75": 69000,
+        "n": 16
+    },
+    "mahaugha llc|software developer|mid": {
+        "p25": 95493,
+        "median": 108826,
+        "p75": 119205,
+        "n": 35
+    },
+    "mahendra inc|software engineer|mid": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 30
+    },
+    "maimonides medical center|attending physician|senior": {
+        "p25": 271922,
+        "median": 337152,
+        "p75": 406250,
+        "n": 8
+    },
+    "maimonides medical center|physician in a post graduate training program|entry": {
+        "p25": 83089,
+        "median": 93696,
+        "p75": 93696,
+        "n": 41
+    },
+    "maimonides medical center|social worker msw|mid": {
+        "p25": 96335,
+        "median": 98508,
+        "p75": 100698,
+        "n": 7
+    },
+    "maini llc|software developer|mid": {
+        "p25": 83000,
+        "median": 100000,
+        "p75": 105000,
+        "n": 7
+    },
+    "majestic it services inc|data engineer|mid": {
+        "p25": 83658,
+        "median": 88286,
+        "p75": 100636,
+        "n": 6
+    },
+    "majestic it services inc|software engineer|mid": {
+        "p25": 77418,
+        "median": 80371,
+        "p75": 105997,
+        "n": 5
+    },
+    "maks engineers, pc|civil engineer|mid": {
+        "p25": 75000,
+        "median": 90000,
+        "p75": 99300,
+        "n": 5
+    },
+    "management health systems, llc|clinical laboratory scientist|mid": {
+        "p25": 56576,
+        "median": 56576,
+        "p75": 58656,
+        "n": 146
+    },
+    "management health systems, llc|physical therapist|mid": {
+        "p25": 76960,
+        "median": 78520,
+        "p75": 86320,
+        "n": 17
+    },
+    "management health systems, llc|registered nurse \u201c float|mid": {
+        "p25": 66560,
+        "median": 66560,
+        "p75": 72800,
+        "n": 8
+    },
+    "management health systems, llc|staff registered nurse|senior": {
+        "p25": 85784,
+        "median": 86964,
+        "p75": 86964,
+        "n": 8
+    },
+    "mancor ohio inc|manufacturing engineer|mid": {
+        "p25": 80080,
+        "median": 80080,
+        "p75": 84691,
+        "n": 5
+    },
+    "manhattan associates, inc.|architect, technology services|senior": {
+        "p25": 163027,
+        "median": 167500,
+        "p75": 167500,
+        "n": 6
+    },
+    "manhattan associates, inc.|director, software engineering|senior": {
+        "p25": 179293,
+        "median": 180758,
+        "p75": 202730,
+        "n": 6
+    },
+    "manhattan associates, inc.|principal support consultant|senior": {
+        "p25": 123531,
+        "median": 123531,
+        "p75": 123531,
+        "n": 11
+    },
+    "manhattan associates, inc.|principal, technology services|senior": {
+        "p25": 123531,
+        "median": 123531,
+        "p75": 126885,
+        "n": 6
+    },
+    "manhattan associates, inc.|senior principal software engineer|senior": {
+        "p25": 135045,
+        "median": 135045,
+        "p75": 141753,
+        "n": 9
+    },
+    "manhattan associates, inc.|senior principal support consultant|senior": {
+        "p25": 130562,
+        "median": 136000,
+        "p75": 136000,
+        "n": 9
+    },
+    "manhattan associates, inc.|senior principal, software engineer|senior": {
+        "p25": 135045,
+        "median": 135045,
+        "p75": 135045,
+        "n": 5
+    },
+    "manhattan associates, inc.|senior principal, technology services|senior": {
+        "p25": 130562,
+        "median": 132500,
+        "p75": 132500,
+        "n": 10
+    },
+    "manju software solutions inc|software developer|mid": {
+        "p25": 89195,
+        "median": 91322,
+        "p75": 105997,
+        "n": 8
+    },
+    "mankind america llc|business analyst|mid": {
+        "p25": 81994,
+        "median": 89419,
+        "p75": 92040,
+        "n": 5
+    },
+    "mankind america llc|data analyst|mid": {
+        "p25": 82347,
+        "median": 88909,
+        "p75": 94583,
+        "n": 6
+    },
+    "mankind america llc|data engineer|mid": {
+        "p25": 70637,
+        "median": 80995,
+        "p75": 88233,
+        "n": 11
+    },
+    "mankind america llc|java full stack developer|mid": {
+        "p25": 72114,
+        "median": 80850,
+        "p75": 85363,
+        "n": 5
+    },
+    "mankind america llc|software developer|mid": {
+        "p25": 81281,
+        "median": 100402,
+        "p75": 101801,
+        "n": 8
+    },
+    "mankind america llc|ui developer|mid": {
+        "p25": 84094,
+        "median": 94578,
+        "p75": 95493,
+        "n": 9
+    },
+    "mapbox, inc.|software development engineer ii|mid": {
+        "p25": 178950,
+        "median": 185000,
+        "p75": 199000,
+        "n": 7
+    },
+    "maplebear inc.|senior machine learning engineer|senior": {
+        "p25": 200000,
+        "median": 225000,
+        "p75": 230000,
+        "n": 13
+    },
+    "maplebear inc.|senior product manager|senior": {
+        "p25": 185000,
+        "median": 187500,
+        "p75": 190000,
+        "n": 6
+    },
+    "maplebear inc.|senior software engineer|senior": {
+        "p25": 200000,
+        "median": 217500,
+        "p75": 230000,
+        "n": 14
+    },
+    "maplebear inc.|software engineer|mid": {
+        "p25": 165000,
+        "median": 170000,
+        "p75": 179500,
+        "n": 6
+    },
+    "maplebear inc.|staff software engineer|senior": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 7
+    },
+    "maq l.l.c.|software data operations engineer|mid": {
+        "p25": 110635,
+        "median": 110635,
+        "p75": 122626,
+        "n": 12
+    },
+    "marathon petroleum company lp|senior software engineer|senior": {
+        "p25": 121126,
+        "median": 129528,
+        "p75": 140509,
+        "n": 6
+    },
+    "marc consulting llc.|software developer|mid": {
+        "p25": 93205,
+        "median": 93205,
+        "p75": 93205,
+        "n": 8
+    },
+    "margarita r. cancio, md, pa|infectious disease physician|mid": {
+        "p25": 240000,
+        "median": 240000,
+        "p75": 240000,
+        "n": 5
+    },
+    "margin5 solutions inc.|database administrator|mid": {
+        "p25": 95680,
+        "median": 104000,
+        "p75": 111072,
+        "n": 5
+    },
+    "marist university|assistant professor|entry": {
+        "p25": 78391,
+        "median": 79783,
+        "p75": 104310,
+        "n": 6
+    },
+    "mark david levine, m.d., professional corporation|psychiatrist|mid": {
+        "p25": 300000,
+        "median": 325000,
+        "p75": 330000,
+        "n": 11
+    },
+    "mark infotech inc|software developer|mid": {
+        "p25": 106200,
+        "median": 114300,
+        "p75": 124200,
+        "n": 10
+    },
+    "marketing attribution, llc|analytics consultant|mid": {
+        "p25": 91884,
+        "median": 93974,
+        "p75": 97626,
+        "n": 7
+    },
+    "markit north america, inc.|lead software engineer|senior": {
+        "p25": 140915,
+        "median": 142813,
+        "p75": 165194,
+        "n": 5
+    },
+    "markit north america, inc.|software engineer|mid": {
+        "p25": 119053,
+        "median": 125209,
+        "p75": 133153,
+        "n": 18
+    },
+    "marlabs llc|it systems analyst|mid": {
+        "p25": 93000,
+        "median": 104000,
+        "p75": 105100,
+        "n": 13
+    },
+    "marlabs llc|programmer/analyst|mid": {
+        "p25": 76825,
+        "median": 87750,
+        "p75": 98400,
+        "n": 30
+    },
+    "marlabs llc|software application developer|mid": {
+        "p25": 101200,
+        "median": 106300,
+        "p75": 120275,
+        "n": 18
+    },
+    "marqeta, inc.|senior software engineer|senior": {
+        "p25": 161845,
+        "median": 172100,
+        "p75": 183137,
+        "n": 15
+    },
+    "marqeta, inc.|software engineer|mid": {
+        "p25": 123656,
+        "median": 128544,
+        "p75": 138874,
+        "n": 6
+    },
+    "marqeta, inc.|staff software engineer|senior": {
+        "p25": 207762,
+        "median": 218917,
+        "p75": 225198,
+        "n": 8
+    },
+    "marquee technology solutions inc.|software developer|mid": {
+        "p25": 97489,
+        "median": 101179,
+        "p75": 105976,
+        "n": 10
+    },
+    "marquee technology solutions inc.|software engineer|mid": {
+        "p25": 97157,
+        "median": 101358,
+        "p75": 103334,
+        "n": 5
+    },
+    "marquette university|clinical assistant professor|entry": {
+        "p25": 105250,
+        "median": 111788,
+        "p75": 118688,
+        "n": 6
+    },
+    "marriott international, inc.|senior software engineer|senior": {
+        "p25": 154767,
+        "median": 160000,
+        "p75": 160571,
+        "n": 18
+    },
+    "mars tech solutions llc|software developer|mid": {
+        "p25": 96000,
+        "median": 96000,
+        "p75": 96000,
+        "n": 5
+    },
+    "marshall technologies inc.|computer systems analyst|mid": {
+        "p25": 71572,
+        "median": 78613,
+        "p75": 79806,
+        "n": 6
+    },
+    "marshall university|assistant professor|entry": {
+        "p25": 61500,
+        "median": 76000,
+        "p75": 89000,
+        "n": 7
+    },
+    "marshall university|assistant professor of medicine (endocrinologist)|entry": {
+        "p25": 199992,
+        "median": 199992,
+        "p75": 249995,
+        "n": 5
+    },
+    "marshfield clinic|hospitalist|mid": {
+        "p25": 256590,
+        "median": 256590,
+        "p75": 258687,
+        "n": 7
+    },
+    "marshfield clinic|medical technologist|mid": {
+        "p25": 57324,
+        "median": 58656,
+        "p75": 58822,
+        "n": 5
+    },
+    "marshfield clinic|resident physician|entry": {
+        "p25": 71362,
+        "median": 71362,
+        "p75": 71362,
+        "n": 6
+    },
+    "marshfield clinic|resident physician - internal medicine|entry": {
+        "p25": 68964,
+        "median": 68964,
+        "p75": 68964,
+        "n": 11
+    },
+    "marshfield clinic|resident physician - pediatrics|entry": {
+        "p25": 68964,
+        "median": 68964,
+        "p75": 68964,
+        "n": 5
+    },
+    "maruthi technologies inc|sr. data engineer|senior": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 127878,
+        "n": 5
+    },
+    "marvel tech groups inc|software developer|mid": {
+        "p25": 98245,
+        "median": 103748,
+        "p75": 105997,
+        "n": 6
+    },
+    "marvell semiconductor, inc.|advanced packaging senior staff engineer|senior": {
+        "p25": 160000,
+        "median": 179000,
+        "p75": 179000,
+        "n": 5
+    },
+    "marvell semiconductor, inc.|analog ic design senior staff engineer|senior": {
+        "p25": 173930,
+        "median": 178006,
+        "p75": 179000,
+        "n": 5
+    },
+    "marvell semiconductor, inc.|analog ic design staff engineer|senior": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 155639,
+        "n": 10
+    },
+    "marvell semiconductor, inc.|design verification principal engineer|senior": {
+        "p25": 164062,
+        "median": 205000,
+        "p75": 205000,
+        "n": 10
+    },
+    "marvell semiconductor, inc.|design verification senior engineer|senior": {
+        "p25": 90000,
+        "median": 96000,
+        "p75": 123800,
+        "n": 5
+    },
+    "marvell semiconductor, inc.|design verification senior staff engineer|senior": {
+        "p25": 142250,
+        "median": 182736,
+        "p75": 200368,
+        "n": 6
+    },
+    "marvell semiconductor, inc.|design verification staff engineer|senior": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 152000,
+        "n": 5
+    },
+    "marvell semiconductor, inc.|digital ic design senior engineer|senior": {
+        "p25": 104500,
+        "median": 116800,
+        "p75": 124817,
+        "n": 7
+    },
+    "marvell semiconductor, inc.|digital ic design staff engineer|senior": {
+        "p25": 113000,
+        "median": 113000,
+        "p75": 152000,
+        "n": 5
+    },
+    "marvell semiconductor, inc.|hardware & silicon validation principal engineer|senior": {
+        "p25": 170000,
+        "median": 179000,
+        "p75": 197000,
+        "n": 6
+    },
+    "marvell semiconductor, inc.|hardware & silicon validation senior engineer|senior": {
+        "p25": 100000,
+        "median": 118000,
+        "p75": 118000,
+        "n": 5
+    },
+    "marvell semiconductor, inc.|hardware & silicon validation senior staff engineer|senior": {
+        "p25": 118000,
+        "median": 145205,
+        "p75": 145205,
+        "n": 5
+    },
+    "marvell semiconductor, inc.|physical design senior staff engineer|senior": {
+        "p25": 165628,
+        "median": 173256,
+        "p75": 184604,
+        "n": 6
+    },
+    "marvell semiconductor, inc.|physical design staff engineer|senior": {
+        "p25": 100000,
+        "median": 111000,
+        "p75": 130000,
+        "n": 9
+    },
+    "marvell semiconductor, inc.|senior staff engineer, design verification|senior": {
+        "p25": 160000,
+        "median": 179000,
+        "p75": 182736,
+        "n": 7
+    },
+    "marvell semiconductor, inc.|software / firmware engineering principal engineer|senior": {
+        "p25": 188000,
+        "median": 194000,
+        "p75": 200000,
+        "n": 8
+    },
+    "mary hitchcock memorial hospital|clinical laboratory scientist iii|senior": {
+        "p25": 45510,
+        "median": 45510,
+        "p75": 47403,
+        "n": 12
+    },
+    "maryland medical first, p.a.|internal medicine physician|mid": {
+        "p25": 215000,
+        "median": 215000,
+        "p75": 239200,
+        "n": 5
+    },
+    "mass general brigham incorporated|resident|entry": {
+        "p25": 78540,
+        "median": 82500,
+        "p75": 86350,
+        "n": 59
+    },
+    "massachusetts eye and ear infirmary|clinical fellow|senior": {
+        "p25": 95150,
+        "median": 97075,
+        "p75": 99000,
+        "n": 6
+    },
+    "massachusetts eye and ear infirmary|research fellow|senior": {
+        "p25": 70000,
+        "median": 70703,
+        "p75": 71492,
+        "n": 8
+    },
+    "massachusetts general physicians organization|clinical fellow|senior": {
+        "p25": 99000,
+        "median": 99000,
+        "p75": 104012,
+        "n": 25
+    },
+    "massachusetts general physicians organization|clinical research fellow|senior": {
+        "p25": 99000,
+        "median": 99967,
+        "p75": 104012,
+        "n": 14
+    },
+    "massachusetts general physicians organization|physician|mid": {
+        "p25": 236900,
+        "median": 296250,
+        "p75": 300000,
+        "n": 24
+    },
+    "massachusetts general physicians organization|radiologist|mid": {
+        "p25": 292500,
+        "median": 292500,
+        "p75": 292500,
+        "n": 5
+    },
+    "massachusetts general physicians organization, inc. (mgpo)/massachusetts general hospital (mgh)|radiologist|mid": {
+        "p25": 292500,
+        "median": 292500,
+        "p75": 310500,
+        "n": 5
+    },
+    "massachusetts institute of technology|assistant professor|entry": {
+        "p25": 140400,
+        "median": 144000,
+        "p75": 174100,
+        "n": 24
+    },
+    "massachusetts institute of technology|lecturer|mid": {
+        "p25": 80000,
+        "median": 100460,
+        "p75": 127656,
+        "n": 5
+    },
+    "massachusetts institute of technology|postdoctoral associate|entry": {
+        "p25": 69000,
+        "median": 71000,
+        "p75": 71250,
+        "n": 84
+    },
+    "massachusetts institute of technology|research engineer|mid": {
+        "p25": 87571,
+        "median": 104392,
+        "p75": 113500,
+        "n": 6
+    },
+    "massachusetts institute of technology|research scientist|mid": {
+        "p25": 78100,
+        "median": 85000,
+        "p75": 105000,
+        "n": 87
+    },
+    "massachusetts mutual life insurance company|data engineer - mastery|mid": {
+        "p25": 145995,
+        "median": 146806,
+        "p75": 148762,
+        "n": 5
+    },
+    "mast technology services, inc.|applications developer|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 115000,
+        "n": 5
+    },
+    "mast technology services, inc.|senior applications developer|senior": {
+        "p25": 126250,
+        "median": 130000,
+        "p75": 136250,
+        "n": 8
+    },
+    "mastec  services company, inc|network engineer|mid": {
+        "p25": 84946,
+        "median": 96934,
+        "p75": 110322,
+        "n": 7
+    },
+    "mastec  services company, inc|software engineer|mid": {
+        "p25": 88031,
+        "median": 97392,
+        "p75": 109442,
+        "n": 9
+    },
+    "mastech digital technologies, inc.|business intelligence analyst|mid": {
+        "p25": 91228,
+        "median": 92040,
+        "p75": 93927,
+        "n": 6
+    },
+    "mastech digital technologies, inc.|cloud engineer|mid": {
+        "p25": 95035,
+        "median": 112923,
+        "p75": 112923,
+        "n": 5
+    },
+    "mastech digital technologies, inc.|data engineer|mid": {
+        "p25": 89627,
+        "median": 101504,
+        "p75": 109491,
+        "n": 13
+    },
+    "mastech digital technologies, inc.|database administrator|mid": {
+        "p25": 87172,
+        "median": 89586,
+        "p75": 94744,
+        "n": 7
+    },
+    "mastech digital technologies, inc.|it project manager|senior": {
+        "p25": 78270,
+        "median": 88753,
+        "p75": 91717,
+        "n": 7
+    },
+    "mastech digital technologies, inc.|senior data engineer|senior": {
+        "p25": 117478,
+        "median": 118893,
+        "p75": 120058,
+        "n": 7
+    },
+    "mastech digital technologies, inc.|senior software developer|senior": {
+        "p25": 120234,
+        "median": 127878,
+        "p75": 127878,
+        "n": 51
+    },
+    "mastech digital technologies, inc.|software developer|mid": {
+        "p25": 100401,
+        "median": 105997,
+        "p75": 109283,
+        "n": 260
+    },
+    "mastech digital technologies, inc.|software test engineer|mid": {
+        "p25": 82508,
+        "median": 86923,
+        "p75": 91374,
+        "n": 26
+    },
+    "mastech digital technologies, inc.|systems engineer|mid": {
+        "p25": 83658,
+        "median": 92581,
+        "p75": 96824,
+        "n": 7
+    },
+    "mastek inc|principal specialist|senior": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 9
+    },
+    "mastek inc.|project manager|senior": {
+        "p25": 96750,
+        "median": 105000,
+        "p75": 105000,
+        "n": 6
+    },
+    "mastek inc.|software developer|mid": {
+        "p25": 108000,
+        "median": 123500,
+        "p75": 144000,
+        "n": 8
+    },
+    "mastek inc.|solution architect|senior": {
+        "p25": 106000,
+        "median": 110000,
+        "p75": 144000,
+        "n": 5
+    },
+    "master compliance, inc.|validation engineer|mid": {
+        "p25": 82500,
+        "median": 85500,
+        "p75": 90000,
+        "n": 10
+    },
+    "mastercard international incorporated|data engineer|mid": {
+        "p25": 106000,
+        "median": 128398,
+        "p75": 128398,
+        "n": 5
+    },
+    "mastercard international incorporated|director, product development|senior": {
+        "p25": 151784,
+        "median": 178991,
+        "p75": 182384,
+        "n": 8
+    },
+    "mastercard international incorporated|director, product management|senior": {
+        "p25": 170000,
+        "median": 174000,
+        "p75": 178000,
+        "n": 6
+    },
+    "mastercard international incorporated|lead software engineer|senior": {
+        "p25": 138000,
+        "median": 138000,
+        "p75": 159000,
+        "n": 13
+    },
+    "mastercard international incorporated|manager, management associate|mid": {
+        "p25": 120650,
+        "median": 131706,
+        "p75": 131706,
+        "n": 7
+    },
+    "mastercard international incorporated|manager, product development|senior": {
+        "p25": 151819,
+        "median": 151819,
+        "p75": 158558,
+        "n": 6
+    },
+    "mastercard international incorporated|manager, product management|senior": {
+        "p25": 137000,
+        "median": 141170,
+        "p75": 143000,
+        "n": 14
+    },
+    "mastercard international incorporated|senior software engineer|senior": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 123141,
+        "n": 24
+    },
+    "mastercard technologies, llc|bizops engineer|mid": {
+        "p25": 78849,
+        "median": 90397,
+        "p75": 115341,
+        "n": 6
+    },
+    "mastercard technologies, llc|director, software engineering|senior": {
+        "p25": 165000,
+        "median": 165000,
+        "p75": 169120,
+        "n": 12
+    },
+    "mastercard technologies, llc|lead bizops engineer|senior": {
+        "p25": 112174,
+        "median": 112174,
+        "p75": 118706,
+        "n": 30
+    },
+    "mastercard technologies, llc|lead information security engineer|senior": {
+        "p25": 138000,
+        "median": 138000,
+        "p75": 153750,
+        "n": 6
+    },
+    "mastercard technologies, llc|lead product manager- technical|senior": {
+        "p25": 119000,
+        "median": 119000,
+        "p75": 119000,
+        "n": 10
+    },
+    "mastercard technologies, llc|lead software engineer|senior": {
+        "p25": 138000,
+        "median": 138000,
+        "p75": 138000,
+        "n": 117
+    },
+    "mastercard technologies, llc|lead technical program manager|senior": {
+        "p25": 112043,
+        "median": 115440,
+        "p75": 131299,
+        "n": 10
+    },
+    "mastercard technologies, llc|lead, platform engineering|senior": {
+        "p25": 112174,
+        "median": 117197,
+        "p75": 118784,
+        "n": 10
+    },
+    "mastercard technologies, llc|manager, bizops|senior": {
+        "p25": 112512,
+        "median": 118706,
+        "p75": 130156,
+        "n": 10
+    },
+    "mastercard technologies, llc|manager, software engineering|senior": {
+        "p25": 138000,
+        "median": 138000,
+        "p75": 138000,
+        "n": 11
+    },
+    "mastercard technologies, llc|principal bizops engineer|senior": {
+        "p25": 138000,
+        "median": 138000,
+        "p75": 139534,
+        "n": 6
+    },
+    "mastercard technologies, llc|principal software engineer|senior": {
+        "p25": 165000,
+        "median": 165000,
+        "p75": 165000,
+        "n": 30
+    },
+    "mastercard technologies, llc|principal, platform engineering|senior": {
+        "p25": 138000,
+        "median": 139023,
+        "p75": 147471,
+        "n": 6
+    },
+    "mastercard technologies, llc|senior bizops engineer|senior": {
+        "p25": 94000,
+        "median": 94000,
+        "p75": 97386,
+        "n": 44
+    },
+    "mastercard technologies, llc|senior platform architect|senior": {
+        "p25": 94000,
+        "median": 94000,
+        "p75": 122699,
+        "n": 5
+    },
+    "mastercard technologies, llc|senior platform engineer|senior": {
+        "p25": 94000,
+        "median": 97386,
+        "p75": 107279,
+        "n": 15
+    },
+    "mastercard technologies, llc|senior reliability engineer|senior": {
+        "p25": 94000,
+        "median": 94000,
+        "p75": 94000,
+        "n": 5
+    },
+    "mastercard technologies, llc|senior site reliability engineer|senior": {
+        "p25": 94000,
+        "median": 96616,
+        "p75": 97386,
+        "n": 5
+    },
+    "mastercard technologies, llc|senior software engineer|senior": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 156
+    },
+    "mastercard technologies, llc|software engineer|mid": {
+        "p25": 91599,
+        "median": 92000,
+        "p75": 92000,
+        "n": 12
+    },
+    "matrix tech solutions inc|software developer|mid": {
+        "p25": 87692,
+        "median": 103210,
+        "p75": 105976,
+        "n": 7
+    },
+    "maven securities us limited|trader|mid": {
+        "p25": 125000,
+        "median": 130000,
+        "p75": 130000,
+        "n": 7
+    },
+    "maxary llc|java developer|mid": {
+        "p25": 76544,
+        "median": 91582,
+        "p75": 94390,
+        "n": 5
+    },
+    "maxil technology solutions, inc.|software developer|mid": {
+        "p25": 85000,
+        "median": 108077,
+        "p75": 110000,
+        "n": 5
+    },
+    "maximus inc.|senior engineer - software engineering|senior": {
+        "p25": 130075,
+        "median": 136990,
+        "p75": 143710,
+        "n": 5
+    },
+    "maxnet technologies lcc|programmer analyst|mid": {
+        "p25": 81100,
+        "median": 81200,
+        "p75": 81200,
+        "n": 5
+    },
+    "maxotech solutions llc|software developer|mid": {
+        "p25": 92633,
+        "median": 103210,
+        "p75": 106288,
+        "n": 7
+    },
+    "maxpep llc|software developer|mid": {
+        "p25": 82000,
+        "median": 82500,
+        "p75": 109125,
+        "n": 8
+    },
+    "maxpro inc|software engineer|mid": {
+        "p25": 100000,
+        "median": 106000,
+        "p75": 112000,
+        "n": 7
+    },
+    "mayee solutions llc|software engineer|mid": {
+        "p25": 85384,
+        "median": 108826,
+        "p75": 108826,
+        "n": 5
+    },
+    "mayer brown llp|associate attorney|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 365000,
+        "n": 9
+    },
+    "mayo clinic|associate consultant i|entry": {
+        "p25": 119750,
+        "median": 140500,
+        "p75": 142500,
+        "n": 5
+    },
+    "mayo clinic|associate data science analyst|entry": {
+        "p25": 77168,
+        "median": 81906,
+        "p75": 86011,
+        "n": 6
+    },
+    "mayo clinic|clinical lab technologist|mid": {
+        "p25": 87505,
+        "median": 93273,
+        "p75": 95131,
+        "n": 6
+    },
+    "mayo clinic|clinical laboratory technologist|mid": {
+        "p25": 72637,
+        "median": 76247,
+        "p75": 82841,
+        "n": 8
+    },
+    "mayo clinic|clinical resident|entry": {
+        "p25": 72565,
+        "median": 81016,
+        "p75": 89253,
+        "n": 158
+    },
+    "mayo clinic|data science analyst|mid": {
+        "p25": 101587,
+        "median": 103768,
+        "p75": 112529,
+        "n": 5
+    },
+    "mayo clinic|family medicine physician|mid": {
+        "p25": 270646,
+        "median": 286875,
+        "p75": 288750,
+        "n": 5
+    },
+    "mayo clinic|hospitalist|mid": {
+        "p25": 315813,
+        "median": 321727,
+        "p75": 339750,
+        "n": 9
+    },
+    "mayo clinic|research associate|entry": {
+        "p25": 71552,
+        "median": 77961,
+        "p75": 91204,
+        "n": 72
+    },
+    "mayo clinic|research fellow|senior": {
+        "p25": 61027,
+        "median": 64376,
+        "p75": 69888,
+        "n": 105
+    },
+    "mayo clinic|research scientist|mid": {
+        "p25": 105029,
+        "median": 106558,
+        "p75": 108050,
+        "n": 10
+    },
+    "mayo clinic|research technologist|mid": {
+        "p25": 60320,
+        "median": 61942,
+        "p75": 63793,
+        "n": 33
+    },
+    "mayo clinic|senior data science analyst|senior": {
+        "p25": 133324,
+        "median": 134659,
+        "p75": 142070,
+        "n": 9
+    },
+    "mayo clinic|senior research technologist|senior": {
+        "p25": 71476,
+        "median": 72844,
+        "p75": 75634,
+        "n": 20
+    },
+    "mb it associates, llc|data analyst|mid": {
+        "p25": 82763,
+        "median": 82763,
+        "p75": 82763,
+        "n": 5
+    },
+    "mb it associates, llc|golang developer|mid": {
+        "p25": 97157,
+        "median": 97157,
+        "p75": 124394,
+        "n": 7
+    },
+    "mb it associates, llc|java developer|mid": {
+        "p25": 97157,
+        "median": 97157,
+        "p75": 97157,
+        "n": 5
+    },
+    "mcalester regional health center authority|medical technologist|mid": {
+        "p25": 62400,
+        "median": 62400,
+        "p75": 62400,
+        "n": 5
+    },
+    "mckesson corporation|lead it architect|senior": {
+        "p25": 159783,
+        "median": 165746,
+        "p75": 176755,
+        "n": 12
+    },
+    "mckesson corporation|senior software engineer|senior": {
+        "p25": 135530,
+        "median": 165255,
+        "p75": 172812,
+        "n": 6
+    },
+    "mckesson corporation|software engineer|mid": {
+        "p25": 97537,
+        "median": 101999,
+        "p75": 132483,
+        "n": 13
+    },
+    "mckesson corporation|sr. software engineer|senior": {
+        "p25": 128256,
+        "median": 137917,
+        "p75": 153253,
+        "n": 7
+    },
+    "mckinsey & company, inc. united states|associate (management consultant)|entry": {
+        "p25": 192000,
+        "median": 192000,
+        "p75": 192000,
+        "n": 85
+    },
+    "mckinsey & company, inc. united states|associate - implementation|entry": {
+        "p25": 192000,
+        "median": 192000,
+        "p75": 192000,
+        "n": 6
+    },
+    "mckinsey & company, inc. united states|associate partner (management consultant)|entry": {
+        "p25": 243000,
+        "median": 243000,
+        "p75": 243000,
+        "n": 30
+    },
+    "mckinsey & company, inc. united states|business analyst (management consultant)|mid": {
+        "p25": 112000,
+        "median": 112000,
+        "p75": 112000,
+        "n": 33
+    },
+    "mckinsey & company, inc. united states|data engineer ii|mid": {
+        "p25": 146600,
+        "median": 153500,
+        "p75": 160300,
+        "n": 9
+    },
+    "mckinsey & company, inc. united states|data scientist ii|mid": {
+        "p25": 150200,
+        "median": 152150,
+        "p75": 153500,
+        "n": 6
+    },
+    "mckinsey & company, inc. united states|engagement manager (management consultant)|senior": {
+        "p25": 220000,
+        "median": 220000,
+        "p75": 220000,
+        "n": 67
+    },
+    "mckinsey & company, inc. united states|expert|mid": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 231000,
+        "n": 13
+    },
+    "mckinsey & company, inc. united states|partner|mid": {
+        "p25": 275000,
+        "median": 275000,
+        "p75": 275000,
+        "n": 6
+    },
+    "mckinsey & company, inc. united states|principal data scientist i|senior": {
+        "p25": 221450,
+        "median": 231500,
+        "p75": 256625,
+        "n": 6
+    },
+    "mckinsey & company, inc. united states|product manager i|mid": {
+        "p25": 164825,
+        "median": 170400,
+        "p75": 180175,
+        "n": 6
+    },
+    "mckinsey & company, inc. united states|senior analyst|senior": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 142500,
+        "n": 7
+    },
+    "mckinsey & company, inc. united states|senior business analyst (management consultant)|senior": {
+        "p25": 112000,
+        "median": 112000,
+        "p75": 112000,
+        "n": 58
+    },
+    "mckinsey & company, inc. united states|senior data engineer i|mid": {
+        "p25": 177000,
+        "median": 181600,
+        "p75": 187500,
+        "n": 14
+    },
+    "mckinsey & company, inc. united states|senior data engineer ii|senior": {
+        "p25": 201800,
+        "median": 207300,
+        "p75": 211100,
+        "n": 5
+    },
+    "mckinsey & company, inc. united states|senior data scientist i|mid": {
+        "p25": 175500,
+        "median": 176000,
+        "p75": 180000,
+        "n": 13
+    },
+    "mckinsey & company, inc. united states|senior data scientist ii|senior": {
+        "p25": 198350,
+        "median": 199200,
+        "p75": 202150,
+        "n": 8
+    },
+    "mckinsey & company, inc. united states|senior knowledge analyst|senior": {
+        "p25": 110000,
+        "median": 114650,
+        "p75": 119300,
+        "n": 6
+    },
+    "mckinsey & company, inc. united states|senior software engineer i|mid": {
+        "p25": 178500,
+        "median": 179500,
+        "p75": 188700,
+        "n": 17
+    },
+    "mckinsey & company, inc. united states|software delivery specialist|mid": {
+        "p25": 143400,
+        "median": 143400,
+        "p75": 149200,
+        "n": 5
+    },
+    "mckinsey & company, inc. united states|software engineer i|entry": {
+        "p25": 130775,
+        "median": 135650,
+        "p75": 140725,
+        "n": 8
+    },
+    "mckinsey & company, inc. united states|software engineer ii|mid": {
+        "p25": 144175,
+        "median": 154000,
+        "p75": 161500,
+        "n": 24
+    },
+    "mckinsey & company, inc. united states|specialist|mid": {
+        "p25": 200000,
+        "median": 203000,
+        "p75": 208000,
+        "n": 21
+    },
+    "mckinsey & company, inc. united states|sr. software delivery analyst|senior": {
+        "p25": 116000,
+        "median": 119300,
+        "p75": 121700,
+        "n": 5
+    },
+    "mcleod regional medical center of the pee dee, inc.|hospitalist|mid": {
+        "p25": 333999,
+        "median": 333999,
+        "p75": 373999,
+        "n": 5
+    },
+    "mcphs university|pharmacy resident|entry": {
+        "p25": 58282,
+        "median": 58282,
+        "p75": 58282,
+        "n": 10
+    },
+    "mebhaz inc|software engineer|mid": {
+        "p25": 84094,
+        "median": 87245,
+        "p75": 100006,
+        "n": 6
+    },
+    "mebhaz inc.|software engineer|mid": {
+        "p25": 84094,
+        "median": 97157,
+        "p75": 105976,
+        "n": 33
+    },
+    "medhaz corp|software engineer|mid": {
+        "p25": 84094,
+        "median": 90896,
+        "p75": 103210,
+        "n": 19
+    },
+    "medhaz corp.|software engineer|mid": {
+        "p25": 91645,
+        "median": 96013,
+        "p75": 103210,
+        "n": 9
+    },
+    "medhok, inc.|senior java developer|senior": {
+        "p25": 127334,
+        "median": 129509,
+        "p75": 149953,
+        "n": 6
+    },
+    "mediabrands worldwide, inc.|manager, growth analytics|senior": {
+        "p25": 100750,
+        "median": 103000,
+        "p75": 104500,
+        "n": 6
+    },
+    "mediatek usa inc.|engineer|mid": {
+        "p25": 109000,
+        "median": 112000,
+        "p75": 121250,
+        "n": 12
+    },
+    "mediatek usa inc.|principal engineer|senior": {
+        "p25": 185000,
+        "median": 187000,
+        "p75": 210000,
+        "n": 5
+    },
+    "mediatek usa inc.|senior staff engineer|senior": {
+        "p25": 179500,
+        "median": 187000,
+        "p75": 202500,
+        "n": 15
+    },
+    "mediatek usa inc.|staff engineer|senior": {
+        "p25": 133500,
+        "median": 144000,
+        "p75": 157000,
+        "n": 23
+    },
+    "medic ambulance service, inc.|paramedic|mid": {
+        "p25": 68286,
+        "median": 73725,
+        "p75": 80000,
+        "n": 10
+    },
+    "medical college of wisconsin affiliated hospitals, inc.|fellow physician|senior": {
+        "p25": 79310,
+        "median": 79310,
+        "p75": 83000,
+        "n": 10
+    },
+    "medical college of wisconsin affiliated hospitals, inc.|resident physician|entry": {
+        "p25": 71790,
+        "median": 71790,
+        "p75": 78025,
+        "n": 11
+    },
+    "medical college of wisconsin, inc.|assistant professor|entry": {
+        "p25": 248740,
+        "median": 252691,
+        "p75": 410000,
+        "n": 83
+    },
+    "medical college of wisconsin, inc.|biostatistician i|entry": {
+        "p25": 76367,
+        "median": 78846,
+        "p75": 80051,
+        "n": 11
+    },
+    "medical college of wisconsin, inc.|research scientist i|entry": {
+        "p25": 74263,
+        "median": 74538,
+        "p75": 81500,
+        "n": 5
+    },
+    "medical management international, inc.|associate veterinarian|entry": {
+        "p25": 150000,
+        "median": 165000,
+        "p75": 186500,
+        "n": 23
+    },
+    "medical mutual of ohio|software developer iii|senior": {
+        "p25": 106000,
+        "median": 113177,
+        "p75": 118539,
+        "n": 5
+    },
+    "medical university hospital authority|registered nurse - ii|mid": {
+        "p25": 68078,
+        "median": 68078,
+        "p75": 68078,
+        "n": 15
+    },
+    "medical university of south carolina and affiliates|assistant professor|entry": {
+        "p25": 125000,
+        "median": 198790,
+        "p75": 333375,
+        "n": 22
+    },
+    "medical university of south carolina and affiliates|hospital medicine physician|mid": {
+        "p25": 345600,
+        "median": 345600,
+        "p75": 345600,
+        "n": 7
+    },
+    "medical university of south carolina and affiliates|staff scientist i|senior": {
+        "p25": 69888,
+        "median": 71542,
+        "p75": 73923,
+        "n": 5
+    },
+    "medicine inpatient group llc|hospitalist/im|mid": {
+        "p25": 312000,
+        "median": 312000,
+        "p75": 312000,
+        "n": 7
+    },
+    "medimmune llc|senior scientist|senior": {
+        "p25": 125855,
+        "median": 126428,
+        "p75": 126769,
+        "n": 7
+    },
+    "mediterranean shipping company (usa), inc.|business development analyst|mid": {
+        "p25": 58607,
+        "median": 63752,
+        "p75": 66700,
+        "n": 10
+    },
+    "medley networks inc|rf engineer|mid": {
+        "p25": 79200,
+        "median": 91000,
+        "p75": 95680,
+        "n": 5
+    },
+    "medline industries, lp.|analyst business systems it|mid": {
+        "p25": 110000,
+        "median": 113564,
+        "p75": 125000,
+        "n": 34
+    },
+    "medline industries, lp.|analyst systems it|mid": {
+        "p25": 105408,
+        "median": 118861,
+        "p75": 124781,
+        "n": 14
+    },
+    "medline industries, lp.|architect it|senior": {
+        "p25": 167773,
+        "median": 175000,
+        "p75": 178750,
+        "n": 6
+    },
+    "medline industries, lp.|data architect & modeler|senior": {
+        "p25": 137400,
+        "median": 140000,
+        "p75": 143750,
+        "n": 14
+    },
+    "medline industries, lp.|developer analyst it|mid": {
+        "p25": 115000,
+        "median": 127309,
+        "p75": 131664,
+        "n": 34
+    },
+    "medline industries, lp.|ld analyst systems it|mid": {
+        "p25": 140251,
+        "median": 140670,
+        "p75": 148651,
+        "n": 7
+    },
+    "medline industries, lp.|manager applications|senior": {
+        "p25": 152827,
+        "median": 152827,
+        "p75": 160000,
+        "n": 9
+    },
+    "medline industries, lp.|mgr applications|mid": {
+        "p25": 160495,
+        "median": 161981,
+        "p75": 163418,
+        "n": 6
+    },
+    "medline industries, lp.|software engineer|mid": {
+        "p25": 145000,
+        "median": 150000,
+        "p75": 150336,
+        "n": 7
+    },
+    "medline industries, lp.|sr analyst business systems it|senior": {
+        "p25": 130000,
+        "median": 136425,
+        "p75": 145000,
+        "n": 18
+    },
+    "medline industries, lp.|sr developer analyst it|senior": {
+        "p25": 133709,
+        "median": 140400,
+        "p75": 148093,
+        "n": 21
+    },
+    "medline industries, lp.|sr software tester|senior": {
+        "p25": 122321,
+        "median": 122750,
+        "p75": 128187,
+        "n": 6
+    },
+    "medline industries, lp.|sr. analyst business systems it|senior": {
+        "p25": 134580,
+        "median": 139400,
+        "p75": 146763,
+        "n": 11
+    },
+    "medline industries, lp.|sr. analyst systems it|senior": {
+        "p25": 139186,
+        "median": 145000,
+        "p75": 146314,
+        "n": 7
+    },
+    "medline industries, lp.|sr. developer analyst it|senior": {
+        "p25": 138413,
+        "median": 138997,
+        "p75": 140561,
+        "n": 8
+    },
+    "medline industries, lp.|sr. software tester|senior": {
+        "p25": 115000,
+        "median": 117500,
+        "p75": 122184,
+        "n": 6
+    },
+    "medpace, inc.|biostatistician ii|mid": {
+        "p25": 144000,
+        "median": 146100,
+        "p75": 148500,
+        "n": 5
+    },
+    "medpace, inc.|statistical analyst iii|senior": {
+        "p25": 120000,
+        "median": 122049,
+        "p75": 122049,
+        "n": 9
+    },
+    "medstar medical group ii, llc|hospitalist|mid": {
+        "p25": 235000,
+        "median": 245000,
+        "p75": 265000,
+        "n": 11
+    },
+    "medtronic, inc.|manufacturing engineer ii|mid": {
+        "p25": 91853,
+        "median": 92290,
+        "p75": 95618,
+        "n": 5
+    },
+    "medtronic, inc.|principal manufacturing engineer|senior": {
+        "p25": 121264,
+        "median": 130582,
+        "p75": 130582,
+        "n": 5
+    },
+    "medtronic, inc.|principal software engineer|senior": {
+        "p25": 141898,
+        "median": 144623,
+        "p75": 149826,
+        "n": 12
+    },
+    "medtronic, inc.|senior manufacturing engineer|senior": {
+        "p25": 105746,
+        "median": 107080,
+        "p75": 108353,
+        "n": 6
+    },
+    "medtronic, inc.|senior quality engineer|senior": {
+        "p25": 104562,
+        "median": 105190,
+        "p75": 105726,
+        "n": 5
+    },
+    "medtronic, inc.|senior regulatory affairs specialist|senior": {
+        "p25": 90948,
+        "median": 98893,
+        "p75": 107868,
+        "n": 8
+    },
+    "medtronic, inc.|senior software engineer|senior": {
+        "p25": 125033,
+        "median": 133118,
+        "p75": 136821,
+        "n": 8
+    },
+    "medtronic, inc.|software engineer ii|mid": {
+        "p25": 93012,
+        "median": 97167,
+        "p75": 103671,
+        "n": 6
+    },
+    "medtronic, inc.|sr. manufacturing engineer|senior": {
+        "p25": 99507,
+        "median": 113069,
+        "p75": 113069,
+        "n": 5
+    },
+    "medtronic, inc.|sr. r&d engineer|senior": {
+        "p25": 108493,
+        "median": 110726,
+        "p75": 116002,
+        "n": 5
+    },
+    "medtronic, inc.|sr. supplier quality engineer|senior": {
+        "p25": 105726,
+        "median": 106516,
+        "p75": 108047,
+        "n": 8
+    },
+    "mega data analytics llc.|software engineer|mid": {
+        "p25": 78000,
+        "median": 91000,
+        "p75": 104000,
+        "n": 5
+    },
+    "megan soft va|software developer|mid": {
+        "p25": 86756,
+        "median": 94962,
+        "p75": 99512,
+        "n": 12
+    },
+    "megan soft, inc.|software developer|mid": {
+        "p25": 98566,
+        "median": 112320,
+        "p75": 121160,
+        "n": 64
+    },
+    "meghaz inc|software engineer|mid": {
+        "p25": 79851,
+        "median": 86122,
+        "p75": 105804,
+        "n": 10
+    },
+    "meghaz inc.|software engineer|mid": {
+        "p25": 103210,
+        "median": 105997,
+        "p75": 112923,
+        "n": 34
+    },
+    "meijer great lakes limited partnership|domain architect|senior": {
+        "p25": 141796,
+        "median": 144936,
+        "p75": 150548,
+        "n": 8
+    },
+    "meijer great lakes limited partnership|senior application engineer|senior": {
+        "p25": 133515,
+        "median": 134550,
+        "p75": 136658,
+        "n": 7
+    },
+    "meijer great lakes limited partnership|senior software engineer|senior": {
+        "p25": 131801,
+        "median": 136636,
+        "p75": 140000,
+        "n": 18
+    },
+    "meijer great lakes limited partnership|sr. software engineer|senior": {
+        "p25": 125901,
+        "median": 131782,
+        "p75": 137526,
+        "n": 8
+    },
+    "meilbert de vera lopez|mechanical engineer|mid": {
+        "p25": 50690,
+        "median": 50690,
+        "p75": 51672,
+        "n": 6
+    },
+    "mejenta systems, inc|software developer|mid": {
+        "p25": 88000,
+        "median": 100880,
+        "p75": 123656,
+        "n": 5
+    },
+    "mellow soft inc|software developer|mid": {
+        "p25": 99965,
+        "median": 105206,
+        "p75": 105997,
+        "n": 5
+    },
+    "memorial health systems, inc.|medical laboratory scientist ii|mid": {
+        "p25": 71452,
+        "median": 75597,
+        "p75": 80631,
+        "n": 6
+    },
+    "memorial hospital flagler, inc.|medical laboratory scientist ii|mid": {
+        "p25": 69669,
+        "median": 73236,
+        "p75": 74266,
+        "n": 15
+    },
+    "memorial sloan kettering cancer center|assistant attending|mid": {
+        "p25": 190000,
+        "median": 212500,
+        "p75": 243750,
+        "n": 8
+    },
+    "memorial sloan kettering cancer center|assistant attending l1|mid": {
+        "p25": 261250,
+        "median": 267500,
+        "p75": 300000,
+        "n": 6
+    },
+    "memorial sloan kettering cancer center|clinical fellow|senior": {
+        "p25": 84500,
+        "median": 84500,
+        "p75": 84500,
+        "n": 46
+    },
+    "memorial sloan kettering cancer center|computational biologist i|entry": {
+        "p25": 91000,
+        "median": 100000,
+        "p75": 115000,
+        "n": 5
+    },
+    "memorial sloan kettering cancer center|research assistant|entry": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 75000,
+        "n": 7
+    },
+    "memorial sloan kettering cancer center|research associate|entry": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 85000,
+        "n": 29
+    },
+    "memorial sloan kettering cancer center|research fellow|senior": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 75000,
+        "n": 11
+    },
+    "memorial sloan kettering cancer center|research scholar|mid": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 78000,
+        "n": 21
+    },
+    "memorial sloan kettering cancer center|research technician|mid": {
+        "p25": 52000,
+        "median": 53500,
+        "p75": 55000,
+        "n": 6
+    },
+    "memorial sloan kettering cancer center|senior research scientist|senior": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 85000,
+        "n": 33
+    },
+    "memorial sloan kettering cancer center|software engineer ii|mid": {
+        "p25": 130000,
+        "median": 131000,
+        "p75": 149250,
+        "n": 6
+    },
+    "memphis light, gas, and water|computer software specialist 3|mid": {
+        "p25": 112346,
+        "median": 114046,
+        "p75": 116589,
+        "n": 6
+    },
+    "memphis-shelby county schools|classroom teacher - mathematics|mid": {
+        "p25": 51802,
+        "median": 54775,
+        "p75": 57573,
+        "n": 18
+    },
+    "menzo technologies corp|java developer|mid": {
+        "p25": 80080,
+        "median": 80080,
+        "p75": 87360,
+        "n": 5
+    },
+    "merastar insurance company|developer 4, systems software|mid": {
+        "p25": 124845,
+        "median": 126306,
+        "p75": 130839,
+        "n": 7
+    },
+    "merck sharp & dohme llc|associate principal scientist, statistical programming|senior": {
+        "p25": 137218,
+        "median": 139600,
+        "p75": 142771,
+        "n": 13
+    },
+    "merck sharp & dohme llc|senior scientist, biostatistics|senior": {
+        "p25": 114700,
+        "median": 114700,
+        "p75": 114700,
+        "n": 7
+    },
+    "merck sharp & dohme llc|senior scientist, chemistry|senior": {
+        "p25": 114700,
+        "median": 114700,
+        "p75": 114775,
+        "n": 8
+    },
+    "merck sharp & dohme llc|senior scientist, preclinical development|senior": {
+        "p25": 114700,
+        "median": 114700,
+        "p75": 114700,
+        "n": 9
+    },
+    "merck sharp & dohme llc|senior scientist, statistical programming|senior": {
+        "p25": 114700,
+        "median": 114700,
+        "p75": 114700,
+        "n": 12
+    },
+    "mercor.io corporation|software engineer|mid": {
+        "p25": 161637,
+        "median": 170818,
+        "p75": 205134,
+        "n": 6
+    },
+    "mercury insurance services, llc|senior software engineer|senior": {
+        "p25": 123149,
+        "median": 130929,
+        "p75": 135787,
+        "n": 5
+    },
+    "mercy clinic east communities|hospitalist|mid": {
+        "p25": 234421,
+        "median": 239200,
+        "p75": 239200,
+        "n": 8
+    },
+    "mercy clinic fort smith communities|resident i (pgy1)|entry": {
+        "p25": 53747,
+        "median": 53747,
+        "p75": 53747,
+        "n": 12
+    },
+    "mercy health - st. vincent medical center, llc|resident|entry": {
+        "p25": 67444,
+        "median": 67444,
+        "p75": 69691,
+        "n": 6
+    },
+    "mercy health physicians - north, llc|internal medicine physician|mid": {
+        "p25": 154856,
+        "median": 154856,
+        "p75": 154856,
+        "n": 5
+    },
+    "mercy health youngstown llc|resident|entry": {
+        "p25": 65500,
+        "median": 66750,
+        "p75": 68625,
+        "n": 8
+    },
+    "mercy hospitals east communities|resident physician|entry": {
+        "p25": 62358,
+        "median": 62358,
+        "p75": 68400,
+        "n": 6
+    },
+    "mercy medical center|medical laboratory scientist|mid": {
+        "p25": 71146,
+        "median": 72363,
+        "p75": 95888,
+        "n": 7
+    },
+    "mergen it llc|software engineer|mid": {
+        "p25": 85384,
+        "median": 86923,
+        "p75": 105997,
+        "n": 5
+    },
+    "meridian public school district|mathematics teacher|mid": {
+        "p25": 52375,
+        "median": 59600,
+        "p75": 64625,
+        "n": 5
+    },
+    "meridian public school district|special education teacher|mid": {
+        "p25": 52525,
+        "median": 54300,
+        "p75": 67912,
+        "n": 7
+    },
+    "meridian software solutions, inc.|software engineer|mid": {
+        "p25": 70700,
+        "median": 86000,
+        "p75": 90300,
+        "n": 11
+    },
+    "meridian technology solutions, inc.|software developer|mid": {
+        "p25": 85000,
+        "median": 85363,
+        "p75": 106000,
+        "n": 5
+    },
+    "meridiansoft inc|software developer|mid": {
+        "p25": 83338,
+        "median": 95746,
+        "p75": 105419,
+        "n": 32
+    },
+    "merit american technologies inc|software developer|mid": {
+        "p25": 85000,
+        "median": 90000,
+        "p75": 106667,
+        "n": 18
+    },
+    "meritek, inc.|quality assurance analyst|mid": {
+        "p25": 73195,
+        "median": 74900,
+        "p75": 74901,
+        "n": 5
+    },
+    "meritor heavy vehicle systems, llc|product engineering specialist|mid": {
+        "p25": 97600,
+        "median": 102731,
+        "p75": 102731,
+        "n": 5
+    },
+    "meritore technologies llc|software developer|mid": {
+        "p25": 101421,
+        "median": 105997,
+        "p75": 126090,
+        "n": 5
+    },
+    "merrill lynch|vice president; feature lead - technology|senior": {
+        "p25": 152131,
+        "median": 153005,
+        "p75": 155500,
+        "n": 9
+    },
+    "merrill lynch|vice president; software engineer iii|senior": {
+        "p25": 149781,
+        "median": 153005,
+        "p75": 171400,
+        "n": 5
+    },
+    "merrill lynch|vice president; technology services lead|senior": {
+        "p25": 160000,
+        "median": 160805,
+        "p75": 175000,
+        "n": 5
+    },
+    "mesons technologies llc|software developer|mid": {
+        "p25": 102752,
+        "median": 112923,
+        "p75": 123700,
+        "n": 5
+    },
+    "meta it systems llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 91644,
+        "n": 5
+    },
+    "meta platforms, inc|ai research scientist|mid": {
+        "p25": 181825,
+        "median": 212808,
+        "p75": 228210,
+        "n": 22
+    },
+    "meta platforms, inc|application manager|senior": {
+        "p25": 185000,
+        "median": 195000,
+        "p75": 236474,
+        "n": 5
+    },
+    "meta platforms, inc|applied research scientist|mid": {
+        "p25": 208774,
+        "median": 221299,
+        "p75": 238631,
+        "n": 8
+    },
+    "meta platforms, inc|asic engineer|mid": {
+        "p25": 139797,
+        "median": 166000,
+        "p75": 199754,
+        "n": 25
+    },
+    "meta platforms, inc|asic engineer, architecture|mid": {
+        "p25": 188062,
+        "median": 197341,
+        "p75": 224573,
+        "n": 9
+    },
+    "meta platforms, inc|asic engineer, design|mid": {
+        "p25": 184900,
+        "median": 189818,
+        "p75": 227000,
+        "n": 15
+    },
+    "meta platforms, inc|asic engineer, design verification|mid": {
+        "p25": 165250,
+        "median": 195310,
+        "p75": 226500,
+        "n": 26
+    },
+    "meta platforms, inc|asic engineer, implementation|mid": {
+        "p25": 181000,
+        "median": 202000,
+        "p75": 224470,
+        "n": 8
+    },
+    "meta platforms, inc|asic engineer, physical design|mid": {
+        "p25": 167000,
+        "median": 185500,
+        "p75": 213000,
+        "n": 6
+    },
+    "meta platforms, inc|business engineer|mid": {
+        "p25": 174114,
+        "median": 190898,
+        "p75": 215501,
+        "n": 26
+    },
+    "meta platforms, inc|business support engineer|mid": {
+        "p25": 165000,
+        "median": 177484,
+        "p75": 180574,
+        "n": 9
+    },
+    "meta platforms, inc|computer vision engineer|mid": {
+        "p25": 181421,
+        "median": 191646,
+        "p75": 214776,
+        "n": 6
+    },
+    "meta platforms, inc|content designer|mid": {
+        "p25": 178058,
+        "median": 214562,
+        "p75": 233678,
+        "n": 8
+    },
+    "meta platforms, inc|data analyst|mid": {
+        "p25": 153026,
+        "median": 168812,
+        "p75": 204000,
+        "n": 9
+    },
+    "meta platforms, inc|data engineer|mid": {
+        "p25": 178767,
+        "median": 199234,
+        "p75": 216969,
+        "n": 288
+    },
+    "meta platforms, inc|data engineer, analytics|mid": {
+        "p25": 200457,
+        "median": 217795,
+        "p75": 227000,
+        "n": 13
+    },
+    "meta platforms, inc|data engineering manager|senior": {
+        "p25": 237020,
+        "median": 248920,
+        "p75": 256000,
+        "n": 21
+    },
+    "meta platforms, inc|data engineering manager, analytics|senior": {
+        "p25": 255250,
+        "median": 256526,
+        "p75": 266763,
+        "n": 6
+    },
+    "meta platforms, inc|data science manager|senior": {
+        "p25": 248920,
+        "median": 257984,
+        "p75": 270000,
+        "n": 25
+    },
+    "meta platforms, inc|data scientist|mid": {
+        "p25": 182687,
+        "median": 206167,
+        "p75": 220000,
+        "n": 294
+    },
+    "meta platforms, inc|data scientist, analytics|mid": {
+        "p25": 186404,
+        "median": 205352,
+        "p75": 220600,
+        "n": 42
+    },
+    "meta platforms, inc|data scientist, product analytics|mid": {
+        "p25": 188748,
+        "median": 203673,
+        "p75": 227000,
+        "n": 22
+    },
+    "meta platforms, inc|design verification engineer|mid": {
+        "p25": 167000,
+        "median": 186000,
+        "p75": 219307,
+        "n": 13
+    },
+    "meta platforms, inc|digital design engineer|mid": {
+        "p25": 186000,
+        "median": 212877,
+        "p75": 256270,
+        "n": 5
+    },
+    "meta platforms, inc|electrical engineer|mid": {
+        "p25": 208750,
+        "median": 221795,
+        "p75": 234773,
+        "n": 12
+    },
+    "meta platforms, inc|embedded software engineer|mid": {
+        "p25": 178656,
+        "median": 215731,
+        "p75": 236452,
+        "n": 17
+    },
+    "meta platforms, inc|engineering manager|senior": {
+        "p25": 260007,
+        "median": 273265,
+        "p75": 286925,
+        "n": 24
+    },
+    "meta platforms, inc|enterprise engineer|mid": {
+        "p25": 182000,
+        "median": 182608,
+        "p75": 182608,
+        "n": 5
+    },
+    "meta platforms, inc|front end engineer|mid": {
+        "p25": 191818,
+        "median": 218746,
+        "p75": 239107,
+        "n": 26
+    },
+    "meta platforms, inc|growth marketing manager|senior": {
+        "p25": 125000,
+        "median": 134000,
+        "p75": 143412,
+        "n": 6
+    },
+    "meta platforms, inc|hardware engineer|mid": {
+        "p25": 183000,
+        "median": 183000,
+        "p75": 210000,
+        "n": 9
+    },
+    "meta platforms, inc|hardware systems engineer|mid": {
+        "p25": 197545,
+        "median": 214192,
+        "p75": 244165,
+        "n": 8
+    },
+    "meta platforms, inc|linguistic engineer|mid": {
+        "p25": 180400,
+        "median": 193000,
+        "p75": 195000,
+        "n": 5
+    },
+    "meta platforms, inc|machine learning engineer|mid": {
+        "p25": 193000,
+        "median": 220000,
+        "p75": 232000,
+        "n": 33
+    },
+    "meta platforms, inc|mechanical engineer|mid": {
+        "p25": 213898,
+        "median": 221970,
+        "p75": 223070,
+        "n": 5
+    },
+    "meta platforms, inc|network engineer|mid": {
+        "p25": 209000,
+        "median": 222772,
+        "p75": 239237,
+        "n": 9
+    },
+    "meta platforms, inc|network engineer, deployment & support|mid": {
+        "p25": 137444,
+        "median": 145000,
+        "p75": 158860,
+        "n": 7
+    },
+    "meta platforms, inc|network production engineer|mid": {
+        "p25": 140987,
+        "median": 175680,
+        "p75": 186849,
+        "n": 14
+    },
+    "meta platforms, inc|operations research analysts|mid": {
+        "p25": 99559,
+        "median": 120172,
+        "p75": 133442,
+        "n": 12
+    },
+    "meta platforms, inc|optical scientist|mid": {
+        "p25": 181498,
+        "median": 211370,
+        "p75": 218786,
+        "n": 6
+    },
+    "meta platforms, inc|performance and capacity engineer|mid": {
+        "p25": 179970,
+        "median": 202005,
+        "p75": 221489,
+        "n": 13
+    },
+    "meta platforms, inc|postdoctoral researcher|mid": {
+        "p25": 173000,
+        "median": 173000,
+        "p75": 176000,
+        "n": 9
+    },
+    "meta platforms, inc|privacy program manager|senior": {
+        "p25": 198722,
+        "median": 201768,
+        "p75": 212646,
+        "n": 9
+    },
+    "meta platforms, inc|product design engineer|mid": {
+        "p25": 195204,
+        "median": 210000,
+        "p75": 218921,
+        "n": 11
+    },
+    "meta platforms, inc|product design manager|senior": {
+        "p25": 257144,
+        "median": 262342,
+        "p75": 276580,
+        "n": 6
+    },
+    "meta platforms, inc|product designer|mid": {
+        "p25": 194135,
+        "median": 205945,
+        "p75": 217422,
+        "n": 86
+    },
+    "meta platforms, inc|product growth analyst|mid": {
+        "p25": 160798,
+        "median": 174000,
+        "p75": 193746,
+        "n": 30
+    },
+    "meta platforms, inc|product manager|senior": {
+        "p25": 210885,
+        "median": 229857,
+        "p75": 262313,
+        "n": 158
+    },
+    "meta platforms, inc|product marketing manager|senior": {
+        "p25": 206644,
+        "median": 215500,
+        "p75": 224500,
+        "n": 6
+    },
+    "meta platforms, inc|product quality engineer|mid": {
+        "p25": 204068,
+        "median": 210000,
+        "p75": 215076,
+        "n": 7
+    },
+    "meta platforms, inc|product risk program manager|senior": {
+        "p25": 166989,
+        "median": 193041,
+        "p75": 210318,
+        "n": 5
+    },
+    "meta platforms, inc|production engineer|mid": {
+        "p25": 172951,
+        "median": 207502,
+        "p75": 229884,
+        "n": 179
+    },
+    "meta platforms, inc|production engineering|mid": {
+        "p25": 139000,
+        "median": 139000,
+        "p75": 184000,
+        "n": 5
+    },
+    "meta platforms, inc|production engineering manager|senior": {
+        "p25": 258524,
+        "median": 269081,
+        "p75": 277000,
+        "n": 11
+    },
+    "meta platforms, inc|production network engineer|mid": {
+        "p25": 180500,
+        "median": 214032,
+        "p75": 222042,
+        "n": 11
+    },
+    "meta platforms, inc|production systems engineer|mid": {
+        "p25": 147000,
+        "median": 172000,
+        "p75": 245662,
+        "n": 5
+    },
+    "meta platforms, inc|project manager, product data operations|senior": {
+        "p25": 151000,
+        "median": 175861,
+        "p75": 184047,
+        "n": 5
+    },
+    "meta platforms, inc|qa engineering lead|senior": {
+        "p25": 176569,
+        "median": 188033,
+        "p75": 201106,
+        "n": 24
+    },
+    "meta platforms, inc|research engineer|mid": {
+        "p25": 193000,
+        "median": 220000,
+        "p75": 232000,
+        "n": 66
+    },
+    "meta platforms, inc|research scientist|mid": {
+        "p25": 179738,
+        "median": 187974,
+        "p75": 215551,
+        "n": 515
+    },
+    "meta platforms, inc|research scientist, systems ml - sw/hw co-design|mid": {
+        "p25": 182000,
+        "median": 182000,
+        "p75": 182000,
+        "n": 7
+    },
+    "meta platforms, inc|security engineer|mid": {
+        "p25": 173741,
+        "median": 191081,
+        "p75": 237234,
+        "n": 19
+    },
+    "meta platforms, inc|senior software engineer|senior": {
+        "p25": 214024,
+        "median": 219201,
+        "p75": 227047,
+        "n": 24
+    },
+    "meta platforms, inc|silicon engineer|mid": {
+        "p25": 167000,
+        "median": 186000,
+        "p75": 204000,
+        "n": 55
+    },
+    "meta platforms, inc|software development engineer|mid": {
+        "p25": 172802,
+        "median": 183576,
+        "p75": 192455,
+        "n": 8
+    },
+    "meta platforms, inc|software engineer|mid": {
+        "p25": 182000,
+        "median": 203599,
+        "p75": 225434,
+        "n": 3693
+    },
+    "meta platforms, inc|software engineer, infrastructure|mid": {
+        "p25": 198175,
+        "median": 230026,
+        "p75": 240161,
+        "n": 7
+    },
+    "meta platforms, inc|software engineer, machine learning|mid": {
+        "p25": 193000,
+        "median": 218430,
+        "p75": 233058,
+        "n": 100
+    },
+    "meta platforms, inc|software engineer, product|mid": {
+        "p25": 178915,
+        "median": 180928,
+        "p75": 186299,
+        "n": 6
+    },
+    "meta platforms, inc|software engineering|mid": {
+        "p25": 139000,
+        "median": 190500,
+        "p75": 232000,
+        "n": 14
+    },
+    "meta platforms, inc|software engineering manager|senior": {
+        "p25": 260996,
+        "median": 270837,
+        "p75": 280000,
+        "n": 195
+    },
+    "meta platforms, inc|solutions architect|senior": {
+        "p25": 162000,
+        "median": 199401,
+        "p75": 199401,
+        "n": 5
+    },
+    "meta platforms, inc|staff software engineer|senior": {
+        "p25": 258131,
+        "median": 258762,
+        "p75": 262602,
+        "n": 6
+    },
+    "meta platforms, inc|technical program manager|senior": {
+        "p25": 208000,
+        "median": 222805,
+        "p75": 248381,
+        "n": 70
+    },
+    "meta platforms, inc|thermal engineer|mid": {
+        "p25": 177241,
+        "median": 200000,
+        "p75": 226282,
+        "n": 7
+    },
+    "meta platforms, inc|user experience researcher|mid": {
+        "p25": 197686,
+        "median": 202014,
+        "p75": 236025,
+        "n": 7
+    },
+    "meta platforms, inc|ux researcher|mid": {
+        "p25": 193500,
+        "median": 200000,
+        "p75": 211554,
+        "n": 11
+    },
+    "meta platforms, inc.|software engineer|mid": {
+        "p25": 155605,
+        "median": 180960,
+        "p75": 186980,
+        "n": 7
+    },
+    "metaforge it solutions|software developer|mid": {
+        "p25": 108826,
+        "median": 108826,
+        "p75": 108826,
+        "n": 32
+    },
+    "methodist le bonheur healthcare|medical laboratory scientist ii|mid": {
+        "p25": 63980,
+        "median": 63980,
+        "p75": 63980,
+        "n": 9
+    },
+    "methodist le bonheur healthcare|registered nurse - system float pool|mid": {
+        "p25": 71864,
+        "median": 74734,
+        "p75": 74734,
+        "n": 5
+    },
+    "metlife group, inc.|lead full stack software engineer|senior": {
+        "p25": 127796,
+        "median": 129458,
+        "p75": 139194,
+        "n": 20
+    },
+    "metlife group, inc.|senior full stack software engineer|senior": {
+        "p25": 116117,
+        "median": 124900,
+        "p75": 127796,
+        "n": 12
+    },
+    "metlife group, inc.|sr. full stack software engineer|senior": {
+        "p25": 118664,
+        "median": 122155,
+        "p75": 127796,
+        "n": 18
+    },
+    "metrix it solutions inc|software developer|mid": {
+        "p25": 105706,
+        "median": 108077,
+        "p75": 112986,
+        "n": 57
+    },
+    "metro athletic medicine and fitness, p.c.|physical therapist|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 82625,
+        "n": 8
+    },
+    "metro engineering solutions, llc|electrical engineer|mid": {
+        "p25": 88894,
+        "median": 89960,
+        "p75": 98370,
+        "n": 6
+    },
+    "metro infectious disease consultants|infectious disease physician|mid": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 239200,
+        "n": 5
+    },
+    "metropolitan state university|assistant professor|entry": {
+        "p25": 93580,
+        "median": 93580,
+        "p75": 98118,
+        "n": 5
+    },
+    "mg cloud technologies llc|business intelligence analyst|mid": {
+        "p25": 92258,
+        "median": 93444,
+        "p75": 102803,
+        "n": 6
+    },
+    "mg cloud technologies llc|software developer|mid": {
+        "p25": 105997,
+        "median": 106558,
+        "p75": 120474,
+        "n": 18
+    },
+    "mga entertainment inc.|vice president global inbound licensing|senior": {
+        "p25": 185286,
+        "median": 185286,
+        "p75": 208733,
+        "n": 6
+    },
+    "mgm resorts satellite, llc|data engineer sr ii|senior": {
+        "p25": 139749,
+        "median": 142318,
+        "p75": 159101,
+        "n": 5
+    },
+    "mgm resorts satellite, llc|digital engineering ld developer|mid": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 145000,
+        "n": 5
+    },
+    "mgt impact solutions llc|network engineer|mid": {
+        "p25": 83000,
+        "median": 84700,
+        "p75": 89535,
+        "n": 13
+    },
+    "mi softech, inc|software developer|mid": {
+        "p25": 94359,
+        "median": 95680,
+        "p75": 98696,
+        "n": 8
+    },
+    "mi softech, inc|technical systems analyst|mid": {
+        "p25": 83450,
+        "median": 83450,
+        "p75": 83450,
+        "n": 5
+    },
+    "miami university|assistant professor|entry": {
+        "p25": 43420,
+        "median": 47590,
+        "p75": 53820,
+        "n": 17
+    },
+    "mican technologies, inc.|sr. it developer|senior": {
+        "p25": 140317,
+        "median": 149781,
+        "p75": 155522,
+        "n": 19
+    },
+    "michael baker international, inc.|civil associate i|entry": {
+        "p25": 70000,
+        "median": 72000,
+        "p75": 81000,
+        "n": 11
+    },
+    "michael baker international, inc.|civil associate ii|entry": {
+        "p25": 77000,
+        "median": 82000,
+        "p75": 96470,
+        "n": 9
+    },
+    "michael baker international, inc.|civil engineer i|entry": {
+        "p25": 80387,
+        "median": 87000,
+        "p75": 91234,
+        "n": 10
+    },
+    "michael baker international, inc.|civil engineer ii|mid": {
+        "p25": 86689,
+        "median": 92040,
+        "p75": 96743,
+        "n": 6
+    },
+    "michael brooks jimenez, pc|legal translator/interpretor|mid": {
+        "p25": 35531,
+        "median": 40414,
+        "p75": 41303,
+        "n": 6
+    },
+    "michaels stores, inc.|senior software engineer|senior": {
+        "p25": 117583,
+        "median": 123367,
+        "p75": 133521,
+        "n": 8
+    },
+    "michaels stores, inc.|staff software engineer|senior": {
+        "p25": 149781,
+        "median": 156998,
+        "p75": 156998,
+        "n": 5
+    },
+    "michigan state university|assistant professor|entry": {
+        "p25": 90000,
+        "median": 103764,
+        "p75": 110513,
+        "n": 41
+    },
+    "michigan state university|information technologist iii|senior": {
+        "p25": 129495,
+        "median": 132085,
+        "p75": 139128,
+        "n": 5
+    },
+    "michigan state university|research associate|entry": {
+        "p25": 58727,
+        "median": 64449,
+        "p75": 70750,
+        "n": 34
+    },
+    "michigan technological university|assistant professor|entry": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 140000,
+        "n": 13
+    },
+    "michigan technological university|assistant teaching professor|entry": {
+        "p25": 80000,
+        "median": 81567,
+        "p75": 85500,
+        "n": 7
+    },
+    "micro precision calibration, inc.|calibration engineer|mid": {
+        "p25": 66394,
+        "median": 66394,
+        "p75": 66394,
+        "n": 9
+    },
+    "microchip technology inc.|engineer ii - applications|mid": {
+        "p25": 77250,
+        "median": 77625,
+        "p75": 108614,
+        "n": 6
+    },
+    "microchip technology inc.|engineer ii - design|mid": {
+        "p25": 79500,
+        "median": 79500,
+        "p75": 79500,
+        "n": 5
+    },
+    "micron idaho semiconductor manufacturing (triton) llc|semiconductor process engineer|mid": {
+        "p25": 103057,
+        "median": 108750,
+        "p75": 112500,
+        "n": 8
+    },
+    "micron technology, inc.|equipment engineer|mid": {
+        "p25": 98000,
+        "median": 110500,
+        "p75": 120000,
+        "n": 13
+    },
+    "micron technology, inc.|fab engineer|mid": {
+        "p25": 100500,
+        "median": 115000,
+        "p75": 132043,
+        "n": 7
+    },
+    "micron technology, inc.|firmware engineer|mid": {
+        "p25": 140818,
+        "median": 152592,
+        "p75": 156624,
+        "n": 5
+    },
+    "micron technology, inc.|hardware engineer|mid": {
+        "p25": 121639,
+        "median": 139050,
+        "p75": 145260,
+        "n": 5
+    },
+    "micron technology, inc.|industrial engineer|mid": {
+        "p25": 102613,
+        "median": 104242,
+        "p75": 109436,
+        "n": 8
+    },
+    "micron technology, inc.|it software engineer|mid": {
+        "p25": 93979,
+        "median": 95000,
+        "p75": 104107,
+        "n": 5
+    },
+    "micron technology, inc.|process development engineer|mid": {
+        "p25": 120000,
+        "median": 121000,
+        "p75": 123000,
+        "n": 9
+    },
+    "micron technology, inc.|product development engineer|mid": {
+        "p25": 96170,
+        "median": 100000,
+        "p75": 113705,
+        "n": 9
+    },
+    "micron technology, inc.|semiconductor design engineer|mid": {
+        "p25": 110680,
+        "median": 118500,
+        "p75": 135500,
+        "n": 29
+    },
+    "micron technology, inc.|semiconductor process engineer|mid": {
+        "p25": 92700,
+        "median": 97000,
+        "p75": 118000,
+        "n": 17
+    },
+    "micron technology, inc.|semiconductor product engineer|mid": {
+        "p25": 95436,
+        "median": 101450,
+        "p75": 102873,
+        "n": 5
+    },
+    "micron technology, inc.|senior supply chain planner|senior": {
+        "p25": 97392,
+        "median": 98880,
+        "p75": 106480,
+        "n": 6
+    },
+    "micron technology, inc.|software development engineer|mid": {
+        "p25": 96000,
+        "median": 99684,
+        "p75": 101097,
+        "n": 6
+    },
+    "micron technology, inc.|supply chain engineer|mid": {
+        "p25": 95250,
+        "median": 97200,
+        "p75": 99500,
+        "n": 8
+    },
+    "microsoft corporation|account management|mid": {
+        "p25": 170000,
+        "median": 181941,
+        "p75": 181941,
+        "n": 5
+    },
+    "microsoft corporation|account technology|mid": {
+        "p25": 186870,
+        "median": 192761,
+        "p75": 197363,
+        "n": 6
+    },
+    "microsoft corporation|advertising client success|mid": {
+        "p25": 143906,
+        "median": 150000,
+        "p75": 150838,
+        "n": 6
+    },
+    "microsoft corporation|applied sciences|mid": {
+        "p25": 163061,
+        "median": 177480,
+        "p75": 200680,
+        "n": 279
+    },
+    "microsoft corporation|business analytics|mid": {
+        "p25": 158725,
+        "median": 168660,
+        "p75": 179830,
+        "n": 32
+    },
+    "microsoft corporation|business applications|mid": {
+        "p25": 159200,
+        "median": 165175,
+        "p75": 180100,
+        "n": 12
+    },
+    "microsoft corporation|business development|mid": {
+        "p25": 137157,
+        "median": 164479,
+        "p75": 186025,
+        "n": 12
+    },
+    "microsoft corporation|business management|mid": {
+        "p25": 145900,
+        "median": 175000,
+        "p75": 185676,
+        "n": 9
+    },
+    "microsoft corporation|business planning|mid": {
+        "p25": 170800,
+        "median": 178280,
+        "p75": 193920,
+        "n": 33
+    },
+    "microsoft corporation|business program management|mid": {
+        "p25": 141500,
+        "median": 155750,
+        "p75": 175300,
+        "n": 61
+    },
+    "microsoft corporation|business strategy|mid": {
+        "p25": 172375,
+        "median": 172375,
+        "p75": 180000,
+        "n": 9
+    },
+    "microsoft corporation|cloud network engineering|mid": {
+        "p25": 158160,
+        "median": 180000,
+        "p75": 196136,
+        "n": 65
+    },
+    "microsoft corporation|cloud solution architecture|mid": {
+        "p25": 155400,
+        "median": 174300,
+        "p75": 184592,
+        "n": 133
+    },
+    "microsoft corporation|commercial sales|mid": {
+        "p25": 163067,
+        "median": 180640,
+        "p75": 180640,
+        "n": 7
+    },
+    "microsoft corporation|construction project management|mid": {
+        "p25": 160000,
+        "median": 165000,
+        "p75": 177930,
+        "n": 21
+    },
+    "microsoft corporation|customer experience engineering|mid": {
+        "p25": 149890,
+        "median": 169030,
+        "p75": 188797,
+        "n": 86
+    },
+    "microsoft corporation|customer experience program management|mid": {
+        "p25": 162550,
+        "median": 187859,
+        "p75": 196861,
+        "n": 58
+    },
+    "microsoft corporation|customer solutions architecture|mid": {
+        "p25": 154000,
+        "median": 158500,
+        "p75": 195585,
+        "n": 21
+    },
+    "microsoft corporation|customer success account management|mid": {
+        "p25": 131663,
+        "median": 151070,
+        "p75": 174481,
+        "n": 21
+    },
+    "microsoft corporation|data analytics|mid": {
+        "p25": 137975,
+        "median": 150516,
+        "p75": 162500,
+        "n": 39
+    },
+    "microsoft corporation|data center operations management|mid": {
+        "p25": 140000,
+        "median": 148500,
+        "p75": 163500,
+        "n": 15
+    },
+    "microsoft corporation|data engineering|mid": {
+        "p25": 160082,
+        "median": 172720,
+        "p75": 191470,
+        "n": 141
+    },
+    "microsoft corporation|data science|mid": {
+        "p25": 149770,
+        "median": 167505,
+        "p75": 185400,
+        "n": 295
+    },
+    "microsoft corporation|demand planning|mid": {
+        "p25": 154000,
+        "median": 161485,
+        "p75": 178187,
+        "n": 26
+    },
+    "microsoft corporation|digital cloud solution architecture|mid": {
+        "p25": 166670,
+        "median": 171434,
+        "p75": 186555,
+        "n": 29
+    },
+    "microsoft corporation|digital signal processing|mid": {
+        "p25": 173045,
+        "median": 173045,
+        "p75": 186787,
+        "n": 5
+    },
+    "microsoft corporation|digital solution engineering|mid": {
+        "p25": 160498,
+        "median": 180752,
+        "p75": 190028,
+        "n": 30
+    },
+    "microsoft corporation|digital technology specialists|mid": {
+        "p25": 159120,
+        "median": 162136,
+        "p75": 168709,
+        "n": 13
+    },
+    "microsoft corporation|electrical engineering|mid": {
+        "p25": 145858,
+        "median": 158960,
+        "p75": 185000,
+        "n": 37
+    },
+    "microsoft corporation|finance compliance|mid": {
+        "p25": 142800,
+        "median": 142800,
+        "p75": 150000,
+        "n": 5
+    },
+    "microsoft corporation|financial analysis|mid": {
+        "p25": 128500,
+        "median": 145000,
+        "p75": 158500,
+        "n": 61
+    },
+    "microsoft corporation|firmware engineering|mid": {
+        "p25": 162193,
+        "median": 178278,
+        "p75": 204888,
+        "n": 32
+    },
+    "microsoft corporation|hardware engineering|mid": {
+        "p25": 174508,
+        "median": 186055,
+        "p75": 199066,
+        "n": 84
+    },
+    "microsoft corporation|information systems auditing|mid": {
+        "p25": 117700,
+        "median": 125000,
+        "p75": 135700,
+        "n": 11
+    },
+    "microsoft corporation|integrated business planning|mid": {
+        "p25": 170100,
+        "median": 174115,
+        "p75": 174115,
+        "n": 5
+    },
+    "microsoft corporation|marketing technology|mid": {
+        "p25": 164250,
+        "median": 166975,
+        "p75": 175225,
+        "n": 14
+    },
+    "microsoft corporation|mechanical engineering|mid": {
+        "p25": 152995,
+        "median": 161700,
+        "p75": 181265,
+        "n": 23
+    },
+    "microsoft corporation|partner development management|mid": {
+        "p25": 128450,
+        "median": 154000,
+        "p75": 154000,
+        "n": 9
+    },
+    "microsoft corporation|partner marketing|mid": {
+        "p25": 159870,
+        "median": 168000,
+        "p75": 168227,
+        "n": 7
+    },
+    "microsoft corporation|penetration testing|mid": {
+        "p25": 152657,
+        "median": 175600,
+        "p75": 193897,
+        "n": 14
+    },
+    "microsoft corporation|product design|mid": {
+        "p25": 155078,
+        "median": 173937,
+        "p75": 186547,
+        "n": 100
+    },
+    "microsoft corporation|product management|mid": {
+        "p25": 160015,
+        "median": 178015,
+        "p75": 200000,
+        "n": 547
+    },
+    "microsoft corporation|product marketing|mid": {
+        "p25": 151425,
+        "median": 169374,
+        "p75": 182000,
+        "n": 60
+    },
+    "microsoft corporation|program management|mid": {
+        "p25": 80371,
+        "median": 103064,
+        "p75": 108098,
+        "n": 9
+    },
+    "microsoft corporation|reliability engineering|mid": {
+        "p25": 146475,
+        "median": 152250,
+        "p75": 157515,
+        "n": 14
+    },
+    "microsoft corporation|research sciences|mid": {
+        "p25": 175000,
+        "median": 192897,
+        "p75": 202520,
+        "n": 41
+    },
+    "microsoft corporation|research, applied and data sciences|mid": {
+        "p25": 110707,
+        "median": 118414,
+        "p75": 125985,
+        "n": 8
+    },
+    "microsoft corporation|sales compensation|mid": {
+        "p25": 145600,
+        "median": 166104,
+        "p75": 166104,
+        "n": 5
+    },
+    "microsoft corporation|sales strategy enablement|mid": {
+        "p25": 168500,
+        "median": 176490,
+        "p75": 193331,
+        "n": 18
+    },
+    "microsoft corporation|security assurance|mid": {
+        "p25": 166899,
+        "median": 188700,
+        "p75": 207466,
+        "n": 38
+    },
+    "microsoft corporation|security operations engineering|mid": {
+        "p25": 172293,
+        "median": 184213,
+        "p75": 193843,
+        "n": 16
+    },
+    "microsoft corporation|security research|mid": {
+        "p25": 153251,
+        "median": 174076,
+        "p75": 197385,
+        "n": 32
+    },
+    "microsoft corporation|service engineering|mid": {
+        "p25": 155400,
+        "median": 161000,
+        "p75": 180339,
+        "n": 57
+    },
+    "microsoft corporation|silicon engineering|mid": {
+        "p25": 160795,
+        "median": 181620,
+        "p75": 207400,
+        "n": 262
+    },
+    "microsoft corporation|site reliability engineering|mid": {
+        "p25": 155890,
+        "median": 176876,
+        "p75": 190066,
+        "n": 70
+    },
+    "microsoft corporation|software engineering|mid": {
+        "p25": 155000,
+        "median": 172600,
+        "p75": 192809,
+        "n": 6555
+    },
+    "microsoft corporation|solution architecture|mid": {
+        "p25": 163644,
+        "median": 170423,
+        "p75": 187800,
+        "n": 12
+    },
+    "microsoft corporation|solution area specialists|mid": {
+        "p25": 169500,
+        "median": 180241,
+        "p75": 184400,
+        "n": 25
+    },
+    "microsoft corporation|solution engineering|mid": {
+        "p25": 157313,
+        "median": 167900,
+        "p75": 180000,
+        "n": 19
+    },
+    "microsoft corporation|sourcing and category management|mid": {
+        "p25": 129200,
+        "median": 139800,
+        "p75": 145075,
+        "n": 11
+    },
+    "microsoft corporation|sourcing engineering|mid": {
+        "p25": 165403,
+        "median": 200000,
+        "p75": 206930,
+        "n": 11
+    },
+    "microsoft corporation|strategic account technology|mid": {
+        "p25": 182757,
+        "median": 188700,
+        "p75": 194550,
+        "n": 6
+    },
+    "microsoft corporation|supply planning|mid": {
+        "p25": 132950,
+        "median": 148992,
+        "p75": 166791,
+        "n": 30
+    },
+    "microsoft corporation|supportability|mid": {
+        "p25": 153976,
+        "median": 156870,
+        "p75": 168660,
+        "n": 12
+    },
+    "microsoft corporation|technical program management|mid": {
+        "p25": 159860,
+        "median": 176558,
+        "p75": 195940,
+        "n": 373
+    },
+    "microsoft corporation|technical solution management|mid": {
+        "p25": 139190,
+        "median": 155500,
+        "p75": 162752,
+        "n": 7
+    },
+    "microsoft corporation|technical support advisory|mid": {
+        "p25": 123080,
+        "median": 136100,
+        "p75": 147175,
+        "n": 27
+    },
+    "microsoft corporation|technical support engineering|mid": {
+        "p25": 120988,
+        "median": 129376,
+        "p75": 140205,
+        "n": 268
+    },
+    "microsoft corporation|technical writing|mid": {
+        "p25": 161700,
+        "median": 195919,
+        "p75": 195919,
+        "n": 5
+    },
+    "microsoft corporation|technology consulting|mid": {
+        "p25": 156750,
+        "median": 164477,
+        "p75": 166163,
+        "n": 6
+    },
+    "microsoft corporation|technology specialists|mid": {
+        "p25": 175050,
+        "median": 183300,
+        "p75": 187450,
+        "n": 27
+    },
+    "microsoft corporation|ux engineering|mid": {
+        "p25": 217652,
+        "median": 217652,
+        "p75": 217652,
+        "n": 5
+    },
+    "microsoft corporation|ux research|mid": {
+        "p25": 142400,
+        "median": 171927,
+        "p75": 175631,
+        "n": 18
+    },
+    "microstrategy, inc.|software engineer|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 5
+    },
+    "mid-south infectious disease associates, pllc|infectious disease physician|mid": {
+        "p25": 275000,
+        "median": 275000,
+        "p75": 275000,
+        "n": 5
+    },
+    "midland credit management, inc|business analyst|mid": {
+        "p25": 82500,
+        "median": 82500,
+        "p75": 82500,
+        "n": 22
+    },
+    "midland credit management, inc|data scientist|mid": {
+        "p25": 82500,
+        "median": 82500,
+        "p75": 82500,
+        "n": 6
+    },
+    "milbank llp|associate|entry": {
+        "p25": 235000,
+        "median": 285000,
+        "p75": 390000,
+        "n": 32
+    },
+    "milbank llp|law clerk|entry": {
+        "p25": 225000,
+        "median": 235000,
+        "p75": 310000,
+        "n": 15
+    },
+    "millennium global technologies llc|software developer|mid": {
+        "p25": 81773,
+        "median": 84107,
+        "p75": 84390,
+        "n": 6
+    },
+    "millennium info tech, inc.|network engineer|mid": {
+        "p25": 128500,
+        "median": 128500,
+        "p75": 128500,
+        "n": 7
+    },
+    "millennium info tech, inc.|software developer|mid": {
+        "p25": 84850,
+        "median": 95000,
+        "p75": 100500,
+        "n": 7
+    },
+    "millennium software, inc.|software developer|mid": {
+        "p25": 109080,
+        "median": 120328,
+        "p75": 127270,
+        "n": 8
+    },
+    "milliman, inc.|associate actuary|entry": {
+        "p25": 115989,
+        "median": 125335,
+        "p75": 131765,
+        "n": 10
+    },
+    "milliman, inc.|consulting actuary|mid": {
+        "p25": 140846,
+        "median": 141568,
+        "p75": 155379,
+        "n": 7
+    },
+    "milwaukee board of school directors|elementary school teacher|mid": {
+        "p25": 51888,
+        "median": 51888,
+        "p75": 51888,
+        "n": 10
+    },
+    "milwaukee board of school directors|esl teacher|mid": {
+        "p25": 51888,
+        "median": 55660,
+        "p75": 55660,
+        "n": 5
+    },
+    "milwaukee board of school directors|middle school teacher|mid": {
+        "p25": 51888,
+        "median": 51888,
+        "p75": 52592,
+        "n": 6
+    },
+    "milwaukee board of school directors|music teacher|mid": {
+        "p25": 51888,
+        "median": 55660,
+        "p75": 55660,
+        "n": 7
+    },
+    "milwaukee board of school directors|science teacher|mid": {
+        "p25": 55660,
+        "median": 55660,
+        "p75": 55660,
+        "n": 9
+    },
+    "milwaukee board of school directors|spanish teacher|mid": {
+        "p25": 52831,
+        "median": 55660,
+        "p75": 55660,
+        "n": 6
+    },
+    "milwaukee board of school directors|special education teacher|mid": {
+        "p25": 51888,
+        "median": 51888,
+        "p75": 51888,
+        "n": 11
+    },
+    "milwaukee electric tool corporation|electrical engineer ii|mid": {
+        "p25": 97250,
+        "median": 101250,
+        "p75": 106827,
+        "n": 7
+    },
+    "mind & body garden, a psychological corporation|psychotherapist|mid": {
+        "p25": 51979,
+        "median": 52000,
+        "p75": 78114,
+        "n": 7
+    },
+    "mind tech, inc|system engineer|mid": {
+        "p25": 83242,
+        "median": 85634,
+        "p75": 85634,
+        "n": 5
+    },
+    "mindedge solutions inc|solution architect|senior": {
+        "p25": 90250,
+        "median": 90958,
+        "p75": 105250,
+        "n": 5
+    },
+    "mindex technologies, inc.|software engineer|mid": {
+        "p25": 91624,
+        "median": 97718,
+        "p75": 102232,
+        "n": 10
+    },
+    "mindlance inc.|software engineer|mid": {
+        "p25": 113000,
+        "median": 133500,
+        "p75": 140000,
+        "n": 20
+    },
+    "mindq, inc.|application developer|mid": {
+        "p25": 103709,
+        "median": 105601,
+        "p75": 105997,
+        "n": 10
+    },
+    "minds in action, inc.|counselor|mid": {
+        "p25": 104000,
+        "median": 104000,
+        "p75": 104000,
+        "n": 6
+    },
+    "mindspecs llc|software developer|mid": {
+        "p25": 84094,
+        "median": 86549,
+        "p75": 86549,
+        "n": 9
+    },
+    "mindspecs llc|software engineer|mid": {
+        "p25": 86549,
+        "median": 86549,
+        "p75": 90896,
+        "n": 11
+    },
+    "mindzone it solutions|software engineer|mid": {
+        "p25": 84076,
+        "median": 96402,
+        "p75": 99762,
+        "n": 6
+    },
+    "minisoft technologies llc|software developer|mid": {
+        "p25": 105375,
+        "median": 107500,
+        "p75": 111072,
+        "n": 8
+    },
+    "minisoft technologies llc|software engineer|mid": {
+        "p25": 99155,
+        "median": 103210,
+        "p75": 105988,
+        "n": 7
+    },
+    "minnesota state colleges and universities|assistant professor of integrated engineering|entry": {
+        "p25": 81185,
+        "median": 85124,
+        "p75": 85124,
+        "n": 5
+    },
+    "miracle software systems, inc.|computer programmer|mid": {
+        "p25": 85882,
+        "median": 94685,
+        "p75": 107431,
+        "n": 44
+    },
+    "miracle software systems, inc.|software engineer|mid": {
+        "p25": 97032,
+        "median": 105227,
+        "p75": 114691,
+        "n": 79
+    },
+    "miracle software systems, inc.|software programmer|mid": {
+        "p25": 110500,
+        "median": 117500,
+        "p75": 120370,
+        "n": 10
+    },
+    "miracle solutions llc.|quality analyst|mid": {
+        "p25": 93600,
+        "median": 93600,
+        "p75": 104000,
+        "n": 5
+    },
+    "mirafra inc|member of technical staff|senior": {
+        "p25": 110242,
+        "median": 156634,
+        "p75": 156650,
+        "n": 36
+    },
+    "mirafra inc|senior member of technical staff|senior": {
+        "p25": 141000,
+        "median": 185130,
+        "p75": 188800,
+        "n": 31
+    },
+    "mirage software inc. dba: bourntec solutions|data engineer|mid": {
+        "p25": 63357,
+        "median": 72634,
+        "p75": 72634,
+        "n": 5
+    },
+    "mission achievement and success charter school|secondary school teacher|mid": {
+        "p25": 71525,
+        "median": 72710,
+        "p75": 72710,
+        "n": 20
+    },
+    "mississippi state department of health|epidemiologist ii|mid": {
+        "p25": 49796,
+        "median": 49796,
+        "p75": 49796,
+        "n": 5
+    },
+    "mississippi state university|assistant professor|entry": {
+        "p25": 76556,
+        "median": 92000,
+        "p75": 103025,
+        "n": 35
+    },
+    "mississippi state university|assistant research professor|entry": {
+        "p25": 83500,
+        "median": 85000,
+        "p75": 96689,
+        "n": 7
+    },
+    "mississippi state university|postdoctoral associate|entry": {
+        "p25": 51341,
+        "median": 53269,
+        "p75": 64390,
+        "n": 14
+    },
+    "mistral ai, inc.|ai scientist|mid": {
+        "p25": 275000,
+        "median": 290000,
+        "p75": 307500,
+        "n": 8
+    },
+    "mitchell international inc.|senior software development engineer|senior": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 130000,
+        "n": 5
+    },
+    "mitchell international inc.|software development engineer|mid": {
+        "p25": 91000,
+        "median": 101754,
+        "p75": 127000,
+        "n": 5
+    },
+    "mitchell/martin, inc.|application architect|senior": {
+        "p25": 145600,
+        "median": 147680,
+        "p75": 149760,
+        "n": 5
+    },
+    "mitchell/martin, inc.|software developer|mid": {
+        "p25": 119059,
+        "median": 138320,
+        "p75": 147160,
+        "n": 6
+    },
+    "mitchell/martin, inc.|software engineer|mid": {
+        "p25": 136240,
+        "median": 141440,
+        "p75": 147680,
+        "n": 75
+    },
+    "mitecs inc.|java developer|mid": {
+        "p25": 76200,
+        "median": 77230,
+        "p75": 84000,
+        "n": 17
+    },
+    "mitsubishi electric power products, inc.|systems studies engineer ii|mid": {
+        "p25": 95674,
+        "median": 103327,
+        "p75": 103328,
+        "n": 9
+    },
+    "mitsubishi electric power products, inc.|systems studies engineer iii|senior": {
+        "p25": 113350,
+        "median": 116366,
+        "p75": 118992,
+        "n": 6
+    },
+    "mizuho americas services llc|assistant vice president|senior": {
+        "p25": 115000,
+        "median": 129000,
+        "p75": 131997,
+        "n": 5
+    },
+    "mizuho americas services llc|director|senior": {
+        "p25": 190000,
+        "median": 205000,
+        "p75": 210000,
+        "n": 5
+    },
+    "mizuho americas services llc|vice president|senior": {
+        "p25": 157581,
+        "median": 160000,
+        "p75": 170000,
+        "n": 5
+    },
+    "mizuho securities usa llc|vice president|senior": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 220000,
+        "n": 5
+    },
+    "mobicloud, llc.|java developer|mid": {
+        "p25": 110240,
+        "median": 110240,
+        "p75": 116480,
+        "n": 5
+    },
+    "mobilecomm professionals, inc.|rf engineer|mid": {
+        "p25": 72925,
+        "median": 93205,
+        "p75": 93205,
+        "n": 9
+    },
+    "mobilenet services, inc.|network engineer|mid": {
+        "p25": 71814,
+        "median": 90000,
+        "p75": 90000,
+        "n": 11
+    },
+    "mobileye, inc.|vlsi backend engineer|mid": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 201705,
+        "n": 8
+    },
+    "mobirey llc|software developer|mid": {
+        "p25": 107037,
+        "median": 107037,
+        "p75": 110000,
+        "n": 5
+    },
+    "modaxo traffic management usa inc.|applications development and support engineer iii|senior": {
+        "p25": 96803,
+        "median": 100563,
+        "p75": 100563,
+        "n": 7
+    },
+    "moderna services, inc.|software engineer|mid": {
+        "p25": 137259,
+        "median": 137259,
+        "p75": 142552,
+        "n": 7
+    },
+    "modjeski and masters, inc.|engineer in training ii|mid": {
+        "p25": 82750,
+        "median": 83550,
+        "p75": 84025,
+        "n": 8
+    },
+    "moelis & company group lp|analyst|mid": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 125000,
+        "n": 13
+    },
+    "moelis & company group lp|associate|entry": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 200000,
+        "n": 13
+    },
+    "moelis & company group lp|vice president|senior": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 7
+    },
+    "molina healthcare, inc.|manager, applications|senior": {
+        "p25": 155000,
+        "median": 159862,
+        "p75": 160000,
+        "n": 5
+    },
+    "moloco, inc.|software engineer|mid": {
+        "p25": 137259,
+        "median": 137259,
+        "p75": 141564,
+        "n": 6
+    },
+    "monarch healthcare management llc|associate administrator|entry": {
+        "p25": 78270,
+        "median": 96741,
+        "p75": 96741,
+        "n": 5
+    },
+    "moneygram international, inc.|software engineer iv|senior": {
+        "p25": 142500,
+        "median": 149350,
+        "p75": 150890,
+        "n": 7
+    },
+    "mongodb, inc.|senior software engineer|senior": {
+        "p25": 187949,
+        "median": 215077,
+        "p75": 220335,
+        "n": 24
+    },
+    "mongodb, inc.|senior solutions architect|senior": {
+        "p25": 154425,
+        "median": 161700,
+        "p75": 162000,
+        "n": 5
+    },
+    "mongodb, inc.|software engineer|mid": {
+        "p25": 133376,
+        "median": 154010,
+        "p75": 185914,
+        "n": 22
+    },
+    "monolithic power systems, inc.|staff applications engineer|senior": {
+        "p25": 168151,
+        "median": 174376,
+        "p75": 179836,
+        "n": 7
+    },
+    "monongahela valley hospital|registered nurse \u201c critical care float pool|mid": {
+        "p25": 69992,
+        "median": 75150,
+        "p75": 75150,
+        "n": 5
+    },
+    "montana state university|assistant professor|entry": {
+        "p25": 54570,
+        "median": 78762,
+        "p75": 92130,
+        "n": 8
+    },
+    "montefiore medical center|attending physician|senior": {
+        "p25": 257500,
+        "median": 350000,
+        "p75": 362500,
+        "n": 11
+    },
+    "montefiore medical center|attending physician- anesthesiology|senior": {
+        "p25": 440000,
+        "median": 440000,
+        "p75": 465000,
+        "n": 5
+    },
+    "montefiore medical center|clinical lab technologist|mid": {
+        "p25": 100404,
+        "median": 107194,
+        "p75": 110491,
+        "n": 23
+    },
+    "montefiore medical center|clinical laboratory technologist|mid": {
+        "p25": 99281,
+        "median": 101449,
+        "p75": 108057,
+        "n": 8
+    },
+    "montefiore medical center|internal medicine physician|mid": {
+        "p25": 220000,
+        "median": 220000,
+        "p75": 240000,
+        "n": 5
+    },
+    "montefiore medical center|physician in a post graduate training program|entry": {
+        "p25": 84216,
+        "median": 87250,
+        "p75": 91202,
+        "n": 40
+    },
+    "monterey bay aquarium research institute (mbari)|postdoctoral fellow|senior": {
+        "p25": 77000,
+        "median": 77000,
+        "p75": 77000,
+        "n": 5
+    },
+    "montessori escuela|spanish immersion montessori guide|mid": {
+        "p25": 44400,
+        "median": 44742,
+        "p75": 45084,
+        "n": 6
+    },
+    "monument health rapid city hospital, inc.|medical laboratory scientist|mid": {
+        "p25": 66029,
+        "median": 68775,
+        "p75": 71531,
+        "n": 8
+    },
+    "monument health rapid city hospital, inc.|registered nurse float pool|mid": {
+        "p25": 74880,
+        "median": 75680,
+        "p75": 80709,
+        "n": 6
+    },
+    "moody's analytics, inc.|assc dir mgr-software eng|mid": {
+        "p25": 163871,
+        "median": 173398,
+        "p75": 189550,
+        "n": 5
+    },
+    "moody's analytics, inc.|assc dir-product manager|senior": {
+        "p25": 149073,
+        "median": 155050,
+        "p75": 166292,
+        "n": 6
+    },
+    "moody's analytics, inc.|asst dir-qa engineer|mid": {
+        "p25": 103237,
+        "median": 106455,
+        "p75": 116440,
+        "n": 12
+    },
+    "moody's analytics, inc.|principal software engineer|senior": {
+        "p25": 198172,
+        "median": 214688,
+        "p75": 227634,
+        "n": 5
+    },
+    "moody's analytics, inc.|senior software engineer|senior": {
+        "p25": 138776,
+        "median": 151691,
+        "p75": 160000,
+        "n": 26
+    },
+    "moody's analytics, inc.|software engineer|mid": {
+        "p25": 103841,
+        "median": 111846,
+        "p75": 125000,
+        "n": 10
+    },
+    "moody's analytics, inc.|staff software engineer|senior": {
+        "p25": 170057,
+        "median": 178850,
+        "p75": 188013,
+        "n": 20
+    },
+    "moody's investors service, inc.|analyst|mid": {
+        "p25": 153050,
+        "median": 153150,
+        "p75": 158560,
+        "n": 5
+    },
+    "moody's investors service, inc.|analytics & modeling analyst|mid": {
+        "p25": 113000,
+        "median": 113000,
+        "p75": 118000,
+        "n": 5
+    },
+    "moody's investors service, inc.|associate lead analyst 1|mid": {
+        "p25": 127550,
+        "median": 134000,
+        "p75": 143214,
+        "n": 12
+    },
+    "moody's investors service, inc.|avp-analyst|mid": {
+        "p25": 181025,
+        "median": 184100,
+        "p75": 184100,
+        "n": 6
+    },
+    "moody's investors service, inc.|avp-data engineer|mid": {
+        "p25": 166215,
+        "median": 170060,
+        "p75": 172058,
+        "n": 6
+    },
+    "moody's investors service, inc.|ratings associate|entry": {
+        "p25": 91500,
+        "median": 92000,
+        "p75": 93887,
+        "n": 6
+    },
+    "moody's investors service, inc.|senior software engineer|senior": {
+        "p25": 137910,
+        "median": 138894,
+        "p75": 141284,
+        "n": 12
+    },
+    "moody's investors service, inc.|sr analytics & modeling analyst|senior": {
+        "p25": 147569,
+        "median": 149474,
+        "p75": 152012,
+        "n": 5
+    },
+    "moody's investors service, inc.|staff software engineer|senior": {
+        "p25": 161376,
+        "median": 163643,
+        "p75": 169139,
+        "n": 10
+    },
+    "moonitsolutions inc|software developer|mid": {
+        "p25": 86000,
+        "median": 87000,
+        "p75": 108826,
+        "n": 7
+    },
+    "moore capital management, llc|analyst|mid": {
+        "p25": 160000,
+        "median": 190000,
+        "p75": 190000,
+        "n": 5
+    },
+    "moorhead area public schools - isd 152|special education teacher|mid": {
+        "p25": 66235,
+        "median": 73890,
+        "p75": 80812,
+        "n": 5
+    },
+    "morgan stanley & co, llc|associate|entry": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 189250,
+        "n": 6
+    },
+    "morgan stanley & co, llc|vice president|senior": {
+        "p25": 217500,
+        "median": 237500,
+        "p75": 250000,
+        "n": 6
+    },
+    "morgan stanley & co., llc|analyst|mid": {
+        "p25": 110000,
+        "median": 120000,
+        "p75": 125000,
+        "n": 26
+    },
+    "morgan stanley & co., llc|associate|entry": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 200000,
+        "n": 82
+    },
+    "morgan stanley & co., llc|executive director|senior": {
+        "p25": 300000,
+        "median": 300000,
+        "p75": 300000,
+        "n": 11
+    },
+    "morgan stanley & co., llc|vice president|senior": {
+        "p25": 225000,
+        "median": 229000,
+        "p75": 250000,
+        "n": 60
+    },
+    "morgan stanley fund services inc.|associate|entry": {
+        "p25": 111000,
+        "median": 116300,
+        "p75": 122500,
+        "n": 7
+    },
+    "morgan stanley fund services inc.|director|senior": {
+        "p25": 129000,
+        "median": 130000,
+        "p75": 146000,
+        "n": 9
+    },
+    "morgan stanley investment management inc.|associate|entry": {
+        "p25": 146250,
+        "median": 150000,
+        "p75": 168750,
+        "n": 10
+    },
+    "morgan stanley investment management inc.|vice president|senior": {
+        "p25": 197500,
+        "median": 202500,
+        "p75": 231250,
+        "n": 8
+    },
+    "morgan stanley private bank na|vice president|senior": {
+        "p25": 175750,
+        "median": 187000,
+        "p75": 193000,
+        "n": 6
+    },
+    "morgan stanley services group inc.|analyst|mid": {
+        "p25": 90001,
+        "median": 100000,
+        "p75": 110011,
+        "n": 21
+    },
+    "morgan stanley services group inc.|associate|entry": {
+        "p25": 121500,
+        "median": 135000,
+        "p75": 145000,
+        "n": 147
+    },
+    "morgan stanley services group inc.|director|senior": {
+        "p25": 143000,
+        "median": 150000,
+        "p75": 160000,
+        "n": 289
+    },
+    "morgan stanley services group inc.|executive director|senior": {
+        "p25": 210000,
+        "median": 230000,
+        "p75": 259000,
+        "n": 41
+    },
+    "morgan stanley services group inc.|vice president|senior": {
+        "p25": 169000,
+        "median": 179000,
+        "p75": 194000,
+        "n": 360
+    },
+    "morgan stanley services group, inc.|director|senior": {
+        "p25": 157750,
+        "median": 162500,
+        "p75": 170000,
+        "n": 8
+    },
+    "morgan stanley services group, inc.|vice president|senior": {
+        "p25": 158000,
+        "median": 170000,
+        "p75": 195000,
+        "n": 5
+    },
+    "morgan stanley smith barney llc|assistant vice president|senior": {
+        "p25": 125000,
+        "median": 135000,
+        "p75": 143000,
+        "n": 29
+    },
+    "morgan stanley smith barney llc|executive director|senior": {
+        "p25": 201000,
+        "median": 214000,
+        "p75": 228000,
+        "n": 5
+    },
+    "morgan stanley smith barney llc|vice president|senior": {
+        "p25": 160000,
+        "median": 165000,
+        "p75": 175250,
+        "n": 11
+    },
+    "morgan state university|assistant professor|entry": {
+        "p25": 67865,
+        "median": 70180,
+        "p75": 83473,
+        "n": 10
+    },
+    "morgan state university|systems engineer|mid": {
+        "p25": 91666,
+        "median": 103668,
+        "p75": 105330,
+        "n": 5
+    },
+    "morningstar inc.|senior software engineer|senior": {
+        "p25": 125350,
+        "median": 132166,
+        "p75": 145856,
+        "n": 6
+    },
+    "morrison & foerster llp|attorney|mid": {
+        "p25": 160000,
+        "median": 160000,
+        "p75": 160000,
+        "n": 6
+    },
+    "mortgage research center, llc|software engineer|mid": {
+        "p25": 88914,
+        "median": 109451,
+        "p75": 113458,
+        "n": 6
+    },
+    "moss & associates, llc|assistant project manager|mid": {
+        "p25": 86000,
+        "median": 89000,
+        "p75": 90000,
+        "n": 9
+    },
+    "moss & associates, llc|project engineer|mid": {
+        "p25": 71000,
+        "median": 74000,
+        "p75": 78422,
+        "n": 7
+    },
+    "moss & associates, llc|project engineer, solar|mid": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 70000,
+        "n": 20
+    },
+    "motional ad inc.|senior engineer (autonomy - perception & prediction)|senior": {
+        "p25": 106059,
+        "median": 111696,
+        "p75": 152506,
+        "n": 5
+    },
+    "motivity labs inc|data engineer|mid": {
+        "p25": 137259,
+        "median": 137500,
+        "p75": 172931,
+        "n": 9
+    },
+    "motorola solutions, inc.|principal software engineer|senior": {
+        "p25": 141354,
+        "median": 146863,
+        "p75": 152427,
+        "n": 6
+    },
+    "motorola solutions, inc.|prof it business systs anls sr-aas|senior": {
+        "p25": 148700,
+        "median": 153317,
+        "p75": 153317,
+        "n": 5
+    },
+    "motorola solutions, inc.|senior software engineer|senior": {
+        "p25": 112996,
+        "median": 127816,
+        "p75": 136259,
+        "n": 6
+    },
+    "motorola solutions, inc.|software engineer|mid": {
+        "p25": 80288,
+        "median": 84094,
+        "p75": 101028,
+        "n": 13
+    },
+    "motorola solutions, inc.|sr network engineer|senior": {
+        "p25": 86923,
+        "median": 94047,
+        "p75": 99486,
+        "n": 5
+    },
+    "motorola solutions, inc.|sr software engineer|senior": {
+        "p25": 110630,
+        "median": 129571,
+        "p75": 132267,
+        "n": 10
+    },
+    "motorola solutions, inc.|sr. software engineer|senior": {
+        "p25": 105769,
+        "median": 112720,
+        "p75": 119763,
+        "n": 10
+    },
+    "mount sinai hospital|clinical laboratory technologist|mid": {
+        "p25": 107473,
+        "median": 107473,
+        "p75": 110552,
+        "n": 5
+    },
+    "mount sinai hospital|house staff fellow|senior": {
+        "p25": 102224,
+        "median": 106312,
+        "p75": 110565,
+        "n": 17
+    },
+    "mount sinai hospital|house staff resident|senior": {
+        "p25": 86591,
+        "median": 88703,
+        "p75": 91607,
+        "n": 7
+    },
+    "mount sinai hospital|house staff, fellow|senior": {
+        "p25": 88703,
+        "median": 106312,
+        "p75": 110565,
+        "n": 13
+    },
+    "mount sinai hospital|house staff, resident|senior": {
+        "p25": 84479,
+        "median": 84479,
+        "p75": 88703,
+        "n": 8
+    },
+    "mount sinai hospital|social worker|mid": {
+        "p25": 85280,
+        "median": 89439,
+        "p75": 89440,
+        "n": 7
+    },
+    "mount sinai hospital|specialty laboratory technologist|mid": {
+        "p25": 110188,
+        "median": 110491,
+        "p75": 110491,
+        "n": 14
+    },
+    "mount sinai medical center of florida|medical technologist ii|mid": {
+        "p25": 72800,
+        "median": 76960,
+        "p75": 79040,
+        "n": 9
+    },
+    "move sales, inc|software engineer|mid": {
+        "p25": 114473,
+        "median": 134511,
+        "p75": 146868,
+        "n": 6
+    },
+    "move sales, inc|software engineer, sr|senior": {
+        "p25": 143640,
+        "median": 172123,
+        "p75": 172931,
+        "n": 5
+    },
+    "moveworks, inc.|senior software engineer|senior": {
+        "p25": 240000,
+        "median": 240000,
+        "p75": 250000,
+        "n": 5
+    },
+    "moveworks, inc.|senior software engineer i|mid": {
+        "p25": 200000,
+        "median": 203500,
+        "p75": 222500,
+        "n": 7
+    },
+    "moveworks, inc.|senior software engineer ii|senior": {
+        "p25": 240228,
+        "median": 270000,
+        "p75": 275000,
+        "n": 7
+    },
+    "moxie it solutions inc|data engineer|mid": {
+        "p25": 83000,
+        "median": 84100,
+        "p75": 88250,
+        "n": 7
+    },
+    "moxie it solutions inc|programmer analyst|mid": {
+        "p25": 76000,
+        "median": 86000,
+        "p75": 86000,
+        "n": 5
+    },
+    "moxie it solutions inc|software engineer|mid": {
+        "p25": 84500,
+        "median": 97200,
+        "p75": 97200,
+        "n": 5
+    },
+    "moyi inc|software developer|mid": {
+        "p25": 113318,
+        "median": 123656,
+        "p75": 123656,
+        "n": 13
+    },
+    "mp mine operations llc|process control engineer|mid": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 135000,
+        "n": 5
+    },
+    "mpg operations llc|analyst|mid": {
+        "p25": 106454,
+        "median": 115731,
+        "p75": 145132,
+        "n": 23
+    },
+    "mpg operations llc|engineering analyst|mid": {
+        "p25": 103823,
+        "median": 117811,
+        "p75": 123656,
+        "n": 6
+    },
+    "mpg operations llc|portfolio manager|senior": {
+        "p25": 113131,
+        "median": 115731,
+        "p75": 118726,
+        "n": 5
+    },
+    "mpg operations llc|quantitative developer|mid": {
+        "p25": 113131,
+        "median": 141170,
+        "p75": 144373,
+        "n": 13
+    },
+    "mpg operations llc|quantitative researcher|mid": {
+        "p25": 109491,
+        "median": 111966,
+        "p75": 112715,
+        "n": 22
+    },
+    "mpg operations llc|research analyst|mid": {
+        "p25": 105664,
+        "median": 124134,
+        "p75": 147409,
+        "n": 7
+    },
+    "mpg operations llc|security engineer|mid": {
+        "p25": 94141,
+        "median": 94141,
+        "p75": 120286,
+        "n": 5
+    },
+    "mpg operations llc|senior quantitative researcher|senior": {
+        "p25": 116334,
+        "median": 116979,
+        "p75": 141170,
+        "n": 5
+    },
+    "mpg operations llc|software engineer|mid": {
+        "p25": 119958,
+        "median": 128721,
+        "p75": 151819,
+        "n": 46
+    },
+    "mpg operations llc|team lead|senior": {
+        "p25": 159780,
+        "median": 179982,
+        "p75": 179982,
+        "n": 6
+    },
+    "mphasis corporation|analyst, quality aka qa engineer|mid": {
+        "p25": 80640,
+        "median": 82368,
+        "p75": 87942,
+        "n": 21
+    },
+    "mphasis corporation|architect|senior": {
+        "p25": 148750,
+        "median": 155000,
+        "p75": 173000,
+        "n": 8
+    },
+    "mphasis corporation|business intelligence data warehousing specialist ii|mid": {
+        "p25": 124387,
+        "median": 126360,
+        "p75": 127774,
+        "n": 5
+    },
+    "mphasis corporation|database administrator|mid": {
+        "p25": 99237,
+        "median": 130000,
+        "p75": 141750,
+        "n": 20
+    },
+    "mphasis corporation|database administrator ii|mid": {
+        "p25": 91793,
+        "median": 91793,
+        "p75": 97344,
+        "n": 5
+    },
+    "mphasis corporation|database architect|senior": {
+        "p25": 113714,
+        "median": 135000,
+        "p75": 135000,
+        "n": 5
+    },
+    "mphasis corporation|delivery module lead|senior": {
+        "p25": 114957,
+        "median": 120000,
+        "p75": 127500,
+        "n": 6
+    },
+    "mphasis corporation|delivery project lead|senior": {
+        "p25": 120000,
+        "median": 145000,
+        "p75": 145000,
+        "n": 10
+    },
+    "mphasis corporation|information systems manager i|mid": {
+        "p25": 121045,
+        "median": 121742,
+        "p75": 132000,
+        "n": 13
+    },
+    "mphasis corporation|information technology project manager|senior": {
+        "p25": 145000,
+        "median": 146000,
+        "p75": 156750,
+        "n": 6
+    },
+    "mphasis corporation|infrastructure engineer|mid": {
+        "p25": 91707,
+        "median": 100000,
+        "p75": 115000,
+        "n": 24
+    },
+    "mphasis corporation|it manager|senior": {
+        "p25": 121514,
+        "median": 125000,
+        "p75": 175000,
+        "n": 9
+    },
+    "mphasis corporation|it project manager|senior": {
+        "p25": 100255,
+        "median": 110000,
+        "p75": 120000,
+        "n": 19
+    },
+    "mphasis corporation|it project manager i|mid": {
+        "p25": 103000,
+        "median": 110000,
+        "p75": 126000,
+        "n": 17
+    },
+    "mphasis corporation|it project manager ii|senior": {
+        "p25": 119714,
+        "median": 125441,
+        "p75": 136191,
+        "n": 14
+    },
+    "mphasis corporation|management analyst|mid": {
+        "p25": 108427,
+        "median": 110000,
+        "p75": 116474,
+        "n": 8
+    },
+    "mphasis corporation|management analyst ii|mid": {
+        "p25": 102205,
+        "median": 103709,
+        "p75": 107473,
+        "n": 12
+    },
+    "mphasis corporation|module lead|senior": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 135000,
+        "n": 5
+    },
+    "mphasis corporation|network infrastructure engineer ii|mid": {
+        "p25": 95000,
+        "median": 97261,
+        "p75": 100000,
+        "n": 9
+    },
+    "mphasis corporation|project lead|senior": {
+        "p25": 125000,
+        "median": 138000,
+        "p75": 145541,
+        "n": 10
+    },
+    "mphasis corporation|project manager|senior": {
+        "p25": 117000,
+        "median": 130000,
+        "p75": 154271,
+        "n": 10
+    },
+    "mphasis corporation|qa test engineer i|entry": {
+        "p25": 69675,
+        "median": 80267,
+        "p75": 102000,
+        "n": 12
+    },
+    "mphasis corporation|qa test engineer i / engineer, sw dev. test (sdet)|entry": {
+        "p25": 74880,
+        "median": 74880,
+        "p75": 77220,
+        "n": 11
+    },
+    "mphasis corporation|qa test engineer ii|mid": {
+        "p25": 90450,
+        "median": 101600,
+        "p75": 110000,
+        "n": 51
+    },
+    "mphasis corporation|software architect|senior": {
+        "p25": 135000,
+        "median": 140000,
+        "p75": 150000,
+        "n": 33
+    },
+    "mphasis corporation|software developer|mid": {
+        "p25": 118500,
+        "median": 130000,
+        "p75": 147500,
+        "n": 19
+    },
+    "mphasis corporation|software engineer|mid": {
+        "p25": 106662,
+        "median": 122317,
+        "p75": 138000,
+        "n": 818
+    },
+    "mphasis corporation|software programmer i|entry": {
+        "p25": 86500,
+        "median": 91535,
+        "p75": 95068,
+        "n": 36
+    },
+    "mphasis corporation|software programmer ii|mid": {
+        "p25": 99935,
+        "median": 110059,
+        "p75": 121311,
+        "n": 300
+    },
+    "mphasis corporation|systems architect ii|senior": {
+        "p25": 92342,
+        "median": 102274,
+        "p75": 122814,
+        "n": 27
+    },
+    "mphasis corporation|test engineer|mid": {
+        "p25": 85163,
+        "median": 105000,
+        "p75": 120000,
+        "n": 100
+    },
+    "mpulse mobile, inc.|software engineer|mid": {
+        "p25": 117291,
+        "median": 123531,
+        "p75": 128398,
+        "n": 11
+    },
+    "mr engineering consultants, inc.|electrical engineer|mid": {
+        "p25": 84219,
+        "median": 108555,
+        "p75": 108555,
+        "n": 5
+    },
+    "mr technosoft, inc.|software developer|mid": {
+        "p25": 90950,
+        "median": 100000,
+        "p75": 119037,
+        "n": 8
+    },
+    "mroads llc|software developer|mid": {
+        "p25": 92206,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "mroads llc|software quality analyst|mid": {
+        "p25": 70325,
+        "median": 82971,
+        "p75": 115000,
+        "n": 5
+    },
+    "msaii llc|sr. engineer|senior": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "msci, inc.|senior associate|mid": {
+        "p25": 93400,
+        "median": 119000,
+        "p75": 119000,
+        "n": 5
+    },
+    "msci, inc.|vice president|senior": {
+        "p25": 110500,
+        "median": 136000,
+        "p75": 144100,
+        "n": 7
+    },
+    "msi express, inc.|quality supervisor|mid": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 70000,
+        "n": 5
+    },
+    "msit systems inc|software quality assurance analyst|mid": {
+        "p25": 85280,
+        "median": 95888,
+        "p75": 106392,
+        "n": 8
+    },
+    "msr technology group llc|business analyst|mid": {
+        "p25": 88026,
+        "median": 89710,
+        "p75": 106974,
+        "n": 7
+    },
+    "msr technology group llc|computer programmer|mid": {
+        "p25": 86570,
+        "median": 88806,
+        "p75": 105487,
+        "n": 6
+    },
+    "msr technology group llc|programmer analyst|mid": {
+        "p25": 74214,
+        "median": 85530,
+        "p75": 90568,
+        "n": 32
+    },
+    "msr technology group llc|project manager|senior": {
+        "p25": 77293,
+        "median": 77293,
+        "p75": 105373,
+        "n": 5
+    },
+    "msr technology group llc|quality engineer|mid": {
+        "p25": 87360,
+        "median": 93500,
+        "p75": 105602,
+        "n": 9
+    },
+    "msr technology group llc|software developer|mid": {
+        "p25": 104499,
+        "median": 112986,
+        "p75": 113547,
+        "n": 17
+    },
+    "msr technology group llc|software development engineer in test|mid": {
+        "p25": 122013,
+        "median": 122013,
+        "p75": 151091,
+        "n": 7
+    },
+    "msr technology group llc|software engineer|mid": {
+        "p25": 102047,
+        "median": 109615,
+        "p75": 127878,
+        "n": 126
+    },
+    "msr technology group llc|sr. software engineer|senior": {
+        "p25": 109850,
+        "median": 127483,
+        "p75": 134295,
+        "n": 10
+    },
+    "msr technology group llc|systems engineer|mid": {
+        "p25": 98218,
+        "median": 107140,
+        "p75": 132579,
+        "n": 5
+    },
+    "msrcosmos llc|quality analyst|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 101875,
+        "n": 6
+    },
+    "msrcosmos llc|software engineer|mid": {
+        "p25": 107250,
+        "median": 137500,
+        "p75": 137500,
+        "n": 50
+    },
+    "mtx group, inc.|associate consultant|entry": {
+        "p25": 66602,
+        "median": 66602,
+        "p75": 66602,
+        "n": 24
+    },
+    "mudrasys, inc|software engineer|mid": {
+        "p25": 90438,
+        "median": 99965,
+        "p75": 130250,
+        "n": 5
+    },
+    "mufg bank, ltd.|business analysis|mid": {
+        "p25": 130000,
+        "median": 142000,
+        "p75": 153000,
+        "n": 5
+    },
+    "mufg bank, ltd.|compliance professional|mid": {
+        "p25": 110000,
+        "median": 112000,
+        "p75": 115000,
+        "n": 5
+    },
+    "mufg bank, ltd.|middleware administration|mid": {
+        "p25": 143732,
+        "median": 145000,
+        "p75": 155231,
+        "n": 5
+    },
+    "mufg bank, ltd.|security engineering|mid": {
+        "p25": 150465,
+        "median": 160652,
+        "p75": 176700,
+        "n": 5
+    },
+    "mufg bank, ltd.|software engineering|mid": {
+        "p25": 142785,
+        "median": 158760,
+        "p75": 174065,
+        "n": 25
+    },
+    "mufg bank, ltd.|systems engineering|mid": {
+        "p25": 136272,
+        "median": 140000,
+        "p75": 146000,
+        "n": 5
+    },
+    "multicare health system|medical technologist|mid": {
+        "p25": 88488,
+        "median": 93516,
+        "p75": 96054,
+        "n": 30
+    },
+    "multiedge inc.|devops engineer|mid": {
+        "p25": 86000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "multiplan, inc.|technical product delivery manager|senior": {
+        "p25": 127308,
+        "median": 157590,
+        "p75": 158445,
+        "n": 5
+    },
+    "munich re america services, inc.|application developer|mid": {
+        "p25": 126622,
+        "median": 129565,
+        "p75": 140058,
+        "n": 12
+    },
+    "murthy law firm|senior software associate|mid": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 127
+    },
+    "mutual of omaha insurance company|engineer|mid": {
+        "p25": 114258,
+        "median": 122323,
+        "p75": 130015,
+        "n": 44
+    },
+    "mutual of omaha insurance company|engineer iii|senior": {
+        "p25": 145121,
+        "median": 150929,
+        "p75": 155686,
+        "n": 12
+    },
+    "my movement physical therapy p.c.|exercise physiologist|mid": {
+        "p25": 56500,
+        "median": 56500,
+        "p75": 56500,
+        "n": 6
+    },
+    "my3tech inc|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 109283,
+        "n": 5
+    },
+    "myappshub llc|computer systems analyst|mid": {
+        "p25": 89440,
+        "median": 92186,
+        "p75": 113797,
+        "n": 24
+    },
+    "myappshub llc|computer systems analysts|mid": {
+        "p25": 89440,
+        "median": 89440,
+        "p75": 89575,
+        "n": 7
+    },
+    "mygo consulting inc.|sap functional consultant|mid": {
+        "p25": 86000,
+        "median": 95500,
+        "p75": 107000,
+        "n": 21
+    },
+    "mygo consulting inc.|sap technical consultant|mid": {
+        "p25": 86000,
+        "median": 96000,
+        "p75": 108100,
+        "n": 17
+    },
+    "mygo consulting inc.|technical consultant|mid": {
+        "p25": 85625,
+        "median": 90500,
+        "p75": 97500,
+        "n": 10
+    },
+    "mymichigan medical center midland|registered nurse float rn|mid": {
+        "p25": 74360,
+        "median": 79040,
+        "p75": 87776,
+        "n": 7
+    },
+    "mymichigan medical center saginaw|registered nurse float rn|mid": {
+        "p25": 77870,
+        "median": 85800,
+        "p75": 89050,
+        "n": 6
+    },
+    "mysapgroup inc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84448,
+        "p75": 91192,
+        "n": 14
+    },
+    "mythri consulting llc|software developer|mid": {
+        "p25": 90000,
+        "median": 96000,
+        "p75": 106558,
+        "n": 65
+    },
+    "myvest corporation|sr. software engineer|senior": {
+        "p25": 184947,
+        "median": 185354,
+        "p75": 190000,
+        "n": 5
+    }
+}

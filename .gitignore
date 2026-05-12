@@ -65,6 +65,9 @@ scripts/enrich_salary.py
 !data/lever_companies.json
 !data/icims_companies.json
 !data/locations.json
+!data/salary/salary_lookup.json
+!data/salary/shards/salary_*.json
+
 
 
 !data/metadata.json

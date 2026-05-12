@@ -1,0 +1,2228 @@
+{
+    "w.m. rice university|assistant professor|entry": {
+        "p25": 125000,
+        "median": 130000,
+        "p75": 134996,
+        "n": 17
+    },
+    "w.m. rice university|postdoctoral associate|entry": {
+        "p25": 57041,
+        "median": 60775,
+        "p75": 65480,
+        "n": 18
+    },
+    "w.m. rice university|postdoctoral research associate|entry": {
+        "p25": 60000,
+        "median": 65000,
+        "p75": 74000,
+        "n": 23
+    },
+    "w.m. rice university|research scientist i|entry": {
+        "p25": 68000,
+        "median": 69586,
+        "p75": 70000,
+        "n": 5
+    },
+    "w.w. grainger, inc.|infrastructure engineer|mid": {
+        "p25": 138513,
+        "median": 156149,
+        "p75": 159661,
+        "n": 7
+    },
+    "w/h/i/p systems, llc|data engineer|mid": {
+        "p25": 94700,
+        "median": 98341,
+        "p75": 112077,
+        "n": 8
+    },
+    "wabtec us rail, inc.|staff software engineer|senior": {
+        "p25": 125327,
+        "median": 128000,
+        "p75": 139996,
+        "n": 5
+    },
+    "wachtell, lipton, rosen & katz|corporate associate|entry": {
+        "p25": 240000,
+        "median": 265000,
+        "p75": 265000,
+        "n": 9
+    },
+    "waferwire llc|systems engineer|mid": {
+        "p25": 86320,
+        "median": 108098,
+        "p75": 108098,
+        "n": 5
+    },
+    "wafts solutions, inc.|software developer|mid": {
+        "p25": 102000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 5
+    },
+    "wailea systems llc|software developer|mid": {
+        "p25": 89606,
+        "median": 99216,
+        "p75": 112923,
+        "n": 8
+    },
+    "wake forest university|assistant professor|entry": {
+        "p25": 73893,
+        "median": 74547,
+        "p75": 79887,
+        "n": 9
+    },
+    "wake forest university|assistant professor economics|entry": {
+        "p25": 92937,
+        "median": 92937,
+        "p75": 92937,
+        "n": 7
+    },
+    "wake forest university baptist medical center|research fellow|senior": {
+        "p25": 64896,
+        "median": 64896,
+        "p75": 64896,
+        "n": 5
+    },
+    "wake forest university health sciences|assistant professor|entry": {
+        "p25": 195819,
+        "median": 366129,
+        "p75": 366129,
+        "n": 6
+    },
+    "wal-mart associates, inc.|analyst iii, technology operations|senior": {
+        "p25": 106493,
+        "median": 107000,
+        "p75": 108561,
+        "n": 5
+    },
+    "wal-mart associates, inc.|data engineer iii|senior": {
+        "p25": 115646,
+        "median": 120000,
+        "p75": 129712,
+        "n": 72
+    },
+    "wal-mart associates, inc.|data scientist iii|senior": {
+        "p25": 118752,
+        "median": 130834,
+        "p75": 144075,
+        "n": 76
+    },
+    "wal-mart associates, inc.|director, advanced analytics|senior": {
+        "p25": 167025,
+        "median": 173250,
+        "p75": 200000,
+        "n": 5
+    },
+    "wal-mart associates, inc.|director, data engineering|senior": {
+        "p25": 197166,
+        "median": 216590,
+        "p75": 223652,
+        "n": 5
+    },
+    "wal-mart associates, inc.|director, data science|senior": {
+        "p25": 188885,
+        "median": 202425,
+        "p75": 236647,
+        "n": 14
+    },
+    "wal-mart associates, inc.|director, operations|senior": {
+        "p25": 196560,
+        "median": 197082,
+        "p75": 197082,
+        "n": 5
+    },
+    "wal-mart associates, inc.|director, product management|senior": {
+        "p25": 180147,
+        "median": 212180,
+        "p75": 233032,
+        "n": 23
+    },
+    "wal-mart associates, inc.|director, software engineering|senior": {
+        "p25": 185587,
+        "median": 199145,
+        "p75": 216590,
+        "n": 20
+    },
+    "wal-mart associates, inc.|distinguished software engineer|senior": {
+        "p25": 184827,
+        "median": 184827,
+        "p75": 184827,
+        "n": 5
+    },
+    "wal-mart associates, inc.|manager ii, process engineer - supply chain|senior": {
+        "p25": 106600,
+        "median": 110000,
+        "p75": 114788,
+        "n": 9
+    },
+    "wal-mart associates, inc.|manager ii, quality engineer - supply chain|senior": {
+        "p25": 105000,
+        "median": 105000,
+        "p75": 113000,
+        "n": 5
+    },
+    "wal-mart associates, inc.|manager, advanced analytics|senior": {
+        "p25": 113560,
+        "median": 113949,
+        "p75": 143206,
+        "n": 82
+    },
+    "wal-mart associates, inc.|manager, automation engineering|senior": {
+        "p25": 107415,
+        "median": 113497,
+        "p75": 136131,
+        "n": 24
+    },
+    "wal-mart associates, inc.|manager, business analysis and insights|senior": {
+        "p25": 113897,
+        "median": 116974,
+        "p75": 136328,
+        "n": 14
+    },
+    "wal-mart associates, inc.|manager, data analytics|senior": {
+        "p25": 109491,
+        "median": 113949,
+        "p75": 141574,
+        "n": 17
+    },
+    "wal-mart associates, inc.|manager, data engineering|senior": {
+        "p25": 133000,
+        "median": 135000,
+        "p75": 140000,
+        "n": 19
+    },
+    "wal-mart associates, inc.|manager, operations|senior": {
+        "p25": 109455,
+        "median": 115000,
+        "p75": 140792,
+        "n": 31
+    },
+    "wal-mart associates, inc.|manager, technology operations|senior": {
+        "p25": 132803,
+        "median": 133714,
+        "p75": 135596,
+        "n": 6
+    },
+    "wal-mart associates, inc.|principal data analyst|senior": {
+        "p25": 137280,
+        "median": 145000,
+        "p75": 150000,
+        "n": 9
+    },
+    "wal-mart associates, inc.|principal data scientist|senior": {
+        "p25": 170701,
+        "median": 171337,
+        "p75": 190314,
+        "n": 12
+    },
+    "wal-mart associates, inc.|principal product manager|senior": {
+        "p25": 151712,
+        "median": 165593,
+        "p75": 193163,
+        "n": 36
+    },
+    "wal-mart associates, inc.|principal software engineer|senior": {
+        "p25": 153301,
+        "median": 153301,
+        "p75": 165306,
+        "n": 52
+    },
+    "wal-mart associates, inc.|principal technical program manager|senior": {
+        "p25": 164374,
+        "median": 166962,
+        "p75": 174858,
+        "n": 8
+    },
+    "wal-mart associates, inc.|principal, data analyst|senior": {
+        "p25": 143037,
+        "median": 154219,
+        "p75": 163060,
+        "n": 6
+    },
+    "wal-mart associates, inc.|principal, data scientist|senior": {
+        "p25": 162781,
+        "median": 170066,
+        "p75": 179974,
+        "n": 8
+    },
+    "wal-mart associates, inc.|principal, product manager|senior": {
+        "p25": 166962,
+        "median": 172352,
+        "p75": 191132,
+        "n": 12
+    },
+    "wal-mart associates, inc.|principal, software engineer|senior": {
+        "p25": 153301,
+        "median": 166700,
+        "p75": 181125,
+        "n": 32
+    },
+    "wal-mart associates, inc.|principal, technical program manager|senior": {
+        "p25": 164477,
+        "median": 165000,
+        "p75": 181197,
+        "n": 7
+    },
+    "wal-mart associates, inc.|product manager iii|senior": {
+        "p25": 115617,
+        "median": 117600,
+        "p75": 131289,
+        "n": 31
+    },
+    "wal-mart associates, inc.|quality engineer iii|senior": {
+        "p25": 102366,
+        "median": 107260,
+        "p75": 112500,
+        "n": 15
+    },
+    "wal-mart associates, inc.|senior data analyst|senior": {
+        "p25": 114401,
+        "median": 122080,
+        "p75": 139541,
+        "n": 42
+    },
+    "wal-mart associates, inc.|senior data engineer|senior": {
+        "p25": 131504,
+        "median": 144649,
+        "p75": 153301,
+        "n": 36
+    },
+    "wal-mart associates, inc.|senior data scientist|senior": {
+        "p25": 150750,
+        "median": 171337,
+        "p75": 171337,
+        "n": 133
+    },
+    "wal-mart associates, inc.|senior manager, advanced analytics|senior": {
+        "p25": 140000,
+        "median": 152148,
+        "p75": 163311,
+        "n": 43
+    },
+    "wal-mart associates, inc.|senior manager, automation engineering|senior": {
+        "p25": 142729,
+        "median": 152250,
+        "p75": 158641,
+        "n": 13
+    },
+    "wal-mart associates, inc.|senior manager, business analysis and insights|senior": {
+        "p25": 130972,
+        "median": 135574,
+        "p75": 149504,
+        "n": 14
+    },
+    "wal-mart associates, inc.|senior manager, data analytics|senior": {
+        "p25": 131730,
+        "median": 145557,
+        "p75": 152148,
+        "n": 36
+    },
+    "wal-mart associates, inc.|senior manager, data engineering|senior": {
+        "p25": 150072,
+        "median": 172170,
+        "p75": 180794,
+        "n": 9
+    },
+    "wal-mart associates, inc.|senior manager, data science|senior": {
+        "p25": 171337,
+        "median": 172170,
+        "p75": 196350,
+        "n": 49
+    },
+    "wal-mart associates, inc.|senior manager, operations|senior": {
+        "p25": 144250,
+        "median": 155351,
+        "p75": 167500,
+        "n": 24
+    },
+    "wal-mart associates, inc.|senior manager, product management|senior": {
+        "p25": 150861,
+        "median": 166962,
+        "p75": 174023,
+        "n": 20
+    },
+    "wal-mart associates, inc.|senior manager, software engineering|senior": {
+        "p25": 153301,
+        "median": 162240,
+        "p75": 184827,
+        "n": 163
+    },
+    "wal-mart associates, inc.|senior manager, technology operations|senior": {
+        "p25": 150000,
+        "median": 152148,
+        "p75": 166962,
+        "n": 17
+    },
+    "wal-mart associates, inc.|senior product manager|senior": {
+        "p25": 139589,
+        "median": 149008,
+        "p75": 155714,
+        "n": 97
+    },
+    "wal-mart associates, inc.|senior quality engineer|senior": {
+        "p25": 120632,
+        "median": 127500,
+        "p75": 132725,
+        "n": 12
+    },
+    "wal-mart associates, inc.|senior software engineer|senior": {
+        "p25": 133245,
+        "median": 150080,
+        "p75": 153301,
+        "n": 552
+    },
+    "wal-mart associates, inc.|senior solution consultant|senior": {
+        "p25": 115329,
+        "median": 120965,
+        "p75": 125000,
+        "n": 6
+    },
+    "wal-mart associates, inc.|senior technology operations|senior": {
+        "p25": 114867,
+        "median": 128089,
+        "p75": 146592,
+        "n": 24
+    },
+    "wal-mart associates, inc.|senior ux designer|senior": {
+        "p25": 133482,
+        "median": 135321,
+        "p75": 155000,
+        "n": 19
+    },
+    "wal-mart associates, inc.|senior, data analyst|senior": {
+        "p25": 113916,
+        "median": 115895,
+        "p75": 125800,
+        "n": 18
+    },
+    "wal-mart associates, inc.|senior, data engineer|senior": {
+        "p25": 129250,
+        "median": 140783,
+        "p75": 149812,
+        "n": 18
+    },
+    "wal-mart associates, inc.|senior, data scientist|senior": {
+        "p25": 140000,
+        "median": 150537,
+        "p75": 171337,
+        "n": 39
+    },
+    "wal-mart associates, inc.|senior, software engineer|senior": {
+        "p25": 135000,
+        "median": 153301,
+        "p75": 153301,
+        "n": 347
+    },
+    "wal-mart associates, inc.|senior, systems and infrastructure engineer|senior": {
+        "p25": 118338,
+        "median": 125000,
+        "p75": 137289,
+        "n": 7
+    },
+    "wal-mart associates, inc.|software engineer ii|mid": {
+        "p25": 103152,
+        "median": 106090,
+        "p75": 114178,
+        "n": 19
+    },
+    "wal-mart associates, inc.|software engineer iii|senior": {
+        "p25": 115000,
+        "median": 117000,
+        "p75": 125000,
+        "n": 892
+    },
+    "wal-mart associates, inc.|staff data engineer|senior": {
+        "p25": 148032,
+        "median": 153301,
+        "p75": 154575,
+        "n": 10
+    },
+    "wal-mart associates, inc.|staff data scientist|senior": {
+        "p25": 171337,
+        "median": 171337,
+        "p75": 178928,
+        "n": 56
+    },
+    "wal-mart associates, inc.|staff product manager|senior": {
+        "p25": 143000,
+        "median": 152148,
+        "p75": 174475,
+        "n": 100
+    },
+    "wal-mart associates, inc.|staff software engineer|senior": {
+        "p25": 150080,
+        "median": 153301,
+        "p75": 154720,
+        "n": 288
+    },
+    "wal-mart associates, inc.|staff technical program manager|senior": {
+        "p25": 166962,
+        "median": 178602,
+        "p75": 181293,
+        "n": 13
+    },
+    "wal-mart associates, inc.|staff technology operations|senior": {
+        "p25": 150828,
+        "median": 152148,
+        "p75": 158642,
+        "n": 8
+    },
+    "wal-mart associates, inc.|staff, data engineer|senior": {
+        "p25": 153301,
+        "median": 153301,
+        "p75": 153301,
+        "n": 13
+    },
+    "wal-mart associates, inc.|staff, data scientist|senior": {
+        "p25": 171337,
+        "median": 171337,
+        "p75": 172170,
+        "n": 32
+    },
+    "wal-mart associates, inc.|staff, product manager|senior": {
+        "p25": 150405,
+        "median": 153830,
+        "p75": 179127,
+        "n": 29
+    },
+    "wal-mart associates, inc.|staff, software engineer|senior": {
+        "p25": 153301,
+        "median": 153301,
+        "p75": 163696,
+        "n": 142
+    },
+    "wal-mart associates, inc.|staff, technical program manager|senior": {
+        "p25": 148375,
+        "median": 159181,
+        "p75": 167709,
+        "n": 20
+    },
+    "wal-mart associates, inc.|systems and infrastructure engineer iii|senior": {
+        "p25": 110072,
+        "median": 117195,
+        "p75": 117875,
+        "n": 20
+    },
+    "wal-mart associates, inc.|ux designer iii|senior": {
+        "p25": 115000,
+        "median": 120000,
+        "p75": 125653,
+        "n": 9
+    },
+    "walgreen co.|pharmacist|mid": {
+        "p25": 116480,
+        "median": 124800,
+        "p75": 143250,
+        "n": 17
+    },
+    "walgreen co.|pharmacy manager|senior": {
+        "p25": 147966,
+        "median": 154360,
+        "p75": 156789,
+        "n": 14
+    },
+    "walgreen co.|senior software engineer 2|senior": {
+        "p25": 160000,
+        "median": 162500,
+        "p75": 165000,
+        "n": 6
+    },
+    "wall street consulting services llc|software engineer|mid": {
+        "p25": 85865,
+        "median": 86653,
+        "p75": 87738,
+        "n": 18
+    },
+    "walter p. moore & associates, inc.|graduate engineer ii - structures|entry": {
+        "p25": 86700,
+        "median": 90200,
+        "p75": 90500,
+        "n": 5
+    },
+    "warnermedia services, llc|senior machine learning engineer|senior": {
+        "p25": 200000,
+        "median": 206315,
+        "p75": 206315,
+        "n": 5
+    },
+    "warnermedia services, llc|senior software engineer|senior": {
+        "p25": 142500,
+        "median": 160000,
+        "p75": 178172,
+        "n": 21
+    },
+    "warnermedia services, llc|software engineer ii|mid": {
+        "p25": 128222,
+        "median": 131239,
+        "p75": 137259,
+        "n": 13
+    },
+    "washington county school district|chinese dual immersion teacher|mid": {
+        "p25": 50136,
+        "median": 50136,
+        "p75": 50952,
+        "n": 11
+    },
+    "washington county school district|spanish dual immersion teacher|mid": {
+        "p25": 50136,
+        "median": 50136,
+        "p75": 50136,
+        "n": 5
+    },
+    "washington state university|assistant professor|entry": {
+        "p25": 86000,
+        "median": 95000,
+        "p75": 110000,
+        "n": 21
+    },
+    "washington state university|postdoctoral research associate|entry": {
+        "p25": 60000,
+        "median": 61100,
+        "p75": 63769,
+        "n": 12
+    },
+    "washington state university|research assistant professor|entry": {
+        "p25": 84413,
+        "median": 85000,
+        "p75": 103415,
+        "n": 7
+    },
+    "washington university|assistant professor|entry": {
+        "p25": 102915,
+        "median": 130000,
+        "p75": 200000,
+        "n": 61
+    },
+    "washington university|bioinformaticist|mid": {
+        "p25": 66928,
+        "median": 80000,
+        "p75": 90000,
+        "n": 7
+    },
+    "washington university|bioinformatics research analyst|mid": {
+        "p25": 54601,
+        "median": 60174,
+        "p75": 63000,
+        "n": 5
+    },
+    "washington university|clinical fellow associate|senior": {
+        "p25": 79574,
+        "median": 82839,
+        "p75": 85324,
+        "n": 22
+    },
+    "washington university|instructor|mid": {
+        "p25": 73500,
+        "median": 81689,
+        "p75": 88055,
+        "n": 33
+    },
+    "washington university|instructor in medicine|mid": {
+        "p25": 240000,
+        "median": 240000,
+        "p75": 240000,
+        "n": 10
+    },
+    "washington university|lecturer|mid": {
+        "p25": 57373,
+        "median": 63835,
+        "p75": 70182,
+        "n": 10
+    },
+    "washington university|postdoctoral research associate|entry": {
+        "p25": 61884,
+        "median": 63120,
+        "p75": 65356,
+        "n": 77
+    },
+    "washington university|research assistant|entry": {
+        "p25": 54198,
+        "median": 56295,
+        "p75": 56368,
+        "n": 10
+    },
+    "washington university|research assistant professor|entry": {
+        "p25": 76750,
+        "median": 82000,
+        "p75": 84241,
+        "n": 6
+    },
+    "washington university|senior scientist|senior": {
+        "p25": 69916,
+        "median": 70846,
+        "p75": 78496,
+        "n": 30
+    },
+    "washington university|staff scientist|senior": {
+        "p25": 63000,
+        "median": 66492,
+        "p75": 69888,
+        "n": 105
+    },
+    "washington university|statistical data analyst|mid": {
+        "p25": 64480,
+        "median": 65000,
+        "p75": 68308,
+        "n": 5
+    },
+    "washington university in st. louis|assistant professor|entry": {
+        "p25": 232500,
+        "median": 240000,
+        "p75": 275000,
+        "n": 19
+    },
+    "waveforms ai, inc.|member of technical staff|senior": {
+        "p25": 290000,
+        "median": 300000,
+        "p75": 365000,
+        "n": 7
+    },
+    "wayfair llc|data scientist ii|mid": {
+        "p25": 132000,
+        "median": 135792,
+        "p75": 140000,
+        "n": 13
+    },
+    "wayfair llc|machine learning scientist|mid": {
+        "p25": 137550,
+        "median": 164000,
+        "p75": 180881,
+        "n": 10
+    },
+    "wayfair llc|manager, operations business analytics|senior": {
+        "p25": 135384,
+        "median": 140454,
+        "p75": 145359,
+        "n": 7
+    },
+    "wayfair llc|senior analyst|senior": {
+        "p25": 120954,
+        "median": 125701,
+        "p75": 131256,
+        "n": 8
+    },
+    "wayfair llc|senior analyst, commercial business analytics|senior": {
+        "p25": 116504,
+        "median": 125050,
+        "p75": 126806,
+        "n": 6
+    },
+    "wayfair llc|senior manager|senior": {
+        "p25": 170332,
+        "median": 174013,
+        "p75": 175502,
+        "n": 6
+    },
+    "wayfair llc|senior manager, software engineering|senior": {
+        "p25": 197588,
+        "median": 198863,
+        "p75": 204675,
+        "n": 7
+    },
+    "wayfair llc|senior software engineer|senior": {
+        "p25": 187376,
+        "median": 191599,
+        "p75": 206369,
+        "n": 16
+    },
+    "wayfair llc|software engineer i|entry": {
+        "p25": 126000,
+        "median": 126817,
+        "p75": 128280,
+        "n": 10
+    },
+    "wayfair llc|software engineer ii|mid": {
+        "p25": 161125,
+        "median": 169066,
+        "p75": 175086,
+        "n": 16
+    },
+    "wayfair llc|software engineer iii|senior": {
+        "p25": 179018,
+        "median": 185725,
+        "p75": 192202,
+        "n": 39
+    },
+    "waymo llc|data scientist|mid": {
+        "p25": 197250,
+        "median": 214000,
+        "p75": 240000,
+        "n": 8
+    },
+    "waymo llc|product manager|senior": {
+        "p25": 240000,
+        "median": 245000,
+        "p75": 250000,
+        "n": 5
+    },
+    "waymo llc|research scientist|mid": {
+        "p25": 185000,
+        "median": 225000,
+        "p75": 235000,
+        "n": 9
+    },
+    "waymo llc|software engineer|mid": {
+        "p25": 185000,
+        "median": 200000,
+        "p75": 232000,
+        "n": 168
+    },
+    "waymo llc|systems engineer|mid": {
+        "p25": 222250,
+        "median": 235000,
+        "p75": 371000,
+        "n": 8
+    },
+    "waymo llc|systems test engineer|mid": {
+        "p25": 187500,
+        "median": 192000,
+        "p75": 210000,
+        "n": 7
+    },
+    "wayne county public schools|teacher|mid": {
+        "p25": 40320,
+        "median": 41100,
+        "p75": 41980,
+        "n": 31
+    },
+    "wayne state university|assistant professor|entry": {
+        "p25": 94737,
+        "median": 115489,
+        "p75": 162250,
+        "n": 30
+    },
+    "wayne state university|post-doctoral fellow|senior": {
+        "p25": 53000,
+        "median": 56035,
+        "p75": 62566,
+        "n": 5
+    },
+    "wayne state university|research assistant|entry": {
+        "p25": 51712,
+        "median": 55058,
+        "p75": 58749,
+        "n": 7
+    },
+    "wayne state university|research associate|entry": {
+        "p25": 57522,
+        "median": 61380,
+        "p75": 64500,
+        "n": 10
+    },
+    "wayne state university|research scientist|mid": {
+        "p25": 61105,
+        "median": 62000,
+        "p75": 69194,
+        "n": 7
+    },
+    "wayside youth & family support network, inc.|clinician|mid": {
+        "p25": 68000,
+        "median": 68000,
+        "p75": 69287,
+        "n": 7
+    },
+    "wayve technologies, inc|applied scientist|mid": {
+        "p25": 200000,
+        "median": 210000,
+        "p75": 215000,
+        "n": 5
+    },
+    "wayve technologies, inc|machine learning engineer|mid": {
+        "p25": 242500,
+        "median": 272500,
+        "p75": 335000,
+        "n": 8
+    },
+    "wayve technologies, inc|software engineer|mid": {
+        "p25": 240000,
+        "median": 245000,
+        "p75": 270000,
+        "n": 5
+    },
+    "wb solutions llc|software developer|mid": {
+        "p25": 81286,
+        "median": 84094,
+        "p75": 90896,
+        "n": 10
+    },
+    "weaver and tidwell, l.l.p.|senior associate|mid": {
+        "p25": 85322,
+        "median": 93000,
+        "p75": 95000,
+        "n": 5
+    },
+    "webber waterworks, llc|field engineer|mid": {
+        "p25": 73000,
+        "median": 73000,
+        "p75": 73000,
+        "n": 6
+    },
+    "webber, llc|field engineer|mid": {
+        "p25": 70000,
+        "median": 72000,
+        "p75": 74000,
+        "n": 5
+    },
+    "webilent technology, inc.|senior software engineer|senior": {
+        "p25": 98500,
+        "median": 107000,
+        "p75": 107000,
+        "n": 11
+    },
+    "webject systems inc|software applications developer|mid": {
+        "p25": 122970,
+        "median": 127878,
+        "p75": 131082,
+        "n": 9
+    },
+    "wei, wei & co., llp|staff accountant|senior": {
+        "p25": 71136,
+        "median": 71136,
+        "p75": 83886,
+        "n": 7
+    },
+    "weil, gotshal & manges llp|associate|entry": {
+        "p25": 260000,
+        "median": 310000,
+        "p75": 390000,
+        "n": 29
+    },
+    "weill cornell medical college|assistant professor|entry": {
+        "p25": 111394,
+        "median": 160000,
+        "p75": 165000,
+        "n": 9
+    },
+    "weill cornell medical college|instructor|mid": {
+        "p25": 82000,
+        "median": 90000,
+        "p75": 99000,
+        "n": 9
+    },
+    "weill cornell medical college|postdoctoral associate|entry": {
+        "p25": 68964,
+        "median": 74088,
+        "p75": 79312,
+        "n": 46
+    },
+    "weill cornell medical college|research associate|entry": {
+        "p25": 71532,
+        "median": 76634,
+        "p75": 84936,
+        "n": 43
+    },
+    "weill cornell medical college|staff associate|senior": {
+        "p25": 53557,
+        "median": 61800,
+        "p75": 67877,
+        "n": 7
+    },
+    "weldon city schools|teacher|mid": {
+        "p25": 39827,
+        "median": 41770,
+        "p75": 48472,
+        "n": 10
+    },
+    "wellington management company llp|lead software engineer|senior": {
+        "p25": 160000,
+        "median": 170000,
+        "p75": 177500,
+        "n": 23
+    },
+    "wellington management company llp|lead systems analyst|senior": {
+        "p25": 163000,
+        "median": 177750,
+        "p75": 181625,
+        "n": 6
+    },
+    "wellington management company llp|senior software engineer|senior": {
+        "p25": 148000,
+        "median": 155000,
+        "p75": 163000,
+        "n": 11
+    },
+    "wellington management company llp|senior systems analyst|senior": {
+        "p25": 147750,
+        "median": 150000,
+        "p75": 164250,
+        "n": 7
+    },
+    "wellmark, inc.|lead software engineer|senior": {
+        "p25": 128960,
+        "median": 128960,
+        "p75": 138507,
+        "n": 5
+    },
+    "wells fargo bank, n.a.|lead software engineer|senior": {
+        "p25": 150275,
+        "median": 154669,
+        "p75": 179753,
+        "n": 34
+    },
+    "wells fargo bank, n.a.|lead specialty software engineer|senior": {
+        "p25": 176002,
+        "median": 179982,
+        "p75": 190296,
+        "n": 7
+    },
+    "wells fargo bank, n.a.|lead systems operations engineer|senior": {
+        "p25": 138091,
+        "median": 152859,
+        "p75": 155256,
+        "n": 6
+    },
+    "wells fargo bank, n.a.|quantitative analytics specialist|mid": {
+        "p25": 118045,
+        "median": 120879,
+        "p75": 129292,
+        "n": 8
+    },
+    "wells fargo bank, n.a.|senior software engineer|senior": {
+        "p25": 127284,
+        "median": 133536,
+        "p75": 134347,
+        "n": 23
+    },
+    "wellspan good samaritan hospital|medical resident (family medicine)|entry": {
+        "p25": 66873,
+        "median": 69713,
+        "p75": 70963,
+        "n": 11
+    },
+    "wellspan york hospital|medical resident (internal medicine)|entry": {
+        "p25": 66873,
+        "median": 66873,
+        "p75": 69713,
+        "n": 7
+    },
+    "wentworth-douglass physician corporation|hospitalist|mid": {
+        "p25": 270550,
+        "median": 275550,
+        "p75": 275550,
+        "n": 7
+    },
+    "weride corp|software engineer|mid": {
+        "p25": 146307,
+        "median": 146307,
+        "p75": 158950,
+        "n": 24
+    },
+    "weride corp.|software engineer|mid": {
+        "p25": 146307,
+        "median": 146307,
+        "p75": 149052,
+        "n": 6
+    },
+    "werner enterprises, inc.|senior software engineer|senior": {
+        "p25": 116090,
+        "median": 128100,
+        "p75": 128100,
+        "n": 5
+    },
+    "werner enterprises, inc.|software engineer|mid": {
+        "p25": 101821,
+        "median": 104603,
+        "p75": 106777,
+        "n": 6
+    },
+    "west advanced technologies, inc.|software engineer|mid": {
+        "p25": 105497,
+        "median": 113724,
+        "p75": 139360,
+        "n": 8
+    },
+    "west contra costa unified school district|special education teacher|mid": {
+        "p25": 80312,
+        "median": 101642,
+        "p75": 104513,
+        "n": 27
+    },
+    "west texas a&m university|assistant professor|entry": {
+        "p25": 84632,
+        "median": 88265,
+        "p75": 104999,
+        "n": 6
+    },
+    "west virginia university|assistant professor|entry": {
+        "p25": 106340,
+        "median": 110000,
+        "p75": 110000,
+        "n": 6
+    },
+    "west virginia university|assistant professor (endocrinology)|entry": {
+        "p25": 100630,
+        "median": 100630,
+        "p75": 100630,
+        "n": 5
+    },
+    "west virginia university|assistant professor (general internal medicine)|entry": {
+        "p25": 100630,
+        "median": 100630,
+        "p75": 100630,
+        "n": 5
+    },
+    "west virginia university|assistant professor (neurology)|entry": {
+        "p25": 92768,
+        "median": 105664,
+        "p75": 150945,
+        "n": 5
+    },
+    "westchester county health care corporation|clinical resident \u201c internal medicine|entry": {
+        "p25": 70585,
+        "median": 72434,
+        "p75": 75768,
+        "n": 8
+    },
+    "western dental services|dentist|mid": {
+        "p25": 195000,
+        "median": 208000,
+        "p75": 208000,
+        "n": 17
+    },
+    "western dental services, inc.|dentist|mid": {
+        "p25": 193294,
+        "median": 202800,
+        "p75": 208000,
+        "n": 12
+    },
+    "western digital technologies, inc.|analyst 4, business applications|mid": {
+        "p25": 166962,
+        "median": 169328,
+        "p75": 169328,
+        "n": 7
+    },
+    "western digital technologies, inc.|principal engineer, development engineering|senior": {
+        "p25": 134800,
+        "median": 134800,
+        "p75": 155043,
+        "n": 5
+    },
+    "western digital technologies, inc.|principal engineer, firmware engineering|senior": {
+        "p25": 150470,
+        "median": 155605,
+        "p75": 155605,
+        "n": 5
+    },
+    "western digital technologies, inc.|principal engineer, hardware development engineering|senior": {
+        "p25": 140192,
+        "median": 162344,
+        "p75": 163010,
+        "n": 20
+    },
+    "western digital technologies, inc.|scientist 2, data science|mid": {
+        "p25": 93231,
+        "median": 143543,
+        "p75": 143543,
+        "n": 6
+    },
+    "western digital technologies, inc.|senior engineer, asic development engineering|senior": {
+        "p25": 90376,
+        "median": 90376,
+        "p75": 90376,
+        "n": 7
+    },
+    "western digital technologies, inc.|senior engineer, data engineering|senior": {
+        "p25": 117291,
+        "median": 117291,
+        "p75": 117291,
+        "n": 7
+    },
+    "western digital technologies, inc.|senior engineer, development engineering|senior": {
+        "p25": 102336,
+        "median": 108629,
+        "p75": 114922,
+        "n": 12
+    },
+    "western digital technologies, inc.|senior engineer, industrial engineering|senior": {
+        "p25": 90251,
+        "median": 92976,
+        "p75": 92976,
+        "n": 9
+    },
+    "western digital technologies, inc.|staff engineer, development engineering|senior": {
+        "p25": 115855,
+        "median": 130416,
+        "p75": 151091,
+        "n": 12
+    },
+    "western digital technologies, inc.|staff engineer, hardware development engineering|senior": {
+        "p25": 118810,
+        "median": 137093,
+        "p75": 155251,
+        "n": 40
+    },
+    "western heights public schools|dual language teacher|mid": {
+        "p25": 42255,
+        "median": 42255,
+        "p75": 42255,
+        "n": 7
+    },
+    "western michigan university|assistant professor|entry": {
+        "p25": 64000,
+        "median": 74664,
+        "p75": 87000,
+        "n": 9
+    },
+    "western union, llc|application architect|senior": {
+        "p25": 145000,
+        "median": 155709,
+        "p75": 164439,
+        "n": 5
+    },
+    "western union, llc|senior architect, software engineering|senior": {
+        "p25": 158362,
+        "median": 165900,
+        "p75": 171219,
+        "n": 7
+    },
+    "western union, llc|senior software engineer|senior": {
+        "p25": 126002,
+        "median": 128750,
+        "p75": 134658,
+        "n": 11
+    },
+    "western union, llc|staff software engineer|senior": {
+        "p25": 140260,
+        "median": 143600,
+        "p75": 149695,
+        "n": 8
+    },
+    "westernacher & partner consulting, inc.|senior associate (consultant)|mid": {
+        "p25": 146250,
+        "median": 150000,
+        "p75": 157500,
+        "n": 6
+    },
+    "westmoreland county school board|teacher|mid": {
+        "p25": 47310,
+        "median": 47540,
+        "p75": 48230,
+        "n": 7
+    },
+    "westways staffing services, inc.|icu nurse|mid": {
+        "p25": 59155,
+        "median": 59155,
+        "p75": 61089,
+        "n": 10
+    },
+    "wgu corporation|senior software engineer|senior": {
+        "p25": 159725,
+        "median": 171000,
+        "p75": 175000,
+        "n": 16
+    },
+    "whatnot inc.|software engineer|mid": {
+        "p25": 162000,
+        "median": 210400,
+        "p75": 227075,
+        "n": 22
+    },
+    "whirlpool corporation|analyst, engineering|mid": {
+        "p25": 91712,
+        "median": 95110,
+        "p75": 97408,
+        "n": 5
+    },
+    "whirlpool corporation|senior analyst, software engineering|senior": {
+        "p25": 125952,
+        "median": 127462,
+        "p75": 127999,
+        "n": 5
+    },
+    "white & case llp|associate|entry": {
+        "p25": 260000,
+        "median": 310000,
+        "p75": 390000,
+        "n": 37
+    },
+    "white & case llp|international law clerk / associate|entry": {
+        "p25": 235000,
+        "median": 260000,
+        "p75": 310000,
+        "n": 9
+    },
+    "white & case llp|law clerk / associate|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 235000,
+        "n": 28
+    },
+    "white & case llp|law clerk/associate|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 9
+    },
+    "white plains hospital medical center|clinical laboratory scientist|mid": {
+        "p25": 108144,
+        "median": 112153,
+        "p75": 113292,
+        "n": 6
+    },
+    "whitehead institute for biomedical research|postdoctoral associate|entry": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 75000,
+        "n": 6
+    },
+    "wichita state university|niar research associate|entry": {
+        "p25": 65000,
+        "median": 66500,
+        "p75": 67000,
+        "n": 5
+    },
+    "wichita state university|niar research engineer|mid": {
+        "p25": 72072,
+        "median": 76523,
+        "p75": 89000,
+        "n": 13
+    },
+    "wilkinson county office of superintendent education|high school mathematics teacher|mid": {
+        "p25": 43600,
+        "median": 43975,
+        "p75": 48737,
+        "n": 6
+    },
+    "william blair & company, llc|lead software development analyst|senior": {
+        "p25": 155000,
+        "median": 156000,
+        "p75": 179982,
+        "n": 5
+    },
+    "williams-sonoma, inc.|lead software engineer|senior": {
+        "p25": 159135,
+        "median": 160000,
+        "p75": 167960,
+        "n": 9
+    },
+    "williams-sonoma, inc.|senior software engineer|senior": {
+        "p25": 138000,
+        "median": 146027,
+        "p75": 150750,
+        "n": 8
+    },
+    "willis towers watson us llc|analyst|mid": {
+        "p25": 79000,
+        "median": 82249,
+        "p75": 84900,
+        "n": 10
+    },
+    "willis towers watson us llc|associate|entry": {
+        "p25": 88000,
+        "median": 92768,
+        "p75": 95282,
+        "n": 13
+    },
+    "willis towers watson us llc|associate director|senior": {
+        "p25": 133750,
+        "median": 140000,
+        "p75": 143978,
+        "n": 7
+    },
+    "willis towers watson us llc|lead associate|senior": {
+        "p25": 109000,
+        "median": 115875,
+        "p75": 119000,
+        "n": 11
+    },
+    "willis towers watson us llc|senior associate|mid": {
+        "p25": 120002,
+        "median": 125800,
+        "p75": 136625,
+        "n": 10
+    },
+    "willkie farr & gallagher llp|associate|entry": {
+        "p25": 272500,
+        "median": 365000,
+        "p75": 383750,
+        "n": 10
+    },
+    "willkie farr & gallagher llp|law clerk|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 10
+    },
+    "willmeng construction, inc.|assistant project manager|mid": {
+        "p25": 81827,
+        "median": 81827,
+        "p75": 81827,
+        "n": 5
+    },
+    "wilson preparatory academy|teacher|mid": {
+        "p25": 54500,
+        "median": 56000,
+        "p75": 58000,
+        "n": 5
+    },
+    "wilson sonsini goodrich & rosati, pc|associate|entry": {
+        "p25": 260000,
+        "median": 310000,
+        "p75": 390000,
+        "n": 11
+    },
+    "windsun technologies, llc|software developer|mid": {
+        "p25": 99964,
+        "median": 107234,
+        "p75": 115689,
+        "n": 6
+    },
+    "windycity technologies inc.,|software engineer|mid": {
+        "p25": 98000,
+        "median": 103000,
+        "p75": 104500,
+        "n": 35
+    },
+    "windycity technologies inc.,|software engineer - (qa)|mid": {
+        "p25": 95120,
+        "median": 106080,
+        "p75": 146317,
+        "n": 7
+    },
+    "wing aviation llc|software engineer|mid": {
+        "p25": 164000,
+        "median": 188000,
+        "p75": 200000,
+        "n": 25
+    },
+    "winlen technologies, inc.|software developer|mid": {
+        "p25": 110000,
+        "median": 112923,
+        "p75": 112923,
+        "n": 5
+    },
+    "winston-salem/forsyth county schools|elementary school teacher|mid": {
+        "p25": 58780,
+        "median": 58780,
+        "p75": 58780,
+        "n": 5
+    },
+    "winsupply inc|senior software developer|senior": {
+        "p25": 118368,
+        "median": 136000,
+        "p75": 139000,
+        "n": 6
+    },
+    "wipro limited|account delivery head (adh) l2|mid": {
+        "p25": 124654,
+        "median": 157643,
+        "p75": 172786,
+        "n": 9
+    },
+    "wipro limited|administrator l3|mid": {
+        "p25": 80288,
+        "median": 86029,
+        "p75": 91229,
+        "n": 15
+    },
+    "wipro limited|application architect l1|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 92581,
+        "n": 88
+    },
+    "wipro limited|application architect l2|senior": {
+        "p25": 107692,
+        "median": 149228,
+        "p75": 181293,
+        "n": 8
+    },
+    "wipro limited|automation lead l1|senior": {
+        "p25": 83866,
+        "median": 83866,
+        "p75": 126693,
+        "n": 9
+    },
+    "wipro limited|business analyst l3|mid": {
+        "p25": 90896,
+        "median": 91042,
+        "p75": 91042,
+        "n": 5
+    },
+    "wipro limited|business analyst l4|mid": {
+        "p25": 92955,
+        "median": 98925,
+        "p75": 103979,
+        "n": 14
+    },
+    "wipro limited|business analyst l5|mid": {
+        "p25": 86400,
+        "median": 94390,
+        "p75": 103022,
+        "n": 13
+    },
+    "wipro limited|configurator l3|mid": {
+        "p25": 77293,
+        "median": 77958,
+        "p75": 77958,
+        "n": 5
+    },
+    "wipro limited|consultant|mid": {
+        "p25": 88483,
+        "median": 89773,
+        "p75": 146172,
+        "n": 5
+    },
+    "wipro limited|cyber security analyst l4|mid": {
+        "p25": 94682,
+        "median": 94682,
+        "p75": 101670,
+        "n": 22
+    },
+    "wipro limited|data analytics architect l1|senior": {
+        "p25": 122949,
+        "median": 123458,
+        "p75": 123968,
+        "n": 6
+    },
+    "wipro limited|data and analytics architect l1|senior": {
+        "p25": 114379,
+        "median": 118102,
+        "p75": 132069,
+        "n": 31
+    },
+    "wipro limited|data and analytics architect l2|senior": {
+        "p25": 142626,
+        "median": 145350,
+        "p75": 153052,
+        "n": 8
+    },
+    "wipro limited|data scientist lead l2|senior": {
+        "p25": 86400,
+        "median": 90002,
+        "p75": 90251,
+        "n": 7
+    },
+    "wipro limited|delivery manager l1|senior": {
+        "p25": 97920,
+        "median": 109886,
+        "p75": 112403,
+        "n": 7
+    },
+    "wipro limited|developer l2|mid": {
+        "p25": 83283,
+        "median": 89814,
+        "p75": 102928,
+        "n": 10
+    },
+    "wipro limited|developer l3|mid": {
+        "p25": 78509,
+        "median": 85530,
+        "p75": 89814,
+        "n": 63
+    },
+    "wipro limited|developer l4|mid": {
+        "p25": 79706,
+        "median": 85530,
+        "p75": 91041,
+        "n": 60
+    },
+    "wipro limited|devops lead l2|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 139443,
+        "n": 5
+    },
+    "wipro limited|domain architect l1|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 115000,
+        "n": 21
+    },
+    "wipro limited|domain consultant l1|mid": {
+        "p25": 73382,
+        "median": 79789,
+        "p75": 89024,
+        "n": 5
+    },
+    "wipro limited|domain consultant l2|mid": {
+        "p25": 79685,
+        "median": 87630,
+        "p75": 103709,
+        "n": 23
+    },
+    "wipro limited|domain consultant l3|mid": {
+        "p25": 86400,
+        "median": 91062,
+        "p75": 103709,
+        "n": 42
+    },
+    "wipro limited|domain consultant l4|mid": {
+        "p25": 103028,
+        "median": 112828,
+        "p75": 130286,
+        "n": 20
+    },
+    "wipro limited|infrastructure and platform architect l2|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 86400,
+        "n": 5
+    },
+    "wipro limited|infrastructure domain architect l1|senior": {
+        "p25": 87053,
+        "median": 109824,
+        "p75": 127321,
+        "n": 6
+    },
+    "wipro limited|infrastructure domain architect l2|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 95172,
+        "n": 16
+    },
+    "wipro limited|integration architect l1|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 95742,
+        "n": 12
+    },
+    "wipro limited|integration architect l2|senior": {
+        "p25": 99445,
+        "median": 100000,
+        "p75": 116563,
+        "n": 5
+    },
+    "wipro limited|lead administrator l1|senior": {
+        "p25": 80288,
+        "median": 82825,
+        "p75": 89175,
+        "n": 50
+    },
+    "wipro limited|lead administrator l2|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 86400,
+        "n": 22
+    },
+    "wipro limited|lead engineer|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 126693,
+        "n": 9
+    },
+    "wipro limited|managing consultant-technology & implementation l1|mid": {
+        "p25": 115911,
+        "median": 128086,
+        "p75": 128939,
+        "n": 12
+    },
+    "wipro limited|principal tech & impl cons l1|senior": {
+        "p25": 88451,
+        "median": 94058,
+        "p75": 99372,
+        "n": 16
+    },
+    "wipro limited|product architect l1|senior": {
+        "p25": 86400,
+        "median": 94682,
+        "p75": 97947,
+        "n": 7
+    },
+    "wipro limited|product engineer l3|mid": {
+        "p25": 97411,
+        "median": 104405,
+        "p75": 106220,
+        "n": 6
+    },
+    "wipro limited|product engineering manager l1|senior": {
+        "p25": 108077,
+        "median": 108451,
+        "p75": 126204,
+        "n": 6
+    },
+    "wipro limited|product manager l1|senior": {
+        "p25": 86400,
+        "median": 98975,
+        "p75": 111550,
+        "n": 6
+    },
+    "wipro limited|program manager l1|senior": {
+        "p25": 102892,
+        "median": 109886,
+        "p75": 118237,
+        "n": 46
+    },
+    "wipro limited|project lead l1|senior": {
+        "p25": 83356,
+        "median": 90605,
+        "p75": 97606,
+        "n": 91
+    },
+    "wipro limited|project manager|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 108701,
+        "n": 5
+    },
+    "wipro limited|project manager l1|senior": {
+        "p25": 86400,
+        "median": 88150,
+        "p75": 103095,
+        "n": 92
+    },
+    "wipro limited|project manager l2|senior": {
+        "p25": 103090,
+        "median": 108077,
+        "p75": 117800,
+        "n": 32
+    },
+    "wipro limited|quality assurance (qa) lead l2|senior": {
+        "p25": 85789,
+        "median": 99299,
+        "p75": 101899,
+        "n": 23
+    },
+    "wipro limited|quality assurance (qa) lead l3|senior": {
+        "p25": 86400,
+        "median": 86611,
+        "p75": 86923,
+        "n": 10
+    },
+    "wipro limited|quality assurance consultant l1|mid": {
+        "p25": 88337,
+        "median": 91270,
+        "p75": 91270,
+        "n": 6
+    },
+    "wipro limited|quality assurance consultant l2|mid": {
+        "p25": 86658,
+        "median": 87672,
+        "p75": 87859,
+        "n": 6
+    },
+    "wipro limited|quality assurance consultant l3|mid": {
+        "p25": 91374,
+        "median": 94702,
+        "p75": 96113,
+        "n": 5
+    },
+    "wipro limited|scrum master l1|mid": {
+        "p25": 73920,
+        "median": 83658,
+        "p75": 90605,
+        "n": 9
+    },
+    "wipro limited|scrum master l2|mid": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 93538,
+        "n": 5
+    },
+    "wipro limited|security architect l1|senior": {
+        "p25": 96382,
+        "median": 104042,
+        "p75": 109813,
+        "n": 18
+    },
+    "wipro limited|senior consultant-tech & impl cons l1|mid": {
+        "p25": 95529,
+        "median": 99268,
+        "p75": 100714,
+        "n": 12
+    },
+    "wipro limited|service delivery lead l2|senior": {
+        "p25": 90210,
+        "median": 90210,
+        "p75": 96616,
+        "n": 5
+    },
+    "wipro limited|software engineer l3|mid": {
+        "p25": 84282,
+        "median": 89731,
+        "p75": 98540,
+        "n": 10
+    },
+    "wipro limited|software quality assurance consultant l2|mid": {
+        "p25": 91270,
+        "median": 91270,
+        "p75": 91270,
+        "n": 5
+    },
+    "wipro limited|solution architect l1|senior": {
+        "p25": 86400,
+        "median": 86445,
+        "p75": 92622,
+        "n": 165
+    },
+    "wipro limited|solution architect l2|senior": {
+        "p25": 105310,
+        "median": 114920,
+        "p75": 122400,
+        "n": 45
+    },
+    "wipro limited|solution lead l1|senior": {
+        "p25": 86400,
+        "median": 88666,
+        "p75": 135039,
+        "n": 18
+    },
+    "wipro limited|system engineer l3|mid": {
+        "p25": 88556,
+        "median": 92622,
+        "p75": 95815,
+        "n": 7
+    },
+    "wipro limited|system engineer l4|mid": {
+        "p25": 80288,
+        "median": 89461,
+        "p75": 92622,
+        "n": 9
+    },
+    "wipro limited|technical lead l1|senior": {
+        "p25": 78021,
+        "median": 85530,
+        "p75": 98301,
+        "n": 472
+    },
+    "wipro limited|techno functional consultant l1|mid": {
+        "p25": 89996,
+        "median": 98446,
+        "p75": 105019,
+        "n": 70
+    },
+    "wipro limited|techno functional consultant l2|mid": {
+        "p25": 89508,
+        "median": 94058,
+        "p75": 101039,
+        "n": 228
+    },
+    "wipro limited|techno functional consultant l3|mid": {
+        "p25": 106974,
+        "median": 122179,
+        "p75": 143582,
+        "n": 53
+    },
+    "wipro limited|technology architect l1|senior": {
+        "p25": 86400,
+        "median": 86400,
+        "p75": 95742,
+        "n": 97
+    },
+    "wipro limited|technology architect l2|senior": {
+        "p25": 105310,
+        "median": 107141,
+        "p75": 109886,
+        "n": 9
+    },
+    "wipro limited|test engineer l3|mid": {
+        "p25": 73278,
+        "median": 83242,
+        "p75": 99736,
+        "n": 21
+    },
+    "wipro limited|test engineer l4|mid": {
+        "p25": 83023,
+        "median": 87241,
+        "p75": 99299,
+        "n": 36
+    },
+    "wipro limited|vlsi engineer l3|mid": {
+        "p25": 151091,
+        "median": 151091,
+        "p75": 153972,
+        "n": 7
+    },
+    "wipro limited|vlsi lead l1|senior": {
+        "p25": 109990,
+        "median": 151091,
+        "p75": 151091,
+        "n": 13
+    },
+    "wireless everywhere, llc|rf engineer|mid": {
+        "p25": 90709,
+        "median": 98946,
+        "p75": 98946,
+        "n": 5
+    },
+    "wisconsin conference of the united methodist church|pastor|mid": {
+        "p25": 45000,
+        "median": 45000,
+        "p75": 45000,
+        "n": 5
+    },
+    "wisdom infotech ltd.|software developer|mid": {
+        "p25": 95000,
+        "median": 96000,
+        "p75": 105450,
+        "n": 7
+    },
+    "wise gen inc|software engineer|mid": {
+        "p25": 82846,
+        "median": 84094,
+        "p75": 90355,
+        "n": 13
+    },
+    "wishek hospital clinic association|emergency room charge nurse|senior": {
+        "p25": 72800,
+        "median": 72800,
+        "p75": 72800,
+        "n": 5
+    },
+    "wissen inc|assistant vice president|senior": {
+        "p25": 123656,
+        "median": 140000,
+        "p75": 140000,
+        "n": 5
+    },
+    "wissenit inc|devops engineer|mid": {
+        "p25": 84780,
+        "median": 94078,
+        "p75": 103656,
+        "n": 6
+    },
+    "wit inc.|business analyst|mid": {
+        "p25": 89440,
+        "median": 93600,
+        "p75": 104000,
+        "n": 5
+    },
+    "wizard tech solutions inc.|software engineer|mid": {
+        "p25": 78000,
+        "median": 78500,
+        "p75": 79000,
+        "n": 6
+    },
+    "wizcom corporation|computer programmer|mid": {
+        "p25": 83866,
+        "median": 85530,
+        "p75": 91042,
+        "n": 9
+    },
+    "wns north america inc|sr. technical consultant|senior": {
+        "p25": 94370,
+        "median": 94370,
+        "p75": 94370,
+        "n": 5
+    },
+    "wolters kluwer dxg u.s. inc.|product software engineer iii|senior": {
+        "p25": 139931,
+        "median": 144602,
+        "p75": 145885,
+        "n": 11
+    },
+    "wolters kluwer dxg u.s. inc.|product software engineer iv|senior": {
+        "p25": 153583,
+        "median": 155000,
+        "p75": 155250,
+        "n": 9
+    },
+    "wolters kluwer dxg u.s., inc.|product software engineer ii|mid": {
+        "p25": 113947,
+        "median": 115569,
+        "p75": 115569,
+        "n": 7
+    },
+    "wolters kluwer dxg u.s., inc.|product software engineer iii|senior": {
+        "p25": 143780,
+        "median": 148196,
+        "p75": 152870,
+        "n": 37
+    },
+    "wolters kluwer dxg u.s., inc.|product software engineer iv|senior": {
+        "p25": 155652,
+        "median": 161150,
+        "p75": 162864,
+        "n": 5
+    },
+    "wolters kluwer united states inc.|business systems analyst iii|senior": {
+        "p25": 137513,
+        "median": 140888,
+        "p75": 140888,
+        "n": 5
+    },
+    "wolters kluwer united states inc.|enterprise software engineer ii|mid": {
+        "p25": 100509,
+        "median": 107433,
+        "p75": 118004,
+        "n": 5
+    },
+    "wolters kluwer united states inc.|enterprise software engineer iii|senior": {
+        "p25": 155745,
+        "median": 161296,
+        "p75": 166138,
+        "n": 6
+    },
+    "wolters kluwer united states inc.|product software engineer iii|senior": {
+        "p25": 128321,
+        "median": 139660,
+        "p75": 151013,
+        "n": 7
+    },
+    "wolters kluwer united states inc.|software quality assurance analyst iv|senior": {
+        "p25": 144860,
+        "median": 167326,
+        "p75": 170560,
+        "n": 5
+    },
+    "woods hole oceanographic institution|research associate iii|mid": {
+        "p25": 85500,
+        "median": 87964,
+        "p75": 88500,
+        "n": 7
+    },
+    "worcester polytechnic institute|assistant professor|entry": {
+        "p25": 112500,
+        "median": 116145,
+        "p75": 121000,
+        "n": 11
+    },
+    "worcester polytechnic institute|post doctoral fellow|senior": {
+        "p25": 57290,
+        "median": 64706,
+        "p75": 68062,
+        "n": 6
+    },
+    "workday, inc.|manager, software development engineering|senior": {
+        "p25": 152640,
+        "median": 172865,
+        "p75": 182613,
+        "n": 8
+    },
+    "workday, inc.|principal, software development engineer|senior": {
+        "p25": 170800,
+        "median": 199534,
+        "p75": 209258,
+        "n": 11
+    },
+    "workday, inc.|product manager|senior": {
+        "p25": 130500,
+        "median": 132637,
+        "p75": 138089,
+        "n": 7
+    },
+    "workday, inc.|software application engineer|mid": {
+        "p25": 118400,
+        "median": 154586,
+        "p75": 155605,
+        "n": 9
+    },
+    "workday, inc.|software development engineer|mid": {
+        "p25": 136000,
+        "median": 155605,
+        "p75": 161637,
+        "n": 53
+    },
+    "workday, inc.|software development engineer in test (sdet)|mid": {
+        "p25": 115400,
+        "median": 125900,
+        "p75": 146353,
+        "n": 9
+    },
+    "workday, inc.|sr associate software development engineer|mid": {
+        "p25": 105227,
+        "median": 115020,
+        "p75": 128951,
+        "n": 21
+    },
+    "workday, inc.|sr automation engineer|senior": {
+        "p25": 111363,
+        "median": 127504,
+        "p75": 140000,
+        "n": 5
+    },
+    "workday, inc.|sr cybersecurity engineer|senior": {
+        "p25": 156200,
+        "median": 160410,
+        "p75": 167200,
+        "n": 5
+    },
+    "workday, inc.|sr information systems software application engineer|senior": {
+        "p25": 131301,
+        "median": 155605,
+        "p75": 158901,
+        "n": 6
+    },
+    "workday, inc.|sr machine learning engineer|senior": {
+        "p25": 172000,
+        "median": 176900,
+        "p75": 180243,
+        "n": 8
+    },
+    "workday, inc.|sr manager, software development engineering|senior": {
+        "p25": 201276,
+        "median": 225316,
+        "p75": 265159,
+        "n": 8
+    },
+    "workday, inc.|sr product manager|senior": {
+        "p25": 150800,
+        "median": 157600,
+        "p75": 170373,
+        "n": 5
+    },
+    "workday, inc.|sr site reliability engineer (sre)|senior": {
+        "p25": 155605,
+        "median": 156562,
+        "p75": 161637,
+        "n": 5
+    },
+    "workday, inc.|sr software application engineer|senior": {
+        "p25": 158901,
+        "median": 166465,
+        "p75": 177198,
+        "n": 8
+    },
+    "workday, inc.|sr software development engineer|senior": {
+        "p25": 154101,
+        "median": 172800,
+        "p75": 175469,
+        "n": 50
+    },
+    "workday, inc.|sr software engineer (distributed systems)|senior": {
+        "p25": 172931,
+        "median": 176000,
+        "p75": 176000,
+        "n": 17
+    },
+    "world labs technologies, inc.|member of technical staff|senior": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 206315,
+        "n": 5
+    },
+    "world wide technology holding company, llc|consultant|mid": {
+        "p25": 115125,
+        "median": 119168,
+        "p75": 124459,
+        "n": 6
+    },
+    "worldpay, llc|data scientist ii|mid": {
+        "p25": 129709,
+        "median": 138000,
+        "p75": 138000,
+        "n": 5
+    },
+    "worldpay, llc|development manager senior|senior": {
+        "p25": 165500,
+        "median": 167000,
+        "p75": 174500,
+        "n": 6
+    },
+    "worldpay, llc|senior software engineer|senior": {
+        "p25": 123444,
+        "median": 127096,
+        "p75": 136918,
+        "n": 8
+    },
+    "worldpay, llc|software engineer ii|mid": {
+        "p25": 121277,
+        "median": 130000,
+        "p75": 136990,
+        "n": 18
+    },
+    "worldpay, llc|software engineer senior|senior": {
+        "p25": 131866,
+        "median": 139863,
+        "p75": 143798,
+        "n": 30
+    },
+    "worldpay, llc|software engineer specialist|mid": {
+        "p25": 152500,
+        "median": 160880,
+        "p75": 167964,
+        "n": 8
+    },
+    "worldpay, llc|software test analyst specialist|mid": {
+        "p25": 128081,
+        "median": 128081,
+        "p75": 147323,
+        "n": 5
+    },
+    "worldpay, llc|technology business consultant senior|senior": {
+        "p25": 133900,
+        "median": 133900,
+        "p75": 138844,
+        "n": 6
+    },
+    "woven by toyota, u.s., inc.|senior machine learning engineer|senior": {
+        "p25": 220000,
+        "median": 230000,
+        "p75": 235000,
+        "n": 5
+    },
+    "woven by toyota, u.s., inc.|senior software engineer|senior": {
+        "p25": 195505,
+        "median": 220698,
+        "p75": 226405,
+        "n": 7
+    },
+    "woven by toyota, u.s., inc.|software engineer|mid": {
+        "p25": 172210,
+        "median": 195000,
+        "p75": 206248,
+        "n": 12
+    },
+    "wp company llc d/b/a the washington post|senior software engineer|senior": {
+        "p25": 125349,
+        "median": 126090,
+        "p75": 126090,
+        "n": 5
+    },
+    "wra architects inc.|architectural staff|senior": {
+        "p25": 65582,
+        "median": 65582,
+        "p75": 82602,
+        "n": 7
+    },
+    "wright engineers|structural engineer|mid": {
+        "p25": 112000,
+        "median": 112000,
+        "p75": 125000,
+        "n": 5
+    },
+    "wsp usa inc.|civil engineer|mid": {
+        "p25": 76171,
+        "median": 91291,
+        "p75": 106995,
+        "n": 23
+    },
+    "wsp usa inc.|electrical engineer|mid": {
+        "p25": 87800,
+        "median": 91454,
+        "p75": 107562,
+        "n": 6
+    },
+    "wsp usa inc.|geotechnical engineer|mid": {
+        "p25": 80192,
+        "median": 92934,
+        "p75": 115802,
+        "n": 15
+    },
+    "wsp usa inc.|structural engineer|mid": {
+        "p25": 87349,
+        "median": 101930,
+        "p75": 121355,
+        "n": 18
+    },
+    "wsp usa inc.|traffic engineer|mid": {
+        "p25": 89211,
+        "median": 102244,
+        "p75": 106402,
+        "n": 11
+    },
+    "wsp usa inc.|transportation planner|mid": {
+        "p25": 90121,
+        "median": 101732,
+        "p75": 115027,
+        "n": 6
+    },
+    "wsp usa inc.|water resources engineer|mid": {
+        "p25": 83553,
+        "median": 103958,
+        "p75": 112211,
+        "n": 13
+    },
+    "wuxi biologics usa, llc|manager, business development, research services, east coast|senior": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 130000,
+        "n": 6
+    },
+    "wynbit inc|software engineer|mid": {
+        "p25": 122699,
+        "median": 122700,
+        "p75": 122700,
+        "n": 9
+    }
+}

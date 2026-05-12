@@ -1,0 +1,2114 @@
+{
+    "v s technologies inc|software developer|mid": {
+        "p25": 86000,
+        "median": 94500,
+        "p75": 113400,
+        "n": 9
+    },
+    "v-soft consulting group, inc|.net developer|mid": {
+        "p25": 92500,
+        "median": 103000,
+        "p75": 103500,
+        "n": 7
+    },
+    "v-soft consulting group, inc|business analyst|mid": {
+        "p25": 79000,
+        "median": 86000,
+        "p75": 99000,
+        "n": 5
+    },
+    "v-soft consulting group, inc|computer engineer|mid": {
+        "p25": 68000,
+        "median": 70000,
+        "p75": 78000,
+        "n": 7
+    },
+    "v-soft consulting group, inc|computer programmer|mid": {
+        "p25": 77750,
+        "median": 85000,
+        "p75": 93000,
+        "n": 8
+    },
+    "v-soft consulting group, inc|data engineer|mid": {
+        "p25": 90000,
+        "median": 93000,
+        "p75": 103500,
+        "n": 11
+    },
+    "v-soft consulting group, inc|devops engineer|mid": {
+        "p25": 94750,
+        "median": 99000,
+        "p75": 101750,
+        "n": 6
+    },
+    "v-soft consulting group, inc|director of delivery & recruiting \u201c it consulting|senior": {
+        "p25": 82000,
+        "median": 85000,
+        "p75": 97000,
+        "n": 5
+    },
+    "v-soft consulting group, inc|java developer|mid": {
+        "p25": 83000,
+        "median": 97000,
+        "p75": 107750,
+        "n": 12
+    },
+    "v-soft consulting group, inc|programmer analyst|mid": {
+        "p25": 83000,
+        "median": 88000,
+        "p75": 108250,
+        "n": 12
+    },
+    "v-soft consulting group, inc|project manager|senior": {
+        "p25": 76000,
+        "median": 91000,
+        "p75": 106750,
+        "n": 6
+    },
+    "v-soft consulting group, inc|servicenow developer|mid": {
+        "p25": 94000,
+        "median": 95500,
+        "p75": 106750,
+        "n": 12
+    },
+    "v-soft consulting group, inc|software developer|mid": {
+        "p25": 94250,
+        "median": 105500,
+        "p75": 109500,
+        "n": 10
+    },
+    "v-soft consulting group, inc|software engineer|mid": {
+        "p25": 103750,
+        "median": 107500,
+        "p75": 111250,
+        "n": 8
+    },
+    "v-soft solutions inc.|computer systems architect|senior": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 85000,
+        "n": 5
+    },
+    "v2 innovations inc|software developer|mid": {
+        "p25": 79373,
+        "median": 81733,
+        "p75": 88280,
+        "n": 8
+    },
+    "v2c solutions llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 9
+    },
+    "v2software technologies llc|software developer|mid": {
+        "p25": 85384,
+        "median": 92331,
+        "p75": 105227,
+        "n": 5
+    },
+    "v3tech solutions inc|software developer|mid": {
+        "p25": 86250,
+        "median": 90500,
+        "p75": 91000,
+        "n": 6
+    },
+    "v3tech solutions inc|ui developer|mid": {
+        "p25": 98000,
+        "median": 115600,
+        "p75": 146500,
+        "n": 5
+    },
+    "vaakruthi solutions inc|software developer|mid": {
+        "p25": 106080,
+        "median": 106080,
+        "p75": 114400,
+        "n": 12
+    },
+    "vaarida technologies llc|software engineer|mid": {
+        "p25": 109262,
+        "median": 109262,
+        "p75": 116031,
+        "n": 7
+    },
+    "vaazu inc|software developer, applications|mid": {
+        "p25": 103500,
+        "median": 105500,
+        "p75": 108413,
+        "n": 11
+    },
+    "vail unified school district|teacher|mid": {
+        "p25": 51121,
+        "median": 54196,
+        "p75": 56940,
+        "n": 8
+    },
+    "vak it systems inc|data engineer|mid": {
+        "p25": 83979,
+        "median": 85529,
+        "p75": 91083,
+        "n": 8
+    },
+    "vak it systems inc|software developer|mid": {
+        "p25": 84094,
+        "median": 84781,
+        "p75": 85384,
+        "n": 5
+    },
+    "valeo north america, inc.|product technical leader|mid": {
+        "p25": 123261,
+        "median": 127841,
+        "p75": 135150,
+        "n": 9
+    },
+    "validation associates llc|validation engineer|mid": {
+        "p25": 77906,
+        "median": 85218,
+        "p75": 93746,
+        "n": 15
+    },
+    "validit solutions llc|manufacturing engineer|mid": {
+        "p25": 89440,
+        "median": 99840,
+        "p75": 105040,
+        "n": 7
+    },
+    "validit solutions llc|quality engineer|mid": {
+        "p25": 76960,
+        "median": 104000,
+        "p75": 111966,
+        "n": 9
+    },
+    "valtech solutions, llc|consultant, engineer|mid": {
+        "p25": 109302,
+        "median": 117376,
+        "p75": 124671,
+        "n": 6
+    },
+    "valtech solutions, llc|principal, engineer|senior": {
+        "p25": 173220,
+        "median": 180000,
+        "p75": 183790,
+        "n": 5
+    },
+    "value technology inc|software developer|mid": {
+        "p25": 84094,
+        "median": 85363,
+        "p75": 103563,
+        "n": 7
+    },
+    "valuelabs, inc.|project manager - qe|senior": {
+        "p25": 88823,
+        "median": 97921,
+        "p75": 111774,
+        "n": 6
+    },
+    "valuemomentum, inc|lead - programmer analyst|senior": {
+        "p25": 117000,
+        "median": 127000,
+        "p75": 133000,
+        "n": 9
+    },
+    "valuemomentum, inc|lead - quality assurance analyst|senior": {
+        "p25": 106750,
+        "median": 116000,
+        "p75": 125250,
+        "n": 6
+    },
+    "valuemomentum, inc.|lead \u201c programmer analyst|senior": {
+        "p25": 110000,
+        "median": 120000,
+        "p75": 124000,
+        "n": 9
+    },
+    "valuemomentum, inc.|sr. lead \u201c programmer analyst|senior": {
+        "p25": 127500,
+        "median": 140000,
+        "p75": 144000,
+        "n": 11
+    },
+    "valuepro inc|software developer|mid": {
+        "p25": 90397,
+        "median": 105227,
+        "p75": 105997,
+        "n": 13
+    },
+    "valuepro inc|software engineer|mid": {
+        "p25": 86694,
+        "median": 105997,
+        "p75": 137259,
+        "n": 5
+    },
+    "valuepro, inc|software developer|mid": {
+        "p25": 109283,
+        "median": 122969,
+        "p75": 126089,
+        "n": 11
+    },
+    "van andel research institute|postdoctoral fellow|senior": {
+        "p25": 73500,
+        "median": 76000,
+        "p75": 77000,
+        "n": 8
+    },
+    "van andel research institute|research scientist|mid": {
+        "p25": 78372,
+        "median": 78773,
+        "p75": 79693,
+        "n": 6
+    },
+    "vance county public schools|teacher|mid": {
+        "p25": 39682,
+        "median": 41700,
+        "p75": 41960,
+        "n": 10
+    },
+    "vance county schools|teacher|mid": {
+        "p25": 50870,
+        "median": 55100,
+        "p75": 62515,
+        "n": 20
+    },
+    "vanderbilt university|assistant professor|entry": {
+        "p25": 127307,
+        "median": 132000,
+        "p75": 141365,
+        "n": 9
+    },
+    "vanderbilt university|postdoctoral research scholar|mid": {
+        "p25": 62232,
+        "median": 65640,
+        "p75": 72625,
+        "n": 24
+    },
+    "vanderbilt university|research assistant professor|entry": {
+        "p25": 75250,
+        "median": 82177,
+        "p75": 92500,
+        "n": 10
+    },
+    "vanderbilt university medical center|assistant professor|entry": {
+        "p25": 242865,
+        "median": 250896,
+        "p75": 265250,
+        "n": 15
+    },
+    "vanderbilt university medical center|basic scientist assistant 1|entry": {
+        "p25": 72583,
+        "median": 72583,
+        "p75": 75000,
+        "n": 5
+    },
+    "vanderbilt university medical center|clinical fellow|senior": {
+        "p25": 72450,
+        "median": 72450,
+        "p75": 78801,
+        "n": 7
+    },
+    "vanderbilt university medical center|staff scientist|senior": {
+        "p25": 72583,
+        "median": 72583,
+        "p75": 72583,
+        "n": 5
+    },
+    "vandoo llc|programmer analyst|mid": {
+        "p25": 80995,
+        "median": 80995,
+        "p75": 88000,
+        "n": 5
+    },
+    "vanta inc.|senior software engineer|senior": {
+        "p25": 179000,
+        "median": 180980,
+        "p75": 188250,
+        "n": 12
+    },
+    "vanta inc.|software engineer|mid": {
+        "p25": 149500,
+        "median": 161000,
+        "p75": 161000,
+        "n": 7
+    },
+    "vantez systems, inc.|business analyst|mid": {
+        "p25": 82763,
+        "median": 82763,
+        "p75": 86236,
+        "n": 5
+    },
+    "varenya inc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 8
+    },
+    "varenya inc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 9
+    },
+    "varian medical systems, inc.|enterprisewide program analyst|mid": {
+        "p25": 115446,
+        "median": 123485,
+        "p75": 128742,
+        "n": 6
+    },
+    "varn technologies llc|software developer|mid": {
+        "p25": 109949,
+        "median": 109949,
+        "p75": 109949,
+        "n": 5
+    },
+    "vass inc.|systems developer / it analyst|mid": {
+        "p25": 109460,
+        "median": 112923,
+        "p75": 112986,
+        "n": 7
+    },
+    "vastek inc|cqv engineer|mid": {
+        "p25": 82076,
+        "median": 82076,
+        "p75": 92809,
+        "n": 5
+    },
+    "vastek inc|quality engineer|mid": {
+        "p25": 87006,
+        "median": 88108,
+        "p75": 90480,
+        "n": 7
+    },
+    "vastek inc|supplier quality engineer|mid": {
+        "p25": 79913,
+        "median": 79955,
+        "p75": 98404,
+        "n": 5
+    },
+    "vastek inc|validation engineer|mid": {
+        "p25": 86902,
+        "median": 87360,
+        "p75": 89440,
+        "n": 21
+    },
+    "vastek inc|validation specialist|mid": {
+        "p25": 81036,
+        "median": 82305,
+        "p75": 98404,
+        "n": 7
+    },
+    "vastika, inc.|software developer|mid": {
+        "p25": 84094,
+        "median": 89440,
+        "p75": 91520,
+        "n": 5
+    },
+    "vaughan regional medical center, llc|medical laboratory scientist|mid": {
+        "p25": 62400,
+        "median": 65249,
+        "p75": 66435,
+        "n": 8
+    },
+    "vca inc.|veterinarian|mid": {
+        "p25": 132500,
+        "median": 140000,
+        "p75": 175000,
+        "n": 15
+    },
+    "vcit solutions, inc.|software developer|mid": {
+        "p25": 110193,
+        "median": 127504,
+        "p75": 127504,
+        "n": 14
+    },
+    "vcu health system authority|hospitalist|mid": {
+        "p25": 196295,
+        "median": 201960,
+        "p75": 321867,
+        "n": 5
+    },
+    "vcu health system authority|physician|mid": {
+        "p25": 304135,
+        "median": 341080,
+        "p75": 341080,
+        "n": 5
+    },
+    "vdrive it solutions, inc.|systems engineer|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 86798,
+        "n": 26
+    },
+    "ved software services, inc.|full stack engineer|mid": {
+        "p25": 111914,
+        "median": 117832,
+        "p75": 117832,
+        "n": 7
+    },
+    "ved software services, inc.|software developer|mid": {
+        "p25": 84157,
+        "median": 84968,
+        "p75": 93049,
+        "n": 15
+    },
+    "vedamsoft inc.|software developer|mid": {
+        "p25": 87000,
+        "median": 93000,
+        "p75": 111100,
+        "n": 5
+    },
+    "vedhops it services llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 85500,
+        "p75": 90000,
+        "n": 9
+    },
+    "veenus infotechs corporation|lab testing engineer|mid": {
+        "p25": 86320,
+        "median": 86320,
+        "p75": 86320,
+        "n": 6
+    },
+    "veenus infotechs corporation|mechanical   engineer|mid": {
+        "p25": 78000,
+        "median": 78000,
+        "p75": 84760,
+        "n": 7
+    },
+    "veenus infotechs corporation|mechanical  design engineer|mid": {
+        "p25": 81120,
+        "median": 85280,
+        "p75": 93808,
+        "n": 7
+    },
+    "veenus infotechs corporation|mechanical  engineer|mid": {
+        "p25": 78000,
+        "median": 80080,
+        "p75": 84760,
+        "n": 19
+    },
+    "veenus infotechs corporation|mechanical design  engineer|mid": {
+        "p25": 78000,
+        "median": 83200,
+        "p75": 87776,
+        "n": 18
+    },
+    "veenus infotechs corporation|mechanical design engineer|mid": {
+        "p25": 78000,
+        "median": 80080,
+        "p75": 85904,
+        "n": 15
+    },
+    "veenus infotechs corporation|mechanical engineer|mid": {
+        "p25": 79560,
+        "median": 80080,
+        "p75": 89960,
+        "n": 7
+    },
+    "veenus infotechs corporation|software developer|mid": {
+        "p25": 89440,
+        "median": 89440,
+        "p75": 89440,
+        "n": 6
+    },
+    "veeva systems inc.|associate software engineer|entry": {
+        "p25": 130250,
+        "median": 130250,
+        "p75": 130250,
+        "n": 28
+    },
+    "veeva systems inc.|principal software engineer|senior": {
+        "p25": 235000,
+        "median": 239000,
+        "p75": 275000,
+        "n": 5
+    },
+    "veeva systems inc.|senior software engineer|senior": {
+        "p25": 163250,
+        "median": 174500,
+        "p75": 225000,
+        "n": 8
+    },
+    "veeva systems inc.|software engineer|mid": {
+        "p25": 130250,
+        "median": 135000,
+        "p75": 140000,
+        "n": 37
+    },
+    "vehma international of america, inc.|senior product engineer|senior": {
+        "p25": 113017,
+        "median": 113017,
+        "p75": 117053,
+        "n": 6
+    },
+    "vejars technologies inc|database administrator|mid": {
+        "p25": 87180,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "vejars technologies inc|software developer|mid": {
+        "p25": 106002,
+        "median": 106560,
+        "p75": 127371,
+        "n": 43
+    },
+    "velaga associates, inc.|software developer|mid": {
+        "p25": 78577,
+        "median": 99654,
+        "p75": 110000,
+        "n": 10
+    },
+    "ven solutions llc|data engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 87495,
+        "n": 11
+    },
+    "ven solutions llc|java developer|mid": {
+        "p25": 79123,
+        "median": 79123,
+        "p75": 84094,
+        "n": 5
+    },
+    "ven solutions llc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 20
+    },
+    "vennison technologies inc|software developer|mid": {
+        "p25": 87000,
+        "median": 91520,
+        "p75": 109960,
+        "n": 14
+    },
+    "vensit corp|systems engineer|mid": {
+        "p25": 68356,
+        "median": 85228,
+        "p75": 90002,
+        "n": 14
+    },
+    "venturesoft global inc|computer systems analyst|mid": {
+        "p25": 86424,
+        "median": 98758,
+        "p75": 98758,
+        "n": 11
+    },
+    "venturesoft global inc|computer systems analysts|mid": {
+        "p25": 92539,
+        "median": 93974,
+        "p75": 106704,
+        "n": 5
+    },
+    "venturesoft global inc|software engineer|mid": {
+        "p25": 107972,
+        "median": 117936,
+        "p75": 135699,
+        "n": 10
+    },
+    "veranova, l.p.|analytical scientist|mid": {
+        "p25": 110000,
+        "median": 110203,
+        "p75": 119235,
+        "n": 5
+    },
+    "veridic solutions llc|devops engineer|mid": {
+        "p25": 87250,
+        "median": 93000,
+        "p75": 102500,
+        "n": 6
+    },
+    "veridic solutions llc|software developer|mid": {
+        "p25": 82250,
+        "median": 96193,
+        "p75": 97386,
+        "n": 6
+    },
+    "veridic solutions llc|software engineer|mid": {
+        "p25": 86000,
+        "median": 90500,
+        "p75": 100250,
+        "n": 10
+    },
+    "verily life sciences llc|software engineer|mid": {
+        "p25": 170757,
+        "median": 178937,
+        "p75": 197600,
+        "n": 13
+    },
+    "verily life sciences llc|technical solutions engineer|mid": {
+        "p25": 163770,
+        "median": 189000,
+        "p75": 194275,
+        "n": 5
+    },
+    "verily life sciences llc|test engineer|mid": {
+        "p25": 148000,
+        "median": 150000,
+        "p75": 160000,
+        "n": 5
+    },
+    "verinon technology solutions ltd|quality assurance analyst|mid": {
+        "p25": 85030,
+        "median": 92456,
+        "p75": 92456,
+        "n": 5
+    },
+    "verinon technology solutions ltd|software engineer|mid": {
+        "p25": 82939,
+        "median": 84728,
+        "p75": 95107,
+        "n": 12
+    },
+    "verinon technology solutions ltd|systems analyst|mid": {
+        "p25": 73694,
+        "median": 92331,
+        "p75": 98030,
+        "n": 9
+    },
+    "verizon corporate resources group llc|princ engr-data science|mid": {
+        "p25": 148633,
+        "median": 152626,
+        "p75": 165000,
+        "n": 5
+    },
+    "verizon data services llc|assoc dir-software development|mid": {
+        "p25": 162003,
+        "median": 175064,
+        "p75": 192658,
+        "n": 8
+    },
+    "verizon data services llc|dist engr-data engineering|mid": {
+        "p25": 158916,
+        "median": 162501,
+        "p75": 164367,
+        "n": 5
+    },
+    "verizon data services llc|dist engr-full stack|mid": {
+        "p25": 166000,
+        "median": 171017,
+        "p75": 174000,
+        "n": 5
+    },
+    "verizon data services llc|dist engr-software development|mid": {
+        "p25": 158922,
+        "median": 168667,
+        "p75": 179046,
+        "n": 10
+    },
+    "verizon data services llc|dist engr-sys architecture|mid": {
+        "p25": 161429,
+        "median": 162740,
+        "p75": 166804,
+        "n": 8
+    },
+    "verizon data services llc|engr iii cslt-software devt|senior": {
+        "p25": 124848,
+        "median": 146000,
+        "p75": 147922,
+        "n": 6
+    },
+    "verizon data services llc|princ engr-app dev|mid": {
+        "p25": 142561,
+        "median": 146164,
+        "p75": 157923,
+        "n": 6
+    },
+    "verizon data services llc|princ engr-data engineering|mid": {
+        "p25": 142477,
+        "median": 155324,
+        "p75": 167759,
+        "n": 9
+    },
+    "verizon data services llc|princ engr-emerging commercial platforms|mid": {
+        "p25": 156045,
+        "median": 160000,
+        "p75": 163412,
+        "n": 13
+    },
+    "verizon data services llc|princ engr-full stack|mid": {
+        "p25": 151511,
+        "median": 160146,
+        "p75": 162679,
+        "n": 21
+    },
+    "verizon data services llc|princ engr-software devt|mid": {
+        "p25": 151031,
+        "median": 158882,
+        "p75": 172036,
+        "n": 40
+    },
+    "verizon data services llc|princ engr-sys architecture|mid": {
+        "p25": 141657,
+        "median": 148633,
+        "p75": 159867,
+        "n": 8
+    },
+    "verizon data services llc|princ engr-systems engrg|mid": {
+        "p25": 150152,
+        "median": 156263,
+        "p75": 164001,
+        "n": 6
+    },
+    "verizon data services llc|sr engr cslt-app dev|senior": {
+        "p25": 144594,
+        "median": 146203,
+        "p75": 158548,
+        "n": 10
+    },
+    "verizon data services llc|sr engr cslt-cloud|senior": {
+        "p25": 124371,
+        "median": 149822,
+        "p75": 154570,
+        "n": 5
+    },
+    "verizon data services llc|sr engr cslt-data engineering|senior": {
+        "p25": 145000,
+        "median": 153457,
+        "p75": 153457,
+        "n": 5
+    },
+    "verizon data services llc|sr engr cslt-emerging commercial platforms|senior": {
+        "p25": 131700,
+        "median": 139256,
+        "p75": 141945,
+        "n": 15
+    },
+    "verizon data services llc|sr engr cslt-full stack|senior": {
+        "p25": 126635,
+        "median": 135608,
+        "p75": 141623,
+        "n": 22
+    },
+    "verizon data services llc|sr engr cslt-software devt|senior": {
+        "p25": 131397,
+        "median": 141764,
+        "p75": 156697,
+        "n": 24
+    },
+    "verizon data services llc|sr engr cslt-systems engrg|senior": {
+        "p25": 121753,
+        "median": 137491,
+        "p75": 143525,
+        "n": 6
+    },
+    "verkada, inc|software engineer|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 205000,
+        "n": 21
+    },
+    "versa networks, inc.|network architect|senior": {
+        "p25": 161179,
+        "median": 185000,
+        "p75": 186472,
+        "n": 9
+    },
+    "versa networks, inc.|senior software test engineer|senior": {
+        "p25": 187511,
+        "median": 194875,
+        "p75": 196419,
+        "n": 8
+    },
+    "versa networks, inc.|software engineer|mid": {
+        "p25": 146307,
+        "median": 194398,
+        "p75": 226158,
+        "n": 14
+    },
+    "versa networks, inc.|software test engineer|mid": {
+        "p25": 164154,
+        "median": 194875,
+        "p75": 199508,
+        "n": 10
+    },
+    "versaflair llc|senior consultant|senior": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 112500,
+        "n": 7
+    },
+    "version it inc|software engineer|mid": {
+        "p25": 122699,
+        "median": 155095,
+        "p75": 172935,
+        "n": 12
+    },
+    "vertafore, inc.|technical consultant ii|mid": {
+        "p25": 83232,
+        "median": 83232,
+        "p75": 83232,
+        "n": 5
+    },
+    "vertex pharmaceuticals incorporated|business engagement & technology principal analyst|senior": {
+        "p25": 148762,
+        "median": 149557,
+        "p75": 151923,
+        "n": 5
+    },
+    "vertex pharmaceuticals incorporated|business engagement & technology principal engineer|senior": {
+        "p25": 156298,
+        "median": 160189,
+        "p75": 161803,
+        "n": 6
+    },
+    "vertex pharmaceuticals incorporated|business engagement & technology senior principal analyst|senior": {
+        "p25": 156825,
+        "median": 162633,
+        "p75": 165750,
+        "n": 5
+    },
+    "vertex pharmaceuticals incorporated|principal biostatistician|senior": {
+        "p25": 144925,
+        "median": 144925,
+        "p75": 144925,
+        "n": 5
+    },
+    "vertex pharmaceuticals incorporated|senior statistical programmer ii|senior": {
+        "p25": 127876,
+        "median": 130050,
+        "p75": 133764,
+        "n": 7
+    },
+    "vertical staffing corporation|physical therapist|mid": {
+        "p25": 77979,
+        "median": 77979,
+        "p75": 77979,
+        "n": 6
+    },
+    "verton solutions inc|computer system analyst|mid": {
+        "p25": 89179,
+        "median": 94349,
+        "p75": 98925,
+        "n": 6
+    },
+    "verton solutions inc|it consultant (software engineer)|mid": {
+        "p25": 89513,
+        "median": 92581,
+        "p75": 93631,
+        "n": 11
+    },
+    "verton solutions inc|programmer analyst|mid": {
+        "p25": 85010,
+        "median": 95597,
+        "p75": 100714,
+        "n": 21
+    },
+    "verton solutions inc|software engineer|mid": {
+        "p25": 85051,
+        "median": 90002,
+        "p75": 100121,
+        "n": 11
+    },
+    "vertraus inc|software developer|mid": {
+        "p25": 84094,
+        "median": 94349,
+        "p75": 103209,
+        "n": 18
+    },
+    "vertraus inc|software engineer|mid": {
+        "p25": 67309,
+        "median": 67683,
+        "p75": 79789,
+        "n": 9
+    },
+    "veterinary emergency group, llc|emergency veterinarian|mid": {
+        "p25": 120000,
+        "median": 125278,
+        "p75": 168022,
+        "n": 13
+    },
+    "veza technologies, inc.|senior software engineer|senior": {
+        "p25": 195000,
+        "median": 200000,
+        "p75": 220000,
+        "n": 5
+    },
+    "viacore technologies inc|java developer|mid": {
+        "p25": 80100,
+        "median": 85530,
+        "p75": 95321,
+        "n": 16
+    },
+    "viacore technologies inc|java full stack developer|mid": {
+        "p25": 83572,
+        "median": 85200,
+        "p75": 85450,
+        "n": 6
+    },
+    "viacore technologies inc|software developer|mid": {
+        "p25": 93413,
+        "median": 105997,
+        "p75": 105997,
+        "n": 16
+    },
+    "viacore technologies inc|software engineer|mid": {
+        "p25": 92222,
+        "median": 97344,
+        "p75": 99549,
+        "n": 6
+    },
+    "viant technology llc|sr. software engineer|senior": {
+        "p25": 165000,
+        "median": 180000,
+        "p75": 180000,
+        "n": 5
+    },
+    "viasat inc.|software engineer|mid": {
+        "p25": 134675,
+        "median": 144653,
+        "p75": 164700,
+        "n": 14
+    },
+    "vibrant america llc|manufacturing engineer|mid": {
+        "p25": 102336,
+        "median": 105269,
+        "p75": 105269,
+        "n": 5
+    },
+    "vibrant infotech, inc.|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105998,
+        "n": 7
+    },
+    "vibrantcare rehabilitation, inc.|physical therapist|mid": {
+        "p25": 96720,
+        "median": 96720,
+        "p75": 97360,
+        "n": 7
+    },
+    "vicksburg warren school district|elementary school teacher|mid": {
+        "p25": 44200,
+        "median": 44200,
+        "p75": 44200,
+        "n": 6
+    },
+    "vidant medical group, llc|hospitalist|mid": {
+        "p25": 260000,
+        "median": 260000,
+        "p75": 260000,
+        "n": 5
+    },
+    "vidant medical group, llc|internal medicine physician|mid": {
+        "p25": 251000,
+        "median": 251000,
+        "p75": 251000,
+        "n": 5
+    },
+    "vidu solutions, llc.|software developer|mid": {
+        "p25": 105997,
+        "median": 112923,
+        "p75": 112923,
+        "n": 5
+    },
+    "vidu solutions, llc.|software engineer|mid": {
+        "p25": 103210,
+        "median": 105997,
+        "p75": 111072,
+        "n": 5
+    },
+    "vijaya consultancy services, inc.|software developer|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 83750,
+        "n": 6
+    },
+    "villanova university|assistant professor|entry": {
+        "p25": 83420,
+        "median": 92750,
+        "p75": 114323,
+        "n": 14
+    },
+    "vinson & elkins l.l.p.|associate|entry": {
+        "p25": 225000,
+        "median": 235000,
+        "p75": 310000,
+        "n": 5
+    },
+    "vintech solutions inc|software developer|mid": {
+        "p25": 106558,
+        "median": 107890,
+        "p75": 108077,
+        "n": 5
+    },
+    "vintech solutions inc.|software developer|mid": {
+        "p25": 99559,
+        "median": 107037,
+        "p75": 111404,
+        "n": 8
+    },
+    "virginia beach city public schools|middle school teacher|mid": {
+        "p25": 51340,
+        "median": 51340,
+        "p75": 51340,
+        "n": 5
+    },
+    "virginia beach city public schools|special education teacher, elementary|mid": {
+        "p25": 53160,
+        "median": 53160,
+        "p75": 53160,
+        "n": 8
+    },
+    "virginia commonwealth university|assistant professor|entry": {
+        "p25": 58920,
+        "median": 58920,
+        "p75": 95000,
+        "n": 33
+    },
+    "virginia commonwealth university|post-doctoral fellow|senior": {
+        "p25": 61314,
+        "median": 63040,
+        "p75": 66763,
+        "n": 6
+    },
+    "virginia commonwealth university|postdoctoral fellow|senior": {
+        "p25": 59426,
+        "median": 60000,
+        "p75": 63514,
+        "n": 5
+    },
+    "virginia commonwealth university|research scientist|mid": {
+        "p25": 65175,
+        "median": 71601,
+        "p75": 78250,
+        "n": 6
+    },
+    "virginia electric and power company|engineer|mid": {
+        "p25": 105000,
+        "median": 112650,
+        "p75": 116486,
+        "n": 18
+    },
+    "virginia polytechnic institute & state university|assistant professor|entry": {
+        "p25": 100000,
+        "median": 105570,
+        "p75": 115034,
+        "n": 25
+    },
+    "virginia polytechnic institute & state university|instructor|mid": {
+        "p25": 52000,
+        "median": 55611,
+        "p75": 60000,
+        "n": 5
+    },
+    "virginia polytechnic institute & state university|postdoctoral associate|entry": {
+        "p25": 64266,
+        "median": 68053,
+        "p75": 68053,
+        "n": 24
+    },
+    "virginia polytechnic institute & state university|research associate|entry": {
+        "p25": 70040,
+        "median": 76125,
+        "p75": 80500,
+        "n": 16
+    },
+    "virginia polytechnic institute & state university|research scientist|mid": {
+        "p25": 76128,
+        "median": 83845,
+        "p75": 95000,
+        "n": 13
+    },
+    "virtu financial operating llc|options trader|mid": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 150000,
+        "n": 5
+    },
+    "virtual networx inc.|software engineer|mid": {
+        "p25": 84000,
+        "median": 92000,
+        "p75": 104600,
+        "n": 7
+    },
+    "virtual neurology llc|neurologists|mid": {
+        "p25": 250000,
+        "median": 364000,
+        "p75": 364000,
+        "n": 5
+    },
+    "virtual systems solutions, inc.|software engineer|mid": {
+        "p25": 96100,
+        "median": 116074,
+        "p75": 122384,
+        "n": 6
+    },
+    "virtue group llc|salesforce developer|mid": {
+        "p25": 90896,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "virtuoso info systems inc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 8
+    },
+    "virtuous tech inc|software developer|mid": {
+        "p25": 97200,
+        "median": 109283,
+        "p75": 122699,
+        "n": 13
+    },
+    "virtus technologies llc|senior software engineer|senior": {
+        "p25": 91250,
+        "median": 94370,
+        "p75": 94370,
+        "n": 25
+    },
+    "virtus technologies llc|software engineer|mid": {
+        "p25": 80792,
+        "median": 87672,
+        "p75": 94370,
+        "n": 22
+    },
+    "virtusa consulting services pvt., ltd|.net analyst 2|mid": {
+        "p25": 116000,
+        "median": 116600,
+        "p75": 121000,
+        "n": 5
+    },
+    "virtusa consulting services pvt., ltd|business analyst 3|mid": {
+        "p25": 116696,
+        "median": 125275,
+        "p75": 129250,
+        "n": 7
+    },
+    "virtusa consulting services pvt., ltd|db architect 3|senior": {
+        "p25": 135465,
+        "median": 139112,
+        "p75": 143500,
+        "n": 16
+    },
+    "virtusa consulting services pvt., ltd|it project manager 3|senior": {
+        "p25": 123748,
+        "median": 127000,
+        "p75": 133287,
+        "n": 19
+    },
+    "virtusa consulting services pvt., ltd|java analyst 2|mid": {
+        "p25": 108360,
+        "median": 111504,
+        "p75": 121118,
+        "n": 13
+    },
+    "virtusa consulting services pvt., ltd|java analyst 3|mid": {
+        "p25": 116740,
+        "median": 122179,
+        "p75": 131958,
+        "n": 11
+    },
+    "virtusa consulting services pvt., ltd|java engineer 2|mid": {
+        "p25": 99884,
+        "median": 104365,
+        "p75": 110650,
+        "n": 8
+    },
+    "virtusa corporation|.net analyst 2|mid": {
+        "p25": 108187,
+        "median": 110368,
+        "p75": 123322,
+        "n": 10
+    },
+    "virtusa corporation|.net analyst 3|mid": {
+        "p25": 112845,
+        "median": 120250,
+        "p75": 125000,
+        "n": 6
+    },
+    "virtusa corporation|.net engineer 2|mid": {
+        "p25": 95000,
+        "median": 98731,
+        "p75": 112759,
+        "n": 12
+    },
+    "virtusa corporation|business analyst 2|mid": {
+        "p25": 101000,
+        "median": 105212,
+        "p75": 113800,
+        "n": 25
+    },
+    "virtusa corporation|business analyst 3|mid": {
+        "p25": 117032,
+        "median": 128939,
+        "p75": 134310,
+        "n": 35
+    },
+    "virtusa corporation|cloud analyst 2|mid": {
+        "p25": 102445,
+        "median": 120000,
+        "p75": 130750,
+        "n": 8
+    },
+    "virtusa corporation|cloud analyst 3|mid": {
+        "p25": 130484,
+        "median": 150000,
+        "p75": 161358,
+        "n": 8
+    },
+    "virtusa corporation|cloud engineer 2|mid": {
+        "p25": 76045,
+        "median": 82763,
+        "p75": 100000,
+        "n": 5
+    },
+    "virtusa corporation|computer programmer 2|mid": {
+        "p25": 100000,
+        "median": 107931,
+        "p75": 120256,
+        "n": 23
+    },
+    "virtusa corporation|data analyst 2|mid": {
+        "p25": 104975,
+        "median": 110000,
+        "p75": 119439,
+        "n": 11
+    },
+    "virtusa corporation|data engineer 2|mid": {
+        "p25": 92202,
+        "median": 95000,
+        "p75": 102500,
+        "n": 6
+    },
+    "virtusa corporation|db architect 2|senior": {
+        "p25": 109025,
+        "median": 113150,
+        "p75": 124500,
+        "n": 14
+    },
+    "virtusa corporation|db architect 3|senior": {
+        "p25": 127000,
+        "median": 135000,
+        "p75": 147000,
+        "n": 15
+    },
+    "virtusa corporation|dev ops engineer 2|mid": {
+        "p25": 95000,
+        "median": 115000,
+        "p75": 117925,
+        "n": 9
+    },
+    "virtusa corporation|it analyst 2|mid": {
+        "p25": 107337,
+        "median": 125000,
+        "p75": 127361,
+        "n": 15
+    },
+    "virtusa corporation|it project manager 3|senior": {
+        "p25": 122375,
+        "median": 130000,
+        "p75": 155927,
+        "n": 64
+    },
+    "virtusa corporation|it project manager 4|senior": {
+        "p25": 170000,
+        "median": 176000,
+        "p75": 190000,
+        "n": 9
+    },
+    "virtusa corporation|java analyst 2|mid": {
+        "p25": 118000,
+        "median": 125000,
+        "p75": 133000,
+        "n": 53
+    },
+    "virtusa corporation|java analyst 3|mid": {
+        "p25": 123430,
+        "median": 133000,
+        "p75": 140000,
+        "n": 48
+    },
+    "virtusa corporation|java engineer 2|mid": {
+        "p25": 95742,
+        "median": 103500,
+        "p75": 120000,
+        "n": 90
+    },
+    "virtusa corporation|junior computer systems engineer 1|entry": {
+        "p25": 79992,
+        "median": 83000,
+        "p75": 97609,
+        "n": 39
+    },
+    "virtusa corporation|mobility analyst 2|mid": {
+        "p25": 124000,
+        "median": 125000,
+        "p75": 138000,
+        "n": 5
+    },
+    "virtusa corporation|mobility engineer 2|mid": {
+        "p25": 110831,
+        "median": 118320,
+        "p75": 122598,
+        "n": 7
+    },
+    "virtusa corporation|prpc analyst 2|mid": {
+        "p25": 130000,
+        "median": 139000,
+        "p75": 140000,
+        "n": 5
+    },
+    "virtusa corporation|prpc analyst 3|mid": {
+        "p25": 135917,
+        "median": 165000,
+        "p75": 167175,
+        "n": 11
+    },
+    "virtusa corporation|prpc engineer 2|mid": {
+        "p25": 91577,
+        "median": 100000,
+        "p75": 125000,
+        "n": 15
+    },
+    "virtusa corporation|qa project manager 3|senior": {
+        "p25": 109000,
+        "median": 119751,
+        "p75": 131519,
+        "n": 7
+    },
+    "virtusa corporation|quality assurance analyst 1|entry": {
+        "p25": 93900,
+        "median": 95000,
+        "p75": 102710,
+        "n": 13
+    },
+    "virtusa corporation|quality assurance analyst 2|mid": {
+        "p25": 95750,
+        "median": 103418,
+        "p75": 108987,
+        "n": 31
+    },
+    "virtusa corporation|quality assurance engineer 3|mid": {
+        "p25": 105436,
+        "median": 115000,
+        "p75": 119000,
+        "n": 21
+    },
+    "virtusa corporation|tech ops engineer 2|entry": {
+        "p25": 84400,
+        "median": 91270,
+        "p75": 102904,
+        "n": 14
+    },
+    "virtusa corporation|ui analyst 2|mid": {
+        "p25": 125000,
+        "median": 127000,
+        "p75": 132093,
+        "n": 11
+    },
+    "virtusa corporation|ui analyst 3|mid": {
+        "p25": 130758,
+        "median": 138616,
+        "p75": 144361,
+        "n": 7
+    },
+    "virtusa corporation|ui engineer 2|mid": {
+        "p25": 90907,
+        "median": 111680,
+        "p75": 123500,
+        "n": 16
+    },
+    "visa technology & operations llc|cyber security engineer - sr. consultant level|senior": {
+        "p25": 157100,
+        "median": 162500,
+        "p75": 174500,
+        "n": 9
+    },
+    "visa technology & operations llc|cybersecurity analyst|mid": {
+        "p25": 105800,
+        "median": 105800,
+        "p75": 105800,
+        "n": 5
+    },
+    "visa technology & operations llc|cybersecurity engineer|mid": {
+        "p25": 115625,
+        "median": 116500,
+        "p75": 131297,
+        "n": 8
+    },
+    "visa technology & operations llc|data engineer - sr. consultant level|senior": {
+        "p25": 157100,
+        "median": 180960,
+        "p75": 206315,
+        "n": 9
+    },
+    "visa technology & operations llc|director|senior": {
+        "p25": 176400,
+        "median": 178550,
+        "p75": 188200,
+        "n": 26
+    },
+    "visa technology & operations llc|lead data engineer|senior": {
+        "p25": 175100,
+        "median": 175100,
+        "p75": 206315,
+        "n": 5
+    },
+    "visa technology & operations llc|lead sw engineer|senior": {
+        "p25": 160600,
+        "median": 163550,
+        "p75": 177240,
+        "n": 14
+    },
+    "visa technology & operations llc|lead systems engineer|senior": {
+        "p25": 160600,
+        "median": 160600,
+        "p75": 161158,
+        "n": 5
+    },
+    "visa technology & operations llc|senior data engineer|senior": {
+        "p25": 127978,
+        "median": 130833,
+        "p75": 137758,
+        "n": 6
+    },
+    "visa technology & operations llc|senior software engineer|senior": {
+        "p25": 108940,
+        "median": 114850,
+        "p75": 128377,
+        "n": 14
+    },
+    "visa technology & operations llc|site reliability engineer - sr. consultant level|senior": {
+        "p25": 142484,
+        "median": 159629,
+        "p75": 163628,
+        "n": 8
+    },
+    "visa technology & operations llc|software engineer - sr. consultant level|senior": {
+        "p25": 155709,
+        "median": 155709,
+        "p75": 163550,
+        "n": 47
+    },
+    "visa technology & operations llc|software test engineer - sr. consultant level|senior": {
+        "p25": 128000,
+        "median": 128000,
+        "p75": 136989,
+        "n": 5
+    },
+    "visa technology & operations llc|sr. cybersecurity analyst|senior": {
+        "p25": 138500,
+        "median": 141918,
+        "p75": 149178,
+        "n": 5
+    },
+    "visa technology & operations llc|sr. cybersecurity engineer|senior": {
+        "p25": 139800,
+        "median": 139800,
+        "p75": 149240,
+        "n": 13
+    },
+    "visa technology & operations llc|sr. data engineer|senior": {
+        "p25": 129400,
+        "median": 129400,
+        "p75": 129400,
+        "n": 13
+    },
+    "visa technology & operations llc|sr. director|senior": {
+        "p25": 192450,
+        "median": 203607,
+        "p75": 212514,
+        "n": 6
+    },
+    "visa technology & operations llc|sr. manager|senior": {
+        "p25": 153954,
+        "median": 163363,
+        "p75": 169622,
+        "n": 11
+    },
+    "visa technology & operations llc|sr. ml engineer|senior": {
+        "p25": 116500,
+        "median": 116500,
+        "p75": 141523,
+        "n": 9
+    },
+    "visa technology & operations llc|sr. site reliability engineer|senior": {
+        "p25": 105800,
+        "median": 108826,
+        "p75": 111946,
+        "n": 37
+    },
+    "visa technology & operations llc|sr. software engineer|senior": {
+        "p25": 115320,
+        "median": 117600,
+        "p75": 128600,
+        "n": 10
+    },
+    "visa technology & operations llc|sr. staff sw engineer|senior": {
+        "p25": 157900,
+        "median": 160600,
+        "p75": 166359,
+        "n": 8
+    },
+    "visa technology & operations llc|sr. sw engineer|senior": {
+        "p25": 108826,
+        "median": 117600,
+        "p75": 137259,
+        "n": 38
+    },
+    "visa technology & operations llc|sr. systems engineer|senior": {
+        "p25": 107141,
+        "median": 107983,
+        "p75": 115798,
+        "n": 6
+    },
+    "visa technology & operations llc|sr. technical program manager|senior": {
+        "p25": 143200,
+        "median": 149240,
+        "p75": 173638,
+        "n": 9
+    },
+    "visa technology & operations llc|staff data engineer|senior": {
+        "p25": 149130,
+        "median": 155709,
+        "p75": 175468,
+        "n": 24
+    },
+    "visa technology & operations llc|staff ml engineer|senior": {
+        "p25": 139800,
+        "median": 139800,
+        "p75": 155899,
+        "n": 7
+    },
+    "visa technology & operations llc|staff site reliability engineer|senior": {
+        "p25": 124700,
+        "median": 134368,
+        "p75": 139276,
+        "n": 31
+    },
+    "visa technology & operations llc|staff software engineer|senior": {
+        "p25": 137186,
+        "median": 149760,
+        "p75": 155657,
+        "n": 19
+    },
+    "visa technology & operations llc|staff sw engineer|senior": {
+        "p25": 131371,
+        "median": 141751,
+        "p75": 155709,
+        "n": 80
+    },
+    "visa technology & operations llc|staff sw test engineer|senior": {
+        "p25": 124904,
+        "median": 124904,
+        "p75": 125450,
+        "n": 6
+    },
+    "visa technology & operations llc|staff systems engineer|senior": {
+        "p25": 130686,
+        "median": 136989,
+        "p75": 148221,
+        "n": 13
+    },
+    "visa technology & operations llc|systems engineer - sr. consultant level|senior": {
+        "p25": 152200,
+        "median": 156229,
+        "p75": 159100,
+        "n": 5
+    },
+    "visa technology & operations llc|technical program manager|senior": {
+        "p25": 130844,
+        "median": 139589,
+        "p75": 149240,
+        "n": 7
+    },
+    "visa u.s.a. inc.|data scientist|mid": {
+        "p25": 110000,
+        "median": 116500,
+        "p75": 116500,
+        "n": 23
+    },
+    "visa u.s.a. inc.|data scientist - sr. consultant level|senior": {
+        "p25": 148300,
+        "median": 166858,
+        "p75": 188885,
+        "n": 9
+    },
+    "visa u.s.a. inc.|director|senior": {
+        "p25": 162600,
+        "median": 175386,
+        "p75": 181755,
+        "n": 35
+    },
+    "visa u.s.a. inc.|manager|senior": {
+        "p25": 132300,
+        "median": 132300,
+        "p75": 137815,
+        "n": 18
+    },
+    "visa u.s.a. inc.|product analyst|mid": {
+        "p25": 95200,
+        "median": 110700,
+        "p75": 117600,
+        "n": 9
+    },
+    "visa u.s.a. inc.|product manager|senior": {
+        "p25": 124700,
+        "median": 138500,
+        "p75": 153889,
+        "n": 11
+    },
+    "visa u.s.a. inc.|senior software engineer|senior": {
+        "p25": 108826,
+        "median": 108826,
+        "p75": 130707,
+        "n": 5
+    },
+    "visa u.s.a. inc.|software engineer|mid": {
+        "p25": 84600,
+        "median": 84600,
+        "p75": 85384,
+        "n": 5
+    },
+    "visa u.s.a. inc.|software engineer - sr. consultant level|senior": {
+        "p25": 148151,
+        "median": 155709,
+        "p75": 162959,
+        "n": 28
+    },
+    "visa u.s.a. inc.|software test engineer - sr. consultant level|senior": {
+        "p25": 129343,
+        "median": 136115,
+        "p75": 155303,
+        "n": 7
+    },
+    "visa u.s.a. inc.|sr. data scientist|senior": {
+        "p25": 143449,
+        "median": 155300,
+        "p75": 158642,
+        "n": 15
+    },
+    "visa u.s.a. inc.|sr. director|senior": {
+        "p25": 194746,
+        "median": 202250,
+        "p75": 218858,
+        "n": 12
+    },
+    "visa u.s.a. inc.|sr. manager|senior": {
+        "p25": 139675,
+        "median": 150980,
+        "p75": 157721,
+        "n": 14
+    },
+    "visa u.s.a. inc.|sr. product manager|senior": {
+        "p25": 147730,
+        "median": 173638,
+        "p75": 173638,
+        "n": 16
+    },
+    "visa u.s.a. inc.|sr. sw engineer|senior": {
+        "p25": 108030,
+        "median": 116955,
+        "p75": 119802,
+        "n": 30
+    },
+    "visa u.s.a. inc.|staff data engineer|senior": {
+        "p25": 144144,
+        "median": 163550,
+        "p75": 163550,
+        "n": 5
+    },
+    "visa u.s.a. inc.|staff ml scientist|senior": {
+        "p25": 139800,
+        "median": 139800,
+        "p75": 143058,
+        "n": 6
+    },
+    "visa u.s.a. inc.|staff research scientist|senior": {
+        "p25": 155300,
+        "median": 164882,
+        "p75": 179837,
+        "n": 9
+    },
+    "visa u.s.a. inc.|staff software engineer|senior": {
+        "p25": 137639,
+        "median": 141889,
+        "p75": 152829,
+        "n": 6
+    },
+    "visa u.s.a. inc.|staff sw engineer|senior": {
+        "p25": 130686,
+        "median": 139443,
+        "p75": 155605,
+        "n": 47
+    },
+    "visa u.s.a. inc.|staff sw test engineer|senior": {
+        "p25": 121729,
+        "median": 128141,
+        "p75": 160139,
+        "n": 9
+    },
+    "visam technologies inc.|data engineer|mid": {
+        "p25": 92040,
+        "median": 93974,
+        "p75": 95347,
+        "n": 7
+    },
+    "visam technologies inc.|software developer|mid": {
+        "p25": 86309,
+        "median": 97115,
+        "p75": 105997,
+        "n": 18
+    },
+    "vishglo infosolutions inc|software developer|mid": {
+        "p25": 84200,
+        "median": 87600,
+        "p75": 91000,
+        "n": 8
+    },
+    "vision it usa inc.|software developer|mid": {
+        "p25": 97157,
+        "median": 101477,
+        "p75": 109500,
+        "n": 13
+    },
+    "vision service plan|senior software engineer|senior": {
+        "p25": 135844,
+        "median": 136026,
+        "p75": 139307,
+        "n": 7
+    },
+    "visionet systems inc|advisory software engineer|mid": {
+        "p25": 123656,
+        "median": 123656,
+        "p75": 123656,
+        "n": 6
+    },
+    "visionet systems inc|business analyst|mid": {
+        "p25": 65624,
+        "median": 80350,
+        "p75": 94931,
+        "n": 22
+    },
+    "visionet systems inc|consultant|mid": {
+        "p25": 123656,
+        "median": 123656,
+        "p75": 123656,
+        "n": 6
+    },
+    "visionet systems inc|senior software engineer|senior": {
+        "p25": 93538,
+        "median": 109013,
+        "p75": 123656,
+        "n": 8
+    },
+    "visionet systems inc|software engineer|mid": {
+        "p25": 73757,
+        "median": 93038,
+        "p75": 93038,
+        "n": 26
+    },
+    "visionet systems inc|technical project manager|senior": {
+        "p25": 81973,
+        "median": 81973,
+        "p75": 90002,
+        "n": 15
+    },
+    "visionworks of america, inc.|optometrist|mid": {
+        "p25": 158080,
+        "median": 180065,
+        "p75": 184662,
+        "n": 5
+    },
+    "vista applied solutions group inc|application developer|mid": {
+        "p25": 103210,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "vista applied solutions group inc|big data developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 9
+    },
+    "vista applied solutions group inc|big data engineer|mid": {
+        "p25": 83325,
+        "median": 94650,
+        "p75": 105991,
+        "n": 6
+    },
+    "vista applied solutions group inc|data engineer|mid": {
+        "p25": 105523,
+        "median": 105997,
+        "p75": 112986,
+        "n": 46
+    },
+    "vista applied solutions group inc|devops engineer|mid": {
+        "p25": 107629,
+        "median": 109262,
+        "p75": 112923,
+        "n": 7
+    },
+    "vista applied solutions group inc|software developer|mid": {
+        "p25": 107416,
+        "median": 111384,
+        "p75": 122184,
+        "n": 20
+    },
+    "vista applied solutions group inc|software engineer|mid": {
+        "p25": 101868,
+        "median": 106579,
+        "p75": 114972,
+        "n": 15
+    },
+    "vistaltech inc|programmer analyst|mid": {
+        "p25": 72405,
+        "median": 79706,
+        "p75": 85529,
+        "n": 21
+    },
+    "vistaltech inc|software engineer|mid": {
+        "p25": 101784,
+        "median": 105997,
+        "p75": 116729,
+        "n": 19
+    },
+    "vistaltech inc|software quality assurance analyst|mid": {
+        "p25": 102086,
+        "median": 102752,
+        "p75": 107364,
+        "n": 6
+    },
+    "visten it inc|it consultant (software developer)|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 85530,
+        "n": 14
+    },
+    "visten it inc|it consultant (software engineer)|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 92581,
+        "n": 10
+    },
+    "visten it inc|programmer analyst|mid": {
+        "p25": 77418,
+        "median": 77418,
+        "p75": 85530,
+        "n": 15
+    },
+    "vistex, inc.|consultant|mid": {
+        "p25": 102137,
+        "median": 125000,
+        "p75": 138182,
+        "n": 6
+    },
+    "visual concepts entertainment|engineer|mid": {
+        "p25": 94920,
+        "median": 123323,
+        "p75": 135699,
+        "n": 8
+    },
+    "visual concepts entertainment|software engineer|mid": {
+        "p25": 87207,
+        "median": 106444,
+        "p75": 125496,
+        "n": 6
+    },
+    "visual innovative solutions, inc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "visual technologies llc|software developer|mid": {
+        "p25": 108519,
+        "median": 111997,
+        "p75": 114296,
+        "n": 10
+    },
+    "visual technologies llc|software engineer|mid": {
+        "p25": 109288,
+        "median": 112923,
+        "p75": 112923,
+        "n": 6
+    },
+    "vitas hospice services, llc.|software developer|mid": {
+        "p25": 111000,
+        "median": 111000,
+        "p75": 111000,
+        "n": 10
+    },
+    "vitech systems sub llc|staff developer|senior": {
+        "p25": 123656,
+        "median": 123656,
+        "p75": 140000,
+        "n": 5
+    },
+    "vitesse group inc|software developer|mid": {
+        "p25": 95139,
+        "median": 100568,
+        "p75": 107557,
+        "n": 6
+    },
+    "vitesse group inc|software engineer|mid": {
+        "p25": 106688,
+        "median": 110874,
+        "p75": 112923,
+        "n": 6
+    },
+    "vitosha inc|data engineer|mid": {
+        "p25": 85000,
+        "median": 93000,
+        "p75": 106000,
+        "n": 5
+    },
+    "vitosha inc|software developer|mid": {
+        "p25": 83075,
+        "median": 85500,
+        "p75": 91000,
+        "n": 16
+    },
+    "vitosha inc|software engineer|mid": {
+        "p25": 87000,
+        "median": 89500,
+        "p75": 105383,
+        "n": 6
+    },
+    "vits consulting corp|systems engineer|mid": {
+        "p25": 103605,
+        "median": 106579,
+        "p75": 106579,
+        "n": 9
+    },
+    "vizient, inc.|senior software engineer|senior": {
+        "p25": 138344,
+        "median": 140302,
+        "p75": 143586,
+        "n": 18
+    },
+    "vizion technologies llc|software developer|mid": {
+        "p25": 84635,
+        "median": 84635,
+        "p75": 97219,
+        "n": 7
+    },
+    "vkore solutions, llc|software developer|mid": {
+        "p25": 90833,
+        "median": 99000,
+        "p75": 109585,
+        "n": 7
+    },
+    "vmware llc|r&d engineer software|mid": {
+        "p25": 172744,
+        "median": 190486,
+        "p75": 221492,
+        "n": 138
+    },
+    "von westernhagen dental corporation|dentist|mid": {
+        "p25": 106038,
+        "median": 106038,
+        "p75": 106038,
+        "n": 5
+    },
+    "voya services company|software develop consultant|mid": {
+        "p25": 138500,
+        "median": 145164,
+        "p75": 149332,
+        "n": 6
+    },
+    "vserve systems inc|sr. software developer|senior": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 6
+    },
+    "vsk infosystems llc|software engineer|mid": {
+        "p25": 105999,
+        "median": 106000,
+        "p75": 106000,
+        "n": 24
+    },
+    "vspastra solutions llc|data engineer|mid": {
+        "p25": 96387,
+        "median": 103210,
+        "p75": 122699,
+        "n": 5
+    },
+    "vspastra solutions llc|software developer|mid": {
+        "p25": 97177,
+        "median": 103210,
+        "p75": 120047,
+        "n": 10
+    },
+    "vsquare infotech, inc.|business analyst|mid": {
+        "p25": 82763,
+        "median": 82763,
+        "p75": 82763,
+        "n": 5
+    },
+    "vsquare infotech, inc.|programmer analyst|mid": {
+        "p25": 106662,
+        "median": 113000,
+        "p75": 113000,
+        "n": 5
+    },
+    "vsquare it inc|software developer|mid": {
+        "p25": 104585,
+        "median": 106290,
+        "p75": 108825,
+        "n": 8
+    },
+    "vstrs llc dba tekglobal|sap fico consultant|mid": {
+        "p25": 92248,
+        "median": 92248,
+        "p75": 92248,
+        "n": 5
+    },
+    "vt mobile aerospace engineering, inc.|senior project manager|senior": {
+        "p25": 57034,
+        "median": 57034,
+        "p75": 86500,
+        "n": 5
+    },
+    "vtech infotech llc|data analyst|mid": {
+        "p25": 92040,
+        "median": 92040,
+        "p75": 92040,
+        "n": 5
+    },
+    "vuegen technologies inc|software developer|mid": {
+        "p25": 90189,
+        "median": 106558,
+        "p75": 107000,
+        "n": 13
+    },
+    "vuesol technologies inc.|software engineer|mid": {
+        "p25": 109283,
+        "median": 111103,
+        "p75": 112923,
+        "n": 6
+    },
+    "vulli, inc.|software engineer|mid": {
+        "p25": 94450,
+        "median": 109283,
+        "p75": 112625,
+        "n": 8
+    },
+    "vypra inc|software engineer|mid": {
+        "p25": 85093,
+        "median": 86549,
+        "p75": 86549,
+        "n": 7
+    },
+    "vysoft solutions inc.|software developer|mid": {
+        "p25": 100200,
+        "median": 112986,
+        "p75": 127000,
+        "n": 5
+    },
+    "vyzer solutions, inc|software developer|mid": {
+        "p25": 106000,
+        "median": 106500,
+        "p75": 110000,
+        "n": 38
+    },
+    "vyzer solutions, inc|systems administrator|mid": {
+        "p25": 87000,
+        "median": 87000,
+        "p75": 87000,
+        "n": 5
+    }
+}

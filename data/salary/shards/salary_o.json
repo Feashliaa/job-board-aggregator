@@ -1,0 +1,1262 @@
+{
+    "o'grady peyton international|medical technologist|mid": {
+        "p25": 66664,
+        "median": 69264,
+        "p75": 71136,
+        "n": 12
+    },
+    "o3 technology solutions llc|data engineer|mid": {
+        "p25": 91999,
+        "median": 111581,
+        "p75": 111966,
+        "n": 6
+    },
+    "o3 technology solutions llc|distributed data platform architect|senior": {
+        "p25": 109283,
+        "median": 130707,
+        "p75": 130707,
+        "n": 5
+    },
+    "o3 technology solutions llc|software engineer|mid": {
+        "p25": 80636,
+        "median": 95357,
+        "p75": 106584,
+        "n": 14
+    },
+    "o9 solutions, inc.|associate architect|mid": {
+        "p25": 123075,
+        "median": 128740,
+        "p75": 132954,
+        "n": 8
+    },
+    "o9 solutions, inc.|senior business operations specialist|senior": {
+        "p25": 109667,
+        "median": 113152,
+        "p75": 114238,
+        "n": 12
+    },
+    "o9 solutions, inc.|solution architect|senior": {
+        "p25": 132664,
+        "median": 145980,
+        "p75": 151237,
+        "n": 5
+    },
+    "oakland university|assistant professor|entry": {
+        "p25": 45000,
+        "median": 45000,
+        "p75": 46000,
+        "n": 24
+    },
+    "oakwood healthcare, inc.|resident physician|entry": {
+        "p25": 65839,
+        "median": 70385,
+        "p75": 71577,
+        "n": 6
+    },
+    "oasis professional management group, ltd.|physical therapist|mid": {
+        "p25": 83200,
+        "median": 83200,
+        "p75": 83200,
+        "n": 8
+    },
+    "obayashi corporation|civil engineer|mid": {
+        "p25": 72834,
+        "median": 73800,
+        "p75": 90120,
+        "n": 8
+    },
+    "object data, inc|software developer|mid": {
+        "p25": 124000,
+        "median": 124000,
+        "p75": 124000,
+        "n": 5
+    },
+    "object data, inc|software developer, application|mid": {
+        "p25": 105000,
+        "median": 112000,
+        "p75": 124025,
+        "n": 8
+    },
+    "object technology solutions, inc.|software engineer|mid": {
+        "p25": 85000,
+        "median": 93000,
+        "p75": 106000,
+        "n": 9
+    },
+    "objects on net, inc|software developer|mid": {
+        "p25": 105300,
+        "median": 107300,
+        "p75": 122575,
+        "n": 6
+    },
+    "oc&c strategy consultants usa inc.|associate consultant|entry": {
+        "p25": 110500,
+        "median": 112000,
+        "p75": 112750,
+        "n": 6
+    },
+    "ocean state veterinary specialists|veterinary technologist|mid": {
+        "p25": 44574,
+        "median": 51480,
+        "p75": 54340,
+        "n": 7
+    },
+    "ocher technology group|it consultant|mid": {
+        "p25": 101186,
+        "median": 105227,
+        "p75": 105227,
+        "n": 10
+    },
+    "ocher technology group|software engineer|mid": {
+        "p25": 114400,
+        "median": 124800,
+        "p75": 124800,
+        "n": 5
+    },
+    "ochsner clinic foundation|clinical/medical laboratory scientist|mid": {
+        "p25": 50648,
+        "median": 53248,
+        "p75": 55224,
+        "n": 12
+    },
+    "ochsner clinic foundation|histocompatibility technologist|mid": {
+        "p25": 61152,
+        "median": 61152,
+        "p75": 61152,
+        "n": 6
+    },
+    "ochsner clinic foundation|histotechnologist|mid": {
+        "p25": 40248,
+        "median": 43139,
+        "p75": 47658,
+        "n": 12
+    },
+    "ochsner clinic foundation|medical technologist|mid": {
+        "p25": 53248,
+        "median": 53248,
+        "p75": 57408,
+        "n": 50
+    },
+    "ochsner clinic foundation|nephrologist|mid": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 262000,
+        "n": 6
+    },
+    "ochsner clinic foundation|registered nurse, staff rn - bsn medsurg/tele/sd|senior": {
+        "p25": 67392,
+        "median": 67392,
+        "p75": 67392,
+        "n": 6
+    },
+    "oclc, inc.|senior software engineer|senior": {
+        "p25": 117774,
+        "median": 118680,
+        "p75": 121230,
+        "n": 6
+    },
+    "octahedron llc|software engineer|mid": {
+        "p25": 79500,
+        "median": 97300,
+        "p75": 110500,
+        "n": 7
+    },
+    "octans group llc|computer programmer|mid": {
+        "p25": 68640,
+        "median": 81820,
+        "p75": 106250,
+        "n": 6
+    },
+    "odoo, inc.|channel account manager|senior": {
+        "p25": 77000,
+        "median": 80403,
+        "p75": 82000,
+        "n": 5
+    },
+    "ohio farmers insurance company|it quality engineer|mid": {
+        "p25": 75000,
+        "median": 92000,
+        "p75": 92700,
+        "n": 5
+    },
+    "ohio state dental faculty practice, inc.|practitioner|mid": {
+        "p25": 98425,
+        "median": 119995,
+        "p75": 165006,
+        "n": 5
+    },
+    "ohiohealth corp.|emergency department rn|mid": {
+        "p25": 71926,
+        "median": 71926,
+        "p75": 71926,
+        "n": 5
+    },
+    "ohiohealth corp.|flex pool rn|mid": {
+        "p25": 73413,
+        "median": 77875,
+        "p75": 77875,
+        "n": 6
+    },
+    "ohiohealth corp.|medical technologist|mid": {
+        "p25": 58739,
+        "median": 58739,
+        "p75": 58739,
+        "n": 11
+    },
+    "ohiohealth corp.|or nurse|mid": {
+        "p25": 72467,
+        "median": 77875,
+        "p75": 77875,
+        "n": 14
+    },
+    "okbl usa technology inc.|senior engineer|senior": {
+        "p25": 230000,
+        "median": 238500,
+        "p75": 257880,
+        "n": 9
+    },
+    "okbl usa technology inc.|staff engineer|senior": {
+        "p25": 264120,
+        "median": 294960,
+        "p75": 328000,
+        "n": 5
+    },
+    "oklahoma medical research foundation|postdoctoral scientist|mid": {
+        "p25": 56202,
+        "median": 56202,
+        "p75": 56368,
+        "n": 5
+    },
+    "oklahoma state university|assistant professor|entry": {
+        "p25": 62975,
+        "median": 78823,
+        "p75": 88731,
+        "n": 39
+    },
+    "oklahoma state university|teaching assistant professor|entry": {
+        "p25": 78613,
+        "median": 78823,
+        "p75": 88903,
+        "n": 5
+    },
+    "okta, inc.|principal software engineer|senior": {
+        "p25": 152745,
+        "median": 206315,
+        "p75": 209913,
+        "n": 7
+    },
+    "okta, inc.|senior software engineer|senior": {
+        "p25": 161569,
+        "median": 180835,
+        "p75": 187427,
+        "n": 10
+    },
+    "okta, inc.|staff software engineer|senior": {
+        "p25": 149781,
+        "median": 180960,
+        "p75": 212202,
+        "n": 13
+    },
+    "old dominion university|assistant professor|entry": {
+        "p25": 91250,
+        "median": 95000,
+        "p75": 113979,
+        "n": 18
+    },
+    "old dominion university|information technology specialist|mid": {
+        "p25": 76212,
+        "median": 84048,
+        "p75": 86913,
+        "n": 6
+    },
+    "old dominion university|lecturer|mid": {
+        "p25": 60581,
+        "median": 71000,
+        "p75": 74010,
+        "n": 14
+    },
+    "oliver wyman actuarial consulting, inc.|senior manager|senior": {
+        "p25": 190600,
+        "median": 190600,
+        "p75": 190988,
+        "n": 5
+    },
+    "oliver wyman, llc|principal|senior": {
+        "p25": 255000,
+        "median": 255000,
+        "p75": 255000,
+        "n": 5
+    },
+    "olivet university|assistant professor|entry": {
+        "p25": 72300,
+        "median": 76930,
+        "p75": 86103,
+        "n": 12
+    },
+    "om partners usa, inc.|supply chain consultant|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 85000,
+        "n": 5
+    },
+    "om partners usa, inc.|user engagement consultant|mid": {
+        "p25": 80000,
+        "median": 85000,
+        "p75": 85000,
+        "n": 5
+    },
+    "omd usa llc|manager, marketing science|senior": {
+        "p25": 99000,
+        "median": 99000,
+        "p75": 99750,
+        "n": 6
+    },
+    "omd usa llc|senior analyst, marketing science|senior": {
+        "p25": 85300,
+        "median": 91000,
+        "p75": 95650,
+        "n": 11
+    },
+    "omni health services inc.|outpatient therapist|mid": {
+        "p25": 50000,
+        "median": 50000,
+        "p75": 50000,
+        "n": 17
+    },
+    "omnissa, llc|member of technical staff|senior": {
+        "p25": 165190,
+        "median": 186576,
+        "p75": 234973,
+        "n": 8
+    },
+    "omnissa, llc|member of technical staff - professional 3|senior": {
+        "p25": 152563,
+        "median": 162346,
+        "p75": 176051,
+        "n": 13
+    },
+    "omnissa, llc|member of technical staff - professional 4|senior": {
+        "p25": 162026,
+        "median": 178653,
+        "p75": 198061,
+        "n": 20
+    },
+    "omnivision technologies, inc.|analog design engineer|mid": {
+        "p25": 124197,
+        "median": 124197,
+        "p75": 124197,
+        "n": 5
+    },
+    "omnivision technologies, inc.|product engineer|mid": {
+        "p25": 120671,
+        "median": 124197,
+        "p75": 124197,
+        "n": 6
+    },
+    "omnivision technologies, inc.|soc design engineer|mid": {
+        "p25": 124197,
+        "median": 124197,
+        "p75": 124197,
+        "n": 8
+    },
+    "oncorre, inc.|software developer|mid": {
+        "p25": 95493,
+        "median": 123656,
+        "p75": 127826,
+        "n": 15
+    },
+    "one on one physical therapy, llc|physical therapist|mid": {
+        "p25": 77979,
+        "median": 77979,
+        "p75": 77979,
+        "n": 14
+    },
+    "onemain general services corporation|analytics analyst|mid": {
+        "p25": 62379,
+        "median": 68286,
+        "p75": 68286,
+        "n": 21
+    },
+    "onemain general services corporation|analytics manager|senior": {
+        "p25": 85888,
+        "median": 112622,
+        "p75": 138294,
+        "n": 6
+    },
+    "onemain general services corporation|engineer - software|mid": {
+        "p25": 73840,
+        "median": 80849,
+        "p75": 87761,
+        "n": 12
+    },
+    "onemain general services corporation|senior engineer - software|senior": {
+        "p25": 104984,
+        "median": 118778,
+        "p75": 122022,
+        "n": 10
+    },
+    "oneus technologies llc|validation analyst|mid": {
+        "p25": 60000,
+        "median": 71822,
+        "p75": 76357,
+        "n": 5
+    },
+    "oneus technologies llc|validation engineer|mid": {
+        "p25": 77698,
+        "median": 84115,
+        "p75": 86538,
+        "n": 8
+    },
+    "onix networking corp.|data engineer|mid": {
+        "p25": 110000,
+        "median": 124000,
+        "p75": 128500,
+        "n": 5
+    },
+    "onix networking corp.|technical lead|senior": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 128000,
+        "n": 5
+    },
+    "only it consulting llc|network engineer|mid": {
+        "p25": 97073,
+        "median": 97500,
+        "p75": 99424,
+        "n": 13
+    },
+    "only it consulting llc|systems engineer|mid": {
+        "p25": 85450,
+        "median": 88500,
+        "p75": 97500,
+        "n": 7
+    },
+    "onward technologies, inc|mechanical engineer|mid": {
+        "p25": 80475,
+        "median": 86466,
+        "p75": 87589,
+        "n": 5
+    },
+    "opaida, inc.|machine learning engineer|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "open access technology international, inc.|software engineer|mid": {
+        "p25": 103605,
+        "median": 103605,
+        "p75": 116188,
+        "n": 7
+    },
+    "open avenues foundation|business management fellow|senior": {
+        "p25": 59644,
+        "median": 65644,
+        "p75": 66955,
+        "n": 10
+    },
+    "open avenues foundation|computer science fellow|senior": {
+        "p25": 97421,
+        "median": 130145,
+        "p75": 154226,
+        "n": 14
+    },
+    "open avenues foundation|data science fellow|senior": {
+        "p25": 96834,
+        "median": 102856,
+        "p75": 116043,
+        "n": 7
+    },
+    "open avenues foundation|electrical engineering fellow|senior": {
+        "p25": 91977,
+        "median": 93267,
+        "p75": 128148,
+        "n": 5
+    },
+    "open avenues foundation|finance fellow|senior": {
+        "p25": 80376,
+        "median": 87838,
+        "p75": 115414,
+        "n": 34
+    },
+    "open avenues foundation|law fellow|senior": {
+        "p25": 58884,
+        "median": 65832,
+        "p75": 68161,
+        "n": 8
+    },
+    "open avenues foundation|market research fellow|senior": {
+        "p25": 57850,
+        "median": 62608,
+        "p75": 75883,
+        "n": 6
+    },
+    "open avenues foundation|software development fellow|senior": {
+        "p25": 100214,
+        "median": 103209,
+        "p75": 112611,
+        "n": 15
+    },
+    "openai opco, llc|member of data science staff|senior": {
+        "p25": 255000,
+        "median": 325000,
+        "p75": 385000,
+        "n": 9
+    },
+    "openai opco, llc|member of go to market staff|senior": {
+        "p25": 230000,
+        "median": 280000,
+        "p75": 280000,
+        "n": 11
+    },
+    "openai opco, llc|member of program staff|senior": {
+        "p25": 255000,
+        "median": 285000,
+        "p75": 329750,
+        "n": 7
+    },
+    "openai opco, llc|member of technical staff (ai systems engineer)|senior": {
+        "p25": 251250,
+        "median": 335000,
+        "p75": 380000,
+        "n": 10
+    },
+    "openai opco, llc|member of technical staff (data science)|senior": {
+        "p25": 255000,
+        "median": 255000,
+        "p75": 325000,
+        "n": 9
+    },
+    "openai opco, llc|member of technical staff (hardware engineer)|senior": {
+        "p25": 380000,
+        "median": 380000,
+        "p75": 460000,
+        "n": 7
+    },
+    "openai opco, llc|member of technical staff (hardware engineering)|senior": {
+        "p25": 310000,
+        "median": 380000,
+        "p75": 380000,
+        "n": 9
+    },
+    "openai opco, llc|member of technical staff (research & ai systems)|senior": {
+        "p25": 327500,
+        "median": 380000,
+        "p75": 398750,
+        "n": 6
+    },
+    "openai opco, llc|member of technical staff (research engineer)|senior": {
+        "p25": 268750,
+        "median": 335000,
+        "p75": 380000,
+        "n": 14
+    },
+    "openai opco, llc|member of technical staff (research scientist)|senior": {
+        "p25": 255000,
+        "median": 380000,
+        "p75": 380000,
+        "n": 9
+    },
+    "openai opco, llc|member of technical staff (software engineer)|senior": {
+        "p25": 210000,
+        "median": 255000,
+        "p75": 310000,
+        "n": 36
+    },
+    "openbox solutions, inc.|software developers|mid": {
+        "p25": 84411,
+        "median": 99164,
+        "p75": 105997,
+        "n": 10
+    },
+    "opengov, inc.|software engineer|mid": {
+        "p25": 98072,
+        "median": 122970,
+        "p75": 148033,
+        "n": 11
+    },
+    "openwave computing llc.|software developer|mid": {
+        "p25": 112923,
+        "median": 112923,
+        "p75": 115762,
+        "n": 6
+    },
+    "optimal technologies, inc.|data engineer|mid": {
+        "p25": 80813,
+        "median": 90813,
+        "p75": 106601,
+        "n": 11
+    },
+    "optimal technologies, inc.|full stack developer|mid": {
+        "p25": 90500,
+        "median": 94400,
+        "p75": 102445,
+        "n": 8
+    },
+    "optimus services corp.|registered nurse|mid": {
+        "p25": 83720,
+        "median": 83720,
+        "p75": 83720,
+        "n": 8
+    },
+    "optimus services corp.|rehabilitation nurse|mid": {
+        "p25": 83720,
+        "median": 83720,
+        "p75": 83720,
+        "n": 7
+    },
+    "optiver services us llc|quantitative researcher|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 175000,
+        "n": 17
+    },
+    "optiver services us llc|software engineer|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 162500,
+        "n": 15
+    },
+    "optiver services us llc|trader|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 162500,
+        "n": 7
+    },
+    "optum services, inc.|architect|senior": {
+        "p25": 135574,
+        "median": 146266,
+        "p75": 150015,
+        "n": 6
+    },
+    "optum services, inc.|data analyst|mid": {
+        "p25": 88088,
+        "median": 89672,
+        "p75": 91714,
+        "n": 6
+    },
+    "optum services, inc.|data engineer|mid": {
+        "p25": 102648,
+        "median": 110559,
+        "p75": 112421,
+        "n": 7
+    },
+    "optum services, inc.|director, software engineering|senior": {
+        "p25": 144523,
+        "median": 150519,
+        "p75": 163852,
+        "n": 7
+    },
+    "optum services, inc.|lead software engineer|senior": {
+        "p25": 125543,
+        "median": 135408,
+        "p75": 148189,
+        "n": 79
+    },
+    "optum services, inc.|lead technical product manager|senior": {
+        "p25": 115233,
+        "median": 124599,
+        "p75": 129459,
+        "n": 5
+    },
+    "optum services, inc.|manager, software engineering|senior": {
+        "p25": 115175,
+        "median": 136218,
+        "p75": 146452,
+        "n": 6
+    },
+    "optum services, inc.|principal data engineering|senior": {
+        "p25": 126713,
+        "median": 132360,
+        "p75": 144410,
+        "n": 12
+    },
+    "optum services, inc.|principal engineer, tlcp|senior": {
+        "p25": 139298,
+        "median": 145018,
+        "p75": 154877,
+        "n": 25
+    },
+    "optum services, inc.|quality engineer|mid": {
+        "p25": 103511,
+        "median": 110739,
+        "p75": 120815,
+        "n": 15
+    },
+    "optum services, inc.|senior data analyst|senior": {
+        "p25": 107329,
+        "median": 115263,
+        "p75": 124584,
+        "n": 16
+    },
+    "optum services, inc.|senior data engineer|senior": {
+        "p25": 111488,
+        "median": 119163,
+        "p75": 132267,
+        "n": 29
+    },
+    "optum services, inc.|senior data scientist|senior": {
+        "p25": 128772,
+        "median": 135500,
+        "p75": 141110,
+        "n": 5
+    },
+    "optum services, inc.|senior manager software engineering|senior": {
+        "p25": 134271,
+        "median": 149722,
+        "p75": 156987,
+        "n": 6
+    },
+    "optum services, inc.|senior manager, software engineering|senior": {
+        "p25": 142678,
+        "median": 149469,
+        "p75": 177372,
+        "n": 14
+    },
+    "optum services, inc.|senior principal engineer, tlcp|senior": {
+        "p25": 148083,
+        "median": 151143,
+        "p75": 156467,
+        "n": 10
+    },
+    "optum services, inc.|senior quality engineer|senior": {
+        "p25": 108683,
+        "median": 118594,
+        "p75": 123141,
+        "n": 20
+    },
+    "optum services, inc.|senior software engineer|senior": {
+        "p25": 116438,
+        "median": 125288,
+        "p75": 132044,
+        "n": 172
+    },
+    "optum services, inc.|senior technical product manager|senior": {
+        "p25": 107649,
+        "median": 125004,
+        "p75": 143235,
+        "n": 6
+    },
+    "optum services, inc.|software engineer|mid": {
+        "p25": 104728,
+        "median": 112923,
+        "p75": 122562,
+        "n": 43
+    },
+    "optum services, inc.|sr software engineer|senior": {
+        "p25": 124497,
+        "median": 127655,
+        "p75": 133780,
+        "n": 14
+    },
+    "opus technologies, inc.|tech lead|senior": {
+        "p25": 114000,
+        "median": 121500,
+        "p75": 130500,
+        "n": 6
+    },
+    "orabase solutions llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84100,
+        "p75": 92955,
+        "n": 5
+    },
+    "oracle america, inc.|applications developer|mid": {
+        "p25": 132267,
+        "median": 148949,
+        "p75": 168947,
+        "n": 89
+    },
+    "oracle america, inc.|applied scientist|mid": {
+        "p25": 167777,
+        "median": 181134,
+        "p75": 198950,
+        "n": 22
+    },
+    "oracle america, inc.|cloud solution engineer|mid": {
+        "p25": 132809,
+        "median": 142662,
+        "p75": 162347,
+        "n": 34
+    },
+    "oracle america, inc.|consulting technical director|senior": {
+        "p25": 138507,
+        "median": 149781,
+        "p75": 156998,
+        "n": 5
+    },
+    "oracle america, inc.|consulting technical manager|senior": {
+        "p25": 149760,
+        "median": 152899,
+        "p75": 156998,
+        "n": 36
+    },
+    "oracle america, inc.|consulting technical mgmt manager|senior": {
+        "p25": 165185,
+        "median": 167107,
+        "p75": 169148,
+        "n": 6
+    },
+    "oracle america, inc.|data scientist|mid": {
+        "p25": 111966,
+        "median": 123344,
+        "p75": 146997,
+        "n": 25
+    },
+    "oracle america, inc.|hardware developer|mid": {
+        "p25": 138341,
+        "median": 143666,
+        "p75": 163940,
+        "n": 13
+    },
+    "oracle america, inc.|network developer|mid": {
+        "p25": 119704,
+        "median": 140837,
+        "p75": 150706,
+        "n": 39
+    },
+    "oracle america, inc.|principal consultant|senior": {
+        "p25": 119287,
+        "median": 131030,
+        "p75": 140422,
+        "n": 13
+    },
+    "oracle america, inc.|product manager/strategy -proddev|senior": {
+        "p25": 150618,
+        "median": 169435,
+        "p75": 186409,
+        "n": 12
+    },
+    "oracle america, inc.|product manager/strategy- proddev|senior": {
+        "p25": 132267,
+        "median": 146078,
+        "p75": 164044,
+        "n": 9
+    },
+    "oracle america, inc.|product manager/strategy-proddev|senior": {
+        "p25": 123775,
+        "median": 139738,
+        "p75": 154825,
+        "n": 22
+    },
+    "oracle america, inc.|product mgmt/strategy director-proddev|senior": {
+        "p25": 199451,
+        "median": 247437,
+        "p75": 272200,
+        "n": 7
+    },
+    "oracle america, inc.|production service developer|mid": {
+        "p25": 92435,
+        "median": 105591,
+        "p75": 130099,
+        "n": 18
+    },
+    "oracle america, inc.|production service systems administrator|mid": {
+        "p25": 149781,
+        "median": 149781,
+        "p75": 165857,
+        "n": 5
+    },
+    "oracle america, inc.|program manager -proddev|senior": {
+        "p25": 135470,
+        "median": 172224,
+        "p75": 187490,
+        "n": 7
+    },
+    "oracle america, inc.|program manager-proddev|senior": {
+        "p25": 122862,
+        "median": 142010,
+        "p75": 158532,
+        "n": 29
+    },
+    "oracle america, inc.|programmer analyst -it|mid": {
+        "p25": 135554,
+        "median": 160139,
+        "p75": 177864,
+        "n": 5
+    },
+    "oracle america, inc.|programmer analyst-it|mid": {
+        "p25": 128835,
+        "median": 152443,
+        "p75": 160139,
+        "n": 15
+    },
+    "oracle america, inc.|qa analyst -proddev|mid": {
+        "p25": 118596,
+        "median": 143135,
+        "p75": 160139,
+        "n": 6
+    },
+    "oracle america, inc.|security engineer|mid": {
+        "p25": 139490,
+        "median": 155352,
+        "p75": 170970,
+        "n": 10
+    },
+    "oracle america, inc.|senior consultant|senior": {
+        "p25": 95832,
+        "median": 99070,
+        "p75": 104775,
+        "n": 6
+    },
+    "oracle america, inc.|senior principal consultant|senior": {
+        "p25": 119889,
+        "median": 133078,
+        "p75": 151757,
+        "n": 25
+    },
+    "oracle america, inc.|site reliability developer|mid": {
+        "p25": 143671,
+        "median": 153392,
+        "p75": 164224,
+        "n": 68
+    },
+    "oracle america, inc.|software developer|mid": {
+        "p25": 122117,
+        "median": 137842,
+        "p75": 155709,
+        "n": 471
+    },
+    "oracle america, inc.|software developer - architect|senior": {
+        "p25": 157253,
+        "median": 176186,
+        "p75": 190486,
+        "n": 6
+    },
+    "oracle america, inc.|software development director|senior": {
+        "p25": 218405,
+        "median": 251576,
+        "p75": 273915,
+        "n": 16
+    },
+    "oracle america, inc.|software development manager|senior": {
+        "p25": 146078,
+        "median": 159442,
+        "p75": 190486,
+        "n": 38
+    },
+    "oracle america, inc.|software development snr director|senior": {
+        "p25": 251576,
+        "median": 273915,
+        "p75": 273915,
+        "n": 5
+    },
+    "oracle america, inc.|software development snr manager|senior": {
+        "p25": 201505,
+        "median": 219209,
+        "p75": 258344,
+        "n": 34
+    },
+    "oracle america, inc.|systems analyst|mid": {
+        "p25": 117288,
+        "median": 130699,
+        "p75": 138912,
+        "n": 32
+    },
+    "oracle america, inc.|technical analyst|mid": {
+        "p25": 110817,
+        "median": 124363,
+        "p75": 131596,
+        "n": 92
+    },
+    "oracle america, inc.|user experience developer-proddev|mid": {
+        "p25": 137259,
+        "median": 147821,
+        "p75": 164179,
+        "n": 14
+    },
+    "oracle financial services software, inc.|consulting technical manager|senior": {
+        "p25": 141627,
+        "median": 150072,
+        "p75": 164219,
+        "n": 22
+    },
+    "oracle financial services software, inc.|principal consultant|senior": {
+        "p25": 117436,
+        "median": 119153,
+        "p75": 135250,
+        "n": 11
+    },
+    "oracle financial services software, inc.|senior consultant|senior": {
+        "p25": 91784,
+        "median": 96092,
+        "p75": 106659,
+        "n": 11
+    },
+    "oracle financial services software, inc.|senior principal consultant|senior": {
+        "p25": 121960,
+        "median": 124409,
+        "p75": 132759,
+        "n": 14
+    },
+    "orangeburg county school district|high school science teacher|mid": {
+        "p25": 62668,
+        "median": 62688,
+        "p75": 67743,
+        "n": 5
+    },
+    "orangeburg county school district|middle school math teacher|mid": {
+        "p25": 52020,
+        "median": 52126,
+        "p75": 55080,
+        "n": 5
+    },
+    "orasys, llc|programmer analyst|mid": {
+        "p25": 109000,
+        "median": 109000,
+        "p75": 124800,
+        "n": 11
+    },
+    "orbit systems inc|software developer|mid": {
+        "p25": 104000,
+        "median": 105300,
+        "p75": 111150,
+        "n": 7
+    },
+    "orbit systems inc|software engineer|mid": {
+        "p25": 105000,
+        "median": 105000,
+        "p75": 105000,
+        "n": 5
+    },
+    "oregon health & science university|assistant professor|entry": {
+        "p25": 228743,
+        "median": 362027,
+        "p75": 407406,
+        "n": 15
+    },
+    "oregon health & science university|fellow physician|senior": {
+        "p25": 93056,
+        "median": 93056,
+        "p75": 97835,
+        "n": 9
+    },
+    "oregon health & science university|postdoctoral scholar|mid": {
+        "p25": 67893,
+        "median": 72948,
+        "p75": 78077,
+        "n": 25
+    },
+    "oregon health & science university|resident physician|entry": {
+        "p25": 77339,
+        "median": 80860,
+        "p75": 87577,
+        "n": 18
+    },
+    "oregon health & science university|senior research associate|mid": {
+        "p25": 74850,
+        "median": 89100,
+        "p75": 91600,
+        "n": 9
+    },
+    "oregon health & science university|staff scientist|senior": {
+        "p25": 99750,
+        "median": 99750,
+        "p75": 100898,
+        "n": 6
+    },
+    "oregon state university|assistant professor|entry": {
+        "p25": 101491,
+        "median": 110547,
+        "p75": 134442,
+        "n": 26
+    },
+    "oregon state university|faculty research assistant|entry": {
+        "p25": 46620,
+        "median": 64344,
+        "p75": 66667,
+        "n": 9
+    },
+    "oregon state university|instructor|mid": {
+        "p25": 89004,
+        "median": 89004,
+        "p75": 113340,
+        "n": 5
+    },
+    "oregon state university|postdoctoral scholar|mid": {
+        "p25": 61008,
+        "median": 63120,
+        "p75": 66342,
+        "n": 31
+    },
+    "oregon state university|research associate|entry": {
+        "p25": 59595,
+        "median": 68004,
+        "p75": 70008,
+        "n": 34
+    },
+    "orien solutions inc|software engineer|mid": {
+        "p25": 94349,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "origin hubs inc|devops engineer|mid": {
+        "p25": 85507,
+        "median": 100115,
+        "p75": 106502,
+        "n": 10
+    },
+    "orion systems integrators llc|program manager|senior": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 120000,
+        "n": 5
+    },
+    "orion systems integrators llc|programmer analyst|mid": {
+        "p25": 100394,
+        "median": 106662,
+        "p75": 107630,
+        "n": 14
+    },
+    "orion systems integrators llc|qa engineer|mid": {
+        "p25": 82368,
+        "median": 102752,
+        "p75": 104300,
+        "n": 10
+    },
+    "orion systems integrators llc|senior architect|senior": {
+        "p25": 166400,
+        "median": 166400,
+        "p75": 166400,
+        "n": 5
+    },
+    "orion systems integrators llc|senior business analyst|senior": {
+        "p25": 130079,
+        "median": 133500,
+        "p75": 133500,
+        "n": 6
+    },
+    "orion systems integrators llc|software developer|mid": {
+        "p25": 113141,
+        "median": 158204,
+        "p75": 159705,
+        "n": 7
+    },
+    "orion systems integrators llc|solutions architect|senior": {
+        "p25": 108160,
+        "median": 115257,
+        "p75": 142563,
+        "n": 8
+    },
+    "orion systems integrators llc|sr. software developer|senior": {
+        "p25": 119328,
+        "median": 123656,
+        "p75": 124868,
+        "n": 7
+    },
+    "orphosys corp|senior software associate|mid": {
+        "p25": 106197,
+        "median": 106197,
+        "p75": 155755,
+        "n": 9
+    },
+    "orrick, herrington & sutcliffe llp|managing associate|entry": {
+        "p25": 197933,
+        "median": 212826,
+        "p75": 217490,
+        "n": 8
+    },
+    "osf healthcare system|clinical lab scientist|mid": {
+        "p25": 72446,
+        "median": 74110,
+        "p75": 78790,
+        "n": 29
+    },
+    "osf healthcare system|internal medicine resident|entry": {
+        "p25": 65444,
+        "median": 65444,
+        "p75": 65444,
+        "n": 8
+    },
+    "osf healthcare system|medical resident|entry": {
+        "p25": 67902,
+        "median": 67902,
+        "p75": 67902,
+        "n": 7
+    },
+    "osf multi-specialty group|hospitalist|mid": {
+        "p25": 303000,
+        "median": 324598,
+        "p75": 324598,
+        "n": 23
+    },
+    "osf multi-specialty group|hospitalist physician|mid": {
+        "p25": 324598,
+        "median": 324598,
+        "p75": 324598,
+        "n": 6
+    },
+    "osf multi-specialty group|primary care physician|mid": {
+        "p25": 225000,
+        "median": 245000,
+        "p75": 292785,
+        "n": 12
+    },
+    "osi digital, inc.|software developer|mid": {
+        "p25": 102365,
+        "median": 112285,
+        "p75": 118625,
+        "n": 8
+    },
+    "oss, inc.|database administrator|mid": {
+        "p25": 68349,
+        "median": 68349,
+        "p75": 68349,
+        "n": 15
+    },
+    "oss, inc.|software developer|mid": {
+        "p25": 87401,
+        "median": 97157,
+        "p75": 101623,
+        "n": 12
+    },
+    "ot technology, inc.|principal solutions engineer|senior": {
+        "p25": 129564,
+        "median": 129564,
+        "p75": 129564,
+        "n": 5
+    },
+    "ot technology, inc.|technical implementation consultant|mid": {
+        "p25": 87000,
+        "median": 87000,
+        "p75": 94000,
+        "n": 5
+    },
+    "otter.ai, inc.|senior software engineer|senior": {
+        "p25": 200000,
+        "median": 226200,
+        "p75": 226200,
+        "n": 5
+    },
+    "otter.ai, inc.|software engineer|mid": {
+        "p25": 146307,
+        "median": 147000,
+        "p75": 148500,
+        "n": 7
+    },
+    "otto trip inc|senior software engineer|senior": {
+        "p25": 140000,
+        "median": 180000,
+        "p75": 180000,
+        "n": 5
+    },
+    "outmarket ai, inc.|ai engineer|mid": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 150000,
+        "n": 5
+    },
+    "outreach manual physical therapy, pc|exercise physiologist|mid": {
+        "p25": 62000,
+        "median": 62000,
+        "p75": 62000,
+        "n": 10
+    },
+    "outreach physical and occupational therapy and speech rehabilitation, pllc|physical therapist|mid": {
+        "p25": 95000,
+        "median": 104000,
+        "p75": 125840,
+        "n": 6
+    }
+}

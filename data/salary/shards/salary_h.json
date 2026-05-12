@@ -1,0 +1,2432 @@
+{
+    "h-e-b, lp|senior data engineer|senior": {
+        "p25": 128000,
+        "median": 130500,
+        "p75": 134478,
+        "n": 6
+    },
+    "h-e-b, lp|senior software engineer|senior": {
+        "p25": 128308,
+        "median": 134971,
+        "p75": 139864,
+        "n": 8
+    },
+    "h-e-b, lp|staff data engineer|senior": {
+        "p25": 150000,
+        "median": 156000,
+        "p75": 156998,
+        "n": 5
+    },
+    "h-e-b, lp|staff software engineer|senior": {
+        "p25": 149700,
+        "median": 151200,
+        "p75": 152700,
+        "n": 6
+    },
+    "h-town technologies inc|software developer|mid": {
+        "p25": 84094,
+        "median": 101379,
+        "p75": 107712,
+        "n": 20
+    },
+    "h. lee moffitt cancer center & research institute, inc.|applied postdoctoral research fellow|senior": {
+        "p25": 71115,
+        "median": 75057,
+        "p75": 76924,
+        "n": 6
+    },
+    "h. lee moffitt cancer center & research institute, inc.|postdoctoral fellow|senior": {
+        "p25": 69804,
+        "median": 69804,
+        "p75": 70449,
+        "n": 8
+    },
+    "h. lee moffitt cancer center & research institute, inc.|research scientist i|entry": {
+        "p25": 76538,
+        "median": 78686,
+        "p75": 80277,
+        "n": 10
+    },
+    "h.m. providers, inc.|hospitalist|mid": {
+        "p25": 326048,
+        "median": 329303,
+        "p75": 329303,
+        "n": 8
+    },
+    "hadiamondstar software solutions llc|software consultant|mid": {
+        "p25": 112923,
+        "median": 122699,
+        "p75": 126090,
+        "n": 27
+    },
+    "hadiamondstar software solutions llc|software developer|mid": {
+        "p25": 119761,
+        "median": 122970,
+        "p75": 123750,
+        "n": 8
+    },
+    "hadiamondstar software solutions, llc.|software consultant|mid": {
+        "p25": 106137,
+        "median": 108201,
+        "p75": 112153,
+        "n": 6
+    },
+    "halifax county public schools|teacher|mid": {
+        "p25": 60000,
+        "median": 60000,
+        "p75": 60000,
+        "n": 5
+    },
+    "halifax county schools|elementary teacher|mid": {
+        "p25": 50250,
+        "median": 53880,
+        "p75": 53880,
+        "n": 5
+    },
+    "halifax county schools|math teacher|mid": {
+        "p25": 49350,
+        "median": 49350,
+        "p75": 55050,
+        "n": 5
+    },
+    "hallmark global technologies inc|software developer|mid": {
+        "p25": 92000,
+        "median": 105000,
+        "p75": 106750,
+        "n": 6
+    },
+    "halvik corp.|software developer|mid": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 135000,
+        "n": 5
+    },
+    "hamilton sundstrand corporation|principal engineer, software engineering|senior": {
+        "p25": 133141,
+        "median": 133141,
+        "p75": 133141,
+        "n": 9
+    },
+    "hamilton-madison house|behavioral health clinician|mid": {
+        "p25": 57174,
+        "median": 57761,
+        "p75": 58474,
+        "n": 10
+    },
+    "handel architects llp|architectural designer|mid": {
+        "p25": 74000,
+        "median": 74000,
+        "p75": 85696,
+        "n": 5
+    },
+    "hands of hope physical therapy, pc|exercise physiologist|mid": {
+        "p25": 85647,
+        "median": 92451,
+        "p75": 97760,
+        "n": 5
+    },
+    "hanwha q cells georgia, inc.|process engineer|mid": {
+        "p25": 63000,
+        "median": 64000,
+        "p75": 74750,
+        "n": 6
+    },
+    "hanwha q cells usa, inc.|equipment engineer|mid": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 65000,
+        "n": 5
+    },
+    "happiest minds technologies ltd.|computer systems engineer|mid": {
+        "p25": 81800,
+        "median": 81800,
+        "p75": 81800,
+        "n": 5
+    },
+    "happiest minds technologies ltd.|software developer|mid": {
+        "p25": 105998,
+        "median": 106000,
+        "p75": 106000,
+        "n": 5
+    },
+    "harley ellis devereaux corporation|designer|mid": {
+        "p25": 80308,
+        "median": 82680,
+        "p75": 82680,
+        "n": 5
+    },
+    "harmony public schools|computer teacher|mid": {
+        "p25": 51990,
+        "median": 53560,
+        "p75": 56910,
+        "n": 25
+    },
+    "harmony public schools|foreign language teacher|mid": {
+        "p25": 49310,
+        "median": 52430,
+        "p75": 53550,
+        "n": 11
+    },
+    "harmony public schools|math teacher|mid": {
+        "p25": 52962,
+        "median": 53610,
+        "p75": 56910,
+        "n": 62
+    },
+    "harmony public schools|science teacher|mid": {
+        "p25": 53560,
+        "median": 55370,
+        "p75": 58380,
+        "n": 62
+    },
+    "harrisonburg city public schools|elementary school dual language teacher|mid": {
+        "p25": 62949,
+        "median": 65107,
+        "p75": 67464,
+        "n": 10
+    },
+    "hartford fire insurance company|manager software engineering|senior": {
+        "p25": 154669,
+        "median": 154669,
+        "p75": 155688,
+        "n": 9
+    },
+    "hartford fire insurance company|senior staff software engineer|senior": {
+        "p25": 134800,
+        "median": 150332,
+        "p75": 154923,
+        "n": 8
+    },
+    "hartford fire insurance company|sr data engineer|senior": {
+        "p25": 121046,
+        "median": 132610,
+        "p75": 133884,
+        "n": 6
+    },
+    "hartford fire insurance company|sr. data engineer|senior": {
+        "p25": 126443,
+        "median": 126443,
+        "p75": 134347,
+        "n": 5
+    },
+    "hartford fire insurance company|staff data engineer|senior": {
+        "p25": 121000,
+        "median": 134347,
+        "p75": 150717,
+        "n": 5
+    },
+    "hartford fire insurance company|staff software engineer|senior": {
+        "p25": 121544,
+        "median": 125691,
+        "p75": 134347,
+        "n": 11
+    },
+    "hartford healthcare medical group, inc.|hospitalist|mid": {
+        "p25": 244600,
+        "median": 250000,
+        "p75": 250000,
+        "n": 7
+    },
+    "hartford healthcare medical group, inc.|infectious disease physician|mid": {
+        "p25": 239200,
+        "median": 239200,
+        "p75": 239200,
+        "n": 6
+    },
+    "hartford healthcare medical group, inc.|physician (internal medicine)|mid": {
+        "p25": 239200,
+        "median": 275000,
+        "p75": 275000,
+        "n": 5
+    },
+    "hartford healthcare medical group, inc.|primary care physician|mid": {
+        "p25": 235000,
+        "median": 239200,
+        "p75": 239200,
+        "n": 5
+    },
+    "harvard medical faculty physicians at beth israel deaconess medical center|anesthesia attending|senior": {
+        "p25": 344400,
+        "median": 410000,
+        "p75": 410000,
+        "n": 5
+    },
+    "harvard medical faculty physicians at beth israel deaconess medical center|staff radiologist/abdominal imaging|senior": {
+        "p25": 380000,
+        "median": 380000,
+        "p75": 443750,
+        "n": 6
+    },
+    "harvard university|assistant professor|entry": {
+        "p25": 125000,
+        "median": 142025,
+        "p75": 307350,
+        "n": 32
+    },
+    "harvard university|growth lab research fellow|senior": {
+        "p25": 89610,
+        "median": 89610,
+        "p75": 97335,
+        "n": 5
+    },
+    "harvard university|instructor|mid": {
+        "p25": 112655,
+        "median": 135000,
+        "p75": 176165,
+        "n": 7
+    },
+    "harvard university|lecturer|mid": {
+        "p25": 95200,
+        "median": 103000,
+        "p75": 106067,
+        "n": 6
+    },
+    "harvard university|postdoctoral fellow|senior": {
+        "p25": 69741,
+        "median": 72130,
+        "p75": 74447,
+        "n": 40
+    },
+    "harvard university|postdoctoral research fellow|senior": {
+        "p25": 70020,
+        "median": 75000,
+        "p75": 79500,
+        "n": 15
+    },
+    "harvard university|research associate|entry": {
+        "p25": 78666,
+        "median": 82400,
+        "p75": 91594,
+        "n": 59
+    },
+    "harvard university|research fellow|senior": {
+        "p25": 76000,
+        "median": 76000,
+        "p75": 78406,
+        "n": 44
+    },
+    "harvard university|research scientist|mid": {
+        "p25": 101764,
+        "median": 110000,
+        "p75": 112476,
+        "n": 5
+    },
+    "harvest software solutions, llc|software developer|mid": {
+        "p25": 75600,
+        "median": 76960,
+        "p75": 97375,
+        "n": 8
+    },
+    "hashcode technologies, inc|software developer|mid": {
+        "p25": 95000,
+        "median": 102500,
+        "p75": 146500,
+        "n": 8
+    },
+    "haver analytics, inc.|economic database manager|senior": {
+        "p25": 65500,
+        "median": 65750,
+        "p75": 70000,
+        "n": 5
+    },
+    "hayden industrial llc.|application engineer|mid": {
+        "p25": 112999,
+        "median": 112999,
+        "p75": 112999,
+        "n": 5
+    },
+    "hazelwood school district|mathematics teacher|mid": {
+        "p25": 60847,
+        "median": 65229,
+        "p75": 71805,
+        "n": 14
+    },
+    "hazelwood school district|science teacher|mid": {
+        "p25": 59976,
+        "median": 62962,
+        "p75": 67870,
+        "n": 10
+    },
+    "hca management services lp|consulting application engineer|mid": {
+        "p25": 116438,
+        "median": 122117,
+        "p75": 122117,
+        "n": 13
+    },
+    "hca management services lp|senior application engineer|senior": {
+        "p25": 116438,
+        "median": 116438,
+        "p75": 116438,
+        "n": 15
+    },
+    "hca management services, lp|consulting application engineer|mid": {
+        "p25": 122117,
+        "median": 124997,
+        "p75": 132480,
+        "n": 6
+    },
+    "hca management services, lp|senior application engineer|senior": {
+        "p25": 106605,
+        "median": 116438,
+        "p75": 122117,
+        "n": 8
+    },
+    "hcl america inc|account manager - individual contributor|senior": {
+        "p25": 94786,
+        "median": 110677,
+        "p75": 151944,
+        "n": 25
+    },
+    "hcl america inc|administrator|mid": {
+        "p25": 80288,
+        "median": 82930,
+        "p75": 82930,
+        "n": 5
+    },
+    "hcl america inc|associate consultant|entry": {
+        "p25": 83886,
+        "median": 85530,
+        "p75": 87766,
+        "n": 7
+    },
+    "hcl america inc|business specialist|mid": {
+        "p25": 95132,
+        "median": 115627,
+        "p75": 127941,
+        "n": 23
+    },
+    "hcl america inc|consultant|mid": {
+        "p25": 74776,
+        "median": 85500,
+        "p75": 101109,
+        "n": 23
+    },
+    "hcl america inc|database administrator - iii|senior": {
+        "p25": 117126,
+        "median": 120370,
+        "p75": 120370,
+        "n": 5
+    },
+    "hcl america inc|design lead|senior": {
+        "p25": 90106,
+        "median": 98976,
+        "p75": 104026,
+        "n": 44
+    },
+    "hcl america inc|designer|mid": {
+        "p25": 88337,
+        "median": 97594,
+        "p75": 130385,
+        "n": 7
+    },
+    "hcl america inc|development lead robotics|senior": {
+        "p25": 76232,
+        "median": 102424,
+        "p75": 106662,
+        "n": 22
+    },
+    "hcl america inc|director consulting|senior": {
+        "p25": 136136,
+        "median": 136136,
+        "p75": 141955,
+        "n": 5
+    },
+    "hcl america inc|domain consultant|mid": {
+        "p25": 137441,
+        "median": 140247,
+        "p75": 157643,
+        "n": 11
+    },
+    "hcl america inc|domain\\technical architect|senior": {
+        "p25": 115970,
+        "median": 125699,
+        "p75": 127650,
+        "n": 8
+    },
+    "hcl america inc|du head 1 (client specific)|entry": {
+        "p25": 132584,
+        "median": 145246,
+        "p75": 152484,
+        "n": 11
+    },
+    "hcl america inc|erp specialist|mid": {
+        "p25": 101250,
+        "median": 109905,
+        "p75": 117894,
+        "n": 25
+    },
+    "hcl america inc|full stack lead|senior": {
+        "p25": 106142,
+        "median": 122834,
+        "p75": 138800,
+        "n": 18
+    },
+    "hcl america inc|group technical architect|senior": {
+        "p25": 117923,
+        "median": 126256,
+        "p75": 143877,
+        "n": 61
+    },
+    "hcl america inc|it project manager - ii|senior": {
+        "p25": 91270,
+        "median": 96886,
+        "p75": 102274,
+        "n": 13
+    },
+    "hcl america inc|it project manager - iii|senior": {
+        "p25": 106314,
+        "median": 114837,
+        "p75": 119773,
+        "n": 19
+    },
+    "hcl america inc|it project manager - iv|senior": {
+        "p25": 137093,
+        "median": 142993,
+        "p75": 155433,
+        "n": 38
+    },
+    "hcl america inc|it project managers - iii|senior": {
+        "p25": 109886,
+        "median": 115671,
+        "p75": 132603,
+        "n": 47
+    },
+    "hcl america inc|it project managers - iv|senior": {
+        "p25": 128520,
+        "median": 139178,
+        "p75": 153046,
+        "n": 98
+    },
+    "hcl america inc|lead administrator|senior": {
+        "p25": 79924,
+        "median": 84115,
+        "p75": 85488,
+        "n": 11
+    },
+    "hcl america inc|lead business analyst|senior": {
+        "p25": 92790,
+        "median": 98396,
+        "p75": 112172,
+        "n": 19
+    },
+    "hcl america inc|lead consultant|senior": {
+        "p25": 90231,
+        "median": 93007,
+        "p75": 120149,
+        "n": 35
+    },
+    "hcl america inc|network administrator - ii|mid": {
+        "p25": 85218,
+        "median": 94661,
+        "p75": 105377,
+        "n": 17
+    },
+    "hcl america inc|network administrator - iii|senior": {
+        "p25": 100107,
+        "median": 108305,
+        "p75": 124272,
+        "n": 31
+    },
+    "hcl america inc|network administrator - iv|senior": {
+        "p25": 114556,
+        "median": 130957,
+        "p75": 140696,
+        "n": 7
+    },
+    "hcl america inc|practice\\technical specialist|mid": {
+        "p25": 117119,
+        "median": 124025,
+        "p75": 136250,
+        "n": 8
+    },
+    "hcl america inc|product specialist|mid": {
+        "p25": 90000,
+        "median": 92581,
+        "p75": 102606,
+        "n": 5
+    },
+    "hcl america inc|program manager|senior": {
+        "p25": 115627,
+        "median": 124995,
+        "p75": 138323,
+        "n": 68
+    },
+    "hcl america inc|programmer analyst - ii|mid": {
+        "p25": 90751,
+        "median": 102300,
+        "p75": 120660,
+        "n": 83
+    },
+    "hcl america inc|project lead|senior": {
+        "p25": 83907,
+        "median": 102274,
+        "p75": 111686,
+        "n": 19
+    },
+    "hcl america inc|project manager|senior": {
+        "p25": 91874,
+        "median": 101666,
+        "p75": 112570,
+        "n": 65
+    },
+    "hcl america inc|project manager - iii|senior": {
+        "p25": 110025,
+        "median": 118832,
+        "p75": 132330,
+        "n": 23
+    },
+    "hcl america inc|project manager - iv|senior": {
+        "p25": 130500,
+        "median": 146000,
+        "p75": 173182,
+        "n": 10
+    },
+    "hcl america inc|sales engineers - iv|senior": {
+        "p25": 220000,
+        "median": 248000,
+        "p75": 325000,
+        "n": 5
+    },
+    "hcl america inc|senior business analyst|senior": {
+        "p25": 97578,
+        "median": 101721,
+        "p75": 108098,
+        "n": 9
+    },
+    "hcl america inc|senior business specialist|senior": {
+        "p25": 112553,
+        "median": 123046,
+        "p75": 140657,
+        "n": 11
+    },
+    "hcl america inc|senior design lead|senior": {
+        "p25": 91348,
+        "median": 98987,
+        "p75": 118757,
+        "n": 76
+    },
+    "hcl america inc|senior designer|senior": {
+        "p25": 77314,
+        "median": 85000,
+        "p75": 97719,
+        "n": 45
+    },
+    "hcl america inc|senior developer|senior": {
+        "p25": 64896,
+        "median": 76298,
+        "p75": 93739,
+        "n": 42
+    },
+    "hcl america inc|senior erp specialist|senior": {
+        "p25": 102085,
+        "median": 118607,
+        "p75": 122931,
+        "n": 11
+    },
+    "hcl america inc|senior full stack developer|senior": {
+        "p25": 105227,
+        "median": 108826,
+        "p75": 172931,
+        "n": 11
+    },
+    "hcl america inc|senior group technical architect|senior": {
+        "p25": 126431,
+        "median": 144310,
+        "p75": 155000,
+        "n": 21
+    },
+    "hcl america inc|senior program manager|senior": {
+        "p25": 125801,
+        "median": 135456,
+        "p75": 147410,
+        "n": 53
+    },
+    "hcl america inc|senior project lead|senior": {
+        "p25": 88940,
+        "median": 93631,
+        "p75": 108750,
+        "n": 26
+    },
+    "hcl america inc|senior project manager|senior": {
+        "p25": 101283,
+        "median": 111882,
+        "p75": 125077,
+        "n": 56
+    },
+    "hcl america inc|senior service delivery manager|senior": {
+        "p25": 102637,
+        "median": 108890,
+        "p75": 122706,
+        "n": 6
+    },
+    "hcl america inc|senior solution architect|senior": {
+        "p25": 136136,
+        "median": 158974,
+        "p75": 190000,
+        "n": 5
+    },
+    "hcl america inc|senior support lead|senior": {
+        "p25": 89774,
+        "median": 94682,
+        "p75": 107338,
+        "n": 11
+    },
+    "hcl america inc|senior technical architect|senior": {
+        "p25": 104089,
+        "median": 114898,
+        "p75": 129409,
+        "n": 88
+    },
+    "hcl america inc|senior technical consultant|senior": {
+        "p25": 79278,
+        "median": 89565,
+        "p75": 91583,
+        "n": 11
+    },
+    "hcl america inc|senior technical lead|senior": {
+        "p25": 91042,
+        "median": 98468,
+        "p75": 119760,
+        "n": 238
+    },
+    "hcl america inc|senior technical manager|senior": {
+        "p25": 105737,
+        "median": 115627,
+        "p75": 125550,
+        "n": 41
+    },
+    "hcl america inc|senior technical specialist|senior": {
+        "p25": 117143,
+        "median": 135000,
+        "p75": 145000,
+        "n": 52
+    },
+    "hcl america inc|senior test lead|senior": {
+        "p25": 86611,
+        "median": 101234,
+        "p75": 113277,
+        "n": 65
+    },
+    "hcl america inc|senior test manager|senior": {
+        "p25": 98455,
+        "median": 122354,
+        "p75": 129974,
+        "n": 12
+    },
+    "hcl america inc|senior test specialist|senior": {
+        "p25": 114809,
+        "median": 128700,
+        "p75": 142902,
+        "n": 10
+    },
+    "hcl america inc|senior tester|senior": {
+        "p25": 74880,
+        "median": 87000,
+        "p75": 100000,
+        "n": 29
+    },
+    "hcl america inc|senior track lead|senior": {
+        "p25": 86156,
+        "median": 92394,
+        "p75": 98030,
+        "n": 7
+    },
+    "hcl america inc|service delivery manager|senior": {
+        "p25": 104400,
+        "median": 111533,
+        "p75": 122701,
+        "n": 10
+    },
+    "hcl america inc|solution architect|senior": {
+        "p25": 142730,
+        "median": 157560,
+        "p75": 165610,
+        "n": 13
+    },
+    "hcl america inc|sr administrator|senior": {
+        "p25": 61755,
+        "median": 65915,
+        "p75": 75691,
+        "n": 5
+    },
+    "hcl america inc|sr program manager|senior": {
+        "p25": 126256,
+        "median": 136000,
+        "p75": 151978,
+        "n": 5
+    },
+    "hcl america inc|sr project manager|senior": {
+        "p25": 65914,
+        "median": 85904,
+        "p75": 103111,
+        "n": 6
+    },
+    "hcl america inc|sr subject matter expert|senior": {
+        "p25": 65936,
+        "median": 80226,
+        "p75": 84499,
+        "n": 32
+    },
+    "hcl america inc|sr subject matter expert (support&ops)|senior": {
+        "p25": 117500,
+        "median": 132258,
+        "p75": 135945,
+        "n": 5
+    },
+    "hcl america inc|sr technical lead|senior": {
+        "p25": 79706,
+        "median": 85530,
+        "p75": 88837,
+        "n": 12
+    },
+    "hcl america inc|subject matter expert|mid": {
+        "p25": 65936,
+        "median": 74776,
+        "p75": 83658,
+        "n": 41
+    },
+    "hcl america inc|subject matter expert (support&ops)|mid": {
+        "p25": 95460,
+        "median": 95981,
+        "p75": 150000,
+        "n": 5
+    },
+    "hcl america inc|support lead|senior": {
+        "p25": 86445,
+        "median": 90908,
+        "p75": 91002,
+        "n": 5
+    },
+    "hcl america inc|system architect - ii|senior": {
+        "p25": 90843,
+        "median": 96864,
+        "p75": 125850,
+        "n": 12
+    },
+    "hcl america inc|system architect - iii|senior": {
+        "p25": 112723,
+        "median": 121514,
+        "p75": 136843,
+        "n": 58
+    },
+    "hcl america inc|system architect - iv|senior": {
+        "p25": 136136,
+        "median": 140378,
+        "p75": 151664,
+        "n": 58
+    },
+    "hcl america inc|systems analyst - ii|mid": {
+        "p25": 99611,
+        "median": 103511,
+        "p75": 115267,
+        "n": 26
+    },
+    "hcl america inc|systems analyst - iii|senior": {
+        "p25": 109938,
+        "median": 122179,
+        "p75": 132779,
+        "n": 115
+    },
+    "hcl america inc|systems analyst - iv|senior": {
+        "p25": 132870,
+        "median": 143666,
+        "p75": 143666,
+        "n": 25
+    },
+    "hcl america inc|technical architect|senior": {
+        "p25": 94398,
+        "median": 107093,
+        "p75": 122659,
+        "n": 133
+    },
+    "hcl america inc|technical consultant|mid": {
+        "p25": 61905,
+        "median": 67621,
+        "p75": 76403,
+        "n": 6
+    },
+    "hcl america inc|technical lead|senior": {
+        "p25": 85530,
+        "median": 94598,
+        "p75": 108100,
+        "n": 127
+    },
+    "hcl america inc|technical manager|senior": {
+        "p25": 96116,
+        "median": 112050,
+        "p75": 123729,
+        "n": 51
+    },
+    "hcl america inc|technical specialist|mid": {
+        "p25": 87242,
+        "median": 102171,
+        "p75": 120459,
+        "n": 78
+    },
+    "hcl america inc|technical support specialist|mid": {
+        "p25": 120058,
+        "median": 140543,
+        "p75": 141086,
+        "n": 6
+    },
+    "hcl america inc|test analyst - ii|mid": {
+        "p25": 81120,
+        "median": 85671,
+        "p75": 103418,
+        "n": 17
+    },
+    "hcl america inc|test lead|senior": {
+        "p25": 92040,
+        "median": 102448,
+        "p75": 114192,
+        "n": 54
+    },
+    "hcl america inc|test manager|senior": {
+        "p25": 93968,
+        "median": 103543,
+        "p75": 109060,
+        "n": 14
+    },
+    "hcl america inc|test manager - iii|senior": {
+        "p25": 106517,
+        "median": 106517,
+        "p75": 126090,
+        "n": 13
+    },
+    "hcl america inc|test specialist|mid": {
+        "p25": 100721,
+        "median": 105850,
+        "p75": 117500,
+        "n": 16
+    },
+    "hcl america inc|track lead|senior": {
+        "p25": 75785,
+        "median": 83658,
+        "p75": 90002,
+        "n": 19
+    },
+    "hcl america inc|track manager|senior": {
+        "p25": 83658,
+        "median": 84115,
+        "p75": 90002,
+        "n": 33
+    },
+    "hcl america inc|user support specialists - ii|mid": {
+        "p25": 86237,
+        "median": 97145,
+        "p75": 110790,
+        "n": 6
+    },
+    "hcl america inc|user support specialists - iii|senior": {
+        "p25": 91776,
+        "median": 109117,
+        "p75": 126256,
+        "n": 6
+    },
+    "hcl america inc|user support specialists - iv|senior": {
+        "p25": 108139,
+        "median": 109592,
+        "p75": 120144,
+        "n": 5
+    },
+    "hcl america solutions inc|senior design lead|senior": {
+        "p25": 81074,
+        "median": 83491,
+        "p75": 92576,
+        "n": 5
+    },
+    "hcl global systems inc|devops engineer|mid": {
+        "p25": 107941,
+        "median": 108097,
+        "p75": 129968,
+        "n": 6
+    },
+    "hcl global systems inc|full stack engineer|mid": {
+        "p25": 122855,
+        "median": 127878,
+        "p75": 134971,
+        "n": 7
+    },
+    "hcl global systems inc|information security analyst|mid": {
+        "p25": 124425,
+        "median": 128252,
+        "p75": 128252,
+        "n": 5
+    },
+    "hcl global systems inc|software developer|mid": {
+        "p25": 105986,
+        "median": 109262,
+        "p75": 112060,
+        "n": 27
+    },
+    "hcl global systems inc|software engineer|mid": {
+        "p25": 86444,
+        "median": 105976,
+        "p75": 117582,
+        "n": 43
+    },
+    "hcl global systems inc|sr. application developer|senior": {
+        "p25": 100172,
+        "median": 127504,
+        "p75": 127878,
+        "n": 5
+    },
+    "hcl global systems inc|sr. data engineer|senior": {
+        "p25": 126209,
+        "median": 131424,
+        "p75": 150508,
+        "n": 6
+    },
+    "hcl global systems inc|sr. software developer|senior": {
+        "p25": 104457,
+        "median": 120276,
+        "p75": 137077,
+        "n": 6
+    },
+    "hcl global systems inc|sr. software engineer|senior": {
+        "p25": 124508,
+        "median": 127878,
+        "p75": 146078,
+        "n": 15
+    },
+    "hd supply, inc.|lead application engineer|senior": {
+        "p25": 143201,
+        "median": 145023,
+        "p75": 151596,
+        "n": 6
+    },
+    "hdr architecture, inc.|architect|senior": {
+        "p25": 108368,
+        "median": 111114,
+        "p75": 111114,
+        "n": 5
+    },
+    "hdr architecture, inc.|senior design coordinator|senior": {
+        "p25": 94952,
+        "median": 111114,
+        "p75": 113900,
+        "n": 5
+    },
+    "hdr engineering, inc.|bridge engineer in training (eit)|mid": {
+        "p25": 94057,
+        "median": 96657,
+        "p75": 104041,
+        "n": 5
+    },
+    "hdr engineering, inc.|structural engineer|mid": {
+        "p25": 103870,
+        "median": 110999,
+        "p75": 122371,
+        "n": 6
+    },
+    "hdr engineering, inc.|traffic engineer|mid": {
+        "p25": 106340,
+        "median": 110957,
+        "p75": 111675,
+        "n": 6
+    },
+    "hdr engineering, inc.|traffic engineer in training (eit)|mid": {
+        "p25": 78208,
+        "median": 78478,
+        "p75": 83220,
+        "n": 9
+    },
+    "hdr engineering, inc.|water/wastewater engineer in training (eit)|mid": {
+        "p25": 82680,
+        "median": 87412,
+        "p75": 91364,
+        "n": 8
+    },
+    "headstart solutions llc|software developer|mid": {
+        "p25": 94025,
+        "median": 105250,
+        "p75": 105250,
+        "n": 11
+    },
+    "headstrong services llc|principal consultant|senior": {
+        "p25": 122189,
+        "median": 123980,
+        "p75": 131999,
+        "n": 26
+    },
+    "headstrong services llc|senior principal consultant|senior": {
+        "p25": 133600,
+        "median": 139270,
+        "p75": 151450,
+        "n": 37
+    },
+    "health care service corporation|application architect|senior": {
+        "p25": 127754,
+        "median": 127878,
+        "p75": 134971,
+        "n": 10
+    },
+    "health care service corporation|developer specialist|mid": {
+        "p25": 130270,
+        "median": 136947,
+        "p75": 149781,
+        "n": 14
+    },
+    "health care service corporation|senior data engineer|senior": {
+        "p25": 140920,
+        "median": 149760,
+        "p75": 149781,
+        "n": 13
+    },
+    "health care service corporation|sr application architect|senior": {
+        "p25": 148949,
+        "median": 149365,
+        "p75": 155193,
+        "n": 6
+    },
+    "health care service corporation|sr data engineer|senior": {
+        "p25": 140863,
+        "median": 145069,
+        "p75": 147534,
+        "n": 12
+    },
+    "health care service corporation|sr developer|senior": {
+        "p25": 127363,
+        "median": 127878,
+        "p75": 129412,
+        "n": 12
+    },
+    "health care service corporation|sr systems analyst|senior": {
+        "p25": 127754,
+        "median": 127878,
+        "p75": 129292,
+        "n": 11
+    },
+    "health care service corporation|sr. developer|senior": {
+        "p25": 127785,
+        "median": 127878,
+        "p75": 127878,
+        "n": 6
+    },
+    "health carousel llc|medical technologist|mid": {
+        "p25": 54080,
+        "median": 54080,
+        "p75": 55702,
+        "n": 7
+    },
+    "health management systems, inc.|advisor application designer|mid": {
+        "p25": 112923,
+        "median": 112923,
+        "p75": 127878,
+        "n": 9
+    },
+    "health management systems, inc.|senior professional product developer|senior": {
+        "p25": 102866,
+        "median": 105997,
+        "p75": 110312,
+        "n": 7
+    },
+    "health research inc. - roswell park division|hri scientist|mid": {
+        "p25": 82700,
+        "median": 83000,
+        "p75": 83000,
+        "n": 5
+    },
+    "healthequity, inc.|senior software engineer|senior": {
+        "p25": 154770,
+        "median": 158902,
+        "p75": 161304,
+        "n": 7
+    },
+    "healthstream, inc.|senior quality assurance analyst|senior": {
+        "p25": 90000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 5
+    },
+    "healthstream, inc.|software developer|mid": {
+        "p25": 92833,
+        "median": 95600,
+        "p75": 100000,
+        "n": 5
+    },
+    "hectologic llc|senior software associate|mid": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 36
+    },
+    "hector systems inc|data engineer|mid": {
+        "p25": 77418,
+        "median": 99778,
+        "p75": 110063,
+        "n": 7
+    },
+    "helen of troy nevada corporation|senior oracle developer|senior": {
+        "p25": 139136,
+        "median": 144890,
+        "p75": 149781,
+        "n": 6
+    },
+    "hellmuth, obata & kassabaum, inc.|design professional|mid": {
+        "p25": 65250,
+        "median": 67497,
+        "p75": 69752,
+        "n": 10
+    },
+    "hellmuth, obata & kassabaum, inc.|senior design professional|senior": {
+        "p25": 80125,
+        "median": 86816,
+        "p75": 98283,
+        "n": 6
+    },
+    "henry ford health system|internal medicine resident|entry": {
+        "p25": 66691,
+        "median": 67933,
+        "p75": 69176,
+        "n": 6
+    },
+    "henry ford health system|nurse manager|senior": {
+        "p25": 123264,
+        "median": 126401,
+        "p75": 132466,
+        "n": 5
+    },
+    "henry ford health system|post doctoral fellow|senior": {
+        "p25": 61006,
+        "median": 61008,
+        "p75": 61422,
+        "n": 5
+    },
+    "henry ford health system|resident|entry": {
+        "p25": 66691,
+        "median": 66691,
+        "p75": 69176,
+        "n": 13
+    },
+    "here north america, llc|sr. software engineer|senior": {
+        "p25": 117120,
+        "median": 117120,
+        "p75": 125050,
+        "n": 5
+    },
+    "hewlett packard enterprise company|ai and machine learning engineer iii|senior": {
+        "p25": 125539,
+        "median": 132579,
+        "p75": 142386,
+        "n": 7
+    },
+    "hewlett packard enterprise company|cloud developer i|entry": {
+        "p25": 97182,
+        "median": 98218,
+        "p75": 112174,
+        "n": 16
+    },
+    "hewlett packard enterprise company|cloud developer ii|mid": {
+        "p25": 98218,
+        "median": 132579,
+        "p75": 132579,
+        "n": 45
+    },
+    "hewlett packard enterprise company|cloud developer iii|senior": {
+        "p25": 132579,
+        "median": 148699,
+        "p75": 166962,
+        "n": 57
+    },
+    "hewlett packard enterprise company|principal cloud developer|senior": {
+        "p25": 166550,
+        "median": 201323,
+        "p75": 217687,
+        "n": 14
+    },
+    "hewlett packard enterprise company|principal engineer|senior": {
+        "p25": 127670,
+        "median": 138174,
+        "p75": 146561,
+        "n": 8
+    },
+    "hewlett packard enterprise company|principal it developer/engineer|senior": {
+        "p25": 140005,
+        "median": 146895,
+        "p75": 161108,
+        "n": 6
+    },
+    "hewlett packard enterprise company|principal systems/software engineer|senior": {
+        "p25": 148000,
+        "median": 190486,
+        "p75": 201323,
+        "n": 13
+    },
+    "hewlett packard enterprise company|product manager ii|senior": {
+        "p25": 90400,
+        "median": 132579,
+        "p75": 132579,
+        "n": 8
+    },
+    "hewlett packard enterprise company|product manager iii|senior": {
+        "p25": 112928,
+        "median": 132579,
+        "p75": 142002,
+        "n": 12
+    },
+    "hewlett packard enterprise company|research engineer iii|senior": {
+        "p25": 118310,
+        "median": 132595,
+        "p75": 157445,
+        "n": 7
+    },
+    "hewlett packard enterprise company|senior cloud developer|senior": {
+        "p25": 150530,
+        "median": 181293,
+        "p75": 198951,
+        "n": 62
+    },
+    "hewlett packard enterprise company|senior engineer|senior": {
+        "p25": 127509,
+        "median": 146244,
+        "p75": 172726,
+        "n": 6
+    },
+    "hewlett packard enterprise company|senior it developer/engineer|senior": {
+        "p25": 135512,
+        "median": 140005,
+        "p75": 140754,
+        "n": 13
+    },
+    "hewlett packard enterprise company|senior product manager|senior": {
+        "p25": 152890,
+        "median": 188613,
+        "p75": 198594,
+        "n": 6
+    },
+    "hewlett packard enterprise company|senior systems/software engineer|senior": {
+        "p25": 138876,
+        "median": 166503,
+        "p75": 201323,
+        "n": 28
+    },
+    "hewlett packard enterprise company|systems/software engineer i|entry": {
+        "p25": 70000,
+        "median": 85634,
+        "p75": 98176,
+        "n": 17
+    },
+    "hewlett packard enterprise company|systems/software engineer ii|mid": {
+        "p25": 90400,
+        "median": 90400,
+        "p75": 132579,
+        "n": 25
+    },
+    "hewlett packard enterprise company|systems/software engineer iii|senior": {
+        "p25": 119247,
+        "median": 136989,
+        "p75": 166962,
+        "n": 35
+    },
+    "hexacorp llc|.net fullstack developer|mid": {
+        "p25": 77500,
+        "median": 79500,
+        "p75": 79500,
+        "n": 5
+    },
+    "hexacorp llc|data analyst|mid": {
+        "p25": 77500,
+        "median": 79500,
+        "p75": 79500,
+        "n": 5
+    },
+    "hexaware technologies, inc.|associate software engineer|entry": {
+        "p25": 94370,
+        "median": 94370,
+        "p75": 94370,
+        "n": 11
+    },
+    "hexaware technologies, inc.|computer programmer|mid": {
+        "p25": 90210,
+        "median": 94370,
+        "p75": 94500,
+        "n": 180
+    },
+    "hexaware technologies, inc.|computer system analyst|mid": {
+        "p25": 92045,
+        "median": 105019,
+        "p75": 105019,
+        "n": 10
+    },
+    "hexaware technologies, inc.|computer systems analyst|mid": {
+        "p25": 86304,
+        "median": 102357,
+        "p75": 105492,
+        "n": 12
+    },
+    "hexaware technologies, inc.|computer systems engineer/architect|senior": {
+        "p25": 89221,
+        "median": 92508,
+        "p75": 102643,
+        "n": 6
+    },
+    "hexaware technologies, inc.|information technology project manager|senior": {
+        "p25": 92581,
+        "median": 101962,
+        "p75": 102800,
+        "n": 5
+    },
+    "hexaware technologies, inc.|it project manager|senior": {
+        "p25": 116800,
+        "median": 126238,
+        "p75": 137327,
+        "n": 16
+    },
+    "hexaware technologies, inc.|project manager|senior": {
+        "p25": 93558,
+        "median": 111946,
+        "p75": 118355,
+        "n": 7
+    },
+    "hexaware technologies, inc.|senior consultant|senior": {
+        "p25": 109829,
+        "median": 127358,
+        "p75": 142683,
+        "n": 24
+    },
+    "hexaware technologies, inc.|senior technical architect|senior": {
+        "p25": 95900,
+        "median": 111400,
+        "p75": 126789,
+        "n": 35
+    },
+    "hexaware technologies, inc.|software developer|mid": {
+        "p25": 93352,
+        "median": 106600,
+        "p75": 122699,
+        "n": 32
+    },
+    "hexaware technologies, inc.|software engineer|mid": {
+        "p25": 83844,
+        "median": 94370,
+        "p75": 94611,
+        "n": 18
+    },
+    "hexaware technologies, inc.|software quality assurance analyst & tester|mid": {
+        "p25": 120994,
+        "median": 120994,
+        "p75": 121000,
+        "n": 5
+    },
+    "hexaware technologies, inc.|software quality assurance analyst and tester|mid": {
+        "p25": 87000,
+        "median": 102565,
+        "p75": 104728,
+        "n": 5
+    },
+    "hexaware technologies, inc.|sr. consultant|senior": {
+        "p25": 122970,
+        "median": 126100,
+        "p75": 148221,
+        "n": 5
+    },
+    "hexaware technologies, inc.|sr. software developer|senior": {
+        "p25": 126090,
+        "median": 127878,
+        "p75": 127878,
+        "n": 5
+    },
+    "hexaware technologies, inc.|sr. technical architect|senior": {
+        "p25": 112466,
+        "median": 126984,
+        "p75": 136183,
+        "n": 10
+    },
+    "hexaware technologies, inc.|system analyst|mid": {
+        "p25": 93860,
+        "median": 101421,
+        "p75": 105019,
+        "n": 12
+    },
+    "hexaware technologies, inc.|systems analyst|mid": {
+        "p25": 94539,
+        "median": 104000,
+        "p75": 105200,
+        "n": 12
+    },
+    "hexaware technologies, inc.|tech architect|mid": {
+        "p25": 112455,
+        "median": 117400,
+        "p75": 126100,
+        "n": 8
+    },
+    "hexaware technologies, inc.|technical architect|senior": {
+        "p25": 105997,
+        "median": 112944,
+        "p75": 123700,
+        "n": 102
+    },
+    "hexaware technologies, inc.|test lead|senior": {
+        "p25": 86403,
+        "median": 96751,
+        "p75": 104188,
+        "n": 8
+    },
+    "heygen technology inc.|software engineer|mid": {
+        "p25": 139006,
+        "median": 199534,
+        "p75": 206315,
+        "n": 5
+    },
+    "hf management services, llc|senior application developer|senior": {
+        "p25": 139147,
+        "median": 146411,
+        "p75": 150352,
+        "n": 6
+    },
+    "hidden lake technologies inc.|business analyst|mid": {
+        "p25": 80516,
+        "median": 88000,
+        "p75": 88100,
+        "n": 7
+    },
+    "highbrow technology, inc|sr. system analyst|senior": {
+        "p25": 109262,
+        "median": 109262,
+        "p75": 112475,
+        "n": 14
+    },
+    "highbrow technology, inc|system analyst|mid": {
+        "p25": 86466,
+        "median": 86466,
+        "p75": 86466,
+        "n": 15
+    },
+    "highdata software corporation|software developer|mid": {
+        "p25": 80246,
+        "median": 96616,
+        "p75": 105997,
+        "n": 5
+    },
+    "highdata sotware corporation|software engineer|mid": {
+        "p25": 89944,
+        "median": 91541,
+        "p75": 92581,
+        "n": 8
+    },
+    "highmark health|senior identity access management security engineer|senior": {
+        "p25": 135077,
+        "median": 142591,
+        "p75": 143816,
+        "n": 7
+    },
+    "highnote platform, inc.|senior software engineer|senior": {
+        "p25": 206315,
+        "median": 213512,
+        "p75": 215134,
+        "n": 12
+    },
+    "highspot, inc.|sr. software development engineer|senior": {
+        "p25": 207500,
+        "median": 225721,
+        "p75": 248500,
+        "n": 7
+    },
+    "hillcrest educational centers inc.|youth development professional|mid": {
+        "p25": 45000,
+        "median": 45000,
+        "p75": 45750,
+        "n": 19
+    },
+    "hillcrest educational centers, inc.|youth development professional|mid": {
+        "p25": 45406,
+        "median": 45760,
+        "p75": 49312,
+        "n": 10
+    },
+    "hinduja tech inc.|design release engineer|mid": {
+        "p25": 77287,
+        "median": 83241,
+        "p75": 88462,
+        "n": 6
+    },
+    "hinduja tech inc.|lead engineer|senior": {
+        "p25": 76461,
+        "median": 76752,
+        "p75": 78894,
+        "n": 5
+    },
+    "hinduja tech inc.|senior engineer|senior": {
+        "p25": 71676,
+        "median": 73382,
+        "p75": 76461,
+        "n": 8
+    },
+    "hinge health, inc.|senior software engineer|senior": {
+        "p25": 179982,
+        "median": 179982,
+        "p75": 180960,
+        "n": 5
+    },
+    "hirezon corporation|software developer|mid": {
+        "p25": 111758,
+        "median": 111758,
+        "p75": 116397,
+        "n": 5
+    },
+    "hitachi astemo americas, inc|senior engineer, design engineering|senior": {
+        "p25": 118500,
+        "median": 120000,
+        "p75": 123750,
+        "n": 6
+    },
+    "hitachi digital services llc|database administrator|mid": {
+        "p25": 87173,
+        "median": 87173,
+        "p75": 87173,
+        "n": 6
+    },
+    "hitachi digital services llc|manager|senior": {
+        "p25": 114192,
+        "median": 114192,
+        "p75": 144851,
+        "n": 15
+    },
+    "hitachi digital services llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 105997,
+        "p75": 105997,
+        "n": 41
+    },
+    "hitachi digital services llc|solution architect|senior": {
+        "p25": 105997,
+        "median": 109033,
+        "p75": 121253,
+        "n": 8
+    },
+    "hitachi energy usa inc.|project technical engineering senior professional|senior": {
+        "p25": 105800,
+        "median": 105800,
+        "p75": 110864,
+        "n": 6
+    },
+    "hiteck solutions inc.|data engineer|mid": {
+        "p25": 93000,
+        "median": 97000,
+        "p75": 109000,
+        "n": 11
+    },
+    "hiteck solutions inc.|programmer analyst|mid": {
+        "p25": 86000,
+        "median": 86000,
+        "p75": 99000,
+        "n": 5
+    },
+    "hiteck solutions inc.|software engineer|mid": {
+        "p25": 86000,
+        "median": 94000,
+        "p75": 106000,
+        "n": 13
+    },
+    "hks, inc.|design professional - architecture|mid": {
+        "p25": 64251,
+        "median": 67750,
+        "p75": 68875,
+        "n": 12
+    },
+    "hks, inc.|job captain|mid": {
+        "p25": 80500,
+        "median": 83500,
+        "p75": 85000,
+        "n": 6
+    },
+    "hlw international llp|architectural designer|mid": {
+        "p25": 75000,
+        "median": 80000,
+        "p75": 85000,
+        "n": 5
+    },
+    "hm health solutions, inc.|associate software engineer|entry": {
+        "p25": 87948,
+        "median": 93563,
+        "p75": 97254,
+        "n": 10
+    },
+    "hm health solutions, inc.|senior application developer|senior": {
+        "p25": 106621,
+        "median": 111149,
+        "p75": 112598,
+        "n": 6
+    },
+    "hm health solutions, inc.|senior big data engineer|senior": {
+        "p25": 128750,
+        "median": 129680,
+        "p75": 139112,
+        "n": 5
+    },
+    "hm health solutions, inc.|senior business systems analyst|senior": {
+        "p25": 108150,
+        "median": 108150,
+        "p75": 114169,
+        "n": 5
+    },
+    "hm health solutions, inc.|senior software engineer|senior": {
+        "p25": 131581,
+        "median": 134710,
+        "p75": 147500,
+        "n": 5
+    },
+    "hm health solutions, inc.|software engineer|mid": {
+        "p25": 108718,
+        "median": 113902,
+        "p75": 119382,
+        "n": 20
+    },
+    "hmh hospitals corporation|senior research associate|mid": {
+        "p25": 76000,
+        "median": 77127,
+        "p75": 79885,
+        "n": 5
+    },
+    "hntb corporation|engineer iii|senior": {
+        "p25": 99507,
+        "median": 105331,
+        "p75": 110156,
+        "n": 8
+    },
+    "hntb corporation|project engineer|mid": {
+        "p25": 129417,
+        "median": 134700,
+        "p75": 144726,
+        "n": 6
+    },
+    "hobbs municipal schools|public school teacher|mid": {
+        "p25": 52500,
+        "median": 55500,
+        "p75": 60000,
+        "n": 31
+    },
+    "hoerr schaudt landscape architects, llc|landscape architecture intern|intern": {
+        "p25": 73103,
+        "median": 74000,
+        "p75": 76323,
+        "n": 5
+    },
+    "holland & knight llp|associate|entry": {
+        "p25": 126963,
+        "median": 153254,
+        "p75": 200000,
+        "n": 9
+    },
+    "hollerith it solutions llc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 85467,
+        "n": 9
+    },
+    "hollister school district|elementary teacher|mid": {
+        "p25": 66598,
+        "median": 83592,
+        "p75": 94759,
+        "n": 7
+    },
+    "holocene acquisition ii llc|board-certified behavior analyst|mid": {
+        "p25": 80000,
+        "median": 81000,
+        "p75": 82000,
+        "n": 8
+    },
+    "holocene acquisition ii llc|senior board-certified behavior analyst|senior": {
+        "p25": 83000,
+        "median": 84000,
+        "p75": 85000,
+        "n": 14
+    },
+    "home depot management company llc|associate data scientist|entry": {
+        "p25": 102253,
+        "median": 105000,
+        "p75": 108000,
+        "n": 9
+    },
+    "home depot management company llc|cybersecurity sr. engineer|senior": {
+        "p25": 138922,
+        "median": 142777,
+        "p75": 145706,
+        "n": 7
+    },
+    "home depot management company llc|cybersecurity staff engineer|senior": {
+        "p25": 159544,
+        "median": 159676,
+        "p75": 162219,
+        "n": 5
+    },
+    "home depot management company llc|data scientist|mid": {
+        "p25": 118012,
+        "median": 128000,
+        "p75": 134128,
+        "n": 11
+    },
+    "home depot management company llc|lead data scientist|senior": {
+        "p25": 175000,
+        "median": 193377,
+        "p75": 193640,
+        "n": 5
+    },
+    "home depot management company llc|online sr. decision analyst|senior": {
+        "p25": 115908,
+        "median": 117500,
+        "p75": 120600,
+        "n": 5
+    },
+    "home depot management company llc|senior software engineer|senior": {
+        "p25": 131950,
+        "median": 138000,
+        "p75": 145000,
+        "n": 11
+    },
+    "home depot management company llc|software engineer|mid": {
+        "p25": 110208,
+        "median": 118347,
+        "p75": 121118,
+        "n": 7
+    },
+    "home depot management company llc|software engineer manager|senior": {
+        "p25": 180000,
+        "median": 186425,
+        "p75": 190007,
+        "n": 13
+    },
+    "home depot management company llc|software engineer principal|senior": {
+        "p25": 183758,
+        "median": 192670,
+        "p75": 195925,
+        "n": 10
+    },
+    "home depot management company llc|software engineer sr. manager|senior": {
+        "p25": 211697,
+        "median": 217000,
+        "p75": 227630,
+        "n": 5
+    },
+    "home depot management company llc|software engineer sr. principal|senior": {
+        "p25": 212267,
+        "median": 216300,
+        "p75": 227000,
+        "n": 7
+    },
+    "home depot management company llc|sr. data analyst supply chain|senior": {
+        "p25": 93194,
+        "median": 97748,
+        "p75": 100000,
+        "n": 5
+    },
+    "home depot management company llc|sr. data scientist|senior": {
+        "p25": 151250,
+        "median": 160000,
+        "p75": 160510,
+        "n": 10
+    },
+    "home depot management company llc|sr. machine learning engineer|senior": {
+        "p25": 144753,
+        "median": 150600,
+        "p75": 150700,
+        "n": 7
+    },
+    "home depot management company llc|sr. software engineer|senior": {
+        "p25": 134550,
+        "median": 139256,
+        "p75": 144615,
+        "n": 73
+    },
+    "home depot management company llc|staff software engineer|senior": {
+        "p25": 155327,
+        "median": 160425,
+        "p75": 164900,
+        "n": 59
+    },
+    "homesite group incorporated|senior engineer|senior": {
+        "p25": 123065,
+        "median": 132655,
+        "p75": 142000,
+        "n": 13
+    },
+    "honda development & manufacturing of america, llc|mechanical design sr. engineer|senior": {
+        "p25": 94499,
+        "median": 98000,
+        "p75": 100152,
+        "n": 7
+    },
+    "honda development & manufacturing of america, llc|mechanical development sr. engineer|senior": {
+        "p25": 85000,
+        "median": 92500,
+        "p75": 101500,
+        "n": 6
+    },
+    "honeywell international inc.|advanced field service engineer|mid": {
+        "p25": 117000,
+        "median": 125000,
+        "p75": 131601,
+        "n": 7
+    },
+    "honeywell international, inc.|advanced software engineer|mid": {
+        "p25": 146755,
+        "median": 160017,
+        "p75": 164162,
+        "n": 7
+    },
+    "honeywell international, inc.|sr advanced software engineer|senior": {
+        "p25": 164726,
+        "median": 167597,
+        "p75": 173218,
+        "n": 11
+    },
+    "hooglee corp.|member of technical staff|senior": {
+        "p25": 265000,
+        "median": 280000,
+        "p75": 295000,
+        "n": 7
+    },
+    "horizon international trd. inc.|software developer|mid": {
+        "p25": 124800,
+        "median": 124800,
+        "p75": 124800,
+        "n": 21
+    },
+    "horizon international trd. inc.|software quality assurance analyst and tester|mid": {
+        "p25": 99840,
+        "median": 104000,
+        "p75": 104000,
+        "n": 9
+    },
+    "horizon international trd. inc.|web software developer|mid": {
+        "p25": 85280,
+        "median": 85280,
+        "p75": 95680,
+        "n": 28
+    },
+    "hospital medicine services of nh, llc|hospitalist physician|mid": {
+        "p25": 239200,
+        "median": 239200,
+        "p75": 239200,
+        "n": 6
+    },
+    "hospital physician services southeast pc|hospitalist|mid": {
+        "p25": 289380,
+        "median": 291200,
+        "p75": 299130,
+        "n": 8
+    },
+    "hospital physician services southeast, pc|hospitalist|mid": {
+        "p25": 301730,
+        "median": 330460,
+        "p75": 346710,
+        "n": 6
+    },
+    "hospital physician services southeast, professional corporation|hospitalist physician|mid": {
+        "p25": 280800,
+        "median": 306800,
+        "p75": 332800,
+        "n": 12
+    },
+    "hospital sisters health system|medical laboratory technologist|mid": {
+        "p25": 70720,
+        "median": 70720,
+        "p75": 72800,
+        "n": 5
+    },
+    "hospitalist medicine physicians of california, inc.|hospitalist physician|mid": {
+        "p25": 280800,
+        "median": 296046,
+        "p75": 296046,
+        "n": 9
+    },
+    "hospitalist medicine physicians of ohio, p.c.|hospitalist physician|mid": {
+        "p25": 260000,
+        "median": 273000,
+        "p75": 298994,
+        "n": 6
+    },
+    "hospitalist medicine physicians of texas, pllc|hospitalist physician|mid": {
+        "p25": 240572,
+        "median": 261372,
+        "p75": 317012,
+        "n": 26
+    },
+    "hospitalist medicine physicians of virginia, llc|hospitalist physician|mid": {
+        "p25": 260000,
+        "median": 260000,
+        "p75": 260000,
+        "n": 6
+    },
+    "houlihan lokey financial advisors, inc.|associate|entry": {
+        "p25": 137500,
+        "median": 157500,
+        "p75": 170000,
+        "n": 8
+    },
+    "houlihan lokey financial advisors, inc.|financial analyst|mid": {
+        "p25": 95000,
+        "median": 102500,
+        "p75": 105000,
+        "n": 10
+    },
+    "houlihan lokey financial advisors, inc.|vice president|senior": {
+        "p25": 160000,
+        "median": 197500,
+        "p75": 245000,
+        "n": 10
+    },
+    "houston independent school district|bilingual teacher|mid": {
+        "p25": 65375,
+        "median": 67500,
+        "p75": 81000,
+        "n": 19
+    },
+    "houston independent school district|math teacher|mid": {
+        "p25": 65000,
+        "median": 65750,
+        "p75": 69500,
+        "n": 17
+    },
+    "houston independent school district|science teacher|mid": {
+        "p25": 64625,
+        "median": 67500,
+        "p75": 82750,
+        "n": 6
+    },
+    "houston methodist specialty physicians|surgical director, achd program|senior": {
+        "p25": 750000,
+        "median": 750000,
+        "p75": 750000,
+        "n": 6
+    },
+    "howard hughes medical institute|postdoctoral associate|entry": {
+        "p25": 73500,
+        "median": 75344,
+        "p75": 81372,
+        "n": 16
+    },
+    "howard hughes medical institute|postdoctoral scientist|mid": {
+        "p25": 76618,
+        "median": 79657,
+        "p75": 82375,
+        "n": 70
+    },
+    "howard hughes medical institute|research specialist|mid": {
+        "p25": 83584,
+        "median": 88909,
+        "p75": 94000,
+        "n": 35
+    },
+    "howard hughes medical institute|research specialist ii|mid": {
+        "p25": 94090,
+        "median": 95000,
+        "p75": 100000,
+        "n": 5
+    },
+    "hp inc.|pss life cycle marketing professional 3|mid": {
+        "p25": 93454,
+        "median": 95035,
+        "p75": 106538,
+        "n": 5
+    },
+    "hp inc.|software applications engineer 4|mid": {
+        "p25": 140005,
+        "median": 149947,
+        "p75": 155709,
+        "n": 9
+    },
+    "hp inc.|software applications engineer 5|mid": {
+        "p25": 149947,
+        "median": 154981,
+        "p75": 155709,
+        "n": 5
+    },
+    "hp inc.|software dev ops engineer 3|mid": {
+        "p25": 100443,
+        "median": 127878,
+        "p75": 131539,
+        "n": 7
+    },
+    "hp infosystem llc|software developer|mid": {
+        "p25": 105000,
+        "median": 105000,
+        "p75": 105000,
+        "n": 5
+    },
+    "hps software solutions, inc.|software engineer|mid": {
+        "p25": 76500,
+        "median": 83500,
+        "p75": 94625,
+        "n": 6
+    },
+    "hr&a advisors, inc.|analyst|mid": {
+        "p25": 84900,
+        "median": 90000,
+        "p75": 90000,
+        "n": 6
+    },
+    "hrb professional resources, llc|lead software engineer|senior": {
+        "p25": 144731,
+        "median": 148374,
+        "p75": 150930,
+        "n": 12
+    },
+    "hrb professional resources, llc|senior software engineer|senior": {
+        "p25": 123030,
+        "median": 127029,
+        "p75": 129486,
+        "n": 22
+    },
+    "hrb professional resources, llc|software engineer|mid": {
+        "p25": 107909,
+        "median": 112299,
+        "p75": 120505,
+        "n": 7
+    },
+    "hrk solutions llc|software developer|mid": {
+        "p25": 90896,
+        "median": 106558,
+        "p75": 107910,
+        "n": 7
+    },
+    "hrt research llc|algorithm developer|mid": {
+        "p25": 177500,
+        "median": 185000,
+        "p75": 185000,
+        "n": 14
+    },
+    "hrt research llc|algorithm engineer|mid": {
+        "p25": 185000,
+        "median": 185000,
+        "p75": 185000,
+        "n": 6
+    },
+    "hs solutions inc|software engineer|mid": {
+        "p25": 82950,
+        "median": 86320,
+        "p75": 102305,
+        "n": 7
+    },
+    "hs technologies llc|software engineer|mid": {
+        "p25": 96366,
+        "median": 98249,
+        "p75": 118398,
+        "n": 8
+    },
+    "hsk technologies inc|data analyst|mid": {
+        "p25": 76606,
+        "median": 76606,
+        "p75": 95492,
+        "n": 5
+    },
+    "hsquare it solutions inc|software programmer|mid": {
+        "p25": 76315,
+        "median": 76315,
+        "p75": 79078,
+        "n": 6
+    },
+    "htc global services inc.|architect|senior": {
+        "p25": 109210,
+        "median": 121514,
+        "p75": 127265,
+        "n": 11
+    },
+    "htc global services inc.|manager|senior": {
+        "p25": 104181,
+        "median": 115377,
+        "p75": 122221,
+        "n": 6
+    },
+    "htc global services inc.|programmer analyst|mid": {
+        "p25": 78021,
+        "median": 86528,
+        "p75": 92830,
+        "n": 97
+    },
+    "htc global services inc.|project manager|senior": {
+        "p25": 114213,
+        "median": 120120,
+        "p75": 139589,
+        "n": 5
+    },
+    "htc global services inc.|senior programmer analyst|senior": {
+        "p25": 103896,
+        "median": 114442,
+        "p75": 125840,
+        "n": 25
+    },
+    "htc global services inc.|senior software developer|senior": {
+        "p25": 124789,
+        "median": 132350,
+        "p75": 138486,
+        "n": 23
+    },
+    "htc global services inc.|senior software quality assurance analyst and tester|senior": {
+        "p25": 93163,
+        "median": 97490,
+        "p75": 103334,
+        "n": 5
+    },
+    "htc global services inc.|senior systems analyst|senior": {
+        "p25": 109226,
+        "median": 116834,
+        "p75": 122803,
+        "n": 8
+    },
+    "htc global services inc.|software developer|mid": {
+        "p25": 100402,
+        "median": 106277,
+        "p75": 118461,
+        "n": 108
+    },
+    "htc global services inc.|software quality assurance analyst and tester|mid": {
+        "p25": 89045,
+        "median": 91894,
+        "p75": 100443,
+        "n": 22
+    },
+    "htc global services inc.|systems analyst|mid": {
+        "p25": 106350,
+        "median": 113121,
+        "p75": 121482,
+        "n": 22
+    },
+    "htms inc|software developer|mid": {
+        "p25": 93038,
+        "median": 103210,
+        "p75": 109845,
+        "n": 5
+    },
+    "htms inc|software programmer|mid": {
+        "p25": 75899,
+        "median": 87682,
+        "p75": 94370,
+        "n": 10
+    },
+    "hubspot, inc.|senior software engineer i|mid": {
+        "p25": 157600,
+        "median": 157600,
+        "p75": 157600,
+        "n": 58
+    },
+    "hubspot, inc.|senior software engineer ii|senior": {
+        "p25": 181900,
+        "median": 181900,
+        "p75": 186300,
+        "n": 32
+    },
+    "hubspot, inc.|software engineer|mid": {
+        "p25": 135675,
+        "median": 141100,
+        "p75": 141100,
+        "n": 23
+    },
+    "hubspot, inc.|technical lead ii|senior": {
+        "p25": 191100,
+        "median": 195600,
+        "p75": 195600,
+        "n": 15
+    },
+    "hudson bay capital management lp|analyst|mid": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 8
+    },
+    "hudson headwaters health network|family medicine physician|mid": {
+        "p25": 230000,
+        "median": 240000,
+        "p75": 240000,
+        "n": 7
+    },
+    "hudson river trading llc|core developer|mid": {
+        "p25": 185000,
+        "median": 185000,
+        "p75": 185000,
+        "n": 15
+    },
+    "hughes network systems llc|principal engineer i - software|senior": {
+        "p25": 130368,
+        "median": 148221,
+        "p75": 162449,
+        "n": 9
+    },
+    "hughes network systems llc|principal engineer ii - software|senior": {
+        "p25": 151740,
+        "median": 151894,
+        "p75": 158195,
+        "n": 8
+    },
+    "hulu, llc|lead software engineer|senior": {
+        "p25": 190538,
+        "median": 192171,
+        "p75": 196753,
+        "n": 11
+    },
+    "hulu, llc|senior software engineer|senior": {
+        "p25": 167683,
+        "median": 175090,
+        "p75": 183469,
+        "n": 8
+    },
+    "humac, inc.|software engineer|mid": {
+        "p25": 105982,
+        "median": 111072,
+        "p75": 111072,
+        "n": 14
+    },
+    "human resources research organization|research scientist|mid": {
+        "p25": 84786,
+        "median": 84786,
+        "p75": 89877,
+        "n": 5
+    },
+    "humana inc.|lead application architect|senior": {
+        "p25": 141175,
+        "median": 145000,
+        "p75": 152750,
+        "n": 6
+    },
+    "humana inc.|lead cloud architect|senior": {
+        "p25": 150223,
+        "median": 158340,
+        "p75": 166885,
+        "n": 10
+    },
+    "humana inc.|lead full stack engineer|senior": {
+        "p25": 150000,
+        "median": 155000,
+        "p75": 161500,
+        "n": 6
+    },
+    "humana inc.|lead software engineer|senior": {
+        "p25": 130645,
+        "median": 153358,
+        "p75": 168023,
+        "n": 16
+    },
+    "humana inc.|lead solutions architect|senior": {
+        "p25": 154902,
+        "median": 164998,
+        "p75": 168500,
+        "n": 7
+    },
+    "humana inc.|lead technology leadership professional|senior": {
+        "p25": 129646,
+        "median": 142293,
+        "p75": 147846,
+        "n": 12
+    },
+    "humana inc.|physical therapist|mid": {
+        "p25": 87001,
+        "median": 87786,
+        "p75": 95680,
+        "n": 8
+    },
+    "humana inc.|senior application architect|senior": {
+        "p25": 126837,
+        "median": 133720,
+        "p75": 145692,
+        "n": 12
+    },
+    "humana inc.|senior business intelligence engineer|senior": {
+        "p25": 97472,
+        "median": 106360,
+        "p75": 113165,
+        "n": 10
+    },
+    "humana inc.|senior cloud services engineer|senior": {
+        "p25": 121328,
+        "median": 130000,
+        "p75": 140795,
+        "n": 5
+    },
+    "humana inc.|senior cloud solutions engineer|senior": {
+        "p25": 121349,
+        "median": 137000,
+        "p75": 148750,
+        "n": 11
+    },
+    "humana inc.|senior data engineer|senior": {
+        "p25": 132405,
+        "median": 146098,
+        "p75": 147209,
+        "n": 9
+    },
+    "humana inc.|senior data scientist|senior": {
+        "p25": 119794,
+        "median": 134693,
+        "p75": 141331,
+        "n": 8
+    },
+    "humana inc.|senior full stack engineer|senior": {
+        "p25": 127414,
+        "median": 130549,
+        "p75": 131949,
+        "n": 16
+    },
+    "humana inc.|senior software engineer|senior": {
+        "p25": 120913,
+        "median": 128586,
+        "p75": 130729,
+        "n": 61
+    },
+    "humana inc.|senior technology leadership professional|senior": {
+        "p25": 127657,
+        "median": 129550,
+        "p75": 139848,
+        "n": 7
+    },
+    "humana inc.|software engineer 2|mid": {
+        "p25": 92252,
+        "median": 100849,
+        "p75": 101028,
+        "n": 5
+    },
+    "humetis technologies, inc.|qa analyst|mid": {
+        "p25": 87807,
+        "median": 100630,
+        "p75": 114031,
+        "n": 6
+    },
+    "humetis technologies, inc.|software developer|mid": {
+        "p25": 105206,
+        "median": 105997,
+        "p75": 121451,
+        "n": 9
+    },
+    "hunter college of the city university of new york|assistant professor|entry": {
+        "p25": 93134,
+        "median": 97580,
+        "p75": 99532,
+        "n": 7
+    },
+    "hunter taubman ny llp|associate attorney|entry": {
+        "p25": 93662,
+        "median": 101000,
+        "p75": 120000,
+        "n": 8
+    },
+    "huntingridge solutions llc|integration developer|mid": {
+        "p25": 89814,
+        "median": 95243,
+        "p75": 106662,
+        "n": 5
+    },
+    "huron consulting services, llc|oracle consulting manager|senior": {
+        "p25": 106558,
+        "median": 150000,
+        "p75": 160000,
+        "n": 8
+    },
+    "hvj north texas - chelliah consultants, inc|graduate engineer|entry": {
+        "p25": 64459,
+        "median": 64459,
+        "p75": 64459,
+        "n": 6
+    },
+    "hyatt corporation|data engineer|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 103200,
+        "n": 5
+    },
+    "hyde engineering and consulting, inc.|validation engineer|mid": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 128109,
+        "n": 5
+    }
+}

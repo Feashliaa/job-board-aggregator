@@ -1,0 +1,1070 @@
+{
+    "j-star research, inc.|research scientist|mid": {
+        "p25": 79225,
+        "median": 84050,
+        "p75": 89362,
+        "n": 8
+    },
+    "j.b. hunt transport, inc.|expert software engineer|mid": {
+        "p25": 151875,
+        "median": 167750,
+        "p75": 173250,
+        "n": 8
+    },
+    "j.b. hunt transport, inc.|senior software engineer|senior": {
+        "p25": 134000,
+        "median": 137694,
+        "p75": 143100,
+        "n": 61
+    },
+    "j.b. hunt transport, inc.|software engineer iii|senior": {
+        "p25": 117925,
+        "median": 121000,
+        "p75": 123656,
+        "n": 82
+    },
+    "jabil inc.|industrial engineer iii|senior": {
+        "p25": 104978,
+        "median": 104978,
+        "p75": 109346,
+        "n": 5
+    },
+    "jabil inc.|information technology technical lead|senior": {
+        "p25": 122429,
+        "median": 124363,
+        "p75": 136136,
+        "n": 5
+    },
+    "jackson park hospital foundation|emergency room clinical nurse specialist|mid": {
+        "p25": 76876,
+        "median": 76876,
+        "p75": 76876,
+        "n": 5
+    },
+    "jackson park hospital foundation|intensive care unit nurse specialist|mid": {
+        "p25": 76876,
+        "median": 76876,
+        "p75": 76876,
+        "n": 9
+    },
+    "jackson park hospital foundation|progressive care unit nurse specialist|mid": {
+        "p25": 76876,
+        "median": 76876,
+        "p75": 76876,
+        "n": 9
+    },
+    "jackson park hospital foundation|surgical unit nurse specialist|mid": {
+        "p25": 76876,
+        "median": 76876,
+        "p75": 76876,
+        "n": 11
+    },
+    "jackson public school district|elementary teacher|mid": {
+        "p25": 53056,
+        "median": 58050,
+        "p75": 62491,
+        "n": 26
+    },
+    "jackson public school district|mathematics teacher|mid": {
+        "p25": 52500,
+        "median": 54997,
+        "p75": 55438,
+        "n": 11
+    },
+    "jackson public school district|special education teacher|mid": {
+        "p25": 50100,
+        "median": 50100,
+        "p75": 58000,
+        "n": 15
+    },
+    "jacobs project management company|assistant project manager|mid": {
+        "p25": 86000,
+        "median": 108229,
+        "p75": 109204,
+        "n": 5
+    },
+    "jacobs project management company|project engineer|mid": {
+        "p25": 102470,
+        "median": 108160,
+        "p75": 117004,
+        "n": 10
+    },
+    "jade global, inc.|associate principal consultant|senior": {
+        "p25": 112089,
+        "median": 117400,
+        "p75": 131997,
+        "n": 5
+    },
+    "jade global, inc.|principal consultant|senior": {
+        "p25": 122917,
+        "median": 134139,
+        "p75": 142500,
+        "n": 8
+    },
+    "jade global, inc.|senior consultant|senior": {
+        "p25": 106000,
+        "median": 113636,
+        "p75": 140000,
+        "n": 5
+    },
+    "jag-one physical therapy, llc|physical therapist|mid": {
+        "p25": 89752,
+        "median": 93309,
+        "p75": 93309,
+        "n": 5
+    },
+    "jane street group, llc|software engineer|mid": {
+        "p25": 300000,
+        "median": 300000,
+        "p75": 300000,
+        "n": 20
+    },
+    "jane street group, llc|trader|mid": {
+        "p25": 300000,
+        "median": 300000,
+        "p75": 300000,
+        "n": 12
+    },
+    "japanese children's society, inc.|teacher|mid": {
+        "p25": 50778,
+        "median": 58656,
+        "p75": 63653,
+        "n": 13
+    },
+    "jasper county school district|elementary school teacher|mid": {
+        "p25": 45650,
+        "median": 45650,
+        "p75": 45650,
+        "n": 5
+    },
+    "jasper county school district|high school teacher|mid": {
+        "p25": 45960,
+        "median": 45960,
+        "p75": 45960,
+        "n": 11
+    },
+    "jasper county school district|middle school teacher|mid": {
+        "p25": 48540,
+        "median": 48540,
+        "p75": 48540,
+        "n": 5
+    },
+    "jasper county school district- ridgeland secondary academy of excellence|middle school teacher|mid": {
+        "p25": 55018,
+        "median": 59689,
+        "p75": 62160,
+        "n": 6
+    },
+    "javen technologies inc.,|software engineer|mid": {
+        "p25": 107000,
+        "median": 118000,
+        "p75": 126000,
+        "n": 6
+    },
+    "jaydu llc|mechanical design engineer|mid": {
+        "p25": 68500,
+        "median": 77157,
+        "p75": 82269,
+        "n": 16
+    },
+    "jazz pharmaceuticals, inc.|associate director, statistical programming|senior": {
+        "p25": 188157,
+        "median": 188157,
+        "p75": 188157,
+        "n": 5
+    },
+    "jean martin inc|information security analyst|mid": {
+        "p25": 105373,
+        "median": 119496,
+        "p75": 119496,
+        "n": 5
+    },
+    "jean martin inc|software developer|mid": {
+        "p25": 97443,
+        "median": 106277,
+        "p75": 123656,
+        "n": 36
+    },
+    "jean martin inc|software programmer|mid": {
+        "p25": 82191,
+        "median": 97708,
+        "p75": 98301,
+        "n": 10
+    },
+    "jefferies llc|analyst|mid": {
+        "p25": 110000,
+        "median": 120000,
+        "p75": 122500,
+        "n": 7
+    },
+    "jefferies llc|assistant vice president|senior": {
+        "p25": 150000,
+        "median": 160000,
+        "p75": 160000,
+        "n": 5
+    },
+    "jefferies llc|associate|entry": {
+        "p25": 131250,
+        "median": 145000,
+        "p75": 165000,
+        "n": 14
+    },
+    "jefferies llc|investment banking associate|entry": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 200000,
+        "n": 32
+    },
+    "jefferies llc|senior vice president|senior": {
+        "p25": 277500,
+        "median": 300000,
+        "p75": 300000,
+        "n": 10
+    },
+    "jefferies llc|vice president|senior": {
+        "p25": 190000,
+        "median": 225000,
+        "p75": 235000,
+        "n": 22
+    },
+    "jefferies llc|vice president, information technology|senior": {
+        "p25": 180000,
+        "median": 192250,
+        "p75": 200000,
+        "n": 10
+    },
+    "jefferson joint school district 251|dual immersion teacher|mid": {
+        "p25": 47975,
+        "median": 54505,
+        "p75": 58040,
+        "n": 5
+    },
+    "jetselect, llc|captain|mid": {
+        "p25": 130000,
+        "median": 150800,
+        "p75": 182500,
+        "n": 12
+    },
+    "jkv international llc|software developer|mid": {
+        "p25": 85280,
+        "median": 102138,
+        "p75": 106080,
+        "n": 22
+    },
+    "jkv international llc|web software developer|mid": {
+        "p25": 91520,
+        "median": 91520,
+        "p75": 91520,
+        "n": 19
+    },
+    "jnit technologies inc|devops engineer|mid": {
+        "p25": 103948,
+        "median": 105997,
+        "p75": 107921,
+        "n": 7
+    },
+    "jnit technologies inc|java developer|mid": {
+        "p25": 107650,
+        "median": 112923,
+        "p75": 120203,
+        "n": 7
+    },
+    "jobaire group, inc|aeronautical scientific technician|mid": {
+        "p25": 54080,
+        "median": 57200,
+        "p75": 57200,
+        "n": 12
+    },
+    "jobs n profiles llc|programmer analyst|mid": {
+        "p25": 78510,
+        "median": 81578,
+        "p75": 81578,
+        "n": 7
+    },
+    "john adams academy|teacher/education specialist|mid": {
+        "p25": 76125,
+        "median": 76125,
+        "p75": 83000,
+        "n": 5
+    },
+    "john hancock life insurance company (usa)|senior full-stack software engineer|senior": {
+        "p25": 140193,
+        "median": 150552,
+        "p75": 153976,
+        "n": 7
+    },
+    "johns hopkins university|assistant professor|entry": {
+        "p25": 118742,
+        "median": 141688,
+        "p75": 160000,
+        "n": 54
+    },
+    "johns hopkins university|assistant research scientist|entry": {
+        "p25": 71513,
+        "median": 75000,
+        "p75": 87524,
+        "n": 20
+    },
+    "johns hopkins university|assistant scientist|entry": {
+        "p25": 94000,
+        "median": 98000,
+        "p75": 110724,
+        "n": 6
+    },
+    "johns hopkins university|associate research scientist|entry": {
+        "p25": 86750,
+        "median": 95142,
+        "p75": 99364,
+        "n": 8
+    },
+    "johns hopkins university|lecturer|mid": {
+        "p25": 71000,
+        "median": 80000,
+        "p75": 85000,
+        "n": 5
+    },
+    "johns hopkins university|postdoctoral fellow|senior": {
+        "p25": 64617,
+        "median": 69093,
+        "p75": 71649,
+        "n": 44
+    },
+    "johns hopkins university|postdoctoral research  fellow|senior": {
+        "p25": 66492,
+        "median": 66492,
+        "p75": 66492,
+        "n": 5
+    },
+    "johns hopkins university|postdoctoral research fellow|senior": {
+        "p25": 65647,
+        "median": 68964,
+        "p75": 70762,
+        "n": 50
+    },
+    "johns hopkins university|research associate|entry": {
+        "p25": 70000,
+        "median": 72050,
+        "p75": 77421,
+        "n": 54
+    },
+    "johns hopkins university|research data analyst|mid": {
+        "p25": 65000,
+        "median": 66934,
+        "p75": 72000,
+        "n": 5
+    },
+    "johns hopkins university|resident|entry": {
+        "p25": 73135,
+        "median": 73135,
+        "p75": 75695,
+        "n": 8
+    },
+    "johns hopkins university|sr. research data analyst|senior": {
+        "p25": 70857,
+        "median": 76973,
+        "p75": 91625,
+        "n": 8
+    },
+    "johns hopkins university|sr. research specialist|senior": {
+        "p25": 61206,
+        "median": 70000,
+        "p75": 75000,
+        "n": 8
+    },
+    "johnston county public schools|teacher|mid": {
+        "p25": 45052,
+        "median": 45510,
+        "p75": 46670,
+        "n": 12
+    },
+    "jolttek inc|software developer|mid": {
+        "p25": 91000,
+        "median": 95493,
+        "p75": 97157,
+        "n": 21
+    },
+    "jolttek inc|software engineer|mid": {
+        "p25": 95493,
+        "median": 105227,
+        "p75": 108826,
+        "n": 5
+    },
+    "josh pros llc|software developer|mid": {
+        "p25": 105227,
+        "median": 105227,
+        "p75": 106558,
+        "n": 5
+    },
+    "joslin diabetes center|research fellow|senior": {
+        "p25": 75382,
+        "median": 75582,
+        "p75": 77267,
+        "n": 5
+    },
+    "jpmorgan chase & co.|analyst|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 115000,
+        "n": 13
+    },
+    "jpmorgan chase & co.|analyst, investment banking|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|applied ai ml associate sr|mid": {
+        "p25": 150925,
+        "median": 157280,
+        "p75": 167715,
+        "n": 6
+    },
+    "jpmorgan chase & co.|associate|entry": {
+        "p25": 145000,
+        "median": 162500,
+        "p75": 175000,
+        "n": 22
+    },
+    "jpmorgan chase & co.|associate, analytics solutions assoc sr|mid": {
+        "p25": 117332,
+        "median": 123000,
+        "p75": 134350,
+        "n": 15
+    },
+    "jpmorgan chase & co.|associate, applied ai ml associate sr|mid": {
+        "p25": 152880,
+        "median": 170000,
+        "p75": 170000,
+        "n": 17
+    },
+    "jpmorgan chase & co.|associate, ccb risk program associate|entry": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 140000,
+        "n": 6
+    },
+    "jpmorgan chase & co.|associate, cib assoc 2022 cf|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|associate, cib risk associate|entry": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 140000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|associate, data engineer iii|mid": {
+        "p25": 121450,
+        "median": 124000,
+        "p75": 143900,
+        "n": 7
+    },
+    "jpmorgan chase & co.|associate, data scientist|entry": {
+        "p25": 130266,
+        "median": 136500,
+        "p75": 144550,
+        "n": 8
+    },
+    "jpmorgan chase & co.|associate, data scientist associate sr|mid": {
+        "p25": 131100,
+        "median": 137800,
+        "p75": 148500,
+        "n": 21
+    },
+    "jpmorgan chase & co.|associate, experience design senior associate|mid": {
+        "p25": 132000,
+        "median": 132500,
+        "p75": 134000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|associate, financial analysis|entry": {
+        "p25": 110500,
+        "median": 116500,
+        "p75": 119000,
+        "n": 9
+    },
+    "jpmorgan chase & co.|associate, infrastructure engineer iii|mid": {
+        "p25": 128100,
+        "median": 132300,
+        "p75": 141760,
+        "n": 19
+    },
+    "jpmorgan chase & co.|associate, investment banking|entry": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 175000,
+        "n": 19
+    },
+    "jpmorgan chase & co.|associate, lead software engineer|senior": {
+        "p25": 150000,
+        "median": 160000,
+        "p75": 168050,
+        "n": 7
+    },
+    "jpmorgan chase & co.|associate, quant analytics|entry": {
+        "p25": 104000,
+        "median": 118000,
+        "p75": 121000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|associate, quant analytics associate sr|mid": {
+        "p25": 121500,
+        "median": 125500,
+        "p75": 135000,
+        "n": 33
+    },
+    "jpmorgan chase & co.|associate, quantitative analytics|entry": {
+        "p25": 136500,
+        "median": 139700,
+        "p75": 139700,
+        "n": 5
+    },
+    "jpmorgan chase & co.|associate, security engineer iii|mid": {
+        "p25": 123375,
+        "median": 142600,
+        "p75": 163000,
+        "n": 16
+    },
+    "jpmorgan chase & co.|associate, software engineer|entry": {
+        "p25": 133550,
+        "median": 138000,
+        "p75": 146550,
+        "n": 19
+    },
+    "jpmorgan chase & co.|associate, software engineer ii|entry": {
+        "p25": 115000,
+        "median": 121500,
+        "p75": 134450,
+        "n": 50
+    },
+    "jpmorgan chase & co.|associate, software engineer iii|mid": {
+        "p25": 131500,
+        "median": 140400,
+        "p75": 150000,
+        "n": 726
+    },
+    "jpmorgan chase & co.|associate, software engineering|entry": {
+        "p25": 113225,
+        "median": 126350,
+        "p75": 130806,
+        "n": 6
+    },
+    "jpmorgan chase & co.|associate, solutions analyst iii|mid": {
+        "p25": 115875,
+        "median": 141150,
+        "p75": 158100,
+        "n": 6
+    },
+    "jpmorgan chase & co.|associate, sr product associate|mid": {
+        "p25": 116000,
+        "median": 120000,
+        "p75": 131800,
+        "n": 15
+    },
+    "jpmorgan chase & co.|associate, sr product delivery associate|mid": {
+        "p25": 111000,
+        "median": 112000,
+        "p75": 112000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|associate, sre iii|mid": {
+        "p25": 129050,
+        "median": 132750,
+        "p75": 150375,
+        "n": 20
+    },
+    "jpmorgan chase & co.|associate, strategic analytics|entry": {
+        "p25": 108250,
+        "median": 111700,
+        "p75": 123600,
+        "n": 22
+    },
+    "jpmorgan chase & co.|associate, technology support iii|mid": {
+        "p25": 115175,
+        "median": 123450,
+        "p75": 135325,
+        "n": 36
+    },
+    "jpmorgan chase & co.|cib risk associate|entry": {
+        "p25": 135000,
+        "median": 140000,
+        "p75": 148750,
+        "n": 6
+    },
+    "jpmorgan chase & co.|executive director, director of software engineeri|senior": {
+        "p25": 197750,
+        "median": 225000,
+        "p75": 235000,
+        "n": 11
+    },
+    "jpmorgan chase & co.|executive director, director of software engineering|senior": {
+        "p25": 198200,
+        "median": 215000,
+        "p75": 245000,
+        "n": 17
+    },
+    "jpmorgan chase & co.|executive director, origination/client manager|senior": {
+        "p25": 325000,
+        "median": 325000,
+        "p75": 350000,
+        "n": 7
+    },
+    "jpmorgan chase & co.|executive director, principal software engineer|senior": {
+        "p25": 206900,
+        "median": 215000,
+        "p75": 242500,
+        "n": 18
+    },
+    "jpmorgan chase & co.|executive director, product director|senior": {
+        "p25": 215000,
+        "median": 230000,
+        "p75": 256250,
+        "n": 18
+    },
+    "jpmorgan chase & co.|executive director, quant analytics director|senior": {
+        "p25": 201100,
+        "median": 215000,
+        "p75": 220000,
+        "n": 7
+    },
+    "jpmorgan chase & co.|executive director, quant modeling director|senior": {
+        "p25": 222500,
+        "median": 260000,
+        "p75": 260000,
+        "n": 6
+    },
+    "jpmorgan chase & co.|executive director, sr director of software engine|senior": {
+        "p25": 245000,
+        "median": 252500,
+        "p75": 260000,
+        "n": 6
+    },
+    "jpmorgan chase & co.|executive director, trader|senior": {
+        "p25": 325000,
+        "median": 350000,
+        "p75": 350000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|investment banking analyst|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 121250,
+        "n": 6
+    },
+    "jpmorgan chase & co.|investment banking associate|entry": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 200000,
+        "n": 16
+    },
+    "jpmorgan chase & co.|lead software engineer|senior": {
+        "p25": 148500,
+        "median": 150000,
+        "p75": 155000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|product delivery manager|senior": {
+        "p25": 156500,
+        "median": 161100,
+        "p75": 161100,
+        "n": 5
+    },
+    "jpmorgan chase & co.|quant analytics associate sr|mid": {
+        "p25": 125000,
+        "median": 132500,
+        "p75": 135000,
+        "n": 8
+    },
+    "jpmorgan chase & co.|senior product associate|mid": {
+        "p25": 110000,
+        "median": 125098,
+        "p75": 140000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|vice president|senior": {
+        "p25": 181750,
+        "median": 205000,
+        "p75": 230000,
+        "n": 8
+    },
+    "jpmorgan chase & co.|vice president, agility lead|senior": {
+        "p25": 162600,
+        "median": 165500,
+        "p75": 165500,
+        "n": 5
+    },
+    "jpmorgan chase & co.|vice president, ai research lead|senior": {
+        "p25": 174500,
+        "median": 196000,
+        "p75": 198000,
+        "n": 9
+    },
+    "jpmorgan chase & co.|vice president, analytics solutions manager|senior": {
+        "p25": 154000,
+        "median": 170000,
+        "p75": 177000,
+        "n": 25
+    },
+    "jpmorgan chase & co.|vice president, applied ai ml lead|senior": {
+        "p25": 165000,
+        "median": 180000,
+        "p75": 209000,
+        "n": 31
+    },
+    "jpmorgan chase & co.|vice president, business management|senior": {
+        "p25": 139000,
+        "median": 175000,
+        "p75": 183000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|vice president, data domain architect lead|senior": {
+        "p25": 165000,
+        "median": 170000,
+        "p75": 172000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|vice president, data management lead|senior": {
+        "p25": 135650,
+        "median": 165550,
+        "p75": 185937,
+        "n": 8
+    },
+    "jpmorgan chase & co.|vice president, data scientist lead|senior": {
+        "p25": 144800,
+        "median": 170545,
+        "p75": 181000,
+        "n": 25
+    },
+    "jpmorgan chase & co.|vice president, data visualization manager|senior": {
+        "p25": 136023,
+        "median": 144796,
+        "p75": 161750,
+        "n": 6
+    },
+    "jpmorgan chase & co.|vice president, e-markets|senior": {
+        "p25": 215000,
+        "median": 245000,
+        "p75": 260000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|vice president, e-markets vp|senior": {
+        "p25": 235000,
+        "median": 245000,
+        "p75": 245000,
+        "n": 7
+    },
+    "jpmorgan chase & co.|vice president, investment banking|senior": {
+        "p25": 215000,
+        "median": 285000,
+        "p75": 285000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|vice president, lead architect|senior": {
+        "p25": 155450,
+        "median": 167550,
+        "p75": 182200,
+        "n": 18
+    },
+    "jpmorgan chase & co.|vice president, lead credit officer|senior": {
+        "p25": 163750,
+        "median": 165000,
+        "p75": 182500,
+        "n": 7
+    },
+    "jpmorgan chase & co.|vice president, lead infrastructure engineer|senior": {
+        "p25": 151200,
+        "median": 163007,
+        "p75": 175000,
+        "n": 29
+    },
+    "jpmorgan chase & co.|vice president, lead security engineer|senior": {
+        "p25": 148740,
+        "median": 163900,
+        "p75": 173200,
+        "n": 34
+    },
+    "jpmorgan chase & co.|vice president, lead software engineer|senior": {
+        "p25": 150000,
+        "median": 162400,
+        "p75": 175000,
+        "n": 826
+    },
+    "jpmorgan chase & co.|vice president, lead solutions analyst|senior": {
+        "p25": 141700,
+        "median": 154500,
+        "p75": 169900,
+        "n": 7
+    },
+    "jpmorgan chase & co.|vice president, lead sre|senior": {
+        "p25": 148400,
+        "median": 164000,
+        "p75": 175000,
+        "n": 21
+    },
+    "jpmorgan chase & co.|vice president, lead technical program manager|senior": {
+        "p25": 152000,
+        "median": 158500,
+        "p75": 185100,
+        "n": 11
+    },
+    "jpmorgan chase & co.|vice president, manager of software engineering|senior": {
+        "p25": 151487,
+        "median": 165300,
+        "p75": 179025,
+        "n": 60
+    },
+    "jpmorgan chase & co.|vice president, market risk coverage lead|senior": {
+        "p25": 160000,
+        "median": 165000,
+        "p75": 178750,
+        "n": 8
+    },
+    "jpmorgan chase & co.|vice president, modeling analytics|senior": {
+        "p25": 151436,
+        "median": 160572,
+        "p75": 165465,
+        "n": 6
+    },
+    "jpmorgan chase & co.|vice president, origination/client manager|senior": {
+        "p25": 260000,
+        "median": 285000,
+        "p75": 285000,
+        "n": 9
+    },
+    "jpmorgan chase & co.|vice president, product delivery manager|senior": {
+        "p25": 144250,
+        "median": 152523,
+        "p75": 162725,
+        "n": 16
+    },
+    "jpmorgan chase & co.|vice president, product manager|senior": {
+        "p25": 143000,
+        "median": 164340,
+        "p75": 180587,
+        "n": 82
+    },
+    "jpmorgan chase & co.|vice president, quant analytics manager|senior": {
+        "p25": 145750,
+        "median": 155000,
+        "p75": 161250,
+        "n": 27
+    },
+    "jpmorgan chase & co.|vice president, quant modeling lead|senior": {
+        "p25": 164587,
+        "median": 175100,
+        "p75": 187215,
+        "n": 35
+    },
+    "jpmorgan chase & co.|vice president, quantitative research|senior": {
+        "p25": 200000,
+        "median": 205000,
+        "p75": 210000,
+        "n": 36
+    },
+    "jpmorgan chase & co.|vice president, research analyst|senior": {
+        "p25": 190000,
+        "median": 215000,
+        "p75": 225000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|vice president, senior lead software engineer|senior": {
+        "p25": 178125,
+        "median": 186500,
+        "p75": 205400,
+        "n": 10
+    },
+    "jpmorgan chase & co.|vice president, software engineer|senior": {
+        "p25": 151100,
+        "median": 162800,
+        "p75": 181500,
+        "n": 22
+    },
+    "jpmorgan chase & co.|vice president, software engineering|senior": {
+        "p25": 144250,
+        "median": 158600,
+        "p75": 172375,
+        "n": 8
+    },
+    "jpmorgan chase & co.|vice president, sr lead architect|senior": {
+        "p25": 171775,
+        "median": 185300,
+        "p75": 193770,
+        "n": 14
+    },
+    "jpmorgan chase & co.|vice president, sr lead infrastructure engineer|senior": {
+        "p25": 158275,
+        "median": 168900,
+        "p75": 177725,
+        "n": 6
+    },
+    "jpmorgan chase & co.|vice president, sr lead security engineer|senior": {
+        "p25": 181050,
+        "median": 187570,
+        "p75": 194050,
+        "n": 8
+    },
+    "jpmorgan chase & co.|vice president, sr lead software engineer|senior": {
+        "p25": 168275,
+        "median": 179236,
+        "p75": 192050,
+        "n": 236
+    },
+    "jpmorgan chase & co.|vice president, sr lead sre|senior": {
+        "p25": 171050,
+        "median": 172100,
+        "p75": 176900,
+        "n": 7
+    },
+    "jpmorgan chase & co.|vice president, sr manager of software engineering|senior": {
+        "p25": 169400,
+        "median": 180000,
+        "p75": 194800,
+        "n": 105
+    },
+    "jpmorgan chase & co.|vice president, sr. lead software engineer|senior": {
+        "p25": 169500,
+        "median": 176700,
+        "p75": 187750,
+        "n": 19
+    },
+    "jpmorgan chase & co.|vice president, strategic analytics|senior": {
+        "p25": 145875,
+        "median": 157800,
+        "p75": 172800,
+        "n": 18
+    },
+    "jpmorgan chase & co.|vice president, strategy manager|senior": {
+        "p25": 185000,
+        "median": 215000,
+        "p75": 215000,
+        "n": 5
+    },
+    "jpmorgan chase & co.|vice president, tech audit manager|senior": {
+        "p25": 173910,
+        "median": 177400,
+        "p75": 181400,
+        "n": 5
+    },
+    "jpmorgan chase & co.|vice president, technology support lead|senior": {
+        "p25": 135425,
+        "median": 140750,
+        "p75": 155125,
+        "n": 38
+    },
+    "jpmorgan chase & co.|vice president, trader|senior": {
+        "p25": 233750,
+        "median": 260000,
+        "p75": 285000,
+        "n": 16
+    },
+    "jpmorgan chase & co.|vice president, trading services manager iii|senior": {
+        "p25": 147000,
+        "median": 175000,
+        "p75": 187700,
+        "n": 7
+    },
+    "jsl logistics inc|logistician|mid": {
+        "p25": 56555,
+        "median": 67017,
+        "p75": 67017,
+        "n": 5
+    },
+    "jsmn international, inc|software developer|mid": {
+        "p25": 123656,
+        "median": 123656,
+        "p75": 123656,
+        "n": 13
+    },
+    "judlau contracting, inc.|project engineer|mid": {
+        "p25": 97604,
+        "median": 126672,
+        "p75": 133259,
+        "n": 7
+    },
+    "julia dyckman andrus memorial, inc.|youth development professional|mid": {
+        "p25": 42473,
+        "median": 44553,
+        "p75": 44553,
+        "n": 13
+    },
+    "jump operations, llc|quantitative researcher|mid": {
+        "p25": 200000,
+        "median": 250000,
+        "p75": 300000,
+        "n": 13
+    },
+    "jump operations, llc|software engineer|mid": {
+        "p25": 200000,
+        "median": 237500,
+        "p75": 250000,
+        "n": 12
+    },
+    "juniper networks (us), inc.|resident engineer staff|senior": {
+        "p25": 142193,
+        "median": 150446,
+        "p75": 150461,
+        "n": 6
+    },
+    "juniper networks (us), inc.|technical support engineer|mid": {
+        "p25": 99258,
+        "median": 113714,
+        "p75": 122803,
+        "n": 21
+    },
+    "juniper networks, inc.|product manager|senior": {
+        "p25": 106813,
+        "median": 119600,
+        "p75": 132069,
+        "n": 7
+    },
+    "juniper networks, inc.|software engineer|mid": {
+        "p25": 130707,
+        "median": 146307,
+        "p75": 149365,
+        "n": 89
+    },
+    "juniper networks, inc.|software engineer senior staff|senior": {
+        "p25": 193091,
+        "median": 199534,
+        "p75": 205436,
+        "n": 16
+    },
+    "juniper networks, inc.|software engineer sr staff|senior": {
+        "p25": 226138,
+        "median": 226148,
+        "p75": 226158,
+        "n": 6
+    },
+    "juniper networks, inc.|software engineer staff|senior": {
+        "p25": 164154,
+        "median": 172931,
+        "p75": 199534,
+        "n": 29
+    },
+    "justice resource institute inc.|clinician|mid": {
+        "p25": 56804,
+        "median": 60993,
+        "p75": 62300,
+        "n": 6
+    },
+    "justice resource institute inc.|professional level residential counselor|mid": {
+        "p25": 38646,
+        "median": 38646,
+        "p75": 38646,
+        "n": 5
+    },
+    "justice resource institute inc.|residential counselor - professional level|mid": {
+        "p25": 38355,
+        "median": 38646,
+        "p75": 41870,
+        "n": 9
+    },
+    "justice resource institute inc.|residential counselor \u201c professional level|mid": {
+        "p25": 38355,
+        "median": 41870,
+        "p75": 41870,
+        "n": 5
+    }
+}
