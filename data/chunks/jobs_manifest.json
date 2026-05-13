@@ -55,8 +55,9 @@
     "jobs_chunk_52.json.gz",
     "jobs_chunk_53.json.gz",
     "jobs_chunk_54.json.gz",
-    "jobs_chunk_55.json.gz"
+    "jobs_chunk_55.json.gz",
+    "jobs_chunk_56.json.gz"
   ],
-  "totalJobs": 1389325,
-  "last_updated": "2026-05-12T03:34:40.322179Z"
+  "totalJobs": 1414757,
+  "last_updated": "2026-05-13T03:04:56.956432Z"
 }
