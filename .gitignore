@@ -55,6 +55,7 @@ scripts/run_icims.py
 scripts/test_enrich.py
 scripts/backfill_all.py
 scripts/enrich_salary.py
+scripts/test_scraper.py
 
 # Ignore JSON files globally, except specific ones
 *.json
