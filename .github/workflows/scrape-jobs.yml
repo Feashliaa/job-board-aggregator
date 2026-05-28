@@ -1,7 +1,7 @@
 name: Update Job Listings
 on:
   schedule:
-    - cron: "33 3 * * *" # 3:33am EST
+    - cron: "33 7 * * *" # 3:33am EST
   workflow_dispatch: # Manual trigger button
 jobs:
   scrape:
