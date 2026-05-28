@@ -298,7 +298,7 @@ def fetch_company_jobs_bamboohr(slug):
                                 "location": location[:50],
                                 "remote": remote,
                                 "coords": coords,
-                                "url": f"https://{slug}.bamboohr.com/careers/view/{job.get('id')}",
+                                "url": f"https://{slug}.bamboohr.com/careers/{job.get('id')}",
                                 "is_recruiter": is_recruiter_company(slug),
                                 "ats": "BambooHR",
                                 "skill_level": job_tier_classification(

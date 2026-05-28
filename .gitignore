@@ -54,6 +54,7 @@ scripts/test_bamboohr.py
 scripts/run_icims.py
 scripts/test_enrich.py
 scripts/backfill_all.py
+scripts/backfill_bamboohr.py
 scripts/enrich_salary.py
 scripts/test_scraper.py
 
