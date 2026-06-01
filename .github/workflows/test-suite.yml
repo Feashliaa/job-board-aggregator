@@ -1,0 +1,24 @@
+name: Test Job URL's
+on:
+  schedule:
+    - cron: "00 1 * * *"
+  workflow_dispatch: # Manual trigger button
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Job Tester
+        run: |
+          python -m scripts.tests.test_suite.test_url

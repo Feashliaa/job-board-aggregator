@@ -48,15 +48,11 @@ js/old_script.js
 scripts/output/
 
 # Test Files
-scripts/test_icims.py
-scripts/test_workday.py
-scripts/test_bamboohr.py
-scripts/run_icims.py
-scripts/test_enrich.py
-scripts/backfill_all.py
-scripts/backfill_bamboohr.py
-scripts/enrich_salary.py
-scripts/test_scraper.py
+scripts/tests/test_icims.py
+scripts/tests/test_workday.py
+scripts/tests/test_bamboohr.py
+scripts/tests/test_enrich.py
+scripts/tests/test_scraper.py
 
 # Ignore JSON files globally, except specific ones
 *.json
