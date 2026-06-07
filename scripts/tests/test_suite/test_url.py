@@ -27,10 +27,15 @@ SAMPLE_SIZE = 10
 
 SAMPLES = {
     "Greenhouse": (fetch_company_jobs_greenhouse, ["accenturefederalservices", "canonical"]),
+
     "Ashby":      (fetch_company_jobs_ashby,      ["confluent", "zip"]),
+
     "BambooHR":   (fetch_company_jobs_bamboohr,   ["agilebridge", "legato"]),
+
     "Lever":      (fetch_company_jobs_lever,      ["hermeus", "wyetechllc"]),
-    "Workday":    (fetch_company_jobs_workday,    ["kohls|wd1|kohlscareers"]),
+
+    "Workday":    (fetch_company_jobs_workday,    ["kohls|wd1|kohlscareers","2020companies|wd1|external_careers"]),
+
     "iCIMS":      (fetch_company_jobs_icims,      ["orange", "libertymutual"]),
 }
  
