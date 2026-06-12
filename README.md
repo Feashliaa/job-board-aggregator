@@ -1,5 +1,7 @@
 # Job Board Aggregator
 
+![Job Board Aggregator - table view with salary and ATS data](docs/screenshot-table.png)
+
 Automated job board aggregating 1,000,000+ positions from 20,000+ companies across six major ATS platforms. Updated daily via GitHub Actions.
 
 ## Live Site
@@ -16,7 +18,9 @@ Automated job board aggregating 1,000,000+ positions from 20,000+ companies acro
 - **URL state sync**: Filter/sort/page state persisted in the URL for shareable/bookmarkable searches
 - **Responsive design**: Desktop table view with card-based mobile layout
 - **Automated pipeline**: Daily GitHub Actions workflow: scrape → merge with existing data → commit chunks → create release
-- **Heatmap**: A more interesting way to view the data, if you like maps, check it out
+- **Interactive heatmap**: Map view showing job density by location
+
+![Map view with job density heatmap and filtering](docs/screenshot-map.png)
 
 ## Tech Stack
 
