@@ -34,6 +34,16 @@ export function applySorting(jobs, sortState) {
             bVal = bVal || b.company_slug || '';
         }
 
+        // Date sort — ISO strings compare lexicographically; nulls always last
+        if (key === 'posted') {
+            const aRaw = a.updated_at || a.first_seen || null;
+            const bRaw = b.updated_at || b.first_seen || null;
+            if (!aRaw && !bRaw) return 0;
+            if (!aRaw) return 1;
+            if (!bRaw) return -1;
+            return (aRaw < bRaw ? -1 : aRaw > bRaw ? 1 : 0) * multiplier;
+        }
+
         aVal = aVal.toString().toLowerCase();
         bVal = bVal.toString().toLowerCase();
 

@@ -7,7 +7,7 @@ import os
 import gzip
 import argparse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import unquote
 from geolocation import build_lookup, lookup_location
@@ -189,7 +189,7 @@ def fetch_company_jobs_ashby(slug):
         payload = {
             "operationName": "ApiJobBoardWithTeams",
             "variables": {"organizationHostedJobsPageName": slug},
-            "query": "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName } } }",
+            "query": "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) { jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) { jobPostings { id title locationName publishedAt } } }",
         }
         headers = {
             "Content-Type": "application/json",
@@ -235,6 +235,7 @@ def fetch_company_jobs_ashby(slug):
                         "title": job.get("title", ""),
                         "location": job.get("locationName", "Not specified")[:50],
                         "url": f"https://jobs.ashbyhq.com/{slug}/{job.get('id')}",
+                        "updated_at": job.get("publishedAt"),
                         "is_recruiter": is_recruiter_company(slug),
                         "ats": "Ashby",
                         "skill_level": job_tier_classification(job.get("title", "")),
@@ -369,6 +370,26 @@ def fetch_company_jobs_lever(slug):
     return slug, [], None
 
 
+def _parse_workday_posted_on(text):
+    """Convert Workday's relative string (e.g. 'Posted 2 Days Ago') to an ISO date."""
+    if not text or not isinstance(text, str):
+        return None
+    t = text.strip().lower()
+    today = datetime.now(timezone.utc).date()
+    if "today" in t:
+        return today.isoformat()
+    m = re.search(r'(\d+)\s+day', t)
+    if m:
+        return (today - timedelta(days=int(m.group(1)))).isoformat()
+    m = re.search(r'(\d+)\s+week', t)
+    if m:
+        return (today - timedelta(weeks=int(m.group(1)))).isoformat()
+    m = re.search(r'(\d+)\s+month', t)
+    if m:
+        return (today - timedelta(days=int(m.group(1)) * 30)).isoformat()
+    return None
+
+
 def fetch_company_jobs_workday(slug):
     """
     slug format: "company|wd#|site_id" e.g. "kohls|wd1|kohlscareers"
@@ -450,6 +471,7 @@ def fetch_company_jobs_workday(slug):
                         "remote": remote,
                         "coords": coords,
                         "url": f"{base_url}/{site_id}{job_path}",
+                        "updated_at": _parse_workday_posted_on(job.get("postedOn")),
                         "is_recruiter": is_recruiter_company(company),
                         "ats": "Workday",
                         "skill_level": job_tier_classification(job.get("title", "")),
@@ -497,8 +519,11 @@ def fetch_company_jobs_icims(slug):
         ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
         normalized = []
-        for loc in root.findall(".//s:url/s:loc", ns):
-            job_url = loc.text.strip() if loc.text else ""
+        for url_el in root.findall(".//s:url", ns):
+            loc_el = url_el.find("s:loc", ns)
+            if not loc_el:
+                continue
+            job_url = loc_el.text.strip() if loc_el.text else ""
             if (
                 not job_url
                 or "/jobs/" not in job_url
@@ -512,7 +537,10 @@ def fetch_company_jobs_icims(slug):
                 title = unquote(parts[1]).replace("-", " ").strip().title()
             else:
                 continue
-            
+
+            lastmod_el = url_el.find("s:lastmod", ns)
+            updated_at = lastmod_el.text.strip() if lastmod_el is not None and lastmod_el.text else None
+
             remote, coords = False, None
             normalized.append(
                 {
@@ -523,6 +551,7 @@ def fetch_company_jobs_icims(slug):
                     "remote": remote,
                     "coords": coords,
                     "url": job_url,
+                    "updated_at": updated_at,
                     "is_recruiter": is_recruiter_company(slug),
                     "ats": "iCIMS",
                     "skill_level": job_tier_classification(title),
@@ -811,7 +840,8 @@ def save_results(all_companies, active_companies, all_jobs):
         "scraped_at",
         "remote",
         "coords",
-        "salary"
+        "salary",
+        "updated_at",
     }
 
     slim_jobs = [

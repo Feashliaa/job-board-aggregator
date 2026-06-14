@@ -151,8 +151,9 @@ class JobBoardApp {
 
     // ── URL State ────────────────────────────────────────────
     loadFromURL() {
-        const { hasFilters, page } = loadFromURL();
+        const { hasFilters, page, sortKey, sortDir } = loadFromURL();
         this.currentPage = page;
+        if (sortKey) this.sortState = { key: sortKey, direction: sortDir };
         if (hasFilters) this.applyFilters();
     }
 
