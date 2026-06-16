@@ -1,16 +1,10 @@
-import requests
-import json
-import random
-import time
-import re
-import os
-import gzip
-import argparse
+import requests, threading, json, random, time, re, os, gzip, argparse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import unquote
 from geolocation import build_lookup, lookup_location
+from requests.adapters import HTTPAdapter
 
 # ============================================================
 # CONFIGURATION
@@ -24,9 +18,48 @@ BAMBOOHR_FILE = os.path.join(ROOT_DIR, "data", "bamboohr_companies.json")
 WORKDAY_FILE = os.path.join(ROOT_DIR, "data", "workday_companies.json")
 LEVER_FILE = os.path.join(ROOT_DIR, "data", "lever_companies.json")
 ICIMS_FILE = os.path.join(ROOT_DIR, "data", "icims_companies.json")
+PAYLOCITY_FILE = os.path.join(ROOT_DIR, "data", "paylocity_companies_clean.json")
 
 LOCATIONS_FILE = os.path.join(ROOT_DIR, "data", "locations.json")
 
+
+PAGEDATA_RE = re.compile(r"window\.pageData\s*=\s*(\{.*?\});\s*</script>", re.DOTALL)
+
+# guid -> company name, filled by load_paylocity()
+PAYLOCITY_NAMES = {}
+
+# one requests.Session per worker thread, with a capped connection pool
+_paylocity_local = threading.local()
+
+def load_paylocity(filepath):
+    """Paylocity clean file is [{guid, name, jobs}, ...], not a flat slug list.
+    Returns a set of GUIDs and fills PAYLOCITY_NAMES (guid -> name)."""
+    try:
+        with open(filepath, "r") as f:
+            rows = json.load(f)
+    except FileNotFoundError:
+        print(f"File not found: {filepath}")
+        return set()
+
+    guids = set()
+    for r in rows:
+        g = r.get("guid")
+        if not g:
+            continue
+        guids.add(g)
+        PAYLOCITY_NAMES[g] = r.get("name") or g
+    print(f"Loaded {len(guids):,} Paylocity companies from {filepath}")
+    return guids
+
+
+def _paylocity_session():
+    s = getattr(_paylocity_local, "session", None)
+    if s is None:
+        s = requests.Session()
+        adapter = HTTPAdapter(pool_connections=4, pool_maxsize=4)
+        s.mount("https://", adapter)
+        _paylocity_local.session = s
+    return s
 
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -284,7 +317,8 @@ def fetch_company_jobs_bamboohr(slug):
                             city = loc.get("city", "")
                             state = loc.get("state", "")
                             location = (
-                                ", ".join(filter(None, [city, state])) or "Not specified"
+                                ", ".join(filter(None, [city, state]))
+                                or "Not specified"
                             )
                         else:
                             location = str(loc) if loc else "Not specified"
@@ -313,7 +347,7 @@ def fetch_company_jobs_bamboohr(slug):
 
             if response.status_code in (429, 503, 502):
                 if attempt < max_retries:
-                    backoff = (2 ** attempt) + random.uniform(0.5, 1.5)
+                    backoff = (2**attempt) + random.uniform(0.5, 1.5)
                     time.sleep(backoff)
                     continue
 
@@ -321,7 +355,7 @@ def fetch_company_jobs_bamboohr(slug):
 
         except requests.exceptions.SSLError:
             if attempt < max_retries:
-                time.sleep((2 ** attempt) + random.uniform(0.5, 1.5))
+                time.sleep((2**attempt) + random.uniform(0.5, 1.5))
                 continue
             return slug, [], None
         except Exception as e:
@@ -512,7 +546,7 @@ def fetch_company_jobs_icims(slug):
                 title = unquote(parts[1]).replace("-", " ").strip().title()
             else:
                 continue
-            
+
             remote, coords = False, None
             normalized.append(
                 {
@@ -538,6 +572,103 @@ def fetch_company_jobs_icims(slug):
 
 
 # TODO - Add Workable
+
+
+def _paylocity_location(j):
+    """JobLocation carries the real city/state. LocationName is an internal
+    label ('Main', 'AVI') and is only a last-resort fallback."""
+    loc = j.get("JobLocation") or {}
+    city, state = loc.get("City"), loc.get("State")
+    if city and state:
+        return f"{city}, {state}"
+    if city:
+        return city
+    return j.get("LocationName") or "Not specified"
+
+
+def fetch_company_jobs_paylocity(slug):
+    """slug is the Paylocity tenant GUID. Jobs come from window.pageData in the
+    page HTML, not a JSON API. Name is resolved from PAYLOCITY_NAMES."""
+    url = f"https://recruiting.paylocity.com/recruiting/jobs/All/{slug}/"
+    session = _paylocity_session()
+
+    # jitter so concurrent workers don't fire in lockstep
+    time.sleep(random.uniform(0.5, 2.0))
+
+    max_retries = 3
+    for attempt in range(max_retries + 1):
+        headers = {"User-Agent": random.choice(USER_AGENTS)}
+        try:
+            response = session.get(url, timeout=30, headers=headers)
+        except requests.RequestException as e:
+            # reset/abort = throttling. drop the poisoned connection, back off, retry.
+            try:
+                session.close()
+            except Exception:
+                pass
+            _paylocity_local.session = None
+            session = _paylocity_session()
+            if attempt < max_retries:
+                time.sleep((2 ** attempt) + random.uniform(1.0, 2.0))
+                continue
+            print(f"Error fetching Paylocity for {slug}: {e}")
+            return slug, [], None
+
+        if response.status_code in (429, 503, 502):
+            if attempt < max_retries:
+                time.sleep((2 ** attempt) + random.uniform(1.0, 2.0))
+                continue
+            return slug, [], response.status_code
+
+        if response.status_code != 200:
+            return slug, [], response.status_code
+
+        m = PAGEDATA_RE.search(response.text)
+        if not m:
+            # page loaded but blob missing = soft block or layout drift.
+            # return 200 so it retries next run, NOT cached as dead.
+            return slug, [], 200
+        try:
+            data = json.loads(m.group(1))
+        except ValueError:
+            return slug, [], 200
+
+        company = PAYLOCITY_NAMES.get(slug, slug)
+        normalized = []
+        for job in data.get("Jobs") or []:
+            job_id = job.get("JobId")
+            title = job.get("JobTitle")
+            location = _paylocity_location(job)
+            inferred_remote, coords = enrich_location(location)
+            remote = bool(job.get("IsRemote")) or inferred_remote
+            dept = job.get("HiringDepartment")  # almost always null on Paylocity
+            detail = (
+                f"https://recruiting.paylocity.com/recruiting/Jobs/Details/{job_id}"
+                if job_id
+                else url
+            )
+            normalized.append(
+                {
+                    "company": company,
+                    "company_slug": slug,  # the GUID
+                    "title": title,
+                    "location": location,
+                    "remote": remote,
+                    "coords": coords,
+                    "url": detail,
+                    "absolute_url": detail,
+                    "departments": [dept] if dept else [],
+                    "id": job_id,
+                    "updated_at": job.get("PublishedDate"),
+                    "is_recruiter": is_recruiter_company(company),
+                    "ats": "Paylocity",
+                    "skill_level": job_tier_classification(title or ""),
+                    **get_job_metadata(),
+                }
+            )
+        return slug, normalized, response.status_code
+
+    return slug, [], None
 
 
 def fetch_all_jobs(companies, fetcher, platform="ATS"):
@@ -567,6 +698,7 @@ def fetch_all_jobs(companies, fetcher, platform="ATS"):
         "lever": 30,
         "workday": 50,
         "icims": 30,
+        "paylocity": 5,
     }
 
     max_workers = MAX_WORKERS.get(platform_lower, 30)
@@ -659,48 +791,38 @@ def clean_job_data(jobs):
     return cleaned
 
 
-def job_tier_classification(title):
-    """Classify job tier using weighted keyword scoring."""
+# module level, compiled once
+_TIER_PATTERNS = [
+    (re.compile(r"\b(?:chief|cto|ceo|cfo|vp|vice president|director)\b"), 50),
+    (re.compile(r"\b(?:principal|distinguished|fellow)\b"), 40),
+    (re.compile(r"\b(?:staff|lead|head of)\b"), 30),
+    (re.compile(r"\b(?:senior|sr\.?)\b"), 20),
+    (re.compile(r"\b(?:architect|manager)\b"), 15),
+    (re.compile(r"\b(?:iii|iv|v|vi)\b"), 15),
+    (re.compile(r"\blevel\s*[4-9]\b"), 15),
+    (re.compile(r"\bengr?\s*[4-6]\b"), 15),
+    (re.compile(r"\b(?:counsel|of\s*counsel)\b"), 20),
+    (re.compile(r"\b(?:attending|charge)\b"), 20),
+    (re.compile(r"\b(?:ii|2)\b"), 5),
+    (re.compile(r"\blevel\s*3\b"), 5),
+    (re.compile(r"\b(?:associate)\b"), -10),
+    (re.compile(r"\b(?:junior|jr\.?)\b"), -20),
+    (re.compile(r"\bentry[\s-]?level\b"), -25),
+    (re.compile(r"\b(?:i|1)\b(?!\s*-|\d)"), -15),
+    (re.compile(r"\b(?:trainee|graduate|new\s*grad)\b"), -25),
+    (re.compile(r"\b(?:paralegal|clerk)\b"), -15),
+    (re.compile(r"\b(?:resident|clinical\s*fellow)\b"), -15),
+    (re.compile(r"\b(?:aide|assistant|tech)\b"), -10),
+    (re.compile(r"\bintern(?:ship)?\b"), -100),
+]
 
+
+def job_tier_classification(title):
     title_lower = title.lower()
     score = 0
-
-    # Weights: positive = senior, negative = junior
-    keywords = {
-        # Strong senior indicators
-        r"\b(?:chief|cto|ceo|cfo|vp|vice president|director)\b": 50,  # chief, cto, ceo, cfo, vp, vice president, director
-        r"\b(?:principal|distinguished|fellow)\b": 40,  # principal, distinguished, fellow
-        r"\b(?:staff|lead|head of)\b": 30,  # staff, lead, head of
-        r"\b(?:senior|sr\.?)\b": 20,  # senior, sr.
-        r"\b(?:architect|manager)\b": 15,  # architect, manager
-        r"\b(?:iii|iv|v|vi)\b": 15,  # Roman numerals, i.e. III, IV, V, VI for levels
-        r"\blevel\s*[4-9]\b": 15,  # e.g. Level 4, Level 5, Level 6, Level 7, Level 8, Level 9
-        r"\bengr?\s*[4-6]\b": 15,  # e.g. Engr 4, Engr 5, Engr 6
-        r"\b(?:counsel|of\s*counsel)\b": 20,  # senior attorney
-        r"\b(?:attending|charge)\b": 20,  # attending physician, charge nurse = senior
-        # Weak senior indicators
-        r"\b(?:ii|2)\b": 5,  # level II or 2
-        r"\blevel\s*3\b": 5,  # level 3
-        # Entry-level indicators
-        r"\b(?:associate)\b": -10,  # associate
-        r"\b(?:junior|jr\.?)\b": -20,  # junior, jr.
-        r"\b(?:trainee|graduate|new\s*grad)\b": -25,  # trainee, graduate, new grad
-        r"\bentry[\s-]?level\b": -25,  # entry-level
-        r"\b(?:i|1)\b(?!\s*-|\d)": -15,  # "I" or "1" but not "1-2" or "10"
-        r"\b(?:trainee|graduate|new\s*grad)\b": -25,  # trainee, graduate, new grad
-        r"\b(?:paralegal|clerk)\b": -15,  # entry-level legal
-        r"\b(?:resident|clinical\s*fellow)\b": -15,  # medical residency = entry-ish
-        r"\b(?:aide|assistant|tech)\b": -10,  # nurse aide, medical assistant
-        # Intern (heavily weighted)
-        r"\bintern(?:ship)?\b": -100,  # intern or internship
-    }
-
-    # Calculate score
-    for pattern, weight in keywords.items():
-        if re.search(pattern, title_lower):  # if pattern matches
+    for pattern, weight in _TIER_PATTERNS:
+        if pattern.search(title_lower):
             score += weight
-
-    # tiers
     if score <= -50:
         return "intern"
     elif score <= -5:
@@ -766,7 +888,7 @@ def save_results(all_companies, active_companies, all_jobs):
     with open(active_file, "w") as f:
         json.dump(active_companies, f, indent=2, sort_keys=True)
     print(f"Active companies: {active_file}")
-    
+
     # Load salary lookup once
     salary_lookup_path = os.path.join(ROOT_DIR, "data", "salary", "salary_lookup.json")
     salary_lookup = {}
@@ -783,13 +905,12 @@ def save_results(all_companies, active_companies, all_jobs):
         company = (job.get("company") or "").lower().strip()
         title = (job.get("title") or "").lower().strip()
         level = job.get("skill_level", "mid")
-        
+
         primary_key = f"{company}|{title}|{level}"
         fallback_key = f"{title}|{level}"
-        
-        job["salary"] = (
-            salary_lookup.get(primary_key) or
-            salary_fallback.get(fallback_key)
+
+        job["salary"] = salary_lookup.get(primary_key) or salary_fallback.get(
+            fallback_key
         )
 
     # Save all jobs
@@ -811,7 +932,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "scraped_at",
         "remote",
         "coords",
-        "salary"
+        "salary",
     }
 
     slim_jobs = [
@@ -892,6 +1013,7 @@ def main():
     lever_companies = load_companies(LEVER_FILE)
     workday_companies = load_companies(WORKDAY_FILE)
     icims_companies = load_companies(ICIMS_FILE)
+    paylocity_companies = load_paylocity(PAYLOCITY_FILE)
 
     if (
         not greenhouse_companies
@@ -900,6 +1022,7 @@ def main():
         and not lever_companies
         and not workday_companies
         and not icims_companies
+        and not paylocity_companies
     ):
         print("Exiting - no companies loaded!")
         return
@@ -912,6 +1035,7 @@ def main():
         (lever_companies, fetch_company_jobs_lever, "LEVER"),
         (workday_companies, fetch_company_jobs_workday, "WORKDAY"),
         (icims_companies, fetch_company_jobs_icims, "iCIMS"),
+        (paylocity_companies, fetch_company_jobs_paylocity, "PAYLOCITY"),
     ]
 
     # Run all platforms concurrently
@@ -941,6 +1065,7 @@ def main():
         | lever_companies
         | workday_companies
         | icims_companies
+        | paylocity_companies
     )
 
     save_results(all_companies, all_active_companies, all_jobs)

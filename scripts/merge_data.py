@@ -10,12 +10,18 @@ CHUNK_SIZE = 25_000
 
 def get_dedup_key(job):
     url = job.get("url", "")
-    if job.get("ats") == "Workday":
-        # Extract numeric job ID from URL, fall back to url if not found
+    ats = job.get("ats")
+    if ats == "Workday":
         match = re.search(r'/jobs/(\d+)', url)
         if match:
             company = job.get("company", "")
             return f"workday:{company}:{match.group(1)}"
+    if ats == "Paylocity":
+        jid = job.get("id")
+        if jid:
+            return f"paylocity:{jid}"
+        # no job_id: key on company+title so they don't collapse to one listing URL
+        return f"paylocity:{job.get('company','')}:{job.get('title','')}"
     return url
 
 

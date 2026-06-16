@@ -20,8 +20,13 @@ from scraper import (
     fetch_company_jobs_lever,
     fetch_company_jobs_workday,
     fetch_company_jobs_icims,
+    fetch_company_jobs_paylocity,
+    load_paylocity,
+    PAYLOCITY_FILE,
     USER_AGENTS,
 )
+
+load_paylocity(PAYLOCITY_FILE)   # populates PAYLOCITY_NAMES for the fetcher
  
 SAMPLE_SIZE = 10
 
@@ -37,12 +42,15 @@ SAMPLES = {
     "Workday":    (fetch_company_jobs_workday,    ["kohls|wd1|kohlscareers","2020companies|wd1|external_careers"]),
 
     "iCIMS":      (fetch_company_jobs_icims,      ["orange", "libertymutual"]),
+
+    "Paylocity":  (fetch_company_jobs_paylocity, ["9597a587-1c23-4def-9ecc-4901e647fab7",   # 116508 Innovation At Work, 40 jobs
+                                              "592ac98a-f7c3-42a7-b931-5be52fc81a83"]),  # 13 Prime Steak, 4 jobs
 }
  
 # ATSs where the url string is constructed. A PATTERN_BROKEN here points at
 # or the others (pass-through), it points at the provider
 # API shape changing so extraction returned an empty/missing URL.
-CONSTRUCTED_URL_ATS = {"Ashby", "BambooHR", "Workday"}
+CONSTRUCTED_URL_ATS = {"Ashby", "BambooHR", "Workday", "Paylocity"}
  
  
 def collect_sample_urls(fetch_fn, slugs):

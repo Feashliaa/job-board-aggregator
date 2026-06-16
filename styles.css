@@ -502,6 +502,11 @@ body.map-mode .filter-panel {
     color: #334155;
 }
 
+.badge.ats-paylocity {
+    background: #ffe4e0;
+    color: #b03a2e;
+}
+
 .badge.ats-unknown {
     background: #f1f5f9;
     color: #64748b;
