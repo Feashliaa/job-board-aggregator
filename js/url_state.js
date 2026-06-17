@@ -67,5 +67,8 @@ export function loadFromURL() {
 
     const hasFilters = !!(title || company || location || salary || remote || status || ats || skillLevel || exclude || include);
 
-    return { hasFilters, page };
+    const sortKey = params.get('sort_key') || null;
+    const sortDir = params.get('sort_dir') || 'asc';
+
+    return { hasFilters, page, sortKey, sortDir };
 }

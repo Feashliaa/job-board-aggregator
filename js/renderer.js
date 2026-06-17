@@ -28,7 +28,7 @@ export function render(app) {
     tbody.innerHTML = '';
 
     if (pageJobs.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" class="text-center">No jobs found</td></tr>';
+        tbody.innerHTML = `<tr><td colspan="${app.columns.length}" class="text-center">No jobs found</td></tr>`;
         updatePagination(app.currentPage, 1, app.filteredJobs.length);
         updateSortIndicators(app.columns, app.sortState);
         return;
