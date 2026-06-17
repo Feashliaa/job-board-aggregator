@@ -62,6 +62,7 @@ scripts/tests/test_scraper.py
 !data/workday_companies.json
 !data/lever_companies.json
 !data/icims_companies.json
+!data/paylocity_companies_clean.json
 !data/locations.json
 !data/salary/salary_lookup.json
 !data/salary/shards/salary_*.json
