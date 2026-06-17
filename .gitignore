@@ -44,7 +44,7 @@ fetch_script.js
 test.py
 js/old_script.js
 
-# Scraper output 
+# Scraper output
 scripts/output/
 
 # Test Files
@@ -54,7 +54,15 @@ scripts/tests/test_bamboohr.py
 scripts/tests/test_enrich.py
 scripts/tests/test_scraper.py
 
-# Ignore JSON files globally, except specific ones
+# ============================================================
+# Generated data - served from the data-live branch, NOT tracked on main.
+# This is the heavy daily-regenerated data that caused repo bloat.
+# ============================================================
+data/chunks/
+data/metadata.json
+data/salary/
+
+# Ignore JSON files globally, except specific tracked ones below
 *.json
 !data/greenhouse_companies.json
 !data/ashby_companies.json
@@ -64,18 +72,12 @@ scripts/tests/test_scraper.py
 !data/icims_companies.json
 !data/paylocity_companies_clean.json
 !data/locations.json
-!data/salary/salary_lookup.json
-!data/salary/shards/salary_*.json
 
+# Keep trend history tracked on main (append-only, valuable, deltas cheaply)
+!data/trends/
+!data/trends/daily.jsonl
 
-
-!data/metadata.json
-!data/chunks/jobs_manifest.json
-
-# Allow gzip files in data/ only
-!data/*.gz
-
-# dont allow python files in data
+# Don't allow python files in data
 data/*.py
 
 # Ignore CSV files globally, except specific ones
@@ -83,4 +85,3 @@ data/*.py
 /city_aggregator/*.py
 /city_aggregator/admin1CodesASCII.txt
 /city_aggregator/cities500.txt
-
