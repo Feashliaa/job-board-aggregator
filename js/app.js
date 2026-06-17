@@ -2,7 +2,7 @@
 // JOB BOARD APP 
 // ============================================================
 
-import { showToast, showLoadingToast, setUIBusy, updateFABVisibility } from './ui_utils.js';
+import { showToast, showLoadingToast, setUIBusy, updateFABVisibility, updateSortIndicators } from './ui_utils.js';
 import { saveApplicationStatus } from './storage.js';
 import { createColumns } from './columns.js';
 import { loadJobsProgressive, updateStats } from './jobs_loader.js';
@@ -10,7 +10,7 @@ import { filterJobs, clearFilterInputs } from './filters.js';
 import { render } from './renderer.js';
 import { updateURL, loadFromURL } from './url_state.js';
 import { setupEventListeners } from './events.js';
-import { applySorting } from './sorting.js';
+import { sortJobs } from './sort_logic.js';
 import { toggleView, updateHeatmapIfVisible } from './map_view.js';
 
 class JobBoardApp {
@@ -18,8 +18,12 @@ class JobBoardApp {
         this.allJobs = [];
         this.filteredJobs = [];
         this.currentPage = 1;
+        this.virtualFilteredCount = 0;
         this.perPage = window.innerWidth <= 900 ? 25 : 50;
         this.sortState = { key: null, direction: 'asc' };
+
+        this.isSorting = false;
+        this.isFullyLoaded = false;
 
         this.filterState = {
             title: '', company: '', location: '', status: '',
@@ -28,6 +32,7 @@ class JobBoardApp {
 
         this.debounceTimer = null;
         this.columns = createColumns();
+        this.sortWorker = null;
     }
 
     // ── Initialization ───────────────────────────────────────────
@@ -46,7 +51,6 @@ class JobBoardApp {
 
         try {
             await loadJobsProgressive(this);
-
             this.sortState = { key: null, direction: 'asc' };
 
             loadingEl.style.display = 'none';
@@ -77,9 +81,18 @@ class JobBoardApp {
         this.filteredJobs = filteredJobs;
         this.filterState = filterState;
         this.currentPage = 1;
+        this.sortedJobs = null;
         updateURL(this.filterState, this.currentPage, this.sortState);
-        this.render();
-        updateHeatmapIfVisible();  // ← add
+        updateHeatmapIfVisible();
+
+        // Only re-sort if a sort is active AND it's a sortable column
+        const sortableKeys = ['company', 'salary', 'posted'];
+        if (this.sortState.key && sortableKeys.includes(this.sortState.key)) {
+            this.sortAndRender();
+        } else {
+            this.sortState.key = null;   // clear a stale non-sortable key
+            this.render();
+        }
     }
 
     clearFilters() {
@@ -90,18 +103,23 @@ class JobBoardApp {
         };
         this.filteredJobs = [...this.allJobs];
         this.currentPage = 1;
+        this.sortedJobs = null;
         updateURL(this.filterState, this.currentPage, this.sortState);
-        this.render();
-        updateHeatmapIfVisible();  // ← add
+        updateHeatmapIfVisible();
+
+        const sortableKeys = ['company', 'salary', 'posted'];
+        if (this.sortState.key && sortableKeys.includes(this.sortState.key)) {
+            this.sortAndRender();
+        } else {
+            this.render();
+        }
     }
 
     refilter() {
-        if (this.hasActiveFilters()) {
-            this.applyFilters();  // already updates heatmap via applyFilters()
-        } else {
-            this.filteredJobs = this.allJobs;
-            updateHeatmapIfVisible();  // ← add
-        }
+        const { filteredJobs } = filterJobs(this.allJobs);
+        this.filteredJobs = filteredJobs;
+        updateHeatmapIfVisible();
+        this.render();   // always render so the page count reflects newly loaded jobs
     }
 
     hasActiveFilters() {
@@ -112,41 +130,78 @@ class JobBoardApp {
 
     // ── Sorting ──────────────────────────────────────────────
     handleSort(key) {
+        if (!this.isFullyLoaded) {
+            showToast('Please wait until dataset processing finishes...', 'warning');
+            return;
+        }
+        if (this.isSorting) return;
+
         if (this.sortState.key === key) {
             this.sortState.direction = this.sortState.direction === 'asc' ? 'desc' : 'asc';
         } else {
             this.sortState.key = key;
             this.sortState.direction = 'asc';
         }
+
         this.currentPage = 1;
         updateURL(this.filterState, this.currentPage, this.sortState);
+
+        // Run the heavy sort processing on demand
         this.sortAndRender();
     }
 
     sortAndRender() {
-        const loader = showLoadingToast('Sorting...');
-        setTimeout(() => {
+        if (!this.sortWorker) {
+            this.sortOnMainThread();
+            return;
+        }
+        this.isSorting = true;
+        this.sortLoader = showLoadingToast('Sorting records...');
+        this.sortWorker.postMessage({
+            type: 'SORT',
+            jobsToSort: this.filteredJobs,
+            sortState: this.sortState,
+        });
+    }
+
+    sortOnMainThread() {
+        // fallback for single-chunk datasets where no worker exists
+        import('./sort_logic.js').then(({ sortJobs }) => {
+            this.sortedJobs = applySorting([...this.filteredJobs], this.sortState);
+            this.virtualFilteredCount = this.sortedJobs.length;
+            this.currentPage = 1;
             this.render();
-            loader.hide();
-        }, 100);
+        });
     }
 
     // ── Pagination ───────────────────────────────────────────
     previousPage() {
         if (this.currentPage > 1) {
             this.currentPage--;
-            this.render();
-            window.scrollTo(0, 0);
+            this.triggerPageUpdate();
         }
     }
 
+    getTotalJobsCount() {
+        // While still streaming, always report the live filtered total so the count grows
+        if (!this.isFullyLoaded) return this.filteredJobs.length;
+        if (this.sortState?.key && this.sortedJobs) return this.sortedJobs.length;
+        return this.filteredJobs.length;
+    }
+
     nextPage() {
-        const totalPages = Math.ceil(this.filteredJobs.length / this.perPage);
+        const totalJobsCount = this.getTotalJobsCount();
+        const totalPages = Math.max(1, Math.ceil(totalJobsCount / this.perPage));
+
         if (this.currentPage < totalPages) {
             this.currentPage++;
-            this.render();
-            window.scrollTo(0, 0);
+            this.triggerPageUpdate();
         }
+    }
+
+    triggerPageUpdate() {
+        window.scrollTo(0, 0);
+        this.render();
     }
 
     // ── URL State ────────────────────────────────────────────
@@ -200,7 +255,7 @@ class JobBoardApp {
                 });
                 btn.classList.add('active', 'btn-primary');
                 btn.classList.remove('btn-outline-primary');
-                toggleView(btn.dataset.view, this); 
+                toggleView(btn.dataset.view, this);
             });
         });
     }
@@ -211,5 +266,6 @@ class JobBoardApp {
 // ============================================================
 document.addEventListener('DOMContentLoaded', () => {
     const app = new JobBoardApp();
+    window.app = app;   // <-- add this, lets you poke it from console
     app.init();
 });

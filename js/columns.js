@@ -14,7 +14,7 @@ export function createColumns() {
         {
             key: 'salary',
             label: 'Salary (est.)',
-            sortable: false,
+            sortable: true,
             render: job => {
                 const s = job.salary;
                 if (!s?.median) return '<span class="text-muted">—</span>';
