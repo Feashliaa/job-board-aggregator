@@ -958,6 +958,7 @@ def save_results(all_companies, active_companies, all_jobs):
         "coords",
         "salary",
         "updated_at",
+        "first_seen",
     }
 
     slim_jobs = [
