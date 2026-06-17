@@ -21,6 +21,7 @@ export function readFilterInputs() {
         status: document.getElementById('filter-status').value,
         ats: document.getElementById('filter-ats').value,
         skill_level: document.getElementById('filter-skill-level').value,
+        posted: document.getElementById('filter-posted').value,
         exclude: document.getElementById('filter-exclude').value.toLowerCase().trim(),
         include: document.getElementById('filter-include').value.toLowerCase().trim(),
     };
@@ -48,6 +49,7 @@ export function filterJobs(allJobs) {
         status: f.status,
         ats: f.ats,
         skill_level: f.skill_level,
+        posted: f.posted,
         exclude: f.exclude,
         include: f.include
     };
@@ -101,6 +103,16 @@ export function filterJobs(allJobs) {
             if (jobSkillLevel !== f.skill_level.toLowerCase()) return false;
         }
 
+        // Date posted (within N days)
+        if (f.posted) {
+            const days = parseInt(f.posted, 10);
+            const raw = job.updated_at || job.first_seen;
+            const t = raw ? Date.parse(raw) : NaN;
+            if (isNaN(t)) return false;   // no date = excluded when a date filter is active
+            const ageDays = (Date.now() - t) / 86400000;
+            if (ageDays > days) return false;
+        }
+
         // Exclude title keywords
         if (f.exclude) {
             const excludeTerms = f.exclude.split(',').map(t => t.trim()).filter(Boolean);
@@ -134,6 +146,7 @@ export function clearFilterInputs() {
     document.getElementById('filter-status').value = '';
     document.getElementById('filter-ats').value = '';
     document.getElementById('filter-skill-level').value = '';
+    document.getElementById('filter-posted').value = '';
     document.getElementById('filter-hide-recruiters').checked = true;
     document.getElementById('filter-remote-only').checked = false;
     document.getElementById('filter-hide-applied').checked = false;

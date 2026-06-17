@@ -419,6 +419,14 @@ body.map-mode .filter-panel {
     opacity: 0.7;
 }
 
+/* While worker data streams, lock down interaction mechanics */
+thead.sorting-locked th,
+.job-table thead tr.sort-locked th {
+    pointer-events: none !important;
+    cursor: wait !important;
+    opacity: 0.5;
+}
+
 
 /* Desktop stripes */
 .table-striped-desktop>tbody>tr:nth-of-type(odd)>td {

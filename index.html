@@ -117,6 +117,16 @@
                             </select>
                         </div>
                         <div class="col-12 col-md-6">
+                            <label for="filter-posted" class="form-label">Date Posted</label>
+                            <select id="filter-posted" class="form-select">
+                                <option value="">Any time</option>
+                                <option value="1">Last 24 hours</option>
+                                <option value="3">Last 3 days</option>
+                                <option value="7">Last 7 days</option>
+                                <option value="30">Last month</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6">
                             <label for="filter-exclude" class="form-label">Exclude Keywords</label>
                             <input type="text" id="filter-exclude" class="form-control"
                                 placeholder="e.g., senior, staff, lead">
