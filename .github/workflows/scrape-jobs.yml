@@ -144,7 +144,7 @@ jobs:
       - name: Push regenerated data to data-live
         run: |
           git checkout --orphan data-live-tmp
-          git add -f data/chunks/ data/metadata.json data/salary/
+          git add -f data/chunks/ data/metadata.json
           git commit -m "Data snapshot $(date +'%Y-%m-%d %H:%M UTC')"
           git branch -D data-live 2>/dev/null || true
           git branch -m data-live
