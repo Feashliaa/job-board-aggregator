@@ -11,6 +11,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Pull the existing chunk data from the data-live branch into the working
+      # tree so merge_data.py can read yesterday's jobs and merge into them.
+      # Without this, load_chunks("data") finds nothing and the merge discards
+      # all accumulated history, collapsing the dataset to just today's scrape.
+      - name: Fetch existing data from data-live
+        run: |
+          git fetch origin data-live
+          git checkout origin/data-live -- data/chunks data/metadata.json
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -126,12 +135,15 @@ jobs:
             **Total Jobs:** ${{ steps.metadata.outputs.jobs }}  
             **Active Companies:** ${{ steps.metadata.outputs.companies }}  
             **Last Updated:** ${{ steps.metadata.outputs.date }}
-            The chunked job data is available in the repo at `data/chunks/jobs_chunk_*.json.gz`
+            The chunked job data is served from the `data-live` branch.
           files: |
             scripts/output/all_jobs.json.gz
             scripts/output/active_companies.json
             scripts/output/metadata.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Trend history is append-only and tiny; it stays tracked on main.
       - name: Commit trend history to main
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -141,6 +153,8 @@ jobs:
           git pull --rebase origin main
           git push origin main
 
+      # Heavy regenerated data goes to the force-overwritten data-live branch.
+      # salary is NOT here: it lives on main as static input the scraper reads.
       - name: Push regenerated data to data-live
         run: |
           git checkout --orphan data-live-tmp
