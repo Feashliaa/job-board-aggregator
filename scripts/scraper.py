@@ -1,4 +1,4 @@
-import requests, threading, json, random, time, re, os, gzip, argparse
+import requests, threading, json, random, time, re, os, gzip, argparse, html
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -35,19 +35,19 @@ def load_paylocity(filepath):
     """Paylocity clean file is [{guid, name, jobs}, ...], not a flat slug list.
     Returns a set of GUIDs and fills PAYLOCITY_NAMES (guid -> name)."""
     try:
-        with open(filepath, "r") as f:
+        with open(filepath, "r", encoding="utf-8") as f:
             rows = json.load(f)
     except FileNotFoundError:
         print(f"File not found: {filepath}")
         return set()
-
     guids = set()
     for r in rows:
         g = r.get("guid")
         if not g:
             continue
         guids.add(g)
-        PAYLOCITY_NAMES[g] = r.get("name") or g
+        name = r.get("name") or g
+        PAYLOCITY_NAMES[g] = html.unescape(name)
     print(f"Loaded {len(guids):,} Paylocity companies from {filepath}")
     return guids
 
@@ -123,7 +123,7 @@ USER_AGENTS = [
 def load_companies(filepath):
     """Load companies from JSON file."""
     try:
-        with open(filepath, "r") as f:
+        with open(filepath, "r", encoding="utf-8") as f:
             companies = set(json.load(f))
         print(f"Loaded {len(companies):,} companies from {filepath}")
         return companies
@@ -580,10 +580,10 @@ def _paylocity_location(j):
     loc = j.get("JobLocation") or {}
     city, state = loc.get("City"), loc.get("State")
     if city and state:
-        return f"{city}, {state}"
+        return html.unescape(f"{city}, {state}")
     if city:
-        return city
-    return j.get("LocationName") or "Not specified"
+        return html.unescape(city)
+    return html.unescape(j.get("LocationName") or "Not specified")
 
 
 def fetch_company_jobs_paylocity(slug):
@@ -591,10 +591,8 @@ def fetch_company_jobs_paylocity(slug):
     page HTML, not a JSON API. Name is resolved from PAYLOCITY_NAMES."""
     url = f"https://recruiting.paylocity.com/recruiting/jobs/All/{slug}/"
     session = _paylocity_session()
-
     # jitter so concurrent workers don't fire in lockstep
     time.sleep(random.uniform(0.5, 2.0))
-
     max_retries = 3
     for attempt in range(max_retries + 1):
         headers = {"User-Agent": random.choice(USER_AGENTS)}
@@ -613,16 +611,13 @@ def fetch_company_jobs_paylocity(slug):
                 continue
             print(f"Error fetching Paylocity for {slug}: {e}")
             return slug, [], None
-
         if response.status_code in (429, 503, 502):
             if attempt < max_retries:
                 time.sleep((2 ** attempt) + random.uniform(1.0, 2.0))
                 continue
             return slug, [], response.status_code
-
         if response.status_code != 200:
             return slug, [], response.status_code
-
         m = PAGEDATA_RE.search(response.text)
         if not m:
             # page loaded but blob missing = soft block or layout drift.
@@ -632,16 +627,17 @@ def fetch_company_jobs_paylocity(slug):
             data = json.loads(m.group(1))
         except ValueError:
             return slug, [], 200
-
         company = PAYLOCITY_NAMES.get(slug, slug)
         normalized = []
         for job in data.get("Jobs") or []:
             job_id = job.get("JobId")
-            title = job.get("JobTitle")
+            title = html.unescape(job.get("JobTitle") or "")
             location = _paylocity_location(job)
             inferred_remote, coords = enrich_location(location)
             remote = bool(job.get("IsRemote")) or inferred_remote
             dept = job.get("HiringDepartment")  # almost always null on Paylocity
+            if dept:
+                dept = html.unescape(dept)
             detail = (
                 f"https://recruiting.paylocity.com/recruiting/Jobs/Details/{job_id}"
                 if job_id
@@ -667,7 +663,6 @@ def fetch_company_jobs_paylocity(slug):
                 }
             )
         return slug, normalized, response.status_code
-
     return slug, [], None
 
 
@@ -847,7 +842,7 @@ def load_dead_slugs(platform):
     if not os.path.exists(filepath):
         return set()
     try:
-        with open(filepath, "r") as f:
+        with open(filepath, "r", encoding="utf-8") as f:
             return set(json.load(f))
     except (json.JSONDecodeError, IOError):
         return set()
@@ -856,8 +851,8 @@ def load_dead_slugs(platform):
 def save_dead_slugs(platform, slugs):
     """Save dead slugs for a platform."""
     filepath = os.path.join(DEAD_SLUG_DIR, f"{platform}.json")
-    with open(filepath, "w") as f:
-        json.dump(sorted(slugs), f, indent=2)
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(sorted(slugs), f, ensure_ascii=False, indent=2)
     print(f"  Cached {len(slugs):,} dead slugs for {platform}")
 
 
@@ -879,14 +874,14 @@ def save_results(all_companies, active_companies, all_jobs):
 
     # Save all companies list
     companies_file = os.path.join(OUTPUT_DIR, "all_companies.json")
-    with open(companies_file, "w") as f:
-        json.dump(sorted(list(all_companies)), f, indent=2)
+    with open(companies_file, "w", encoding="utf-8") as f:
+        json.dump(sorted(list(all_companies)), f, ensure_ascii=False, indent=2)
     print(f"All companies: {companies_file}")
 
     # Save active companies with job counts
     active_file = os.path.join(OUTPUT_DIR, "active_companies.json")
-    with open(active_file, "w") as f:
-        json.dump(active_companies, f, indent=2, sort_keys=True)
+    with open(active_file, "w", encoding="utf-8") as f:
+        json.dump(active_companies, f, ensure_ascii=False, indent=2, sort_keys=True)
     print(f"Active companies: {active_file}")
 
     # Load salary lookup once
@@ -894,7 +889,7 @@ def save_results(all_companies, active_companies, all_jobs):
     salary_lookup = {}
     salary_fallback = {}
     if os.path.exists(salary_lookup_path):
-        with open(salary_lookup_path) as f:
+        with open(salary_lookup_path, encoding="utf-8") as f:
             data = json.load(f)
             salary_lookup = data.get("primary", {})
             salary_fallback = data.get("fallback", {})
@@ -915,8 +910,8 @@ def save_results(all_companies, active_companies, all_jobs):
 
     # Save all jobs
     all_jobs_file = os.path.join(OUTPUT_DIR, "all_jobs.json")
-    with open(all_jobs_file, "w") as f:
-        json.dump(all_jobs, f, indent=2)
+    with open(all_jobs_file, "w", encoding="utf-8") as f:
+        json.dump(all_jobs, f, ensure_ascii=False, indent=2)
     print(f"All jobs: {all_jobs_file} ({len(all_jobs):,} jobs)")
 
     # Build slim version for frontend
@@ -964,7 +959,7 @@ def save_results(all_companies, active_companies, all_jobs):
     for idx, chunk in enumerate(chunks):
         chunk_file = os.path.join(chunks_dir, f"jobs_chunk_{idx}.json.gz")
         with gzip.open(chunk_file, "wt", encoding="utf-8") as f:
-            json.dump(chunk, f, indent=0)
+            json.dump(chunk, f, ensure_ascii=False, indent=0)
         chunk_filenames.append(f"jobs_chunk_{idx}.json.gz")
         size_mb = os.path.getsize(chunk_file) / (1024 * 1024)
         print(f"  Chunk {idx}: {len(chunk):,} jobs ({size_mb:.1f}MB)")
@@ -976,8 +971,8 @@ def save_results(all_companies, active_companies, all_jobs):
         "last_updated": timestamp,
     }
     manifest_file = os.path.join(chunks_dir, "jobs_manifest.json")
-    with open(manifest_file, "w") as f:
-        json.dump(manifest, f, indent=2)
+    with open(manifest_file, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, ensure_ascii=False, indent=2)
 
     recruiter_jobs = sum(1 for job in all_jobs if job.get("is_recruiter"))
 
@@ -989,12 +984,12 @@ def save_results(all_companies, active_companies, all_jobs):
         "total_jobs": len(all_jobs),
         "recruiter_jobs": recruiter_jobs,
         "source_type": SOURCE_TYPE,
-        "platforms": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api, icims_sitemap",
+        "platforms": "greenhouse_api, ashby_api, bamboohr_api, lever_api, workday_api, icims_sitemap, paylocity_scrape",
     }
 
     metadata_file = os.path.join(OUTPUT_DIR, "metadata.json")
-    with open(metadata_file, "w") as f:
-        json.dump(metadata, f, indent=2)
+    with open(metadata_file, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, ensure_ascii=False, indent=2)
     print(f"Metadata: {metadata_file}")
 
     print()
