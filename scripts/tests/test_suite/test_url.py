@@ -43,8 +43,8 @@ SAMPLES = {
 
     "iCIMS":      (fetch_company_jobs_icims,      ["orange", "libertymutual"]),
 
-    "Paylocity":  (fetch_company_jobs_paylocity, ["9597a587-1c23-4def-9ecc-4901e647fab7",   # 116508 Innovation At Work, 40 jobs
-                                              "592ac98a-f7c3-42a7-b931-5be52fc81a83"]),  # 13 Prime Steak, 4 jobs
+    "Paylocity":  (fetch_company_jobs_paylocity, ["9e9da9e8-1ca7-47a5-a18e-20ce401db8be",   # YMCA of Greater Oklahoma City | 142 jobs
+                                              "87e48064-1e87-4bbe-abe0-6d65e861917a"]),  # YMCA of Central New York, Inc. | 100 jobs
 }
  
 # ATSs where the url string is constructed. A PATTERN_BROKEN here points at
@@ -73,17 +73,25 @@ def collect_sample_urls(fetch_fn, slugs):
  
  
 def url_resolves(url):
-    """
-    HEAD the URL, following redirects. 2xx/3xx = alive.
+    """HEAD first (cheap); fall back to GET on anything HEAD can't answer cleanly.
+    Paylocity's CDN returns 404 to HEAD but serves the page on GET, so a failed
+    HEAD is not proof the URL is dead. Verify with GET before judging.
+    
+    The other ATS platforms dont have this problem.
     """
     headers = {"User-Agent": random.choice(USER_AGENTS)}
     try:
         resp = requests.head(url, allow_redirects=True, timeout=15, headers=headers)
-        if resp.status_code == 405:  # some hosts reject HEAD; fall back to GET
-            resp = requests.get(url, allow_redirects=True, timeout=15, headers=headers)
+        if resp.status_code < 400:
+            return True
+        resp = requests.get(url, allow_redirects=True, timeout=15, headers=headers)
         return resp.status_code < 400
     except requests.RequestException:
-        return False
+        try:
+            resp = requests.get(url, allow_redirects=True, timeout=15, headers=headers)
+            return resp.status_code < 400
+        except requests.RequestException:
+            return False
  
  
 def check_ats(name, fetch_fn, slugs):
