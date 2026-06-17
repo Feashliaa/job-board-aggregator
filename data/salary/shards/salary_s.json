@@ -1,0 +1,5978 @@
+{
+    "s & v tek systems llc|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 112294,
+        "n": 8
+    },
+    "s&p global market intelligence inc.|lead software engineer|senior": {
+        "p25": 154895,
+        "median": 166997,
+        "p75": 175000,
+        "n": 5
+    },
+    "s&p global market intelligence inc.|software engineer|mid": {
+        "p25": 130491,
+        "median": 138375,
+        "p75": 138375,
+        "n": 5
+    },
+    "s&p global market intelligence, inc.|software engineer|mid": {
+        "p25": 132397,
+        "median": 141947,
+        "p75": 155743,
+        "n": 9
+    },
+    "s&p opco, llc|lead software engineer|senior": {
+        "p25": 174279,
+        "median": 180250,
+        "p75": 187829,
+        "n": 7
+    },
+    "s.w.i.f.t., inc.|lead developer / systems engineer|senior": {
+        "p25": 157888,
+        "median": 159124,
+        "p75": 161037,
+        "n": 7
+    },
+    "s.w.i.f.t., inc.|senior developer / systems engineer|senior": {
+        "p25": 138520,
+        "median": 140000,
+        "p75": 144000,
+        "n": 9
+    },
+    "s2 it group llc|it business analyst|mid": {
+        "p25": 64740,
+        "median": 69202,
+        "p75": 69202,
+        "n": 6
+    },
+    "s2 it group llc|sr. it business analyst|senior": {
+        "p25": 88317,
+        "median": 88868,
+        "p75": 95409,
+        "n": 8
+    },
+    "s3 group inc.|software developer|mid": {
+        "p25": 120000,
+        "median": 135000,
+        "p75": 150000,
+        "n": 5
+    },
+    "s4 technologies inc|software developer|mid": {
+        "p25": 97760,
+        "median": 104000,
+        "p75": 105040,
+        "n": 19
+    },
+    "saama technologies, llc|architect|senior": {
+        "p25": 124714,
+        "median": 125000,
+        "p75": 130000,
+        "n": 9
+    },
+    "saama technologies, llc|principal software engineer|senior": {
+        "p25": 112000,
+        "median": 117000,
+        "p75": 120000,
+        "n": 5
+    },
+    "saama technologies, llc|senior principal software engineer|senior": {
+        "p25": 110000,
+        "median": 125000,
+        "p75": 140250,
+        "n": 8
+    },
+    "saama technologies, llc|senior principal software engineer 1|senior": {
+        "p25": 118250,
+        "median": 128000,
+        "p75": 143935,
+        "n": 6
+    },
+    "saas global solutions, llc.|software developer|mid": {
+        "p25": 103000,
+        "median": 103000,
+        "p75": 103000,
+        "n": 6
+    },
+    "sabre glbl inc.|lead software engineer|senior": {
+        "p25": 127878,
+        "median": 127878,
+        "p75": 144124,
+        "n": 8
+    },
+    "sac attorneys llp|paralegal|entry": {
+        "p25": 63195,
+        "median": 66071,
+        "p75": 66560,
+        "n": 6
+    },
+    "safdie architects, llc|designer|mid": {
+        "p25": 70165,
+        "median": 74682,
+        "p75": 76378,
+        "n": 8
+    },
+    "safe movers inc.|accounting analyst|mid": {
+        "p25": 43576,
+        "median": 47008,
+        "p75": 56321,
+        "n": 6
+    },
+    "safety & efficacy it solutions inc.|principal statistical programmer|senior": {
+        "p25": 94225,
+        "median": 101950,
+        "p75": 104650,
+        "n": 16
+    },
+    "safeway inc.|graduate pharmacist intern|intern": {
+        "p25": 103074,
+        "median": 108929,
+        "p75": 119059,
+        "n": 7
+    },
+    "safeway inc.|pharmacy manager|senior": {
+        "p25": 164840,
+        "median": 171080,
+        "p75": 171080,
+        "n": 5
+    },
+    "safeway inc.|sr. engineer quality|senior": {
+        "p25": 140000,
+        "median": 153905,
+        "p75": 162701,
+        "n": 5
+    },
+    "safeway inc.|sr. engineer software|senior": {
+        "p25": 152969,
+        "median": 160000,
+        "p75": 164058,
+        "n": 15
+    },
+    "safeway inc.|sr. software engineer|senior": {
+        "p25": 157004,
+        "median": 165000,
+        "p75": 181032,
+        "n": 7
+    },
+    "safeway inc.|sr. staff engineer software|senior": {
+        "p25": 207174,
+        "median": 207745,
+        "p75": 210912,
+        "n": 5
+    },
+    "safeway inc.|staff engineer quality|senior": {
+        "p25": 162628,
+        "median": 169260,
+        "p75": 174720,
+        "n": 5
+    },
+    "safeway inc.|staff engineer site reliability|senior": {
+        "p25": 155000,
+        "median": 171600,
+        "p75": 178464,
+        "n": 5
+    },
+    "safeway inc.|staff engineer software|senior": {
+        "p25": 168195,
+        "median": 172724,
+        "p75": 183836,
+        "n": 30
+    },
+    "safeway inc.|staff pharmacist|senior": {
+        "p25": 149245,
+        "median": 152360,
+        "p75": 152360,
+        "n": 20
+    },
+    "safeway inc.|staff software engineer|senior": {
+        "p25": 179696,
+        "median": 185706,
+        "p75": 188701,
+        "n": 8
+    },
+    "sagarsoft, inc|senior software engineer|senior": {
+        "p25": 128960,
+        "median": 149760,
+        "p75": 149760,
+        "n": 5
+    },
+    "sagarsoft, inc|software engineer|mid": {
+        "p25": 91000,
+        "median": 108368,
+        "p75": 116166,
+        "n": 7
+    },
+    "sage it inc|application developer|mid": {
+        "p25": 100298,
+        "median": 105206,
+        "p75": 105601,
+        "n": 7
+    },
+    "sage it inc|data engineer|mid": {
+        "p25": 92040,
+        "median": 95493,
+        "p75": 96034,
+        "n": 29
+    },
+    "sage it inc|software developer|mid": {
+        "p25": 90625,
+        "median": 105227,
+        "p75": 108826,
+        "n": 71
+    },
+    "sage it inc|software engineer|mid": {
+        "p25": 87651,
+        "median": 105997,
+        "p75": 105997,
+        "n": 21
+    },
+    "saggi solutions inc|software developer|mid": {
+        "p25": 110240,
+        "median": 114753,
+        "p75": 114754,
+        "n": 5
+    },
+    "saggi solutions inc|web developer|mid": {
+        "p25": 84250,
+        "median": 98240,
+        "p75": 98240,
+        "n": 19
+    },
+    "sagitec solutions, llc|deputy manager|senior": {
+        "p25": 145650,
+        "median": 153350,
+        "p75": 157525,
+        "n": 6
+    },
+    "sagitec solutions, llc|senior software engineer|senior": {
+        "p25": 121500,
+        "median": 127003,
+        "p75": 132976,
+        "n": 8
+    },
+    "sagitec solutions, llc|software engineer|mid": {
+        "p25": 72000,
+        "median": 95000,
+        "p75": 95040,
+        "n": 5
+    },
+    "sagitec solutions, llc|technical lead|senior": {
+        "p25": 110900,
+        "median": 121622,
+        "p75": 128753,
+        "n": 10
+    },
+    "sai business solutions llc|software engineer|mid": {
+        "p25": 62000,
+        "median": 65000,
+        "p75": 74000,
+        "n": 5
+    },
+    "sai cpa services llc|accountant|mid": {
+        "p25": 71136,
+        "median": 71136,
+        "p75": 73070,
+        "n": 5
+    },
+    "sai global solutions inc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 90896,
+        "n": 5
+    },
+    "saika technologies inc|application developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 109460,
+        "n": 7
+    },
+    "sailpan solutions inc.|salesforce crm developer|mid": {
+        "p25": 90896,
+        "median": 112923,
+        "p75": 112923,
+        "n": 5
+    },
+    "sainar solutions inc|software developer|mid": {
+        "p25": 105997,
+        "median": 106558,
+        "p75": 113000,
+        "n": 25
+    },
+    "saint francis health system|physician|mid": {
+        "p25": 240000,
+        "median": 240000,
+        "p75": 352498,
+        "n": 7
+    },
+    "saint francis hospital - evanston, llc|medical resident (internal medicine)|entry": {
+        "p25": 69326,
+        "median": 69326,
+        "p75": 69326,
+        "n": 8
+    },
+    "saint louis university|assistant professor|entry": {
+        "p25": 80293,
+        "median": 94401,
+        "p75": 118525,
+        "n": 10
+    },
+    "saint-gobain shared services corporation|automation engineer - ipg|mid": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 135000,
+        "n": 5
+    },
+    "saion solutions inc|software engineer|mid": {
+        "p25": 73000,
+        "median": 86000,
+        "p75": 91400,
+        "n": 5
+    },
+    "saipsit, inc.|consultant|mid": {
+        "p25": 103875,
+        "median": 112013,
+        "p75": 124000,
+        "n": 8
+    },
+    "saipsit, inc.|data engineer|mid": {
+        "p25": 79500,
+        "median": 89500,
+        "p75": 103625,
+        "n": 8
+    },
+    "saipsit, inc.|software developer|mid": {
+        "p25": 104000,
+        "median": 105976,
+        "p75": 106000,
+        "n": 5
+    },
+    "saipsit, inc.|software engineer|mid": {
+        "p25": 99605,
+        "median": 104000,
+        "p75": 112036,
+        "n": 31
+    },
+    "saipsit, inc.|sr. software engineer|senior": {
+        "p25": 126147,
+        "median": 127294,
+        "p75": 143000,
+        "n": 6
+    },
+    "saks cloud services llc|sr. database administrator|senior": {
+        "p25": 107000,
+        "median": 107000,
+        "p75": 107000,
+        "n": 6
+    },
+    "saks cloud services llc|sr. manager, governance, risk, and compliance|senior": {
+        "p25": 142000,
+        "median": 142000,
+        "p75": 142000,
+        "n": 6
+    },
+    "salem infotech inc|computer programmer|mid": {
+        "p25": 93538,
+        "median": 93538,
+        "p75": 93538,
+        "n": 5
+    },
+    "salesforce, inc.|customer success manager|senior": {
+        "p25": 147225,
+        "median": 152436,
+        "p75": 166470,
+        "n": 26
+    },
+    "salesforce, inc.|customer success manager senior manager|senior": {
+        "p25": 169785,
+        "median": 171438,
+        "p75": 177541,
+        "n": 8
+    },
+    "salesforce, inc.|director software engineering|senior": {
+        "p25": 290650,
+        "median": 300200,
+        "p75": 311551,
+        "n": 15
+    },
+    "salesforce, inc.|director, software engineering|senior": {
+        "p25": 262089,
+        "median": 292900,
+        "p75": 307545,
+        "n": 5
+    },
+    "salesforce, inc.|engagement director|senior": {
+        "p25": 228900,
+        "median": 234780,
+        "p75": 247296,
+        "n": 5
+    },
+    "salesforce, inc.|forward deployed engineer|mid": {
+        "p25": 155000,
+        "median": 164681,
+        "p75": 175000,
+        "n": 13
+    },
+    "salesforce, inc.|lead account se|senior": {
+        "p25": 159376,
+        "median": 160683,
+        "p75": 167428,
+        "n": 6
+    },
+    "salesforce, inc.|lead software engineer|senior": {
+        "p25": 214178,
+        "median": 222797,
+        "p75": 246670,
+        "n": 7
+    },
+    "salesforce, inc.|manager software engineering|senior": {
+        "p25": 230836,
+        "median": 255969,
+        "p75": 269464,
+        "n": 5
+    },
+    "salesforce, inc.|manager technical consulting|senior": {
+        "p25": 181734,
+        "median": 189662,
+        "p75": 199744,
+        "n": 6
+    },
+    "salesforce, inc.|mts software engineer|mid": {
+        "p25": 156206,
+        "median": 174275,
+        "p75": 175986,
+        "n": 21
+    },
+    "salesforce, inc.|principal account se|senior": {
+        "p25": 179942,
+        "median": 187387,
+        "p75": 189000,
+        "n": 5
+    },
+    "salesforce, inc.|principal technical support engineer|senior": {
+        "p25": 138538,
+        "median": 160139,
+        "p75": 162640,
+        "n": 16
+    },
+    "salesforce, inc.|product management director|senior": {
+        "p25": 242089,
+        "median": 262500,
+        "p75": 285935,
+        "n": 10
+    },
+    "salesforce, inc.|product manager|senior": {
+        "p25": 175889,
+        "median": 197467,
+        "p75": 213003,
+        "n": 8
+    },
+    "salesforce, inc.|product owner manager|senior": {
+        "p25": 174953,
+        "median": 186175,
+        "p75": 200294,
+        "n": 7
+    },
+    "salesforce, inc.|product owner senior analyst|senior": {
+        "p25": 151910,
+        "median": 157031,
+        "p75": 157031,
+        "n": 5
+    },
+    "salesforce, inc.|product security senior|senior": {
+        "p25": 190764,
+        "median": 201973,
+        "p75": 205682,
+        "n": 5
+    },
+    "salesforce, inc.|research scientist|mid": {
+        "p25": 201094,
+        "median": 216775,
+        "p75": 220000,
+        "n": 5
+    },
+    "salesforce, inc.|senior account se|senior": {
+        "p25": 121576,
+        "median": 123801,
+        "p75": 160992,
+        "n": 5
+    },
+    "salesforce, inc.|senior director software engineering|senior": {
+        "p25": 306911,
+        "median": 323305,
+        "p75": 344913,
+        "n": 10
+    },
+    "salesforce, inc.|senior forward deployed engineer|senior": {
+        "p25": 201740,
+        "median": 210390,
+        "p75": 216060,
+        "n": 6
+    },
+    "salesforce, inc.|senior manager software engineering|senior": {
+        "p25": 239163,
+        "median": 251305,
+        "p75": 265736,
+        "n": 19
+    },
+    "salesforce, inc.|senior manager, software engineering|senior": {
+        "p25": 202880,
+        "median": 220601,
+        "p75": 245270,
+        "n": 6
+    },
+    "salesforce, inc.|senior product manager|senior": {
+        "p25": 230651,
+        "median": 238219,
+        "p75": 240808,
+        "n": 6
+    },
+    "salesforce, inc.|senior software engineer|senior": {
+        "p25": 206088,
+        "median": 219725,
+        "p75": 229371,
+        "n": 18
+    },
+    "salesforce, inc.|senior solution architect|senior": {
+        "p25": 188079,
+        "median": 196100,
+        "p75": 205196,
+        "n": 11
+    },
+    "salesforce, inc.|senior technical architect|senior": {
+        "p25": 202750,
+        "median": 213023,
+        "p75": 223535,
+        "n": 70
+    },
+    "salesforce, inc.|senior technical consultant|senior": {
+        "p25": 142741,
+        "median": 147957,
+        "p75": 151694,
+        "n": 16
+    },
+    "salesforce, inc.|senior technical support engineer|senior": {
+        "p25": 110463,
+        "median": 119277,
+        "p75": 126089,
+        "n": 26
+    },
+    "salesforce, inc.|software engineer amts|mid": {
+        "p25": 136000,
+        "median": 140080,
+        "p75": 145935,
+        "n": 13
+    },
+    "salesforce, inc.|software engineer lmts|mid": {
+        "p25": 150565,
+        "median": 211287,
+        "p75": 237675,
+        "n": 12
+    },
+    "salesforce, inc.|software engineer mts|mid": {
+        "p25": 150260,
+        "median": 161367,
+        "p75": 173132,
+        "n": 20
+    },
+    "salesforce, inc.|software engineer pmts|mid": {
+        "p25": 212529,
+        "median": 290217,
+        "p75": 324140,
+        "n": 10
+    },
+    "salesforce, inc.|software engineer smts|mid": {
+        "p25": 157705,
+        "median": 187574,
+        "p75": 217500,
+        "n": 27
+    },
+    "salesforce, inc.|software engineer, smts|mid": {
+        "p25": 215000,
+        "median": 220000,
+        "p75": 232500,
+        "n": 6
+    },
+    "salesforce, inc.|software engineering amts|mid": {
+        "p25": 140488,
+        "median": 145236,
+        "p75": 147000,
+        "n": 13
+    },
+    "salesforce, inc.|software engineering architect|senior": {
+        "p25": 305732,
+        "median": 324300,
+        "p75": 336273,
+        "n": 15
+    },
+    "salesforce, inc.|software engineering lmts|mid": {
+        "p25": 220900,
+        "median": 239820,
+        "p75": 253000,
+        "n": 269
+    },
+    "salesforce, inc.|software engineering mts|mid": {
+        "p25": 155000,
+        "median": 166309,
+        "p75": 176874,
+        "n": 196
+    },
+    "salesforce, inc.|software engineering pmts|mid": {
+        "p25": 268537,
+        "median": 283963,
+        "p75": 297368,
+        "n": 92
+    },
+    "salesforce, inc.|software engineering smts|mid": {
+        "p25": 186696,
+        "median": 204691,
+        "p75": 220000,
+        "n": 363
+    },
+    "salesforce, inc.|software engineering, lmts|mid": {
+        "p25": 242500,
+        "median": 250000,
+        "p75": 250500,
+        "n": 8
+    },
+    "salesforce, inc.|software engineering, smts|mid": {
+        "p25": 215000,
+        "median": 223000,
+        "p75": 225000,
+        "n": 9
+    },
+    "salesforce, inc.|solution architect|senior": {
+        "p25": 162470,
+        "median": 184045,
+        "p75": 187421,
+        "n": 11
+    },
+    "salesforce, inc.|success architect|senior": {
+        "p25": 152630,
+        "median": 172099,
+        "p75": 179052,
+        "n": 5
+    },
+    "salesforce, inc.|technical architect|senior": {
+        "p25": 170888,
+        "median": 182454,
+        "p75": 197787,
+        "n": 57
+    },
+    "salesforce, inc.|technical architect director|senior": {
+        "p25": 234371,
+        "median": 243594,
+        "p75": 247005,
+        "n": 6
+    },
+    "salesforce, inc.|technical consultant|mid": {
+        "p25": 111763,
+        "median": 121669,
+        "p75": 133889,
+        "n": 14
+    },
+    "salesforce, inc.|technical support engineer|mid": {
+        "p25": 95108,
+        "median": 96616,
+        "p75": 100562,
+        "n": 22
+    },
+    "salient global technologies corp|software development engineer|mid": {
+        "p25": 84095,
+        "median": 105560,
+        "p75": 107498,
+        "n": 7
+    },
+    "salina regional health center|medical technologist|mid": {
+        "p25": 72862,
+        "median": 76960,
+        "p75": 78353,
+        "n": 5
+    },
+    "sally beauty supply llc|senior software engineer|senior": {
+        "p25": 149781,
+        "median": 150000,
+        "p75": 156998,
+        "n": 5
+    },
+    "saltzman, tanis, pittell, levin and jacobson llc|pediatrician|mid": {
+        "p25": 175000,
+        "median": 175785,
+        "p75": 179017,
+        "n": 19
+    },
+    "sambanova systems inc.|principal engineer|senior": {
+        "p25": 193825,
+        "median": 200428,
+        "p75": 201323,
+        "n": 6
+    },
+    "sambanova systems inc.|senior principal engineer|senior": {
+        "p25": 204743,
+        "median": 219841,
+        "p75": 224682,
+        "n": 6
+    },
+    "samrajya services llc|programmer analyst|mid": {
+        "p25": 81000,
+        "median": 81000,
+        "p75": 81000,
+        "n": 9
+    },
+    "samsara inc.|software engineer i|entry": {
+        "p25": 105997,
+        "median": 130250,
+        "p75": 141961,
+        "n": 5
+    },
+    "samsara inc.|software engineer ii|mid": {
+        "p25": 117749,
+        "median": 137259,
+        "p75": 145040,
+        "n": 5
+    },
+    "samsung austin semiconductor, llc|engineer|mid": {
+        "p25": 84947,
+        "median": 97900,
+        "p75": 101982,
+        "n": 5
+    },
+    "samsung austin semiconductor, llc|senior engineer|senior": {
+        "p25": 131352,
+        "median": 151091,
+        "p75": 156853,
+        "n": 17
+    },
+    "samsung austin semiconductor, llc|senior staff engineer|senior": {
+        "p25": 164561,
+        "median": 180200,
+        "p75": 204901,
+        "n": 11
+    },
+    "samsung austin semiconductor, llc|staff engineer|senior": {
+        "p25": 154565,
+        "median": 161179,
+        "p75": 196908,
+        "n": 22
+    },
+    "samsung austin semiconductor, llc.|engineer i|entry": {
+        "p25": 82243,
+        "median": 88709,
+        "p75": 89564,
+        "n": 16
+    },
+    "samsung austin semiconductor, llc.|engineer ii|mid": {
+        "p25": 90730,
+        "median": 99611,
+        "p75": 108826,
+        "n": 45
+    },
+    "samsung austin semiconductor, llc.|senior engineer|senior": {
+        "p25": 115000,
+        "median": 120000,
+        "p75": 132267,
+        "n": 23
+    },
+    "samsung austin semiconductor, llc.|senior engineer tr|senior": {
+        "p25": 115000,
+        "median": 118622,
+        "p75": 129875,
+        "n": 11
+    },
+    "samsung austin semiconductor,llc|senior engineer|senior": {
+        "p25": 139000,
+        "median": 152506,
+        "p75": 156853,
+        "n": 9
+    },
+    "samsung austin semiconductor,llc|senior staff engineer|senior": {
+        "p25": 180200,
+        "median": 180200,
+        "p75": 216091,
+        "n": 8
+    },
+    "samsung austin semiconductor,llc|staff engineer|senior": {
+        "p25": 175546,
+        "median": 216091,
+        "p75": 216091,
+        "n": 10
+    },
+    "samsung electronics america, inc.|engineer ii, machine learning software|mid": {
+        "p25": 190000,
+        "median": 190000,
+        "p75": 192850,
+        "n": 5
+    },
+    "samsung electronics america, inc.|engineer ii, software analysis engineering|mid": {
+        "p25": 133500,
+        "median": 138921,
+        "p75": 139528,
+        "n": 7
+    },
+    "samsung electronics america, inc.|engineer ii, system structure design|mid": {
+        "p25": 122000,
+        "median": 134000,
+        "p75": 136000,
+        "n": 5
+    },
+    "samsung electronics america, inc.|engineer iii, data engineering|senior": {
+        "p25": 186324,
+        "median": 192149,
+        "p75": 194000,
+        "n": 6
+    },
+    "samsung electronics america, inc.|engineer iii, machine learning software|senior": {
+        "p25": 220000,
+        "median": 222600,
+        "p75": 225000,
+        "n": 5
+    },
+    "samsung electronics america, inc.|engineer iii, software analysis engineering|senior": {
+        "p25": 158000,
+        "median": 164000,
+        "p75": 166000,
+        "n": 5
+    },
+    "samsung electronics america, inc.|engineer iii, system structure design|senior": {
+        "p25": 161250,
+        "median": 166363,
+        "p75": 167748,
+        "n": 6
+    },
+    "samsung electronics america, inc.|professional ii, r&d project management|mid": {
+        "p25": 140000,
+        "median": 140039,
+        "p75": 141000,
+        "n": 5
+    },
+    "samsung electronics america, inc.|professional iii, r&d project management|senior": {
+        "p25": 168000,
+        "median": 171000,
+        "p75": 180843,
+        "n": 5
+    },
+    "samsung electronics america, inc.|staff engineer i, system structure design|senior": {
+        "p25": 180000,
+        "median": 190000,
+        "p75": 198648,
+        "n": 5
+    },
+    "samsung research america, inc.|senior engineer, research|senior": {
+        "p25": 111134,
+        "median": 123739,
+        "p75": 173461,
+        "n": 7
+    },
+    "samsung research america, inc.|senior staff engineer, software|senior": {
+        "p25": 216615,
+        "median": 226138,
+        "p75": 226158,
+        "n": 7
+    },
+    "samsung semiconductor, inc.|senior engineer|senior": {
+        "p25": 133432,
+        "median": 147276,
+        "p75": 157399,
+        "n": 26
+    },
+    "samsung semiconductor, inc.|senior staff engineer|senior": {
+        "p25": 184974,
+        "median": 204901,
+        "p75": 216091,
+        "n": 5
+    },
+    "samsung semiconductor, inc.|staff engineer|senior": {
+        "p25": 158735,
+        "median": 178006,
+        "p75": 192267,
+        "n": 24
+    },
+    "san diego state university|assistant professor|entry": {
+        "p25": 91212,
+        "median": 108000,
+        "p75": 114708,
+        "n": 31
+    },
+    "san francisco state university|assistant professor|entry": {
+        "p25": 94322,
+        "median": 95000,
+        "p75": 110712,
+        "n": 5
+    },
+    "san jose state university|assistant professor|entry": {
+        "p25": 102000,
+        "median": 105480,
+        "p75": 107892,
+        "n": 17
+    },
+    "san jose unified school district|special education  teacher|mid": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 70000,
+        "n": 6
+    },
+    "san jose unified school district|special education teacher|mid": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 72051,
+        "n": 22
+    },
+    "san jose unified school district|speech and language pathologist|mid": {
+        "p25": 80500,
+        "median": 80500,
+        "p75": 80500,
+        "n": 10
+    },
+    "sanav technologies llc|java developer|mid": {
+        "p25": 91982,
+        "median": 95773,
+        "p75": 105695,
+        "n": 6
+    },
+    "sanav technologies llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 95898,
+        "p75": 101161,
+        "n": 12
+    },
+    "sandisk technologies, inc.|analyst 4, business applications|mid": {
+        "p25": 167362,
+        "median": 167362,
+        "p75": 168394,
+        "n": 7
+    },
+    "sandisk technologies, inc.|principal engineer, product development engineering|senior": {
+        "p25": 160103,
+        "median": 178006,
+        "p75": 178599,
+        "n": 14
+    },
+    "sandisk technologies, inc.|principal engineer, vlsi design engineering|senior": {
+        "p25": 151091,
+        "median": 165275,
+        "p75": 167512,
+        "n": 11
+    },
+    "sandisk technologies, inc.|professional 4, information technology|mid": {
+        "p25": 149240,
+        "median": 149240,
+        "p75": 165281,
+        "n": 5
+    },
+    "sandisk technologies, inc.|senior engineer, industrial engineering|senior": {
+        "p25": 92976,
+        "median": 92976,
+        "p75": 92976,
+        "n": 20
+    },
+    "sandisk technologies, inc.|senior engineer, software development engineering (apps)|senior": {
+        "p25": 136297,
+        "median": 136297,
+        "p75": 136297,
+        "n": 10
+    },
+    "sandisk technologies, inc.|senior engineer, vlsi design engineering|senior": {
+        "p25": 124197,
+        "median": 124197,
+        "p75": 124197,
+        "n": 6
+    },
+    "sandisk technologies, inc.|staff engineer, industrial engineering|senior": {
+        "p25": 92976,
+        "median": 92976,
+        "p75": 92976,
+        "n": 7
+    },
+    "sandisk technologies, inc.|staff engineer, technology development engineering|senior": {
+        "p25": 144664,
+        "median": 149960,
+        "p75": 151070,
+        "n": 13
+    },
+    "sandisk technologies, inc.|staff engineer, vlsi design engineering|senior": {
+        "p25": 124197,
+        "median": 132501,
+        "p75": 143376,
+        "n": 8
+    },
+    "sandstone structures llc|construction project manager|senior": {
+        "p25": 106250,
+        "median": 117500,
+        "p75": 125000,
+        "n": 6
+    },
+    "sanford|medical laboratory scientist|mid": {
+        "p25": 39915,
+        "median": 63107,
+        "p75": 65894,
+        "n": 20
+    },
+    "sanford|registered nurse|mid": {
+        "p25": 48318,
+        "median": 48318,
+        "p75": 71115,
+        "n": 9
+    },
+    "sanford bismarck|medical laboratory scientist|mid": {
+        "p25": 64563,
+        "median": 67142,
+        "p75": 68629,
+        "n": 8
+    },
+    "sanford burnham prebys medical discovery institute|bioinformatics specialist|mid": {
+        "p25": 85000,
+        "median": 85950,
+        "p75": 85950,
+        "n": 5
+    },
+    "sanford burnham prebys medical discovery institute|staff scientist|senior": {
+        "p25": 75587,
+        "median": 78749,
+        "p75": 80000,
+        "n": 13
+    },
+    "sanford clinic|hospitalist|mid": {
+        "p25": 98280,
+        "median": 98280,
+        "p75": 98280,
+        "n": 13
+    },
+    "sanford health|medical laboratory scientist|mid": {
+        "p25": 66206,
+        "median": 67953,
+        "p75": 69617,
+        "n": 29
+    },
+    "sanford school of medicine of the university of south dakota residency|internal medicine resident|entry": {
+        "p25": 66000,
+        "median": 66000,
+        "p75": 67500,
+        "n": 13
+    },
+    "sanguine software solutions inc|software developer|mid": {
+        "p25": 100942,
+        "median": 102627,
+        "p75": 108826,
+        "n": 5
+    },
+    "saniglobal sanitation llc|agricultural inspector|mid": {
+        "p25": 45576,
+        "median": 47772,
+        "p75": 49968,
+        "n": 8
+    },
+    "saniglobal sanitation llc|quality control specialist|mid": {
+        "p25": 47988,
+        "median": 47988,
+        "p75": 47988,
+        "n": 7
+    },
+    "sann it solutions inc|software engineer|mid": {
+        "p25": 105997,
+        "median": 108077,
+        "p75": 112424,
+        "n": 5
+    },
+    "sannova analytical llc|chemist|mid": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 77500,
+        "n": 7
+    },
+    "sanofi us services inc.|senior scientist|senior": {
+        "p25": 101026,
+        "median": 107099,
+        "p75": 119413,
+        "n": 9
+    },
+    "sanra solutions, inc.|programmer analyst|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 95389,
+        "n": 5
+    },
+    "sans america inc|data analyst|mid": {
+        "p25": 65333,
+        "median": 77459,
+        "p75": 89586,
+        "n": 6
+    },
+    "sans solution enterprise inc|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 111250,
+        "n": 6
+    },
+    "santa cruz valley unified school district no. 35|teacher|mid": {
+        "p25": 52607,
+        "median": 58428,
+        "p75": 62714,
+        "n": 7
+    },
+    "santa fe south schools inc.|elementary school teacher|mid": {
+        "p25": 47513,
+        "median": 47513,
+        "p75": 47513,
+        "n": 5
+    },
+    "santa fe south schools inc.|teacher|mid": {
+        "p25": 47513,
+        "median": 47513,
+        "p75": 47513,
+        "n": 7
+    },
+    "santander u.s. capital markets llc|analyst, investment banking|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 5
+    },
+    "sanveo, inc.|analyst, construction tech solutions|entry": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 67500,
+        "n": 7
+    },
+    "sap america, inc.|business processes consultant|mid": {
+        "p25": 90133,
+        "median": 98011,
+        "p75": 115907,
+        "n": 15
+    },
+    "sap america, inc.|business processes principal consultant|senior": {
+        "p25": 164304,
+        "median": 172500,
+        "p75": 190629,
+        "n": 50
+    },
+    "sap america, inc.|business processes senior consultant|senior": {
+        "p25": 128361,
+        "median": 140469,
+        "p75": 157267,
+        "n": 40
+    },
+    "sap america, inc.|customer success partner expert|mid": {
+        "p25": 151904,
+        "median": 164263,
+        "p75": 173916,
+        "n": 6
+    },
+    "sap america, inc.|data scientist|mid": {
+        "p25": 135098,
+        "median": 149490,
+        "p75": 153195,
+        "n": 5
+    },
+    "sap america, inc.|developer|mid": {
+        "p25": 131225,
+        "median": 136840,
+        "p75": 150223,
+        "n": 14
+    },
+    "sap america, inc.|expert devops engineer|mid": {
+        "p25": 203980,
+        "median": 208368,
+        "p75": 210000,
+        "n": 5
+    },
+    "sap america, inc.|it business services senior consultant|senior": {
+        "p25": 162763,
+        "median": 171533,
+        "p75": 190955,
+        "n": 8
+    },
+    "sap america, inc.|it technology services expert|mid": {
+        "p25": 167200,
+        "median": 172834,
+        "p75": 183088,
+        "n": 5
+    },
+    "sap america, inc.|it technology services senior specialist|senior": {
+        "p25": 153500,
+        "median": 165000,
+        "p75": 175000,
+        "n": 75
+    },
+    "sap america, inc.|it technology services specialist|mid": {
+        "p25": 106404,
+        "median": 122000,
+        "p75": 132435,
+        "n": 15
+    },
+    "sap america, inc.|senior developer|senior": {
+        "p25": 140776,
+        "median": 181521,
+        "p75": 188432,
+        "n": 5
+    },
+    "sap america, inc.|senior services engagement engineer|senior": {
+        "p25": 150680,
+        "median": 157360,
+        "p75": 164250,
+        "n": 6
+    },
+    "sap america, inc.|services architecture expert|mid": {
+        "p25": 170845,
+        "median": 179065,
+        "p75": 199000,
+        "n": 21
+    },
+    "sap america, inc.|services engagement expert|mid": {
+        "p25": 158952,
+        "median": 182500,
+        "p75": 185201,
+        "n": 12
+    },
+    "sap america, inc.|solution advisor senior specialist|senior": {
+        "p25": 144388,
+        "median": 170760,
+        "p75": 179756,
+        "n": 6
+    },
+    "sap america, inc.|technology consultant|mid": {
+        "p25": 115037,
+        "median": 123500,
+        "p75": 133255,
+        "n": 10
+    },
+    "sap america, inc.|technology senior consultant|senior": {
+        "p25": 148194,
+        "median": 149485,
+        "p75": 167177,
+        "n": 8
+    },
+    "sap industries, inc.|business processes principal consultant|senior": {
+        "p25": 171446,
+        "median": 185469,
+        "p75": 199751,
+        "n": 6
+    },
+    "sap labs, llc|developer|mid": {
+        "p25": 135478,
+        "median": 139923,
+        "p75": 147716,
+        "n": 26
+    },
+    "sap labs, llc|development expert|mid": {
+        "p25": 183704,
+        "median": 192968,
+        "p75": 211303,
+        "n": 11
+    },
+    "sap labs, llc|senior developer|senior": {
+        "p25": 146290,
+        "median": 160086,
+        "p75": 169092,
+        "n": 30
+    },
+    "sap labs, llc|senior devops engineer|senior": {
+        "p25": 154303,
+        "median": 167177,
+        "p75": 168705,
+        "n": 8
+    },
+    "sap labs, llc|senior product specialist|senior": {
+        "p25": 156016,
+        "median": 168350,
+        "p75": 202751,
+        "n": 5
+    },
+    "sap labs, llc|senior user experience design specialist|senior": {
+        "p25": 158802,
+        "median": 185088,
+        "p75": 199195,
+        "n": 5
+    },
+    "sapien infotech inc|it consultant (software developer)|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 92581,
+        "n": 9
+    },
+    "sapien infotech inc|it consultant (software engineer)|mid": {
+        "p25": 83658,
+        "median": 92581,
+        "p75": 92581,
+        "n": 8
+    },
+    "sapien infotech inc|programmer analyst|mid": {
+        "p25": 77418,
+        "median": 77418,
+        "p75": 85530,
+        "n": 16
+    },
+    "sapien infotech inc|systems application engineer|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 83658,
+        "n": 7
+    },
+    "sapient corporation|architect|senior": {
+        "p25": 151872,
+        "median": 163868,
+        "p75": 205636,
+        "n": 7
+    },
+    "sapient corporation|manager technology|senior": {
+        "p25": 164310,
+        "median": 166400,
+        "p75": 175000,
+        "n": 11
+    },
+    "sapient corporation|product manager|senior": {
+        "p25": 120000,
+        "median": 122282,
+        "p75": 122282,
+        "n": 5
+    },
+    "sapient corporation|senior associate technology l1|mid": {
+        "p25": 132000,
+        "median": 136500,
+        "p75": 137550,
+        "n": 5
+    },
+    "sapient corporation|senior associate technology l2|mid": {
+        "p25": 143000,
+        "median": 148448,
+        "p75": 156314,
+        "n": 12
+    },
+    "sapient corporation|senior product manager|senior": {
+        "p25": 148783,
+        "median": 150041,
+        "p75": 155326,
+        "n": 6
+    },
+    "sapient corporation|specialist platform|mid": {
+        "p25": 163724,
+        "median": 179337,
+        "p75": 182000,
+        "n": 9
+    },
+    "sapot systems, inc|software developer|mid": {
+        "p25": 85768,
+        "median": 109720,
+        "p75": 116152,
+        "n": 10
+    },
+    "sapot systems, inc|software engineer|mid": {
+        "p25": 85030,
+        "median": 87620,
+        "p75": 90210,
+        "n": 6
+    },
+    "sapphire software solutions inc.|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 115500,
+        "n": 8
+    },
+    "sapphire software solutions inc.|software engineer|mid": {
+        "p25": 113000,
+        "median": 113000,
+        "p75": 132000,
+        "n": 9
+    },
+    "sapphire software solutions, inc.|data engineer|mid": {
+        "p25": 95875,
+        "median": 103400,
+        "p75": 108700,
+        "n": 8
+    },
+    "sapphire software solutions, inc.|qa engineer|mid": {
+        "p25": 85000,
+        "median": 91500,
+        "p75": 110750,
+        "n": 11
+    },
+    "sapphire software solutions, inc.|software developer|mid": {
+        "p25": 105500,
+        "median": 106600,
+        "p75": 114000,
+        "n": 23
+    },
+    "sapphire software solutions, inc.|software engineer|mid": {
+        "p25": 102090,
+        "median": 106000,
+        "p75": 113000,
+        "n": 17
+    },
+    "sapphirus systems llc|.net developer|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 5
+    },
+    "saransh inc|software engineer|mid": {
+        "p25": 95500,
+        "median": 95500,
+        "p75": 109000,
+        "n": 25
+    },
+    "saras america inc.|software developer|mid": {
+        "p25": 79500,
+        "median": 84100,
+        "p75": 86350,
+        "n": 11
+    },
+    "saras america inc.|software engineer|mid": {
+        "p25": 79500,
+        "median": 84100,
+        "p75": 84100,
+        "n": 9
+    },
+    "sas institute inc.|research statistician developer|mid": {
+        "p25": 125694,
+        "median": 125694,
+        "p75": 142511,
+        "n": 6
+    },
+    "sasaki associates|designer|mid": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 80000,
+        "n": 5
+    },
+    "sasaki associates|landscape architect|senior": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 80000,
+        "n": 5
+    },
+    "sasaki associates|landscape designer|mid": {
+        "p25": 75000,
+        "median": 77230,
+        "p75": 80000,
+        "n": 7
+    },
+    "sasaki associates|urban designer|mid": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 78750,
+        "n": 6
+    },
+    "sasken inc.|software engineer|mid": {
+        "p25": 120000,
+        "median": 148576,
+        "p75": 148576,
+        "n": 5
+    },
+    "sasken technologies limited|software engineer|mid": {
+        "p25": 125000,
+        "median": 140849,
+        "p75": 143002,
+        "n": 5
+    },
+    "satcon inc.|software developer|mid": {
+        "p25": 101899,
+        "median": 105000,
+        "p75": 112923,
+        "n": 5
+    },
+    "sathram corporation|clinical project manager|senior": {
+        "p25": 146099,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "sathram corporation|cqv engineer|mid": {
+        "p25": 88000,
+        "median": 88379,
+        "p75": 95909,
+        "n": 5
+    },
+    "sathram corporation|csv engineer|mid": {
+        "p25": 88462,
+        "median": 90750,
+        "p75": 93257,
+        "n": 6
+    },
+    "sathram corporation|validation engineer|mid": {
+        "p25": 92965,
+        "median": 100152,
+        "p75": 102586,
+        "n": 22
+    },
+    "satin solutions llc|computer programmer|mid": {
+        "p25": 79225,
+        "median": 99350,
+        "p75": 120675,
+        "n": 26
+    },
+    "satin solutions llc|database architects|mid": {
+        "p25": 101570,
+        "median": 123000,
+        "p75": 135000,
+        "n": 17
+    },
+    "satin solutions llc|software engineer|mid": {
+        "p25": 76550,
+        "median": 96375,
+        "p75": 115000,
+        "n": 128
+    },
+    "satin solutions llc|software qa analyst|mid": {
+        "p25": 79250,
+        "median": 92300,
+        "p75": 105375,
+        "n": 12
+    },
+    "saturn tech llc|senior software developer|senior": {
+        "p25": 105750,
+        "median": 110000,
+        "p75": 120000,
+        "n": 9
+    },
+    "saturn tech llc|software developer|mid": {
+        "p25": 101200,
+        "median": 102190,
+        "p75": 105250,
+        "n": 13
+    },
+    "satya marg solutions, inc|software developer|mid": {
+        "p25": 91000,
+        "median": 98500,
+        "p75": 106000,
+        "n": 6
+    },
+    "satyam venture engineering services pvt. ltd.|design engineer|mid": {
+        "p25": 76500,
+        "median": 79000,
+        "p75": 80000,
+        "n": 6
+    },
+    "satyam venture engineering services pvt. ltd.|engineer|mid": {
+        "p25": 72467,
+        "median": 75396,
+        "p75": 96750,
+        "n": 8
+    },
+    "satyam venture engineering services pvt. ltd.|verification and validation engineer|mid": {
+        "p25": 87500,
+        "median": 110000,
+        "p75": 110000,
+        "n": 6
+    },
+    "satyam-venture engineering services pvt. ltd.|design engineer|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 91000,
+        "n": 5
+    },
+    "savancys inc|business analyst|mid": {
+        "p25": 100714,
+        "median": 100714,
+        "p75": 120000,
+        "n": 5
+    },
+    "savancys inc|software developer|mid": {
+        "p25": 79750,
+        "median": 100998,
+        "p75": 106000,
+        "n": 10
+    },
+    "savannah chatham county public school system|elementary school special education teacher|mid": {
+        "p25": 55981,
+        "median": 58475,
+        "p75": 60112,
+        "n": 15
+    },
+    "savannah chatham county public school system|elementary school teacher|mid": {
+        "p25": 56427,
+        "median": 62449,
+        "p75": 69221,
+        "n": 94
+    },
+    "savannah chatham county public school system|high school special education teacher|mid": {
+        "p25": 60236,
+        "median": 66087,
+        "p75": 76712,
+        "n": 6
+    },
+    "savannah chatham county public school system|high school teacher|mid": {
+        "p25": 56200,
+        "median": 61352,
+        "p75": 67765,
+        "n": 34
+    },
+    "savannah chatham county public school system|middle school teacher|mid": {
+        "p25": 57906,
+        "median": 63675,
+        "p75": 69305,
+        "n": 41
+    },
+    "savi technologies, inc|software developer|mid": {
+        "p25": 84250,
+        "median": 88000,
+        "p75": 89828,
+        "n": 6
+    },
+    "saviynt, inc.|technical lead, professional services|senior": {
+        "p25": 123446,
+        "median": 126048,
+        "p75": 128586,
+        "n": 5
+    },
+    "savvas learning company llc|senior software developer|senior": {
+        "p25": 129978,
+        "median": 134957,
+        "p75": 136567,
+        "n": 7
+    },
+    "savvients inc|software developer|mid": {
+        "p25": 84000,
+        "median": 85000,
+        "p75": 108000,
+        "n": 5
+    },
+    "savvients inc|software developer i|entry": {
+        "p25": 83160,
+        "median": 83160,
+        "p75": 87804,
+        "n": 20
+    },
+    "savvients inc|software developer ii|mid": {
+        "p25": 106080,
+        "median": 106200,
+        "p75": 112800,
+        "n": 5
+    },
+    "savvy info systems inc|business analyst|mid": {
+        "p25": 95482,
+        "median": 96928,
+        "p75": 96928,
+        "n": 6
+    },
+    "savvy info systems inc|software developer|mid": {
+        "p25": 99965,
+        "median": 102190,
+        "p75": 106558,
+        "n": 17
+    },
+    "sawtest solution inc.|software test engineer|mid": {
+        "p25": 68000,
+        "median": 68640,
+        "p75": 72800,
+        "n": 9
+    },
+    "saxon global inc.|software engineer|mid": {
+        "p25": 80974,
+        "median": 95035,
+        "p75": 105981,
+        "n": 8
+    },
+    "sba acquisition group|project management specialist|mid": {
+        "p25": 83949,
+        "median": 83949,
+        "p75": 88379,
+        "n": 6
+    },
+    "sbase technologies, inc.|software engineer|mid": {
+        "p25": 84318,
+        "median": 111321,
+        "p75": 114753,
+        "n": 6
+    },
+    "sbp consulting inc.|enterprise application design engineer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 110000,
+        "n": 13
+    },
+    "scadea software solutions inc.|software developer|mid": {
+        "p25": 86865,
+        "median": 90000,
+        "p75": 103666,
+        "n": 6
+    },
+    "scadea solutions, inc.|software developer|mid": {
+        "p25": 106020,
+        "median": 107040,
+        "p75": 107040,
+        "n": 15
+    },
+    "scale ai, inc.|machine learning research engineer|mid": {
+        "p25": 156000,
+        "median": 210000,
+        "p75": 260000,
+        "n": 7
+    },
+    "scale ai, inc.|software engineer|mid": {
+        "p25": 183750,
+        "median": 195000,
+        "p75": 199662,
+        "n": 8
+    },
+    "scale ai, inc.|strategic projects associate|entry": {
+        "p25": 115000,
+        "median": 120000,
+        "p75": 120000,
+        "n": 5
+    },
+    "scale ai, inc.|strategic projects lead|senior": {
+        "p25": 142500,
+        "median": 165000,
+        "p75": 185500,
+        "n": 11
+    },
+    "scepter technologies, inc|sr. software engineer|senior": {
+        "p25": 88462,
+        "median": 102253,
+        "p75": 111100,
+        "n": 12
+    },
+    "schlumberger technology corporation|back end software engineer|mid": {
+        "p25": 113772,
+        "median": 132669,
+        "p75": 149925,
+        "n": 6
+    },
+    "schlumberger technology corporation|data scientist|mid": {
+        "p25": 163605,
+        "median": 176540,
+        "p75": 182000,
+        "n": 7
+    },
+    "schlumberger technology corporation|full stack software engineer|mid": {
+        "p25": 109500,
+        "median": 131600,
+        "p75": 135000,
+        "n": 9
+    },
+    "schlumberger technology corporation|mechanical engineer|mid": {
+        "p25": 91548,
+        "median": 104325,
+        "p75": 117464,
+        "n": 8
+    },
+    "schnabel management services, inc.|senior staff engineer|senior": {
+        "p25": 83200,
+        "median": 86757,
+        "p75": 87027,
+        "n": 9
+    },
+    "school of science and technology|science teacher|mid": {
+        "p25": 54500,
+        "median": 54550,
+        "p75": 55000,
+        "n": 5
+    },
+    "schuyler community schools|teacher|mid": {
+        "p25": 57992,
+        "median": 61620,
+        "p75": 66519,
+        "n": 22
+    },
+    "schweitzer engineering laboratories, inc.|application engineer--protection|mid": {
+        "p25": 125361,
+        "median": 142030,
+        "p75": 150343,
+        "n": 8
+    },
+    "schweitzer engineering laboratories, inc.|associate software engineer|entry": {
+        "p25": 87123,
+        "median": 88546,
+        "p75": 88635,
+        "n": 11
+    },
+    "schweitzer engineering laboratories, inc.|development lead engineer|senior": {
+        "p25": 135838,
+        "median": 141677,
+        "p75": 148750,
+        "n": 6
+    },
+    "schweitzer engineering laboratories, inc.|lead software engineer|senior": {
+        "p25": 128024,
+        "median": 132579,
+        "p75": 132579,
+        "n": 5
+    },
+    "schweitzer engineering laboratories, inc.|software engineer|mid": {
+        "p25": 110138,
+        "median": 110552,
+        "p75": 116157,
+        "n": 10
+    },
+    "sciegen pharmaceuticals inc.|quality control chemist|mid": {
+        "p25": 64350,
+        "median": 67524,
+        "p75": 69875,
+        "n": 8
+    },
+    "scotia capital (usa), inc.|analyst|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 115731,
+        "n": 11
+    },
+    "scotia capital (usa), inc.|associate director|senior": {
+        "p25": 237500,
+        "median": 275000,
+        "p75": 275000,
+        "n": 6
+    },
+    "scottmadden, inc.|associate|entry": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 140000,
+        "n": 5
+    },
+    "scottsdale unified school district|teacher|mid": {
+        "p25": 57949,
+        "median": 59264,
+        "p75": 59856,
+        "n": 8
+    },
+    "sdh systems llc|ios developer|mid": {
+        "p25": 90000,
+        "median": 100000,
+        "p75": 107203,
+        "n": 5
+    },
+    "sdh systems llc|java developer|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 92986,
+        "n": 6
+    },
+    "sdh systems llc|software developer|mid": {
+        "p25": 91082,
+        "median": 95472,
+        "p75": 99507,
+        "n": 15
+    },
+    "sdh systems llc|workday developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105998,
+        "n": 5
+    },
+    "sdvs technologies llc|sap consultant|mid": {
+        "p25": 106517,
+        "median": 108826,
+        "p75": 112923,
+        "n": 10
+    },
+    "sdvs technologies llc|sap functional consultant|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 112923,
+        "n": 5
+    },
+    "sdvs technologies llc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 47
+    },
+    "se2, llc|software engineer iii|senior": {
+        "p25": 100708,
+        "median": 106407,
+        "p75": 110750,
+        "n": 6
+    },
+    "sea mar community health centers|clinical supervisor|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 80750,
+        "n": 8
+    },
+    "sea mar community health centers|mental health therapist iii|senior": {
+        "p25": 69118,
+        "median": 69825,
+        "p75": 70865,
+        "n": 15
+    },
+    "seagate us llc|sr. engineer|senior": {
+        "p25": 115893,
+        "median": 117353,
+        "p75": 119978,
+        "n": 10
+    },
+    "seagate us llc|staff engineer|senior": {
+        "p25": 124883,
+        "median": 126027,
+        "p75": 136395,
+        "n": 7
+    },
+    "seanergy digital inc.|software engineer|mid": {
+        "p25": 66700,
+        "median": 66700,
+        "p75": 66700,
+        "n": 6
+    },
+    "seattle celtic llc|soccer coach|mid": {
+        "p25": 48380,
+        "median": 55000,
+        "p75": 55000,
+        "n": 5
+    },
+    "securenet systems corporation|software developer|mid": {
+        "p25": 81600,
+        "median": 81600,
+        "p75": 85600,
+        "n": 53
+    },
+    "seer solutions inc|project coordinator|mid": {
+        "p25": 63356,
+        "median": 79788,
+        "p75": 82763,
+        "n": 5
+    },
+    "seer solutions inc|senior software developer|senior": {
+        "p25": 103256,
+        "median": 116438,
+        "p75": 116438,
+        "n": 6
+    },
+    "seer solutions inc|software developer|mid": {
+        "p25": 83179,
+        "median": 83179,
+        "p75": 94369,
+        "n": 9
+    },
+    "sei investments company|senior technical lead|senior": {
+        "p25": 150300,
+        "median": 156000,
+        "p75": 158900,
+        "n": 15
+    },
+    "sei investments company|software engineer ii|mid": {
+        "p25": 126000,
+        "median": 135000,
+        "p75": 135500,
+        "n": 9
+    },
+    "sei investments company|sr. technical lead|senior": {
+        "p25": 147001,
+        "median": 149325,
+        "p75": 150700,
+        "n": 7
+    },
+    "sei investments company|technical lead|senior": {
+        "p25": 145200,
+        "median": 149850,
+        "p75": 154900,
+        "n": 14
+    },
+    "sel engineering services, inc.|project engineer--automation|mid": {
+        "p25": 108936,
+        "median": 118768,
+        "p75": 137793,
+        "n": 9
+    },
+    "sel engineering services, inc.|project engineer--protection|mid": {
+        "p25": 103272,
+        "median": 117495,
+        "p75": 121128,
+        "n": 17
+    },
+    "select it talent llc|software engineer|mid": {
+        "p25": 85555,
+        "median": 90792,
+        "p75": 93688,
+        "n": 6
+    },
+    "select minds llc|network engineer|mid": {
+        "p25": 79492,
+        "median": 84302,
+        "p75": 89121,
+        "n": 10
+    },
+    "select rehabilitation llc|physical therapist|mid": {
+        "p25": 85337,
+        "median": 86964,
+        "p75": 93308,
+        "n": 8
+    },
+    "selsoft inc|computer programmer|mid": {
+        "p25": 77418,
+        "median": 77418,
+        "p75": 80563,
+        "n": 8
+    },
+    "sema construction, inc.|project engineer|mid": {
+        "p25": 90180,
+        "median": 94090,
+        "p75": 98525,
+        "n": 6
+    },
+    "semanticbits, llc|senior software engineer|senior": {
+        "p25": 120347,
+        "median": 133052,
+        "p75": 142930,
+        "n": 6
+    },
+    "semiconductor components industries, llc|product engineer|mid": {
+        "p25": 84448,
+        "median": 84448,
+        "p75": 116719,
+        "n": 7
+    },
+    "seminole hospital district|medical technologist|mid": {
+        "p25": 77168,
+        "median": 83137,
+        "p75": 83512,
+        "n": 5
+    },
+    "sentara health|healthcare data analyst|mid": {
+        "p25": 83460,
+        "median": 91036,
+        "p75": 94086,
+        "n": 7
+    },
+    "sentara health|physical therapist|mid": {
+        "p25": 106985,
+        "median": 107952,
+        "p75": 110385,
+        "n": 5
+    },
+    "sentara health|senior software engineer|senior": {
+        "p25": 123593,
+        "median": 135000,
+        "p75": 136616,
+        "n": 9
+    },
+    "sentara medical group|internal medicine physician|mid": {
+        "p25": 270000,
+        "median": 270000,
+        "p75": 270000,
+        "n": 5
+    },
+    "serenity infotech inc.|software developer|mid": {
+        "p25": 87485,
+        "median": 87485,
+        "p75": 87485,
+        "n": 5
+    },
+    "servesys corporation|network engineer|mid": {
+        "p25": 81466,
+        "median": 87500,
+        "p75": 90000,
+        "n": 6
+    },
+    "servicenow, inc.|associate software engineer|entry": {
+        "p25": 112788,
+        "median": 118904,
+        "p75": 133500,
+        "n": 12
+    },
+    "servicenow, inc.|associate software quality engineer|entry": {
+        "p25": 104563,
+        "median": 113753,
+        "p75": 118516,
+        "n": 5
+    },
+    "servicenow, inc.|business strategy specialist|mid": {
+        "p25": 106782,
+        "median": 106782,
+        "p75": 106801,
+        "n": 6
+    },
+    "servicenow, inc.|finance leadership rotation program (flrp)|mid": {
+        "p25": 123802,
+        "median": 139818,
+        "p75": 152400,
+        "n": 5
+    },
+    "servicenow, inc.|inbound product manager|senior": {
+        "p25": 107390,
+        "median": 130694,
+        "p75": 131201,
+        "n": 12
+    },
+    "servicenow, inc.|machine learning quality engineer|mid": {
+        "p25": 99736,
+        "median": 118488,
+        "p75": 118488,
+        "n": 5
+    },
+    "servicenow, inc.|manager, software engineering management|senior": {
+        "p25": 210791,
+        "median": 212637,
+        "p75": 216651,
+        "n": 6
+    },
+    "servicenow, inc.|principal software engineer|senior": {
+        "p25": 226158,
+        "median": 226158,
+        "p75": 254925,
+        "n": 6
+    },
+    "servicenow, inc.|senior applied research scientist|senior": {
+        "p25": 157769,
+        "median": 157769,
+        "p75": 176571,
+        "n": 5
+    },
+    "servicenow, inc.|senior data platform software engineer|senior": {
+        "p25": 157581,
+        "median": 164044,
+        "p75": 165096,
+        "n": 5
+    },
+    "servicenow, inc.|senior inbound product manager|senior": {
+        "p25": 127774,
+        "median": 164499,
+        "p75": 165423,
+        "n": 13
+    },
+    "servicenow, inc.|senior machine learning engineer|senior": {
+        "p25": 185662,
+        "median": 186836,
+        "p75": 188832,
+        "n": 7
+    },
+    "servicenow, inc.|senior machine learning quality engineer|senior": {
+        "p25": 144563,
+        "median": 144852,
+        "p75": 148926,
+        "n": 7
+    },
+    "servicenow, inc.|senior manager, software engineering management|senior": {
+        "p25": 224895,
+        "median": 241006,
+        "p75": 253637,
+        "n": 5
+    },
+    "servicenow, inc.|senior outbound product manager|senior": {
+        "p25": 149261,
+        "median": 161470,
+        "p75": 168958,
+        "n": 5
+    },
+    "servicenow, inc.|senior software engineer|senior": {
+        "p25": 151923,
+        "median": 155965,
+        "p75": 168823,
+        "n": 103
+    },
+    "servicenow, inc.|senior software quality engineer|senior": {
+        "p25": 115502,
+        "median": 144852,
+        "p75": 152837,
+        "n": 35
+    },
+    "servicenow, inc.|senior staff software engineer|senior": {
+        "p25": 214682,
+        "median": 217038,
+        "p75": 226158,
+        "n": 11
+    },
+    "servicenow, inc.|senior staff software quality engineer|senior": {
+        "p25": 150280,
+        "median": 192321,
+        "p75": 193376,
+        "n": 5
+    },
+    "servicenow, inc.|senior technical support engineer|senior": {
+        "p25": 98446,
+        "median": 99426,
+        "p75": 113157,
+        "n": 22
+    },
+    "servicenow, inc.|senior tse, automation|senior": {
+        "p25": 105851,
+        "median": 107203,
+        "p75": 110531,
+        "n": 5
+    },
+    "servicenow, inc.|senior ux researcher|senior": {
+        "p25": 117645,
+        "median": 117645,
+        "p75": 117645,
+        "n": 5
+    },
+    "servicenow, inc.|software engineer|mid": {
+        "p25": 126880,
+        "median": 132785,
+        "p75": 133500,
+        "n": 80
+    },
+    "servicenow, inc.|software engineer - applications|mid": {
+        "p25": 130187,
+        "median": 132785,
+        "p75": 132785,
+        "n": 5
+    },
+    "servicenow, inc.|software quality engineer|mid": {
+        "p25": 94640,
+        "median": 110953,
+        "p75": 118516,
+        "n": 20
+    },
+    "servicenow, inc.|staff data engineer|senior": {
+        "p25": 128866,
+        "median": 132101,
+        "p75": 132101,
+        "n": 7
+    },
+    "servicenow, inc.|staff machine learning engineer|senior": {
+        "p25": 215521,
+        "median": 215521,
+        "p75": 221747,
+        "n": 7
+    },
+    "servicenow, inc.|staff software engineer|senior": {
+        "p25": 181592,
+        "median": 185232,
+        "p75": 190486,
+        "n": 65
+    },
+    "servicenow, inc.|staff software quality engineer|senior": {
+        "p25": 136365,
+        "median": 152443,
+        "p75": 172421,
+        "n": 19
+    },
+    "servicenow, inc.|technical support engineer|mid": {
+        "p25": 78857,
+        "median": 78857,
+        "p75": 101604,
+        "n": 30
+    },
+    "servicetitan, inc.|staff software engineer|senior": {
+        "p25": 210000,
+        "median": 210000,
+        "p75": 213800,
+        "n": 7
+    },
+    "seton hall university|assistant professor|entry": {
+        "p25": 84030,
+        "median": 105558,
+        "p75": 119499,
+        "n": 6
+    },
+    "seven seas technologies, inc.|software developer|mid": {
+        "p25": 101000,
+        "median": 106216,
+        "p75": 114443,
+        "n": 5
+    },
+    "seventynine solutions, inc.|software developer|mid": {
+        "p25": 88311,
+        "median": 103210,
+        "p75": 105284,
+        "n": 10
+    },
+    "sg americas operational services, llc|senior programmer analyst|senior": {
+        "p25": 165000,
+        "median": 179982,
+        "p75": 179982,
+        "n": 7
+    },
+    "sg americas securities, llc|financial engineer|mid": {
+        "p25": 223750,
+        "median": 242500,
+        "p75": 250000,
+        "n": 6
+    },
+    "sg americas securities, llc|trader|mid": {
+        "p25": 222500,
+        "median": 256038,
+        "p75": 270559,
+        "n": 11
+    },
+    "shands jacksonville medical center, inc.|medical technologist ii|mid": {
+        "p25": 76169,
+        "median": 79175,
+        "p75": 81785,
+        "n": 14
+    },
+    "shared technology services group llc|senior software engineer|senior": {
+        "p25": 147884,
+        "median": 151303,
+        "p75": 154606,
+        "n": 6
+    },
+    "shark analytics llc|software engineer|mid": {
+        "p25": 102630,
+        "median": 105200,
+        "p75": 105227,
+        "n": 5
+    },
+    "sharpedge solutions inc|software developer|mid": {
+        "p25": 100000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 9
+    },
+    "sherpa construction consulting, llc|cost estimator|mid": {
+        "p25": 73008,
+        "median": 73008,
+        "p75": 73008,
+        "n": 5
+    },
+    "shimmick construction company, inc.|project engineer|mid": {
+        "p25": 109894,
+        "median": 124987,
+        "p75": 140253,
+        "n": 7
+    },
+    "shipt, inc.|engineer|mid": {
+        "p25": 110790,
+        "median": 116354,
+        "p75": 133848,
+        "n": 7
+    },
+    "shipt, inc.|senior engineer|senior": {
+        "p25": 138925,
+        "median": 149240,
+        "p75": 175614,
+        "n": 7
+    },
+    "shiro technologies, llc|software developer|mid": {
+        "p25": 86474,
+        "median": 90896,
+        "p75": 99710,
+        "n": 6
+    },
+    "shopify (usa) inc.|senior engineer|senior": {
+        "p25": 144643,
+        "median": 151819,
+        "p75": 176456,
+        "n": 7
+    },
+    "shopify (usa) inc.|staff engineer|senior": {
+        "p25": 139298,
+        "median": 226138,
+        "p75": 264514,
+        "n": 5
+    },
+    "shrive solutions llc|data engineer|mid": {
+        "p25": 85384,
+        "median": 105206,
+        "p75": 105206,
+        "n": 5
+    },
+    "shutterfly, llc|sr. software engineer ii|senior": {
+        "p25": 136483,
+        "median": 139673,
+        "p75": 157934,
+        "n": 5
+    },
+    "si engineering, p.c.|civil engineer|mid": {
+        "p25": 119600,
+        "median": 119860,
+        "p75": 122460,
+        "n": 6
+    },
+    "sia enginering (usa) inc|licensed aircraft engineer|mid": {
+        "p25": 119000,
+        "median": 119000,
+        "p75": 127500,
+        "n": 11
+    },
+    "sichenzia ross ference carmel llp|corporate associate ii|entry": {
+        "p25": 153254,
+        "median": 153254,
+        "p75": 153254,
+        "n": 5
+    },
+    "sicl america inc|it analyst|mid": {
+        "p25": 91520,
+        "median": 92560,
+        "p75": 96720,
+        "n": 5
+    },
+    "sid global solutions|software developer|mid": {
+        "p25": 114331,
+        "median": 137259,
+        "p75": 144564,
+        "n": 14
+    },
+    "sidley austin (us) llp|associate attorney|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 235000,
+        "n": 33
+    },
+    "sidley austin (us) llp|managing associate attorney|entry": {
+        "p25": 330000,
+        "median": 390000,
+        "p75": 390000,
+        "n": 6
+    },
+    "sidley austin (us) llp|senior managing associate attorney|mid": {
+        "p25": 420000,
+        "median": 427500,
+        "p75": 435000,
+        "n": 6
+    },
+    "siemens healthcare diagnostics, inc.|software developer/engineer|mid": {
+        "p25": 143536,
+        "median": 155465,
+        "p75": 205477,
+        "n": 6
+    },
+    "siemens industry software inc.|application support engineer|mid": {
+        "p25": 121594,
+        "median": 136000,
+        "p75": 163687,
+        "n": 11
+    },
+    "siemens industry software inc.|field application engineer|mid": {
+        "p25": 121800,
+        "median": 132000,
+        "p75": 140080,
+        "n": 9
+    },
+    "siemens industry software inc.|product engineer|mid": {
+        "p25": 137015,
+        "median": 137531,
+        "p75": 167550,
+        "n": 7
+    },
+    "siemens industry software inc.|senior product engineer|senior": {
+        "p25": 174741,
+        "median": 179862,
+        "p75": 180000,
+        "n": 5
+    },
+    "siemens industry software inc.|senior software engineer|senior": {
+        "p25": 162996,
+        "median": 191000,
+        "p75": 200000,
+        "n": 9
+    },
+    "siemens industry software inc.|software engineer|mid": {
+        "p25": 110000,
+        "median": 121973,
+        "p75": 158497,
+        "n": 18
+    },
+    "siemens industry software inc.|software engineer - advanced|mid": {
+        "p25": 119824,
+        "median": 130000,
+        "p75": 144275,
+        "n": 11
+    },
+    "siemens industry software inc.|software engineer - senior|senior": {
+        "p25": 147000,
+        "median": 168000,
+        "p75": 184268,
+        "n": 9
+    },
+    "siemens industry software inc.|software engineer advanced|mid": {
+        "p25": 116785,
+        "median": 124656,
+        "p75": 142194,
+        "n": 7
+    },
+    "siemens industry software inc.|software engineer senior|senior": {
+        "p25": 131247,
+        "median": 139850,
+        "p75": 149653,
+        "n": 16
+    },
+    "siemens industry software inc.|software engineering manager|senior": {
+        "p25": 145508,
+        "median": 149040,
+        "p75": 160172,
+        "n": 7
+    },
+    "siemens industry software inc.|solution architect|senior": {
+        "p25": 142779,
+        "median": 148220,
+        "p75": 156823,
+        "n": 10
+    },
+    "siemens industry, inc.|software developer|mid": {
+        "p25": 129918,
+        "median": 139208,
+        "p75": 147760,
+        "n": 6
+    },
+    "siemens industry, inc.|system engineer|mid": {
+        "p25": 120818,
+        "median": 122266,
+        "p75": 131923,
+        "n": 8
+    },
+    "siemens medical solutions usa, inc.|software developer/engineer|mid": {
+        "p25": 129092,
+        "median": 140473,
+        "p75": 145946,
+        "n": 8
+    },
+    "siemens mobility, inc.|component engineer|mid": {
+        "p25": 116964,
+        "median": 116964,
+        "p75": 127448,
+        "n": 5
+    },
+    "sierra consulting inc|software developer|mid": {
+        "p25": 83096,
+        "median": 93600,
+        "p75": 97157,
+        "n": 17
+    },
+    "sierra digital inc|computer systems analyst|mid": {
+        "p25": 96200,
+        "median": 96200,
+        "p75": 117208,
+        "n": 5
+    },
+    "sierra technologies, inc.|agent engineer|mid": {
+        "p25": 160805,
+        "median": 180960,
+        "p75": 200000,
+        "n": 5
+    },
+    "sigma computing, inc.|software engineer|mid": {
+        "p25": 159204,
+        "median": 187500,
+        "p75": 225878,
+        "n": 10
+    },
+    "sigma software llc|software developer|mid": {
+        "p25": 105997,
+        "median": 106000,
+        "p75": 110406,
+        "n": 19
+    },
+    "sigma software llc|software engineer|mid": {
+        "p25": 105986,
+        "median": 108077,
+        "p75": 112923,
+        "n": 27
+    },
+    "sigmago solutions inc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 101920,
+        "n": 5
+    },
+    "silicon, inc.|software developer|mid": {
+        "p25": 146307,
+        "median": 146307,
+        "p75": 146307,
+        "n": 8
+    },
+    "simeio solutions, llc|identity architect|senior": {
+        "p25": 105238,
+        "median": 108514,
+        "p75": 108971,
+        "n": 7
+    },
+    "simerics, inc.|project engineer|mid": {
+        "p25": 90000,
+        "median": 105000,
+        "p75": 111000,
+        "n": 9
+    },
+    "simpson gumpertz & heger inc.|associate project consultant|entry": {
+        "p25": 83415,
+        "median": 87113,
+        "p75": 87113,
+        "n": 5
+    },
+    "simpson gumpertz & heger inc.|consulting engineer|mid": {
+        "p25": 104491,
+        "median": 107407,
+        "p75": 114133,
+        "n": 8
+    },
+    "simpson gumpertz & heger inc.|project consultant|mid": {
+        "p25": 92040,
+        "median": 95633,
+        "p75": 96138,
+        "n": 13
+    },
+    "simpson thacher & bartlett llp|associate attorney|entry": {
+        "p25": 235000,
+        "median": 310000,
+        "p75": 365000,
+        "n": 45
+    },
+    "simpson thacher & bartlett llp|international associate|entry": {
+        "p25": 235000,
+        "median": 235000,
+        "p75": 260000,
+        "n": 15
+    },
+    "simpson thacher & bartlett llp|law clerk|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 9
+    },
+    "sinai hospital of baltimore, inc.|hospitalist|mid": {
+        "p25": 205000,
+        "median": 225000,
+        "p75": 230000,
+        "n": 6
+    },
+    "sinai hospital of baltimore, inc.|registered nurse|mid": {
+        "p25": 89200,
+        "median": 93808,
+        "p75": 93808,
+        "n": 43
+    },
+    "sineng electric inc|solar energy systems engineer|mid": {
+        "p25": 76944,
+        "median": 76960,
+        "p75": 95555,
+        "n": 6
+    },
+    "sinfralogix llc|software engineer|mid": {
+        "p25": 84000,
+        "median": 84000,
+        "p75": 84000,
+        "n": 10
+    },
+    "singular analysts inc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 91645,
+        "n": 33
+    },
+    "sintegra, inc.|physical design engineer|mid": {
+        "p25": 148318,
+        "median": 153045,
+        "p75": 160000,
+        "n": 8
+    },
+    "sioux falls school district 49-5|spanish language immersion teacher|mid": {
+        "p25": 53283,
+        "median": 56544,
+        "p75": 58252,
+        "n": 7
+    },
+    "sira consulting inc.|software developer|mid": {
+        "p25": 76773,
+        "median": 90189,
+        "p75": 103210,
+        "n": 5
+    },
+    "sira soft solutions inc|devops engineer|mid": {
+        "p25": 87433,
+        "median": 95493,
+        "p75": 110344,
+        "n": 7
+    },
+    "sira soft solutions inc|software engineer|mid": {
+        "p25": 98218,
+        "median": 101254,
+        "p75": 101254,
+        "n": 5
+    },
+    "siri consultancy services, inc.|software engineer|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 81487,
+        "n": 31
+    },
+    "siri data analytics, llc.|software developer|mid": {
+        "p25": 84094,
+        "median": 84547,
+        "p75": 100747,
+        "n": 6
+    },
+    "siritek inc|software developer|mid": {
+        "p25": 105403,
+        "median": 107000,
+        "p75": 109262,
+        "n": 22
+    },
+    "siritek inc|software engineer|mid": {
+        "p25": 99965,
+        "median": 106277,
+        "p75": 107000,
+        "n": 10
+    },
+    "sirius xm radio llc|engineer iii, devsecops|senior": {
+        "p25": 125000,
+        "median": 128000,
+        "p75": 130000,
+        "n": 5
+    },
+    "sirius xm radio llc|senior engineer, devsecops|senior": {
+        "p25": 134971,
+        "median": 134971,
+        "p75": 140000,
+        "n": 5
+    },
+    "sirius xm radio llc|senior software engineer|senior": {
+        "p25": 130000,
+        "median": 135000,
+        "p75": 161000,
+        "n": 9
+    },
+    "sirius xm radio llc|software engineer iii|senior": {
+        "p25": 134978,
+        "median": 135000,
+        "p75": 140000,
+        "n": 10
+    },
+    "sirius xm radio llc|staff engineer, devsecops|senior": {
+        "p25": 136250,
+        "median": 150000,
+        "p75": 160000,
+        "n": 6
+    },
+    "sirrus software services, inc.|software developer|mid": {
+        "p25": 71947,
+        "median": 71947,
+        "p75": 71947,
+        "n": 17
+    },
+    "sismos solutions, inc.|software engineer|mid": {
+        "p25": 94369,
+        "median": 95472,
+        "p75": 106662,
+        "n": 5
+    },
+    "sitek, inc.|software developer|mid": {
+        "p25": 80150,
+        "median": 97500,
+        "p75": 100900,
+        "n": 6
+    },
+    "sivaltech inc.|design verification engineer|mid": {
+        "p25": 130000,
+        "median": 150000,
+        "p75": 157500,
+        "n": 7
+    },
+    "six continents hotels, inc. (intercontinental hotels group)|lead engineer it software development & maintenance|senior": {
+        "p25": 131550,
+        "median": 131550,
+        "p75": 149760,
+        "n": 8
+    },
+    "sk hynix nand product solutions corp|firmware development engineer|mid": {
+        "p25": 136010,
+        "median": 152131,
+        "p75": 163988,
+        "n": 15
+    },
+    "sk hynix nand product solutions corp|software engineer|mid": {
+        "p25": 133962,
+        "median": 136968,
+        "p75": 162859,
+        "n": 6
+    },
+    "sk technologies inc - de|software developer|mid": {
+        "p25": 84781,
+        "median": 84781,
+        "p75": 84781,
+        "n": 14
+    },
+    "sk technologies inc - de|software engineer|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 85000,
+        "n": 5
+    },
+    "skadden, arps, slate, meagher & flom llp|associate|entry": {
+        "p25": 260000,
+        "median": 285000,
+        "p75": 310000,
+        "n": 20
+    },
+    "skadden, arps, slate, meagher & flom llp|law clerk|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 7
+    },
+    "skidmore, owings & merrill llp|designer|mid": {
+        "p25": 87589,
+        "median": 87589,
+        "p75": 87944,
+        "n": 11
+    },
+    "skidmore, owings & merrill llp|intermediate designer|mid": {
+        "p25": 67445,
+        "median": 73999,
+        "p75": 75487,
+        "n": 11
+    },
+    "skidmore, owings & merrill llp|senior designer|senior": {
+        "p25": 91841,
+        "median": 96678,
+        "p75": 97342,
+        "n": 7
+    },
+    "skild ai, inc.|research engineer|mid": {
+        "p25": 156252,
+        "median": 182504,
+        "p75": 197503,
+        "n": 6
+    },
+    "skill voice inc|data engineer|mid": {
+        "p25": 114899,
+        "median": 114899,
+        "p75": 114899,
+        "n": 5
+    },
+    "skillbodhi, llc.|software engineer|mid": {
+        "p25": 84781,
+        "median": 84781,
+        "p75": 84781,
+        "n": 5
+    },
+    "skillgigs, inc.|software developer|mid": {
+        "p25": 79851,
+        "median": 79851,
+        "p75": 79851,
+        "n": 20
+    },
+    "skilltune technologies inc|computer programmer|mid": {
+        "p25": 75850,
+        "median": 96700,
+        "p75": 115500,
+        "n": 63
+    },
+    "skilltune technologies inc|project manager|senior": {
+        "p25": 73950,
+        "median": 96700,
+        "p75": 110620,
+        "n": 7
+    },
+    "skilltune technologies inc|software engineer|mid": {
+        "p25": 81000,
+        "median": 100630,
+        "p75": 123500,
+        "n": 531
+    },
+    "skilltune technologies inc|solution architect|senior": {
+        "p25": 87450,
+        "median": 114850,
+        "p75": 140950,
+        "n": 8
+    },
+    "skwid inc.|software engineer|mid": {
+        "p25": 187600,
+        "median": 240000,
+        "p75": 240000,
+        "n": 5
+    },
+    "sky technologies llc|software developer|mid": {
+        "p25": 97157,
+        "median": 119600,
+        "p75": 130000,
+        "n": 9
+    },
+    "skygen usa, llc|integration developer|mid": {
+        "p25": 92721,
+        "median": 93610,
+        "p75": 101909,
+        "n": 8
+    },
+    "skygys, inc.|software developer|mid": {
+        "p25": 91500,
+        "median": 102036,
+        "p75": 111072,
+        "n": 6
+    },
+    "skysoft, inc.|software developer|mid": {
+        "p25": 92000,
+        "median": 102000,
+        "p75": 110000,
+        "n": 13
+    },
+    "skywalk global, llc|software developer|mid": {
+        "p25": 80000,
+        "median": 82500,
+        "p75": 101500,
+        "n": 6
+    },
+    "skywest airlines|captain|mid": {
+        "p25": 327121,
+        "median": 357448,
+        "p75": 367473,
+        "n": 18
+    },
+    "skywest airlines|pilot, first officer|mid": {
+        "p25": 187200,
+        "median": 195582,
+        "p75": 197537,
+        "n": 38
+    },
+    "skyworks solutions, inc.|electrical engineer 2|mid": {
+        "p25": 99816,
+        "median": 105000,
+        "p75": 112749,
+        "n": 19
+    },
+    "skyworks solutions, inc.|principal electrical engineer|senior": {
+        "p25": 159650,
+        "median": 170000,
+        "p75": 181825,
+        "n": 5
+    },
+    "skyworks solutions, inc.|sr. electrical engineer|senior": {
+        "p25": 116042,
+        "median": 123344,
+        "p75": 130452,
+        "n": 18
+    },
+    "skyworks solutions, inc.|staff electrical engineer|senior": {
+        "p25": 139267,
+        "median": 151237,
+        "p75": 155245,
+        "n": 22
+    },
+    "slalom, inc.|bi consultant|mid": {
+        "p25": 100129,
+        "median": 104000,
+        "p75": 111966,
+        "n": 11
+    },
+    "slalom, inc.|consultant|mid": {
+        "p25": 112613,
+        "median": 132000,
+        "p75": 142556,
+        "n": 15
+    },
+    "slalom, inc.|principal|senior": {
+        "p25": 165100,
+        "median": 179300,
+        "p75": 183640,
+        "n": 13
+    },
+    "slalom, inc.|senior consultant|senior": {
+        "p25": 136371,
+        "median": 149687,
+        "p75": 160000,
+        "n": 24
+    },
+    "slalom, inc.|senior technology consultant|senior": {
+        "p25": 136164,
+        "median": 146286,
+        "p75": 161700,
+        "n": 9
+    },
+    "slalom, inc.|technology consultant|mid": {
+        "p25": 105997,
+        "median": 135238,
+        "p75": 151814,
+        "n": 19
+    },
+    "slalom, inc.|technology consultant, data engineer|mid": {
+        "p25": 108092,
+        "median": 115045,
+        "p75": 124298,
+        "n": 7
+    },
+    "slalom, inc.|technology consultant, senior|senior": {
+        "p25": 161111,
+        "median": 163172,
+        "p75": 183246,
+        "n": 6
+    },
+    "slalom, inc.|technology consultant, solution architect|senior": {
+        "p25": 157842,
+        "median": 161374,
+        "p75": 168541,
+        "n": 5
+    },
+    "slash eureka, inc|senior software engineer|senior": {
+        "p25": 156000,
+        "median": 156000,
+        "p75": 225000,
+        "n": 5
+    },
+    "slesha inc|data engineer|mid": {
+        "p25": 83865,
+        "median": 88962,
+        "p75": 97157,
+        "n": 7
+    },
+    "slesha inc|software developer|mid": {
+        "p25": 84094,
+        "median": 85384,
+        "p75": 90896,
+        "n": 5
+    },
+    "slesha inc|software engineer|mid": {
+        "p25": 90438,
+        "median": 105997,
+        "p75": 110635,
+        "n": 5
+    },
+    "slesha it solutions inc|full stack developer|mid": {
+        "p25": 85384,
+        "median": 85384,
+        "p75": 95493,
+        "n": 5
+    },
+    "slesha software solutions inc|software developer|mid": {
+        "p25": 84094,
+        "median": 88504,
+        "p75": 90896,
+        "n": 5
+    },
+    "sliq information technologies, inc.|sr. product owner|senior": {
+        "p25": 104000,
+        "median": 104000,
+        "p75": 104000,
+        "n": 5
+    },
+    "slk america inc|business analyst|mid": {
+        "p25": 85207,
+        "median": 89710,
+        "p75": 102086,
+        "n": 15
+    },
+    "slk america inc|delivery manager|senior": {
+        "p25": 88150,
+        "median": 102669,
+        "p75": 102669,
+        "n": 5
+    },
+    "slk america inc|project manager|senior": {
+        "p25": 83970,
+        "median": 83970,
+        "p75": 94030,
+        "n": 5
+    },
+    "slk america inc|qa lead|senior": {
+        "p25": 74277,
+        "median": 80173,
+        "p75": 83915,
+        "n": 8
+    },
+    "slk america inc|software developer|mid": {
+        "p25": 77438,
+        "median": 88769,
+        "p75": 97666,
+        "n": 14
+    },
+    "slk america inc|software development engineer in test|mid": {
+        "p25": 93204,
+        "median": 106558,
+        "p75": 106558,
+        "n": 7
+    },
+    "slk america inc|software engineer|mid": {
+        "p25": 91270,
+        "median": 100547,
+        "p75": 100547,
+        "n": 9
+    },
+    "slk america inc|team leader|mid": {
+        "p25": 98197,
+        "median": 102461,
+        "p75": 116106,
+        "n": 5
+    },
+    "slk america inc|tech lead|senior": {
+        "p25": 89250,
+        "median": 95409,
+        "p75": 102752,
+        "n": 32
+    },
+    "slk america inc|technical lead|senior": {
+        "p25": 95274,
+        "median": 96366,
+        "p75": 98509,
+        "n": 18
+    },
+    "slk america inc|test engineer|mid": {
+        "p25": 69630,
+        "median": 69630,
+        "p75": 82368,
+        "n": 13
+    },
+    "slk america inc|test lead|senior": {
+        "p25": 73460,
+        "median": 82368,
+        "p75": 90261,
+        "n": 22
+    },
+    "slk holdings, llc|systems analyst|mid": {
+        "p25": 75200,
+        "median": 80267,
+        "p75": 82071,
+        "n": 12
+    },
+    "sln solutions llc.|consultant|mid": {
+        "p25": 89461,
+        "median": 90667,
+        "p75": 106704,
+        "n": 5
+    },
+    "sln solutions llc.|software developer|mid": {
+        "p25": 84908,
+        "median": 87765,
+        "p75": 117291,
+        "n": 8
+    },
+    "sln systems inc|software developer|mid": {
+        "p25": 102056,
+        "median": 105612,
+        "p75": 112013,
+        "n": 10
+    },
+    "sloka technologies, inc|software engineer|mid": {
+        "p25": 84094,
+        "median": 105997,
+        "p75": 105997,
+        "n": 7
+    },
+    "slv technologies inc|software developer|mid": {
+        "p25": 82971,
+        "median": 82971,
+        "p75": 82971,
+        "n": 5
+    },
+    "sm interface systems llc|software  developer|mid": {
+        "p25": 106080,
+        "median": 106080,
+        "p75": 107640,
+        "n": 6
+    },
+    "smarc solutions inc|software developer|mid": {
+        "p25": 91645,
+        "median": 101358,
+        "p75": 112424,
+        "n": 5
+    },
+    "smart erp solutions, inc.|senior lead consultant|senior": {
+        "p25": 97031,
+        "median": 105216,
+        "p75": 105804,
+        "n": 6
+    },
+    "smart info solutions llc|software developer|mid": {
+        "p25": 98273,
+        "median": 106277,
+        "p75": 120360,
+        "n": 16
+    },
+    "smart info solutions llc|software engineer|mid": {
+        "p25": 91347,
+        "median": 92700,
+        "p75": 108975,
+        "n": 6
+    },
+    "smart prism solutions inc|software engineer|mid": {
+        "p25": 84635,
+        "median": 84635,
+        "p75": 102627,
+        "n": 5
+    },
+    "smart solutions inc.|software developer|mid": {
+        "p25": 103210,
+        "median": 106558,
+        "p75": 106558,
+        "n": 5
+    },
+    "smart techlink solutions, inc|computer programmer|mid": {
+        "p25": 79706,
+        "median": 79706,
+        "p75": 79706,
+        "n": 5
+    },
+    "smartdw inc|java developer|mid": {
+        "p25": 83866,
+        "median": 94890,
+        "p75": 105997,
+        "n": 9
+    },
+    "smartdw inc|java full stack developer|mid": {
+        "p25": 94328,
+        "median": 94328,
+        "p75": 108826,
+        "n": 5
+    },
+    "smartdw inc|salesforce developer|mid": {
+        "p25": 94359,
+        "median": 105612,
+        "p75": 105997,
+        "n": 20
+    },
+    "smartdw inc|software developer|mid": {
+        "p25": 83595,
+        "median": 105227,
+        "p75": 106277,
+        "n": 11
+    },
+    "smartdw inc|software engineer|mid": {
+        "p25": 88821,
+        "median": 105997,
+        "p75": 105997,
+        "n": 6
+    },
+    "smartek21 llc|software  engineer|mid": {
+        "p25": 129000,
+        "median": 149240,
+        "p75": 149240,
+        "n": 5
+    },
+    "smarton solutions inc|software developer|mid": {
+        "p25": 86549,
+        "median": 86549,
+        "p75": 86549,
+        "n": 7
+    },
+    "smarton solutions inc|software engineer|mid": {
+        "p25": 86549,
+        "median": 86549,
+        "p75": 86549,
+        "n": 6
+    },
+    "smartsheet inc.|senior software engineer ii|senior": {
+        "p25": 170000,
+        "median": 170000,
+        "p75": 170000,
+        "n": 5
+    },
+    "smartsheet inc.|software engineer ii|mid": {
+        "p25": 137259,
+        "median": 137259,
+        "p75": 137259,
+        "n": 5
+    },
+    "smartsoft international inc.|programmer analyst (sap)|mid": {
+        "p25": 114899,
+        "median": 114899,
+        "p75": 114899,
+        "n": 5
+    },
+    "smartsoft international inc.|software developer|mid": {
+        "p25": 105227,
+        "median": 105227,
+        "p75": 108269,
+        "n": 14
+    },
+    "smartworks, llc|programmer analyst|mid": {
+        "p25": 82638,
+        "median": 90210,
+        "p75": 95000,
+        "n": 7
+    },
+    "smartworks, llc|software developer|mid": {
+        "p25": 106225,
+        "median": 113807,
+        "p75": 123656,
+        "n": 12
+    },
+    "smartworks, llc|software engineer|mid": {
+        "p25": 110575,
+        "median": 112611,
+        "p75": 122798,
+        "n": 6
+    },
+    "smb it, inc.|associate, engineering|entry": {
+        "p25": 71762,
+        "median": 73860,
+        "p75": 77937,
+        "n": 8
+    },
+    "smb it, inc.|senior associate, engineering|mid": {
+        "p25": 89410,
+        "median": 97375,
+        "p75": 100000,
+        "n": 7
+    },
+    "smithgroup, inc., subsidiary of smithgroup co., inc.|architect (non-licensed)|senior": {
+        "p25": 72375,
+        "median": 79500,
+        "p75": 95000,
+        "n": 24
+    },
+    "smithgroup, inc., subsidiary of smithgroup co., inc.|landscape architect (non-licensed)|senior": {
+        "p25": 60000,
+        "median": 60500,
+        "p75": 61000,
+        "n": 5
+    },
+    "smithsonian astrophysical observatory|astrophysicist|mid": {
+        "p25": 103717,
+        "median": 103717,
+        "p75": 107064,
+        "n": 5
+    },
+    "snap inc.|data scientist (4)|mid": {
+        "p25": 141170,
+        "median": 150987,
+        "p75": 160907,
+        "n": 19
+    },
+    "snap inc.|machine learning engineer (3)|mid": {
+        "p25": 132317,
+        "median": 134571,
+        "p75": 136827,
+        "n": 14
+    },
+    "snap inc.|machine learning engineer (4)|mid": {
+        "p25": 163862,
+        "median": 174015,
+        "p75": 187574,
+        "n": 33
+    },
+    "snap inc.|machine learning engineer (5)|mid": {
+        "p25": 190486,
+        "median": 206315,
+        "p75": 226158,
+        "n": 35
+    },
+    "snap inc.|marketing science lead (4)|senior": {
+        "p25": 139506,
+        "median": 139506,
+        "p75": 141170,
+        "n": 5
+    },
+    "snap inc.|product manager (4)|senior": {
+        "p25": 122559,
+        "median": 126818,
+        "p75": 175551,
+        "n": 8
+    },
+    "snap inc.|senior data scientist (5)|senior": {
+        "p25": 173675,
+        "median": 186233,
+        "p75": 190085,
+        "n": 6
+    },
+    "snap inc.|software engineer (3)|mid": {
+        "p25": 126942,
+        "median": 134571,
+        "p75": 137259,
+        "n": 21
+    },
+    "snap inc.|software engineer (4)|mid": {
+        "p25": 161569,
+        "median": 163862,
+        "p75": 173744,
+        "n": 110
+    },
+    "snap inc.|software engineer (5)|mid": {
+        "p25": 187189,
+        "median": 190486,
+        "p75": 212202,
+        "n": 48
+    },
+    "snap inc.|software engineer (6)|mid": {
+        "p25": 190486,
+        "median": 190486,
+        "p75": 226158,
+        "n": 5
+    },
+    "snap inc.|staff software engineer (6)|senior": {
+        "p25": 190486,
+        "median": 206315,
+        "p75": 226158,
+        "n": 5
+    },
+    "snaplogic, inc.|software engineer|mid": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 136250,
+        "n": 12
+    },
+    "snowflake inc.|cloud support engineer|mid": {
+        "p25": 96574,
+        "median": 96574,
+        "p75": 98488,
+        "n": 5
+    },
+    "snowflake inc.|principal software engineer|senior": {
+        "p25": 232000,
+        "median": 232000,
+        "p75": 232000,
+        "n": 5
+    },
+    "snowflake inc.|senior cloud support engineer|senior": {
+        "p25": 120281,
+        "median": 124270,
+        "p75": 125039,
+        "n": 8
+    },
+    "snowflake inc.|senior manager, software engineering|senior": {
+        "p25": 251576,
+        "median": 273915,
+        "p75": 273915,
+        "n": 5
+    },
+    "snowflake inc.|senior product manager|senior": {
+        "p25": 203268,
+        "median": 214000,
+        "p75": 214000,
+        "n": 11
+    },
+    "snowflake inc.|senior software engineer|senior": {
+        "p25": 190486,
+        "median": 200526,
+        "p75": 212529,
+        "n": 112
+    },
+    "snowflake inc.|senior solution engineer|senior": {
+        "p25": 155625,
+        "median": 167627,
+        "p75": 186139,
+        "n": 13
+    },
+    "snowflake inc.|software engineer|mid": {
+        "p25": 155605,
+        "median": 163862,
+        "p75": 190486,
+        "n": 116
+    },
+    "snowflake inc.|solutions architect|senior": {
+        "p25": 130562,
+        "median": 136989,
+        "p75": 162936,
+        "n": 11
+    },
+    "snowflake inc.|staff cloud support engineer|senior": {
+        "p25": 127150,
+        "median": 133869,
+        "p75": 138965,
+        "n": 13
+    },
+    "snowflake inc.|staff software engineer|senior": {
+        "p25": 236000,
+        "median": 236000,
+        "p75": 236000,
+        "n": 5
+    },
+    "snowsoft llc|software engineer|mid": {
+        "p25": 96000,
+        "median": 105998,
+        "p75": 106560,
+        "n": 9
+    },
+    "snowstack llc|data engineer|mid": {
+        "p25": 93974,
+        "median": 97531,
+        "p75": 103906,
+        "n": 12
+    },
+    "soben north america, llc|senior cost manager|senior": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 160000,
+        "n": 5
+    },
+    "social finance, llc|senior data engineer|senior": {
+        "p25": 166738,
+        "median": 182000,
+        "p75": 195000,
+        "n": 5
+    },
+    "social finance, llc|senior data scientist|senior": {
+        "p25": 207500,
+        "median": 210000,
+        "p75": 210000,
+        "n": 8
+    },
+    "social finance, llc|senior manager, software engineering|senior": {
+        "p25": 278362,
+        "median": 279450,
+        "p75": 279862,
+        "n": 6
+    },
+    "social finance, llc|senior software engineer|senior": {
+        "p25": 180232,
+        "median": 200000,
+        "p75": 210000,
+        "n": 42
+    },
+    "social finance, llc|software engineer|mid": {
+        "p25": 155250,
+        "median": 160000,
+        "p75": 165000,
+        "n": 25
+    },
+    "social finance, llc|staff software engineer|senior": {
+        "p25": 203700,
+        "median": 239000,
+        "p75": 241228,
+        "n": 18
+    },
+    "soft parch llc|java developer|mid": {
+        "p25": 78000,
+        "median": 84000,
+        "p75": 90210,
+        "n": 9
+    },
+    "soft parch llc|software developer|mid": {
+        "p25": 90250,
+        "median": 103000,
+        "p75": 103750,
+        "n": 6
+    },
+    "softcom systems inc|it consultant|mid": {
+        "p25": 107000,
+        "median": 109125,
+        "p75": 124000,
+        "n": 8
+    },
+    "softcom systems inc|software developer|mid": {
+        "p25": 107000,
+        "median": 113000,
+        "p75": 126000,
+        "n": 11
+    },
+    "softcorp international, inc.|java developer|mid": {
+        "p25": 111100,
+        "median": 113000,
+        "p75": 123000,
+        "n": 5
+    },
+    "softcorp international, inc.|software engineer|mid": {
+        "p25": 111500,
+        "median": 114000,
+        "p75": 118750,
+        "n": 6
+    },
+    "softech international resources, inc|computer systems engineer|mid": {
+        "p25": 80371,
+        "median": 80371,
+        "p75": 83662,
+        "n": 8
+    },
+    "softech international resources, inc|software developer|mid": {
+        "p25": 105227,
+        "median": 107255,
+        "p75": 109283,
+        "n": 6
+    },
+    "softel techsource llc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 5
+    },
+    "softpath systems inc|software developer|mid": {
+        "p25": 93194,
+        "median": 95493,
+        "p75": 100734,
+        "n": 11
+    },
+    "softpath technologies llc|software developer|mid": {
+        "p25": 104416,
+        "median": 109262,
+        "p75": 119538,
+        "n": 15
+    },
+    "softtechers llc|software developer|mid": {
+        "p25": 91645,
+        "median": 91645,
+        "p75": 91645,
+        "n": 5
+    },
+    "softthink solutions inc|platform engineer|mid": {
+        "p25": 90000,
+        "median": 100000,
+        "p75": 107500,
+        "n": 5
+    },
+    "softtune technologies inc|software developer|mid": {
+        "p25": 106000,
+        "median": 110000,
+        "p75": 114000,
+        "n": 20
+    },
+    "softtune technologies inc|systems analyst|mid": {
+        "p25": 85000,
+        "median": 90000,
+        "p75": 102000,
+        "n": 5
+    },
+    "software enterprise llc|it project manager|senior": {
+        "p25": 82534,
+        "median": 82534,
+        "p75": 82534,
+        "n": 8
+    },
+    "software global ltd.|programmer analyst|mid": {
+        "p25": 85384,
+        "median": 85384,
+        "p75": 85384,
+        "n": 8
+    },
+    "softweb solutions inc|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 136000,
+        "n": 5
+    },
+    "softworld technologies llc|java developer|mid": {
+        "p25": 87000,
+        "median": 91500,
+        "p75": 95500,
+        "n": 5
+    },
+    "softworld technologies llc|software developer|mid": {
+        "p25": 84200,
+        "median": 84500,
+        "p75": 97000,
+        "n": 21
+    },
+    "softworld technologies llc|software development engineer in test|mid": {
+        "p25": 71500,
+        "median": 75000,
+        "p75": 82000,
+        "n": 7
+    },
+    "softworld technologies llc|software engineer|mid": {
+        "p25": 84200,
+        "median": 88000,
+        "p75": 97200,
+        "n": 41
+    },
+    "sohum systems, llc|software developer|mid": {
+        "p25": 88072,
+        "median": 95701,
+        "p75": 112923,
+        "n": 10
+    },
+    "solar landscape llc|solar project engineer|mid": {
+        "p25": 95000,
+        "median": 97850,
+        "p75": 104030,
+        "n": 5
+    },
+    "solize usa corporation|project engineer|mid": {
+        "p25": 99320,
+        "median": 99840,
+        "p75": 101920,
+        "n": 7
+    },
+    "solution it inc|programmer analyst|mid": {
+        "p25": 101000,
+        "median": 101000,
+        "p75": 105000,
+        "n": 21
+    },
+    "solution it inc.|programmer analyst|mid": {
+        "p25": 105000,
+        "median": 105000,
+        "p75": 105000,
+        "n": 5
+    },
+    "solution it, inc|programmer analyst|mid": {
+        "p25": 100000,
+        "median": 105000,
+        "p75": 105000,
+        "n": 36
+    },
+    "solution it, inc|software application developer|mid": {
+        "p25": 109500,
+        "median": 112000,
+        "p75": 132600,
+        "n": 21
+    },
+    "solutions inc|energy engineer|mid": {
+        "p25": 79999,
+        "median": 79999,
+        "p75": 119000,
+        "n": 5
+    },
+    "solutions uiux|software developer|mid": {
+        "p25": 91575,
+        "median": 94400,
+        "p75": 94400,
+        "n": 8
+    },
+    "solvency, inc.|programmer analyst|mid": {
+        "p25": 75974,
+        "median": 76000,
+        "p75": 76000,
+        "n": 8
+    },
+    "solwin tech inc|software developer|mid": {
+        "p25": 92273,
+        "median": 101691,
+        "p75": 105997,
+        "n": 8
+    },
+    "soma technology international, inc.|biomedical engineer|mid": {
+        "p25": 94515,
+        "median": 94515,
+        "p75": 94515,
+        "n": 6
+    },
+    "soma technology international, inc.|engineering test analyst|mid": {
+        "p25": 65541,
+        "median": 65541,
+        "p75": 71000,
+        "n": 5
+    },
+    "sonata software north america inc|data engineer|mid": {
+        "p25": 57500,
+        "median": 58000,
+        "p75": 59000,
+        "n": 7
+    },
+    "sonata software north america inc|digital architect|senior": {
+        "p25": 90002,
+        "median": 95000,
+        "p75": 100000,
+        "n": 9
+    },
+    "sonus software solutions inc|software engineer|mid": {
+        "p25": 100714,
+        "median": 100911,
+        "p75": 101109,
+        "n": 6
+    },
+    "sony interactive entertainment llc|senior software engineer|senior": {
+        "p25": 177300,
+        "median": 187700,
+        "p75": 193300,
+        "n": 13
+    },
+    "sony interactive entertainment llc|software development engineer in test ii|mid": {
+        "p25": 128900,
+        "median": 129283,
+        "p75": 135766,
+        "n": 6
+    },
+    "sony interactive entertainment llc|software engineer i|entry": {
+        "p25": 122200,
+        "median": 133300,
+        "p75": 139803,
+        "n": 7
+    },
+    "sony interactive entertainment llc|software engineer ii|mid": {
+        "p25": 145700,
+        "median": 152550,
+        "p75": 158900,
+        "n": 22
+    },
+    "sony interactive entertainment llc|sr. software engineer|senior": {
+        "p25": 172100,
+        "median": 187700,
+        "p75": 187700,
+        "n": 13
+    },
+    "sony interactive entertainment llc|staff software engineer|senior": {
+        "p25": 192500,
+        "median": 198200,
+        "p75": 209900,
+        "n": 13
+    },
+    "sony music entertainment|software architect|senior": {
+        "p25": 144857,
+        "median": 144857,
+        "p75": 144857,
+        "n": 8
+    },
+    "sophlogic global llc.|software engineer|mid": {
+        "p25": 113360,
+        "median": 114920,
+        "p75": 121862,
+        "n": 6
+    },
+    "sophos, inc.|senior software engineer|senior": {
+        "p25": 161893,
+        "median": 170224,
+        "p75": 178131,
+        "n": 13
+    },
+    "sound inpatient physicians - michigan, pllc|hospitalist physician|mid": {
+        "p25": 242652,
+        "median": 260000,
+        "p75": 312000,
+        "n": 5
+    },
+    "sound physicians of illinois, llc|hospitalist physician|mid": {
+        "p25": 279926,
+        "median": 279926,
+        "p75": 294658,
+        "n": 16
+    },
+    "source cloud technologies, inc.|software developer|mid": {
+        "p25": 100000,
+        "median": 106500,
+        "p75": 110000,
+        "n": 24
+    },
+    "source code technologies, llc|software developer|mid": {
+        "p25": 97032,
+        "median": 103210,
+        "p75": 112923,
+        "n": 13
+    },
+    "source consulting, llc|software developer|mid": {
+        "p25": 91000,
+        "median": 97614,
+        "p75": 100880,
+        "n": 28
+    },
+    "source engineering services|mechanical engineer|mid": {
+        "p25": 101161,
+        "median": 105269,
+        "p75": 119392,
+        "n": 11
+    },
+    "source infotech inc.|data engineer|mid": {
+        "p25": 113000,
+        "median": 114500,
+        "p75": 114500,
+        "n": 5
+    },
+    "source infotech inc.|java developer|mid": {
+        "p25": 90500,
+        "median": 95000,
+        "p75": 113000,
+        "n": 5
+    },
+    "source infotech inc.|software engineer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 111250,
+        "n": 7
+    },
+    "south sound inpatient physicians, pllc|hospitalist physician|mid": {
+        "p25": 277326,
+        "median": 286000,
+        "p75": 294668,
+        "n": 30
+    },
+    "southampton county public schools|teacher|mid": {
+        "p25": 46500,
+        "median": 46500,
+        "p75": 46800,
+        "n": 22
+    },
+    "southeast georgia health system, inc.|medical technologist|mid": {
+        "p25": 44600,
+        "median": 52790,
+        "p75": 60980,
+        "n": 6
+    },
+    "southeast iowa regional medical center|medical technologist|mid": {
+        "p25": 61526,
+        "median": 62452,
+        "p75": 63684,
+        "n": 8
+    },
+    "southeast missouri state university|faculty - computer science|mid": {
+        "p25": 82000,
+        "median": 85300,
+        "p75": 85302,
+        "n": 5
+    },
+    "southeastern hospitalist services pc|hospitalist|mid": {
+        "p25": 260000,
+        "median": 260000,
+        "p75": 275600,
+        "n": 11
+    },
+    "southeastern physician services, p.c.|hospitalist physician|mid": {
+        "p25": 293800,
+        "median": 301600,
+        "p75": 301600,
+        "n": 10
+    },
+    "southern california veterinary group, inc.|veterinary technologist|mid": {
+        "p25": 45864,
+        "median": 45864,
+        "p75": 45864,
+        "n": 7
+    },
+    "southern illinois medical services|pulmonologist|mid": {
+        "p25": 500000,
+        "median": 500000,
+        "p75": 500000,
+        "n": 5
+    },
+    "southern illinois university carbondale|assistant professor|entry": {
+        "p25": 77094,
+        "median": 87039,
+        "p75": 93150,
+        "n": 19
+    },
+    "southern illinois university edwardsville|assistant professor|entry": {
+        "p25": 97506,
+        "median": 128500,
+        "p75": 135760,
+        "n": 11
+    },
+    "southern oregon hospitalists, pc|physician|mid": {
+        "p25": 307000,
+        "median": 307000,
+        "p75": 307000,
+        "n": 5
+    },
+    "southwest airlines co.|software engineer|mid": {
+        "p25": 105997,
+        "median": 127878,
+        "p75": 131882,
+        "n": 8
+    },
+    "southwest airlines co.|sr. product owner|senior": {
+        "p25": 136136,
+        "median": 142477,
+        "p75": 146015,
+        "n": 5
+    },
+    "southwest airlines co.|sr. software engineer|senior": {
+        "p25": 149781,
+        "median": 149781,
+        "p75": 150664,
+        "n": 32
+    },
+    "southwest airlines co.|sr. system engineer|senior": {
+        "p25": 149781,
+        "median": 149781,
+        "p75": 149781,
+        "n": 20
+    },
+    "southwest airlines co.|sr. technology analyst|senior": {
+        "p25": 125884,
+        "median": 138070,
+        "p75": 142477,
+        "n": 8
+    },
+    "southwest airlines co.|tech lead software engineer|senior": {
+        "p25": 149781,
+        "median": 149781,
+        "p75": 155193,
+        "n": 10
+    },
+    "southwest kidney institute, plc|nephrologist|mid": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 6
+    },
+    "southwest metro intermediate district 288|special education teacher|mid": {
+        "p25": 49492,
+        "median": 56538,
+        "p75": 65159,
+        "n": 10
+    },
+    "southwest region school district|teacher|mid": {
+        "p25": 51500,
+        "median": 51500,
+        "p75": 55546,
+        "n": 12
+    },
+    "southwest research institute|research engineer|mid": {
+        "p25": 99864,
+        "median": 100000,
+        "p75": 100000,
+        "n": 6
+    },
+    "southwest vermont supervisory union|special education teacher|mid": {
+        "p25": 60196,
+        "median": 67545,
+        "p75": 69476,
+        "n": 5
+    },
+    "sp tech resources inc|software developer|mid": {
+        "p25": 85384,
+        "median": 85384,
+        "p75": 88483,
+        "n": 8
+    },
+    "sp tech resources inc|software engineer|mid": {
+        "p25": 85384,
+        "median": 87869,
+        "p75": 108118,
+        "n": 10
+    },
+    "spacewalk systems inc|java developer|mid": {
+        "p25": 94882,
+        "median": 100000,
+        "p75": 106329,
+        "n": 11
+    },
+    "spane it solutions inc|it consultant (software developer)|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 85530,
+        "n": 9
+    },
+    "spane it solutions inc|it consultant (software engineer)|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 83658,
+        "n": 5
+    },
+    "spark infotech inc|software developer|mid": {
+        "p25": 86517,
+        "median": 87651,
+        "p75": 100713,
+        "n": 7
+    },
+    "spark technologies, inc.|business intelligence analyst|mid": {
+        "p25": 70413,
+        "median": 78915,
+        "p75": 81655,
+        "n": 8
+    },
+    "spark technologies, inc.|data scientist|mid": {
+        "p25": 61200,
+        "median": 67288,
+        "p75": 76024,
+        "n": 31
+    },
+    "spark technologies, inc.|health informatics data specialist|mid": {
+        "p25": 79227,
+        "median": 81099,
+        "p75": 85800,
+        "n": 11
+    },
+    "sparksoft corporation|software engineer|mid": {
+        "p25": 127045,
+        "median": 137332,
+        "p75": 137332,
+        "n": 5
+    },
+    "spartan technology inc|software developer|mid": {
+        "p25": 80000,
+        "median": 90000,
+        "p75": 95000,
+        "n": 5
+    },
+    "spear physical therapy, pllc|physical therapist|mid": {
+        "p25": 77979,
+        "median": 93309,
+        "p75": 93309,
+        "n": 52
+    },
+    "specialtycare, inc.|surgical neurophysiologist|mid": {
+        "p25": 60000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "specs inc.|software engineer (4)|mid": {
+        "p25": 157581,
+        "median": 157581,
+        "p75": 157581,
+        "n": 7
+    },
+    "spectrum healthcare partners|diagnostic radiologist|mid": {
+        "p25": 239604,
+        "median": 300000,
+        "p75": 300000,
+        "n": 7
+    },
+    "sped therapy services, inc.|speech language pathologist|mid": {
+        "p25": 96782,
+        "median": 96782,
+        "p75": 96782,
+        "n": 44
+    },
+    "speridian technologies, llc|software engineer|mid": {
+        "p25": 75000,
+        "median": 85711,
+        "p75": 112274,
+        "n": 70
+    },
+    "spirent communications, inc.|senior systems engineer i|mid": {
+        "p25": 142667,
+        "median": 147828,
+        "p75": 156499,
+        "n": 5
+    },
+    "spirit airlines|airline pilot|mid": {
+        "p25": 202072,
+        "median": 202072,
+        "p75": 202072,
+        "n": 22
+    },
+    "spl consulting, inc.|oracle systems analyst|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 9
+    },
+    "sportsmed pt, llc|physical therapist|mid": {
+        "p25": 103625,
+        "median": 107000,
+        "p75": 111125,
+        "n": 6
+    },
+    "sportsmed pt, llc|physical therapist/clinical director|senior": {
+        "p25": 108000,
+        "median": 110000,
+        "p75": 115000,
+        "n": 11
+    },
+    "spotify usa, inc.|data engineer ii|mid": {
+        "p25": 180000,
+        "median": 185000,
+        "p75": 202230,
+        "n": 5
+    },
+    "spotify usa, inc.|data scientist ii|mid": {
+        "p25": 152000,
+        "median": 166100,
+        "p75": 171090,
+        "n": 9
+    },
+    "spotify usa, inc.|engineer ii|mid": {
+        "p25": 172940,
+        "median": 183500,
+        "p75": 196372,
+        "n": 10
+    },
+    "spotify usa, inc.|engineering manager ii|senior": {
+        "p25": 227060,
+        "median": 227060,
+        "p75": 234400,
+        "n": 9
+    },
+    "spotify usa, inc.|senior backend engineer|senior": {
+        "p25": 216184,
+        "median": 233990,
+        "p75": 271130,
+        "n": 7
+    },
+    "spotify usa, inc.|senior data engineer|senior": {
+        "p25": 230235,
+        "median": 245940,
+        "p75": 261442,
+        "n": 6
+    },
+    "spotify usa, inc.|senior engineer|senior": {
+        "p25": 200310,
+        "median": 217040,
+        "p75": 227610,
+        "n": 17
+    },
+    "spotify usa, inc.|senior machine learning engineer|senior": {
+        "p25": 242370,
+        "median": 264590,
+        "p75": 280500,
+        "n": 7
+    },
+    "spotify usa, inc.|senior product manager|senior": {
+        "p25": 201390,
+        "median": 202240,
+        "p75": 207890,
+        "n": 5
+    },
+    "spotify usa, inc.|staff engineer|senior": {
+        "p25": 271340,
+        "median": 271340,
+        "p75": 277770,
+        "n": 5
+    },
+    "spotnana technology, inc.|senior software engineer|senior": {
+        "p25": 162500,
+        "median": 200000,
+        "p75": 218400,
+        "n": 5
+    },
+    "spring independent school district|bilingual teacher - elementary|mid": {
+        "p25": 60500,
+        "median": 60500,
+        "p75": 62750,
+        "n": 5
+    },
+    "springml, inc.|senior engineer|senior": {
+        "p25": 126693,
+        "median": 145024,
+        "p75": 145024,
+        "n": 5
+    },
+    "spruce infotech inc.|software developer|mid": {
+        "p25": 92875,
+        "median": 106000,
+        "p75": 112150,
+        "n": 12
+    },
+    "spruce technology inc.|crm developer|mid": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 147335,
+        "n": 6
+    },
+    "spruce technology inc.|it analyst|mid": {
+        "p25": 113883,
+        "median": 126000,
+        "p75": 144000,
+        "n": 6
+    },
+    "spurcroft inc.|data engineer|mid": {
+        "p25": 116480,
+        "median": 136385,
+        "p75": 145600,
+        "n": 5
+    },
+    "sqa concepts inc.|it consultant|mid": {
+        "p25": 96250,
+        "median": 102000,
+        "p75": 115000,
+        "n": 11
+    },
+    "sqa concepts inc.|software developer|mid": {
+        "p25": 104750,
+        "median": 108500,
+        "p75": 123000,
+        "n": 12
+    },
+    "squad software inc|java developer|mid": {
+        "p25": 99150,
+        "median": 109850,
+        "p75": 110635,
+        "n": 7
+    },
+    "squad software inc|python developer|mid": {
+        "p25": 89000,
+        "median": 89500,
+        "p75": 112923,
+        "n": 5
+    },
+    "squad software, inc.|data engineer|mid": {
+        "p25": 89918,
+        "median": 90854,
+        "p75": 95430,
+        "n": 7
+    },
+    "squad software, inc.|it manager|senior": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 83658,
+        "n": 26
+    },
+    "squad software, inc.|python developer|mid": {
+        "p25": 100838,
+        "median": 106000,
+        "p75": 110458,
+        "n": 7
+    },
+    "squadron data, inc.|solution architect|senior": {
+        "p25": 87500,
+        "median": 115000,
+        "p75": 134500,
+        "n": 10
+    },
+    "squarepoint services us llc|graduate quantitative researcher|entry": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 10
+    },
+    "squarepoint services us llc|quantitative researcher|mid": {
+        "p25": 160000,
+        "median": 180000,
+        "p75": 225000,
+        "n": 33
+    },
+    "sree infotech llc|database administrator|mid": {
+        "p25": 80290,
+        "median": 89590,
+        "p75": 95040,
+        "n": 9
+    },
+    "sree infotech llc|software developer|mid": {
+        "p25": 97452,
+        "median": 106000,
+        "p75": 108475,
+        "n": 7
+    },
+    "sri international|advanced computer scientist|mid": {
+        "p25": 146515,
+        "median": 148242,
+        "p75": 170976,
+        "n": 5
+    },
+    "sri software solutions llc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 107411,
+        "n": 7
+    },
+    "sri software solutions llc|software engineer|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 105997,
+        "n": 8
+    },
+    "sri tech solutions inc|software engineer|mid": {
+        "p25": 71947,
+        "median": 75160,
+        "p75": 80558,
+        "n": 6
+    },
+    "sri tech solutions inc.|software developer|mid": {
+        "p25": 78374,
+        "median": 91291,
+        "p75": 100797,
+        "n": 5
+    },
+    "sri tech solutions, inc.|software developer|mid": {
+        "p25": 90355,
+        "median": 114754,
+        "p75": 149365,
+        "n": 10
+    },
+    "sri tech solutions, inc.|software engineer|mid": {
+        "p25": 71947,
+        "median": 83000,
+        "p75": 91000,
+        "n": 5
+    },
+    "sri tech solutions, inc.|test engineer|mid": {
+        "p25": 82929,
+        "median": 94162,
+        "p75": 129792,
+        "n": 8
+    },
+    "srimatrix health llc|registered nurse|mid": {
+        "p25": 82550,
+        "median": 82550,
+        "p75": 82550,
+        "n": 5
+    },
+    "sripadha inc|software developer|mid": {
+        "p25": 100157,
+        "median": 103157,
+        "p75": 105221,
+        "n": 6
+    },
+    "sripadha inc.|software developer|mid": {
+        "p25": 105976,
+        "median": 112424,
+        "p75": 127878,
+        "n": 5
+    },
+    "sriven systems inc|software developer|mid": {
+        "p25": 97760,
+        "median": 105000,
+        "p75": 150000,
+        "n": 5
+    },
+    "sriven technologies, llc.|application developer|mid": {
+        "p25": 114800,
+        "median": 124000,
+        "p75": 126100,
+        "n": 5
+    },
+    "srk systems inc|software developer|mid": {
+        "p25": 106558,
+        "median": 119400,
+        "p75": 125833,
+        "n": 7
+    },
+    "srnl international, inc|software developer|mid": {
+        "p25": 95493,
+        "median": 112424,
+        "p75": 122699,
+        "n": 5
+    },
+    "srs consulting, inc.|it engineer|mid": {
+        "p25": 95000,
+        "median": 95000,
+        "p75": 102000,
+        "n": 5
+    },
+    "srs consulting, inc.|software developer|mid": {
+        "p25": 110000,
+        "median": 112500,
+        "p75": 127000,
+        "n": 6
+    },
+    "srs consulting, inc.|software engineer|mid": {
+        "p25": 98750,
+        "median": 115000,
+        "p75": 127000,
+        "n": 24
+    },
+    "ss software solutions, llc|network engineer|mid": {
+        "p25": 73624,
+        "median": 77694,
+        "p75": 80288,
+        "n": 6
+    },
+    "ss software solutions, llc|software engineer|mid": {
+        "p25": 105996,
+        "median": 105996,
+        "p75": 107889,
+        "n": 9
+    },
+    "ssa tech, inc.|etl developer|mid": {
+        "p25": 110172,
+        "median": 122699,
+        "p75": 122699,
+        "n": 6
+    },
+    "ssa tech, inc.|software developer|mid": {
+        "p25": 110193,
+        "median": 112986,
+        "p75": 120270,
+        "n": 6
+    },
+    "ssatech, inc.|etl developer|mid": {
+        "p25": 112923,
+        "median": 112923,
+        "p75": 114754,
+        "n": 5
+    },
+    "ssm health care group|physician (hospitalist)|mid": {
+        "p25": 239200,
+        "median": 243878,
+        "p75": 269372,
+        "n": 7
+    },
+    "ssm health care group|physician (internal medicine)|mid": {
+        "p25": 223878,
+        "median": 230868,
+        "p75": 237858,
+        "n": 6
+    },
+    "ssm health care st. louis|medical resident (internal medicine)|entry": {
+        "p25": 62827,
+        "median": 64604,
+        "p75": 66697,
+        "n": 9
+    },
+    "sstech llc|software developer|mid": {
+        "p25": 105791,
+        "median": 105997,
+        "p75": 112548,
+        "n": 20
+    },
+    "sstech llc|software engineer|mid": {
+        "p25": 97250,
+        "median": 105146,
+        "p75": 105358,
+        "n": 8
+    },
+    "st paper llc|engineer|mid": {
+        "p25": 114262,
+        "median": 120000,
+        "p75": 122700,
+        "n": 6
+    },
+    "st. barnabas hospital|physician pgy|mid": {
+        "p25": 76343,
+        "median": 76343,
+        "p75": 76343,
+        "n": 5
+    },
+    "st. barnabas hospital|physician-pgy|mid": {
+        "p25": 76343,
+        "median": 76343,
+        "p75": 76343,
+        "n": 23
+    },
+    "st. barnabas hospital|physician-pgy-1|entry": {
+        "p25": 76343,
+        "median": 80160,
+        "p75": 80160,
+        "n": 10
+    },
+    "st. jude children's research hospital|assistant member|entry": {
+        "p25": 116563,
+        "median": 116563,
+        "p75": 134035,
+        "n": 7
+    },
+    "st. jude children's research hospital|associate scientist|entry": {
+        "p25": 65520,
+        "median": 65520,
+        "p75": 65520,
+        "n": 23
+    },
+    "st. jude children's research hospital|bioinformatics research scientist|mid": {
+        "p25": 86320,
+        "median": 86320,
+        "p75": 86320,
+        "n": 7
+    },
+    "st. jude children's research hospital|biostatistician|mid": {
+        "p25": 86320,
+        "median": 86320,
+        "p75": 86320,
+        "n": 8
+    },
+    "st. jude children's research hospital|computational research scientist|mid": {
+        "p25": 86320,
+        "median": 86320,
+        "p75": 86320,
+        "n": 7
+    },
+    "st. jude children's research hospital|global program coordinator|mid": {
+        "p25": 70720,
+        "median": 70720,
+        "p75": 82784,
+        "n": 5
+    },
+    "st. jude children's research hospital|lead researcher|senior": {
+        "p25": 64100,
+        "median": 65520,
+        "p75": 65520,
+        "n": 10
+    },
+    "st. jude children's research hospital|postdoctoral research associate|entry": {
+        "p25": 72529,
+        "median": 72529,
+        "p75": 72529,
+        "n": 96
+    },
+    "st. jude children's research hospital|program mgr|mid": {
+        "p25": 78000,
+        "median": 80184,
+        "p75": 80184,
+        "n": 7
+    },
+    "st. jude children's research hospital|researcher|mid": {
+        "p25": 50149,
+        "median": 50149,
+        "p75": 51709,
+        "n": 7
+    },
+    "st. jude children's research hospital|scientist|mid": {
+        "p25": 86320,
+        "median": 86320,
+        "p75": 86320,
+        "n": 48
+    },
+    "st. jude children's research hospital|sr bioinformatics research scientist|senior": {
+        "p25": 104000,
+        "median": 104000,
+        "p75": 104000,
+        "n": 12
+    },
+    "st. jude children's research hospital|sr scientist|senior": {
+        "p25": 104000,
+        "median": 104000,
+        "p75": 104000,
+        "n": 10
+    },
+    "st. jude medical, cardiology division, inc.|senior supplier development quality engineer|senior": {
+        "p25": 110000,
+        "median": 114000,
+        "p75": 125000,
+        "n": 5
+    },
+    "st. louis children's hopsital|physician \u201c pgy2- pediatric resident|entry": {
+        "p25": 72940,
+        "median": 72940,
+        "p75": 72940,
+        "n": 8
+    },
+    "st. louis language immersion schools, inc.|chinese language immersion teacher|mid": {
+        "p25": 51130,
+        "median": 51913,
+        "p75": 52923,
+        "n": 6
+    },
+    "st. luke's-roosevelt hospital center|house staff, fellow|senior": {
+        "p25": 87033,
+        "median": 94916,
+        "p75": 102542,
+        "n": 6
+    },
+    "st. luke's-roosevelt hospital center|house staff, resident|senior": {
+        "p25": 85446,
+        "median": 85446,
+        "p75": 88010,
+        "n": 18
+    },
+    "st. vincent infirmary medical center|medical laboratory scientist|mid": {
+        "p25": 56165,
+        "median": 59685,
+        "p75": 63278,
+        "n": 8
+    },
+    "sta support institute|director of academy sports performance|senior": {
+        "p25": 51900,
+        "median": 55200,
+        "p75": 55200,
+        "n": 8
+    },
+    "staffbee solutions inc|data analyst|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 5
+    },
+    "staffbee solutions inc|data engineer|mid": {
+        "p25": 73070,
+        "median": 73070,
+        "p75": 82633,
+        "n": 6
+    },
+    "staffbee solutions inc|software analyst|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 5
+    },
+    "staffingtree, inc.|software engineer|mid": {
+        "p25": 64522,
+        "median": 64522,
+        "p75": 64522,
+        "n": 7
+    },
+    "staffworxs llc|software developer|mid": {
+        "p25": 89502,
+        "median": 102190,
+        "p75": 108826,
+        "n": 5
+    },
+    "staffworxs llc|software engineer|mid": {
+        "p25": 94775,
+        "median": 105612,
+        "p75": 111191,
+        "n": 6
+    },
+    "staidlogic llc|pega certified system architect|senior": {
+        "p25": 105227,
+        "median": 107536,
+        "p75": 111779,
+        "n": 6
+    },
+    "staidlogic llc|pega developer|mid": {
+        "p25": 105227,
+        "median": 109283,
+        "p75": 121451,
+        "n": 9
+    },
+    "staidlogic llc|pega system architect|senior": {
+        "p25": 110739,
+        "median": 134000,
+        "p75": 141793,
+        "n": 7
+    },
+    "staidlogic llc|software developer|mid": {
+        "p25": 108077,
+        "median": 112923,
+        "p75": 126090,
+        "n": 5
+    },
+    "standard & poor's financial services llc|lead software engineer|senior": {
+        "p25": 146483,
+        "median": 153848,
+        "p75": 160593,
+        "n": 12
+    },
+    "standard & poor's financial services llc|lead, software development/engineering|senior": {
+        "p25": 170248,
+        "median": 176142,
+        "p75": 179087,
+        "n": 6
+    },
+    "standard & poor's financial services llc|software engineer|mid": {
+        "p25": 121250,
+        "median": 125427,
+        "p75": 144500,
+        "n": 10
+    },
+    "standish management us llc|engagement manager|senior": {
+        "p25": 119000,
+        "median": 120000,
+        "p75": 120000,
+        "n": 5
+    },
+    "standish management us llc|fund controller|mid": {
+        "p25": 89250,
+        "median": 95500,
+        "p75": 116702,
+        "n": 8
+    },
+    "standish management us llc|senior associate|mid": {
+        "p25": 78000,
+        "median": 80000,
+        "p75": 86375,
+        "n": 14
+    },
+    "standish management us, llc|engagement manager|senior": {
+        "p25": 116750,
+        "median": 120000,
+        "p75": 129577,
+        "n": 7
+    },
+    "standish management us, llc|fund controller|mid": {
+        "p25": 88000,
+        "median": 91500,
+        "p75": 93750,
+        "n": 7
+    },
+    "stanford health care|resident|entry": {
+        "p25": 92123,
+        "median": 96241,
+        "p75": 96241,
+        "n": 5
+    },
+    "stantec consulting services inc.|mechanical designer|mid": {
+        "p25": 75004,
+        "median": 86860,
+        "p75": 100984,
+        "n": 5
+    },
+    "stantec consulting services inc.|structural engineer|mid": {
+        "p25": 103360,
+        "median": 111768,
+        "p75": 118924,
+        "n": 8
+    },
+    "staples, inc.|product manager|senior": {
+        "p25": 126250,
+        "median": 132500,
+        "p75": 135000,
+        "n": 6
+    },
+    "staples, inc.|senior software engineer i|mid": {
+        "p25": 153510,
+        "median": 162306,
+        "p75": 166937,
+        "n": 12
+    },
+    "staples, inc.|software engineer ii|mid": {
+        "p25": 115185,
+        "median": 121630,
+        "p75": 125919,
+        "n": 14
+    },
+    "staples, inc.|software engineer iii|senior": {
+        "p25": 133184,
+        "median": 140000,
+        "p75": 144690,
+        "n": 29
+    },
+    "starshr, inc.|software engineer|mid": {
+        "p25": 84240,
+        "median": 93600,
+        "p75": 96720,
+        "n": 9
+    },
+    "startekk llc|software developer|mid": {
+        "p25": 90896,
+        "median": 90896,
+        "p75": 105997,
+        "n": 5
+    },
+    "state farm mutual automobile insurance company|lead software engineer|senior": {
+        "p25": 117603,
+        "median": 118200,
+        "p75": 121118,
+        "n": 26
+    },
+    "state farm mutual automobile insurance company|software engineer|mid": {
+        "p25": 110291,
+        "median": 116336,
+        "p75": 121782,
+        "n": 8
+    },
+    "state street bank and trust company|software engineering & development|mid": {
+        "p25": 133724,
+        "median": 133724,
+        "p75": 168417,
+        "n": 6
+    },
+    "state university of new york at binghamton|assistant professor|entry": {
+        "p25": 86960,
+        "median": 105335,
+        "p75": 142500,
+        "n": 39
+    },
+    "state university of new york at binghamton|lecturer|mid": {
+        "p25": 56271,
+        "median": 65832,
+        "p75": 73875,
+        "n": 10
+    },
+    "state university of new york at buffalo|assistant professor|entry": {
+        "p25": 97137,
+        "median": 106575,
+        "p75": 125154,
+        "n": 32
+    },
+    "state university of new york at stony brook|assistant professor|entry": {
+        "p25": 101983,
+        "median": 115000,
+        "p75": 136500,
+        "n": 27
+    },
+    "state university of new york at stony brook|clinical assistant professor|entry": {
+        "p25": 57899,
+        "median": 59899,
+        "p75": 59899,
+        "n": 7
+    },
+    "state university of new york at stony brook|lecturer|mid": {
+        "p25": 66217,
+        "median": 71600,
+        "p75": 100000,
+        "n": 7
+    },
+    "state university of new york downstate health sciences university|clinical assistant instructor|entry": {
+        "p25": 79194,
+        "median": 88837,
+        "p75": 90196,
+        "n": 7
+    },
+    "state university of new york, upstate medical university|clinical assistant professor|entry": {
+        "p25": 59899,
+        "median": 59899,
+        "p75": 59899,
+        "n": 29
+    },
+    "statsig, inc.|software engineer|mid": {
+        "p25": 166250,
+        "median": 222500,
+        "p75": 230000,
+        "n": 6
+    },
+    "stellar elements, llc|software engineer|mid": {
+        "p25": 110406,
+        "median": 110406,
+        "p75": 122970,
+        "n": 5
+    },
+    "stellar it solutions llc|devops engineer|mid": {
+        "p25": 92580,
+        "median": 93537,
+        "p75": 112424,
+        "n": 5
+    },
+    "stellar services, inc.|programmer|mid": {
+        "p25": 85000,
+        "median": 100000,
+        "p75": 110000,
+        "n": 5
+    },
+    "stem solutions llc|computer programmer|mid": {
+        "p25": 81140,
+        "median": 83866,
+        "p75": 90428,
+        "n": 7
+    },
+    "stem solutions llc|software developer|mid": {
+        "p25": 85000,
+        "median": 93226,
+        "p75": 94931,
+        "n": 5
+    },
+    "stem solutions llc|software programmer|mid": {
+        "p25": 85530,
+        "median": 90012,
+        "p75": 91447,
+        "n": 10
+    },
+    "steris corporation|senior software developer|senior": {
+        "p25": 105000,
+        "median": 106000,
+        "p75": 107000,
+        "n": 5
+    },
+    "stiaos technologies inc|computer programmer|mid": {
+        "p25": 79102,
+        "median": 79102,
+        "p75": 79102,
+        "n": 9
+    },
+    "stier solutions inc|data analyst|mid": {
+        "p25": 100339,
+        "median": 100339,
+        "p75": 100339,
+        "n": 5
+    },
+    "stier solutions inc|machine learning engineer|mid": {
+        "p25": 102918,
+        "median": 102918,
+        "p75": 102918,
+        "n": 7
+    },
+    "stier solutions inc|servicenow developer|mid": {
+        "p25": 85530,
+        "median": 100183,
+        "p75": 105997,
+        "n": 8
+    },
+    "stmicroelectronics,inc|applications engineer iv|senior": {
+        "p25": 137917,
+        "median": 141700,
+        "p75": 152880,
+        "n": 5
+    },
+    "stockton unified school district|teacher|mid": {
+        "p25": 61310,
+        "median": 61540,
+        "p75": 62215,
+        "n": 6
+    },
+    "stoneline group llc|business analyst|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 81542,
+        "n": 6
+    },
+    "stony brook university hospital|clinical laboratory technologist|mid": {
+        "p25": 103431,
+        "median": 109751,
+        "p75": 110838,
+        "n": 12
+    },
+    "stout risius ross, llc|analyst|mid": {
+        "p25": 87500,
+        "median": 90000,
+        "p75": 92500,
+        "n": 9
+    },
+    "stout risius ross, llc|associate|entry": {
+        "p25": 111250,
+        "median": 115000,
+        "p75": 118750,
+        "n": 6
+    },
+    "stowers institute for medical research|postdoctoral research associate|entry": {
+        "p25": 74160,
+        "median": 74160,
+        "p75": 74160,
+        "n": 9
+    },
+    "strategic it experts, inc.|software developer|mid": {
+        "p25": 101000,
+        "median": 112000,
+        "p75": 113000,
+        "n": 5
+    },
+    "strategic resources international inc|software developer|mid": {
+        "p25": 94796,
+        "median": 105997,
+        "p75": 112715,
+        "n": 39
+    },
+    "strategic resources international inc|software engineer|mid": {
+        "p25": 92414,
+        "median": 97386,
+        "p75": 101680,
+        "n": 7
+    },
+    "strategic systems, inc.|data engineer|mid": {
+        "p25": 95139,
+        "median": 97000,
+        "p75": 102627,
+        "n": 5
+    },
+    "strategic systems, inc.|full stack developer|mid": {
+        "p25": 86000,
+        "median": 86750,
+        "p75": 87500,
+        "n": 6
+    },
+    "strategic systems, inc.|java developer|mid": {
+        "p25": 88125,
+        "median": 98883,
+        "p75": 105997,
+        "n": 10
+    },
+    "strategic systems, inc.|salesforce developer|mid": {
+        "p25": 86000,
+        "median": 86000,
+        "p75": 87500,
+        "n": 5
+    },
+    "strategic systems, inc.|software developer|mid": {
+        "p25": 86000,
+        "median": 90948,
+        "p75": 101065,
+        "n": 46
+    },
+    "strategic systems, inc.|software engineer|mid": {
+        "p25": 87500,
+        "median": 91322,
+        "p75": 101899,
+        "n": 24
+    },
+    "streamvector inc.|technical lead|senior": {
+        "p25": 155000,
+        "median": 155000,
+        "p75": 159500,
+        "n": 6
+    },
+    "stripe, inc.|backend / api engineer|mid": {
+        "p25": 151553,
+        "median": 176456,
+        "p75": 183118,
+        "n": 20
+    },
+    "stripe, inc.|backend engineer|mid": {
+        "p25": 156312,
+        "median": 172931,
+        "p75": 179982,
+        "n": 7
+    },
+    "stripe, inc.|backend/api engineer|mid": {
+        "p25": 179982,
+        "median": 180960,
+        "p75": 190486,
+        "n": 9
+    },
+    "stripe, inc.|data analyst|mid": {
+        "p25": 120712,
+        "median": 132850,
+        "p75": 158527,
+        "n": 10
+    },
+    "stripe, inc.|data scientist|mid": {
+        "p25": 141170,
+        "median": 148699,
+        "p75": 183581,
+        "n": 5
+    },
+    "stripe, inc.|engineering manager|senior": {
+        "p25": 196586,
+        "median": 234946,
+        "p75": 254322,
+        "n": 8
+    },
+    "stripe, inc.|full stack engineer|mid": {
+        "p25": 151975,
+        "median": 171922,
+        "p75": 179982,
+        "n": 12
+    },
+    "stripe, inc.|infrastructure engineer|mid": {
+        "p25": 159104,
+        "median": 180960,
+        "p75": 188104,
+        "n": 6
+    },
+    "stripe, inc.|machine learning engineer|mid": {
+        "p25": 170393,
+        "median": 179982,
+        "p75": 180835,
+        "n": 7
+    },
+    "stripe, inc.|product manager|senior": {
+        "p25": 167024,
+        "median": 167024,
+        "p75": 218442,
+        "n": 13
+    },
+    "stripe, inc.|software engineer|mid": {
+        "p25": 130250,
+        "median": 155605,
+        "p75": 180960,
+        "n": 126
+    },
+    "studio gang architects|designer ii|mid": {
+        "p25": 78000,
+        "median": 87588,
+        "p75": 111113,
+        "n": 5
+    },
+    "studio outside llc|landscape designer|mid": {
+        "p25": 62379,
+        "median": 62379,
+        "p75": 66000,
+        "n": 5
+    },
+    "studios architecture|designer|mid": {
+        "p25": 77000,
+        "median": 93475,
+        "p75": 95000,
+        "n": 5
+    },
+    "stv incorporated|architectural designer|mid": {
+        "p25": 69667,
+        "median": 79133,
+        "p75": 89502,
+        "n": 12
+    },
+    "stv incorporated|engineering specialist, civil|mid": {
+        "p25": 74589,
+        "median": 81120,
+        "p75": 84510,
+        "n": 5
+    },
+    "stv incorporated|engineering specialist, civil engineering|mid": {
+        "p25": 74505,
+        "median": 76700,
+        "p75": 81280,
+        "n": 8
+    },
+    "stv incorporated|project controls specialist|mid": {
+        "p25": 74506,
+        "median": 74506,
+        "p75": 80017,
+        "n": 5
+    },
+    "su escuela language academy llc|spanish  preschool teacher|mid": {
+        "p25": 40000,
+        "median": 40000,
+        "p75": 41000,
+        "n": 15
+    },
+    "su escuela language academy llc|spanish immersion  teacher|mid": {
+        "p25": 43000,
+        "median": 43000,
+        "p75": 50000,
+        "n": 5
+    },
+    "su escuela language academy llc|spanish preschool teacher|mid": {
+        "p25": 39750,
+        "median": 40500,
+        "p75": 42250,
+        "n": 20
+    },
+    "subhashini software solutions inc|software developer|mid": {
+        "p25": 95493,
+        "median": 97032,
+        "p75": 97032,
+        "n": 9
+    },
+    "success tech solutions inc|software developer|mid": {
+        "p25": 81000,
+        "median": 93500,
+        "p75": 94578,
+        "n": 9
+    },
+    "successfactors, inc.|developer|mid": {
+        "p25": 134827,
+        "median": 143933,
+        "p75": 149206,
+        "n": 8
+    },
+    "successfactors, inc.|development expert|mid": {
+        "p25": 165056,
+        "median": 172448,
+        "p75": 202141,
+        "n": 10
+    },
+    "successfactors, inc.|senior developer|senior": {
+        "p25": 147048,
+        "median": 151531,
+        "p75": 157958,
+        "n": 14
+    },
+    "sudhi infomatics inc|software engineer|mid": {
+        "p25": 108160,
+        "median": 108160,
+        "p75": 122720,
+        "n": 5
+    },
+    "suffolk construction company, inc.|assistant project manager|mid": {
+        "p25": 90000,
+        "median": 103000,
+        "p75": 110000,
+        "n": 7
+    },
+    "suffolk construction company, inc.|project engineer|mid": {
+        "p25": 75000,
+        "median": 82500,
+        "p75": 85000,
+        "n": 5
+    },
+    "sullivan & cromwell llp|associate|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 15
+    },
+    "sullivan & cromwell llp|law clerk|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 21
+    },
+    "summit bend us corporation|computer programmer|mid": {
+        "p25": 46000,
+        "median": 46000,
+        "p75": 49000,
+        "n": 6
+    },
+    "summit bend us corporation|executive director of human resources|senior": {
+        "p25": 160000,
+        "median": 160000,
+        "p75": 160000,
+        "n": 7
+    },
+    "summit it experts, inc.|software developer|mid": {
+        "p25": 106000,
+        "median": 109000,
+        "p75": 109500,
+        "n": 7
+    },
+    "suniksha technologies llc|sr. data engineer|senior": {
+        "p25": 92040,
+        "median": 92040,
+        "p75": 92040,
+        "n": 5
+    },
+    "sunlight technologies inc|software developer|mid": {
+        "p25": 89450,
+        "median": 105500,
+        "p75": 107950,
+        "n": 11
+    },
+    "sunlight technologies inc|software programmer -java developer|mid": {
+        "p25": 83000,
+        "median": 83000,
+        "p75": 83000,
+        "n": 5
+    },
+    "sunnyside unified school district no. 12|teacher|mid": {
+        "p25": 53325,
+        "median": 58100,
+        "p75": 63100,
+        "n": 8
+    },
+    "sunraise technologies inc|software consultant|mid": {
+        "p25": 105398,
+        "median": 115991,
+        "p75": 125241,
+        "n": 18
+    },
+    "sunraise technologies inc|software developer|mid": {
+        "p25": 90397,
+        "median": 106000,
+        "p75": 106000,
+        "n": 5
+    },
+    "sunray enterprise, inc.|software engineer|mid": {
+        "p25": 106241,
+        "median": 109283,
+        "p75": 122527,
+        "n": 6
+    },
+    "sunray informatics inc.|programmer analyst|mid": {
+        "p25": 90300,
+        "median": 106600,
+        "p75": 114000,
+        "n": 21
+    },
+    "sunresys technologies inc|software developer|mid": {
+        "p25": 85000,
+        "median": 100000,
+        "p75": 112500,
+        "n": 5
+    },
+    "sunsoft services inc|software engineer|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 84000,
+        "n": 5
+    },
+    "suntec business solutions, inc.|computer system analyst|mid": {
+        "p25": 102523,
+        "median": 112965,
+        "p75": 113482,
+        "n": 7
+    },
+    "suny plattsburgh|assistant professor|entry": {
+        "p25": 67375,
+        "median": 90000,
+        "p75": 98000,
+        "n": 6
+    },
+    "super tech consulting llc|software engineer|mid": {
+        "p25": 94370,
+        "median": 94370,
+        "p75": 94370,
+        "n": 6
+    },
+    "superintendent of marion school district|special education teacher|mid": {
+        "p25": 50000,
+        "median": 50000,
+        "p75": 50000,
+        "n": 10
+    },
+    "sure tech services, inc.|software developer|mid": {
+        "p25": 85800,
+        "median": 89440,
+        "p75": 97760,
+        "n": 10
+    },
+    "surge technology solutions inc|software developer|mid": {
+        "p25": 90000,
+        "median": 95000,
+        "p75": 95493,
+        "n": 15
+    },
+    "susquehanna international group, llp|quantitative research trading associate|entry": {
+        "p25": 84600,
+        "median": 90600,
+        "p75": 110900,
+        "n": 13
+    },
+    "susquehanna international group, llp|software developer|mid": {
+        "p25": 84800,
+        "median": 84800,
+        "p75": 84800,
+        "n": 9
+    },
+    "susquehanna international group, llp|software developer - mid|mid": {
+        "p25": 146100,
+        "median": 146100,
+        "p75": 173350,
+        "n": 14
+    },
+    "susquehanna physician services|hospitalist|mid": {
+        "p25": 315000,
+        "median": 315000,
+        "p75": 315000,
+        "n": 5
+    },
+    "sv info tech inc|software developer|mid": {
+        "p25": 97157,
+        "median": 97157,
+        "p75": 103786,
+        "n": 6
+    },
+    "sv tech inc.|software developer|mid": {
+        "p25": 82971,
+        "median": 82971,
+        "p75": 82971,
+        "n": 5
+    },
+    "sv technology services, llc.|software developer|mid": {
+        "p25": 105997,
+        "median": 106000,
+        "p75": 111935,
+        "n": 14
+    },
+    "svanaco, inc.|web application developer|mid": {
+        "p25": 94750,
+        "median": 107000,
+        "p75": 116750,
+        "n": 8
+    },
+    "svastha infotech inc|business analyst|mid": {
+        "p25": 69500,
+        "median": 82500,
+        "p75": 93250,
+        "n": 8
+    },
+    "svastha infotech inc|qa engineer|mid": {
+        "p25": 70000,
+        "median": 87000,
+        "p75": 88000,
+        "n": 9
+    },
+    "svastha infotech inc|software engineer|mid": {
+        "p25": 86000,
+        "median": 86000,
+        "p75": 106000,
+        "n": 14
+    },
+    "svk systems, inc.|software developer|mid": {
+        "p25": 113500,
+        "median": 120750,
+        "p75": 126875,
+        "n": 6
+    },
+    "svk technology solutions, inc.|programmer analyst|mid": {
+        "p25": 85000,
+        "median": 98301,
+        "p75": 98301,
+        "n": 5
+    },
+    "svk technology solutions, inc.|software engineer|mid": {
+        "p25": 90750,
+        "median": 95493,
+        "p75": 97875,
+        "n": 8
+    },
+    "svm softtech corporation dba yeniliks it services|software developer|mid": {
+        "p25": 84120,
+        "median": 90960,
+        "p75": 106020,
+        "n": 11
+    },
+    "svs soft tech llc|software programmer|mid": {
+        "p25": 79102,
+        "median": 79102,
+        "p75": 79102,
+        "n": 6
+    },
+    "svtronics, inc.|electrical engineer|mid": {
+        "p25": 68529,
+        "median": 72925,
+        "p75": 72925,
+        "n": 10
+    },
+    "swa group|landscape designer|mid": {
+        "p25": 75000,
+        "median": 77365,
+        "p75": 88982,
+        "n": 12
+    },
+    "swift solutions, inc.|programmer analyst|mid": {
+        "p25": 85924,
+        "median": 96252,
+        "p75": 101181,
+        "n": 6
+    },
+    "swift strategic solutions inc|it project manager|senior": {
+        "p25": 94255,
+        "median": 99840,
+        "p75": 102960,
+        "n": 6
+    },
+    "swift strategic solutions inc|software engineer|mid": {
+        "p25": 105040,
+        "median": 106080,
+        "p75": 107120,
+        "n": 7
+    },
+    "sygniti technologies inc|it consultant (software developer)|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 85530,
+        "n": 7
+    },
+    "sygniti technologies inc|it consultant (software engineer)|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 83658,
+        "n": 6
+    },
+    "sygniti technologies inc|programmer analyst|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 85530,
+        "n": 5
+    },
+    "symbotic llc|advanced software engineer|mid": {
+        "p25": 112000,
+        "median": 123000,
+        "p75": 123000,
+        "n": 5
+    },
+    "symbotic llc|senior software engineer|senior": {
+        "p25": 172744,
+        "median": 173000,
+        "p75": 180000,
+        "n": 9
+    },
+    "symplore inc|software engineer|mid": {
+        "p25": 79373,
+        "median": 79373,
+        "p75": 79373,
+        "n": 13
+    },
+    "symplore inc|systems analyst|mid": {
+        "p25": 73445,
+        "median": 73445,
+        "p75": 73445,
+        "n": 12
+    },
+    "synapse design automation inc.|physical design engineer|mid": {
+        "p25": 130000,
+        "median": 135000,
+        "p75": 137500,
+        "n": 7
+    },
+    "synapsiq llc|network and computer systems administrator|mid": {
+        "p25": 61090,
+        "median": 61547,
+        "p75": 66992,
+        "n": 16
+    },
+    "synechron inc|associate principal - technology|senior": {
+        "p25": 112986,
+        "median": 119466,
+        "p75": 120350,
+        "n": 5
+    },
+    "synechron inc|associate principal \u201c technology|senior": {
+        "p25": 122000,
+        "median": 122000,
+        "p75": 150000,
+        "n": 5
+    },
+    "synechron inc|associate specialist - technology|entry": {
+        "p25": 108607,
+        "median": 120000,
+        "p75": 143520,
+        "n": 17
+    },
+    "synechron inc|lead - technology|senior": {
+        "p25": 116000,
+        "median": 124000,
+        "p75": 125000,
+        "n": 9
+    },
+    "synechron inc|specialist - technology|mid": {
+        "p25": 115000,
+        "median": 123000,
+        "p75": 135000,
+        "n": 19
+    },
+    "synechron inc|specialist \u201c technology|mid": {
+        "p25": 123656,
+        "median": 125000,
+        "p75": 125000,
+        "n": 5
+    },
+    "synechron inc.|associate principal - technology|senior": {
+        "p25": 117320,
+        "median": 129258,
+        "p75": 146704,
+        "n": 8
+    },
+    "synechron inc.|associate specialist - quality control|entry": {
+        "p25": 97500,
+        "median": 103418,
+        "p75": 110000,
+        "n": 7
+    },
+    "synechron inc.|associate specialist - technology|entry": {
+        "p25": 111667,
+        "median": 117312,
+        "p75": 125000,
+        "n": 25
+    },
+    "synechron inc.|associate specialist \u201c technology|entry": {
+        "p25": 115000,
+        "median": 117500,
+        "p75": 120000,
+        "n": 6
+    },
+    "synechron inc.|lead - quality control|senior": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 5
+    },
+    "synechron inc.|lead - technology|senior": {
+        "p25": 106517,
+        "median": 112043,
+        "p75": 117204,
+        "n": 18
+    },
+    "synechron inc.|lead \u201c technology|senior": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 125000,
+        "n": 5
+    },
+    "synechron inc.|manager - technology|senior": {
+        "p25": 112986,
+        "median": 113049,
+        "p75": 123656,
+        "n": 9
+    },
+    "synechron inc.|specialist - quality control|mid": {
+        "p25": 89575,
+        "median": 106000,
+        "p75": 113000,
+        "n": 5
+    },
+    "synechron inc.|specialist - technology|mid": {
+        "p25": 110385,
+        "median": 117566,
+        "p75": 130000,
+        "n": 27
+    },
+    "synechron inc.|specialist \u201c technology|mid": {
+        "p25": 115000,
+        "median": 123656,
+        "p75": 135000,
+        "n": 5
+    },
+    "synechron inc.|sr. specialist - quality control|senior": {
+        "p25": 102000,
+        "median": 107107,
+        "p75": 116000,
+        "n": 5
+    },
+    "synechron inc.|sr. specialist - technology|senior": {
+        "p25": 110235,
+        "median": 119948,
+        "p75": 138103,
+        "n": 24
+    },
+    "synechron, inc.|assistant manager - technology|mid": {
+        "p25": 108000,
+        "median": 110000,
+        "p75": 113810,
+        "n": 5
+    },
+    "synechron, inc.|associate director - technology|senior": {
+        "p25": 120000,
+        "median": 121800,
+        "p75": 128933,
+        "n": 8
+    },
+    "synechron, inc.|associate principal - technology|senior": {
+        "p25": 113155,
+        "median": 117412,
+        "p75": 132747,
+        "n": 8
+    },
+    "synechron, inc.|associate principal-technology|senior": {
+        "p25": 110219,
+        "median": 110219,
+        "p75": 114800,
+        "n": 5
+    },
+    "synechron, inc.|associate specialist - technology|entry": {
+        "p25": 105288,
+        "median": 106558,
+        "p75": 140000,
+        "n": 7
+    },
+    "synechron, inc.|associate specialist \u201c technology|entry": {
+        "p25": 120000,
+        "median": 135000,
+        "p75": 145600,
+        "n": 9
+    },
+    "synechron, inc.|associate specialist-technology|entry": {
+        "p25": 104519,
+        "median": 115000,
+        "p75": 130000,
+        "n": 8
+    },
+    "synechron, inc.|lead - technology|senior": {
+        "p25": 96172,
+        "median": 107727,
+        "p75": 124237,
+        "n": 10
+    },
+    "synechron, inc.|lead-technology|senior": {
+        "p25": 97718,
+        "median": 110734,
+        "p75": 115000,
+        "n": 10
+    },
+    "synechron, inc.|specialist - quality control|mid": {
+        "p25": 102709,
+        "median": 105601,
+        "p75": 106300,
+        "n": 7
+    },
+    "synechron, inc.|specialist - technology|mid": {
+        "p25": 113068,
+        "median": 123458,
+        "p75": 135090,
+        "n": 18
+    },
+    "synechron, inc.|specialist \u201c technology|mid": {
+        "p25": 113535,
+        "median": 118320,
+        "p75": 138750,
+        "n": 12
+    },
+    "synechron, inc.|specialist-technology|mid": {
+        "p25": 108552,
+        "median": 111212,
+        "p75": 120848,
+        "n": 6
+    },
+    "synechron, inc.|sr. associate - technology|mid": {
+        "p25": 95521,
+        "median": 113000,
+        "p75": 116652,
+        "n": 7
+    },
+    "synechron, inc.|sr. specialist - technology|senior": {
+        "p25": 112072,
+        "median": 114173,
+        "p75": 125538,
+        "n": 18
+    },
+    "synechron, inc.|sr. specialist-technology|senior": {
+        "p25": 109750,
+        "median": 115000,
+        "p75": 115000,
+        "n": 6
+    },
+    "synersys technologies, inc|network engineer|mid": {
+        "p25": 109803,
+        "median": 113713,
+        "p75": 128211,
+        "n": 13
+    },
+    "synopsys, inc.|ai engineer|mid": {
+        "p25": 166470,
+        "median": 189746,
+        "p75": 195206,
+        "n": 5
+    },
+    "synopsys, inc.|analog design|mid": {
+        "p25": 128556,
+        "median": 148589,
+        "p75": 166480,
+        "n": 8
+    },
+    "synopsys, inc.|applications engineering|mid": {
+        "p25": 126552,
+        "median": 149714,
+        "p75": 166161,
+        "n": 41
+    },
+    "synopsys, inc.|asic digital design|mid": {
+        "p25": 133019,
+        "median": 148598,
+        "p75": 162376,
+        "n": 6
+    },
+    "synopsys, inc.|asic physical design|mid": {
+        "p25": 144091,
+        "median": 175050,
+        "p75": 208862,
+        "n": 5
+    },
+    "synopsys, inc.|enterprise solutions architect|senior": {
+        "p25": 121538,
+        "median": 140040,
+        "p75": 143447,
+        "n": 5
+    },
+    "synopsys, inc.|product management|mid": {
+        "p25": 157969,
+        "median": 175573,
+        "p75": 225972,
+        "n": 6
+    },
+    "synopsys, inc.|r&d engineering|mid": {
+        "p25": 140621,
+        "median": 164268,
+        "p75": 204142,
+        "n": 29
+    },
+    "synopsys, inc.|r&d engineering, engineer|mid": {
+        "p25": 88587,
+        "median": 107179,
+        "p75": 112811,
+        "n": 7
+    },
+    "synopsys, inc.|soc engineering|mid": {
+        "p25": 142496,
+        "median": 150241,
+        "p75": 168583,
+        "n": 9
+    },
+    "synopsys, inc.|software engineering|mid": {
+        "p25": 141025,
+        "median": 173701,
+        "p75": 174081,
+        "n": 7
+    },
+    "synopsys, inc.|solutions engineering|mid": {
+        "p25": 138876,
+        "median": 155730,
+        "p75": 178321,
+        "n": 7
+    },
+    "synova solutions inc|it consultant (software developer)|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 85530,
+        "n": 9
+    },
+    "synova solutions inc|it consultant (software engineer)|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 92581,
+        "n": 15
+    },
+    "synova solutions inc|programmer analyst|mid": {
+        "p25": 77418,
+        "median": 77418,
+        "p75": 85530,
+        "n": 16
+    },
+    "syntage tech llc|software developer|mid": {
+        "p25": 82000,
+        "median": 82000,
+        "p75": 83400,
+        "n": 5
+    },
+    "syntech soft inc|data engineer|mid": {
+        "p25": 115939,
+        "median": 131602,
+        "p75": 140150,
+        "n": 5
+    },
+    "synthesis systems, inc.|senior consultant|senior": {
+        "p25": 115125,
+        "median": 127500,
+        "p75": 130014,
+        "n": 6
+    },
+    "syquestsoft inc|software developer|mid": {
+        "p25": 108826,
+        "median": 108826,
+        "p75": 108826,
+        "n": 5
+    },
+    "syracuse university|assistant professor|entry": {
+        "p25": 49560,
+        "median": 57640,
+        "p75": 59250,
+        "n": 7
+    },
+    "syracuse university|assistant teaching professor|entry": {
+        "p25": 52125,
+        "median": 52200,
+        "p75": 56212,
+        "n": 6
+    },
+    "syracuse university|instructor|mid": {
+        "p25": 106392,
+        "median": 106392,
+        "p75": 106392,
+        "n": 5
+    },
+    "syracuse university|postdoctoral researcher|mid": {
+        "p25": 62000,
+        "median": 62412,
+        "p75": 65000,
+        "n": 5
+    },
+    "syrencloud inc.|data engineer|mid": {
+        "p25": 85821,
+        "median": 85821,
+        "p75": 85821,
+        "n": 6
+    },
+    "sysarch inc|software engineer|mid": {
+        "p25": 105227,
+        "median": 105227,
+        "p75": 105622,
+        "n": 7
+    },
+    "sysconsult llc.|data engineer|mid": {
+        "p25": 86500,
+        "median": 86500,
+        "p75": 87250,
+        "n": 6
+    },
+    "sysconsult llc.|programmer analyst|mid": {
+        "p25": 85500,
+        "median": 90000,
+        "p75": 94500,
+        "n": 15
+    },
+    "sysdig, inc.|senior software engineer|senior": {
+        "p25": 158000,
+        "median": 160500,
+        "p75": 163862,
+        "n": 8
+    },
+    "sysintel, inc.|programmer analyst|mid": {
+        "p25": 77500,
+        "median": 80000,
+        "p75": 80000,
+        "n": 5
+    },
+    "sysintelli inc.|data analyst|mid": {
+        "p25": 80500,
+        "median": 85000,
+        "p75": 87500,
+        "n": 7
+    },
+    "sysintelli inc.|data engineer|mid": {
+        "p25": 105500,
+        "median": 106000,
+        "p75": 113000,
+        "n": 11
+    },
+    "sysintelli inc.|salesforce developer|mid": {
+        "p25": 102000,
+        "median": 103500,
+        "p75": 112500,
+        "n": 6
+    },
+    "sysintelli inc.|software developer|mid": {
+        "p25": 102000,
+        "median": 103500,
+        "p75": 106000,
+        "n": 17
+    },
+    "systech solutions inc|business intelligence analyst|mid": {
+        "p25": 105000,
+        "median": 110000,
+        "p75": 121000,
+        "n": 7
+    },
+    "systechcorp, inc.|business analyst|mid": {
+        "p25": 83000,
+        "median": 90100,
+        "p75": 94650,
+        "n": 11
+    },
+    "systechcorp, inc.|programmer analyst|mid": {
+        "p25": 91250,
+        "median": 100850,
+        "p75": 106925,
+        "n": 6
+    },
+    "systechcorp, inc.|software developer|mid": {
+        "p25": 106375,
+        "median": 109000,
+        "p75": 119125,
+        "n": 6
+    },
+    "system soft technologies, llc|data analyst|mid": {
+        "p25": 108000,
+        "median": 108000,
+        "p75": 109512,
+        "n": 5
+    },
+    "system soft technologies, llc|data engineer|mid": {
+        "p25": 91100,
+        "median": 96500,
+        "p75": 114500,
+        "n": 11
+    },
+    "system soft technologies, llc|software architect|senior": {
+        "p25": 99250,
+        "median": 110376,
+        "p75": 114758,
+        "n": 8
+    },
+    "system soft technologies, llc|software developer|mid": {
+        "p25": 94910,
+        "median": 109142,
+        "p75": 123290,
+        "n": 68
+    },
+    "system soft technologies, llc|software development engineer in test (sdet)|mid": {
+        "p25": 102200,
+        "median": 102200,
+        "p75": 102200,
+        "n": 6
+    },
+    "system soft technologies, llc|software engineer|mid": {
+        "p25": 107060,
+        "median": 125550,
+        "p75": 133750,
+        "n": 22
+    },
+    "system soft technologies, llc|software qa analyst|mid": {
+        "p25": 82240,
+        "median": 92800,
+        "p75": 100000,
+        "n": 6
+    },
+    "system soft technologies, llc|sr. software engineer|senior": {
+        "p25": 105000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 5
+    },
+    "system2 llc|data scientist|mid": {
+        "p25": 105000,
+        "median": 105000,
+        "p75": 115000,
+        "n": 5
+    },
+    "systems technology group inc|software developer|mid": {
+        "p25": 102221,
+        "median": 120348,
+        "p75": 133120,
+        "n": 27
+    },
+    "systems technology group inc|validation engineer|mid": {
+        "p25": 73424,
+        "median": 73424,
+        "p75": 73424,
+        "n": 5
+    },
+    "systems technology group inc.|software developer|mid": {
+        "p25": 128575,
+        "median": 132350,
+        "p75": 132350,
+        "n": 15
+    },
+    "systemsoft inc|software developer|mid": {
+        "p25": 97157,
+        "median": 105996,
+        "p75": 122699,
+        "n": 9
+    }
+}

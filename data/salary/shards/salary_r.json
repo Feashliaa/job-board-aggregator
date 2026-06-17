@@ -1,0 +1,1994 @@
+{
+    "r systems inc.|business analyst|mid": {
+        "p25": 80000,
+        "median": 85000,
+        "p75": 97147,
+        "n": 7
+    },
+    "r systems inc.|software engineer|mid": {
+        "p25": 101000,
+        "median": 101754,
+        "p75": 105000,
+        "n": 9
+    },
+    "r&g us inc|statistical analyst (sas programming)|mid": {
+        "p25": 78894,
+        "median": 78894,
+        "p75": 78894,
+        "n": 9
+    },
+    "r2 technologies corporation|computer programmer  ii|mid": {
+        "p25": 88010,
+        "median": 90210,
+        "p75": 90210,
+        "n": 8
+    },
+    "r2 technologies corporation|computer programmer ii|mid": {
+        "p25": 90210,
+        "median": 90210,
+        "p75": 90210,
+        "n": 5
+    },
+    "r2 technologies corporation|software developer|mid": {
+        "p25": 101472,
+        "median": 105227,
+        "p75": 105227,
+        "n": 8
+    },
+    "r2 technologies corporation|software engineer ii|mid": {
+        "p25": 80413,
+        "median": 80413,
+        "p75": 83325,
+        "n": 5
+    },
+    "r3 uniq inc.|software engineer|mid": {
+        "p25": 96013,
+        "median": 96013,
+        "p75": 96013,
+        "n": 5
+    },
+    "r4 it solutions inc|software developer|mid": {
+        "p25": 86875,
+        "median": 98855,
+        "p75": 105210,
+        "n": 6
+    },
+    "raas infotek llc|software developer|mid": {
+        "p25": 92000,
+        "median": 103000,
+        "p75": 123000,
+        "n": 47
+    },
+    "raas infotek llc|software engineer|mid": {
+        "p25": 104000,
+        "median": 109000,
+        "p75": 122750,
+        "n": 5
+    },
+    "racedog limited|software engineer|mid": {
+        "p25": 86000,
+        "median": 88850,
+        "p75": 104650,
+        "n": 14
+    },
+    "radiant digital solutions, inc.|software developer|mid": {
+        "p25": 100797,
+        "median": 100880,
+        "p75": 100880,
+        "n": 5
+    },
+    "radiantze inc|software developer|mid": {
+        "p25": 103802,
+        "median": 112923,
+        "p75": 114764,
+        "n": 7
+    },
+    "radiantze inc.|software developer|mid": {
+        "p25": 102627,
+        "median": 103605,
+        "p75": 105747,
+        "n": 10
+    },
+    "radiantze inc.|software programmer|mid": {
+        "p25": 85000,
+        "median": 85530,
+        "p75": 85530,
+        "n": 10
+    },
+    "radiology associates of appleton, s.c.|physician|mid": {
+        "p25": 650000,
+        "median": 650000,
+        "p75": 650000,
+        "n": 7
+    },
+    "radix trading, llc|quantitative researcher|mid": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 180000,
+        "n": 10
+    },
+    "radixlink, inc.|qa lead engineer|senior": {
+        "p25": 91093,
+        "median": 98052,
+        "p75": 104729,
+        "n": 6
+    },
+    "radixlink, inc.|software engineer|mid": {
+        "p25": 105977,
+        "median": 105977,
+        "p75": 105977,
+        "n": 10
+    },
+    "ragan consulting solutions, llc|software engineer|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 95493,
+        "n": 5
+    },
+    "ramp business corporation|senior software engineer|senior": {
+        "p25": 188000,
+        "median": 189625,
+        "p75": 191250,
+        "n": 6
+    },
+    "ramp business corporation|software engineer|mid": {
+        "p25": 155000,
+        "median": 155000,
+        "p75": 155000,
+        "n": 5
+    },
+    "ramps international, inc|software engineer|mid": {
+        "p25": 113000,
+        "median": 116000,
+        "p75": 116000,
+        "n": 9
+    },
+    "ramsai software solutions inc|software consultant|mid": {
+        "p25": 107890,
+        "median": 112986,
+        "p75": 123656,
+        "n": 33
+    },
+    "ramsai software solutions inc|software developer|mid": {
+        "p25": 105221,
+        "median": 109075,
+        "p75": 112938,
+        "n": 8
+    },
+    "ramsai software solutions, inc|software consultant|mid": {
+        "p25": 105997,
+        "median": 124738,
+        "p75": 130250,
+        "n": 9
+    },
+    "randstad digital, llc|data analyst|mid": {
+        "p25": 83875,
+        "median": 95700,
+        "p75": 110175,
+        "n": 6
+    },
+    "randstad digital, llc|data engineer|mid": {
+        "p25": 134675,
+        "median": 140000,
+        "p75": 140000,
+        "n": 11
+    },
+    "randstad digital, llc|data scientist|mid": {
+        "p25": 120858,
+        "median": 128939,
+        "p75": 130000,
+        "n": 6
+    },
+    "randstad digital, llc|senior business analyst|senior": {
+        "p25": 124036,
+        "median": 130000,
+        "p75": 137500,
+        "n": 11
+    },
+    "randstad digital, llc|senior data engineer|senior": {
+        "p25": 128345,
+        "median": 132000,
+        "p75": 150500,
+        "n": 15
+    },
+    "randstad digital, llc|senior database administrator|senior": {
+        "p25": 128000,
+        "median": 130000,
+        "p75": 135250,
+        "n": 8
+    },
+    "randstad digital, llc|senior devops engineer|senior": {
+        "p25": 130000,
+        "median": 133500,
+        "p75": 136300,
+        "n": 16
+    },
+    "randstad digital, llc|senior software developer|senior": {
+        "p25": 130000,
+        "median": 133000,
+        "p75": 140000,
+        "n": 365
+    },
+    "randstad digital, llc|senior software engineer|senior": {
+        "p25": 130000,
+        "median": 140000,
+        "p75": 150000,
+        "n": 58
+    },
+    "randstad digital, llc|senior software quality assurance engineer|senior": {
+        "p25": 112100,
+        "median": 117500,
+        "p75": 120000,
+        "n": 14
+    },
+    "randstad digital, llc|senior software quality assurance tester|senior": {
+        "p25": 116000,
+        "median": 116001,
+        "p75": 117750,
+        "n": 10
+    },
+    "randstad digital, llc|senior software test engineer|senior": {
+        "p25": 114750,
+        "median": 119000,
+        "p75": 125695,
+        "n": 12
+    },
+    "randstad digital, llc|senior systems engineer|senior": {
+        "p25": 132000,
+        "median": 132250,
+        "p75": 135000,
+        "n": 7
+    },
+    "randstad digital, llc|software developer|mid": {
+        "p25": 125000,
+        "median": 130000,
+        "p75": 135000,
+        "n": 108
+    },
+    "randstad digital, llc|software engineer|mid": {
+        "p25": 120488,
+        "median": 130000,
+        "p75": 138640,
+        "n": 19
+    },
+    "rapid analytics inc|software engineer|mid": {
+        "p25": 62650,
+        "median": 66602,
+        "p75": 70678,
+        "n": 17
+    },
+    "rapid tech llc|software developer|mid": {
+        "p25": 103937,
+        "median": 114350,
+        "p75": 123417,
+        "n": 6
+    },
+    "rapidit inc|senior software developer|senior": {
+        "p25": 105227,
+        "median": 109283,
+        "p75": 112986,
+        "n": 5
+    },
+    "rapidit inc|software developer|mid": {
+        "p25": 105227,
+        "median": 105227,
+        "p75": 108077,
+        "n": 13
+    },
+    "rapidit inc|software engineer|mid": {
+        "p25": 90303,
+        "median": 105227,
+        "p75": 105997,
+        "n": 15
+    },
+    "raven software solutions inc|data engineer|mid": {
+        "p25": 76320,
+        "median": 91249,
+        "p75": 106287,
+        "n": 6
+    },
+    "raven software solutions inc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 94671,
+        "n": 16
+    },
+    "raven software solutions inc|software engineer|mid": {
+        "p25": 78114,
+        "median": 84094,
+        "p75": 84739,
+        "n": 11
+    },
+    "ravin it solutions inc|java developer|mid": {
+        "p25": 105997,
+        "median": 106579,
+        "p75": 112985,
+        "n": 5
+    },
+    "raymond james & associates, inc.|associate director, technology|senior": {
+        "p25": 158750,
+        "median": 170500,
+        "p75": 174750,
+        "n": 6
+    },
+    "raymond james & associates, inc.|lead engineer, applications development|senior": {
+        "p25": 136850,
+        "median": 145000,
+        "p75": 150000,
+        "n": 27
+    },
+    "raymond james & associates, inc.|lead engineer, data engineering|senior": {
+        "p25": 141750,
+        "median": 150250,
+        "p75": 156875,
+        "n": 6
+    },
+    "raymond james & associates, inc.|principal engineer, applications development|senior": {
+        "p25": 149500,
+        "median": 152000,
+        "p75": 166000,
+        "n": 7
+    },
+    "raymond james & associates, inc.|senior engineer, applications development|senior": {
+        "p25": 130000,
+        "median": 132000,
+        "p75": 134985,
+        "n": 19
+    },
+    "rays it tech llc|qa engineer|mid": {
+        "p25": 69000,
+        "median": 80000,
+        "p75": 88000,
+        "n": 6
+    },
+    "rays it tech llc|software engineer|mid": {
+        "p25": 85750,
+        "median": 96000,
+        "p75": 106000,
+        "n": 8
+    },
+    "rbc capital markets llc|associate director|senior": {
+        "p25": 143280,
+        "median": 145000,
+        "p75": 165000,
+        "n": 5
+    },
+    "rcc global llc|senior consultant|senior": {
+        "p25": 142750,
+        "median": 170000,
+        "p75": 174000,
+        "n": 7
+    },
+    "re it services inc|software engineer|mid": {
+        "p25": 85384,
+        "median": 85384,
+        "p75": 86860,
+        "n": 8
+    },
+    "reaching all minds academy|elementary school teacher|mid": {
+        "p25": 53197,
+        "median": 56575,
+        "p75": 59270,
+        "n": 6
+    },
+    "reading hospital|medical resident (internal medicine)|entry": {
+        "p25": 67358,
+        "median": 67358,
+        "p75": 67358,
+        "n": 15
+    },
+    "reading hospital|medical resident (neurology)|entry": {
+        "p25": 67358,
+        "median": 67358,
+        "p75": 67358,
+        "n": 8
+    },
+    "realsoft technologies, llc|software developer|mid": {
+        "p25": 97800,
+        "median": 99800,
+        "p75": 106131,
+        "n": 8
+    },
+    "realtech services llc.|cloud devops engineer|mid": {
+        "p25": 104000,
+        "median": 108160,
+        "p75": 123656,
+        "n": 5
+    },
+    "realtech services llc.|java developer|mid": {
+        "p25": 105768,
+        "median": 115440,
+        "p75": 122902,
+        "n": 10
+    },
+    "rebel oil company, inc.|systems analyst|mid": {
+        "p25": 62400,
+        "median": 83200,
+        "p75": 83200,
+        "n": 5
+    },
+    "recursion technologies inc.|systems engineer|mid": {
+        "p25": 82815,
+        "median": 83658,
+        "p75": 91936,
+        "n": 18
+    },
+    "red hat, inc.|associate software engineer|entry": {
+        "p25": 85363,
+        "median": 86466,
+        "p75": 100000,
+        "n": 5
+    },
+    "red hat, inc.|principal software engineer|senior": {
+        "p25": 190000,
+        "median": 193746,
+        "p75": 206568,
+        "n": 9
+    },
+    "red hat, inc.|senior software engineer|senior": {
+        "p25": 136046,
+        "median": 150857,
+        "p75": 160000,
+        "n": 28
+    },
+    "red hat, inc.|senior software quality engineer|senior": {
+        "p25": 121187,
+        "median": 131000,
+        "p75": 139500,
+        "n": 6
+    },
+    "red hat, inc.|software engineer|mid": {
+        "p25": 109262,
+        "median": 109262,
+        "p75": 127492,
+        "n": 18
+    },
+    "redbud technologies inc|software developer|mid": {
+        "p25": 95500,
+        "median": 95500,
+        "p75": 105127,
+        "n": 7
+    },
+    "reddit, inc.|machine learning engineer|mid": {
+        "p25": 241250,
+        "median": 262838,
+        "p75": 279058,
+        "n": 14
+    },
+    "reddit, inc.|senior software engineer|senior": {
+        "p25": 250308,
+        "median": 260617,
+        "p75": 275250,
+        "n": 6
+    },
+    "reddit, inc.|software engineer|mid": {
+        "p25": 202864,
+        "median": 238000,
+        "p75": 262880,
+        "n": 25
+    },
+    "redfin corporation|senior software developer|senior": {
+        "p25": 170195,
+        "median": 179153,
+        "p75": 192647,
+        "n": 6
+    },
+    "redfin corporation|software developer ii|mid": {
+        "p25": 144100,
+        "median": 148431,
+        "p75": 161463,
+        "n": 10
+    },
+    "redmane technology llc|computer software engineer|mid": {
+        "p25": 139000,
+        "median": 157500,
+        "p75": 181625,
+        "n": 6
+    },
+    "redmane technology llc|software developer|mid": {
+        "p25": 79840,
+        "median": 89931,
+        "p75": 139875,
+        "n": 6
+    },
+    "redshift technologies llc|java developer|mid": {
+        "p25": 82971,
+        "median": 84094,
+        "p75": 85000,
+        "n": 13
+    },
+    "redsun solutions llc|full stack developer|mid": {
+        "p25": 84094,
+        "median": 95493,
+        "p75": 105227,
+        "n": 9
+    },
+    "redsun solutions llc|software engineer|mid": {
+        "p25": 77418,
+        "median": 77667,
+        "p75": 82971,
+        "n": 5
+    },
+    "reflection ai, inc.|member of technical staff|senior": {
+        "p25": 131997,
+        "median": 133068,
+        "p75": 154762,
+        "n": 6
+    },
+    "reflection window company, llc|project engineer|mid": {
+        "p25": 80000,
+        "median": 81500,
+        "p75": 99500,
+        "n": 6
+    },
+    "regal it services, inc|software engineer|mid": {
+        "p25": 81442,
+        "median": 83480,
+        "p75": 85254,
+        "n": 6
+    },
+    "regeneron pharmaceuticals, inc.|associate scientist|entry": {
+        "p25": 86991,
+        "median": 88650,
+        "p75": 89062,
+        "n": 8
+    },
+    "regeneron pharmaceuticals, inc.|principal scientist|senior": {
+        "p25": 152354,
+        "median": 155425,
+        "p75": 164022,
+        "n": 11
+    },
+    "regeneron pharmaceuticals, inc.|senior scientist|senior": {
+        "p25": 136065,
+        "median": 142213,
+        "p75": 145749,
+        "n": 12
+    },
+    "regents of the university of california at riverside|assistant professor|entry": {
+        "p25": 103900,
+        "median": 121000,
+        "p75": 135000,
+        "n": 33
+    },
+    "regents of the university of california at riverside|assistant project scientist|entry": {
+        "p25": 74100,
+        "median": 78000,
+        "p75": 81450,
+        "n": 15
+    },
+    "regents of the university of california at riverside|postdoc-employee|mid": {
+        "p25": 72433,
+        "median": 75727,
+        "p75": 78943,
+        "n": 6
+    },
+    "regents of the university of california at riverside|postdoctoral scholar|mid": {
+        "p25": 71769,
+        "median": 74262,
+        "p75": 77067,
+        "n": 8
+    },
+    "regents of the university of minnesota|post-doctoral associate|entry": {
+        "p25": 63120,
+        "median": 64356,
+        "p75": 66492,
+        "n": 9
+    },
+    "region technologies, inc.|software engineer|mid": {
+        "p25": 94546,
+        "median": 100569,
+        "p75": 106000,
+        "n": 6
+    },
+    "regional management corp.|senior credit risk analyst|senior": {
+        "p25": 97138,
+        "median": 97138,
+        "p75": 97138,
+        "n": 6
+    },
+    "rehab employee services, llc|physical therapist|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 87235,
+        "n": 7
+    },
+    "rehab maxx therapy services, llc|physical therapist|mid": {
+        "p25": 81057,
+        "median": 81088,
+        "p75": 81120,
+        "n": 6
+    },
+    "rehab maxx, llc|physical therapist|mid": {
+        "p25": 81057,
+        "median": 81057,
+        "p75": 81057,
+        "n": 5
+    },
+    "rehabilitation institute of chicago|post-doctoral fellow, research|senior": {
+        "p25": 56368,
+        "median": 56368,
+        "p75": 63960,
+        "n": 5
+    },
+    "rei systems inc.|associate architect|mid": {
+        "p25": 158202,
+        "median": 167648,
+        "p75": 171724,
+        "n": 7
+    },
+    "rei systems inc.|principal software engineer|senior": {
+        "p25": 145549,
+        "median": 147549,
+        "p75": 149986,
+        "n": 13
+    },
+    "rei systems inc.|principal test engineer|senior": {
+        "p25": 128489,
+        "median": 133521,
+        "p75": 142742,
+        "n": 7
+    },
+    "rei systems inc.|software engineer|mid": {
+        "p25": 97157,
+        "median": 98663,
+        "p75": 106189,
+        "n": 8
+    },
+    "rei systems inc.|sr. software engineer|senior": {
+        "p25": 119461,
+        "median": 119645,
+        "p75": 119645,
+        "n": 5
+    },
+    "rei systems inc.|test engineer|mid": {
+        "p25": 97991,
+        "median": 106828,
+        "p75": 107746,
+        "n": 7
+    },
+    "reid & wise, llc|paralegal|entry": {
+        "p25": 55000,
+        "median": 64896,
+        "p75": 70000,
+        "n": 9
+    },
+    "relanto inc|software engineer|mid": {
+        "p25": 103000,
+        "median": 127000,
+        "p75": 127000,
+        "n": 6
+    },
+    "relativity oda llc|senior software engineer|senior": {
+        "p25": 146836,
+        "median": 150500,
+        "p75": 152193,
+        "n": 12
+    },
+    "relevance lab, inc|software developer ii|mid": {
+        "p25": 108415,
+        "median": 112923,
+        "p75": 119187,
+        "n": 7
+    },
+    "relevantz technology services, inc.|senior solution engineer|senior": {
+        "p25": 126000,
+        "median": 126500,
+        "p75": 127000,
+        "n": 6
+    },
+    "relevantz technology services, inc.|software development engineer|mid": {
+        "p25": 88000,
+        "median": 98000,
+        "p75": 102000,
+        "n": 9
+    },
+    "relevantz technology services, inc.|solution engineer|mid": {
+        "p25": 115500,
+        "median": 116000,
+        "p75": 125500,
+        "n": 14
+    },
+    "reliable rehab physical therapy pc|exercise physiologist|mid": {
+        "p25": 57000,
+        "median": 57000,
+        "p75": 57000,
+        "n": 5
+    },
+    "reliable software resources|programmer analyst|mid": {
+        "p25": 90000,
+        "median": 97000,
+        "p75": 104025,
+        "n": 28
+    },
+    "reliant consulting services llc|management analyst|mid": {
+        "p25": 73382,
+        "median": 73382,
+        "p75": 73382,
+        "n": 5
+    },
+    "reliant pro rehab, llc|occupational therapist|mid": {
+        "p25": 83200,
+        "median": 83200,
+        "p75": 87360,
+        "n": 5
+    },
+    "relivetek inc.|java developer|mid": {
+        "p25": 71968,
+        "median": 71968,
+        "p75": 71968,
+        "n": 6
+    },
+    "relx, inc.|consulting software engineer|mid": {
+        "p25": 138739,
+        "median": 149965,
+        "p75": 165968,
+        "n": 10
+    },
+    "relx, inc.|consulting/principal software engineer|senior": {
+        "p25": 157804,
+        "median": 169008,
+        "p75": 173241,
+        "n": 8
+    },
+    "relx, inc.|data scientist i|entry": {
+        "p25": 95000,
+        "median": 97185,
+        "p75": 97185,
+        "n": 13
+    },
+    "relx, inc.|data scientist ii|mid": {
+        "p25": 98373,
+        "median": 100000,
+        "p75": 105000,
+        "n": 11
+    },
+    "relx, inc.|data scientist iii|senior": {
+        "p25": 107500,
+        "median": 117500,
+        "p75": 120000,
+        "n": 6
+    },
+    "relx, inc.|manager software engineering|senior": {
+        "p25": 163282,
+        "median": 175164,
+        "p75": 182342,
+        "n": 6
+    },
+    "relx, inc.|senior consulting/principal software engineer|senior": {
+        "p25": 172555,
+        "median": 174300,
+        "p75": 178307,
+        "n": 6
+    },
+    "relx, inc.|senior data engineer ii|senior": {
+        "p25": 130168,
+        "median": 130818,
+        "p75": 137932,
+        "n": 7
+    },
+    "relx, inc.|senior data scientist i|mid": {
+        "p25": 116905,
+        "median": 117874,
+        "p75": 125000,
+        "n": 10
+    },
+    "relx, inc.|senior quality test engineer ii|senior": {
+        "p25": 109530,
+        "median": 122559,
+        "p75": 126705,
+        "n": 6
+    },
+    "relx, inc.|senior software engineer i|mid": {
+        "p25": 115000,
+        "median": 120656,
+        "p75": 126964,
+        "n": 12
+    },
+    "relx, inc.|senior software engineer ii|senior": {
+        "p25": 131169,
+        "median": 135000,
+        "p75": 141871,
+        "n": 25
+    },
+    "relx, inc.|software engineer i|entry": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 86466,
+        "n": 6
+    },
+    "relx, inc.|software engineer ii|mid": {
+        "p25": 86955,
+        "median": 87864,
+        "p75": 97185,
+        "n": 20
+    },
+    "relx, inc.|software engineer iii|senior": {
+        "p25": 100307,
+        "median": 100614,
+        "p75": 104682,
+        "n": 7
+    },
+    "relx, inc.|software engineering lead|senior": {
+        "p25": 150698,
+        "median": 164521,
+        "p75": 175700,
+        "n": 15
+    },
+    "relx, inc.|systems engineer ii|mid": {
+        "p25": 92407,
+        "median": 92407,
+        "p75": 92407,
+        "n": 6
+    },
+    "relycom inc|software engineer|mid": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "remitly, inc.|senior software development engineer|senior": {
+        "p25": 202500,
+        "median": 216300,
+        "p75": 222600,
+        "n": 5
+    },
+    "remitly, inc.|software development engineer|mid": {
+        "p25": 150000,
+        "median": 154639,
+        "p75": 160000,
+        "n": 17
+    },
+    "remote tiger, inc.|application engineer|mid": {
+        "p25": 76000,
+        "median": 76000,
+        "p75": 76000,
+        "n": 5
+    },
+    "remote tiger, inc.|software developer|mid": {
+        "p25": 92435,
+        "median": 95000,
+        "p75": 97500,
+        "n": 9
+    },
+    "rensselaer polytechnic institute|assistant professor|entry": {
+        "p25": 108935,
+        "median": 122500,
+        "p75": 170000,
+        "n": 14
+    },
+    "rensselaer polytechnic institute|lecturer|mid": {
+        "p25": 69540,
+        "median": 77060,
+        "p75": 79783,
+        "n": 10
+    },
+    "rensselaer polytechnic institute|postdoctoral research associate|entry": {
+        "p25": 58656,
+        "median": 58656,
+        "p75": 61145,
+        "n": 19
+    },
+    "rensselaer polytechnic institute|research scientist|mid": {
+        "p25": 68952,
+        "median": 70000,
+        "p75": 70000,
+        "n": 5
+    },
+    "rentokil north america inc.|senior engineer|senior": {
+        "p25": 121466,
+        "median": 122030,
+        "p75": 126593,
+        "n": 6
+    },
+    "research foundation for mental hygiene, inc.|assistant research scientist|entry": {
+        "p25": 55831,
+        "median": 66092,
+        "p75": 75816,
+        "n": 6
+    },
+    "research foundation for mental hygiene, inc.|research scientist|mid": {
+        "p25": 64928,
+        "median": 75999,
+        "p75": 95002,
+        "n": 9
+    },
+    "research foundation for the state university of new york|postdoctoral associate|entry": {
+        "p25": 62970,
+        "median": 65000,
+        "p75": 65749,
+        "n": 19
+    },
+    "research foundation for the state university of new york|research scientist|mid": {
+        "p25": 66228,
+        "median": 71400,
+        "p75": 74000,
+        "n": 13
+    },
+    "research foundation of cuny|research associate|entry": {
+        "p25": 63772,
+        "median": 68577,
+        "p75": 75000,
+        "n": 13
+    },
+    "research foundation of suny at buffalo|postdoctoral associate|entry": {
+        "p25": 60013,
+        "median": 65561,
+        "p75": 73009,
+        "n": 6
+    },
+    "research foundation of suny at buffalo|research scientist|mid": {
+        "p25": 60000,
+        "median": 64334,
+        "p75": 70000,
+        "n": 29
+    },
+    "resilience healthcare chicago graduate education foundation|critical care unit nurse specialist|mid": {
+        "p25": 83200,
+        "median": 83200,
+        "p75": 87360,
+        "n": 5
+    },
+    "resilience healthcare chicago graduate education foundation|emergency room clinical nurse specialist|mid": {
+        "p25": 83200,
+        "median": 83200,
+        "p75": 83200,
+        "n": 12
+    },
+    "resilience healthcare chicago graduate education foundation|intensive care unit nurse specialist|mid": {
+        "p25": 81640,
+        "median": 83200,
+        "p75": 83200,
+        "n": 10
+    },
+    "resilience healthcare chicago graduate education foundation|progressive care unit nurse specialist|mid": {
+        "p25": 83200,
+        "median": 83200,
+        "p75": 83200,
+        "n": 12
+    },
+    "resilience healthcare chicago graduate education foundation|surgical unit nurse specialist|mid": {
+        "p25": 79040,
+        "median": 83200,
+        "p75": 83200,
+        "n": 9
+    },
+    "resolve ai, inc.|research engineer|mid": {
+        "p25": 240000,
+        "median": 240000,
+        "p75": 240000,
+        "n": 26
+    },
+    "resolve ai, inc.|software engineer|mid": {
+        "p25": 200000,
+        "median": 240000,
+        "p75": 240000,
+        "n": 27
+    },
+    "resolve tech solutions llc|software developer|mid": {
+        "p25": 112000,
+        "median": 115000,
+        "p75": 117000,
+        "n": 5
+    },
+    "resonance it solutions llc|software developer|mid": {
+        "p25": 105997,
+        "median": 109845,
+        "p75": 112923,
+        "n": 5
+    },
+    "resource integrators, llc|data engineer|mid": {
+        "p25": 95000,
+        "median": 96000,
+        "p75": 100000,
+        "n": 5
+    },
+    "resource integrators, llc|software developer|mid": {
+        "p25": 100706,
+        "median": 108913,
+        "p75": 109000,
+        "n": 6
+    },
+    "resource integrators, llc|software engineer|mid": {
+        "p25": 108500,
+        "median": 109000,
+        "p75": 109000,
+        "n": 5
+    },
+    "resource point, llc|software developer|mid": {
+        "p25": 97011,
+        "median": 99611,
+        "p75": 104613,
+        "n": 8
+    },
+    "response informatics, inc.|software engineer|mid": {
+        "p25": 84443,
+        "median": 89773,
+        "p75": 89773,
+        "n": 14
+    },
+    "response informatics, inc.|software engineer/architect|senior": {
+        "p25": 76502,
+        "median": 78374,
+        "p75": 80667,
+        "n": 6
+    },
+    "responsive technologies|computer systems architect|senior": {
+        "p25": 81250,
+        "median": 83000,
+        "p75": 84000,
+        "n": 6
+    },
+    "revision technologies, inc.|software developer|mid": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 105000,
+        "n": 6
+    },
+    "revive software systems, inc.|software developer|mid": {
+        "p25": 85530,
+        "median": 93350,
+        "p75": 105981,
+        "n": 16
+    },
+    "revspring, inc.|software engineer|mid": {
+        "p25": 105997,
+        "median": 119059,
+        "p75": 119059,
+        "n": 9
+    },
+    "rga enterprise services company|actuarial assistant, valuation|entry": {
+        "p25": 83750,
+        "median": 85000,
+        "p75": 93400,
+        "n": 5
+    },
+    "rga enterprise services company|senior qa automation engineer|senior": {
+        "p25": 123500,
+        "median": 127250,
+        "p75": 134780,
+        "n": 6
+    },
+    "rheem manufacturing company|project engineer iii|senior": {
+        "p25": 96500,
+        "median": 97136,
+        "p75": 103230,
+        "n": 5
+    },
+    "rhode island medical imaging, inc.|radiologist|mid": {
+        "p25": 400000,
+        "median": 400000,
+        "p75": 400000,
+        "n": 7
+    },
+    "ricefw technologies inc.|software developer|mid": {
+        "p25": 111072,
+        "median": 112923,
+        "p75": 116396,
+        "n": 5
+    },
+    "ricefw technologies inc.|software engineer|mid": {
+        "p25": 97614,
+        "median": 122720,
+        "p75": 140025,
+        "n": 5
+    },
+    "richland county school district one|elementary teacher|mid": {
+        "p25": 45040,
+        "median": 51643,
+        "p75": 60309,
+        "n": 17
+    },
+    "richland county school district one|high school special education teacher|mid": {
+        "p25": 64696,
+        "median": 67933,
+        "p75": 72882,
+        "n": 6
+    },
+    "richland county school district one|middle school math teacher|mid": {
+        "p25": 44850,
+        "median": 44850,
+        "p75": 44850,
+        "n": 5
+    },
+    "richland county school district one|middle school special education teacher|mid": {
+        "p25": 57110,
+        "median": 67170,
+        "p75": 75328,
+        "n": 7
+    },
+    "richland county school district one|special education teacher|mid": {
+        "p25": 74406,
+        "median": 74406,
+        "p75": 75341,
+        "n": 5
+    },
+    "richmond children center, inc.|direct support professional|mid": {
+        "p25": 38604,
+        "median": 38604,
+        "p75": 40664,
+        "n": 113
+    },
+    "richmond children center, inc.|residence manager|senior": {
+        "p25": 60465,
+        "median": 71947,
+        "p75": 71947,
+        "n": 10
+    },
+    "richmond children center, inc.|residential coordinator|mid": {
+        "p25": 71947,
+        "median": 71947,
+        "p75": 71947,
+        "n": 5
+    },
+    "riconpharma, llc|scientist i|entry": {
+        "p25": 70000,
+        "median": 71033,
+        "p75": 80000,
+        "n": 5
+    },
+    "rigas technologies inc.|computer programmer|mid": {
+        "p25": 72592,
+        "median": 90210,
+        "p75": 98436,
+        "n": 7
+    },
+    "rigas technologies inc.|software developer|mid": {
+        "p25": 101343,
+        "median": 110874,
+        "p75": 115653,
+        "n": 8
+    },
+    "rigelsky, inc.|software developer|mid": {
+        "p25": 92040,
+        "median": 96300,
+        "p75": 124597,
+        "n": 8
+    },
+    "rios inc.|designer|mid": {
+        "p25": 75504,
+        "median": 78998,
+        "p75": 80350,
+        "n": 5
+    },
+    "rios inc.|landscape designer|mid": {
+        "p25": 75504,
+        "median": 78000,
+        "p75": 87006,
+        "n": 9
+    },
+    "riot games, inc.|manager, software engineering|senior": {
+        "p25": 201261,
+        "median": 226034,
+        "p75": 237120,
+        "n": 5
+    },
+    "riot games, inc.|software engineer|mid": {
+        "p25": 146078,
+        "median": 151549,
+        "p75": 152563,
+        "n": 8
+    },
+    "riot games, inc.|software engineer ii|mid": {
+        "p25": 157581,
+        "median": 176134,
+        "p75": 176134,
+        "n": 19
+    },
+    "riot games, inc.|software engineer iii|senior": {
+        "p25": 176134,
+        "median": 176134,
+        "p75": 190486,
+        "n": 9
+    },
+    "ripple labs, inc.|senior software engineer|senior": {
+        "p25": 178986,
+        "median": 192030,
+        "p75": 203420,
+        "n": 12
+    },
+    "ripple labs, inc.|software engineer ii|mid": {
+        "p25": 148000,
+        "median": 151368,
+        "p75": 154440,
+        "n": 5
+    },
+    "ripple labs, inc.|staff software engineer|senior": {
+        "p25": 245075,
+        "median": 247320,
+        "p75": 247540,
+        "n": 6
+    },
+    "risamsoft inc|software developer|mid": {
+        "p25": 91000,
+        "median": 94000,
+        "p75": 103498,
+        "n": 7
+    },
+    "risamsoft inc.|computer programmer|mid": {
+        "p25": 70801,
+        "median": 80000,
+        "p75": 85765,
+        "n": 11
+    },
+    "risamsoft inc.|data engineer|mid": {
+        "p25": 85000,
+        "median": 85530,
+        "p75": 90000,
+        "n": 5
+    },
+    "risamsoft inc.|software developer|mid": {
+        "p25": 87147,
+        "median": 98998,
+        "p75": 106495,
+        "n": 6
+    },
+    "riseit solutions inc.|software developer|mid": {
+        "p25": 112923,
+        "median": 112986,
+        "p75": 123656,
+        "n": 5
+    },
+    "rite code technologies inc.|software engineer|mid": {
+        "p25": 86000,
+        "median": 86000,
+        "p75": 99750,
+        "n": 7
+    },
+    "rite pros, inc|data engineer|mid": {
+        "p25": 85000,
+        "median": 86000,
+        "p75": 120300,
+        "n": 5
+    },
+    "riverview, llp|animal scientist|mid": {
+        "p25": 60938,
+        "median": 60938,
+        "p75": 60938,
+        "n": 11
+    },
+    "riverwalk education foundation inc.|secondary teacher - math|mid": {
+        "p25": 55000,
+        "median": 57000,
+        "p75": 57000,
+        "n": 5
+    },
+    "rivian and vw group technology, llc|sr. software engineer|senior": {
+        "p25": 184900,
+        "median": 189180,
+        "p75": 195606,
+        "n": 13
+    },
+    "rivian and vw group technology, llc|sr. software systems engineer|senior": {
+        "p25": 144740,
+        "median": 149972,
+        "p75": 172860,
+        "n": 5
+    },
+    "rivian and vw group technology, llc|staff embedded software engineer|senior": {
+        "p25": 214500,
+        "median": 218968,
+        "p75": 241800,
+        "n": 8
+    },
+    "rivian and vw group technology, llc|staff software engineer|senior": {
+        "p25": 206392,
+        "median": 215204,
+        "p75": 223200,
+        "n": 9
+    },
+    "rivian automotive, llc|automation controls engineer|mid": {
+        "p25": 100332,
+        "median": 110838,
+        "p75": 114444,
+        "n": 5
+    },
+    "rivian automotive, llc|sr. automation controls engineer|senior": {
+        "p25": 122981,
+        "median": 124940,
+        "p75": 139019,
+        "n": 10
+    },
+    "rivian automotive, llc|sr. engineer, manufacturing engineering|senior": {
+        "p25": 125465,
+        "median": 126690,
+        "p75": 131749,
+        "n": 5
+    },
+    "rivian automotive, llc|sr. manufacturing engineer|senior": {
+        "p25": 131127,
+        "median": 134000,
+        "p75": 149940,
+        "n": 5
+    },
+    "rivian automotive, llc|sr. material flow engineer|senior": {
+        "p25": 98500,
+        "median": 105292,
+        "p75": 106243,
+        "n": 5
+    },
+    "rivian automotive, llc|sr. process engineer|senior": {
+        "p25": 103320,
+        "median": 106193,
+        "p75": 109787,
+        "n": 27
+    },
+    "rivian automotive, llc|sr. software engineer, perception, autonomy|senior": {
+        "p25": 205076,
+        "median": 220000,
+        "p75": 230000,
+        "n": 9
+    },
+    "rivian automotive, llc|staff mechanical design engineer|senior": {
+        "p25": 155750,
+        "median": 162167,
+        "p75": 166419,
+        "n": 6
+    },
+    "rivian automotive, llc|staff mechanical engineer|senior": {
+        "p25": 159990,
+        "median": 162618,
+        "p75": 169054,
+        "n": 7
+    },
+    "rivos inc.|member of technical staff|senior": {
+        "p25": 152750,
+        "median": 181940,
+        "p75": 215000,
+        "n": 46
+    },
+    "rivos inc.|senior member of technical staff|senior": {
+        "p25": 193150,
+        "median": 205875,
+        "p75": 214230,
+        "n": 10
+    },
+    "rj systems inc|data engineer|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 106558,
+        "n": 12
+    },
+    "rjt compuquest inc. dba apolis|computer programmer|mid": {
+        "p25": 91520,
+        "median": 101920,
+        "p75": 101920,
+        "n": 31
+    },
+    "rjt compuquest inc. dba apolis|software developer|mid": {
+        "p25": 95680,
+        "median": 106000,
+        "p75": 112320,
+        "n": 33
+    },
+    "rk pharma inc|chemist|mid": {
+        "p25": 63086,
+        "median": 63086,
+        "p75": 65000,
+        "n": 13
+    },
+    "rmsi north america inc|database administrator|mid": {
+        "p25": 68744,
+        "median": 68744,
+        "p75": 68744,
+        "n": 6
+    },
+    "rmsi north america inc|sql analyst|mid": {
+        "p25": 130250,
+        "median": 146307,
+        "p75": 146307,
+        "n": 5
+    },
+    "rnr it solutions inc|software developer|mid": {
+        "p25": 104374,
+        "median": 113000,
+        "p75": 119328,
+        "n": 7
+    },
+    "robert a.m. stern architects, llp|architectural designer|mid": {
+        "p25": 78818,
+        "median": 80136,
+        "p75": 83900,
+        "n": 8
+    },
+    "robert bosch  llc|sr. software engineer|senior": {
+        "p25": 141100,
+        "median": 144104,
+        "p75": 148817,
+        "n": 6
+    },
+    "robert bosch automotive steering llc|software engineer|mid": {
+        "p25": 110990,
+        "median": 120000,
+        "p75": 120510,
+        "n": 5
+    },
+    "robert bosch llc|software engineer|mid": {
+        "p25": 107200,
+        "median": 114691,
+        "p75": 115282,
+        "n": 13
+    },
+    "robert bosch llc|sr software engineer|senior": {
+        "p25": 132350,
+        "median": 138613,
+        "p75": 142610,
+        "n": 24
+    },
+    "robert packer hospital|flex float registered nurse|mid": {
+        "p25": 81120,
+        "median": 81120,
+        "p75": 81120,
+        "n": 13
+    },
+    "robert packer hospital|fm pgy 1 resident|entry": {
+        "p25": 68578,
+        "median": 68578,
+        "p75": 68578,
+        "n": 5
+    },
+    "robert packer hospital|im pgy 1 resident|entry": {
+        "p25": 68578,
+        "median": 68578,
+        "p75": 68578,
+        "n": 7
+    },
+    "robert packer hospital|perioperative resource nurse|mid": {
+        "p25": 81120,
+        "median": 81120,
+        "p75": 81120,
+        "n": 10
+    },
+    "robinhood markets, inc.|senior software engineer|senior": {
+        "p25": 187000,
+        "median": 198400,
+        "p75": 213578,
+        "n": 26
+    },
+    "robinhood markets, inc.|software engineer|mid": {
+        "p25": 157000,
+        "median": 157000,
+        "p75": 165510,
+        "n": 35
+    },
+    "robinhood markets, inc.|staff software engineer|senior": {
+        "p25": 217000,
+        "median": 217000,
+        "p75": 217000,
+        "n": 5
+    },
+    "roblox corporation|data scientist|mid": {
+        "p25": 217040,
+        "median": 219000,
+        "p75": 230060,
+        "n": 5
+    },
+    "roblox corporation|principal software engineer|senior": {
+        "p25": 322170,
+        "median": 327625,
+        "p75": 364272,
+        "n": 14
+    },
+    "roblox corporation|senior data scientist|senior": {
+        "p25": 252750,
+        "median": 270000,
+        "p75": 301400,
+        "n": 14
+    },
+    "roblox corporation|senior engineering manager|senior": {
+        "p25": 365630,
+        "median": 372940,
+        "p75": 372940,
+        "n": 5
+    },
+    "roblox corporation|senior machine learning engineer|senior": {
+        "p25": 241165,
+        "median": 273070,
+        "p75": 282230,
+        "n": 11
+    },
+    "roblox corporation|senior product designer|senior": {
+        "p25": 245789,
+        "median": 276170,
+        "p75": 281690,
+        "n": 5
+    },
+    "roblox corporation|senior site reliability engineer|senior": {
+        "p25": 267720,
+        "median": 273070,
+        "p75": 292295,
+        "n": 5
+    },
+    "roblox corporation|senior software engineer|senior": {
+        "p25": 232110,
+        "median": 255200,
+        "p75": 273070,
+        "n": 97
+    },
+    "roblox corporation|software engineer|mid": {
+        "p25": 160498,
+        "median": 178600,
+        "p75": 208320,
+        "n": 20
+    },
+    "robot insight technologies|software developer|mid": {
+        "p25": 85363,
+        "median": 85363,
+        "p75": 85363,
+        "n": 17
+    },
+    "robotics technologies llc|data engineer|mid": {
+        "p25": 77896,
+        "median": 77896,
+        "p75": 102440,
+        "n": 5
+    },
+    "robotics technologies llc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 85363,
+        "n": 5
+    },
+    "robotics technologies llc|software engineer|mid": {
+        "p25": 83637,
+        "median": 84094,
+        "p75": 84094,
+        "n": 5
+    },
+    "robotics technologies llc|sr data analyst|senior": {
+        "p25": 101878,
+        "median": 105997,
+        "p75": 109491,
+        "n": 12
+    },
+    "rochambeau, the french international school of washington, dc|elementary school teacher|mid": {
+        "p25": 73581,
+        "median": 79139,
+        "p75": 82154,
+        "n": 6
+    },
+    "roche diagnostics corporation|associate field engineering specialist|entry": {
+        "p25": 63523,
+        "median": 63523,
+        "p75": 63523,
+        "n": 5
+    },
+    "rochester general hospital|medical fellow physician|senior": {
+        "p25": 88000,
+        "median": 88000,
+        "p75": 88000,
+        "n": 13
+    },
+    "rochester general hospital|medical resident physician|entry": {
+        "p25": 73000,
+        "median": 73000,
+        "p75": 80000,
+        "n": 9
+    },
+    "rochester general hospital|physician, hospitalist|mid": {
+        "p25": 230000,
+        "median": 230000,
+        "p75": 230000,
+        "n": 24
+    },
+    "rochester general hospital|registered nurse iv|senior": {
+        "p25": 80038,
+        "median": 83283,
+        "p75": 92476,
+        "n": 26
+    },
+    "rochester institute of technology|assistant professor|entry": {
+        "p25": 53560,
+        "median": 58700,
+        "p75": 72660,
+        "n": 29
+    },
+    "rochester institute of technology|lecturer|mid": {
+        "p25": 50380,
+        "median": 57183,
+        "p75": 58390,
+        "n": 14
+    },
+    "rocket mortgage, llc|data engineer ii|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 107500,
+        "n": 8
+    },
+    "rocket mortgage, llc|senior data engineer|senior": {
+        "p25": 128000,
+        "median": 130707,
+        "p75": 131000,
+        "n": 5
+    },
+    "rocket mortgage, llc|senior software engineer|senior": {
+        "p25": 120349,
+        "median": 126000,
+        "p75": 131750,
+        "n": 23
+    },
+    "rocket mortgage, llc|software engineer|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 91921,
+        "n": 17
+    },
+    "rocket mortgage, llc|software engineer ii|mid": {
+        "p25": 100000,
+        "median": 104095,
+        "p75": 106750,
+        "n": 12
+    },
+    "rocket, llc|senior database administrator|senior": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 125000,
+        "n": 5
+    },
+    "rocket, llc|senior software engineer|senior": {
+        "p25": 128000,
+        "median": 128000,
+        "p75": 135000,
+        "n": 5
+    },
+    "rockwell architecture, planning and design, p.c.|interior designer|mid": {
+        "p25": 76250,
+        "median": 80250,
+        "p75": 88000,
+        "n": 6
+    },
+    "rockwell architecture, planning and design, p.c.|project manager|senior": {
+        "p25": 99000,
+        "median": 102500,
+        "p75": 107000,
+        "n": 9
+    },
+    "rockwell collins inc.|engineer ii, software engineering|mid": {
+        "p25": 90189,
+        "median": 90189,
+        "p75": 98883,
+        "n": 18
+    },
+    "rockwell collins inc.|engineer ii, systems engineering|mid": {
+        "p25": 90189,
+        "median": 90189,
+        "p75": 90189,
+        "n": 13
+    },
+    "rockwell collins inc.|principal engineer, e&e engineering|senior": {
+        "p25": 119059,
+        "median": 120328,
+        "p75": 120328,
+        "n": 5
+    },
+    "rockwell collins inc.|principal engineer, software engineering|senior": {
+        "p25": 126090,
+        "median": 126672,
+        "p75": 133494,
+        "n": 50
+    },
+    "rockwell collins inc.|principal engineer, systems engineering|senior": {
+        "p25": 126090,
+        "median": 126090,
+        "p75": 133494,
+        "n": 18
+    },
+    "rockwell collins inc.|senior engineer, software engineering|senior": {
+        "p25": 107099,
+        "median": 108139,
+        "p75": 112507,
+        "n": 59
+    },
+    "rockwell collins inc.|senior engineer, systems engineering|senior": {
+        "p25": 98883,
+        "median": 108139,
+        "p75": 108139,
+        "n": 21
+    },
+    "rockwell collins inc.|senior principal engineer, software engineering|senior": {
+        "p25": 133494,
+        "median": 139630,
+        "p75": 145766,
+        "n": 6
+    },
+    "rocky mountain institute, inc.|associate|entry": {
+        "p25": 70000,
+        "median": 70939,
+        "p75": 77000,
+        "n": 9
+    },
+    "rocky mountain institute, inc.|manager|senior": {
+        "p25": 105230,
+        "median": 105230,
+        "p75": 105230,
+        "n": 10
+    },
+    "rocky mountain institute, inc.|senior associate|mid": {
+        "p25": 84170,
+        "median": 84170,
+        "p75": 86837,
+        "n": 11
+    },
+    "rohde & schwarz usa, inc.|senior application engineer|senior": {
+        "p25": 175710,
+        "median": 185578,
+        "p75": 185578,
+        "n": 5
+    },
+    "rohm and haas chemicals, llc|senior research specialist|senior": {
+        "p25": 110074,
+        "median": 114733,
+        "p75": 115586,
+        "n": 5
+    },
+    "rokt us corp.|senior software engineer|senior": {
+        "p25": 127826,
+        "median": 179982,
+        "p75": 185151,
+        "n": 11
+    },
+    "rokt us corp.|software engineer|mid": {
+        "p25": 123656,
+        "median": 135699,
+        "p75": 137259,
+        "n": 9
+    },
+    "roku, inc.|manager, software engineering|senior": {
+        "p25": 294299,
+        "median": 294299,
+        "p75": 308000,
+        "n": 5
+    },
+    "roku, inc.|senior data scientist|senior": {
+        "p25": 159375,
+        "median": 191250,
+        "p75": 194328,
+        "n": 6
+    },
+    "roku, inc.|senior software engineer|senior": {
+        "p25": 185172,
+        "median": 226158,
+        "p75": 226158,
+        "n": 59
+    },
+    "roku, inc.|senior software engineer, machine learning|senior": {
+        "p25": 226158,
+        "median": 226158,
+        "p75": 420750,
+        "n": 9
+    },
+    "roku, inc.|software engineer|mid": {
+        "p25": 172931,
+        "median": 172931,
+        "p75": 175500,
+        "n": 5
+    },
+    "roland berger lp|project manager|senior": {
+        "p25": 215000,
+        "median": 215000,
+        "p75": 215000,
+        "n": 5
+    },
+    "roland berger lp|senior consultant|senior": {
+        "p25": 180000,
+        "median": 180000,
+        "p75": 180000,
+        "n": 6
+    },
+    "rollins college|assistant professor|entry": {
+        "p25": 71303,
+        "median": 71303,
+        "p75": 85000,
+        "n": 5
+    },
+    "rollins college|visiting assistant professor|entry": {
+        "p25": 63845,
+        "median": 65000,
+        "p75": 74263,
+        "n": 5
+    },
+    "roman catholic archdiocese of los angeles|roman catholic priest|mid": {
+        "p25": 55078,
+        "median": 55120,
+        "p75": 55120,
+        "n": 13
+    },
+    "rorze automation, inc.|mechatronics engineer|mid": {
+        "p25": 60320,
+        "median": 70000,
+        "p75": 70000,
+        "n": 5
+    },
+    "roswell park cancer institute|clinical fellow|senior": {
+        "p25": 62904,
+        "median": 63918,
+        "p75": 63918,
+        "n": 6
+    },
+    "roswell park cancer institute|staff physician (internal medicine)|senior": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 18
+    },
+    "roswell park cancer institute|staff physician (medical oncology)|senior": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 16
+    },
+    "rowan university|assistant professor|entry": {
+        "p25": 104974,
+        "median": 108725,
+        "p75": 115303,
+        "n": 14
+    },
+    "royal cyber inc|software developer|mid": {
+        "p25": 106558,
+        "median": 106558,
+        "p75": 108601,
+        "n": 6
+    },
+    "royal cyber inc|solution architect|senior": {
+        "p25": 130707,
+        "median": 139526,
+        "p75": 139526,
+        "n": 5
+    },
+    "royal cyber inc|technical lead|senior": {
+        "p25": 111857,
+        "median": 129667,
+        "p75": 136837,
+        "n": 6
+    },
+    "rr software solutions llc|software developer|mid": {
+        "p25": 92290,
+        "median": 112923,
+        "p75": 112926,
+        "n": 7
+    },
+    "rsa tech group llc|software developer applications|mid": {
+        "p25": 84053,
+        "median": 95139,
+        "p75": 98904,
+        "n": 5
+    },
+    "rubistone technologies llc|information security engineer|mid": {
+        "p25": 72305,
+        "median": 80500,
+        "p75": 84000,
+        "n": 6
+    },
+    "rubrik, inc.|senior software engineer|senior": {
+        "p25": 193750,
+        "median": 205000,
+        "p75": 220000,
+        "n": 20
+    },
+    "rubrik, inc.|software engineer|mid": {
+        "p25": 155000,
+        "median": 160000,
+        "p75": 175000,
+        "n": 49
+    },
+    "rummel, klepper & kahl, llp|engineer i|entry": {
+        "p25": 79040,
+        "median": 84240,
+        "p75": 84635,
+        "n": 7
+    },
+    "rummel, klepper & kahl, llp|engineer ii|mid": {
+        "p25": 91520,
+        "median": 92560,
+        "p75": 93600,
+        "n": 6
+    },
+    "ruri software technologies llc|software developer|mid": {
+        "p25": 95751,
+        "median": 103398,
+        "p75": 106000,
+        "n": 10
+    },
+    "russell reynolds associates, inc.|associate|entry": {
+        "p25": 180000,
+        "median": 180000,
+        "p75": 180000,
+        "n": 5
+    },
+    "rutgers, the state university of new jersey|assistant professor|entry": {
+        "p25": 114811,
+        "median": 139725,
+        "p75": 216998,
+        "n": 79
+    },
+    "rutgers, the state university of new jersey|assistant research professor|entry": {
+        "p25": 90663,
+        "median": 93867,
+        "p75": 105460,
+        "n": 8
+    },
+    "rutgers, the state university of new jersey|assistant teaching professor|entry": {
+        "p25": 82476,
+        "median": 83592,
+        "p75": 91681,
+        "n": 12
+    },
+    "rutgers, the state university of new jersey|post-doctoral associate|entry": {
+        "p25": 64000,
+        "median": 73053,
+        "p75": 77477,
+        "n": 18
+    },
+    "rutgers, the state university of new jersey|postdoctoral associate|entry": {
+        "p25": 64101,
+        "median": 66818,
+        "p75": 69953,
+        "n": 30
+    },
+    "rutgers, the state university of new jersey|research associate|entry": {
+        "p25": 82694,
+        "median": 85588,
+        "p75": 85588,
+        "n": 17
+    },
+    "rutgers, the state university of new jersey|research associate i|entry": {
+        "p25": 74039,
+        "median": 74565,
+        "p75": 78494,
+        "n": 8
+    },
+    "rutgers, the state university of new jersey|research associate ii|entry": {
+        "p25": 66982,
+        "median": 68147,
+        "p75": 71601,
+        "n": 12
+    },
+    "rutgers, the state university of new jersey|research associate iii|mid": {
+        "p25": 52464,
+        "median": 55853,
+        "p75": 60271,
+        "n": 6
+    },
+    "rutgers, the state university of new jersey|research teaching specialist ii|mid": {
+        "p25": 71162,
+        "median": 73161,
+        "p75": 74332,
+        "n": 13
+    },
+    "rutgers, the state university of new jersey|research teaching specialist iii|senior": {
+        "p25": 65543,
+        "median": 69574,
+        "p75": 70917,
+        "n": 13
+    },
+    "ryder system, inc.|application development lead|senior": {
+        "p25": 125815,
+        "median": 129042,
+        "p75": 136372,
+        "n": 7
+    },
+    "ryder system, inc.|continuous improvement engineer|mid": {
+        "p25": 98521,
+        "median": 100150,
+        "p75": 104525,
+        "n": 8
+    },
+    "ryder system, inc.|data analyst iii|senior": {
+        "p25": 110808,
+        "median": 110970,
+        "p75": 123550,
+        "n": 5
+    },
+    "ryzlink corp|backend programmer|mid": {
+        "p25": 101254,
+        "median": 101254,
+        "p75": 101254,
+        "n": 9
+    },
+    "ryzlink corp|software engineer|mid": {
+        "p25": 89076,
+        "median": 101254,
+        "p75": 101254,
+        "n": 11
+    }
+}

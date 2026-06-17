@@ -1,0 +1,332 @@
+{
+    "yahoo holdings inc.|dir, software dev engineering|mid": {
+        "p25": 247671,
+        "median": 255445,
+        "p75": 255445,
+        "n": 5
+    },
+    "yahoo holdings inc.|princ software apps engineer|mid": {
+        "p25": 162666,
+        "median": 194814,
+        "p75": 199534,
+        "n": 7
+    },
+    "yahoo holdings inc.|princ software dev engineer|mid": {
+        "p25": 173763,
+        "median": 199534,
+        "p75": 209786,
+        "n": 36
+    },
+    "yahoo holdings inc.|production engineer ii|mid": {
+        "p25": 112507,
+        "median": 116168,
+        "p75": 135621,
+        "n": 8
+    },
+    "yahoo holdings inc.|service reliability engineer i|entry": {
+        "p25": 83522,
+        "median": 88265,
+        "p75": 93748,
+        "n": 6
+    },
+    "yahoo holdings inc.|software apps engineer ii|mid": {
+        "p25": 141528,
+        "median": 152588,
+        "p75": 158764,
+        "n": 12
+    },
+    "yahoo holdings inc.|software dev engineer i|entry": {
+        "p25": 122699,
+        "median": 126786,
+        "p75": 137259,
+        "n": 24
+    },
+    "yahoo holdings inc.|software dev engineer ii|mid": {
+        "p25": 127082,
+        "median": 148221,
+        "p75": 155875,
+        "n": 46
+    },
+    "yahoo holdings inc.|sr data engineer|senior": {
+        "p25": 141773,
+        "median": 153962,
+        "p75": 157414,
+        "n": 5
+    },
+    "yahoo holdings inc.|sr mgr, software dev engineering|senior": {
+        "p25": 196123,
+        "median": 220573,
+        "p75": 242320,
+        "n": 5
+    },
+    "yahoo holdings inc.|sr princ software dev engineer|senior": {
+        "p25": 221197,
+        "median": 226158,
+        "p75": 235747,
+        "n": 8
+    },
+    "yahoo holdings inc.|sr production engineer|senior": {
+        "p25": 131310,
+        "median": 151975,
+        "p75": 185442,
+        "n": 10
+    },
+    "yahoo holdings inc.|sr software apps engineer|senior": {
+        "p25": 154845,
+        "median": 173347,
+        "p75": 180575,
+        "n": 12
+    },
+    "yahoo holdings inc.|sr software dev engineer|senior": {
+        "p25": 163550,
+        "median": 172931,
+        "p75": 187870,
+        "n": 55
+    },
+    "yai-national institute for people with disabilities|mental health clinician|mid": {
+        "p25": 60000,
+        "median": 60000,
+        "p75": 60000,
+        "n": 6
+    },
+    "yale new haven hospital|resident physician in internal medicine|entry": {
+        "p25": 86080,
+        "median": 88950,
+        "p75": 91041,
+        "n": 7
+    },
+    "yale university|assistant professor|entry": {
+        "p25": 115000,
+        "median": 145000,
+        "p75": 230000,
+        "n": 45
+    },
+    "yale university|associate research scientist|entry": {
+        "p25": 73500,
+        "median": 75000,
+        "p75": 84000,
+        "n": 105
+    },
+    "yale university|clinical associate|entry": {
+        "p25": 96647,
+        "median": 96647,
+        "p75": 96647,
+        "n": 8
+    },
+    "yale university|postdoctoral associate|entry": {
+        "p25": 68000,
+        "median": 69623,
+        "p75": 71000,
+        "n": 47
+    },
+    "yale university|research scientist|mid": {
+        "p25": 80000,
+        "median": 86350,
+        "p75": 98175,
+        "n": 6
+    },
+    "yash & lujan consulting, inc.|software developer|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 116038,
+        "n": 12
+    },
+    "yash & lujan consulting, inc.|software engineer|mid": {
+        "p25": 111500,
+        "median": 122500,
+        "p75": 122500,
+        "n": 7
+    },
+    "yash technologies, inc|sap consultant|mid": {
+        "p25": 98000,
+        "median": 110000,
+        "p75": 130000,
+        "n": 37
+    },
+    "yash technologies, inc|sap fico consultant|mid": {
+        "p25": 110000,
+        "median": 115000,
+        "p75": 125000,
+        "n": 5
+    },
+    "yash technologies, inc|senior sap consultant|senior": {
+        "p25": 130000,
+        "median": 145000,
+        "p75": 150000,
+        "n": 5
+    },
+    "yash technologies, inc|senior software developer|senior": {
+        "p25": 126000,
+        "median": 128000,
+        "p75": 138000,
+        "n": 5
+    },
+    "yash technologies, inc|software developer|mid": {
+        "p25": 98000,
+        "median": 98000,
+        "p75": 110000,
+        "n": 26
+    },
+    "yash technologies, inc|technical account manager|senior": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 10
+    },
+    "yash technologies, inc|technical lead|senior": {
+        "p25": 111250,
+        "median": 116000,
+        "p75": 126750,
+        "n": 6
+    },
+    "yashco systems, inc.|computer software developer|mid": {
+        "p25": 110240,
+        "median": 124800,
+        "p75": 127920,
+        "n": 27
+    },
+    "yashco systems, inc.|software developer|mid": {
+        "p25": 104000,
+        "median": 110240,
+        "p75": 146640,
+        "n": 5
+    },
+    "yelp inc.|engineering manager|senior": {
+        "p25": 235375,
+        "median": 241250,
+        "p75": 261000,
+        "n": 8
+    },
+    "yelp inc.|software engineer|mid": {
+        "p25": 191500,
+        "median": 225000,
+        "p75": 236875,
+        "n": 24
+    },
+    "yelsesoft technologies inc.|java developer|mid": {
+        "p25": 98000,
+        "median": 98000,
+        "p75": 102500,
+        "n": 7
+    },
+    "yelsesoft technologies inc.|software quality automation analyst|mid": {
+        "p25": 75000,
+        "median": 79500,
+        "p75": 88500,
+        "n": 8
+    },
+    "yerralpha llc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 105997,
+        "n": 8
+    },
+    "yerralpha llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 90426,
+        "n": 12
+    },
+    "yext, inc.|software engineer|mid": {
+        "p25": 122938,
+        "median": 123656,
+        "p75": 129911,
+        "n": 6
+    },
+    "yinghua academy|chinese immersion classroom teacher|mid": {
+        "p25": 46000,
+        "median": 47475,
+        "p75": 48590,
+        "n": 16
+    },
+    "ykunt inc|software developer|mid": {
+        "p25": 79900,
+        "median": 79900,
+        "p75": 92625,
+        "n": 8
+    },
+    "ykunt inc|software engineer|mid": {
+        "p25": 79900,
+        "median": 84550,
+        "p75": 92650,
+        "n": 8
+    },
+    "ykunt inc aka techday inc|software developer|mid": {
+        "p25": 82250,
+        "median": 84500,
+        "p75": 105000,
+        "n": 7
+    },
+    "yochana it solutions inc|software developer|mid": {
+        "p25": 84053,
+        "median": 84053,
+        "p75": 102190,
+        "n": 5
+    },
+    "yoh, a day & zimmermann company|software engineer|mid": {
+        "p25": 156000,
+        "median": 166400,
+        "p75": 168000,
+        "n": 5
+    },
+    "yoh, a day & zimmermann company|software engineer in test|mid": {
+        "p25": 130000,
+        "median": 135200,
+        "p75": 144040,
+        "n": 12
+    },
+    "yom solutions llc|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 6
+    },
+    "yotta systems inc|software developer|mid": {
+        "p25": 100200,
+        "median": 108701,
+        "p75": 112080,
+        "n": 10
+    },
+    "yotta systems inc.|software developer|mid": {
+        "p25": 95000,
+        "median": 98400,
+        "p75": 115000,
+        "n": 9
+    },
+    "yotta systems, inc.|software developer|mid": {
+        "p25": 98400,
+        "median": 112725,
+        "p75": 132000,
+        "n": 20
+    },
+    "youngsoft inc.|software engineer|mid": {
+        "p25": 81120,
+        "median": 89076,
+        "p75": 101088,
+        "n": 10
+    },
+    "youth enrichment program of wilson, inc|elementary school teacher|mid": {
+        "p25": 51040,
+        "median": 53080,
+        "p75": 59270,
+        "n": 8
+    },
+    "youth vision solutions|teacher|mid": {
+        "p25": 64825,
+        "median": 68550,
+        "p75": 72987,
+        "n": 6
+    },
+    "yuvi systems inc|software developer|mid": {
+        "p25": 114920,
+        "median": 119600,
+        "p75": 122720,
+        "n": 6
+    },
+    "yuvi systems inc|software developers|mid": {
+        "p25": 106080,
+        "median": 106080,
+        "p75": 115440,
+        "n": 11
+    }
+}

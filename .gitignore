@@ -60,7 +60,6 @@ scripts/tests/test_scraper.py
 # ============================================================
 data/chunks/
 data/metadata.json
-data/salary/
 
 # Ignore JSON files globally, except specific tracked ones below
 *.json
@@ -72,6 +71,8 @@ data/salary/
 !data/icims_companies.json
 !data/paylocity_companies_clean.json
 !data/locations.json
+!data/salary/salary_lookup.json
+!data/salary/shards/salary_*.json
 
 # Keep trend history tracked on main (append-only, valuable, deltas cheaply)
 !data/trends/

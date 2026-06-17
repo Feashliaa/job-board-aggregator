@@ -1,0 +1,4100 @@
+{
+    "e comm quest llc|software engineer|mid": {
+        "p25": 125750,
+        "median": 137500,
+        "p75": 140625,
+        "n": 8
+    },
+    "e-data experts inc|software developers|mid": {
+        "p25": 92500,
+        "median": 106000,
+        "p75": 115000,
+        "n": 7
+    },
+    "e-giants technologies llc|full stack java developer|mid": {
+        "p25": 102627,
+        "median": 105997,
+        "p75": 112923,
+        "n": 5
+    },
+    "e-giants technologies llc|it project manager|senior": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 100838,
+        "n": 5
+    },
+    "e-giants technologies llc|java developer|mid": {
+        "p25": 95493,
+        "median": 99351,
+        "p75": 105721,
+        "n": 6
+    },
+    "e-giants technologies llc|java full stack developer|mid": {
+        "p25": 103386,
+        "median": 105976,
+        "p75": 112029,
+        "n": 7
+    },
+    "e-giants technologies llc|software developer|mid": {
+        "p25": 105997,
+        "median": 106943,
+        "p75": 111898,
+        "n": 10
+    },
+    "e-giants technologies llc|software engineer|mid": {
+        "p25": 90397,
+        "median": 94370,
+        "p75": 105300,
+        "n": 14
+    },
+    "e3 global inc.|software developer|mid": {
+        "p25": 113000,
+        "median": 113000,
+        "p75": 124750,
+        "n": 8
+    },
+    "eab global, inc.|data engineer|mid": {
+        "p25": 94245,
+        "median": 94640,
+        "p75": 95000,
+        "n": 5
+    },
+    "eab global, inc.|senior data engineer|senior": {
+        "p25": 106943,
+        "median": 106980,
+        "p75": 110000,
+        "n": 5
+    },
+    "eagle eye technologies llc|azure data engineer|mid": {
+        "p25": 73100,
+        "median": 73100,
+        "p75": 73100,
+        "n": 5
+    },
+    "ealearn inc|it project manager|senior": {
+        "p25": 90001,
+        "median": 90001,
+        "p75": 90001,
+        "n": 20
+    },
+    "early warning services, llc|sr. software engineer - java|senior": {
+        "p25": 129792,
+        "median": 141734,
+        "p75": 141777,
+        "n": 7
+    },
+    "early warning services, llc|staff engineer|senior": {
+        "p25": 151757,
+        "median": 151757,
+        "p75": 151757,
+        "n": 5
+    },
+    "east aurora school district 131|special education instructional teacher|mid": {
+        "p25": 57693,
+        "median": 61466,
+        "p75": 68406,
+        "n": 7
+    },
+    "east baton rouge parish school system|teacher - reg ed./ess|mid": {
+        "p25": 51193,
+        "median": 52922,
+        "p75": 57823,
+        "n": 8
+    },
+    "east carolina university|assistant professor|entry": {
+        "p25": 75000,
+        "median": 96629,
+        "p75": 211500,
+        "n": 5
+    },
+    "east carolina university|clinical assistant professor|entry": {
+        "p25": 172566,
+        "median": 175744,
+        "p75": 186830,
+        "n": 8
+    },
+    "east carolina university|postdoctoral scholar|mid": {
+        "p25": 61656,
+        "median": 61884,
+        "p75": 64380,
+        "n": 7
+    },
+    "east coast metal structures corp|structural steel detailer|mid": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 65000,
+        "n": 10
+    },
+    "east tennessee state university|assistant professor|entry": {
+        "p25": 89552,
+        "median": 93626,
+        "p75": 114425,
+        "n": 6
+    },
+    "east west bank|lead applications developer|senior": {
+        "p25": 177273,
+        "median": 181861,
+        "p75": 193630,
+        "n": 6
+    },
+    "eastern maine medical center|anesthesiologist|mid": {
+        "p25": 514796,
+        "median": 514796,
+        "p75": 528000,
+        "n": 5
+    },
+    "eastern maine medical center|hospitalist|mid": {
+        "p25": 304307,
+        "median": 304307,
+        "p75": 304307,
+        "n": 17
+    },
+    "eastern michigan university|assistant professor|entry": {
+        "p25": 72500,
+        "median": 76250,
+        "p75": 89000,
+        "n": 6
+    },
+    "easy surfaces corporation|sales and operation research analyst|mid": {
+        "p25": 80250,
+        "median": 83900,
+        "p75": 89500,
+        "n": 6
+    },
+    "eateam inc|it project manager|senior": {
+        "p25": 90001,
+        "median": 90001,
+        "p75": 90001,
+        "n": 11
+    },
+    "eateam inc|network engineer|mid": {
+        "p25": 99195,
+        "median": 99195,
+        "p75": 102710,
+        "n": 5
+    },
+    "eaton corporation|electrical engineer|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 88000,
+        "n": 9
+    },
+    "eaton corporation|lead engineer|senior": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 125000,
+        "n": 13
+    },
+    "ebay inc.|applied researcher 1|entry": {
+        "p25": 157973,
+        "median": 171475,
+        "p75": 177461,
+        "n": 8
+    },
+    "ebay inc.|applied researcher 2|mid": {
+        "p25": 192738,
+        "median": 206219,
+        "p75": 216805,
+        "n": 10
+    },
+    "ebay inc.|data science - analyst 4|mid": {
+        "p25": 180110,
+        "median": 181692,
+        "p75": 183665,
+        "n": 15
+    },
+    "ebay inc.|data science - analyst 5|mid": {
+        "p25": 200378,
+        "median": 201600,
+        "p75": 204904,
+        "n": 5
+    },
+    "ebay inc.|lead product manager - technical|senior": {
+        "p25": 244349,
+        "median": 248643,
+        "p75": 252340,
+        "n": 5
+    },
+    "ebay inc.|manager, data science - analytics 2|senior": {
+        "p25": 202183,
+        "median": 205785,
+        "p75": 215985,
+        "n": 5
+    },
+    "ebay inc.|manager, information security 3|senior": {
+        "p25": 257793,
+        "median": 257793,
+        "p75": 275555,
+        "n": 5
+    },
+    "ebay inc.|manager, software development 2|senior": {
+        "p25": 225181,
+        "median": 235362,
+        "p75": 243380,
+        "n": 22
+    },
+    "ebay inc.|manager, software development 3|senior": {
+        "p25": 258360,
+        "median": 260000,
+        "p75": 266064,
+        "n": 13
+    },
+    "ebay inc.|mts 1, information security engineer|entry": {
+        "p25": 189812,
+        "median": 200313,
+        "p75": 215000,
+        "n": 5
+    },
+    "ebay inc.|mts 1, software engineer|entry": {
+        "p25": 185612,
+        "median": 200000,
+        "p75": 205879,
+        "n": 119
+    },
+    "ebay inc.|mts 1, systems admin|entry": {
+        "p25": 150000,
+        "median": 158080,
+        "p75": 161838,
+        "n": 5
+    },
+    "ebay inc.|mts 2, information security engineer|mid": {
+        "p25": 219354,
+        "median": 225779,
+        "p75": 228490,
+        "n": 5
+    },
+    "ebay inc.|mts 2, software engineer|mid": {
+        "p25": 198785,
+        "median": 224032,
+        "p75": 236141,
+        "n": 74
+    },
+    "ebay inc.|senior product manager 2 - technical|senior": {
+        "p25": 221500,
+        "median": 225000,
+        "p75": 231246,
+        "n": 7
+    },
+    "ebay inc.|software engineer 2|mid": {
+        "p25": 140000,
+        "median": 144366,
+        "p75": 149100,
+        "n": 25
+    },
+    "ebay inc.|software engineer 3|mid": {
+        "p25": 158203,
+        "median": 170000,
+        "p75": 176533,
+        "n": 123
+    },
+    "ebay inc.|sr. mts, software engineer|senior": {
+        "p25": 261069,
+        "median": 266324,
+        "p75": 270488,
+        "n": 19
+    },
+    "ebay inc.|sr. product manager 1 - technical|senior": {
+        "p25": 161226,
+        "median": 168100,
+        "p75": 191587,
+        "n": 6
+    },
+    "ebay inc.|sr. product manager 1 \u201c technical|senior": {
+        "p25": 187051,
+        "median": 196460,
+        "p75": 197733,
+        "n": 5
+    },
+    "ebay inc.|sr. product manager 2 - technical|senior": {
+        "p25": 218294,
+        "median": 225158,
+        "p75": 226777,
+        "n": 11
+    },
+    "ebs-minds it inc|software developer|mid": {
+        "p25": 91015,
+        "median": 105997,
+        "p75": 111898,
+        "n": 10
+    },
+    "ebs-minds it inc|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 107037,
+        "n": 5
+    },
+    "ebsco publishing|software engineer ii|mid": {
+        "p25": 96457,
+        "median": 110000,
+        "p75": 117882,
+        "n": 7
+    },
+    "ebsco publishing|sr software engineer i|mid": {
+        "p25": 116621,
+        "median": 119857,
+        "p75": 126592,
+        "n": 7
+    },
+    "ecclesiastes, inc.|java developer|mid": {
+        "p25": 87360,
+        "median": 87859,
+        "p75": 98935,
+        "n": 7
+    },
+    "ecclesiastes, inc.|technical global mobility manager|senior": {
+        "p25": 59602,
+        "median": 61547,
+        "p75": 62566,
+        "n": 7
+    },
+    "ecera system llc|computer programmer|mid": {
+        "p25": 61250,
+        "median": 65000,
+        "p75": 66500,
+        "n": 10
+    },
+    "echelon it, inc.|business analyst|mid": {
+        "p25": 104000,
+        "median": 109500,
+        "p75": 115200,
+        "n": 5
+    },
+    "echo it solutions inc|software developer|mid": {
+        "p25": 107500,
+        "median": 131000,
+        "p75": 132000,
+        "n": 6
+    },
+    "echospark technologies llc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84707,
+        "n": 12
+    },
+    "eclat integrated software solutions, inc.|opa developer|mid": {
+        "p25": 82097,
+        "median": 91696,
+        "p75": 98862,
+        "n": 6
+    },
+    "eclat solutions llc|software developer (.net developer)|mid": {
+        "p25": 98222,
+        "median": 108357,
+        "p75": 109886,
+        "n": 6
+    },
+    "eclinicalworks llc|application systems analyst|mid": {
+        "p25": 86847,
+        "median": 90000,
+        "p75": 95004,
+        "n": 11
+    },
+    "eclinicalworks llc|business intelligence analyst|mid": {
+        "p25": 82763,
+        "median": 87000,
+        "p75": 103000,
+        "n": 5
+    },
+    "eclinicalworks llc|emr project manager|senior": {
+        "p25": 85500,
+        "median": 97000,
+        "p75": 111150,
+        "n": 7
+    },
+    "eclinicalworks llc|engineering manager|senior": {
+        "p25": 164000,
+        "median": 166000,
+        "p75": 182000,
+        "n": 9
+    },
+    "eclinicalworks llc|product analyst|mid": {
+        "p25": 89150,
+        "median": 97000,
+        "p75": 104000,
+        "n": 10
+    },
+    "eclinicalworks llc|senior software engineer|senior": {
+        "p25": 117750,
+        "median": 135000,
+        "p75": 151500,
+        "n": 6
+    },
+    "eclinicalworks llc|sr. software engineer|senior": {
+        "p25": 134014,
+        "median": 135000,
+        "p75": 157000,
+        "n": 9
+    },
+    "eclinicalworks llc|staff engineer|senior": {
+        "p25": 148000,
+        "median": 157000,
+        "p75": 161750,
+        "n": 8
+    },
+    "ecom consulting inc|software engineer|mid": {
+        "p25": 105997,
+        "median": 108826,
+        "p75": 112923,
+        "n": 5
+    },
+    "ecom consulting incorporated|software engineer|mid": {
+        "p25": 105976,
+        "median": 105997,
+        "p75": 105997,
+        "n": 17
+    },
+    "econic partners us llc|associate economist|entry": {
+        "p25": 165000,
+        "median": 165000,
+        "p75": 182500,
+        "n": 7
+    },
+    "econic partners us llc|economic research analyst|mid": {
+        "p25": 112000,
+        "median": 112000,
+        "p75": 112000,
+        "n": 9
+    },
+    "econic partners us llc|senior economic research analyst|senior": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 125000,
+        "n": 5
+    },
+    "econtenti inc|it project manager|senior": {
+        "p25": 90001,
+        "median": 90001,
+        "p75": 90001,
+        "n": 24
+    },
+    "econvergence, inc.|software developer|mid": {
+        "p25": 103210,
+        "median": 129667,
+        "p75": 130250,
+        "n": 5
+    },
+    "ecovue solutions, llc|senior software engineer|senior": {
+        "p25": 107000,
+        "median": 107000,
+        "p75": 109250,
+        "n": 6
+    },
+    "ecovue solutions, llc|software developer|mid": {
+        "p25": 97000,
+        "median": 101852,
+        "p75": 107484,
+        "n": 7
+    },
+    "ecovue solutions, llc|software engineer|mid": {
+        "p25": 83500,
+        "median": 95113,
+        "p75": 105431,
+        "n": 6
+    },
+    "ecru emissary llc|brand/graphic designer|mid": {
+        "p25": 68764,
+        "median": 68764,
+        "p75": 68764,
+        "n": 5
+    },
+    "ector county independent school district|elementary bilingual teacher|mid": {
+        "p25": 60600,
+        "median": 61125,
+        "p75": 61650,
+        "n": 6
+    },
+    "edgecombe county public schools|math teacher|mid": {
+        "p25": 49220,
+        "median": 53280,
+        "p75": 53880,
+        "n": 5
+    },
+    "edsa, inc.|designer|mid": {
+        "p25": 65750,
+        "median": 68250,
+        "p75": 77916,
+        "n": 11
+    },
+    "edtheory llc|school psychologist|mid": {
+        "p25": 102052,
+        "median": 105944,
+        "p75": 109770,
+        "n": 6
+    },
+    "edtheory llc|special education teacher|mid": {
+        "p25": 72270,
+        "median": 77175,
+        "p75": 96476,
+        "n": 10
+    },
+    "edtheory llc|speech language pathologist|mid": {
+        "p25": 94993,
+        "median": 107120,
+        "p75": 123858,
+        "n": 56
+    },
+    "edu infotech international resources inc|teacher|mid": {
+        "p25": 46300,
+        "median": 52000,
+        "p75": 54591,
+        "n": 53
+    },
+    "education first inc.|lead teacher|senior": {
+        "p25": 43000,
+        "median": 43000,
+        "p75": 43000,
+        "n": 5
+    },
+    "education for change|public school teacher|mid": {
+        "p25": 72469,
+        "median": 80813,
+        "p75": 87477,
+        "n": 11
+    },
+    "educational testing service|business systems analyst lead|senior": {
+        "p25": 152131,
+        "median": 152131,
+        "p75": 152131,
+        "n": 5
+    },
+    "educational testing service|it architect|senior": {
+        "p25": 152131,
+        "median": 152131,
+        "p75": 154798,
+        "n": 6
+    },
+    "educational testing service|it data engineer senior|senior": {
+        "p25": 153046,
+        "median": 153836,
+        "p75": 154627,
+        "n": 6
+    },
+    "educational testing service|software developer lead|senior": {
+        "p25": 152131,
+        "median": 152131,
+        "p75": 152131,
+        "n": 11
+    },
+    "educational testing service|software developer senior|senior": {
+        "p25": 123668,
+        "median": 127213,
+        "p75": 129584,
+        "n": 8
+    },
+    "educational testing service|systems engineer senior|senior": {
+        "p25": 135402,
+        "median": 138570,
+        "p75": 142875,
+        "n": 6
+    },
+    "edvensoft solutions llc|software engineer|mid": {
+        "p25": 85500,
+        "median": 107000,
+        "p75": 108250,
+        "n": 15
+    },
+    "edvensoft solutions llc|software qa engineer|mid": {
+        "p25": 66000,
+        "median": 66000,
+        "p75": 67125,
+        "n": 6
+    },
+    "eficens systems inc|computer (devops) programmer|mid": {
+        "p25": 76654,
+        "median": 82000,
+        "p75": 88900,
+        "n": 10
+    },
+    "eficens systems inc|computer programmer|mid": {
+        "p25": 75900,
+        "median": 80000,
+        "p75": 86000,
+        "n": 37
+    },
+    "eficens systems inc|computer programmer/engineer|mid": {
+        "p25": 77000,
+        "median": 83200,
+        "p75": 86000,
+        "n": 35
+    },
+    "eficens systems inc|data engineer|mid": {
+        "p25": 90000,
+        "median": 90775,
+        "p75": 101375,
+        "n": 10
+    },
+    "eficens systems inc|database administrator|mid": {
+        "p25": 89600,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "eficens systems inc|database engineer|mid": {
+        "p25": 64500,
+        "median": 78000,
+        "p75": 91350,
+        "n": 11
+    },
+    "eficens systems inc|software (devops) engineer|mid": {
+        "p25": 84100,
+        "median": 88500,
+        "p75": 103775,
+        "n": 14
+    },
+    "eficens systems inc|software (java) developer|mid": {
+        "p25": 84700,
+        "median": 96250,
+        "p75": 111250,
+        "n": 6
+    },
+    "eficens systems inc|software developer|mid": {
+        "p25": 84000,
+        "median": 95000,
+        "p75": 106000,
+        "n": 17
+    },
+    "eficens systems inc|software engineer|mid": {
+        "p25": 84100,
+        "median": 95500,
+        "p75": 106000,
+        "n": 13
+    },
+    "egen solutions llc|software engineer|mid": {
+        "p25": 93600,
+        "median": 99393,
+        "p75": 106950,
+        "n": 12
+    },
+    "egen solutions llc.|engineer|mid": {
+        "p25": 102444,
+        "median": 104882,
+        "p75": 110265,
+        "n": 15
+    },
+    "egen solutions llc.|lead engineer|senior": {
+        "p25": 155377,
+        "median": 181000,
+        "p75": 183059,
+        "n": 7
+    },
+    "egen solutions llc.|senior engineer|senior": {
+        "p25": 115345,
+        "median": 123855,
+        "p75": 126908,
+        "n": 10
+    },
+    "egencia llc|data engineer iii|senior": {
+        "p25": 112137,
+        "median": 133068,
+        "p75": 137409,
+        "n": 6
+    },
+    "eguru solution, llc|software developer|mid": {
+        "p25": 105227,
+        "median": 105612,
+        "p75": 106417,
+        "n": 6
+    },
+    "eguru solution, llc|software engineer|mid": {
+        "p25": 105419,
+        "median": 106277,
+        "p75": 108077,
+        "n": 10
+    },
+    "eia technologies inc.|sap consultant|mid": {
+        "p25": 108118,
+        "median": 114400,
+        "p75": 119600,
+        "n": 7
+    },
+    "einfochips inc.|embedded engineer|mid": {
+        "p25": 125320,
+        "median": 132734,
+        "p75": 154589,
+        "n": 8
+    },
+    "eish technologies, inc.|software developer|mid": {
+        "p25": 105206,
+        "median": 108222,
+        "p75": 108222,
+        "n": 5
+    },
+    "ektha solutions inc|java developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 5
+    },
+    "elajika inc|software developer|mid": {
+        "p25": 93480,
+        "median": 106020,
+        "p75": 106020,
+        "n": 14
+    },
+    "elan technologies, inc.|devops engineer|mid": {
+        "p25": 105997,
+        "median": 108826,
+        "p75": 108826,
+        "n": 5
+    },
+    "elan technologies, inc.|systems engineer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 108077,
+        "n": 5
+    },
+    "eldorado national (california), inc.|engineer|mid": {
+        "p25": 87859,
+        "median": 87859,
+        "p75": 87890,
+        "n": 6
+    },
+    "electric power research institute, inc.|staff - level iii|senior": {
+        "p25": 72450,
+        "median": 74778,
+        "p75": 77106,
+        "n": 6
+    },
+    "electric reliability council of texas, inc.|gms application engineer sr.|senior": {
+        "p25": 159274,
+        "median": 163550,
+        "p75": 172551,
+        "n": 5
+    },
+    "electronic arts inc.|senior software engineer i|mid": {
+        "p25": 196231,
+        "median": 202489,
+        "p75": 209722,
+        "n": 8
+    },
+    "electronic arts inc.|software engineer ii|mid": {
+        "p25": 143969,
+        "median": 148000,
+        "p75": 149500,
+        "n": 21
+    },
+    "electronic arts inc.|software engineer iii|senior": {
+        "p25": 165152,
+        "median": 174122,
+        "p75": 182970,
+        "n": 23
+    },
+    "elevance health, inc.|business information consultant|mid": {
+        "p25": 107111,
+        "median": 109340,
+        "p75": 112259,
+        "n": 15
+    },
+    "elevance health, inc.|business information developer consultant|mid": {
+        "p25": 110395,
+        "median": 111814,
+        "p75": 113721,
+        "n": 6
+    },
+    "elevance health, inc.|data science solutions lead|senior": {
+        "p25": 145824,
+        "median": 152495,
+        "p75": 158304,
+        "n": 7
+    },
+    "elevance health, inc.|data scientist|mid": {
+        "p25": 116867,
+        "median": 120993,
+        "p75": 130020,
+        "n": 8
+    },
+    "elevance health, inc.|data scientist sr|senior": {
+        "p25": 133182,
+        "median": 139248,
+        "p75": 145700,
+        "n": 6
+    },
+    "elevance health, inc.|developer advisor|mid": {
+        "p25": 129076,
+        "median": 133797,
+        "p75": 139303,
+        "n": 12
+    },
+    "elevance health, inc.|engineer iii|senior": {
+        "p25": 110455,
+        "median": 117260,
+        "p75": 126074,
+        "n": 45
+    },
+    "elevance health, inc.|engineer lead|senior": {
+        "p25": 142438,
+        "median": 149993,
+        "p75": 159916,
+        "n": 77
+    },
+    "elevance health, inc.|engineer lead senior|senior": {
+        "p25": 159948,
+        "median": 165432,
+        "p75": 177790,
+        "n": 16
+    },
+    "elevance health, inc.|engineer lead sr|senior": {
+        "p25": 169782,
+        "median": 175170,
+        "p75": 179632,
+        "n": 5
+    },
+    "elevance health, inc.|engineer senior|senior": {
+        "p25": 125730,
+        "median": 134852,
+        "p75": 142358,
+        "n": 74
+    },
+    "elevance health, inc.|engineer sr|senior": {
+        "p25": 129285,
+        "median": 137244,
+        "p75": 145180,
+        "n": 18
+    },
+    "elevance health, inc.|engineer sr.|senior": {
+        "p25": 130369,
+        "median": 139641,
+        "p75": 143854,
+        "n": 16
+    },
+    "elevance health, inc.|infrastructure services engineer executive advisor|mid": {
+        "p25": 170413,
+        "median": 170413,
+        "p75": 177304,
+        "n": 7
+    },
+    "elevance health, inc.|it quality control advisor|mid": {
+        "p25": 104325,
+        "median": 111955,
+        "p75": 114742,
+        "n": 8
+    },
+    "elevance health, inc.|it quality control senior advisor|senior": {
+        "p25": 125934,
+        "median": 136080,
+        "p75": 137996,
+        "n": 9
+    },
+    "elevance health, inc.|solutions engineer advisor senior|senior": {
+        "p25": 145280,
+        "median": 148128,
+        "p75": 155094,
+        "n": 14
+    },
+    "elevance health, inc.|systems analyst advisor|mid": {
+        "p25": 115057,
+        "median": 122482,
+        "p75": 127853,
+        "n": 26
+    },
+    "elevance health, inc.|systems analyst senior advisor|senior": {
+        "p25": 128174,
+        "median": 138679,
+        "p75": 143221,
+        "n": 13
+    },
+    "eli lilly and company|advisor - chemistry|mid": {
+        "p25": 132000,
+        "median": 132000,
+        "p75": 132000,
+        "n": 5
+    },
+    "eli lilly and company|advisor - engineering|mid": {
+        "p25": 135960,
+        "median": 136000,
+        "p75": 139544,
+        "n": 11
+    },
+    "eli lilly and company|advisor - statistics|mid": {
+        "p25": 165000,
+        "median": 168489,
+        "p75": 177241,
+        "n": 14
+    },
+    "eli lilly and company|associate director - finance|senior": {
+        "p25": 140030,
+        "median": 140030,
+        "p75": 140577,
+        "n": 6
+    },
+    "eli lilly and company|engineer|mid": {
+        "p25": 84000,
+        "median": 85000,
+        "p75": 85263,
+        "n": 7
+    },
+    "eli lilly and company|principal computational statistician|senior": {
+        "p25": 135459,
+        "median": 137657,
+        "p75": 139777,
+        "n": 11
+    },
+    "eli lilly and company|principal scientist|senior": {
+        "p25": 116932,
+        "median": 119110,
+        "p75": 120227,
+        "n": 6
+    },
+    "eli lilly and company|research advisor - statistics|mid": {
+        "p25": 146000,
+        "median": 154270,
+        "p75": 155510,
+        "n": 7
+    },
+    "eli lilly and company|sr. advisor - chemistry|senior": {
+        "p25": 161981,
+        "median": 168057,
+        "p75": 172587,
+        "n": 6
+    },
+    "eli lilly and company|sr. advisor - statistics|senior": {
+        "p25": 208812,
+        "median": 219235,
+        "p75": 228347,
+        "n": 9
+    },
+    "eli lilly and company|sr. computational statistician|senior": {
+        "p25": 107805,
+        "median": 110000,
+        "p75": 110849,
+        "n": 32
+    },
+    "eliassen group, llc|full stack engineer|mid": {
+        "p25": 127051,
+        "median": 134160,
+        "p75": 138320,
+        "n": 6
+    },
+    "elica health centers|dentist|mid": {
+        "p25": 176250,
+        "median": 180000,
+        "p75": 187500,
+        "n": 6
+    },
+    "elink elite, llc|test engineer|mid": {
+        "p25": 71000,
+        "median": 72800,
+        "p75": 73350,
+        "n": 8
+    },
+    "eliquent life sciences|validation engineer|mid": {
+        "p25": 85571,
+        "median": 90000,
+        "p75": 97954,
+        "n": 15
+    },
+    "elite business consulting llc|software engineer|mid": {
+        "p25": 96512,
+        "median": 96512,
+        "p75": 105976,
+        "n": 5
+    },
+    "elite emanate llc|sap consultant|mid": {
+        "p25": 105206,
+        "median": 113963,
+        "p75": 122720,
+        "n": 6
+    },
+    "elite emanate llc|software developer|mid": {
+        "p25": 112923,
+        "median": 122720,
+        "p75": 122720,
+        "n": 5
+    },
+    "elite exceed llc|software engineer|mid": {
+        "p25": 105981,
+        "median": 105997,
+        "p75": 108592,
+        "n": 14
+    },
+    "elite golf performance llc|osteopathic rehabilitation specialist|mid": {
+        "p25": 72800,
+        "median": 72800,
+        "p75": 82222,
+        "n": 5
+    },
+    "elite it technologies llc|computer programmer|mid": {
+        "p25": 107500,
+        "median": 129000,
+        "p75": 131000,
+        "n": 6
+    },
+    "elite it technologies llc|data engineer|mid": {
+        "p25": 83000,
+        "median": 83500,
+        "p75": 84000,
+        "n": 6
+    },
+    "elite it technologies llc|devops engineer|mid": {
+        "p25": 87000,
+        "median": 91000,
+        "p75": 100500,
+        "n": 7
+    },
+    "elite it technologies llc|full stack developer|mid": {
+        "p25": 92000,
+        "median": 114000,
+        "p75": 131997,
+        "n": 5
+    },
+    "elite it technologies llc|java developer|mid": {
+        "p25": 88750,
+        "median": 103000,
+        "p75": 120317,
+        "n": 6
+    },
+    "elite it technologies llc|software developer|mid": {
+        "p25": 100450,
+        "median": 106000,
+        "p75": 113438,
+        "n": 28
+    },
+    "elite it technologies llc|software engineer|mid": {
+        "p25": 102679,
+        "median": 112923,
+        "p75": 114735,
+        "n": 23
+    },
+    "elite tech info inc|software engineer|mid": {
+        "p25": 97539,
+        "median": 105638,
+        "p75": 105999,
+        "n": 26
+    },
+    "elite tech solute inc|software engineer|mid": {
+        "p25": 84503,
+        "median": 91645,
+        "p75": 91650,
+        "n": 12
+    },
+    "elk regional health center|registered nurse \u201c emergency department|mid": {
+        "p25": 63897,
+        "median": 66913,
+        "p75": 69388,
+        "n": 8
+    },
+    "ellenoff grossman & schole llp|associate|entry": {
+        "p25": 208000,
+        "median": 248000,
+        "p75": 248000,
+        "n": 5
+    },
+    "ellis, bandt, birkin, kollins and wong, pllc|radiologist|mid": {
+        "p25": 450000,
+        "median": 450000,
+        "p75": 450000,
+        "n": 11
+    },
+    "ellkay, llc|it project manager|senior": {
+        "p25": 90365,
+        "median": 95000,
+        "p75": 95000,
+        "n": 6
+    },
+    "elogicsquare inc.|software developer|mid": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 75000,
+        "n": 7
+    },
+    "elxr technologies llc|software engineer|mid": {
+        "p25": 106350,
+        "median": 115055,
+        "p75": 125834,
+        "n": 6
+    },
+    "emaestro technologies inc|software developer|mid": {
+        "p25": 106950,
+        "median": 112500,
+        "p75": 123000,
+        "n": 31
+    },
+    "emage software services, llc|systems consultant|mid": {
+        "p25": 86500,
+        "median": 87179,
+        "p75": 90964,
+        "n": 6
+    },
+    "embry-riddle aeronautical university|assistant professor of aerospace engineering|entry": {
+        "p25": 101377,
+        "median": 105000,
+        "p75": 110512,
+        "n": 5
+    },
+    "embry-riddle aeronautical university|instructor|mid": {
+        "p25": 61755,
+        "median": 64230,
+        "p75": 74484,
+        "n": 57
+    },
+    "emc corporation|principal engineer, service delivery|senior": {
+        "p25": 126778,
+        "median": 130582,
+        "p75": 135335,
+        "n": 5
+    },
+    "emc corporation|principal engineer, technical support|senior": {
+        "p25": 120502,
+        "median": 126949,
+        "p75": 126949,
+        "n": 5
+    },
+    "emc corporation|software engineer 2|mid": {
+        "p25": 126486,
+        "median": 135915,
+        "p75": 154152,
+        "n": 35
+    },
+    "emc corporation|software principal engineer|senior": {
+        "p25": 181702,
+        "median": 189983,
+        "p75": 208724,
+        "n": 32
+    },
+    "emc corporation|software senior engineer|senior": {
+        "p25": 153916,
+        "median": 156175,
+        "p75": 178786,
+        "n": 44
+    },
+    "emc corporation|software senior principal engineer|senior": {
+        "p25": 213101,
+        "median": 215393,
+        "p75": 246938,
+        "n": 15
+    },
+    "emergtech business solutions, inc|programmer analyst|mid": {
+        "p25": 60000,
+        "median": 60000,
+        "p75": 60000,
+        "n": 9
+    },
+    "emergtech business solutions, inc|software engineer|mid": {
+        "p25": 87245,
+        "median": 97032,
+        "p75": 101577,
+        "n": 7
+    },
+    "emeteors technology inc|software developer|mid": {
+        "p25": 100000,
+        "median": 102000,
+        "p75": 110000,
+        "n": 9
+    },
+    "eminence technology solutions inc|software developer applications|mid": {
+        "p25": 84094,
+        "median": 105997,
+        "p75": 107411,
+        "n": 11
+    },
+    "eminent software services|software developer|mid": {
+        "p25": 95750,
+        "median": 98500,
+        "p75": 106750,
+        "n": 8
+    },
+    "emmar corp|software engineer|mid": {
+        "p25": 109262,
+        "median": 112923,
+        "p75": 112923,
+        "n": 9
+    },
+    "emonics llc|android developer|mid": {
+        "p25": 94432,
+        "median": 97594,
+        "p75": 97906,
+        "n": 7
+    },
+    "emonics llc|java developer|mid": {
+        "p25": 88416,
+        "median": 93631,
+        "p75": 102684,
+        "n": 8
+    },
+    "emonics llc|software engineer|mid": {
+        "p25": 68008,
+        "median": 84562,
+        "p75": 101639,
+        "n": 8
+    },
+    "emonics llc|ssis developer|mid": {
+        "p25": 70564,
+        "median": 94682,
+        "p75": 118784,
+        "n": 6
+    },
+    "emory healthcare, inc.|medical lab scientist ii|mid": {
+        "p25": 83787,
+        "median": 88036,
+        "p75": 97042,
+        "n": 6
+    },
+    "emory healthcare, inc.|rn clin iii, acute care|senior": {
+        "p25": 82888,
+        "median": 82888,
+        "p75": 92820,
+        "n": 12
+    },
+    "emory university|academic research scientist|mid": {
+        "p25": 80000,
+        "median": 81000,
+        "p75": 96000,
+        "n": 5
+    },
+    "emory university|assistant academic research scientist|entry": {
+        "p25": 65000,
+        "median": 68964,
+        "p75": 70500,
+        "n": 36
+    },
+    "emory university|assistant professor|entry": {
+        "p25": 130500,
+        "median": 267500,
+        "p75": 380100,
+        "n": 74
+    },
+    "emory university|associate academic research scientist|entry": {
+        "p25": 69908,
+        "median": 72000,
+        "p75": 76653,
+        "n": 23
+    },
+    "emory university|associate professor|entry": {
+        "p25": 195423,
+        "median": 241152,
+        "p75": 297287,
+        "n": 6
+    },
+    "emory university|instructor|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 80705,
+        "n": 7
+    },
+    "emory university|medical house staff - fellow|senior": {
+        "p25": 78577,
+        "median": 82168,
+        "p75": 83676,
+        "n": 11
+    },
+    "emory university|medical house staff - resident|senior": {
+        "p25": 70395,
+        "median": 73211,
+        "p75": 75599,
+        "n": 33
+    },
+    "emory university|medical house staff \u201c resident|senior": {
+        "p25": 69492,
+        "median": 71803,
+        "p75": 75002,
+        "n": 6
+    },
+    "emory university|postdoctoral fellow|senior": {
+        "p25": 61770,
+        "median": 64104,
+        "p75": 66492,
+        "n": 56
+    },
+    "emory university|research specialist|mid": {
+        "p25": 39640,
+        "median": 40600,
+        "p75": 42550,
+        "n": 6
+    },
+    "emory university|research specialist, lead|senior": {
+        "p25": 51931,
+        "median": 53000,
+        "p75": 54975,
+        "n": 11
+    },
+    "emory university|research specialist, senior|senior": {
+        "p25": 59328,
+        "median": 60000,
+        "p75": 62000,
+        "n": 11
+    },
+    "emory university|senior associate|mid": {
+        "p25": 79517,
+        "median": 82168,
+        "p75": 84548,
+        "n": 7
+    },
+    "emory university|visiting assistant professor|entry": {
+        "p25": 57000,
+        "median": 58500,
+        "p75": 58656,
+        "n": 5
+    },
+    "empower retirement, llc|lead engineer software|senior": {
+        "p25": 153634,
+        "median": 153634,
+        "p75": 159135,
+        "n": 5
+    },
+    "encloud services llc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 105976,
+        "n": 5
+    },
+    "encloud services llc|software engineer|mid": {
+        "p25": 105804,
+        "median": 110240,
+        "p75": 112986,
+        "n": 16
+    },
+    "encora digital llc|software developer|mid": {
+        "p25": 100802,
+        "median": 113705,
+        "p75": 130000,
+        "n": 10
+    },
+    "encore consulting services inc|software developer|mid": {
+        "p25": 106516,
+        "median": 110500,
+        "p75": 112923,
+        "n": 6
+    },
+    "endava solutions, llc|development consultant|mid": {
+        "p25": 93706,
+        "median": 97386,
+        "p75": 103210,
+        "n": 5
+    },
+    "endava solutions, llc|senior developer|senior": {
+        "p25": 85467,
+        "median": 90397,
+        "p75": 103210,
+        "n": 17
+    },
+    "endeavour technologies inc|business   analyst|mid": {
+        "p25": 85500,
+        "median": 87650,
+        "p75": 90960,
+        "n": 5
+    },
+    "endeavour technologies inc|software developer|mid": {
+        "p25": 92950,
+        "median": 101450,
+        "p75": 104210,
+        "n": 7
+    },
+    "energized for excellence academy, inc.|elementary school teacher|mid": {
+        "p25": 60000,
+        "median": 60000,
+        "p75": 60750,
+        "n": 7
+    },
+    "energized for excellence academy, inc.|middle school teacher|mid": {
+        "p25": 61500,
+        "median": 61500,
+        "p75": 61500,
+        "n": 5
+    },
+    "energized for stem academy, inc.|middle school teacher|mid": {
+        "p25": 60000,
+        "median": 60000,
+        "p75": 60000,
+        "n": 6
+    },
+    "energized for stem academy, inc.|secondary school teacher|mid": {
+        "p25": 60000,
+        "median": 60000,
+        "p75": 61125,
+        "n": 6
+    },
+    "enfabrica corporation|design verification engineer|mid": {
+        "p25": 219125,
+        "median": 238250,
+        "p75": 245000,
+        "n": 6
+    },
+    "enfec, llc|software developer|mid": {
+        "p25": 110635,
+        "median": 137259,
+        "p75": 137259,
+        "n": 5
+    },
+    "engineering technology associates, inc.|mechanical engineer|mid": {
+        "p25": 89410,
+        "median": 93850,
+        "p75": 94000,
+        "n": 38
+    },
+    "enhance therapies master payco llc|physical therapist|mid": {
+        "p25": 93308,
+        "median": 93309,
+        "p75": 94588,
+        "n": 11
+    },
+    "eniac systems inc|full stack developer|mid": {
+        "p25": 111000,
+        "median": 111000,
+        "p75": 123510,
+        "n": 7
+    },
+    "enlightened solutions llc|software developer|mid": {
+        "p25": 81600,
+        "median": 85600,
+        "p75": 85600,
+        "n": 37
+    },
+    "enliven technologies inc|software developer|mid": {
+        "p25": 112970,
+        "median": 122699,
+        "p75": 122699,
+        "n": 12
+    },
+    "enquero, inc.|sr. manager|senior": {
+        "p25": 157560,
+        "median": 172670,
+        "p75": 182390,
+        "n": 5
+    },
+    "entellects corporation, inc|data analyst|mid": {
+        "p25": 69201,
+        "median": 84365,
+        "p75": 90958,
+        "n": 5
+    },
+    "entellects corporation, inc|software developer|mid": {
+        "p25": 105227,
+        "median": 105997,
+        "p75": 109283,
+        "n": 7
+    },
+    "enterprise business data llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 6
+    },
+    "enterprise minds, inc|solution architect|senior": {
+        "p25": 111176,
+        "median": 161637,
+        "p75": 161637,
+        "n": 5
+    },
+    "entrivis technologies, inc.|computer programmer|mid": {
+        "p25": 86647,
+        "median": 90500,
+        "p75": 91000,
+        "n": 6
+    },
+    "environmental systems research institute, inc.|product engineer|mid": {
+        "p25": 87978,
+        "median": 93600,
+        "p75": 104036,
+        "n": 30
+    },
+    "environmental systems research institute, inc.|software development engineer|mid": {
+        "p25": 108160,
+        "median": 115440,
+        "p75": 124800,
+        "n": 25
+    },
+    "environmental systems research institute, inc.|sr. software development engineer|senior": {
+        "p25": 146655,
+        "median": 151176,
+        "p75": 156130,
+        "n": 8
+    },
+    "environmental systems research institute, inc.|support analyst|mid": {
+        "p25": 72046,
+        "median": 74485,
+        "p75": 75140,
+        "n": 8
+    },
+    "environmental systems research institute, inc. (esri)|product engineer|mid": {
+        "p25": 91000,
+        "median": 114972,
+        "p75": 121790,
+        "n": 14
+    },
+    "environmental systems research institute, inc. (esri)|software development engineer|mid": {
+        "p25": 132002,
+        "median": 134590,
+        "p75": 140750,
+        "n": 14
+    },
+    "eog resources, inc.|sr. data engineer|senior": {
+        "p25": 136620,
+        "median": 136620,
+        "p75": 136620,
+        "n": 5
+    },
+    "epace technologies inc|software developer|mid": {
+        "p25": 107416,
+        "median": 112954,
+        "p75": 114754,
+        "n": 8
+    },
+    "epam systems inc.|lead software engineer|senior": {
+        "p25": 106000,
+        "median": 115000,
+        "p75": 123000,
+        "n": 33
+    },
+    "epam systems inc.|lead software test automation engineer|senior": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 120000,
+        "n": 6
+    },
+    "epam systems inc.|senior software engineer|senior": {
+        "p25": 106000,
+        "median": 111000,
+        "p75": 124000,
+        "n": 28
+    },
+    "epeople technologies inc.|computer systems engineer|mid": {
+        "p25": 80995,
+        "median": 80995,
+        "p75": 80995,
+        "n": 5
+    },
+    "epic systems corporation|senior software systems developer|senior": {
+        "p25": 176405,
+        "median": 176904,
+        "p75": 176904,
+        "n": 8
+    },
+    "epic systems corporation|software developer|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 8
+    },
+    "epickx inc|business analyst|mid": {
+        "p25": 71770,
+        "median": 79914,
+        "p75": 90345,
+        "n": 7
+    },
+    "epitec, inc.|business analyst|mid": {
+        "p25": 73491,
+        "median": 101368,
+        "p75": 118560,
+        "n": 6
+    },
+    "epitec, inc.|quality engineer|mid": {
+        "p25": 92144,
+        "median": 92227,
+        "p75": 93641,
+        "n": 5
+    },
+    "epitec, inc.|software developer|mid": {
+        "p25": 85488,
+        "median": 114400,
+        "p75": 122512,
+        "n": 5
+    },
+    "epitec, inc.|software engineer|mid": {
+        "p25": 110598,
+        "median": 134524,
+        "p75": 140920,
+        "n": 16
+    },
+    "epsilon data management llc|lead developer|senior": {
+        "p25": 131706,
+        "median": 134823,
+        "p75": 139768,
+        "n": 6
+    },
+    "epsilon data management llc|lead software engineer|senior": {
+        "p25": 133064,
+        "median": 142000,
+        "p75": 148800,
+        "n": 11
+    },
+    "epsilon data management llc|lead, software engineer|senior": {
+        "p25": 129215,
+        "median": 136781,
+        "p75": 138608,
+        "n": 6
+    },
+    "epsilon data management llc|scientist, decision sciences|mid": {
+        "p25": 139000,
+        "median": 141279,
+        "p75": 141279,
+        "n": 5
+    },
+    "epsilon data management llc|senior software engineer|senior": {
+        "p25": 126484,
+        "median": 130000,
+        "p75": 140380,
+        "n": 19
+    },
+    "epsilon data management llc|staff, software engineer|senior": {
+        "p25": 137776,
+        "median": 149817,
+        "p75": 154455,
+        "n": 8
+    },
+    "epsoft technologies llc|software developer|mid": {
+        "p25": 84416,
+        "median": 97385,
+        "p75": 106000,
+        "n": 38
+    },
+    "equi-tek llc.|software developer|mid": {
+        "p25": 105300,
+        "median": 107300,
+        "p75": 110200,
+        "n": 6
+    },
+    "equifax inc.|data engineer - career|mid": {
+        "p25": 113630,
+        "median": 127563,
+        "p75": 128867,
+        "n": 5
+    },
+    "equifax inc.|data scientist - career|mid": {
+        "p25": 119176,
+        "median": 122926,
+        "p75": 132538,
+        "n": 6
+    },
+    "equifax inc.|quality automation engineer (sdet) - career|mid": {
+        "p25": 110962,
+        "median": 118414,
+        "p75": 118414,
+        "n": 7
+    },
+    "equifax inc.|quality automation engineer (sdet) - specialist|mid": {
+        "p25": 97573,
+        "median": 112362,
+        "p75": 112362,
+        "n": 5
+    },
+    "equifax inc.|site reliability engineer - career|mid": {
+        "p25": 120738,
+        "median": 126150,
+        "p75": 133973,
+        "n": 19
+    },
+    "equifax inc.|site reliability engineer - intermediate|mid": {
+        "p25": 96290,
+        "median": 97290,
+        "p75": 101962,
+        "n": 5
+    },
+    "equifax inc.|site reliability engineer - specialist|mid": {
+        "p25": 145905,
+        "median": 149760,
+        "p75": 152131,
+        "n": 10
+    },
+    "equifax inc.|site reliability engineer \u201c career|mid": {
+        "p25": 119079,
+        "median": 122300,
+        "p75": 143202,
+        "n": 6
+    },
+    "equifax inc.|software engineer - career|mid": {
+        "p25": 119023,
+        "median": 123636,
+        "p75": 129376,
+        "n": 53
+    },
+    "equifax inc.|software engineer - intermediate|mid": {
+        "p25": 95696,
+        "median": 96406,
+        "p75": 104917,
+        "n": 12
+    },
+    "equifax inc.|software engineer - manager|senior": {
+        "p25": 149760,
+        "median": 153052,
+        "p75": 157567,
+        "n": 9
+    },
+    "equifax inc.|software engineer - specialist|mid": {
+        "p25": 143675,
+        "median": 149760,
+        "p75": 152131,
+        "n": 20
+    },
+    "equifax inc.|software engineer \u201c career|mid": {
+        "p25": 122137,
+        "median": 127930,
+        "p75": 129367,
+        "n": 7
+    },
+    "equifax inc.|software engineer \u201c intermediate|mid": {
+        "p25": 95696,
+        "median": 99299,
+        "p75": 102498,
+        "n": 5
+    },
+    "equifax inc.|software engineer \u201c specialist|mid": {
+        "p25": 149760,
+        "median": 150945,
+        "p75": 152131,
+        "n": 6
+    },
+    "equifax inc.|solutions architect - specialist|senior": {
+        "p25": 140046,
+        "median": 149760,
+        "p75": 149760,
+        "n": 5
+    },
+    "equinix, inc.|principal business systems analyst|senior": {
+        "p25": 149781,
+        "median": 165664,
+        "p75": 165664,
+        "n": 5
+    },
+    "equinix, inc.|senior business systems analyst|senior": {
+        "p25": 127878,
+        "median": 127878,
+        "p75": 134971,
+        "n": 9
+    },
+    "equinix, inc.|senior staff engineer, product software|senior": {
+        "p25": 155605,
+        "median": 180960,
+        "p75": 180960,
+        "n": 9
+    },
+    "equinix, inc.|staff engineer, product software|senior": {
+        "p25": 152792,
+        "median": 155605,
+        "p75": 155605,
+        "n": 13
+    },
+    "equitable financial life insurance company|software engineering|mid": {
+        "p25": 99243,
+        "median": 116889,
+        "p75": 129071,
+        "n": 6
+    },
+    "equitable financial life insurance company|systems analysis|mid": {
+        "p25": 110900,
+        "median": 111863,
+        "p75": 126275,
+        "n": 5
+    },
+    "erba solutions llc|software developer|mid": {
+        "p25": 87500,
+        "median": 91000,
+        "p75": 95500,
+        "n": 5
+    },
+    "erba solutions llc|software engineer|mid": {
+        "p25": 85000,
+        "median": 91000,
+        "p75": 95500,
+        "n": 5
+    },
+    "ericsson inc.|engineer - svcs sftwr|mid": {
+        "p25": 108826,
+        "median": 113714,
+        "p75": 115261,
+        "n": 5
+    },
+    "ericsson inc.|solutions architect|senior": {
+        "p25": 124185,
+        "median": 149781,
+        "p75": 156646,
+        "n": 7
+    },
+    "ernst & young u.s. llp|accountants and auditor - kbgfjg178663-7|mid": {
+        "p25": 90112,
+        "median": 90112,
+        "p75": 90112,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg01721-20|mid": {
+        "p25": 186436,
+        "median": 186436,
+        "p75": 186436,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg02616-24|mid": {
+        "p25": 159432,
+        "median": 159432,
+        "p75": 159432,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg02897-23|mid": {
+        "p25": 125200,
+        "median": 125200,
+        "p75": 125200,
+        "n": 7
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg101928-10|mid": {
+        "p25": 124015,
+        "median": 124015,
+        "p75": 124015,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg104636-20|mid": {
+        "p25": 168099,
+        "median": 168099,
+        "p75": 168099,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg128565-8|mid": {
+        "p25": 142000,
+        "median": 142000,
+        "p75": 142000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg132329-14|mid": {
+        "p25": 117186,
+        "median": 117186,
+        "p75": 117186,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg132486-6|mid": {
+        "p25": 99999,
+        "median": 99999,
+        "p75": 99999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg133983-18|mid": {
+        "p25": 157317,
+        "median": 157317,
+        "p75": 157317,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg177460-11|mid": {
+        "p25": 91000,
+        "median": 91000,
+        "p75": 91000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg179403-18|mid": {
+        "p25": 92379,
+        "median": 92379,
+        "p75": 92379,
+        "n": 9
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg180206-7|mid": {
+        "p25": 84196,
+        "median": 84196,
+        "p75": 84196,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg180258-12|mid": {
+        "p25": 184999,
+        "median": 184999,
+        "p75": 184999,
+        "n": 9
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg180337-8|mid": {
+        "p25": 94829,
+        "median": 94829,
+        "p75": 94829,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg180521-12|mid": {
+        "p25": 102051,
+        "median": 110789,
+        "p75": 119527,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg180977-9|mid": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 140000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg188052-9|mid": {
+        "p25": 123000,
+        "median": 123000,
+        "p75": 123000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg188575-7|mid": {
+        "p25": 114168,
+        "median": 114168,
+        "p75": 114168,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg195734-9|mid": {
+        "p25": 141899,
+        "median": 141899,
+        "p75": 141899,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg197649-6|mid": {
+        "p25": 126922,
+        "median": 126922,
+        "p75": 126922,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg218083-15|mid": {
+        "p25": 96800,
+        "median": 96800,
+        "p75": 96800,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg218399-3|mid": {
+        "p25": 78560,
+        "median": 78560,
+        "p75": 78560,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg218465-3|mid": {
+        "p25": 78499,
+        "median": 78499,
+        "p75": 78499,
+        "n": 8
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg219668-4|mid": {
+        "p25": 97472,
+        "median": 97472,
+        "p75": 97472,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg222003-4|mid": {
+        "p25": 80340,
+        "median": 80340,
+        "p75": 80340,
+        "n": 7
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg222563-7|mid": {
+        "p25": 105999,
+        "median": 105999,
+        "p75": 105999,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg223155-6|mid": {
+        "p25": 94299,
+        "median": 94299,
+        "p75": 94299,
+        "n": 8
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg22326-17|mid": {
+        "p25": 165318,
+        "median": 165318,
+        "p75": 165318,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg243307-7|mid": {
+        "p25": 110249,
+        "median": 110249,
+        "p75": 110249,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg243307-8|mid": {
+        "p25": 124479,
+        "median": 124479,
+        "p75": 124479,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg258364-3|mid": {
+        "p25": 108299,
+        "median": 108299,
+        "p75": 108299,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg26245-21|mid": {
+        "p25": 175463,
+        "median": 175463,
+        "p75": 175463,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg265808-3|mid": {
+        "p25": 96800,
+        "median": 96800,
+        "p75": 96800,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg266624-3|mid": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg269507-4|mid": {
+        "p25": 80299,
+        "median": 80299,
+        "p75": 80299,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg271453-2|mid": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 75000,
+        "n": 11
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg317891-2|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg318247-4|mid": {
+        "p25": 86900,
+        "median": 86900,
+        "p75": 86900,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg327542-1|entry": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg339581-2|mid": {
+        "p25": 161000,
+        "median": 161000,
+        "p75": 161000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg45387-27|mid": {
+        "p25": 114600,
+        "median": 114600,
+        "p75": 114600,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg46054-23|mid": {
+        "p25": 127637,
+        "median": 127637,
+        "p75": 127637,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg46465-24|mid": {
+        "p25": 123978,
+        "median": 123978,
+        "p75": 123978,
+        "n": 7
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg51333-21|mid": {
+        "p25": 160000,
+        "median": 160000,
+        "p75": 160000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg62172-12|mid": {
+        "p25": 150385,
+        "median": 150385,
+        "p75": 150385,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg70579-32|mid": {
+        "p25": 105582,
+        "median": 105582,
+        "p75": 105582,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg70887-21|mid": {
+        "p25": 141729,
+        "median": 141729,
+        "p75": 141729,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg71696-15|mid": {
+        "p25": 186813,
+        "median": 186813,
+        "p75": 186813,
+        "n": 12
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg78111-25|mid": {
+        "p25": 132999,
+        "median": 132999,
+        "p75": 132999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg85721-16|mid": {
+        "p25": 236782,
+        "median": 236782,
+        "p75": 236782,
+        "n": 10
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg89613-19|mid": {
+        "p25": 140920,
+        "median": 140920,
+        "p75": 140920,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kbgfjg99408-11|mid": {
+        "p25": 174074,
+        "median": 174074,
+        "p75": 174074,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kboeytest1486-31|mid": {
+        "p25": 179700,
+        "median": 179700,
+        "p75": 179700,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kboeytest1486-32|mid": {
+        "p25": 179700,
+        "median": 179700,
+        "p75": 179700,
+        "n": 6
+    },
+    "ernst & young u.s. llp|accountants and auditors - kboeytest2791-35|mid": {
+        "p25": 240999,
+        "median": 240999,
+        "p75": 240999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|actuaries - kbgfjg07363-20|mid": {
+        "p25": 287946,
+        "median": 287946,
+        "p75": 287946,
+        "n": 7
+    },
+    "ernst & young u.s. llp|actuaries - kbgfjg23506-22|mid": {
+        "p25": 204591,
+        "median": 204591,
+        "p75": 204591,
+        "n": 6
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg01966-31|mid": {
+        "p25": 232832,
+        "median": 232832,
+        "p75": 232832,
+        "n": 11
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg02010-30|mid": {
+        "p25": 261899,
+        "median": 261899,
+        "p75": 261899,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg05835-34|mid": {
+        "p25": 294999,
+        "median": 294999,
+        "p75": 294999,
+        "n": 13
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg07561-23|mid": {
+        "p25": 605000,
+        "median": 605000,
+        "p75": 605000,
+        "n": 9
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg111070-15|mid": {
+        "p25": 237299,
+        "median": 237299,
+        "p75": 237299,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg176422-6|mid": {
+        "p25": 217655,
+        "median": 217655,
+        "p75": 217655,
+        "n": 7
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg209393-7|mid": {
+        "p25": 186670,
+        "median": 186670,
+        "p75": 186670,
+        "n": 6
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg219116-10|mid": {
+        "p25": 229606,
+        "median": 229606,
+        "p75": 229606,
+        "n": 6
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg30755-22|mid": {
+        "p25": 262433,
+        "median": 262433,
+        "p75": 262433,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg308001-5|mid": {
+        "p25": 206000,
+        "median": 206000,
+        "p75": 206000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg320176-5|mid": {
+        "p25": 241800,
+        "median": 241800,
+        "p75": 241800,
+        "n": 10
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg37322-18|mid": {
+        "p25": 186000,
+        "median": 186000,
+        "p75": 186000,
+        "n": 9
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg42475-10|mid": {
+        "p25": 279125,
+        "median": 279125,
+        "p75": 279125,
+        "n": 7
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg90074-9|mid": {
+        "p25": 324598,
+        "median": 324598,
+        "p75": 324598,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg90877-13|mid": {
+        "p25": 209829,
+        "median": 209829,
+        "p75": 209829,
+        "n": 6
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kbgfjg97501-17|mid": {
+        "p25": 201000,
+        "median": 201000,
+        "p75": 201000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest11838-2|mid": {
+        "p25": 278100,
+        "median": 278100,
+        "p75": 278100,
+        "n": 6
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest1372-26|mid": {
+        "p25": 249940,
+        "median": 249940,
+        "p75": 249940,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest1381-29|mid": {
+        "p25": 401292,
+        "median": 401292,
+        "p75": 401292,
+        "n": 8
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest2531-31|mid": {
+        "p25": 220320,
+        "median": 220320,
+        "p75": 220320,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest2677-36|mid": {
+        "p25": 331695,
+        "median": 331695,
+        "p75": 331695,
+        "n": 8
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest2741-39|mid": {
+        "p25": 222614,
+        "median": 222614,
+        "p75": 222614,
+        "n": 6
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest3272-40|mid": {
+        "p25": 246175,
+        "median": 246175,
+        "p75": 246175,
+        "n": 6
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest4535-38|mid": {
+        "p25": 350262,
+        "median": 350262,
+        "p75": 350262,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest8833-39|mid": {
+        "p25": 223004,
+        "median": 223004,
+        "p75": 223004,
+        "n": 10
+    },
+    "ernst & young u.s. llp|computer and information systems managers - kboeytest9712-30|mid": {
+        "p25": 310937,
+        "median": 310937,
+        "p75": 310937,
+        "n": 11
+    },
+    "ernst & young u.s. llp|computer and information systems managers-kboeytest10176-35|mid": {
+        "p25": 280499,
+        "median": 280499,
+        "p75": 280499,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers-kboeytest12190-19|mid": {
+        "p25": 243079,
+        "median": 243079,
+        "p75": 243079,
+        "n": 5
+    },
+    "ernst & young u.s. llp|computer and information systems managers-kboeytest9712-29|mid": {
+        "p25": 295155,
+        "median": 295155,
+        "p75": 295155,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrator - kbgfjg46029-25|mid": {
+        "p25": 136400,
+        "median": 136400,
+        "p75": 136400,
+        "n": 9
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg02435-32|mid": {
+        "p25": 201797,
+        "median": 201797,
+        "p75": 201797,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg100094-16|mid": {
+        "p25": 145669,
+        "median": 145669,
+        "p75": 145669,
+        "n": 8
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg102000-22|mid": {
+        "p25": 208913,
+        "median": 208913,
+        "p75": 208913,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg104929-9|mid": {
+        "p25": 243799,
+        "median": 243799,
+        "p75": 243799,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg134507-11|mid": {
+        "p25": 150380,
+        "median": 150380,
+        "p75": 150380,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg134806-8|mid": {
+        "p25": 111471,
+        "median": 111471,
+        "p75": 111471,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg135695-6|mid": {
+        "p25": 150777,
+        "median": 150777,
+        "p75": 150777,
+        "n": 9
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg142107-12|mid": {
+        "p25": 195951,
+        "median": 195951,
+        "p75": 195951,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg154176-6|mid": {
+        "p25": 158960,
+        "median": 158960,
+        "p75": 158960,
+        "n": 9
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg156764-17|mid": {
+        "p25": 215311,
+        "median": 215311,
+        "p75": 215311,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg165912-21|mid": {
+        "p25": 135777,
+        "median": 135777,
+        "p75": 135777,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg173074-8|mid": {
+        "p25": 205073,
+        "median": 205073,
+        "p75": 205073,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg174221-17|mid": {
+        "p25": 212286,
+        "median": 212286,
+        "p75": 212286,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg179096-5|mid": {
+        "p25": 193078,
+        "median": 193078,
+        "p75": 193078,
+        "n": 11
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg181274-10|mid": {
+        "p25": 121700,
+        "median": 121700,
+        "p75": 121700,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg181274-11|mid": {
+        "p25": 121700,
+        "median": 121700,
+        "p75": 121700,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg181494-7|mid": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 135000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg181494-9|mid": {
+        "p25": 153500,
+        "median": 153500,
+        "p75": 153500,
+        "n": 17
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg191627-8|mid": {
+        "p25": 134000,
+        "median": 134000,
+        "p75": 134000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg206850-5|mid": {
+        "p25": 144458,
+        "median": 144458,
+        "p75": 144458,
+        "n": 9
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg219661-5|mid": {
+        "p25": 93600,
+        "median": 93600,
+        "p75": 93600,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg219733-7|mid": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 130000,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg220092-4|mid": {
+        "p25": 174999,
+        "median": 174999,
+        "p75": 174999,
+        "n": 14
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg220172-5|mid": {
+        "p25": 112200,
+        "median": 112200,
+        "p75": 112200,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg220583-4|mid": {
+        "p25": 93600,
+        "median": 93600,
+        "p75": 93600,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg220789-4|mid": {
+        "p25": 121700,
+        "median": 121700,
+        "p75": 121700,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg220789-6|mid": {
+        "p25": 121700,
+        "median": 121700,
+        "p75": 121700,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg221056-6|mid": {
+        "p25": 121700,
+        "median": 121700,
+        "p75": 121700,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg222013-6|mid": {
+        "p25": 132612,
+        "median": 132612,
+        "p75": 132612,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg22246-17|mid": {
+        "p25": 221195,
+        "median": 221195,
+        "p75": 221195,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg222766-6|mid": {
+        "p25": 130726,
+        "median": 130726,
+        "p75": 130726,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg222772-8|mid": {
+        "p25": 127844,
+        "median": 127844,
+        "p75": 127844,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg222772-9|mid": {
+        "p25": 169999,
+        "median": 169999,
+        "p75": 169999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg225217-9|mid": {
+        "p25": 81900,
+        "median": 81900,
+        "p75": 81900,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg23472-22|mid": {
+        "p25": 192798,
+        "median": 192798,
+        "p75": 192798,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg266092-3|mid": {
+        "p25": 89999,
+        "median": 89999,
+        "p75": 89999,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg267039-2|mid": {
+        "p25": 82000,
+        "median": 82000,
+        "p75": 82000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg278728-5|mid": {
+        "p25": 121999,
+        "median": 121999,
+        "p75": 121999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg295711-7|mid": {
+        "p25": 124999,
+        "median": 124999,
+        "p75": 124999,
+        "n": 8
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg31279-20|mid": {
+        "p25": 238299,
+        "median": 238299,
+        "p75": 238299,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg31642-21|mid": {
+        "p25": 269764,
+        "median": 269764,
+        "p75": 269764,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg319042-2|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg321120-6|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 80000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg356349-2|mid": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 130000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg35994-14|mid": {
+        "p25": 219809,
+        "median": 219809,
+        "p75": 219809,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg45491-15|mid": {
+        "p25": 200891,
+        "median": 200891,
+        "p75": 200891,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg48124-14|mid": {
+        "p25": 206423,
+        "median": 206423,
+        "p75": 206423,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg57528-17|mid": {
+        "p25": 209999,
+        "median": 209999,
+        "p75": 209999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg72660-12|mid": {
+        "p25": 180600,
+        "median": 180600,
+        "p75": 180600,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg95584-16|mid": {
+        "p25": 268137,
+        "median": 268137,
+        "p75": 268137,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database administrators - kbgfjg99820-12|mid": {
+        "p25": 150690,
+        "median": 150690,
+        "p75": 150690,
+        "n": 7
+    },
+    "ernst & young u.s. llp|database administrators - kboeytest11720-21|mid": {
+        "p25": 268875,
+        "median": 268875,
+        "p75": 268875,
+        "n": 5
+    },
+    "ernst & young u.s. llp|database adminstrators - kbgfjg195856-10|mid": {
+        "p25": 145007,
+        "median": 145007,
+        "p75": 145007,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg06539-15|mid": {
+        "p25": 245156,
+        "median": 245156,
+        "p75": 245156,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg101853-11|mid": {
+        "p25": 234999,
+        "median": 234999,
+        "p75": 234999,
+        "n": 7
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg102222-14|mid": {
+        "p25": 138271,
+        "median": 138271,
+        "p75": 138271,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg167151-11|mid": {
+        "p25": 151845,
+        "median": 151845,
+        "p75": 151845,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg179366-7|mid": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 130000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg179586-7|mid": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 130000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg180765-6|mid": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 175000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg180766-7|mid": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 175000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg180766-9|mid": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 175000,
+        "n": 11
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg188811-10|mid": {
+        "p25": 146887,
+        "median": 146887,
+        "p75": 146887,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg202460-9|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg218383-6|mid": {
+        "p25": 184999,
+        "median": 184999,
+        "p75": 184999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg220293-5|mid": {
+        "p25": 184999,
+        "median": 184999,
+        "p75": 184999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg22220-24|mid": {
+        "p25": 301600,
+        "median": 301600,
+        "p75": 301600,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg22220-27|mid": {
+        "p25": 313664,
+        "median": 313664,
+        "p75": 313664,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg22861-22|mid": {
+        "p25": 290000,
+        "median": 290000,
+        "p75": 290000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg231436-16|mid": {
+        "p25": 205000,
+        "median": 205000,
+        "p75": 205000,
+        "n": 7
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg46629-21|mid": {
+        "p25": 205005,
+        "median": 205005,
+        "p75": 205005,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg71292-20|mid": {
+        "p25": 262999,
+        "median": 262999,
+        "p75": 262999,
+        "n": 6
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg71639-13|mid": {
+        "p25": 189670,
+        "median": 189670,
+        "p75": 189670,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kbgfjg97500-15|mid": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 14
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kboeytest2300-38|mid": {
+        "p25": 309139,
+        "median": 309139,
+        "p75": 309139,
+        "n": 6
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kboeytest2315-25|mid": {
+        "p25": 725000,
+        "median": 725000,
+        "p75": 725000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kboeytest2315-26|mid": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 14
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kboeytest5879-40|mid": {
+        "p25": 750000,
+        "median": 750000,
+        "p75": 750000,
+        "n": 7
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kboeytest6936-30|mid": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 8
+    },
+    "ernst & young u.s. llp|financial and investment analysts - kboeytest7070-42|mid": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|financial investment analysts - kbgfjg188968-8|mid": {
+        "p25": 127182,
+        "median": 127182,
+        "p75": 127182,
+        "n": 6
+    },
+    "ernst & young u.s. llp|financial quantitative analysts - kbgfjg134819-15|mid": {
+        "p25": 177175,
+        "median": 177175,
+        "p75": 177175,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial quantitative analysts - kbgfjg70973-9|mid": {
+        "p25": 190162,
+        "median": 190162,
+        "p75": 190162,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial risk specialists - kbgfjg03759-21|mid": {
+        "p25": 202040,
+        "median": 202040,
+        "p75": 202040,
+        "n": 8
+    },
+    "ernst & young u.s. llp|financial risk specialists - kbgfjg103220-11|mid": {
+        "p25": 170258,
+        "median": 170258,
+        "p75": 170258,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial risk specialists - kbgfjg144948-10|mid": {
+        "p25": 143516,
+        "median": 143516,
+        "p75": 143516,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial risk specialists - kbgfjg184236-21|mid": {
+        "p25": 160304,
+        "median": 160304,
+        "p75": 160304,
+        "n": 5
+    },
+    "ernst & young u.s. llp|financial risk specialists - kbgfjg332702-3|mid": {
+        "p25": 105799,
+        "median": 105799,
+        "p75": 105799,
+        "n": 5
+    },
+    "ernst & young u.s. llp|human resources specialists - kbgfjg101502-13|mid": {
+        "p25": 123300,
+        "median": 123300,
+        "p75": 123300,
+        "n": 5
+    },
+    "ernst & young u.s. llp|human resources specialists - kbgfjg101502-14|mid": {
+        "p25": 123300,
+        "median": 123300,
+        "p75": 123300,
+        "n": 9
+    },
+    "ernst & young u.s. llp|industrial production managers - kboeytest4490-27|mid": {
+        "p25": 300000,
+        "median": 300000,
+        "p75": 300000,
+        "n": 12
+    },
+    "ernst & young u.s. llp|information security analyst - kbgfjg320770-3|mid": {
+        "p25": 174999,
+        "median": 174999,
+        "p75": 174999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg01624-21|mid": {
+        "p25": 149999,
+        "median": 149999,
+        "p75": 149999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg180219-10|mid": {
+        "p25": 98999,
+        "median": 98999,
+        "p75": 98999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg188807-10|mid": {
+        "p25": 167530,
+        "median": 167530,
+        "p75": 167530,
+        "n": 5
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg205531-32|mid": {
+        "p25": 191153,
+        "median": 191153,
+        "p75": 191153,
+        "n": 8
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg219116-9|mid": {
+        "p25": 212598,
+        "median": 212598,
+        "p75": 212598,
+        "n": 6
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg219733-5|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 7
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg222324-13|mid": {
+        "p25": 93775,
+        "median": 93775,
+        "p75": 93775,
+        "n": 5
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg224412-4|mid": {
+        "p25": 116264,
+        "median": 116264,
+        "p75": 116264,
+        "n": 5
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg23970-17|mid": {
+        "p25": 214999,
+        "median": 214999,
+        "p75": 214999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg336770-3|mid": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 135000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg341142-2|mid": {
+        "p25": 78000,
+        "median": 78000,
+        "p75": 78000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg51819-18|mid": {
+        "p25": 178751,
+        "median": 178751,
+        "p75": 178751,
+        "n": 9
+    },
+    "ernst & young u.s. llp|information security analysts - kbgfjg98080-12|mid": {
+        "p25": 185170,
+        "median": 185170,
+        "p75": 185170,
+        "n": 5
+    },
+    "ernst & young u.s. llp|information security analysts - kboeytest12640-19|mid": {
+        "p25": 305100,
+        "median": 305100,
+        "p75": 305100,
+        "n": 5
+    },
+    "ernst & young u.s. llp|information security engineers - kbgfjg221977-5|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 7
+    },
+    "ernst & young u.s. llp|logisticians - kbgfjg178220-14|mid": {
+        "p25": 178499,
+        "median": 178499,
+        "p75": 178499,
+        "n": 9
+    },
+    "ernst & young u.s. llp|logisticians - kbgfjg269374-2|mid": {
+        "p25": 174999,
+        "median": 174999,
+        "p75": 174999,
+        "n": 8
+    },
+    "ernst & young u.s. llp|logisticians - kbgfjg270776-3|mid": {
+        "p25": 174999,
+        "median": 174999,
+        "p75": 174999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|logisticians - kboeytest7072-57|mid": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 11
+    },
+    "ernst & young u.s. llp|management analysts - kbgfjg180311-6|mid": {
+        "p25": 195000,
+        "median": 200000,
+        "p75": 205000,
+        "n": 10
+    },
+    "ernst & young u.s. llp|management analysts - kbgfjg217906-7|mid": {
+        "p25": 110100,
+        "median": 110100,
+        "p75": 110100,
+        "n": 5
+    },
+    "ernst & young u.s. llp|management analysts - kbgfjg217927-11|mid": {
+        "p25": 179401,
+        "median": 179401,
+        "p75": 179401,
+        "n": 6
+    },
+    "ernst & young u.s. llp|management analysts - kbgfjg219908-5|mid": {
+        "p25": 195000,
+        "median": 195000,
+        "p75": 195000,
+        "n": 8
+    },
+    "ernst & young u.s. llp|management analysts - kbgfjg270644-3|mid": {
+        "p25": 180249,
+        "median": 180249,
+        "p75": 180249,
+        "n": 10
+    },
+    "ernst & young u.s. llp|management analysts - kbgfjg270993-5|mid": {
+        "p25": 180249,
+        "median": 180249,
+        "p75": 180249,
+        "n": 9
+    },
+    "ernst & young u.s. llp|management analysts - kbgfjg40681-22|mid": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|management analysts - kbgfjg99827-16|mid": {
+        "p25": 159474,
+        "median": 159474,
+        "p75": 159474,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg101434-12|mid": {
+        "p25": 234999,
+        "median": 234999,
+        "p75": 234999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg147468-11|mid": {
+        "p25": 196600,
+        "median": 196600,
+        "p75": 196600,
+        "n": 6
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg181322-9|mid": {
+        "p25": 144352,
+        "median": 144352,
+        "p75": 144352,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg188052-9|mid": {
+        "p25": 123000,
+        "median": 123000,
+        "p75": 123000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg193926-11|mid": {
+        "p25": 131669,
+        "median": 131669,
+        "p75": 131669,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg217927-7|mid": {
+        "p25": 176750,
+        "median": 176750,
+        "p75": 176750,
+        "n": 9
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg217927-8|mid": {
+        "p25": 176750,
+        "median": 176750,
+        "p75": 176750,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg218440-5|mid": {
+        "p25": 184999,
+        "median": 184999,
+        "p75": 184999,
+        "n": 11
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg218936-6|mid": {
+        "p25": 144781,
+        "median": 144781,
+        "p75": 144781,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg218975-11|mid": {
+        "p25": 112750,
+        "median": 112750,
+        "p75": 112750,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg219778-4|mid": {
+        "p25": 174999,
+        "median": 174999,
+        "p75": 174999,
+        "n": 13
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg219778-8|mid": {
+        "p25": 177624,
+        "median": 177624,
+        "p75": 177624,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg220757-2|mid": {
+        "p25": 105999,
+        "median": 105999,
+        "p75": 105999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg220813-3|mid": {
+        "p25": 174999,
+        "median": 174999,
+        "p75": 174999,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg25215-21|mid": {
+        "p25": 178045,
+        "median": 178045,
+        "p75": 178045,
+        "n": 5
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg283998-5|mid": {
+        "p25": 204999,
+        "median": 204999,
+        "p75": 204999,
+        "n": 6
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg37990-22|mid": {
+        "p25": 224596,
+        "median": 224596,
+        "p75": 224596,
+        "n": 8
+    },
+    "ernst & young u.s. llp|operations research analysts - kbgfjg48672-23|mid": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developer - kbgfjg189009-12|mid": {
+        "p25": 151816,
+        "median": 169999,
+        "p75": 169999,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg100093-22|mid": {
+        "p25": 142000,
+        "median": 142000,
+        "p75": 142000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg102068-8|mid": {
+        "p25": 239999,
+        "median": 239999,
+        "p75": 239999,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg108855-11|mid": {
+        "p25": 175456,
+        "median": 175456,
+        "p75": 175456,
+        "n": 14
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg128253-20|mid": {
+        "p25": 203728,
+        "median": 203728,
+        "p75": 203728,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg166171-14|mid": {
+        "p25": 203678,
+        "median": 203678,
+        "p75": 203678,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg166971-12|mid": {
+        "p25": 162765,
+        "median": 162765,
+        "p75": 162765,
+        "n": 7
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg166971-20|mid": {
+        "p25": 168055,
+        "median": 168055,
+        "p75": 168055,
+        "n": 9
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg174800-8|mid": {
+        "p25": 141307,
+        "median": 141307,
+        "p75": 141307,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg176071-5|mid": {
+        "p25": 114200,
+        "median": 114200,
+        "p75": 114200,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg176298-12|mid": {
+        "p25": 145081,
+        "median": 145081,
+        "p75": 145081,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg176715-8|mid": {
+        "p25": 151051,
+        "median": 151051,
+        "p75": 151051,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg176715-9|mid": {
+        "p25": 152563,
+        "median": 152563,
+        "p75": 152563,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg185339-11|mid": {
+        "p25": 125971,
+        "median": 125971,
+        "p75": 125971,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg187093-7|mid": {
+        "p25": 189747,
+        "median": 189747,
+        "p75": 189747,
+        "n": 7
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg192917-9|mid": {
+        "p25": 175184,
+        "median": 175184,
+        "p75": 175184,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg205348-7|mid": {
+        "p25": 220245,
+        "median": 220245,
+        "p75": 220245,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg218571-3|mid": {
+        "p25": 94799,
+        "median": 94799,
+        "p75": 94799,
+        "n": 8
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg218571-4|mid": {
+        "p25": 94799,
+        "median": 94799,
+        "p75": 94799,
+        "n": 8
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg222579-4|mid": {
+        "p25": 102300,
+        "median": 102300,
+        "p75": 102300,
+        "n": 7
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg22337-11|mid": {
+        "p25": 184590,
+        "median": 184590,
+        "p75": 184590,
+        "n": 8
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg22337-12|mid": {
+        "p25": 184590,
+        "median": 184590,
+        "p75": 184590,
+        "n": 8
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg224275-10|mid": {
+        "p25": 141831,
+        "median": 151759,
+        "p75": 161687,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg268103-3|mid": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 175000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg319792-2|mid": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg32615-21|mid": {
+        "p25": 181851,
+        "median": 181851,
+        "p75": 181851,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg36586-15|mid": {
+        "p25": 269116,
+        "median": 269116,
+        "p75": 269116,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg368819-2|mid": {
+        "p25": 199999,
+        "median": 199999,
+        "p75": 199999,
+        "n": 10
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg45096-17|mid": {
+        "p25": 202385,
+        "median": 222917,
+        "p75": 222917,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg46218-22|mid": {
+        "p25": 266822,
+        "median": 266822,
+        "p75": 266822,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg46379-15|mid": {
+        "p25": 220957,
+        "median": 220957,
+        "p75": 220957,
+        "n": 8
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg46666-14|mid": {
+        "p25": 242302,
+        "median": 242302,
+        "p75": 242302,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg46673-16|mid": {
+        "p25": 159071,
+        "median": 159071,
+        "p75": 159071,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg51672-14|mid": {
+        "p25": 278000,
+        "median": 278000,
+        "p75": 278000,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg57529-18|mid": {
+        "p25": 244624,
+        "median": 244624,
+        "p75": 244624,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg71562-10|mid": {
+        "p25": 211140,
+        "median": 211140,
+        "p75": 211140,
+        "n": 8
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg71874-10|mid": {
+        "p25": 155300,
+        "median": 174218,
+        "p75": 193136,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg76491-21|mid": {
+        "p25": 213429,
+        "median": 213429,
+        "p75": 213429,
+        "n": 9
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg89618-9|mid": {
+        "p25": 218225,
+        "median": 218225,
+        "p75": 218225,
+        "n": 7
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg94047-11|mid": {
+        "p25": 227296,
+        "median": 227296,
+        "p75": 227296,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg95017-17|mid": {
+        "p25": 247683,
+        "median": 247683,
+        "p75": 247683,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kbgfjg98968-8|mid": {
+        "p25": 252040,
+        "median": 252040,
+        "p75": 252040,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kboeytest10610-22|mid": {
+        "p25": 223409,
+        "median": 223409,
+        "p75": 223409,
+        "n": 9
+    },
+    "ernst & young u.s. llp|software developers - kboeytest10883-17|mid": {
+        "p25": 212889,
+        "median": 212889,
+        "p75": 212889,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kboeytest1176-40|mid": {
+        "p25": 275683,
+        "median": 275683,
+        "p75": 275683,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kboeytest12674-24|mid": {
+        "p25": 207300,
+        "median": 207300,
+        "p75": 207300,
+        "n": 6
+    },
+    "ernst & young u.s. llp|software developers - kboeytest13386-25|mid": {
+        "p25": 290500,
+        "median": 290500,
+        "p75": 290500,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers - kboeytest2284-25|mid": {
+        "p25": 240117,
+        "median": 240117,
+        "p75": 240117,
+        "n": 13
+    },
+    "ernst & young u.s. llp|software developers - kboeytest7682-24|mid": {
+        "p25": 193271,
+        "median": 193271,
+        "p75": 193271,
+        "n": 5
+    },
+    "ernst & young u.s. llp|software developers\u00a0 - kbgfjg205348-4|mid": {
+        "p25": 213313,
+        "median": 213313,
+        "p75": 213313,
+        "n": 5
+    },
+    "ernst & young u.s. llp|statistician - kbgfjg135681-11|mid": {
+        "p25": 177620,
+        "median": 177620,
+        "p75": 177620,
+        "n": 5
+    },
+    "erp analysts, inc.|peoplesoft administrator|mid": {
+        "p25": 92456,
+        "median": 113771,
+        "p75": 119679,
+        "n": 6
+    },
+    "erp analysts, inc.|peoplesoft developer|mid": {
+        "p25": 122742,
+        "median": 135000,
+        "p75": 141816,
+        "n": 8
+    },
+    "erplabs inc|software engineer|mid": {
+        "p25": 84983,
+        "median": 93870,
+        "p75": 114259,
+        "n": 10
+    },
+    "eshares, inc.|senior software engineer ii|senior": {
+        "p25": 188750,
+        "median": 200000,
+        "p75": 207500,
+        "n": 6
+    },
+    "eshocan llc|cae engineer|mid": {
+        "p25": 87589,
+        "median": 94786,
+        "p75": 108826,
+        "n": 9
+    },
+    "eshocan llc|design engineer|mid": {
+        "p25": 87588,
+        "median": 90615,
+        "p75": 108826,
+        "n": 8
+    },
+    "espanola public schools|special education elementary teacher|mid": {
+        "p25": 52500,
+        "median": 52500,
+        "p75": 52500,
+        "n": 6
+    },
+    "estrada consulting inc.|software developer|mid": {
+        "p25": 114431,
+        "median": 121451,
+        "p75": 121451,
+        "n": 11
+    },
+    "estuate inc|software engineer|mid": {
+        "p25": 82971,
+        "median": 82971,
+        "p75": 82971,
+        "n": 5
+    },
+    "esvee technologies, inc|software developer|mid": {
+        "p25": 83678,
+        "median": 86549,
+        "p75": 97157,
+        "n": 5
+    },
+    "esystems inc.|curam developer|mid": {
+        "p25": 128750,
+        "median": 145000,
+        "p75": 157500,
+        "n": 6
+    },
+    "esystems inc.|senior curam developer|senior": {
+        "p25": 145000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "eteam inc.|application developer|mid": {
+        "p25": 111250,
+        "median": 115000,
+        "p75": 115750,
+        "n": 6
+    },
+    "etech global it solutions llc|bi developer|mid": {
+        "p25": 103605,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "etek it solutions, inc|software developer|mid": {
+        "p25": 122699,
+        "median": 122699,
+        "p75": 122699,
+        "n": 18
+    },
+    "etek it solutions, inc|software engineer|mid": {
+        "p25": 112923,
+        "median": 114400,
+        "p75": 122699,
+        "n": 5
+    },
+    "etek it solutions, inc|sr. software engineer|senior": {
+        "p25": 109824,
+        "median": 129667,
+        "p75": 129667,
+        "n": 6
+    },
+    "etekserve inc|software developer|mid": {
+        "p25": 84781,
+        "median": 84781,
+        "p75": 95493,
+        "n": 9
+    },
+    "etouch systems corporation|quality assurance analyst 2|mid": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 133500,
+        "n": 17
+    },
+    "etouch systems corporation|quality assurance engineer 3|mid": {
+        "p25": 138688,
+        "median": 164177,
+        "p75": 164750,
+        "n": 8
+    },
+    "euclid innovations inc|software developer|mid": {
+        "p25": 93569,
+        "median": 113000,
+        "p75": 123678,
+        "n": 7
+    },
+    "euniverse technologies llc|data engineer|mid": {
+        "p25": 88264,
+        "median": 92040,
+        "p75": 93204,
+        "n": 7
+    },
+    "euniverse technologies llc|software developer|mid": {
+        "p25": 84094,
+        "median": 89232,
+        "p75": 103511,
+        "n": 6
+    },
+    "eureka infotech inc|software developer|mid": {
+        "p25": 83000,
+        "median": 92400,
+        "p75": 105997,
+        "n": 13
+    },
+    "eurofins lancaster laboratories professional scientific services, llc|biochemist i|entry": {
+        "p25": 40518,
+        "median": 41600,
+        "p75": 41953,
+        "n": 5
+    },
+    "eva care group, llc|accountant|mid": {
+        "p25": 70012,
+        "median": 72820,
+        "p75": 72820,
+        "n": 5
+    },
+    "evaric pharmaceuticals inc.|quality control chemist|mid": {
+        "p25": 63100,
+        "median": 72000,
+        "p75": 86250,
+        "n": 7
+    },
+    "eve energy us holding llc|equipment mechanic|mid": {
+        "p25": 45053,
+        "median": 53206,
+        "p75": 53206,
+        "n": 7
+    },
+    "eve energy us holding llc|production equipment engineer|mid": {
+        "p25": 39832,
+        "median": 39832,
+        "p75": 39832,
+        "n": 5
+    },
+    "evercore partners services east llc|analyst|mid": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 120000,
+        "n": 12
+    },
+    "evercore partners services east llc|associate|entry": {
+        "p25": 185000,
+        "median": 185000,
+        "p75": 185000,
+        "n": 30
+    },
+    "evercore partners services east llc|senior analyst|senior": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 120000,
+        "n": 9
+    },
+    "evercore partners services east llc|vice president|senior": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 14
+    },
+    "everest computers inc|software developer|mid": {
+        "p25": 105750,
+        "median": 110000,
+        "p75": 111500,
+        "n": 7
+    },
+    "everest consulting group inc.|sr. programmer analyst|senior": {
+        "p25": 94827,
+        "median": 118040,
+        "p75": 126942,
+        "n": 45
+    },
+    "everest global solutions, inc.|software developer|mid": {
+        "p25": 101123,
+        "median": 105997,
+        "p75": 110294,
+        "n": 16
+    },
+    "everest technologies, inc.|software developer|mid": {
+        "p25": 103000,
+        "median": 120000,
+        "p75": 120598,
+        "n": 5
+    },
+    "everite solutions inc|software developer|mid": {
+        "p25": 83000,
+        "median": 85400,
+        "p75": 95696,
+        "n": 9
+    },
+    "evicore healthcare msi, llc|application development advisor|mid": {
+        "p25": 133655,
+        "median": 134014,
+        "p75": 134014,
+        "n": 6
+    },
+    "evicore healthcare msi, llc|software engineering advisor|mid": {
+        "p25": 105892,
+        "median": 134014,
+        "p75": 137321,
+        "n": 11
+    },
+    "evicore healthcare msi, llc|software engineering senior advisor|senior": {
+        "p25": 131315,
+        "median": 138164,
+        "p75": 140920,
+        "n": 8
+    },
+    "evoke technologies|software engineer|mid": {
+        "p25": 91250,
+        "median": 100069,
+        "p75": 105206,
+        "n": 9
+    },
+    "evolutioniq llc|senior software engineer|senior": {
+        "p25": 163550,
+        "median": 175000,
+        "p75": 189592,
+        "n": 5
+    },
+    "evry usa corporation|project lead|senior": {
+        "p25": 86000,
+        "median": 90576,
+        "p75": 114936,
+        "n": 5
+    },
+    "exafunction, inc.|software engineer|mid": {
+        "p25": 160000,
+        "median": 170000,
+        "p75": 210000,
+        "n": 7
+    },
+    "excel associates llc|computer systems analyst|mid": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 102684,
+        "n": 6
+    },
+    "excel education llc|special education teacher|mid": {
+        "p25": 58370,
+        "median": 63010,
+        "p75": 65860,
+        "n": 9
+    },
+    "excel it corp|software engineer|mid": {
+        "p25": 95000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 5
+    },
+    "excela solutions, inc.|devops engineer|mid": {
+        "p25": 95493,
+        "median": 106000,
+        "p75": 106000,
+        "n": 5
+    },
+    "excelacom inc|consultant|mid": {
+        "p25": 97157,
+        "median": 110000,
+        "p75": 125000,
+        "n": 5
+    },
+    "excellent it soft|software developer|mid": {
+        "p25": 114181,
+        "median": 121451,
+        "p75": 121451,
+        "n": 6
+    },
+    "excellerate education solutions inc dba excellerate consulting|software developer|mid": {
+        "p25": 108000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 11
+    },
+    "excelon solutions llc|salesforce developer|mid": {
+        "p25": 106277,
+        "median": 107037,
+        "p75": 111103,
+        "n": 7
+    },
+    "executive software guild inc|software developer|mid": {
+        "p25": 105997,
+        "median": 112923,
+        "p75": 131091,
+        "n": 16
+    },
+    "executive software guild, inc.|software developer|mid": {
+        "p25": 106813,
+        "median": 109262,
+        "p75": 109277,
+        "n": 14
+    },
+    "exel, inc.|industrial engineer|mid": {
+        "p25": 84841,
+        "median": 99682,
+        "p75": 100000,
+        "n": 6
+    },
+    "exel, inc.|senior business data analyst|senior": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 6
+    },
+    "exelon business services company llc|senior software engineer 1|mid": {
+        "p25": 130707,
+        "median": 131154,
+        "p75": 131602,
+        "n": 6
+    },
+    "eximietas design llc|staff engineer|senior": {
+        "p25": 131341,
+        "median": 151091,
+        "p75": 151091,
+        "n": 12
+    },
+    "exlservice.com, llc|assistant manager|mid": {
+        "p25": 86433,
+        "median": 95077,
+        "p75": 98233,
+        "n": 8
+    },
+    "exlservice.com, llc|assistant manager - services|mid": {
+        "p25": 85300,
+        "median": 87100,
+        "p75": 93250,
+        "n": 6
+    },
+    "exlservice.com, llc|assistant vice president|senior": {
+        "p25": 133772,
+        "median": 149912,
+        "p75": 160700,
+        "n": 27
+    },
+    "exlservice.com, llc|business analyst|mid": {
+        "p25": 76597,
+        "median": 80976,
+        "p75": 88190,
+        "n": 6
+    },
+    "exlservice.com, llc|consultant i|entry": {
+        "p25": 75733,
+        "median": 84000,
+        "p75": 100000,
+        "n": 7
+    },
+    "exlservice.com, llc|consultant ii|mid": {
+        "p25": 90000,
+        "median": 98225,
+        "p75": 100000,
+        "n": 25
+    },
+    "exlservice.com, llc|engagement manager|senior": {
+        "p25": 148604,
+        "median": 155000,
+        "p75": 163097,
+        "n": 30
+    },
+    "exlservice.com, llc|lead assistant manager|senior": {
+        "p25": 103709,
+        "median": 103854,
+        "p75": 123656,
+        "n": 16
+    },
+    "exlservice.com, llc|manager|senior": {
+        "p25": 100000,
+        "median": 103709,
+        "p75": 110822,
+        "n": 29
+    },
+    "exlservice.com, llc|manager - services|senior": {
+        "p25": 84947,
+        "median": 97300,
+        "p75": 100845,
+        "n": 13
+    },
+    "exlservice.com, llc|project manager|senior": {
+        "p25": 115000,
+        "median": 128923,
+        "p75": 138709,
+        "n": 48
+    },
+    "exlservice.com, llc|senior business analyst|senior": {
+        "p25": 80250,
+        "median": 81000,
+        "p75": 87750,
+        "n": 6
+    },
+    "exlservice.com, llc|senior consultant|senior": {
+        "p25": 106017,
+        "median": 110000,
+        "p75": 116191,
+        "n": 39
+    },
+    "exlservice.com, llc|senior engagement manager|senior": {
+        "p25": 175585,
+        "median": 181488,
+        "p75": 200000,
+        "n": 16
+    },
+    "exlservice.com, llc|senior manager|senior": {
+        "p25": 115159,
+        "median": 120000,
+        "p75": 130000,
+        "n": 33
+    },
+    "exlservice.com, llc|vice president|senior": {
+        "p25": 200000,
+        "median": 211821,
+        "p75": 243410,
+        "n": 6
+    },
+    "exoduspoint capital management, lp|quantitative researcher|mid": {
+        "p25": 132371,
+        "median": 132371,
+        "p75": 141170,
+        "n": 5
+    },
+    "expedia, inc.|data engineer|mid": {
+        "p25": 127856,
+        "median": 137259,
+        "p75": 154513,
+        "n": 47
+    },
+    "expedia, inc.|data scientist, analytics|mid": {
+        "p25": 118414,
+        "median": 118414,
+        "p75": 143808,
+        "n": 27
+    },
+    "expedia, inc.|machine learning engineer|mid": {
+        "p25": 149240,
+        "median": 155650,
+        "p75": 163862,
+        "n": 13
+    },
+    "expedia, inc.|machine learning scientist|mid": {
+        "p25": 118414,
+        "median": 136629,
+        "p75": 150987,
+        "n": 17
+    },
+    "expedia, inc.|mobile engineer|mid": {
+        "p25": 118741,
+        "median": 137259,
+        "p75": 168074,
+        "n": 16
+    },
+    "expedia, inc.|principal software development engineer|senior": {
+        "p25": 190486,
+        "median": 190486,
+        "p75": 206315,
+        "n": 9
+    },
+    "expedia, inc.|product manager|senior": {
+        "p25": 111550,
+        "median": 136843,
+        "p75": 148631,
+        "n": 24
+    },
+    "expedia, inc.|program manager|senior": {
+        "p25": 110531,
+        "median": 139298,
+        "p75": 155847,
+        "n": 7
+    },
+    "expedia, inc.|senior data engineer|senior": {
+        "p25": 155709,
+        "median": 163550,
+        "p75": 190486,
+        "n": 14
+    },
+    "expedia, inc.|senior machine learning scientist|senior": {
+        "p25": 183581,
+        "median": 183581,
+        "p75": 196914,
+        "n": 5
+    },
+    "expedia, inc.|senior manager, data engineering|senior": {
+        "p25": 180482,
+        "median": 185037,
+        "p75": 186646,
+        "n": 5
+    },
+    "expedia, inc.|senior manager, software development engineering|senior": {
+        "p25": 185037,
+        "median": 198903,
+        "p75": 218317,
+        "n": 25
+    },
+    "expedia, inc.|senior product manager|senior": {
+        "p25": 137565,
+        "median": 166317,
+        "p75": 171163,
+        "n": 8
+    },
+    "expedia, inc.|senior software development engineer|senior": {
+        "p25": 155709,
+        "median": 190486,
+        "p75": 190486,
+        "n": 49
+    },
+    "expedia, inc.|software development engineer|mid": {
+        "p25": 118913,
+        "median": 137259,
+        "p75": 150886,
+        "n": 220
+    },
+    "expedia, inc.|technical program manager|senior": {
+        "p25": 136798,
+        "median": 136843,
+        "p75": 165610,
+        "n": 5
+    },
+    "experian information solutions, inc.|senior software engineer|senior": {
+        "p25": 127000,
+        "median": 127000,
+        "p75": 128500,
+        "n": 7
+    },
+    "experis us, llc|data analyst|mid": {
+        "p25": 82513,
+        "median": 85217,
+        "p75": 102169,
+        "n": 5
+    },
+    "experis us, llc|data engineer|mid": {
+        "p25": 110219,
+        "median": 114701,
+        "p75": 117150,
+        "n": 10
+    },
+    "experis us, llc|software engineer|mid": {
+        "p25": 112424,
+        "median": 112424,
+        "p75": 112985,
+        "n": 5
+    },
+    "experis us, llc|sr. software developer|senior": {
+        "p25": 127784,
+        "median": 132808,
+        "p75": 134347,
+        "n": 22
+    },
+    "experis us, llc|sr. software engineer|senior": {
+        "p25": 134347,
+        "median": 134347,
+        "p75": 134347,
+        "n": 5
+    },
+    "exponent, inc.|senior associate|mid": {
+        "p25": 100000,
+        "median": 110000,
+        "p75": 115000,
+        "n": 5
+    },
+    "exstiti llc|software developer|mid": {
+        "p25": 85384,
+        "median": 93038,
+        "p75": 93226,
+        "n": 5
+    },
+    "exto inc.|software engineer|mid": {
+        "p25": 133500,
+        "median": 135000,
+        "p75": 135000,
+        "n": 6
+    },
+    "exusia, inc.|senior etl developer|senior": {
+        "p25": 93750,
+        "median": 142500,
+        "p75": 158200,
+        "n": 8
+    },
+    "exzac|consultant|mid": {
+        "p25": 111000,
+        "median": 125000,
+        "p75": 130000,
+        "n": 9
+    },
+    "exzac|manager|senior": {
+        "p25": 153000,
+        "median": 160000,
+        "p75": 175000,
+        "n": 11
+    },
+    "exzac|senior consultant|senior": {
+        "p25": 120500,
+        "median": 135000,
+        "p75": 145000,
+        "n": 13
+    },
+    "eyvatek llc|computer programmer|mid": {
+        "p25": 90262,
+        "median": 101254,
+        "p75": 102315,
+        "n": 11
+    },
+    "ez solutions inc|software developer|mid": {
+        "p25": 109283,
+        "median": 117748,
+        "p75": 117748,
+        "n": 5
+    }
+}

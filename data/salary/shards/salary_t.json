@@ -1,0 +1,6488 @@
+{
+    "t-mobile usa, inc.|business analysis manager|senior": {
+        "p25": 128750,
+        "median": 128750,
+        "p75": 133977,
+        "n": 5
+    },
+    "t-mobile usa, inc.|engineer, data|mid": {
+        "p25": 115000,
+        "median": 117700,
+        "p75": 126172,
+        "n": 8
+    },
+    "t-mobile usa, inc.|engineer, radio frequency|mid": {
+        "p25": 102404,
+        "median": 106570,
+        "p75": 108641,
+        "n": 10
+    },
+    "t-mobile usa, inc.|engineer, software|mid": {
+        "p25": 117500,
+        "median": 129731,
+        "p75": 139516,
+        "n": 33
+    },
+    "t-mobile usa, inc.|principal architect, systems|senior": {
+        "p25": 168300,
+        "median": 187923,
+        "p75": 194361,
+        "n": 9
+    },
+    "t-mobile usa, inc.|principal engineer, software|senior": {
+        "p25": 172310,
+        "median": 178680,
+        "p75": 189319,
+        "n": 34
+    },
+    "t-mobile usa, inc.|principal engineer, systems architecture|senior": {
+        "p25": 163849,
+        "median": 165779,
+        "p75": 172052,
+        "n": 15
+    },
+    "t-mobile usa, inc.|product manager|senior": {
+        "p25": 146763,
+        "median": 148625,
+        "p75": 155500,
+        "n": 7
+    },
+    "t-mobile usa, inc.|product manager, technical|senior": {
+        "p25": 131350,
+        "median": 145642,
+        "p75": 156000,
+        "n": 10
+    },
+    "t-mobile usa, inc.|senior engineer, software|senior": {
+        "p25": 151169,
+        "median": 158563,
+        "p75": 169420,
+        "n": 38
+    },
+    "t-mobile usa, inc.|senior engineer, systems architecture|senior": {
+        "p25": 140107,
+        "median": 147244,
+        "p75": 149294,
+        "n": 9
+    },
+    "t-mobile usa, inc.|software engineer|mid": {
+        "p25": 107000,
+        "median": 130500,
+        "p75": 131000,
+        "n": 5
+    },
+    "t-mobile usa, inc.|sr analyst, business intelligence|senior": {
+        "p25": 112785,
+        "median": 119000,
+        "p75": 121000,
+        "n": 7
+    },
+    "t-mobile usa, inc.|sr engineer, data|senior": {
+        "p25": 146625,
+        "median": 161000,
+        "p75": 168487,
+        "n": 16
+    },
+    "t-mobile usa, inc.|sr engineer, radio frequency|senior": {
+        "p25": 121686,
+        "median": 126415,
+        "p75": 126776,
+        "n": 5
+    },
+    "t-mobile usa, inc.|sr engineer, sdet|senior": {
+        "p25": 104215,
+        "median": 107061,
+        "p75": 109446,
+        "n": 6
+    },
+    "t-mobile usa, inc.|sr engineer, software|senior": {
+        "p25": 140000,
+        "median": 154000,
+        "p75": 170000,
+        "n": 65
+    },
+    "t-mobile usa, inc.|sr engineer, systems architecture|senior": {
+        "p25": 126426,
+        "median": 138018,
+        "p75": 150443,
+        "n": 19
+    },
+    "t-mobile usa, inc.|sr engineer, systems design|senior": {
+        "p25": 120207,
+        "median": 125513,
+        "p75": 141908,
+        "n": 7
+    },
+    "t-mobile usa, inc.|sr engineer, systems reliability|senior": {
+        "p25": 125730,
+        "median": 135500,
+        "p75": 144000,
+        "n": 6
+    },
+    "t-mobile usa, inc.|sr product manager, technical|senior": {
+        "p25": 166491,
+        "median": 181180,
+        "p75": 189608,
+        "n": 7
+    },
+    "t-mobile usa, inc.|sr. engineer, software|senior": {
+        "p25": 143005,
+        "median": 149408,
+        "p75": 162071,
+        "n": 14
+    },
+    "t. rowe price associates, inc.|lead software engineer|senior": {
+        "p25": 152000,
+        "median": 152000,
+        "p75": 152000,
+        "n": 6
+    },
+    "t. rowe price associates, inc.|senior software engineer|senior": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 152000,
+        "n": 18
+    },
+    "t. rowe price associates, inc.|software engineer|mid": {
+        "p25": 121009,
+        "median": 124000,
+        "p75": 125750,
+        "n": 8
+    },
+    "t. rowe price associates, inc.|sr. software engineer|senior": {
+        "p25": 125000,
+        "median": 151091,
+        "p75": 152000,
+        "n": 11
+    },
+    "t.o.n.e. home health services, inc.|physical therapist|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 87625,
+        "n": 6
+    },
+    "t.y. lin international|bridge designer|mid": {
+        "p25": 78350,
+        "median": 85228,
+        "p75": 87308,
+        "n": 10
+    },
+    "taad llp|auditor|mid": {
+        "p25": 73499,
+        "median": 75499,
+        "p75": 78999,
+        "n": 6
+    },
+    "taal technologies inc|design engineer|mid": {
+        "p25": 95000,
+        "median": 95000,
+        "p75": 95000,
+        "n": 9
+    },
+    "tabner inc|software developer|mid": {
+        "p25": 112424,
+        "median": 112986,
+        "p75": 112986,
+        "n": 30
+    },
+    "tachyon technologies llc|software developer|mid": {
+        "p25": 109706,
+        "median": 113901,
+        "p75": 115425,
+        "n": 8
+    },
+    "tailstorm health, inc|manufacturing associate|entry": {
+        "p25": 72696,
+        "median": 73965,
+        "p75": 75234,
+        "n": 6
+    },
+    "takeda development center americas, inc.|scientist|mid": {
+        "p25": 126737,
+        "median": 129655,
+        "p75": 130810,
+        "n": 6
+    },
+    "takeo tech llc|data engineer|mid": {
+        "p25": 65333,
+        "median": 71594,
+        "p75": 82763,
+        "n": 5
+    },
+    "takeo tech llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 90397,
+        "p75": 94396,
+        "n": 11
+    },
+    "talech, inc.|senior software engineer|senior": {
+        "p25": 137165,
+        "median": 147002,
+        "p75": 151223,
+        "n": 7
+    },
+    "talech, inc.|software engineer|mid": {
+        "p25": 123756,
+        "median": 126321,
+        "p75": 134181,
+        "n": 5
+    },
+    "talent clustr llc|computer programmer|mid": {
+        "p25": 109138,
+        "median": 109138,
+        "p75": 109138,
+        "n": 7
+    },
+    "talent it services inc|software developer|mid": {
+        "p25": 96949,
+        "median": 96949,
+        "p75": 105227,
+        "n": 5
+    },
+    "talent trust tech inc|program analyst|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 80000,
+        "n": 7
+    },
+    "tammina infotech inc|software engineer|mid": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 8
+    },
+    "tana systems inc|software developer|mid": {
+        "p25": 66000,
+        "median": 73000,
+        "p75": 73000,
+        "n": 47
+    },
+    "tangensis inc|android developer|mid": {
+        "p25": 98197,
+        "median": 108077,
+        "p75": 109512,
+        "n": 5
+    },
+    "tango management consulting llc|functional systems architect|senior": {
+        "p25": 85363,
+        "median": 105997,
+        "p75": 112000,
+        "n": 9
+    },
+    "tanisha systems inc|business analyst|mid": {
+        "p25": 71595,
+        "median": 75528,
+        "p75": 80704,
+        "n": 6
+    },
+    "tanisha systems inc|data engineer|mid": {
+        "p25": 91600,
+        "median": 95600,
+        "p75": 97157,
+        "n": 5
+    },
+    "tanisha systems inc|project manager|senior": {
+        "p25": 85700,
+        "median": 86403,
+        "p75": 105560,
+        "n": 5
+    },
+    "tanisha systems inc|software engineer|mid": {
+        "p25": 83003,
+        "median": 88250,
+        "p75": 94744,
+        "n": 18
+    },
+    "tanishsoft llc|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 6
+    },
+    "tanius technology, llc.|quantitative research analyst|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 6
+    },
+    "tanner, llc|audit associate|entry": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 75000,
+        "n": 5
+    },
+    "tanpro technologies llc|software developer|mid": {
+        "p25": 103210,
+        "median": 103210,
+        "p75": 103210,
+        "n": 9
+    },
+    "tanvi it solutions inc|software developer|mid": {
+        "p25": 109810,
+        "median": 113000,
+        "p75": 122250,
+        "n": 8
+    },
+    "tanvi it solutions inc|software engineer|mid": {
+        "p25": 106442,
+        "median": 106442,
+        "p75": 124740,
+        "n": 5
+    },
+    "tardus inc|java developer|mid": {
+        "p25": 108826,
+        "median": 114754,
+        "p75": 160612,
+        "n": 10
+    },
+    "tardus inc|software developer|mid": {
+        "p25": 94671,
+        "median": 107411,
+        "p75": 111898,
+        "n": 10
+    },
+    "target enterprise, inc.|lead ai engineer|senior": {
+        "p25": 161089,
+        "median": 170716,
+        "p75": 170716,
+        "n": 5
+    },
+    "target enterprise, inc.|lead data analyst|senior": {
+        "p25": 120032,
+        "median": 140764,
+        "p75": 142230,
+        "n": 6
+    },
+    "target enterprise, inc.|lead data scientist|senior": {
+        "p25": 145925,
+        "median": 154000,
+        "p75": 162032,
+        "n": 8
+    },
+    "target enterprise, inc.|lead engineer|senior": {
+        "p25": 141898,
+        "median": 141898,
+        "p75": 145018,
+        "n": 62
+    },
+    "target enterprise, inc.|principal engineer|senior": {
+        "p25": 144677,
+        "median": 163000,
+        "p75": 179500,
+        "n": 7
+    },
+    "target enterprise, inc.|senior data scientist|senior": {
+        "p25": 119163,
+        "median": 119163,
+        "p75": 122637,
+        "n": 5
+    },
+    "target enterprise, inc.|senior engineer|senior": {
+        "p25": 122741,
+        "median": 125798,
+        "p75": 141898,
+        "n": 43
+    },
+    "target enterprise, inc.|senior engineering manager|senior": {
+        "p25": 161388,
+        "median": 177467,
+        "p75": 178256,
+        "n": 6
+    },
+    "target enterprise, inc.|sr engineer|senior": {
+        "p25": 118795,
+        "median": 118800,
+        "p75": 129062,
+        "n": 41
+    },
+    "target enterprise, inc.|sr engineering manager|senior": {
+        "p25": 157812,
+        "median": 176679,
+        "p75": 176679,
+        "n": 7
+    },
+    "target enterprise, inc.|sr. engineer|senior": {
+        "p25": 126724,
+        "median": 139412,
+        "p75": 141898,
+        "n": 6
+    },
+    "tarleton state university|assistant professor|entry": {
+        "p25": 66349,
+        "median": 78000,
+        "p75": 93000,
+        "n": 11
+    },
+    "taskrabbit, inc.|senior software engineer|senior": {
+        "p25": 151000,
+        "median": 155000,
+        "p75": 163000,
+        "n": 5
+    },
+    "tata consultancy services limited|analysis engineer|mid": {
+        "p25": 87589,
+        "median": 87589,
+        "p75": 89736,
+        "n": 8
+    },
+    "tata consultancy services limited|analyst|mid": {
+        "p25": 81925,
+        "median": 89710,
+        "p75": 98925,
+        "n": 806
+    },
+    "tata consultancy services limited|analyst - information security|mid": {
+        "p25": 91562,
+        "median": 91562,
+        "p75": 107307,
+        "n": 7
+    },
+    "tata consultancy services limited|analyst - testing|mid": {
+        "p25": 81120,
+        "median": 86923,
+        "p75": 101234,
+        "n": 338
+    },
+    "tata consultancy services limited|analyst \u2013 testing|mid": {
+        "p25": 82274,
+        "median": 86923,
+        "p75": 98550,
+        "n": 39
+    },
+    "tata consultancy services limited|analyst \u201c information security|mid": {
+        "p25": 91562,
+        "median": 94411,
+        "p75": 121357,
+        "n": 8
+    },
+    "tata consultancy services limited|analyst \u201c testing|mid": {
+        "p25": 81120,
+        "median": 86871,
+        "p75": 101234,
+        "n": 130
+    },
+    "tata consultancy services limited|analyst-testing|mid": {
+        "p25": 79248,
+        "median": 83533,
+        "p75": 101774,
+        "n": 11
+    },
+    "tata consultancy services limited|architect|senior": {
+        "p25": 80371,
+        "median": 84198,
+        "p75": 92394,
+        "n": 3505
+    },
+    "tata consultancy services limited|business analyst|mid": {
+        "p25": 85238,
+        "median": 92040,
+        "p75": 95000,
+        "n": 29
+    },
+    "tata consultancy services limited|data warehouse specialist|mid": {
+        "p25": 89876,
+        "median": 99549,
+        "p75": 122949,
+        "n": 27
+    },
+    "tata consultancy services limited|database administrator|mid": {
+        "p25": 82867,
+        "median": 88608,
+        "p75": 96595,
+        "n": 171
+    },
+    "tata consultancy services limited|design engineer|mid": {
+        "p25": 87381,
+        "median": 89086,
+        "p75": 93652,
+        "n": 35
+    },
+    "tata consultancy services limited|designer|mid": {
+        "p25": 82618,
+        "median": 89710,
+        "p75": 98925,
+        "n": 87
+    },
+    "tata consultancy services limited|developer|mid": {
+        "p25": 78021,
+        "median": 85530,
+        "p75": 94645,
+        "n": 1316
+    },
+    "tata consultancy services limited|embedded systems design engineer|mid": {
+        "p25": 98321,
+        "median": 102190,
+        "p75": 111565,
+        "n": 6
+    },
+    "tata consultancy services limited|engineering analyst|mid": {
+        "p25": 80350,
+        "median": 89523,
+        "p75": 100714,
+        "n": 29
+    },
+    "tata consultancy services limited|functional consultant|mid": {
+        "p25": 87162,
+        "median": 95000,
+        "p75": 112674,
+        "n": 167
+    },
+    "tata consultancy services limited|network administrator|mid": {
+        "p25": 82586,
+        "median": 86486,
+        "p75": 94981,
+        "n": 115
+    },
+    "tata consultancy services limited|network administrators|mid": {
+        "p25": 77459,
+        "median": 80288,
+        "p75": 84677,
+        "n": 7
+    },
+    "tata consultancy services limited|project lead|senior": {
+        "p25": 92498,
+        "median": 97510,
+        "p75": 114306,
+        "n": 32
+    },
+    "tata consultancy services limited|software developer|mid": {
+        "p25": 105997,
+        "median": 112986,
+        "p75": 127504,
+        "n": 346
+    },
+    "tata consultancy services limited|system administrator|mid": {
+        "p25": 82930,
+        "median": 87911,
+        "p75": 99008,
+        "n": 254
+    },
+    "tata consultancy services limited|technical lead|senior": {
+        "p25": 80371,
+        "median": 84157,
+        "p75": 90210,
+        "n": 585
+    },
+    "tata consultancy services limited|user interface designer|mid": {
+        "p25": 71115,
+        "median": 72436,
+        "p75": 80163,
+        "n": 452
+    },
+    "tata consultancy services limited|validation engineer|mid": {
+        "p25": 87714,
+        "median": 88837,
+        "p75": 117645,
+        "n": 21
+    },
+    "tata consultancy services limited|value consultant|mid": {
+        "p25": 78166,
+        "median": 95306,
+        "p75": 109013,
+        "n": 9
+    },
+    "tata elxsi limited|software developer|mid": {
+        "p25": 98321,
+        "median": 102897,
+        "p75": 104805,
+        "n": 6
+    },
+    "tata elxsi limited|software quality assurance analysts and testers|mid": {
+        "p25": 80007,
+        "median": 85550,
+        "p75": 86912,
+        "n": 6
+    },
+    "tata elxsi ltd|mechatronics engineer|mid": {
+        "p25": 88171,
+        "median": 98800,
+        "p75": 102565,
+        "n": 5
+    },
+    "tata elxsi ltd|software developer|mid": {
+        "p25": 103605,
+        "median": 105206,
+        "p75": 105892,
+        "n": 7
+    },
+    "tata technologies inc.|design engineer|mid": {
+        "p25": 67750,
+        "median": 71000,
+        "p75": 72000,
+        "n": 6
+    },
+    "tata technologies, inc.|mechanical engineer|mid": {
+        "p25": 88400,
+        "median": 88667,
+        "p75": 94500,
+        "n": 9
+    },
+    "tata technologies, inc.|plm system support analyst ii|mid": {
+        "p25": 99036,
+        "median": 100379,
+        "p75": 115217,
+        "n": 5
+    },
+    "taurus industrial group, llc.|mechanical engineer|mid": {
+        "p25": 78249,
+        "median": 78249,
+        "p75": 84219,
+        "n": 11
+    },
+    "taurus industrial group, llc.|process engineer|mid": {
+        "p25": 82160,
+        "median": 84219,
+        "p75": 86278,
+        "n": 6
+    },
+    "tavant technologies, inc.|associate technical architect|mid": {
+        "p25": 112000,
+        "median": 123656,
+        "p75": 135000,
+        "n": 13
+    },
+    "tavant technologies, inc.|principal technical architect|senior": {
+        "p25": 163000,
+        "median": 165000,
+        "p75": 191430,
+        "n": 7
+    },
+    "tavant technologies, inc.|senior business architect|senior": {
+        "p25": 126000,
+        "median": 128000,
+        "p75": 155000,
+        "n": 5
+    },
+    "tavant technologies, inc.|senior software developer|senior": {
+        "p25": 105997,
+        "median": 108000,
+        "p75": 110000,
+        "n": 17
+    },
+    "tavant technologies, inc.|senior technical architect|senior": {
+        "p25": 147399,
+        "median": 150000,
+        "p75": 156499,
+        "n": 15
+    },
+    "tavant technologies, inc.|technical architect|senior": {
+        "p25": 130000,
+        "median": 132754,
+        "p75": 139556,
+        "n": 20
+    },
+    "tavant technologies, inc.|technical systems architect|senior": {
+        "p25": 123364,
+        "median": 138108,
+        "p75": 146217,
+        "n": 6
+    },
+    "tcg digital solutions llc|solutions architect|senior": {
+        "p25": 90125,
+        "median": 107079,
+        "p75": 122534,
+        "n": 5
+    },
+    "td bank, national association|it solutions design specialist|mid": {
+        "p25": 141669,
+        "median": 145000,
+        "p75": 145000,
+        "n": 5
+    },
+    "td bank, national association|modeling/forecasting senior analyst|senior": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 113750,
+        "n": 6
+    },
+    "td securities (usa) llc|associate, investment banking|entry": {
+        "p25": 181250,
+        "median": 200000,
+        "p75": 218750,
+        "n": 6
+    },
+    "td securities (usa) llc|vice president, technology solutions|senior": {
+        "p25": 195000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 7
+    },
+    "te connectivity corporation|senior r&d/product development engineer|senior": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 125000,
+        "n": 5
+    },
+    "teachers' planet, inc|teacher|mid": {
+        "p25": 55203,
+        "median": 60000,
+        "p75": 60000,
+        "n": 13
+    },
+    "team belvedere, llc|software engineer|mid": {
+        "p25": 142500,
+        "median": 145000,
+        "p75": 180000,
+        "n": 7
+    },
+    "teamitserve inc|devops engineer|mid": {
+        "p25": 86403,
+        "median": 106558,
+        "p75": 106558,
+        "n": 5
+    },
+    "tec intuition inc|software developer|mid": {
+        "p25": 95000,
+        "median": 98000,
+        "p75": 106000,
+        "n": 5
+    },
+    "tecaholic llc|software developer|mid": {
+        "p25": 106000,
+        "median": 106558,
+        "p75": 106558,
+        "n": 13
+    },
+    "tecaholic llc|software engineer|mid": {
+        "p25": 105227,
+        "median": 106558,
+        "p75": 106558,
+        "n": 17
+    },
+    "tech mahindra (americas) inc.|computer programmer|mid": {
+        "p25": 105250,
+        "median": 122500,
+        "p75": 130000,
+        "n": 8
+    },
+    "tech mahindra (americas) inc.|computer systems analyst|mid": {
+        "p25": 111250,
+        "median": 117500,
+        "p75": 135305,
+        "n": 14
+    },
+    "tech mahindra (americas) inc.|network engineer|mid": {
+        "p25": 100000,
+        "median": 106000,
+        "p75": 127000,
+        "n": 11
+    },
+    "tech mahindra (americas) inc.|programmer analyst|mid": {
+        "p25": 111250,
+        "median": 117500,
+        "p75": 131250,
+        "n": 6
+    },
+    "tech mahindra (americas) inc.|software developer, systems software|mid": {
+        "p25": 121000,
+        "median": 127500,
+        "p75": 131500,
+        "n": 10
+    },
+    "tech mahindra (americas) inc.|software systems engineer|mid": {
+        "p25": 123985,
+        "median": 140000,
+        "p75": 145000,
+        "n": 11
+    },
+    "tech mahindra (americas) inc.|systems analyst|mid": {
+        "p25": 122000,
+        "median": 130000,
+        "p75": 138000,
+        "n": 6
+    },
+    "tech mahindra (americas), inc|account manager|senior": {
+        "p25": 143174,
+        "median": 144852,
+        "p75": 182717,
+        "n": 7
+    },
+    "tech mahindra (americas), inc|analyst programmer|mid": {
+        "p25": 89253,
+        "median": 89253,
+        "p75": 92053,
+        "n": 5
+    },
+    "tech mahindra (americas), inc|applications analyst|mid": {
+        "p25": 103928,
+        "median": 118260,
+        "p75": 121513,
+        "n": 16
+    },
+    "tech mahindra (americas), inc|business analyst|mid": {
+        "p25": 87084,
+        "median": 91335,
+        "p75": 119700,
+        "n": 16
+    },
+    "tech mahindra (americas), inc|business systems analyst|mid": {
+        "p25": 95399,
+        "median": 100714,
+        "p75": 134687,
+        "n": 28
+    },
+    "tech mahindra (americas), inc|computer analyst|mid": {
+        "p25": 84178,
+        "median": 88983,
+        "p75": 100714,
+        "n": 5
+    },
+    "tech mahindra (americas), inc|computer programmer|mid": {
+        "p25": 85530,
+        "median": 91727,
+        "p75": 109930,
+        "n": 110
+    },
+    "tech mahindra (americas), inc|computer programmer analyst|mid": {
+        "p25": 78021,
+        "median": 90210,
+        "p75": 94153,
+        "n": 5
+    },
+    "tech mahindra (americas), inc|computer systems analyst|mid": {
+        "p25": 89711,
+        "median": 100714,
+        "p75": 113797,
+        "n": 77
+    },
+    "tech mahindra (americas), inc|database administrator (dba)|mid": {
+        "p25": 89471,
+        "median": 93049,
+        "p75": 116891,
+        "n": 20
+    },
+    "tech mahindra (americas), inc|database analyst|mid": {
+        "p25": 80496,
+        "median": 87173,
+        "p75": 87173,
+        "n": 6
+    },
+    "tech mahindra (americas), inc|delivery manager|senior": {
+        "p25": 125798,
+        "median": 137405,
+        "p75": 180061,
+        "n": 18
+    },
+    "tech mahindra (americas), inc|design engineer|mid": {
+        "p25": 86206,
+        "median": 87548,
+        "p75": 95358,
+        "n": 15
+    },
+    "tech mahindra (americas), inc|electrical engineer|mid": {
+        "p25": 93122,
+        "median": 94089,
+        "p75": 95804,
+        "n": 6
+    },
+    "tech mahindra (americas), inc|java programmer|mid": {
+        "p25": 90210,
+        "median": 91180,
+        "p75": 119828,
+        "n": 5
+    },
+    "tech mahindra (americas), inc|mechanical design engineer|mid": {
+        "p25": 85010,
+        "median": 85800,
+        "p75": 87548,
+        "n": 19
+    },
+    "tech mahindra (americas), inc|mechanical engineer|mid": {
+        "p25": 85010,
+        "median": 87548,
+        "p75": 91312,
+        "n": 33
+    },
+    "tech mahindra (americas), inc|network and computer systems administrator|mid": {
+        "p25": 83502,
+        "median": 84261,
+        "p75": 87300,
+        "n": 5
+    },
+    "tech mahindra (americas), inc|network architect|senior": {
+        "p25": 113126,
+        "median": 128096,
+        "p75": 141607,
+        "n": 16
+    },
+    "tech mahindra (americas), inc|network engineer|mid": {
+        "p25": 87995,
+        "median": 98489,
+        "p75": 110000,
+        "n": 8
+    },
+    "tech mahindra (americas), inc|program manager|senior": {
+        "p25": 139901,
+        "median": 144852,
+        "p75": 150093,
+        "n": 29
+    },
+    "tech mahindra (americas), inc|programmer analyst|mid": {
+        "p25": 85530,
+        "median": 89253,
+        "p75": 95715,
+        "n": 35
+    },
+    "tech mahindra (americas), inc|project manager|senior": {
+        "p25": 86840,
+        "median": 102482,
+        "p75": 121701,
+        "n": 55
+    },
+    "tech mahindra (americas), inc|quality assurance analyst (qa analyst)|mid": {
+        "p25": 86924,
+        "median": 86924,
+        "p75": 110693,
+        "n": 26
+    },
+    "tech mahindra (americas), inc|quality control analyst|mid": {
+        "p25": 111946,
+        "median": 119077,
+        "p75": 123035,
+        "n": 6
+    },
+    "tech mahindra (americas), inc|quality test engineer|mid": {
+        "p25": 84956,
+        "median": 86924,
+        "p75": 122996,
+        "n": 5
+    },
+    "tech mahindra (americas), inc|sales manager|senior": {
+        "p25": 200000,
+        "median": 225000,
+        "p75": 239230,
+        "n": 9
+    },
+    "tech mahindra (americas), inc|software architect|senior": {
+        "p25": 105997,
+        "median": 112861,
+        "p75": 149225,
+        "n": 42
+    },
+    "tech mahindra (americas), inc|software developer, systems software|mid": {
+        "p25": 101919,
+        "median": 105997,
+        "p75": 122340,
+        "n": 140
+    },
+    "tech mahindra (americas), inc|software engineer|mid": {
+        "p25": 105228,
+        "median": 106559,
+        "p75": 123656,
+        "n": 91
+    },
+    "tech mahindra (americas), inc|software quality assurance engineer|mid": {
+        "p25": 86320,
+        "median": 87300,
+        "p75": 103418,
+        "n": 29
+    },
+    "tech mahindra (americas), inc|software systems engineer|mid": {
+        "p25": 105420,
+        "median": 112236,
+        "p75": 118210,
+        "n": 30
+    },
+    "tech mahindra (americas), inc|software test engineer|mid": {
+        "p25": 86924,
+        "median": 99736,
+        "p75": 114838,
+        "n": 39
+    },
+    "tech mahindra (americas), inc|solutions architect|senior": {
+        "p25": 82119,
+        "median": 90002,
+        "p75": 118311,
+        "n": 49
+    },
+    "tech mahindra (americas), inc|system architect|senior": {
+        "p25": 93453,
+        "median": 122023,
+        "p75": 132580,
+        "n": 11
+    },
+    "tech mahindra (americas), inc|systems administrator|mid": {
+        "p25": 84698,
+        "median": 92622,
+        "p75": 99233,
+        "n": 36
+    },
+    "tech mahindra (americas), inc|systems analyst|mid": {
+        "p25": 89711,
+        "median": 100714,
+        "p75": 120000,
+        "n": 133
+    },
+    "tech mahindra (americas), inc|technical consultant|mid": {
+        "p25": 105420,
+        "median": 109845,
+        "p75": 132502,
+        "n": 38
+    },
+    "tech pundits, inc.|software developer|mid": {
+        "p25": 111461,
+        "median": 116480,
+        "p75": 121828,
+        "n": 7
+    },
+    "tech shapers inc.|software engineer|mid": {
+        "p25": 85000,
+        "median": 86000,
+        "p75": 106000,
+        "n": 9
+    },
+    "tech tammina, llc|appian developer|mid": {
+        "p25": 97157,
+        "median": 101421,
+        "p75": 107057,
+        "n": 43
+    },
+    "tech-lance solutions inc|software developer|mid": {
+        "p25": 88441,
+        "median": 105976,
+        "p75": 105997,
+        "n": 7
+    },
+    "techaffinity consulting, inc|software developer|mid": {
+        "p25": 72966,
+        "median": 84500,
+        "p75": 96034,
+        "n": 8
+    },
+    "techclub inc.|java developer|mid": {
+        "p25": 94250,
+        "median": 105040,
+        "p75": 107640,
+        "n": 6
+    },
+    "techcoreglobal, llc|network engineer|mid": {
+        "p25": 103500,
+        "median": 111342,
+        "p75": 111342,
+        "n": 5
+    },
+    "techcorp solutions inc.|software development engineer ii|mid": {
+        "p25": 145000,
+        "median": 145000,
+        "p75": 240000,
+        "n": 11
+    },
+    "techdata service company llc|biostatistician|mid": {
+        "p25": 99000,
+        "median": 99500,
+        "p75": 105000,
+        "n": 5
+    },
+    "techdata service company llc|statistical  analyst|mid": {
+        "p25": 98000,
+        "median": 105000,
+        "p75": 114000,
+        "n": 5
+    },
+    "techdata service company llc|statistician|mid": {
+        "p25": 86250,
+        "median": 103500,
+        "p75": 117250,
+        "n": 10
+    },
+    "techdemocracy, llc|software engineer|mid": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 132000,
+        "n": 5
+    },
+    "techfield llc|data engineer|mid": {
+        "p25": 73195,
+        "median": 73195,
+        "p75": 82763,
+        "n": 5
+    },
+    "techie associates llc|software engineer|mid": {
+        "p25": 96000,
+        "median": 98000,
+        "p75": 106000,
+        "n": 5
+    },
+    "techie associates, llc|software developer|mid": {
+        "p25": 75000,
+        "median": 86000,
+        "p75": 99250,
+        "n": 8
+    },
+    "techie associates, llc.|software developer|mid": {
+        "p25": 92000,
+        "median": 98000,
+        "p75": 104000,
+        "n": 5
+    },
+    "techladder llc|java developer|mid": {
+        "p25": 93038,
+        "median": 93038,
+        "p75": 93038,
+        "n": 14
+    },
+    "techlogix, inc.|principal software applications engineer|senior": {
+        "p25": 113628,
+        "median": 118534,
+        "p75": 122950,
+        "n": 7
+    },
+    "techly skilled llc|software engineer|mid": {
+        "p25": 95250,
+        "median": 95500,
+        "p75": 95500,
+        "n": 7
+    },
+    "techmetro llc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 101296,
+        "n": 8
+    },
+    "technipros llc|data engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "techno pro solutions, inc.|validation engineer|mid": {
+        "p25": 71240,
+        "median": 88836,
+        "p75": 91894,
+        "n": 11
+    },
+    "techno-comp inc|software developer|mid": {
+        "p25": 113000,
+        "median": 123700,
+        "p75": 123700,
+        "n": 5
+    },
+    "techno9 solutions, inc.|network engineer|mid": {
+        "p25": 87604,
+        "median": 90376,
+        "p75": 93803,
+        "n": 6
+    },
+    "techno9 solutions, inc.|software developer|mid": {
+        "p25": 96200,
+        "median": 105227,
+        "p75": 111997,
+        "n": 7
+    },
+    "technodeed llc|java developer|mid": {
+        "p25": 81000,
+        "median": 86000,
+        "p75": 100000,
+        "n": 5
+    },
+    "technodrive business solutions, inc.|software engineer|mid": {
+        "p25": 97032,
+        "median": 97032,
+        "p75": 106220,
+        "n": 6
+    },
+    "technofix it solutions llc|software engineer|mid": {
+        "p25": 92000,
+        "median": 97750,
+        "p75": 104000,
+        "n": 10
+    },
+    "technoid9 llc|software developer|mid": {
+        "p25": 104806,
+        "median": 107317,
+        "p75": 114327,
+        "n": 8
+    },
+    "technolance it services, llc|software developer|mid": {
+        "p25": 84375,
+        "median": 85250,
+        "p75": 88799,
+        "n": 12
+    },
+    "technology consultants,inc.|software developer|mid": {
+        "p25": 84875,
+        "median": 103605,
+        "p75": 106000,
+        "n": 10
+    },
+    "technology square inc.|software engineer|mid": {
+        "p25": 91291,
+        "median": 95492,
+        "p75": 108160,
+        "n": 5
+    },
+    "technomax llc|software developer|mid": {
+        "p25": 106650,
+        "median": 109283,
+        "p75": 123700,
+        "n": 11
+    },
+    "technosoft corporation|java developer|mid": {
+        "p25": 78486,
+        "median": 85000,
+        "p75": 85288,
+        "n": 6
+    },
+    "technosoft corporation|software application developer|mid": {
+        "p25": 79373,
+        "median": 85384,
+        "p75": 97087,
+        "n": 48
+    },
+    "technosoft corporation|software qa analyst & tester|mid": {
+        "p25": 88280,
+        "median": 97698,
+        "p75": 104516,
+        "n": 6
+    },
+    "technosoft corporation|software qa analyst and tester|mid": {
+        "p25": 68509,
+        "median": 81266,
+        "p75": 83700,
+        "n": 11
+    },
+    "technosoft engineering, inc.|design engineer|mid": {
+        "p25": 76500,
+        "median": 86500,
+        "p75": 98750,
+        "n": 6
+    },
+    "technosoft engineering, inc.|electrical design engineer|mid": {
+        "p25": 78000,
+        "median": 78000,
+        "p75": 85000,
+        "n": 5
+    },
+    "technosoft engineering, inc.|embedded software engineer|mid": {
+        "p25": 75000,
+        "median": 78000,
+        "p75": 78000,
+        "n": 5
+    },
+    "technosoft engineering, inc.|mechanical design engineer|mid": {
+        "p25": 67100,
+        "median": 70200,
+        "p75": 74500,
+        "n": 25
+    },
+    "technosoft services, inc.|mechanical design engineer|mid": {
+        "p25": 73505,
+        "median": 90000,
+        "p75": 93050,
+        "n": 35
+    },
+    "technovera, inc|software developer|mid": {
+        "p25": 103000,
+        "median": 106500,
+        "p75": 112250,
+        "n": 6
+    },
+    "technumen, inc.|devops engineer|mid": {
+        "p25": 107234,
+        "median": 110947,
+        "p75": 110947,
+        "n": 6
+    },
+    "technumen, inc.|java developer|mid": {
+        "p25": 100297,
+        "median": 101899,
+        "p75": 108492,
+        "n": 8
+    },
+    "technumen, inc.|software engineer|mid": {
+        "p25": 116990,
+        "median": 117832,
+        "p75": 119458,
+        "n": 6
+    },
+    "techoauth solutions llc|software developer|mid": {
+        "p25": 84120,
+        "median": 105240,
+        "p75": 112980,
+        "n": 33
+    },
+    "techpillars, inc.|software developer|mid": {
+        "p25": 110000,
+        "median": 112000,
+        "p75": 118000,
+        "n": 9
+    },
+    "techpro solutions, inc.|data engineer|mid": {
+        "p25": 86000,
+        "median": 96000,
+        "p75": 100000,
+        "n": 5
+    },
+    "techpro solutions, inc.|java developer|mid": {
+        "p25": 85400,
+        "median": 86000,
+        "p75": 93600,
+        "n": 7
+    },
+    "techpro solutions, inc.|software developer|mid": {
+        "p25": 84550,
+        "median": 86500,
+        "p75": 88300,
+        "n": 7
+    },
+    "techpro solutions, inc.|software engineer|mid": {
+        "p25": 78000,
+        "median": 83000,
+        "p75": 84200,
+        "n": 5
+    },
+    "techsemble inc.|business analyst|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 8
+    },
+    "techsmart global, inc.|.net developer|mid": {
+        "p25": 93500,
+        "median": 106000,
+        "p75": 109241,
+        "n": 7
+    },
+    "techstar consulting inc|data analyst|mid": {
+        "p25": 67995,
+        "median": 67995,
+        "p75": 67995,
+        "n": 5
+    },
+    "techstar consulting inc|software engineer|mid": {
+        "p25": 84094,
+        "median": 95035,
+        "p75": 105991,
+        "n": 6
+    },
+    "techster solutions, inc|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 107000,
+        "n": 5
+    },
+    "techtiera corporation|software engineer|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 91846,
+        "n": 8
+    },
+    "techvy corp|software developer|mid": {
+        "p25": 104005,
+        "median": 105216,
+        "p75": 105227,
+        "n": 6
+    },
+    "techwaukee solutions llc|sap software developer|mid": {
+        "p25": 105250,
+        "median": 105250,
+        "p75": 105250,
+        "n": 5
+    },
+    "techwave consulting inc|software developer|mid": {
+        "p25": 103906,
+        "median": 110000,
+        "p75": 126306,
+        "n": 10
+    },
+    "tecshaper inc.|software engineer|mid": {
+        "p25": 86715,
+        "median": 100287,
+        "p75": 105997,
+        "n": 6
+    },
+    "ted soft solutions inc.|software engineer|mid": {
+        "p25": 80000,
+        "median": 82000,
+        "p75": 98000,
+        "n": 7
+    },
+    "tejase technologies, inc|software developer|mid": {
+        "p25": 95700,
+        "median": 117748,
+        "p75": 131996,
+        "n": 9
+    },
+    "tek ai llc|software developer|mid": {
+        "p25": 106558,
+        "median": 106558,
+        "p75": 106558,
+        "n": 5
+    },
+    "tek dallas inc|information technology security analyst|mid": {
+        "p25": 101462,
+        "median": 101462,
+        "p75": 104042,
+        "n": 5
+    },
+    "tek dallas inc|software developer|mid": {
+        "p25": 84453,
+        "median": 90511,
+        "p75": 103371,
+        "n": 6
+    },
+    "tek gigz llc|software developer|mid": {
+        "p25": 83500,
+        "median": 85000,
+        "p75": 100747,
+        "n": 6
+    },
+    "tek grove, llc|software developer|mid": {
+        "p25": 91520,
+        "median": 106000,
+        "p75": 113000,
+        "n": 21
+    },
+    "tek leaders inc|data engineer|mid": {
+        "p25": 76750,
+        "median": 81500,
+        "p75": 93342,
+        "n": 8
+    },
+    "tek leaders inc|java full stack developer|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 86000,
+        "n": 5
+    },
+    "tek leaders inc|senior quality engineer|senior": {
+        "p25": 75000,
+        "median": 78000,
+        "p75": 97000,
+        "n": 5
+    },
+    "tek leaders inc|senior software engineer|senior": {
+        "p25": 80500,
+        "median": 95000,
+        "p75": 110540,
+        "n": 7
+    },
+    "tek leaders inc|software developer|mid": {
+        "p25": 79500,
+        "median": 85000,
+        "p75": 91000,
+        "n": 8
+    },
+    "tek leaders inc|software engineer|mid": {
+        "p25": 72500,
+        "median": 86000,
+        "p75": 102500,
+        "n": 10
+    },
+    "tek ninjas solutions,llc.|software developer|mid": {
+        "p25": 84094,
+        "median": 105227,
+        "p75": 105996,
+        "n": 5
+    },
+    "tek spikes llc|information security administrator|mid": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "tek spikes llc|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 109492,
+        "n": 15
+    },
+    "tek tap llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 7
+    },
+    "tek9, inc.|programmer analyst|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 85530,
+        "n": 5
+    },
+    "tekaccel inc|senior software engineer|senior": {
+        "p25": 105997,
+        "median": 110000,
+        "p75": 121011,
+        "n": 7
+    },
+    "tekaccel inc|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105998,
+        "n": 17
+    },
+    "tekassembly corporation|software developer|mid": {
+        "p25": 86000,
+        "median": 106000,
+        "p75": 108775,
+        "n": 10
+    },
+    "tekblu llc|software engineer|mid": {
+        "p25": 72114,
+        "median": 84094,
+        "p75": 84094,
+        "n": 5
+    },
+    "tekcommands inc|software developer|mid": {
+        "p25": 80000,
+        "median": 88088,
+        "p75": 101420,
+        "n": 13
+    },
+    "tekdelite, llc|full stack java  developer|mid": {
+        "p25": 114712,
+        "median": 124800,
+        "p75": 125216,
+        "n": 5
+    },
+    "tekdoors inc|software engineer|mid": {
+        "p25": 105976,
+        "median": 105976,
+        "p75": 105976,
+        "n": 9
+    },
+    "tekfinite, inc.|software developer|mid": {
+        "p25": 95250,
+        "median": 110000,
+        "p75": 113000,
+        "n": 26
+    },
+    "tekgence, inc.|software developer|mid": {
+        "p25": 98000,
+        "median": 106000,
+        "p75": 122700,
+        "n": 5
+    },
+    "tekgente solutions inc|lead oracle cloud erp developer|senior": {
+        "p25": 123656,
+        "median": 123656,
+        "p75": 123656,
+        "n": 5
+    },
+    "tekgroup llc|software developer|mid": {
+        "p25": 101109,
+        "median": 105227,
+        "p75": 109262,
+        "n": 13
+    },
+    "tekhqs inc.|computer programmer|mid": {
+        "p25": 82500,
+        "median": 86000,
+        "p75": 90250,
+        "n": 8
+    },
+    "tekhub inc.|software developer|mid": {
+        "p25": 76500,
+        "median": 95000,
+        "p75": 106750,
+        "n": 6
+    },
+    "tekinvaderz llc|data engineer|mid": {
+        "p25": 86590,
+        "median": 89586,
+        "p75": 90005,
+        "n": 20
+    },
+    "tekinvaderz llc|gcp data engineer|mid": {
+        "p25": 79825,
+        "median": 87173,
+        "p75": 91712,
+        "n": 6
+    },
+    "tekinvaderz llc|java developer|mid": {
+        "p25": 98779,
+        "median": 105997,
+        "p75": 110874,
+        "n": 7
+    },
+    "tekinvaderz llc|software engineer|mid": {
+        "p25": 103418,
+        "median": 105997,
+        "p75": 112985,
+        "n": 9
+    },
+    "teklane solutions inc|software developer|mid": {
+        "p25": 84094,
+        "median": 90896,
+        "p75": 103371,
+        "n": 10
+    },
+    "teknatio inc|java programmer|mid": {
+        "p25": 77418,
+        "median": 77418,
+        "p75": 77418,
+        "n": 6
+    },
+    "teknatio inc|software developer|mid": {
+        "p25": 94370,
+        "median": 102627,
+        "p75": 105997,
+        "n": 17
+    },
+    "teknaux llc|software developer|mid": {
+        "p25": 105227,
+        "median": 105500,
+        "p75": 109300,
+        "n": 5
+    },
+    "teknismart solutions inc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 87089,
+        "n": 6
+    },
+    "teknowleap inc|senior software engineer|senior": {
+        "p25": 122699,
+        "median": 122699,
+        "p75": 130967,
+        "n": 14
+    },
+    "tekorg inc|software developer|mid": {
+        "p25": 112923,
+        "median": 112923,
+        "p75": 112923,
+        "n": 9
+    },
+    "tekpros, inc.|system analyst|mid": {
+        "p25": 75894,
+        "median": 84333,
+        "p75": 89720,
+        "n": 10
+    },
+    "tekriders inc.|software engineer|mid": {
+        "p25": 95493,
+        "median": 95493,
+        "p75": 99351,
+        "n": 7
+    },
+    "teksky llc|software developer|mid": {
+        "p25": 97255,
+        "median": 102908,
+        "p75": 107936,
+        "n": 8
+    },
+    "teksoft systems inc.|software developer|mid": {
+        "p25": 105404,
+        "median": 109460,
+        "p75": 112970,
+        "n": 6
+    },
+    "teksoft systems inc.|software engineer|mid": {
+        "p25": 105996,
+        "median": 109844,
+        "p75": 112923,
+        "n": 7
+    },
+    "teksolve it solutions llc|software developer|mid": {
+        "p25": 86870,
+        "median": 95696,
+        "p75": 106417,
+        "n": 22
+    },
+    "teksystems global services, llc|lead data engineer|senior": {
+        "p25": 127116,
+        "median": 128512,
+        "p75": 129223,
+        "n": 8
+    },
+    "teksystems global services, llc|practice architect|senior": {
+        "p25": 146507,
+        "median": 157116,
+        "p75": 162500,
+        "n": 15
+    },
+    "teksystems global services, llc|practice architect ii|senior": {
+        "p25": 143688,
+        "median": 165000,
+        "p75": 182543,
+        "n": 10
+    },
+    "teksystems global services, llc|senior data engineer|senior": {
+        "p25": 121325,
+        "median": 123600,
+        "p75": 128346,
+        "n": 9
+    },
+    "teksystems, inc.|developer|mid": {
+        "p25": 107634,
+        "median": 120858,
+        "p75": 151824,
+        "n": 8
+    },
+    "teksystems, inc.|developer-risk/comp|mid": {
+        "p25": 98945,
+        "median": 101472,
+        "p75": 111280,
+        "n": 8
+    },
+    "tektra it services inc.|software developer|mid": {
+        "p25": 107411,
+        "median": 112923,
+        "p75": 115367,
+        "n": 7
+    },
+    "tekva llc|software developer|mid": {
+        "p25": 106080,
+        "median": 120640,
+        "p75": 120640,
+        "n": 5
+    },
+    "tekvana inc|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 24
+    },
+    "teladoc health, inc.|senior software engineer|senior": {
+        "p25": 149781,
+        "median": 149781,
+        "p75": 154211,
+        "n": 6
+    },
+    "telecom technology services, inc.|rf engineer|mid": {
+        "p25": 89398,
+        "median": 94879,
+        "p75": 99154,
+        "n": 16
+    },
+    "teletracking technologies, inc.|software engineer i|entry": {
+        "p25": 84800,
+        "median": 85384,
+        "p75": 110635,
+        "n": 5
+    },
+    "teleworld solutions, inc.|rf engineer|mid": {
+        "p25": 106713,
+        "median": 115000,
+        "p75": 119416,
+        "n": 11
+    },
+    "teleworld solutions, inc.|rf engineer iii|senior": {
+        "p25": 114670,
+        "median": 117770,
+        "p75": 120089,
+        "n": 8
+    },
+    "telus international (u.s.) corp|software quality assurance team leader|mid": {
+        "p25": 102303,
+        "median": 102814,
+        "p75": 117244,
+        "n": 5
+    },
+    "temple university hospital, inc|resident physician|entry": {
+        "p25": 70387,
+        "median": 71697,
+        "p75": 79352,
+        "n": 18
+    },
+    "temple university--a commonwealth university|assistant scientist|entry": {
+        "p25": 45000,
+        "median": 46000,
+        "p75": 48000,
+        "n": 10
+    },
+    "temple university--a commonwealth university|associate scientist|entry": {
+        "p25": 64090,
+        "median": 70533,
+        "p75": 72612,
+        "n": 10
+    },
+    "temple university--a commonwealth university|postdoctoral fellow research associate|senior": {
+        "p25": 64060,
+        "median": 68411,
+        "p75": 72480,
+        "n": 15
+    },
+    "tempus ai|senior software engineer|senior": {
+        "p25": 140125,
+        "median": 143099,
+        "p75": 153850,
+        "n": 10
+    },
+    "tempus ai|software engineer|mid": {
+        "p25": 128325,
+        "median": 135000,
+        "p75": 141750,
+        "n": 6
+    },
+    "tencent america llc|senior researcher|senior": {
+        "p25": 177498,
+        "median": 190000,
+        "p75": 191000,
+        "n": 7
+    },
+    "tender touch rehab services llc|physical therapist|mid": {
+        "p25": 93756,
+        "median": 93954,
+        "p75": 100017,
+        "n": 7
+    },
+    "tenneco automotive operating company inc.|quality engineer|mid": {
+        "p25": 88740,
+        "median": 88740,
+        "p75": 95000,
+        "n": 5
+    },
+    "tennessee state university|assistant/associate professor|entry": {
+        "p25": 75120,
+        "median": 75120,
+        "p75": 75120,
+        "n": 5
+    },
+    "tennessee technological university|assistant professor|entry": {
+        "p25": 69808,
+        "median": 75000,
+        "p75": 100750,
+        "n": 7
+    },
+    "tensor auto inc.|software engineer|mid": {
+        "p25": 146307,
+        "median": 146307,
+        "p75": 149365,
+        "n": 5
+    },
+    "teradyne infotech inc|software developer|mid": {
+        "p25": 104000,
+        "median": 109500,
+        "p75": 119500,
+        "n": 12
+    },
+    "teradyne infotech inc|software developer/engineer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 115000,
+        "n": 5
+    },
+    "terbium technologies inc|software developer|mid": {
+        "p25": 106704,
+        "median": 108826,
+        "p75": 108826,
+        "n": 10
+    },
+    "terkiana, pc|law clerk|entry": {
+        "p25": 68640,
+        "median": 68640,
+        "p75": 68640,
+        "n": 6
+    },
+    "terracon consultants, inc.|field engineer|mid": {
+        "p25": 66093,
+        "median": 68883,
+        "p75": 72375,
+        "n": 18
+    },
+    "terracon consultants, inc.|project engineer|mid": {
+        "p25": 93900,
+        "median": 104000,
+        "p75": 105858,
+        "n": 11
+    },
+    "terracon consultants, inc.|senior staff engineer|senior": {
+        "p25": 86500,
+        "median": 89320,
+        "p75": 98875,
+        "n": 11
+    },
+    "terracon consultants, inc.|staff engineer|senior": {
+        "p25": 69875,
+        "median": 77500,
+        "p75": 80500,
+        "n": 10
+    },
+    "tescra, inc.|software engineer|mid": {
+        "p25": 118294,
+        "median": 123850,
+        "p75": 128743,
+        "n": 8
+    },
+    "tesla, inc.|associate manufacturing engineer|entry": {
+        "p25": 90300,
+        "median": 90300,
+        "p75": 93240,
+        "n": 5
+    },
+    "tesla, inc.|associate manufacturing equipment engineer|entry": {
+        "p25": 90000,
+        "median": 92825,
+        "p75": 99461,
+        "n": 16
+    },
+    "tesla, inc.|associate mgr engineering|entry": {
+        "p25": 140000,
+        "median": 145561,
+        "p75": 159890,
+        "n": 5
+    },
+    "tesla, inc.|associate process engineer|entry": {
+        "p25": 83625,
+        "median": 88412,
+        "p75": 91500,
+        "n": 18
+    },
+    "tesla, inc.|associate qa engineer|entry": {
+        "p25": 84008,
+        "median": 90000,
+        "p75": 90000,
+        "n": 7
+    },
+    "tesla, inc.|associate quality engineer|entry": {
+        "p25": 86500,
+        "median": 90000,
+        "p75": 92250,
+        "n": 11
+    },
+    "tesla, inc.|autopilot machine learning engineer|mid": {
+        "p25": 171250,
+        "median": 177500,
+        "p75": 181010,
+        "n": 8
+    },
+    "tesla, inc.|autopilot software engineer|mid": {
+        "p25": 172264,
+        "median": 177500,
+        "p75": 183750,
+        "n": 10
+    },
+    "tesla, inc.|data engineer|mid": {
+        "p25": 122190,
+        "median": 141500,
+        "p75": 151250,
+        "n": 16
+    },
+    "tesla, inc.|electronic design engineer|mid": {
+        "p25": 130000,
+        "median": 143463,
+        "p75": 150000,
+        "n": 11
+    },
+    "tesla, inc.|industrial engineers|mid": {
+        "p25": 82243,
+        "median": 92976,
+        "p75": 102523,
+        "n": 27
+    },
+    "tesla, inc.|logisticians|mid": {
+        "p25": 75915,
+        "median": 97240,
+        "p75": 119600,
+        "n": 24
+    },
+    "tesla, inc.|manufacturing controls dev engineer|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 117000,
+        "n": 17
+    },
+    "tesla, inc.|manufacturing controls engineer|mid": {
+        "p25": 110000,
+        "median": 115268,
+        "p75": 141075,
+        "n": 14
+    },
+    "tesla, inc.|manufacturing engineer|mid": {
+        "p25": 111927,
+        "median": 117967,
+        "p75": 131500,
+        "n": 31
+    },
+    "tesla, inc.|manufacturing engineers|mid": {
+        "p25": 77490,
+        "median": 87963,
+        "p75": 101857,
+        "n": 15
+    },
+    "tesla, inc.|manufacturing equipment engineer|mid": {
+        "p25": 96210,
+        "median": 108000,
+        "p75": 112378,
+        "n": 24
+    },
+    "tesla, inc.|materials planner|mid": {
+        "p25": 90000,
+        "median": 106000,
+        "p75": 110522,
+        "n": 24
+    },
+    "tesla, inc.|mechanical design engineer|mid": {
+        "p25": 122460,
+        "median": 129540,
+        "p75": 134887,
+        "n": 38
+    },
+    "tesla, inc.|mechanical engineers|mid": {
+        "p25": 85280,
+        "median": 95618,
+        "p75": 114650,
+        "n": 15
+    },
+    "tesla, inc.|mechatronics engineers|mid": {
+        "p25": 99674,
+        "median": 116605,
+        "p75": 134077,
+        "n": 9
+    },
+    "tesla, inc.|mgr manufacturing engineering|mid": {
+        "p25": 176460,
+        "median": 178500,
+        "p75": 198550,
+        "n": 9
+    },
+    "tesla, inc.|mgr sourcing / procurement engineering|mid": {
+        "p25": 186193,
+        "median": 190000,
+        "p75": 190000,
+        "n": 9
+    },
+    "tesla, inc.|process engineer|mid": {
+        "p25": 100000,
+        "median": 105000,
+        "p75": 108000,
+        "n": 39
+    },
+    "tesla, inc.|qa engineer|mid": {
+        "p25": 108868,
+        "median": 122614,
+        "p75": 124229,
+        "n": 6
+    },
+    "tesla, inc.|quality engineer|mid": {
+        "p25": 99750,
+        "median": 102232,
+        "p75": 110492,
+        "n": 12
+    },
+    "tesla, inc.|senior manufacturing engineer|senior": {
+        "p25": 128055,
+        "median": 139371,
+        "p75": 144251,
+        "n": 8
+    },
+    "tesla, inc.|senior manufacturing equipment engineer|senior": {
+        "p25": 146140,
+        "median": 146140,
+        "p75": 153462,
+        "n": 5
+    },
+    "tesla, inc.|senior mechanical design engineer|senior": {
+        "p25": 155520,
+        "median": 157988,
+        "p75": 158701,
+        "n": 7
+    },
+    "tesla, inc.|senior process engineer|senior": {
+        "p25": 118500,
+        "median": 120000,
+        "p75": 122484,
+        "n": 5
+    },
+    "tesla, inc.|senior software development engineer|senior": {
+        "p25": 170205,
+        "median": 181560,
+        "p75": 184625,
+        "n": 11
+    },
+    "tesla, inc.|senior software engineer|senior": {
+        "p25": 164800,
+        "median": 180230,
+        "p75": 183750,
+        "n": 17
+    },
+    "tesla, inc.|senior supplier industrialization engineer|senior": {
+        "p25": 153630,
+        "median": 157054,
+        "p75": 158681,
+        "n": 8
+    },
+    "tesla, inc.|senior technical program manager|senior": {
+        "p25": 162161,
+        "median": 162161,
+        "p75": 183694,
+        "n": 5
+    },
+    "tesla, inc.|software applications engineer|mid": {
+        "p25": 130000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "tesla, inc.|software developers|mid": {
+        "p25": 127032,
+        "median": 136778,
+        "p75": 158735,
+        "n": 32
+    },
+    "tesla, inc.|software development engineer|mid": {
+        "p25": 146575,
+        "median": 158000,
+        "p75": 166600,
+        "n": 27
+    },
+    "tesla, inc.|software development engineer - eng|mid": {
+        "p25": 144650,
+        "median": 150000,
+        "p75": 170136,
+        "n": 10
+    },
+    "tesla, inc.|software engineer|mid": {
+        "p25": 145048,
+        "median": 155062,
+        "p75": 164516,
+        "n": 50
+    },
+    "tesla, inc.|software integration engineer|mid": {
+        "p25": 153500,
+        "median": 167500,
+        "p75": 185000,
+        "n": 10
+    },
+    "tesla, inc.|sourcing engineer|mid": {
+        "p25": 118187,
+        "median": 124144,
+        "p75": 130000,
+        "n": 25
+    },
+    "tesla, inc.|sr autopilot machine learning engineer|senior": {
+        "p25": 211500,
+        "median": 218250,
+        "p75": 220000,
+        "n": 9
+    },
+    "tesla, inc.|sr autopilot software engineer|senior": {
+        "p25": 184896,
+        "median": 195000,
+        "p75": 205000,
+        "n": 13
+    },
+    "tesla, inc.|sr data engineer|senior": {
+        "p25": 155525,
+        "median": 159500,
+        "p75": 165000,
+        "n": 21
+    },
+    "tesla, inc.|sr distributed systems engineer - eng|senior": {
+        "p25": 167102,
+        "median": 187536,
+        "p75": 206268,
+        "n": 6
+    },
+    "tesla, inc.|sr electronic design engineer|senior": {
+        "p25": 162349,
+        "median": 163812,
+        "p75": 169179,
+        "n": 15
+    },
+    "tesla, inc.|sr engineer|senior": {
+        "p25": 124380,
+        "median": 126000,
+        "p75": 126000,
+        "n": 7
+    },
+    "tesla, inc.|sr logistics analyst|senior": {
+        "p25": 102000,
+        "median": 103868,
+        "p75": 103868,
+        "n": 5
+    },
+    "tesla, inc.|sr manufacturing controls dev engineer|senior": {
+        "p25": 134300,
+        "median": 140000,
+        "p75": 153371,
+        "n": 24
+    },
+    "tesla, inc.|sr manufacturing controls engineer|senior": {
+        "p25": 140000,
+        "median": 149801,
+        "p75": 156455,
+        "n": 27
+    },
+    "tesla, inc.|sr manufacturing engineer|senior": {
+        "p25": 134310,
+        "median": 140951,
+        "p75": 149878,
+        "n": 46
+    },
+    "tesla, inc.|sr manufacturing equipment engineer|senior": {
+        "p25": 123239,
+        "median": 128547,
+        "p75": 136609,
+        "n": 33
+    },
+    "tesla, inc.|sr materials planner|senior": {
+        "p25": 108245,
+        "median": 109146,
+        "p75": 112497,
+        "n": 10
+    },
+    "tesla, inc.|sr mechanical design engineer|senior": {
+        "p25": 151804,
+        "median": 155886,
+        "p75": 157593,
+        "n": 36
+    },
+    "tesla, inc.|sr mgr engineering|senior": {
+        "p25": 192893,
+        "median": 210038,
+        "p75": 210038,
+        "n": 5
+    },
+    "tesla, inc.|sr process engineer|senior": {
+        "p25": 117856,
+        "median": 121484,
+        "p75": 132988,
+        "n": 40
+    },
+    "tesla, inc.|sr program mgr|senior": {
+        "p25": 122611,
+        "median": 127876,
+        "p75": 129588,
+        "n": 7
+    },
+    "tesla, inc.|sr qa engineer|senior": {
+        "p25": 121242,
+        "median": 125535,
+        "p75": 140386,
+        "n": 23
+    },
+    "tesla, inc.|sr reliability engineer|senior": {
+        "p25": 139869,
+        "median": 144465,
+        "p75": 152537,
+        "n": 8
+    },
+    "tesla, inc.|sr robotics software engineer|senior": {
+        "p25": 187457,
+        "median": 203531,
+        "p75": 208382,
+        "n": 6
+    },
+    "tesla, inc.|sr silicon design engineer|senior": {
+        "p25": 188693,
+        "median": 191825,
+        "p75": 191825,
+        "n": 6
+    },
+    "tesla, inc.|sr software development engineer|senior": {
+        "p25": 175788,
+        "median": 181872,
+        "p75": 190000,
+        "n": 79
+    },
+    "tesla, inc.|sr software development engineer - eng|senior": {
+        "p25": 173502,
+        "median": 183595,
+        "p75": 210566,
+        "n": 20
+    },
+    "tesla, inc.|sr software engineer|senior": {
+        "p25": 170000,
+        "median": 179166,
+        "p75": 187096,
+        "n": 19
+    },
+    "tesla, inc.|sr software product mgr|senior": {
+        "p25": 150042,
+        "median": 159121,
+        "p75": 178000,
+        "n": 10
+    },
+    "tesla, inc.|sr software qa engineer|senior": {
+        "p25": 159521,
+        "median": 163948,
+        "p75": 173525,
+        "n": 14
+    },
+    "tesla, inc.|sr sourcing engineer|senior": {
+        "p25": 140880,
+        "median": 143325,
+        "p75": 157062,
+        "n": 23
+    },
+    "tesla, inc.|sr staff data engineer|senior": {
+        "p25": 221766,
+        "median": 232571,
+        "p75": 244966,
+        "n": 8
+    },
+    "tesla, inc.|sr staff mechanical design engineer|senior": {
+        "p25": 196543,
+        "median": 201086,
+        "p75": 216718,
+        "n": 7
+    },
+    "tesla, inc.|sr staff software development engineer|senior": {
+        "p25": 219000,
+        "median": 254880,
+        "p75": 256608,
+        "n": 13
+    },
+    "tesla, inc.|sr supplier industrialization engineer|senior": {
+        "p25": 145286,
+        "median": 148866,
+        "p75": 155000,
+        "n": 24
+    },
+    "tesla, inc.|sr technical construction project manager|senior": {
+        "p25": 137000,
+        "median": 138054,
+        "p75": 141960,
+        "n": 15
+    },
+    "tesla, inc.|sr technical program mgr|senior": {
+        "p25": 142128,
+        "median": 151470,
+        "p75": 168389,
+        "n": 32
+    },
+    "tesla, inc.|sr technical project mgr|senior": {
+        "p25": 155250,
+        "median": 157259,
+        "p75": 165000,
+        "n": 5
+    },
+    "tesla, inc.|sr test engineer|senior": {
+        "p25": 135393,
+        "median": 146250,
+        "p75": 151646,
+        "n": 16
+    },
+    "tesla, inc.|sr. manager, resi customer care & tech support|senior": {
+        "p25": 265000,
+        "median": 265000,
+        "p75": 265000,
+        "n": 5
+    },
+    "tesla, inc.|sr. manufacturing engineer|senior": {
+        "p25": 131741,
+        "median": 133281,
+        "p75": 135000,
+        "n": 8
+    },
+    "tesla, inc.|sr. manufacturing equipment engineer|senior": {
+        "p25": 130000,
+        "median": 140582,
+        "p75": 140582,
+        "n": 5
+    },
+    "tesla, inc.|sr. materials engineer|senior": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 155000,
+        "n": 6
+    },
+    "tesla, inc.|sr. mechanical design engineer, manufacturing test|senior": {
+        "p25": 150000,
+        "median": 154000,
+        "p75": 154000,
+        "n": 5
+    },
+    "tesla, inc.|sr. process engineer|senior": {
+        "p25": 124900,
+        "median": 130000,
+        "p75": 130000,
+        "n": 5
+    },
+    "tesla, inc.|sr. quality engineer|senior": {
+        "p25": 130950,
+        "median": 140400,
+        "p75": 145929,
+        "n": 7
+    },
+    "tesla, inc.|sr. robotics machine learning engineer|senior": {
+        "p25": 205000,
+        "median": 225000,
+        "p75": 250000,
+        "n": 5
+    },
+    "tesla, inc.|sr. software engineer|senior": {
+        "p25": 166110,
+        "median": 174804,
+        "p75": 180405,
+        "n": 24
+    },
+    "tesla, inc.|sr. staff software engineer|senior": {
+        "p25": 214328,
+        "median": 221940,
+        "p75": 231295,
+        "n": 8
+    },
+    "tesla, inc.|sr. technical program manager|senior": {
+        "p25": 151344,
+        "median": 158342,
+        "p75": 161200,
+        "n": 8
+    },
+    "tesla, inc.|sr. test engineer|senior": {
+        "p25": 123000,
+        "median": 142800,
+        "p75": 142800,
+        "n": 5
+    },
+    "tesla, inc.|staff analyst|senior": {
+        "p25": 158419,
+        "median": 159738,
+        "p75": 165000,
+        "n": 5
+    },
+    "tesla, inc.|staff autopilot software engineer|senior": {
+        "p25": 235270,
+        "median": 249480,
+        "p75": 259500,
+        "n": 9
+    },
+    "tesla, inc.|staff controls engineer|senior": {
+        "p25": 156078,
+        "median": 183179,
+        "p75": 183179,
+        "n": 5
+    },
+    "tesla, inc.|staff data engineer|senior": {
+        "p25": 194460,
+        "median": 200000,
+        "p75": 204810,
+        "n": 7
+    },
+    "tesla, inc.|staff electronic design engineer|senior": {
+        "p25": 174557,
+        "median": 188100,
+        "p75": 197357,
+        "n": 8
+    },
+    "tesla, inc.|staff manufacturing controls dev engineer|senior": {
+        "p25": 146016,
+        "median": 175671,
+        "p75": 178572,
+        "n": 11
+    },
+    "tesla, inc.|staff manufacturing controls engineer|senior": {
+        "p25": 153923,
+        "median": 155728,
+        "p75": 177226,
+        "n": 10
+    },
+    "tesla, inc.|staff manufacturing engineer|senior": {
+        "p25": 154611,
+        "median": 169676,
+        "p75": 173499,
+        "n": 23
+    },
+    "tesla, inc.|staff manufacturing equipment engineer|senior": {
+        "p25": 150175,
+        "median": 154000,
+        "p75": 171007,
+        "n": 9
+    },
+    "tesla, inc.|staff mechanical design engineer|senior": {
+        "p25": 170959,
+        "median": 176580,
+        "p75": 183610,
+        "n": 26
+    },
+    "tesla, inc.|staff process engineer|senior": {
+        "p25": 140746,
+        "median": 155829,
+        "p75": 157776,
+        "n": 12
+    },
+    "tesla, inc.|staff qa engineer|senior": {
+        "p25": 140292,
+        "median": 141625,
+        "p75": 145660,
+        "n": 8
+    },
+    "tesla, inc.|staff silicon design engineer|senior": {
+        "p25": 215000,
+        "median": 225902,
+        "p75": 244891,
+        "n": 14
+    },
+    "tesla, inc.|staff software development engineer|senior": {
+        "p25": 201864,
+        "median": 217330,
+        "p75": 224081,
+        "n": 62
+    },
+    "tesla, inc.|staff software development engineer - eng|senior": {
+        "p25": 198561,
+        "median": 212833,
+        "p75": 215000,
+        "n": 19
+    },
+    "tesla, inc.|staff software engineer|senior": {
+        "p25": 199925,
+        "median": 219600,
+        "p75": 240000,
+        "n": 27
+    },
+    "tesla, inc.|staff software product mgr|senior": {
+        "p25": 192744,
+        "median": 194209,
+        "p75": 195543,
+        "n": 8
+    },
+    "tesla, inc.|staff software qa engineer|senior": {
+        "p25": 170350,
+        "median": 174617,
+        "p75": 177766,
+        "n": 15
+    },
+    "tesla, inc.|staff sourcing engineer|senior": {
+        "p25": 178418,
+        "median": 185705,
+        "p75": 194744,
+        "n": 12
+    },
+    "tesla, inc.|staff supplier industrialization engineer|senior": {
+        "p25": 175000,
+        "median": 180000,
+        "p75": 188932,
+        "n": 26
+    },
+    "tesla, inc.|staff technical program manager|senior": {
+        "p25": 171628,
+        "median": 184000,
+        "p75": 184025,
+        "n": 10
+    },
+    "tesla, inc.|staff technical program mgr|senior": {
+        "p25": 162811,
+        "median": 169537,
+        "p75": 188891,
+        "n": 18
+    },
+    "tesla, inc.|staff test engineer|senior": {
+        "p25": 159365,
+        "median": 163960,
+        "p75": 175762,
+        "n": 12
+    },
+    "tesla, inc.|supplier industrialization engineer|mid": {
+        "p25": 118200,
+        "median": 130380,
+        "p75": 150863,
+        "n": 23
+    },
+    "tesla, inc.|supplier quality engineer|mid": {
+        "p25": 109000,
+        "median": 109566,
+        "p75": 110000,
+        "n": 5
+    },
+    "tesla, inc.|supply chain manager|senior": {
+        "p25": 120000,
+        "median": 139221,
+        "p75": 156250,
+        "n": 20
+    },
+    "tesla, inc.|technical construction project manager|senior": {
+        "p25": 132000,
+        "median": 170000,
+        "p75": 170000,
+        "n": 5
+    },
+    "tesla, inc.|technical program manager|senior": {
+        "p25": 140130,
+        "median": 193071,
+        "p75": 193071,
+        "n": 8
+    },
+    "tesla, inc.|technical program mgr|mid": {
+        "p25": 125950,
+        "median": 138625,
+        "p75": 175562,
+        "n": 6
+    },
+    "tesla, inc.|test engineer|mid": {
+        "p25": 117000,
+        "median": 134940,
+        "p75": 140000,
+        "n": 17
+    },
+    "tetra pak inc.|service engineer|mid": {
+        "p25": 92000,
+        "median": 97000,
+        "p75": 103230,
+        "n": 9
+    },
+    "tetra systems llc|computer systems analyst|mid": {
+        "p25": 113797,
+        "median": 113797,
+        "p75": 113797,
+        "n": 6
+    },
+    "tetra systems llc|it consultant (devops engineer)|mid": {
+        "p25": 111550,
+        "median": 112424,
+        "p75": 123656,
+        "n": 5
+    },
+    "tetrixsoft llc|senior software associate|mid": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 125151,
+        "n": 28
+    },
+    "texas a&m agrilife research|assistant research scientist|entry": {
+        "p25": 61732,
+        "median": 66537,
+        "p75": 72902,
+        "n": 12
+    },
+    "texas a&m agrilife research|postdoctoral research associate|entry": {
+        "p25": 54000,
+        "median": 55400,
+        "p75": 60000,
+        "n": 33
+    },
+    "texas a&m engineering experiment station|assistant research scientist|entry": {
+        "p25": 67473,
+        "median": 68000,
+        "p75": 69632,
+        "n": 5
+    },
+    "texas a&m engineering experiment station|postdoctoral researcher|mid": {
+        "p25": 57060,
+        "median": 64000,
+        "p75": 65500,
+        "n": 19
+    },
+    "texas a&m international university|assistant professor|entry": {
+        "p25": 70000,
+        "median": 71000,
+        "p75": 122981,
+        "n": 11
+    },
+    "texas a&m university|assistant professor|entry": {
+        "p25": 92712,
+        "median": 101719,
+        "p75": 120753,
+        "n": 87
+    },
+    "texas a&m university|assistant research scientist|entry": {
+        "p25": 58887,
+        "median": 70406,
+        "p75": 79968,
+        "n": 16
+    },
+    "texas a&m university|associate professor|entry": {
+        "p25": 126874,
+        "median": 132547,
+        "p75": 136574,
+        "n": 6
+    },
+    "texas a&m university|clinical assistant professor|entry": {
+        "p25": 135024,
+        "median": 136585,
+        "p75": 147500,
+        "n": 12
+    },
+    "texas a&m university|instructional assistant professor|entry": {
+        "p25": 70023,
+        "median": 73890,
+        "p75": 88000,
+        "n": 20
+    },
+    "texas a&m university|instructional associate professor|entry": {
+        "p25": 76752,
+        "median": 105336,
+        "p75": 107838,
+        "n": 5
+    },
+    "texas a&m university|lecturer|mid": {
+        "p25": 58165,
+        "median": 66672,
+        "p75": 75114,
+        "n": 6
+    },
+    "texas a&m university|postdoctoral research associate|entry": {
+        "p25": 54020,
+        "median": 60000,
+        "p75": 61866,
+        "n": 38
+    },
+    "texas a&m university|research assistant professor|entry": {
+        "p25": 77500,
+        "median": 90000,
+        "p75": 107400,
+        "n": 11
+    },
+    "texas a&m university|research associate|entry": {
+        "p25": 47341,
+        "median": 50352,
+        "p75": 51401,
+        "n": 7
+    },
+    "texas a&m university|research scientist|mid": {
+        "p25": 63402,
+        "median": 73000,
+        "p75": 80000,
+        "n": 8
+    },
+    "texas a&m university|visiting assistant professor|entry": {
+        "p25": 61803,
+        "median": 61803,
+        "p75": 61803,
+        "n": 7
+    },
+    "texas a&m university-corpus christi|assistant professor|entry": {
+        "p25": 73500,
+        "median": 94000,
+        "p75": 107000,
+        "n": 6
+    },
+    "texas a&m university-corpus christi|postdoctoral research associate|entry": {
+        "p25": 52949,
+        "median": 55000,
+        "p75": 58750,
+        "n": 7
+    },
+    "texas health physicians group|hospitalist physician|mid": {
+        "p25": 250000,
+        "median": 260000,
+        "p75": 260000,
+        "n": 5
+    },
+    "texas instruments incorporated|analog design engineer|mid": {
+        "p25": 118000,
+        "median": 136000,
+        "p75": 152500,
+        "n": 61
+    },
+    "texas instruments incorporated|applications engineer|mid": {
+        "p25": 129000,
+        "median": 134600,
+        "p75": 163300,
+        "n": 9
+    },
+    "texas instruments incorporated|design verification engineer|mid": {
+        "p25": 110275,
+        "median": 118500,
+        "p75": 147400,
+        "n": 9
+    },
+    "texas instruments incorporated|digital design engineer|mid": {
+        "p25": 111320,
+        "median": 115480,
+        "p75": 141250,
+        "n": 16
+    },
+    "texas instruments incorporated|process development engineer|mid": {
+        "p25": 123000,
+        "median": 123200,
+        "p75": 143000,
+        "n": 9
+    },
+    "texas instruments incorporated|product marketing engineer|mid": {
+        "p25": 114100,
+        "median": 115000,
+        "p75": 128000,
+        "n": 5
+    },
+    "texas instruments incorporated|systems engineer|mid": {
+        "p25": 119600,
+        "median": 143760,
+        "p75": 171500,
+        "n": 15
+    },
+    "texas state university|assistant professor|entry": {
+        "p25": 75125,
+        "median": 80500,
+        "p75": 100000,
+        "n": 22
+    },
+    "texas state university|assistant professor of instruction|entry": {
+        "p25": 81000,
+        "median": 81000,
+        "p75": 86000,
+        "n": 5
+    },
+    "texas state university|lecturer|mid": {
+        "p25": 77773,
+        "median": 77773,
+        "p75": 79140,
+        "n": 5
+    },
+    "texas tech university|assistant professor|entry": {
+        "p25": 79487,
+        "median": 94000,
+        "p75": 114000,
+        "n": 36
+    },
+    "texas tech university|assistant professor of practice|entry": {
+        "p25": 67500,
+        "median": 69191,
+        "p75": 122720,
+        "n": 6
+    },
+    "texas tech university|post doctoral research associate|entry": {
+        "p25": 59016,
+        "median": 65000,
+        "p75": 68445,
+        "n": 7
+    },
+    "texas tech university|postdoctoral research associate|entry": {
+        "p25": 48000,
+        "median": 54835,
+        "p75": 65000,
+        "n": 9
+    },
+    "texas tech university|programmer analyst iii|senior": {
+        "p25": 69643,
+        "median": 72309,
+        "p75": 75529,
+        "n": 6
+    },
+    "texas tech university health sciences center el paso|assistant professor - radiology|entry": {
+        "p25": 302570,
+        "median": 302570,
+        "p75": 302570,
+        "n": 5
+    },
+    "the asian americans for community involvement of santa clara county, i|behavioral health counselor|mid": {
+        "p25": 74000,
+        "median": 81117,
+        "p75": 101261,
+        "n": 14
+    },
+    "the ayco company, l.p., a goldman sachs company|analyst, sales|mid": {
+        "p25": 67233,
+        "median": 67900,
+        "p75": 72000,
+        "n": 7
+    },
+    "the bank of new york mellon|senior associate data scientist|mid": {
+        "p25": 145000,
+        "median": 145000,
+        "p75": 145000,
+        "n": 7
+    },
+    "the bank of new york mellon|senior vice president, back-end engineer|senior": {
+        "p25": 173060,
+        "median": 177500,
+        "p75": 208000,
+        "n": 5
+    },
+    "the bank of new york mellon|senior vice president, full-stack engineer|senior": {
+        "p25": 180000,
+        "median": 186173,
+        "p75": 198700,
+        "n": 14
+    },
+    "the bank of new york mellon|vice president model risk management i|senior": {
+        "p25": 101500,
+        "median": 101500,
+        "p75": 102000,
+        "n": 5
+    },
+    "the bank of new york mellon|vice president, back-end engineer ii|senior": {
+        "p25": 160147,
+        "median": 165000,
+        "p75": 183345,
+        "n": 7
+    },
+    "the bank of new york mellon|vice president, full-stack engineer ii|senior": {
+        "p25": 135252,
+        "median": 160466,
+        "p75": 172500,
+        "n": 13
+    },
+    "the bank of nova scotia|analyst|mid": {
+        "p25": 95000,
+        "median": 95000,
+        "p75": 106250,
+        "n": 6
+    },
+    "the bank of nova scotia|associate|entry": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 142500,
+        "n": 6
+    },
+    "the barbarian group, llc|business director|senior": {
+        "p25": 240000,
+        "median": 240000,
+        "p75": 240000,
+        "n": 6
+    },
+    "the baton rouge clinic, amc|hospitalist physician|mid": {
+        "p25": 239200,
+        "median": 239200,
+        "p75": 239200,
+        "n": 5
+    },
+    "the boeing company|structural analysis engineer|mid": {
+        "p25": 117104,
+        "median": 117104,
+        "p75": 117104,
+        "n": 6
+    },
+    "the brattle group|associate|entry": {
+        "p25": 191250,
+        "median": 212004,
+        "p75": 212004,
+        "n": 11
+    },
+    "the brattle group|research analyst|mid": {
+        "p25": 95520,
+        "median": 99342,
+        "p75": 103164,
+        "n": 20
+    },
+    "the brattle group|senior research analyst|senior": {
+        "p25": 113478,
+        "median": 113478,
+        "p75": 118443,
+        "n": 12
+    },
+    "the broad institute, inc.|computational associate ii|entry": {
+        "p25": 77538,
+        "median": 80983,
+        "p75": 84254,
+        "n": 6
+    },
+    "the broad institute, inc.|postdoctoral associate|entry": {
+        "p25": 74263,
+        "median": 76526,
+        "p75": 81254,
+        "n": 20
+    },
+    "the broad institute, inc.|research associate ii|entry": {
+        "p25": 59000,
+        "median": 61500,
+        "p75": 63787,
+        "n": 7
+    },
+    "the broad institute, inc.|research scientist ii|mid": {
+        "p25": 111226,
+        "median": 114330,
+        "p75": 117505,
+        "n": 11
+    },
+    "the brookdale hospital medical center|physician in a post graduate training program|entry": {
+        "p25": 76427,
+        "median": 83960,
+        "p75": 89348,
+        "n": 34
+    },
+    "the capital markets company|principal consultant|senior": {
+        "p25": 141000,
+        "median": 141000,
+        "p75": 141000,
+        "n": 15
+    },
+    "the capital markets company|senior consultant|senior": {
+        "p25": 111000,
+        "median": 118910,
+        "p75": 123656,
+        "n": 24
+    },
+    "the carlyle group employee co. llc|associate|entry": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 6
+    },
+    "the caroline kline galland home|charge nurse/nurse care manager|senior": {
+        "p25": 91520,
+        "median": 91520,
+        "p75": 95680,
+        "n": 5
+    },
+    "the children's hospital of philadelphia|bioinformatics scientist|mid": {
+        "p25": 82618,
+        "median": 82867,
+        "p75": 87610,
+        "n": 5
+    },
+    "the children's hospital of philadelphia|clinical research coordinator|mid": {
+        "p25": 68289,
+        "median": 76315,
+        "p75": 77459,
+        "n": 7
+    },
+    "the children's hospital of philadelphia|data analyst|mid": {
+        "p25": 67538,
+        "median": 70803,
+        "p75": 70803,
+        "n": 5
+    },
+    "the children's hospital of philadelphia|data programmer analyst|mid": {
+        "p25": 70803,
+        "median": 70803,
+        "p75": 70803,
+        "n": 7
+    },
+    "the children's hospital of philadelphia|data scientist|mid": {
+        "p25": 72420,
+        "median": 77657,
+        "p75": 80538,
+        "n": 6
+    },
+    "the children's hospital of philadelphia|research associate scientist|entry": {
+        "p25": 61318,
+        "median": 72238,
+        "p75": 74672,
+        "n": 24
+    },
+    "the children's hospital of philadelphia|research postdoctoral fellow|senior": {
+        "p25": 61323,
+        "median": 63762,
+        "p75": 66186,
+        "n": 8
+    },
+    "the children's hospital of philadelphia|research technician|mid": {
+        "p25": 44501,
+        "median": 45448,
+        "p75": 49067,
+        "n": 8
+    },
+    "the children's hospital of philadelphia|staff scientist|senior": {
+        "p25": 76315,
+        "median": 87090,
+        "p75": 97219,
+        "n": 5
+    },
+    "the curators of the university of missouri|assistant professor|entry": {
+        "p25": 58252,
+        "median": 70945,
+        "p75": 88625,
+        "n": 20
+    },
+    "the curators of the university of missouri|assistant professor of medicine (hospitalist)|entry": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 5
+    },
+    "the curators of the university of missouri|assistant research professor|entry": {
+        "p25": 60584,
+        "median": 64490,
+        "p75": 74291,
+        "n": 11
+    },
+    "the curators of the university of missouri|assistant teaching professor|entry": {
+        "p25": 53635,
+        "median": 61180,
+        "p75": 69745,
+        "n": 7
+    },
+    "the curators of the university of missouri|postdoctoral fellow|senior": {
+        "p25": 53040,
+        "median": 56368,
+        "p75": 58614,
+        "n": 43
+    },
+    "the curators of the university of missouri|research scientist|mid": {
+        "p25": 53040,
+        "median": 56181,
+        "p75": 56368,
+        "n": 5
+    },
+    "the curators of the university of missouri|resident physician|entry": {
+        "p25": 65584,
+        "median": 65584,
+        "p75": 68169,
+        "n": 5
+    },
+    "the curators of the university of missouri|scientist|mid": {
+        "p25": 53040,
+        "median": 56368,
+        "p75": 62962,
+        "n": 9
+    },
+    "the depository trust & clearing corporation|associate director software engineering|senior": {
+        "p25": 148750,
+        "median": 152000,
+        "p75": 161000,
+        "n": 7
+    },
+    "the depository trust & clearing corporation|lead application support engineer|senior": {
+        "p25": 120000,
+        "median": 133000,
+        "p75": 137300,
+        "n": 5
+    },
+    "the depository trust & clearing corporation|lead software engineer|senior": {
+        "p25": 135000,
+        "median": 139000,
+        "p75": 145000,
+        "n": 28
+    },
+    "the depository trust & clearing corporation|lead test engineer|senior": {
+        "p25": 125000,
+        "median": 128500,
+        "p75": 140000,
+        "n": 7
+    },
+    "the depository trust & clearing corporation|principal software engineer|senior": {
+        "p25": 148100,
+        "median": 157650,
+        "p75": 161725,
+        "n": 12
+    },
+    "the devereux foundation|assistant program manager|mid": {
+        "p25": 38906,
+        "median": 45760,
+        "p75": 52010,
+        "n": 15
+    },
+    "the devereux foundation|campus coordinator|mid": {
+        "p25": 55182,
+        "median": 55182,
+        "p75": 55182,
+        "n": 5
+    },
+    "the devereux foundation|case coordinator|mid": {
+        "p25": 39785,
+        "median": 45469,
+        "p75": 46321,
+        "n": 12
+    },
+    "the devereux foundation|clinician|mid": {
+        "p25": 39978,
+        "median": 43919,
+        "p75": 53773,
+        "n": 10
+    },
+    "the devereux foundation|habilitation counselor|mid": {
+        "p25": 38605,
+        "median": 38605,
+        "p75": 39208,
+        "n": 235
+    },
+    "the devereux foundation|program coordinator|mid": {
+        "p25": 47965,
+        "median": 48755,
+        "p75": 53893,
+        "n": 5
+    },
+    "the devereux foundation|program director|senior": {
+        "p25": 53893,
+        "median": 53893,
+        "p75": 55182,
+        "n": 5
+    },
+    "the devereux foundation|program manager|senior": {
+        "p25": 60403,
+        "median": 60406,
+        "p75": 68640,
+        "n": 5
+    },
+    "the devereux foundation|program supervisor|mid": {
+        "p25": 33010,
+        "median": 38043,
+        "p75": 45760,
+        "n": 5
+    },
+    "the devereux foundation|teacher|mid": {
+        "p25": 57320,
+        "median": 57320,
+        "p75": 57320,
+        "n": 7
+    },
+    "the dow chemical company|associate research scientist|entry": {
+        "p25": 98398,
+        "median": 111613,
+        "p75": 128174,
+        "n": 12
+    },
+    "the dow chemical company|senior research specialist|senior": {
+        "p25": 93746,
+        "median": 110864,
+        "p75": 118102,
+        "n": 62
+    },
+    "the dow chemical company|senior research specialist (rap program)|senior": {
+        "p25": 118102,
+        "median": 118102,
+        "p75": 118102,
+        "n": 5
+    },
+    "the evolvers group, l.p.|software developer|mid": {
+        "p25": 106600,
+        "median": 109200,
+        "p75": 113360,
+        "n": 6
+    },
+    "the feinstein institutes for medical research|post doc research trainee|entry": {
+        "p25": 71677,
+        "median": 74163,
+        "p75": 79162,
+        "n": 6
+    },
+    "the feinstein institutes for medical research|research scientist|mid": {
+        "p25": 74222,
+        "median": 75000,
+        "p75": 80718,
+        "n": 7
+    },
+    "the florida state university|assistant professor|entry": {
+        "p25": 92194,
+        "median": 107697,
+        "p75": 132993,
+        "n": 72
+    },
+    "the florida state university|postdoctoral scholar|mid": {
+        "p25": 57720,
+        "median": 59484,
+        "p75": 62878,
+        "n": 12
+    },
+    "the florida state university|research faculty i|entry": {
+        "p25": 76000,
+        "median": 85000,
+        "p75": 90470,
+        "n": 17
+    },
+    "the florida state university|teaching faculty i|entry": {
+        "p25": 69149,
+        "median": 73472,
+        "p75": 75932,
+        "n": 6
+    },
+    "the george washington university|postdoctoral associate|entry": {
+        "p25": 67304,
+        "median": 67728,
+        "p75": 78731,
+        "n": 7
+    },
+    "the george washington university|research scientist|mid": {
+        "p25": 79260,
+        "median": 84016,
+        "p75": 94103,
+        "n": 7
+    },
+    "the guardian life insurance company of america|lead software engineer|senior": {
+        "p25": 152351,
+        "median": 158375,
+        "p75": 165000,
+        "n": 12
+    },
+    "the guardian life insurance company of america|senior software engineer|senior": {
+        "p25": 141359,
+        "median": 143109,
+        "p75": 146843,
+        "n": 10
+    },
+    "the health care authority of the city of huntsville|hospitalist|mid": {
+        "p25": 225000,
+        "median": 265000,
+        "p75": 265000,
+        "n": 5
+    },
+    "the henry m. jackson foundation|scientist|mid": {
+        "p25": 73800,
+        "median": 76000,
+        "p75": 78000,
+        "n": 5
+    },
+    "the hertz corporation|senior full stack developer|senior": {
+        "p25": 134000,
+        "median": 144100,
+        "p75": 149976,
+        "n": 8
+    },
+    "the hertz corporation|software engineer ii|mid": {
+        "p25": 137999,
+        "median": 145000,
+        "p75": 147000,
+        "n": 7
+    },
+    "the home for little wanderers|clinician i|entry": {
+        "p25": 58000,
+        "median": 58442,
+        "p75": 60000,
+        "n": 18
+    },
+    "the home for little wanderers|residential counselor|mid": {
+        "p25": 41600,
+        "median": 42036,
+        "p75": 45760,
+        "n": 16
+    },
+    "the home for little wanderers|residential dormitory supervisor|mid": {
+        "p25": 45760,
+        "median": 45760,
+        "p75": 46852,
+        "n": 7
+    },
+    "the huntington national bank|is technical specialist|mid": {
+        "p25": 115000,
+        "median": 120000,
+        "p75": 125000,
+        "n": 45
+    },
+    "the huntington national bank|quantitative risk modeling analyst senior|senior": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 101387,
+        "n": 5
+    },
+    "the j. david gladstone institutes|scientist|mid": {
+        "p25": 76515,
+        "median": 76515,
+        "p75": 78815,
+        "n": 5
+    },
+    "the jackson laboratory|associate computational scientist|entry": {
+        "p25": 98885,
+        "median": 98885,
+        "p75": 98885,
+        "n": 5
+    },
+    "the jackson laboratory|associate research scientist|entry": {
+        "p25": 69202,
+        "median": 73861,
+        "p75": 73861,
+        "n": 5
+    },
+    "the johns hopkins hospital|clinical laboratory scientist iii|senior": {
+        "p25": 66389,
+        "median": 66389,
+        "p75": 66389,
+        "n": 17
+    },
+    "the kroger company|advanced software engineer|mid": {
+        "p25": 152711,
+        "median": 155412,
+        "p75": 159238,
+        "n": 13
+    },
+    "the kroger company|senior quality engineer|senior": {
+        "p25": 119543,
+        "median": 121691,
+        "p75": 125143,
+        "n": 16
+    },
+    "the kroger company|senior software engineer|senior": {
+        "p25": 127750,
+        "median": 132805,
+        "p75": 136981,
+        "n": 25
+    },
+    "the lane construction corporation|senior field engineer|senior": {
+        "p25": 87782,
+        "median": 88739,
+        "p75": 92450,
+        "n": 6
+    },
+    "the layton companies|project engineer|mid": {
+        "p25": 72100,
+        "median": 72100,
+        "p75": 72110,
+        "n": 5
+    },
+    "the leland stanford, jr university|assistant professor|entry": {
+        "p25": 129579,
+        "median": 147196,
+        "p75": 245000,
+        "n": 19
+    },
+    "the leland stanford, jr university|basic life research scientist|mid": {
+        "p25": 78000,
+        "median": 82000,
+        "p75": 86940,
+        "n": 117
+    },
+    "the leland stanford, jr university|biostatistician 2|mid": {
+        "p25": 119743,
+        "median": 121421,
+        "p75": 123551,
+        "n": 5
+    },
+    "the leland stanford, jr university|clinical assistant professor|entry": {
+        "p25": 150000,
+        "median": 210500,
+        "p75": 241000,
+        "n": 14
+    },
+    "the leland stanford, jr university|clinical instructor|mid": {
+        "p25": 108000,
+        "median": 132000,
+        "p75": 162325,
+        "n": 7
+    },
+    "the leland stanford, jr university|instructor|mid": {
+        "p25": 84250,
+        "median": 87500,
+        "p75": 101750,
+        "n": 34
+    },
+    "the leland stanford, jr university|life science research professional 1|entry": {
+        "p25": 66009,
+        "median": 67978,
+        "p75": 73532,
+        "n": 19
+    },
+    "the leland stanford, jr university|life science research professional 2|mid": {
+        "p25": 79066,
+        "median": 83000,
+        "p75": 87000,
+        "n": 23
+    },
+    "the leland stanford, jr university|life science research professional 3|mid": {
+        "p25": 103000,
+        "median": 105000,
+        "p75": 109462,
+        "n": 9
+    },
+    "the leland stanford, jr university|physical science research scientist|mid": {
+        "p25": 83250,
+        "median": 88156,
+        "p75": 91150,
+        "n": 26
+    },
+    "the leland stanford, jr university|posdoctoral research affiliate|mid": {
+        "p25": 76754,
+        "median": 77711,
+        "p75": 79802,
+        "n": 13
+    },
+    "the leland stanford, jr university|postdoctoral research affiliate|mid": {
+        "p25": 74740,
+        "median": 77103,
+        "p75": 79967,
+        "n": 143
+    },
+    "the leland stanford, jr university|research data analyst 1|entry": {
+        "p25": 74461,
+        "median": 82500,
+        "p75": 86162,
+        "n": 9
+    },
+    "the leland stanford, jr university|research data analyst 2|mid": {
+        "p25": 92630,
+        "median": 96800,
+        "p75": 103750,
+        "n": 6
+    },
+    "the leland stanford, jr university|research engineer|mid": {
+        "p25": 113250,
+        "median": 119000,
+        "p75": 125000,
+        "n": 20
+    },
+    "the leland stanford, jr university|social science research professional 1|entry": {
+        "p25": 68000,
+        "median": 68082,
+        "p75": 73279,
+        "n": 6
+    },
+    "the leland stanford, jr university|social science research professional 2|mid": {
+        "p25": 88052,
+        "median": 88395,
+        "p75": 88478,
+        "n": 5
+    },
+    "the leland stanford, jr university|social science research scholar|mid": {
+        "p25": 102250,
+        "median": 106000,
+        "p75": 110700,
+        "n": 8
+    },
+    "the leland stanford, jr university|software developer 1|entry": {
+        "p25": 112875,
+        "median": 113148,
+        "p75": 115000,
+        "n": 5
+    },
+    "the leland stanford, jr university|software developer 2|mid": {
+        "p25": 147500,
+        "median": 154791,
+        "p75": 160586,
+        "n": 7
+    },
+    "the mary imogene bassett hospital|medical resident|entry": {
+        "p25": 66610,
+        "median": 66610,
+        "p75": 66610,
+        "n": 16
+    },
+    "the mathworks, inc.|engineer in engineering development group|mid": {
+        "p25": 122970,
+        "median": 122970,
+        "p75": 122970,
+        "n": 27
+    },
+    "the mathworks, inc.|principal quality engineer|senior": {
+        "p25": 139402,
+        "median": 140525,
+        "p75": 140525,
+        "n": 9
+    },
+    "the mathworks, inc.|principal software engineer|senior": {
+        "p25": 172744,
+        "median": 178131,
+        "p75": 178131,
+        "n": 25
+    },
+    "the mathworks, inc.|quality engineer|mid": {
+        "p25": 102565,
+        "median": 102565,
+        "p75": 102565,
+        "n": 5
+    },
+    "the mathworks, inc.|quality engineering manager|senior": {
+        "p25": 165630,
+        "median": 165630,
+        "p75": 165630,
+        "n": 5
+    },
+    "the mathworks, inc.|senior application engineer|senior": {
+        "p25": 128586,
+        "median": 130302,
+        "p75": 132018,
+        "n": 6
+    },
+    "the mathworks, inc.|senior engineer in engineering development group|senior": {
+        "p25": 122970,
+        "median": 122970,
+        "p75": 122970,
+        "n": 5
+    },
+    "the mathworks, inc.|senior product marketing engineer|senior": {
+        "p25": 132018,
+        "median": 132018,
+        "p75": 132018,
+        "n": 9
+    },
+    "the mathworks, inc.|senior program manager|senior": {
+        "p25": 124259,
+        "median": 124259,
+        "p75": 124259,
+        "n": 5
+    },
+    "the mathworks, inc.|senior quality engineer|senior": {
+        "p25": 119912,
+        "median": 120994,
+        "p75": 147846,
+        "n": 39
+    },
+    "the mathworks, inc.|senior release engineer|senior": {
+        "p25": 147846,
+        "median": 147846,
+        "p75": 152916,
+        "n": 6
+    },
+    "the mathworks, inc.|senior software engineer|senior": {
+        "p25": 147846,
+        "median": 147846,
+        "p75": 154606,
+        "n": 106
+    },
+    "the mathworks, inc.|senior software engineer in test|senior": {
+        "p25": 120994,
+        "median": 120994,
+        "p75": 129623,
+        "n": 14
+    },
+    "the mathworks, inc.|senior web application developer|senior": {
+        "p25": 147279,
+        "median": 147846,
+        "p75": 147846,
+        "n": 7
+    },
+    "the mathworks, inc.|software engineer|mid": {
+        "p25": 122970,
+        "median": 122970,
+        "p75": 131082,
+        "n": 42
+    },
+    "the mathworks, inc.|software engineer in test|mid": {
+        "p25": 102565,
+        "median": 102565,
+        "p75": 122970,
+        "n": 27
+    },
+    "the mathworks, inc.|user experience designer|mid": {
+        "p25": 98800,
+        "median": 98800,
+        "p75": 101701,
+        "n": 6
+    },
+    "the methodist hospital research institute|clinical research fellow|senior": {
+        "p25": 64058,
+        "median": 64058,
+        "p75": 65343,
+        "n": 13
+    },
+    "the methodist hospital research institute|clinical research specialist|mid": {
+        "p25": 47868,
+        "median": 48594,
+        "p75": 49485,
+        "n": 6
+    },
+    "the methodist hospital research institute|postdoctoral fellow|senior": {
+        "p25": 64058,
+        "median": 64978,
+        "p75": 66276,
+        "n": 17
+    },
+    "the methodist hospital research institute|research associate i|entry": {
+        "p25": 69426,
+        "median": 70931,
+        "p75": 76807,
+        "n": 15
+    },
+    "the methodist hospital research institute|research data scientist|mid": {
+        "p25": 95139,
+        "median": 100172,
+        "p75": 108357,
+        "n": 7
+    },
+    "the methodist hospital research institute|research scientist|mid": {
+        "p25": 91000,
+        "median": 100000,
+        "p75": 115000,
+        "n": 7
+    },
+    "the metrohealth system|pgy resident|entry": {
+        "p25": 69471,
+        "median": 69471,
+        "p75": 76260,
+        "n": 13
+    },
+    "the mount sinai community foundation|hospitalist physician|mid": {
+        "p25": 285000,
+        "median": 285000,
+        "p75": 285000,
+        "n": 6
+    },
+    "the nebraska medical center|medical lab scientist|mid": {
+        "p25": 66560,
+        "median": 70668,
+        "p75": 76050,
+        "n": 10
+    },
+    "the new york times company|senior software engineer|senior": {
+        "p25": 160596,
+        "median": 164079,
+        "p75": 170004,
+        "n": 12
+    },
+    "the nielsen company (us), llc|senior data scientist|senior": {
+        "p25": 121380,
+        "median": 123930,
+        "p75": 126236,
+        "n": 5
+    },
+    "the northern trust company|data scientist|mid": {
+        "p25": 97980,
+        "median": 122250,
+        "p75": 137661,
+        "n": 6
+    },
+    "the northern trust company|financial manager|senior": {
+        "p25": 161500,
+        "median": 181000,
+        "p75": 187783,
+        "n": 6
+    },
+    "the northern trust company|financial quantitative analyst|mid": {
+        "p25": 73000,
+        "median": 87800,
+        "p75": 103350,
+        "n": 6
+    },
+    "the northern trust company|information security analyst|mid": {
+        "p25": 135000,
+        "median": 145000,
+        "p75": 165000,
+        "n": 16
+    },
+    "the northern trust company|information technology project manager|senior": {
+        "p25": 155156,
+        "median": 161750,
+        "p75": 167500,
+        "n": 6
+    },
+    "the northern trust company|it project manager|senior": {
+        "p25": 132900,
+        "median": 139000,
+        "p75": 150512,
+        "n": 12
+    },
+    "the northern trust company|software developer|mid": {
+        "p25": 130551,
+        "median": 148040,
+        "p75": 160000,
+        "n": 122
+    },
+    "the ohio state university|assistant professor|entry": {
+        "p25": 104500,
+        "median": 118500,
+        "p75": 135518,
+        "n": 40
+    },
+    "the ohio state university|assistant professor (9m)|entry": {
+        "p25": 90025,
+        "median": 106038,
+        "p75": 125877,
+        "n": 8
+    },
+    "the ohio state university|assistant professor - clinical|entry": {
+        "p25": 137683,
+        "median": 155000,
+        "p75": 232053,
+        "n": 12
+    },
+    "the ohio state university|lecturer|mid": {
+        "p25": 59987,
+        "median": 67815,
+        "p75": 70000,
+        "n": 5
+    },
+    "the ohio state university|post doctoral scholar|mid": {
+        "p25": 61008,
+        "median": 61008,
+        "p75": 65640,
+        "n": 59
+    },
+    "the ohio state university|research assistant professor|entry": {
+        "p25": 104625,
+        "median": 105000,
+        "p75": 108500,
+        "n": 8
+    },
+    "the ohio state university|research scientist|mid": {
+        "p25": 77141,
+        "median": 84932,
+        "p75": 95000,
+        "n": 26
+    },
+    "the ohio state university|researcher 1|entry": {
+        "p25": 49680,
+        "median": 52541,
+        "p75": 56800,
+        "n": 5
+    },
+    "the ohio state university|researcher 2|mid": {
+        "p25": 61114,
+        "median": 63000,
+        "p75": 65250,
+        "n": 15
+    },
+    "the ohio state university|researcher 3|mid": {
+        "p25": 68000,
+        "median": 74088,
+        "p75": 76091,
+        "n": 5
+    },
+    "the ohio state university|visiting assistant professor|entry": {
+        "p25": 67800,
+        "median": 71820,
+        "p75": 73250,
+        "n": 5
+    },
+    "the ohio state university|visiting assistant professor (9m)|entry": {
+        "p25": 66480,
+        "median": 66480,
+        "p75": 71820,
+        "n": 5
+    },
+    "the options clearing corporation|associate principal, software engineering|senior": {
+        "p25": 137575,
+        "median": 155449,
+        "p75": 158200,
+        "n": 10
+    },
+    "the options clearing corporation|associate principal, software engineering: devops|senior": {
+        "p25": 127878,
+        "median": 142438,
+        "p75": 157824,
+        "n": 6
+    },
+    "the options clearing corporation|associate principal, software engineering: java|senior": {
+        "p25": 138728,
+        "median": 153499,
+        "p75": 156999,
+        "n": 6
+    },
+    "the options clearing corporation|lead associate principal, software engineering: java|senior": {
+        "p25": 148949,
+        "median": 149781,
+        "p75": 149781,
+        "n": 5
+    },
+    "the options clearing corporation|senior associate, software engineering: java|mid": {
+        "p25": 105997,
+        "median": 106558,
+        "p75": 106558,
+        "n": 5
+    },
+    "the pennsylvania state university|assistant professor|entry": {
+        "p25": 92772,
+        "median": 101988,
+        "p75": 113328,
+        "n": 69
+    },
+    "the pennsylvania state university|assistant research professor|entry": {
+        "p25": 67349,
+        "median": 74304,
+        "p75": 79554,
+        "n": 31
+    },
+    "the pennsylvania state university|assistant teaching professor|entry": {
+        "p25": 65016,
+        "median": 79380,
+        "p75": 82870,
+        "n": 19
+    },
+    "the pennsylvania state university|associate professor|entry": {
+        "p25": 135092,
+        "median": 140494,
+        "p75": 145917,
+        "n": 6
+    },
+    "the pennsylvania state university|postdoctoral scholar|mid": {
+        "p25": 61428,
+        "median": 63852,
+        "p75": 68700,
+        "n": 41
+    },
+    "the pennsylvania state university|researcher|mid": {
+        "p25": 67625,
+        "median": 69006,
+        "p75": 70067,
+        "n": 14
+    },
+    "the permanente medical group, inc.|physician|mid": {
+        "p25": 312450,
+        "median": 320040,
+        "p75": 320040,
+        "n": 6
+    },
+    "the pnc financial services group, inc.|business analytics lead|senior": {
+        "p25": 124500,
+        "median": 125000,
+        "p75": 127500,
+        "n": 7
+    },
+    "the pnc financial services group, inc.|software architect senior|senior": {
+        "p25": 145000,
+        "median": 150000,
+        "p75": 163500,
+        "n": 5
+    },
+    "the pnc financial services group, inc.|software engineer lead|senior": {
+        "p25": 123275,
+        "median": 124574,
+        "p75": 128700,
+        "n": 17
+    },
+    "the pnc financial services group, inc.|software engineer principal|senior": {
+        "p25": 128925,
+        "median": 137877,
+        "p75": 140754,
+        "n": 10
+    },
+    "the pnc financial services group, inc.|software engineer senior|senior": {
+        "p25": 119475,
+        "median": 124953,
+        "p75": 133836,
+        "n": 6
+    },
+    "the pnc financial services group, inc.|technology engineer senior|senior": {
+        "p25": 131000,
+        "median": 136500,
+        "p75": 151300,
+        "n": 7
+    },
+    "the president & fellows of middlebury college|language school faculty (chinese)|mid": {
+        "p25": 66185,
+        "median": 66185,
+        "p75": 66185,
+        "n": 8
+    },
+    "the procter & gamble u.s. business services company|senior data scientist|senior": {
+        "p25": 168000,
+        "median": 179564,
+        "p75": 179564,
+        "n": 5
+    },
+    "the productivity team llc|industrial engineer|mid": {
+        "p25": 93600,
+        "median": 97760,
+        "p75": 104000,
+        "n": 12
+    },
+    "the raine group llc|analyst|mid": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 120000,
+        "n": 5
+    },
+    "the research institute at nationwide children's hospital|post doctoral scientist|mid": {
+        "p25": 63000,
+        "median": 65000,
+        "p75": 70000,
+        "n": 13
+    },
+    "the research institute at nationwide children's hospital|research associate|entry": {
+        "p25": 48000,
+        "median": 48000,
+        "p75": 48000,
+        "n": 5
+    },
+    "the research institute at nationwide children's hospital|research scientist|mid": {
+        "p25": 75000,
+        "median": 77000,
+        "p75": 80000,
+        "n": 11
+    },
+    "the rockefeller university|postdoctoral associate|entry": {
+        "p25": 72100,
+        "median": 74263,
+        "p75": 79427,
+        "n": 19
+    },
+    "the rockefeller university|research assistant|entry": {
+        "p25": 50000,
+        "median": 51000,
+        "p75": 52000,
+        "n": 9
+    },
+    "the rockefeller university|research associate|entry": {
+        "p25": 75669,
+        "median": 79478,
+        "p75": 82400,
+        "n": 18
+    },
+    "the rutland hospital, inc.|psychiatric services registered nurse|mid": {
+        "p25": 73762,
+        "median": 76616,
+        "p75": 79378,
+        "n": 6
+    },
+    "the salk institute for biological studies|postdoctoral fellow|senior": {
+        "p25": 76000,
+        "median": 77750,
+        "p75": 78660,
+        "n": 16
+    },
+    "the scripps research institute|postdoctoral associate|entry": {
+        "p25": 68640,
+        "median": 70990,
+        "p75": 70990,
+        "n": 15
+    },
+    "the scripps research institute|staff scientist|senior": {
+        "p25": 78000,
+        "median": 81421,
+        "p75": 84843,
+        "n": 18
+    },
+    "the sherwin-williams company|senior application integration developer|senior": {
+        "p25": 128794,
+        "median": 130832,
+        "p75": 130832,
+        "n": 5
+    },
+    "the siegfried group llp|associate director|senior": {
+        "p25": 177500,
+        "median": 205000,
+        "p75": 208750,
+        "n": 9
+    },
+    "the siegfried group llp|senior associate|mid": {
+        "p25": 89375,
+        "median": 95000,
+        "p75": 95625,
+        "n": 8
+    },
+    "the siegfried group llp|senior manager|senior": {
+        "p25": 153750,
+        "median": 163750,
+        "p75": 170000,
+        "n": 13
+    },
+    "the simons foundation inc.|associate research scientist|entry": {
+        "p25": 140003,
+        "median": 157081,
+        "p75": 160622,
+        "n": 8
+    },
+    "the simons foundation inc.|flatiron research fellow|senior": {
+        "p25": 90000,
+        "median": 91000,
+        "p75": 91000,
+        "n": 17
+    },
+    "the smile mission south miami, pllc|clinical manager|senior": {
+        "p25": 73500,
+        "median": 73500,
+        "p75": 73500,
+        "n": 8
+    },
+    "the smile mission south miami, pllc|dental service manager|senior": {
+        "p25": 73500,
+        "median": 73500,
+        "p75": 79000,
+        "n": 13
+    },
+    "the smile mission south miami, pllc|lab tech manager|mid": {
+        "p25": 73300,
+        "median": 73300,
+        "p75": 73300,
+        "n": 5
+    },
+    "the sphere institute|lead research analyst i|senior": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 74936,
+        "n": 7
+    },
+    "the stepping stones group llc|occupational therapist|mid": {
+        "p25": 85300,
+        "median": 89897,
+        "p75": 115606,
+        "n": 7
+    },
+    "the stepping stones group llc|speech language pathologist|mid": {
+        "p25": 71614,
+        "median": 84635,
+        "p75": 93787,
+        "n": 84
+    },
+    "the tjx companies, inc.|senior staff engineer|senior": {
+        "p25": 167372,
+        "median": 171600,
+        "p75": 172969,
+        "n": 11
+    },
+    "the tjx companies, inc.|staff engineer|senior": {
+        "p25": 153250,
+        "median": 159992,
+        "p75": 185640,
+        "n": 12
+    },
+    "the toronto-dominion bank|vice president, technology solutions|senior": {
+        "p25": 202875,
+        "median": 206000,
+        "p75": 220000,
+        "n": 7
+    },
+    "the trade desk, inc.|data scientist ii|mid": {
+        "p25": 150800,
+        "median": 151400,
+        "p75": 151400,
+        "n": 7
+    },
+    "the trade desk, inc.|senior software engineer|senior": {
+        "p25": 166500,
+        "median": 174150,
+        "p75": 182775,
+        "n": 6
+    },
+    "the trade desk, inc.|software engineer i|entry": {
+        "p25": 135915,
+        "median": 137259,
+        "p75": 146432,
+        "n": 7
+    },
+    "the travelers indemnity company|data engineer ii|mid": {
+        "p25": 126942,
+        "median": 129105,
+        "p75": 135400,
+        "n": 20
+    },
+    "the travelers indemnity company|senior data engineer|senior": {
+        "p25": 145321,
+        "median": 145995,
+        "p75": 148347,
+        "n": 8
+    },
+    "the travelers indemnity company|software engineer ii|mid": {
+        "p25": 127071,
+        "median": 127504,
+        "p75": 128252,
+        "n": 15
+    },
+    "the trustees of princeton university|assistant professor|entry": {
+        "p25": 129485,
+        "median": 135000,
+        "p75": 189280,
+        "n": 21
+    },
+    "the trustees of princeton university|associate professional specialist|entry": {
+        "p25": 75926,
+        "median": 80000,
+        "p75": 87500,
+        "n": 6
+    },
+    "the trustees of princeton university|associate research scholar|entry": {
+        "p25": 74652,
+        "median": 77000,
+        "p75": 82250,
+        "n": 36
+    },
+    "the trustees of princeton university|postdoctoral research associate|entry": {
+        "p25": 65000,
+        "median": 67000,
+        "p75": 70344,
+        "n": 108
+    },
+    "the trustees of princeton university|professional specialist|mid": {
+        "p25": 97782,
+        "median": 104067,
+        "p75": 111757,
+        "n": 7
+    },
+    "the trustees of princeton university|research specialist ii|mid": {
+        "p25": 50290,
+        "median": 55000,
+        "p75": 59600,
+        "n": 7
+    },
+    "the trustees of princeton university|senior research specialist|senior": {
+        "p25": 62875,
+        "median": 64750,
+        "p75": 70000,
+        "n": 8
+    },
+    "the unity hospital of rochester|registered nurse iv|senior": {
+        "p25": 83574,
+        "median": 87360,
+        "p75": 90604,
+        "n": 37
+    },
+    "the university of akron|assistant professor|entry": {
+        "p25": 80000,
+        "median": 91800,
+        "p75": 96900,
+        "n": 5
+    },
+    "the university of alabama|assistant professor|entry": {
+        "p25": 77250,
+        "median": 80250,
+        "p75": 98625,
+        "n": 6
+    },
+    "the university of alabama at birmingham|assistant professor|entry": {
+        "p25": 103437,
+        "median": 127649,
+        "p75": 219445,
+        "n": 74
+    },
+    "the university of alabama at birmingham|associate professor|entry": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 476509,
+        "n": 6
+    },
+    "the university of alabama at birmingham|instructor|mid": {
+        "p25": 72196,
+        "median": 78488,
+        "p75": 190000,
+        "n": 7
+    },
+    "the university of alabama at birmingham|instructor/fellow|senior": {
+        "p25": 77978,
+        "median": 77978,
+        "p75": 122453,
+        "n": 9
+    },
+    "the university of alabama at birmingham|postdoctoral scholar employee|mid": {
+        "p25": 56659,
+        "median": 61218,
+        "p75": 63429,
+        "n": 20
+    },
+    "the university of alabama at birmingham|research scientist|mid": {
+        "p25": 70500,
+        "median": 75266,
+        "p75": 76500,
+        "n": 9
+    },
+    "the university of alabama at birmingham|researcher senior|senior": {
+        "p25": 60835,
+        "median": 63000,
+        "p75": 67000,
+        "n": 17
+    },
+    "the university of alabama at birmingham|researcher v|senior": {
+        "p25": 56368,
+        "median": 59885,
+        "p75": 62983,
+        "n": 15
+    },
+    "the university of alabama at birmingham|resident|entry": {
+        "p25": 67905,
+        "median": 71193,
+        "p75": 73160,
+        "n": 15
+    },
+    "the university of alabama at birmingham|scientist i|entry": {
+        "p25": 68996,
+        "median": 71844,
+        "p75": 80600,
+        "n": 8
+    },
+    "the university of arizona|assistant professor|entry": {
+        "p25": 96000,
+        "median": 117923,
+        "p75": 138536,
+        "n": 19
+    },
+    "the university of arizona|assistant professor of practice|entry": {
+        "p25": 78256,
+        "median": 91000,
+        "p75": 100000,
+        "n": 7
+    },
+    "the university of arizona|postdoctoral research associate i|entry": {
+        "p25": 62442,
+        "median": 63000,
+        "p75": 70000,
+        "n": 9
+    },
+    "the university of arizona|researcher/scientist iii|senior": {
+        "p25": 62400,
+        "median": 66625,
+        "p75": 70250,
+        "n": 23
+    },
+    "the university of chicago|assistant instructional professor|entry": {
+        "p25": 69968,
+        "median": 78740,
+        "p75": 95000,
+        "n": 9
+    },
+    "the university of chicago|assistant professor|entry": {
+        "p25": 129375,
+        "median": 160000,
+        "p75": 225000,
+        "n": 23
+    },
+    "the university of chicago|associate instructional professor|entry": {
+        "p25": 77469,
+        "median": 78966,
+        "p75": 91831,
+        "n": 5
+    },
+    "the university of chicago|l.e. dickson instructor|mid": {
+        "p25": 45930,
+        "median": 54586,
+        "p75": 63243,
+        "n": 6
+    },
+    "the university of chicago|postdoctoral scholar|mid": {
+        "p25": 61971,
+        "median": 65000,
+        "p75": 71532,
+        "n": 64
+    },
+    "the university of chicago|research scientist|mid": {
+        "p25": 84872,
+        "median": 85000,
+        "p75": 89735,
+        "n": 5
+    },
+    "the university of chicago|staff scientist|senior": {
+        "p25": 71750,
+        "median": 75314,
+        "p75": 79913,
+        "n": 14
+    },
+    "the university of iowa|assistant professor|entry": {
+        "p25": 105950,
+        "median": 121500,
+        "p75": 183014,
+        "n": 28
+    },
+    "the university of iowa|assistant research scientist|entry": {
+        "p25": 66024,
+        "median": 69000,
+        "p75": 72644,
+        "n": 26
+    },
+    "the university of iowa|clinical assistant professor|entry": {
+        "p25": 207500,
+        "median": 285600,
+        "p75": 355776,
+        "n": 83
+    },
+    "the university of iowa|clinical associate professor|entry": {
+        "p25": 165927,
+        "median": 245073,
+        "p75": 378670,
+        "n": 11
+    },
+    "the university of iowa|house staff fellow physician|senior": {
+        "p25": 78800,
+        "median": 81100,
+        "p75": 84100,
+        "n": 38
+    },
+    "the university of iowa|house staff resident physician|senior": {
+        "p25": 69400,
+        "median": 69400,
+        "p75": 73600,
+        "n": 28
+    },
+    "the university of iowa|postdoctoral research scholar|mid": {
+        "p25": 61915,
+        "median": 62941,
+        "p75": 64356,
+        "n": 30
+    },
+    "the university of iowa|residence hall educational coordinator|mid": {
+        "p25": 45890,
+        "median": 45890,
+        "p75": 45890,
+        "n": 5
+    },
+    "the university of iowa|senior application developer|senior": {
+        "p25": 94853,
+        "median": 96696,
+        "p75": 97884,
+        "n": 8
+    },
+    "the university of iowa|visiting assistant professor|entry": {
+        "p25": 145000,
+        "median": 185000,
+        "p75": 190000,
+        "n": 5
+    },
+    "the university of kansas|assistant professor|entry": {
+        "p25": 80000,
+        "median": 83640,
+        "p75": 118000,
+        "n": 21
+    },
+    "the university of kansas|assistant teaching professor|entry": {
+        "p25": 68987,
+        "median": 74000,
+        "p75": 99500,
+        "n": 5
+    },
+    "the university of kansas|associate researcher|entry": {
+        "p25": 71094,
+        "median": 76500,
+        "p75": 96579,
+        "n": 5
+    },
+    "the university of kansas|postdoctoral researcher|mid": {
+        "p25": 59799,
+        "median": 60377,
+        "p75": 62865,
+        "n": 8
+    },
+    "the university of kansas medical center|general internal medicine physician/faculty|mid": {
+        "p25": 240178,
+        "median": 240178,
+        "p75": 240178,
+        "n": 9
+    },
+    "the university of kansas medical center|postdoctoral fellow|senior": {
+        "p25": 64495,
+        "median": 64500,
+        "p75": 65000,
+        "n": 5
+    },
+    "the university of kansas medical center|senior research associate|mid": {
+        "p25": 64206,
+        "median": 72000,
+        "p75": 72194,
+        "n": 5
+    },
+    "the university of kansas physicians|general internal medicine physician/faculty|mid": {
+        "p25": 240178,
+        "median": 240178,
+        "p75": 250870,
+        "n": 12
+    },
+    "the university of kansas physicians|interventional cardiologist/faculty|mid": {
+        "p25": 418329,
+        "median": 418329,
+        "p75": 418329,
+        "n": 5
+    },
+    "the university of memphis|assistant professor|entry": {
+        "p25": 81038,
+        "median": 99250,
+        "p75": 144200,
+        "n": 19
+    },
+    "the university of phoenix, inc.|engineer ii|mid": {
+        "p25": 106000,
+        "median": 108179,
+        "p75": 113625,
+        "n": 17
+    },
+    "the university of phoenix, inc.|engineer iii|senior": {
+        "p25": 129616,
+        "median": 130000,
+        "p75": 136076,
+        "n": 11
+    },
+    "the university of phoenix, inc.|engineer iv|senior": {
+        "p25": 156549,
+        "median": 161343,
+        "p75": 161488,
+        "n": 6
+    },
+    "the university of southern california|assistant professor|entry": {
+        "p25": 69785,
+        "median": 117475,
+        "p75": 176955,
+        "n": 20
+    },
+    "the university of southern california|postdoctoral scholar - research associate|entry": {
+        "p25": 69270,
+        "median": 70000,
+        "p75": 71743,
+        "n": 15
+    },
+    "the university of southern california|postdoctoral scholar research associate|entry": {
+        "p25": 66737,
+        "median": 70000,
+        "p75": 70000,
+        "n": 5
+    },
+    "the university of southern california|postdoctoral scholar teaching fellow|senior": {
+        "p25": 72387,
+        "median": 84105,
+        "p75": 88660,
+        "n": 6
+    },
+    "the university of southern california|research associate|entry": {
+        "p25": 53269,
+        "median": 69239,
+        "p75": 72025,
+        "n": 24
+    },
+    "the university of southern california|research scientist|mid": {
+        "p25": 105435,
+        "median": 117042,
+        "p75": 120000,
+        "n": 5
+    },
+    "the university of tampa, inc.|assistant professor|entry": {
+        "p25": 99500,
+        "median": 126000,
+        "p75": 135000,
+        "n": 7
+    },
+    "the university of tennessee|assistant professor|entry": {
+        "p25": 89778,
+        "median": 103749,
+        "p75": 120000,
+        "n": 60
+    },
+    "the university of tennessee|lecturer|mid": {
+        "p25": 52740,
+        "median": 60000,
+        "p75": 60000,
+        "n": 5
+    },
+    "the university of tennessee|post-doctoral research associate|entry": {
+        "p25": 57340,
+        "median": 62878,
+        "p75": 70566,
+        "n": 22
+    },
+    "the university of tennessee|research assistant professor|entry": {
+        "p25": 89617,
+        "median": 99999,
+        "p75": 104374,
+        "n": 12
+    },
+    "the university of tennessee health science center|assistant professor|entry": {
+        "p25": 53830,
+        "median": 53830,
+        "p75": 100685,
+        "n": 28
+    },
+    "the university of tennessee health science center|clinical fellow|senior": {
+        "p25": 70476,
+        "median": 72600,
+        "p75": 73068,
+        "n": 17
+    },
+    "the university of tennessee health science center|postdoctoral scholar|mid": {
+        "p25": 55150,
+        "median": 56565,
+        "p75": 60000,
+        "n": 22
+    },
+    "the university of texas at arlington|assistant professor|entry": {
+        "p25": 99960,
+        "median": 105468,
+        "p75": 130000,
+        "n": 25
+    },
+    "the university of texas at arlington|assistant professor of research|entry": {
+        "p25": 62400,
+        "median": 70000,
+        "p75": 85254,
+        "n": 5
+    },
+    "the university of texas at arlington|postdoctoral research associate|entry": {
+        "p25": 60000,
+        "median": 60000,
+        "p75": 61977,
+        "n": 11
+    },
+    "the university of texas at austin|assistant professor|entry": {
+        "p25": 110000,
+        "median": 128000,
+        "p75": 138132,
+        "n": 57
+    },
+    "the university of texas at austin|assistant professor of instruction|entry": {
+        "p25": 56750,
+        "median": 69200,
+        "p75": 70275,
+        "n": 15
+    },
+    "the university of texas at austin|postdoctoral fellow|senior": {
+        "p25": 59689,
+        "median": 62005,
+        "p75": 67428,
+        "n": 36
+    },
+    "the university of texas at austin|research associate|entry": {
+        "p25": 67000,
+        "median": 82000,
+        "p75": 112000,
+        "n": 33
+    },
+    "the university of texas at austin|research engineering/scientist associate iii|mid": {
+        "p25": 66836,
+        "median": 81900,
+        "p75": 88400,
+        "n": 13
+    },
+    "the university of texas at austin|research engineering/scientist associate iv|mid": {
+        "p25": 87844,
+        "median": 97602,
+        "p75": 105893,
+        "n": 7
+    },
+    "the university of texas at austin|research fellow|senior": {
+        "p25": 62504,
+        "median": 67883,
+        "p75": 70780,
+        "n": 8
+    },
+    "the university of texas at austin|social science/humanities research associate v|mid": {
+        "p25": 73744,
+        "median": 91460,
+        "p75": 101355,
+        "n": 6
+    },
+    "the university of texas at dallas|assistant professor|entry": {
+        "p25": 105000,
+        "median": 120301,
+        "p75": 202842,
+        "n": 42
+    },
+    "the university of texas at dallas|assistant professor of instruction|entry": {
+        "p25": 56569,
+        "median": 58000,
+        "p75": 72754,
+        "n": 8
+    },
+    "the university of texas at dallas|research associate|entry": {
+        "p25": 55154,
+        "median": 60000,
+        "p75": 64745,
+        "n": 18
+    },
+    "the university of texas at dallas|research scientist|mid": {
+        "p25": 69223,
+        "median": 76500,
+        "p75": 86000,
+        "n": 10
+    },
+    "the university of texas at el paso|assistant professor|entry": {
+        "p25": 72992,
+        "median": 93000,
+        "p75": 97383,
+        "n": 7
+    },
+    "the university of texas at san antonio|assistant professor|entry": {
+        "p25": 78500,
+        "median": 101750,
+        "p75": 127500,
+        "n": 22
+    },
+    "the university of texas at san antonio|assistant professor of instruction|entry": {
+        "p25": 77490,
+        "median": 77679,
+        "p75": 77679,
+        "n": 5
+    },
+    "the university of texas at tyler|assistant professor|entry": {
+        "p25": 83258,
+        "median": 90000,
+        "p75": 94556,
+        "n": 8
+    },
+    "the university of texas el paso|assistant professor|entry": {
+        "p25": 89506,
+        "median": 102000,
+        "p75": 108071,
+        "n": 32
+    },
+    "the university of texas health science center at houston|assistant professor|entry": {
+        "p25": 110000,
+        "median": 131227,
+        "p75": 326666,
+        "n": 39
+    },
+    "the university of texas health science center at houston|fellow|senior": {
+        "p25": 83520,
+        "median": 83520,
+        "p75": 83520,
+        "n": 9
+    },
+    "the university of texas health science center at houston|instructor|mid": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 70000,
+        "n": 5
+    },
+    "the university of texas health science center at houston|postdoctoral research fellow|senior": {
+        "p25": 61884,
+        "median": 64356,
+        "p75": 68964,
+        "n": 19
+    },
+    "the university of texas health science center at houston|research scientist|mid": {
+        "p25": 65920,
+        "median": 67000,
+        "p75": 70000,
+        "n": 13
+    },
+    "the university of texas health science center at houston|senior research associate|mid": {
+        "p25": 61381,
+        "median": 63600,
+        "p75": 66143,
+        "n": 6
+    },
+    "the university of texas m.d. anderson cancer center|assistant professor|entry": {
+        "p25": 180600,
+        "median": 180600,
+        "p75": 251093,
+        "n": 33
+    },
+    "the university of texas m.d. anderson cancer center|data scientist|mid": {
+        "p25": 107873,
+        "median": 111820,
+        "p75": 119458,
+        "n": 10
+    },
+    "the university of texas m.d. anderson cancer center|instructor|mid": {
+        "p25": 74965,
+        "median": 77914,
+        "p75": 80000,
+        "n": 36
+    },
+    "the university of texas m.d. anderson cancer center|postdoctoral fellow|senior": {
+        "p25": 67900,
+        "median": 72000,
+        "p75": 74200,
+        "n": 44
+    },
+    "the university of texas m.d. anderson cancer center|research investigator|mid": {
+        "p25": 67379,
+        "median": 71808,
+        "p75": 75950,
+        "n": 10
+    },
+    "the university of texas m.d. anderson cancer center|research scientist|mid": {
+        "p25": 73083,
+        "median": 76500,
+        "p75": 78023,
+        "n": 30
+    },
+    "the university of texas m.d. anderson cancer center|senior research scientist|senior": {
+        "p25": 82534,
+        "median": 85000,
+        "p75": 89864,
+        "n": 7
+    },
+    "the university of texas rio grande valley|assistant director of technology commercialization|senior": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 6
+    },
+    "the university of texas rio grande valley|assistant professor|entry": {
+        "p25": 73926,
+        "median": 87500,
+        "p75": 143000,
+        "n": 55
+    },
+    "the university of texas rio grande valley|assistant research scientist|entry": {
+        "p25": 50427,
+        "median": 52000,
+        "p75": 58000,
+        "n": 6
+    },
+    "the university of texas rio grande valley|hr training coordinator|mid": {
+        "p25": 61400,
+        "median": 61400,
+        "p75": 61400,
+        "n": 10
+    },
+    "the university of texas rio grande valley|lecturer i|entry": {
+        "p25": 53140,
+        "median": 55760,
+        "p75": 56520,
+        "n": 6
+    },
+    "the university of texas rio grande valley|postdoctoral fellow|senior": {
+        "p25": 47000,
+        "median": 48880,
+        "p75": 55000,
+        "n": 9
+    },
+    "the university of toledo|assistant professor|entry": {
+        "p25": 69921,
+        "median": 75500,
+        "p75": 98925,
+        "n": 7
+    },
+    "the university of vermont|assistant professor|entry": {
+        "p25": 94247,
+        "median": 94247,
+        "p75": 94247,
+        "n": 22
+    },
+    "the university of vermont|lecturer|mid": {
+        "p25": 55412,
+        "median": 60045,
+        "p75": 69717,
+        "n": 8
+    },
+    "the university of vermont|postdoctoral associate|entry": {
+        "p25": 61323,
+        "median": 61428,
+        "p75": 62802,
+        "n": 8
+    },
+    "the university of virginia|assistant professor|entry": {
+        "p25": 90225,
+        "median": 100000,
+        "p75": 129925,
+        "n": 56
+    },
+    "the university of virginia|associate professor|entry": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 5
+    },
+    "the university of virginia|clinical instructor|mid": {
+        "p25": 79996,
+        "median": 83304,
+        "p75": 83304,
+        "n": 5
+    },
+    "the university of virginia|research assistant professor|entry": {
+        "p25": 84375,
+        "median": 96400,
+        "p75": 117025,
+        "n": 12
+    },
+    "the university of virginia|research associate|entry": {
+        "p25": 59694,
+        "median": 63750,
+        "p75": 65075,
+        "n": 42
+    },
+    "the university of virginia|research scientist|mid": {
+        "p25": 67000,
+        "median": 69300,
+        "p75": 74800,
+        "n": 38
+    },
+    "the university of virginia|resident|entry": {
+        "p25": 64032,
+        "median": 64032,
+        "p75": 66379,
+        "n": 5
+    },
+    "the vanguard group, inc.|application engineer - iii|senior": {
+        "p25": 141272,
+        "median": 144599,
+        "p75": 147251,
+        "n": 25
+    },
+    "the vanguard group, inc.|application engineer - iv|senior": {
+        "p25": 153598,
+        "median": 167327,
+        "p75": 169015,
+        "n": 5
+    },
+    "the vanguard group, inc.|application engineer iii|senior": {
+        "p25": 135748,
+        "median": 140226,
+        "p75": 144123,
+        "n": 50
+    },
+    "the vanguard group, inc.|application engineering technical lead - i|senior": {
+        "p25": 151197,
+        "median": 152468,
+        "p75": 153425,
+        "n": 8
+    },
+    "the vanguard group, inc.|application engineering technical lead - ii|senior": {
+        "p25": 154434,
+        "median": 162154,
+        "p75": 168876,
+        "n": 15
+    },
+    "the vanguard group, inc.|application engineering technical lead ii|senior": {
+        "p25": 151374,
+        "median": 156317,
+        "p75": 162047,
+        "n": 14
+    },
+    "the vanguard group, inc.|cloud engineer specialist|mid": {
+        "p25": 140076,
+        "median": 141550,
+        "p75": 147002,
+        "n": 6
+    },
+    "the vanguard group, inc.|cloud engineer, specialist|mid": {
+        "p25": 142750,
+        "median": 148109,
+        "p75": 156666,
+        "n": 7
+    },
+    "the vanguard group, inc.|cloud security engineer, specialist|mid": {
+        "p25": 137789,
+        "median": 144000,
+        "p75": 184417,
+        "n": 10
+    },
+    "the vanguard group, inc.|data analyst, specialist|mid": {
+        "p25": 120646,
+        "median": 132084,
+        "p75": 136868,
+        "n": 12
+    },
+    "the vanguard group, inc.|data engineer specialist|mid": {
+        "p25": 137962,
+        "median": 157424,
+        "p75": 165000,
+        "n": 6
+    },
+    "the vanguard group, inc.|data engineer, specialist|mid": {
+        "p25": 127126,
+        "median": 144195,
+        "p75": 153131,
+        "n": 33
+    },
+    "the vanguard group, inc.|data scientist, specialist|mid": {
+        "p25": 137987,
+        "median": 148208,
+        "p75": 159314,
+        "n": 6
+    },
+    "the vanguard group, inc.|machine learning engineer, specialist|mid": {
+        "p25": 141719,
+        "median": 154356,
+        "p75": 166244,
+        "n": 6
+    },
+    "the vanguard group, inc.|platform engineer, specialist|mid": {
+        "p25": 136429,
+        "median": 143937,
+        "p75": 167878,
+        "n": 8
+    },
+    "the wistar institute of anatomy and biology|associate staff scientist|senior": {
+        "p25": 70000,
+        "median": 70304,
+        "p75": 71000,
+        "n": 5
+    },
+    "the wistar institute of anatomy and biology|post-doctoral fellow|senior": {
+        "p25": 64000,
+        "median": 65000,
+        "p75": 66500,
+        "n": 9
+    },
+    "themathcompany, inc.|associate principal|senior": {
+        "p25": 185000,
+        "median": 220000,
+        "p75": 245000,
+        "n": 11
+    },
+    "themathcompany, inc.|engagement manager|senior": {
+        "p25": 153000,
+        "median": 170000,
+        "p75": 172500,
+        "n": 11
+    },
+    "themathcompany, inc.|senior associate|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 107500,
+        "n": 18
+    },
+    "theoremlabs partners llc|programmer analyst|mid": {
+        "p25": 69118,
+        "median": 69118,
+        "p75": 69118,
+        "n": 5
+    },
+    "theraaide rehab, llc|physical therapist|mid": {
+        "p25": 89440,
+        "median": 89440,
+        "p75": 93600,
+        "n": 9
+    },
+    "theradynamics rehab management llc|physical therapist|mid": {
+        "p25": 68785,
+        "median": 77979,
+        "p75": 78790,
+        "n": 7
+    },
+    "therapy fit inc|physical therapist|mid": {
+        "p25": 94931,
+        "median": 94931,
+        "p75": 95056,
+        "n": 5
+    },
+    "therapycare pt services, pllc|physical therapist|mid": {
+        "p25": 114400,
+        "median": 114400,
+        "p75": 118560,
+        "n": 5
+    },
+    "thermo fisher scientific, inc.|developer iii|senior": {
+        "p25": 108826,
+        "median": 112299,
+        "p75": 119475,
+        "n": 9
+    },
+    "thermo fisher scientific, inc.|engineer iii, software|senior": {
+        "p25": 105227,
+        "median": 108826,
+        "p75": 114754,
+        "n": 9
+    },
+    "thermo fisher scientific, inc.|manager, it|senior": {
+        "p25": 111269,
+        "median": 125902,
+        "p75": 136136,
+        "n": 7
+    },
+    "thermo fisher scientific, inc.|product manager|senior": {
+        "p25": 110531,
+        "median": 114379,
+        "p75": 134326,
+        "n": 5
+    },
+    "thermo fisher scientific, inc.|sr developer|senior": {
+        "p25": 116709,
+        "median": 120973,
+        "p75": 126880,
+        "n": 5
+    },
+    "thermo fisher scientific, inc.|sr. developer|senior": {
+        "p25": 121077,
+        "median": 131830,
+        "p75": 134295,
+        "n": 10
+    },
+    "thermo fisher scientific, inc.|staff engineer, software|senior": {
+        "p25": 132267,
+        "median": 149957,
+        "p75": 156099,
+        "n": 12
+    },
+    "think academy international education inc.|stem teacher|mid": {
+        "p25": 70940,
+        "median": 70940,
+        "p75": 85647,
+        "n": 5
+    },
+    "think logic systems inc|data engineer|mid": {
+        "p25": 108160,
+        "median": 108160,
+        "p75": 110240,
+        "n": 7
+    },
+    "think logic systems inc|it consultant|mid": {
+        "p25": 83200,
+        "median": 83200,
+        "p75": 89440,
+        "n": 6
+    },
+    "think logic systems inc|software engineer|mid": {
+        "p25": 99840,
+        "median": 106080,
+        "p75": 109200,
+        "n": 6
+    },
+    "think logic systems inc|systems analyst|mid": {
+        "p25": 83200,
+        "median": 100880,
+        "p75": 101920,
+        "n": 5
+    },
+    "thinking machines lab inc.|member of technical staff|senior": {
+        "p25": 209082,
+        "median": 450000,
+        "p75": 450000,
+        "n": 5
+    },
+    "thinklusive inc|data engineer|mid": {
+        "p25": 84094,
+        "median": 87869,
+        "p75": 94531,
+        "n": 6
+    },
+    "thinklusive inc|software developer|mid": {
+        "p25": 94869,
+        "median": 105996,
+        "p75": 109849,
+        "n": 16
+    },
+    "thinklusive inc|software engineer|mid": {
+        "p25": 88000,
+        "median": 88000,
+        "p75": 105976,
+        "n": 5
+    },
+    "thomas jefferson university hospital|fellow|senior": {
+        "p25": 87505,
+        "median": 87505,
+        "p75": 90130,
+        "n": 14
+    },
+    "thomasville city schools|elementary school teacher|mid": {
+        "p25": 46310,
+        "median": 52550,
+        "p75": 55640,
+        "n": 5
+    },
+    "thornton tomasetti, inc.|project director|senior": {
+        "p25": 100500,
+        "median": 103000,
+        "p75": 104750,
+        "n": 6
+    },
+    "thornton tomasetti, inc.|project engineer - structure|mid": {
+        "p25": 97250,
+        "median": 101492,
+        "p75": 107209,
+        "n": 8
+    },
+    "thornton tomasetti, inc.|senior engineer|senior": {
+        "p25": 88250,
+        "median": 90500,
+        "p75": 93875,
+        "n": 12
+    },
+    "thornton tomasetti, inc.|senior project engineer|senior": {
+        "p25": 112000,
+        "median": 112000,
+        "p75": 115814,
+        "n": 5
+    },
+    "thought circuits services llc|full stack java developer|mid": {
+        "p25": 91000,
+        "median": 93250,
+        "p75": 95500,
+        "n": 6
+    },
+    "thought circuits services llc|java developer|mid": {
+        "p25": 84200,
+        "median": 85400,
+        "p75": 87000,
+        "n": 5
+    },
+    "thought circuits services llc|software developer|mid": {
+        "p25": 84600,
+        "median": 90100,
+        "p75": 91000,
+        "n": 15
+    },
+    "thought circuits services llc|software development engineer in test|mid": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 72000,
+        "n": 5
+    },
+    "thought circuits services llc|software engineer|mid": {
+        "p25": 84500,
+        "median": 90900,
+        "p75": 95500,
+        "n": 12
+    },
+    "thoughtline technologies inc.|software developer|mid": {
+        "p25": 106558,
+        "median": 107317,
+        "p75": 108077,
+        "n": 6
+    },
+    "thoughtworks, inc.|lead applications developer|senior": {
+        "p25": 137000,
+        "median": 165500,
+        "p75": 173264,
+        "n": 7
+    },
+    "thoughtworks, inc.|senior applications developer|senior": {
+        "p25": 106500,
+        "median": 109250,
+        "p75": 140500,
+        "n": 8
+    },
+    "three affiliated tribes head start|classroom teacher|mid": {
+        "p25": 50400,
+        "median": 50400,
+        "p75": 50400,
+        "n": 14
+    },
+    "thrivent financial for lutherans|senior engineer|senior": {
+        "p25": 132704,
+        "median": 134971,
+        "p75": 139738,
+        "n": 5
+    },
+    "thrivesoftware solutions inc|software developer|mid": {
+        "p25": 108098,
+        "median": 110635,
+        "p75": 110635,
+        "n": 5
+    },
+    "thryv, inc.|senior product engineer|senior": {
+        "p25": 111713,
+        "median": 111713,
+        "p75": 134971,
+        "n": 5
+    },
+    "thumbtack, inc.|software engineer|mid": {
+        "p25": 185000,
+        "median": 190000,
+        "p75": 190000,
+        "n": 9
+    },
+    "tia infotek inc|software developer|mid": {
+        "p25": 103210,
+        "median": 104218,
+        "p75": 105997,
+        "n": 14
+    },
+    "tidalhealth specialty care, llc|hospitalist|mid": {
+        "p25": 245000,
+        "median": 245000,
+        "p75": 281000,
+        "n": 6
+    },
+    "tiger analytics, inc.|analytics consultant|mid": {
+        "p25": 115000,
+        "median": 125000,
+        "p75": 144500,
+        "n": 23
+    },
+    "tiger analytics, inc.|data engineering analyst|mid": {
+        "p25": 139375,
+        "median": 154700,
+        "p75": 165000,
+        "n": 68
+    },
+    "tiger analytics, inc.|data science analyst|mid": {
+        "p25": 143500,
+        "median": 150100,
+        "p75": 157000,
+        "n": 24
+    },
+    "tiger analytics, inc.|director, analytics consulting|senior": {
+        "p25": 196950,
+        "median": 205400,
+        "p75": 227500,
+        "n": 7
+    },
+    "tiger analytics, inc.|lead analytics consultant|senior": {
+        "p25": 150000,
+        "median": 170000,
+        "p75": 187300,
+        "n": 45
+    },
+    "tiger analytics, inc.|lead business intelligence analyst|senior": {
+        "p25": 160000,
+        "median": 165000,
+        "p75": 173000,
+        "n": 5
+    },
+    "tiger analytics, inc.|lead data engineering analyst|senior": {
+        "p25": 160000,
+        "median": 180000,
+        "p75": 197350,
+        "n": 42
+    },
+    "tiger analytics, inc.|lead data science analyst|senior": {
+        "p25": 160000,
+        "median": 194000,
+        "p75": 196500,
+        "n": 9
+    },
+    "tigergraph, inc.|software engineer|mid": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 130000,
+        "n": 5
+    },
+    "tigermed-bdm inc|statistical analyst|mid": {
+        "p25": 78894,
+        "median": 91000,
+        "p75": 110777,
+        "n": 20
+    },
+    "tiktok inc.|backend engineer|mid": {
+        "p25": 110635,
+        "median": 123947,
+        "p75": 137259,
+        "n": 6
+    },
+    "tiktok inc.|backend software engineer|mid": {
+        "p25": 170970,
+        "median": 205340,
+        "p75": 233500,
+        "n": 16
+    },
+    "tiktok inc.|backend software engineer - trust and safety|mid": {
+        "p25": 172000,
+        "median": 190000,
+        "p75": 303000,
+        "n": 5
+    },
+    "tiktok inc.|backend software engineer, tiktok privacy|mid": {
+        "p25": 185000,
+        "median": 185000,
+        "p75": 246000,
+        "n": 5
+    },
+    "tiktok inc.|data engineer|mid": {
+        "p25": 130270,
+        "median": 140481,
+        "p75": 158808,
+        "n": 20
+    },
+    "tiktok inc.|data engineer - data platform|mid": {
+        "p25": 204000,
+        "median": 205000,
+        "p75": 271900,
+        "n": 7
+    },
+    "tiktok inc.|data engineer, e-commerce|mid": {
+        "p25": 186153,
+        "median": 197500,
+        "p75": 221250,
+        "n": 14
+    },
+    "tiktok inc.|data scientist|mid": {
+        "p25": 134854,
+        "median": 163322,
+        "p75": 225077,
+        "n": 23
+    },
+    "tiktok inc.|designer|mid": {
+        "p25": 114462,
+        "median": 175000,
+        "p75": 225000,
+        "n": 5
+    },
+    "tiktok inc.|frontend engineer|mid": {
+        "p25": 163862,
+        "median": 170000,
+        "p75": 283600,
+        "n": 5
+    },
+    "tiktok inc.|frontend software engineer|mid": {
+        "p25": 144000,
+        "median": 175000,
+        "p75": 175512,
+        "n": 5
+    },
+    "tiktok inc.|machine learning engineer|mid": {
+        "p25": 144960,
+        "median": 197000,
+        "p75": 232400,
+        "n": 79
+    },
+    "tiktok inc.|machine learning engineer-tiktok search|mid": {
+        "p25": 249600,
+        "median": 276000,
+        "p75": 282000,
+        "n": 7
+    },
+    "tiktok inc.|machine learning manager|senior": {
+        "p25": 277530,
+        "median": 300917,
+        "p75": 323250,
+        "n": 6
+    },
+    "tiktok inc.|machine learning scientist|mid": {
+        "p25": 246697,
+        "median": 286250,
+        "p75": 324065,
+        "n": 12
+    },
+    "tiktok inc.|marketing manager|senior": {
+        "p25": 182611,
+        "median": 230000,
+        "p75": 268931,
+        "n": 14
+    },
+    "tiktok inc.|product manager|senior": {
+        "p25": 139298,
+        "median": 144055,
+        "p75": 212340,
+        "n": 25
+    },
+    "tiktok inc.|research scientist|mid": {
+        "p25": 175285,
+        "median": 176571,
+        "p75": 260320,
+        "n": 7
+    },
+    "tiktok inc.|senior data scientist|senior": {
+        "p25": 250000,
+        "median": 255100,
+        "p75": 268880,
+        "n": 5
+    },
+    "tiktok inc.|senior product manager|senior": {
+        "p25": 185920,
+        "median": 255000,
+        "p75": 298200,
+        "n": 5
+    },
+    "tiktok inc.|senior software engineer|senior": {
+        "p25": 223232,
+        "median": 256978,
+        "p75": 295950,
+        "n": 8
+    },
+    "tiktok inc.|software development engineer in test|mid": {
+        "p25": 110400,
+        "median": 126090,
+        "p75": 169500,
+        "n": 19
+    },
+    "tiktok inc.|software engineer|mid": {
+        "p25": 146113,
+        "median": 185120,
+        "p75": 235000,
+        "n": 119
+    },
+    "tiktok inc.|test engineer|mid": {
+        "p25": 102710,
+        "median": 140000,
+        "p75": 195000,
+        "n": 5
+    },
+    "tiktok u.s. data security inc.|data engineer - usds|mid": {
+        "p25": 138362,
+        "median": 187573,
+        "p75": 282000,
+        "n": 5
+    },
+    "tiktok u.s. data security inc.|data engineer usds|mid": {
+        "p25": 135901,
+        "median": 197000,
+        "p75": 213680,
+        "n": 9
+    },
+    "tiktok u.s. data security inc.|data scientist - usds|mid": {
+        "p25": 143378,
+        "median": 169152,
+        "p75": 194975,
+        "n": 8
+    },
+    "tiktok u.s. data security inc.|data scientist usds|mid": {
+        "p25": 121237,
+        "median": 129709,
+        "p75": 163155,
+        "n": 6
+    },
+    "tiktok u.s. data security inc.|data scientist, product analytics - usds|mid": {
+        "p25": 154151,
+        "median": 154151,
+        "p75": 154151,
+        "n": 5
+    },
+    "tiktok u.s. data security inc.|machine learning engineer - usds|mid": {
+        "p25": 140400,
+        "median": 144000,
+        "p75": 202500,
+        "n": 7
+    },
+    "tiktok u.s. data security inc.|site reliability engineer - aml global recommendation - usds|mid": {
+        "p25": 205000,
+        "median": 250000,
+        "p75": 270500,
+        "n": 5
+    },
+    "tiktok u.s. data security inc.|site reliability engineer - usds|mid": {
+        "p25": 165000,
+        "median": 166500,
+        "p75": 175000,
+        "n": 12
+    },
+    "tiktok u.s. data security inc.|site reliability engineer usds|mid": {
+        "p25": 169500,
+        "median": 211000,
+        "p75": 222625,
+        "n": 8
+    },
+    "tiktok u.s. data security inc.|software engineer|mid": {
+        "p25": 149240,
+        "median": 149365,
+        "p75": 181000,
+        "n": 9
+    },
+    "tiktok u.s. data security inc.|software engineer - usds|mid": {
+        "p25": 144576,
+        "median": 147773,
+        "p75": 182055,
+        "n": 18
+    },
+    "tiktok u.s. data security inc.|software engineer usds|mid": {
+        "p25": 149240,
+        "median": 180710,
+        "p75": 226138,
+        "n": 21
+    },
+    "timesquare it inc|software engineer(java)|mid": {
+        "p25": 116800,
+        "median": 116800,
+        "p75": 117900,
+        "n": 5
+    },
+    "titan technologies inc|systems analyst|mid": {
+        "p25": 75000,
+        "median": 99000,
+        "p75": 103500,
+        "n": 7
+    },
+    "tmh physician organization|medical fellow|senior": {
+        "p25": 84244,
+        "median": 84244,
+        "p75": 86347,
+        "n": 6
+    },
+    "tnext systems llc|senior software associate|mid": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 14
+    },
+    "tnp systems, llc|software developer|mid": {
+        "p25": 105997,
+        "median": 109775,
+        "p75": 129056,
+        "n": 10
+    },
+    "to the new inc|software engineer|mid": {
+        "p25": 81120,
+        "median": 102627,
+        "p75": 102856,
+        "n": 9
+    },
+    "todd county school district 66-1|elementary teacher|mid": {
+        "p25": 57500,
+        "median": 57500,
+        "p75": 57500,
+        "n": 5
+    },
+    "toltec school district 22|teacher|mid": {
+        "p25": 49050,
+        "median": 51500,
+        "p75": 55950,
+        "n": 10
+    },
+    "tooele county school district|dual immersion teacher|mid": {
+        "p25": 76000,
+        "median": 77452,
+        "p75": 82452,
+        "n": 9
+    },
+    "toogann technologies, llc|cae engineer|mid": {
+        "p25": 96625,
+        "median": 102230,
+        "p75": 111990,
+        "n": 6
+    },
+    "toogann technologies, llc|design engineer|mid": {
+        "p25": 93808,
+        "median": 98992,
+        "p75": 99985,
+        "n": 10
+    },
+    "torc robotics, inc.|engineering manager|senior": {
+        "p25": 181250,
+        "median": 189300,
+        "p75": 204302,
+        "n": 6
+    },
+    "torc robotics, inc.|senior machine learning engineer|senior": {
+        "p25": 206122,
+        "median": 207679,
+        "p75": 269664,
+        "n": 6
+    },
+    "torc robotics, inc.|senior software engineer|senior": {
+        "p25": 175263,
+        "median": 178669,
+        "p75": 183940,
+        "n": 11
+    },
+    "torc robotics, inc.|senior systems engineer|senior": {
+        "p25": 161250,
+        "median": 167500,
+        "p75": 175250,
+        "n": 6
+    },
+    "torc robotics, inc.|software engineer 2|mid": {
+        "p25": 152855,
+        "median": 153950,
+        "p75": 157054,
+        "n": 6
+    },
+    "torc robotics, inc.|software engineer ii|mid": {
+        "p25": 148174,
+        "median": 155000,
+        "p75": 155210,
+        "n": 9
+    },
+    "torys llp|lawyer|mid": {
+        "p25": 272418,
+        "median": 272418,
+        "p75": 272418,
+        "n": 5
+    },
+    "toscano clements taylor llc|cost estimator ii|mid": {
+        "p25": 90000,
+        "median": 95000,
+        "p75": 95000,
+        "n": 8
+    },
+    "toshiba global commerce solutions, inc.|software engineer iii|senior": {
+        "p25": 131201,
+        "median": 141170,
+        "p75": 141170,
+        "n": 6
+    },
+    "total system services llc|software engineer consultant|mid": {
+        "p25": 135926,
+        "median": 148526,
+        "p75": 149760,
+        "n": 15
+    },
+    "total system services llc|software engineer ii|mid": {
+        "p25": 82971,
+        "median": 86621,
+        "p75": 91691,
+        "n": 14
+    },
+    "total system services llc|software engineer senior|senior": {
+        "p25": 103687,
+        "median": 110854,
+        "p75": 119023,
+        "n": 15
+    },
+    "total system services llc|software engineer specialist|mid": {
+        "p25": 119023,
+        "median": 129376,
+        "p75": 134078,
+        "n": 21
+    },
+    "tower health medical group|physician, hospitalist services|mid": {
+        "p25": 270000,
+        "median": 270000,
+        "p75": 271125,
+        "n": 8
+    },
+    "tower hill insurance group llc|senior software engineer|senior": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "tower research capital llc|quantitative researcher|mid": {
+        "p25": 120000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 9
+    },
+    "toyota  motor engineering & manufacturing north america, inc. (tema)|engineer|mid": {
+        "p25": 120000,
+        "median": 125836,
+        "p75": 132175,
+        "n": 5
+    },
+    "toyota  motor engineering & manufacturing north america, inc. (tema)|principal engineer|senior": {
+        "p25": 180348,
+        "median": 186341,
+        "p75": 192912,
+        "n": 14
+    },
+    "toyota  motor engineering & manufacturing north america, inc. (tema)|senior engineer|senior": {
+        "p25": 149786,
+        "median": 153809,
+        "p75": 154256,
+        "n": 36
+    },
+    "toyota material handling inc.|firmware engineer ii|mid": {
+        "p25": 93705,
+        "median": 94020,
+        "p75": 95167,
+        "n": 10
+    },
+    "toyota motor credit corporation (tmcc)|data engineer|mid": {
+        "p25": 106000,
+        "median": 107753,
+        "p75": 109601,
+        "n": 8
+    },
+    "toyota research institute, inc.|research scientist|mid": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 6
+    },
+    "tpg global, llc|associate (financial analyst)|entry": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 119000,
+        "n": 5
+    },
+    "trackonomy systems, inc.|firmware engineer|mid": {
+        "p25": 131250,
+        "median": 150000,
+        "p75": 172500,
+        "n": 6
+    },
+    "transamerica life insurance company|associate actuary|entry": {
+        "p25": 125000,
+        "median": 125986,
+        "p75": 145000,
+        "n": 5
+    },
+    "transcend it solutions llc.|web applications programmer|mid": {
+        "p25": 68646,
+        "median": 85530,
+        "p75": 94453,
+        "n": 7
+    },
+    "transnative associates, inc.|software developer|mid": {
+        "p25": 149364,
+        "median": 149364,
+        "p75": 187740,
+        "n": 10
+    },
+    "transunion llc|advisor|mid": {
+        "p25": 131123,
+        "median": 135512,
+        "p75": 141321,
+        "n": 8
+    },
+    "transunion llc|architect|senior": {
+        "p25": 124186,
+        "median": 146094,
+        "p75": 151403,
+        "n": 15
+    },
+    "transunion llc|consultant|mid": {
+        "p25": 93974,
+        "median": 110822,
+        "p75": 119558,
+        "n": 25
+    },
+    "transunion llc|director|senior": {
+        "p25": 138079,
+        "median": 157508,
+        "p75": 166110,
+        "n": 6
+    },
+    "transunion llc|engineer|mid": {
+        "p25": 88088,
+        "median": 108285,
+        "p75": 113235,
+        "n": 5
+    },
+    "transunion llc|lead developer|senior": {
+        "p25": 113746,
+        "median": 127754,
+        "p75": 150271,
+        "n": 5
+    },
+    "transunion llc|lead engineer|senior": {
+        "p25": 96189,
+        "median": 116686,
+        "p75": 123858,
+        "n": 8
+    },
+    "transunion llc|manager|senior": {
+        "p25": 120765,
+        "median": 139901,
+        "p75": 145808,
+        "n": 22
+    },
+    "transunion llc|senior analyst|senior": {
+        "p25": 91062,
+        "median": 93974,
+        "p75": 94910,
+        "n": 13
+    },
+    "transunion llc|senior consultant|senior": {
+        "p25": 106558,
+        "median": 112081,
+        "p75": 117831,
+        "n": 10
+    },
+    "transunion llc|senior manager|senior": {
+        "p25": 148460,
+        "median": 156936,
+        "p75": 189862,
+        "n": 7
+    },
+    "transystems corporation|civil engineer 1|entry": {
+        "p25": 78395,
+        "median": 80516,
+        "p75": 83574,
+        "n": 6
+    },
+    "traton r&d us llc|product engineer|mid": {
+        "p25": 155878,
+        "median": 167217,
+        "p75": 170000,
+        "n": 6
+    },
+    "traton r&d us llc|project engineer sr.|senior": {
+        "p25": 133596,
+        "median": 136202,
+        "p75": 141344,
+        "n": 7
+    },
+    "travelport lp|senior software development engineer i|mid": {
+        "p25": 101200,
+        "median": 101200,
+        "p75": 117021,
+        "n": 5
+    },
+    "travelscape llc|software development engineer|mid": {
+        "p25": 77709,
+        "median": 77709,
+        "p75": 79248,
+        "n": 12
+    },
+    "trebecon llc|software engineer|mid": {
+        "p25": 76045,
+        "median": 76045,
+        "p75": 117749,
+        "n": 5
+    },
+    "tredence inc.|associate manager|mid": {
+        "p25": 122750,
+        "median": 128672,
+        "p75": 137375,
+        "n": 28
+    },
+    "tredence inc.|consultant|mid": {
+        "p25": 105116,
+        "median": 108217,
+        "p75": 111070,
+        "n": 6
+    },
+    "tredence inc.|director|senior": {
+        "p25": 180000,
+        "median": 191000,
+        "p75": 195500,
+        "n": 7
+    },
+    "tredence inc.|manager|senior": {
+        "p25": 144500,
+        "median": 152000,
+        "p75": 158000,
+        "n": 25
+    },
+    "tredence inc.|manager \u2013 data engineering|senior": {
+        "p25": 145875,
+        "median": 151500,
+        "p75": 154500,
+        "n": 6
+    },
+    "tredence inc.|manager \u201c data engineering|senior": {
+        "p25": 153000,
+        "median": 155000,
+        "p75": 157000,
+        "n": 12
+    },
+    "tredence inc.|manager-data engineering|senior": {
+        "p25": 140000,
+        "median": 140750,
+        "p75": 150125,
+        "n": 6
+    },
+    "tredence inc.|senior manager|senior": {
+        "p25": 170000,
+        "median": 175000,
+        "p75": 178000,
+        "n": 23
+    },
+    "tredence inc.|senior manager \u2013 data engineering|senior": {
+        "p25": 168750,
+        "median": 174050,
+        "p75": 177000,
+        "n": 8
+    },
+    "trenmor llc|associate director|senior": {
+        "p25": 139214,
+        "median": 144435,
+        "p75": 158298,
+        "n": 10
+    },
+    "trenmor llc|commercial manager|senior": {
+        "p25": 119901,
+        "median": 123884,
+        "p75": 133905,
+        "n": 8
+    },
+    "trenmor llc|cost manager|senior": {
+        "p25": 92404,
+        "median": 100620,
+        "p75": 105373,
+        "n": 6
+    },
+    "trenmor llc|senior cost manager|senior": {
+        "p25": 114753,
+        "median": 122824,
+        "p75": 132974,
+        "n": 11
+    },
+    "trestellae inc|network and computer systems administrators|mid": {
+        "p25": 74000,
+        "median": 80000,
+        "p75": 82000,
+        "n": 5
+    },
+    "trexquant investment lp|alpha researcher|mid": {
+        "p25": 130000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 12
+    },
+    "tri-cities community health|dentist|mid": {
+        "p25": 159474,
+        "median": 159474,
+        "p75": 159474,
+        "n": 5
+    },
+    "triad math and science academy co.|assistant principal of academics|senior": {
+        "p25": 79087,
+        "median": 83600,
+        "p75": 85375,
+        "n": 6
+    },
+    "triad math and science academy co.|elementary school teacher|mid": {
+        "p25": 56000,
+        "median": 60000,
+        "p75": 63750,
+        "n": 14
+    },
+    "triad math and science academy co.|high school science teacher|mid": {
+        "p25": 58750,
+        "median": 65000,
+        "p75": 66750,
+        "n": 6
+    },
+    "triad national security, llc|director's postdoctoral fellow|senior": {
+        "p25": 101405,
+        "median": 105814,
+        "p75": 108019,
+        "n": 5
+    },
+    "triad national security, llc|postdoctoral research associate|entry": {
+        "p25": 98666,
+        "median": 101405,
+        "p75": 104548,
+        "n": 43
+    },
+    "triad national security, llc|scientist 2|mid": {
+        "p25": 148650,
+        "median": 151000,
+        "p75": 154462,
+        "n": 17
+    },
+    "triad national security, llc|scientist 3|mid": {
+        "p25": 166052,
+        "median": 171558,
+        "p75": 173498,
+        "n": 11
+    },
+    "trianz consulting, inc.|software engineer|mid": {
+        "p25": 122699,
+        "median": 122970,
+        "p75": 124680,
+        "n": 16
+    },
+    "triesten technologies llc|software developer|mid": {
+        "p25": 96950,
+        "median": 106100,
+        "p75": 120475,
+        "n": 8
+    },
+    "triesten technologies llc|software engineer|mid": {
+        "p25": 103800,
+        "median": 113800,
+        "p75": 124100,
+        "n": 5
+    },
+    "trimble inc.|software engineer|mid": {
+        "p25": 110664,
+        "median": 114668,
+        "p75": 118601,
+        "n": 11
+    },
+    "trinet usa, inc.|senior software engineer|senior": {
+        "p25": 147948,
+        "median": 150000,
+        "p75": 155000,
+        "n": 13
+    },
+    "trinet usa, inc.|software engineer|mid": {
+        "p25": 125400,
+        "median": 132384,
+        "p75": 133386,
+        "n": 9
+    },
+    "trinet usa, inc.|staff software engineer|senior": {
+        "p25": 168635,
+        "median": 173069,
+        "p75": 179995,
+        "n": 14
+    },
+    "tringapps inc|software developer|mid": {
+        "p25": 95493,
+        "median": 95493,
+        "p75": 123656,
+        "n": 17
+    },
+    "triniti corporation|business systems analyst|mid": {
+        "p25": 120519,
+        "median": 125259,
+        "p75": 132420,
+        "n": 8
+    },
+    "trinity consultants, inc.|associate environmental consultant|entry": {
+        "p25": 80241,
+        "median": 82264,
+        "p75": 88481,
+        "n": 7
+    },
+    "trinity consultants, inc.|environmental consultant|mid": {
+        "p25": 91922,
+        "median": 95000,
+        "p75": 96973,
+        "n": 7
+    },
+    "trinity medical center|medical laboratory scientist|mid": {
+        "p25": 66539,
+        "median": 68348,
+        "p75": 70470,
+        "n": 7
+    },
+    "trinity partners, llc|senior consultant|senior": {
+        "p25": 118737,
+        "median": 124300,
+        "p75": 132520,
+        "n": 6
+    },
+    "triotek it inc|software developer|mid": {
+        "p25": 83845,
+        "median": 89235,
+        "p75": 98124,
+        "n": 8
+    },
+    "tripadvisor llc|senior software engineer|senior": {
+        "p25": 147500,
+        "median": 160000,
+        "p75": 176236,
+        "n": 6
+    },
+    "triplecom inc.|systems engineer|mid": {
+        "p25": 86715,
+        "median": 90002,
+        "p75": 93631,
+        "n": 15
+    },
+    "triumph it inc|software developer|mid": {
+        "p25": 95493,
+        "median": 96678,
+        "p75": 146307,
+        "n": 5
+    },
+    "triveni group, llp|software developer|mid": {
+        "p25": 120988,
+        "median": 123656,
+        "p75": 125741,
+        "n": 8
+    },
+    "triveni group, llp|software engineer|mid": {
+        "p25": 95493,
+        "median": 95701,
+        "p75": 131997,
+        "n": 9
+    },
+    "trivion technologies inc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 6
+    },
+    "tror llc|data engineer|mid": {
+        "p25": 98862,
+        "median": 100712,
+        "p75": 105170,
+        "n": 14
+    },
+    "tror llc|software engineer|mid": {
+        "p25": 103334,
+        "median": 107000,
+        "p75": 113000,
+        "n": 5
+    },
+    "troutman pepper locke llp formerly troutman pepper hamilton sanders llp|associate attorney|entry": {
+        "p25": 225000,
+        "median": 237500,
+        "p75": 250000,
+        "n": 6
+    },
+    "truist bank|application architect|senior": {
+        "p25": 141660,
+        "median": 147188,
+        "p75": 149350,
+        "n": 6
+    },
+    "truist bank|business data analyst iii|senior": {
+        "p25": 133510,
+        "median": 135000,
+        "p75": 135000,
+        "n": 5
+    },
+    "truist bank|data scientist ii|mid": {
+        "p25": 110000,
+        "median": 114569,
+        "p75": 124247,
+        "n": 10
+    },
+    "truist bank|it business analyst ii|mid": {
+        "p25": 119543,
+        "median": 129540,
+        "p75": 129708,
+        "n": 5
+    },
+    "truist bank|lead infrastructure engineer|senior": {
+        "p25": 119266,
+        "median": 120000,
+        "p75": 127940,
+        "n": 5
+    },
+    "truist bank|principal data systems advisor|senior": {
+        "p25": 140906,
+        "median": 161159,
+        "p75": 161977,
+        "n": 5
+    },
+    "truist bank|software engineer ii|mid": {
+        "p25": 112234,
+        "median": 119862,
+        "p75": 125000,
+        "n": 52
+    },
+    "truist bank|software engineer iii|senior": {
+        "p25": 129334,
+        "median": 133354,
+        "p75": 142683,
+        "n": 76
+    },
+    "truist bank|software engineer iv|senior": {
+        "p25": 145052,
+        "median": 153287,
+        "p75": 158465,
+        "n": 23
+    },
+    "truist bank|software engineering director|senior": {
+        "p25": 143947,
+        "median": 155914,
+        "p75": 167738,
+        "n": 22
+    },
+    "truist bank|sr. data platform engineer|senior": {
+        "p25": 151875,
+        "median": 151875,
+        "p75": 157080,
+        "n": 5
+    },
+    "truist bank|sr. quantitative model development analyst|senior": {
+        "p25": 104139,
+        "median": 110000,
+        "p75": 112000,
+        "n": 5
+    },
+    "truminds technologies inc|statistical programmer|mid": {
+        "p25": 89003,
+        "median": 99341,
+        "p75": 99341,
+        "n": 5
+    },
+    "trustees of boston university|assistant professor|entry": {
+        "p25": 115000,
+        "median": 140049,
+        "p75": 212000,
+        "n": 48
+    },
+    "trustees of boston university|clinical assistant professor|entry": {
+        "p25": 148642,
+        "median": 150000,
+        "p75": 163926,
+        "n": 7
+    },
+    "trustees of boston university|lecturer|mid": {
+        "p25": 72467,
+        "median": 72827,
+        "p75": 92000,
+        "n": 5
+    },
+    "trustees of boston university|postdoctoral associate|entry": {
+        "p25": 70000,
+        "median": 70500,
+        "p75": 72800,
+        "n": 26
+    },
+    "trustees of boston university|research scientist|mid": {
+        "p25": 70500,
+        "median": 78893,
+        "p75": 89100,
+        "n": 18
+    },
+    "trustees of boston university|senior research scientist|senior": {
+        "p25": 100350,
+        "median": 105960,
+        "p75": 106920,
+        "n": 6
+    },
+    "trustees of dartmouth college|assistant professor|entry": {
+        "p25": 108275,
+        "median": 119100,
+        "p75": 124500,
+        "n": 8
+    },
+    "trustees of dartmouth college|research associate b|entry": {
+        "p25": 66950,
+        "median": 66950,
+        "p75": 68000,
+        "n": 9
+    },
+    "trustees of dartmouth college|research associate c|entry": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 65000,
+        "n": 8
+    },
+    "trustees of dartmouth college|research scientist|mid": {
+        "p25": 64024,
+        "median": 71032,
+        "p75": 71032,
+        "n": 5
+    },
+    "trustees of the university of pennsylvania|academic clinician assistant professor|entry": {
+        "p25": 201525,
+        "median": 201525,
+        "p75": 210621,
+        "n": 5
+    },
+    "trustees of the university of pennsylvania|assistant professor|entry": {
+        "p25": 141401,
+        "median": 155000,
+        "p75": 218000,
+        "n": 25
+    },
+    "trustees of the university of pennsylvania|fellow|senior": {
+        "p25": 86851,
+        "median": 91803,
+        "p75": 91803,
+        "n": 6
+    },
+    "trustees of the university of pennsylvania|postdoctoral researcher|mid": {
+        "p25": 67320,
+        "median": 68657,
+        "p75": 70549,
+        "n": 60
+    },
+    "trustees of the university of pennsylvania|research assistant professor|entry": {
+        "p25": 103187,
+        "median": 115000,
+        "p75": 125000,
+        "n": 8
+    },
+    "trustees of the university of pennsylvania|research associate|entry": {
+        "p25": 72000,
+        "median": 75000,
+        "p75": 80375,
+        "n": 82
+    },
+    "trustees of the university of pennsylvania|research specialist b|mid": {
+        "p25": 59485,
+        "median": 60202,
+        "p75": 60804,
+        "n": 9
+    },
+    "trustees of the university of pennsylvania|research specialist c|mid": {
+        "p25": 69082,
+        "median": 70148,
+        "p75": 71184,
+        "n": 8
+    },
+    "trustees of the university of pennsylvania|research specialist d|mid": {
+        "p25": 79037,
+        "median": 80821,
+        "p75": 83552,
+        "n": 11
+    },
+    "trustees of the university of pennsylvania|senior research investigator|senior": {
+        "p25": 94753,
+        "median": 94753,
+        "p75": 100666,
+        "n": 19
+    },
+    "trustek, inc.|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 8
+    },
+    "tsmc arizona corporation|equipment engineer|mid": {
+        "p25": 100000,
+        "median": 104000,
+        "p75": 104000,
+        "n": 15
+    },
+    "tsmc arizona corporation|equipment engineer - etch|mid": {
+        "p25": 104000,
+        "median": 104000,
+        "p75": 104000,
+        "n": 7
+    },
+    "tsmc arizona corporation|photomask process engineer|mid": {
+        "p25": 112395,
+        "median": 121102,
+        "p75": 124714,
+        "n": 5
+    },
+    "tsmc arizona corporation|process engineer|mid": {
+        "p25": 100000,
+        "median": 104000,
+        "p75": 104000,
+        "n": 10
+    },
+    "tsmc technology, inc.|data engineer|mid": {
+        "p25": 117291,
+        "median": 117291,
+        "p75": 148699,
+        "n": 5
+    },
+    "tsmc technology, inc.|design engineer|mid": {
+        "p25": 124197,
+        "median": 124197,
+        "p75": 124197,
+        "n": 21
+    },
+    "tsmc technology, inc.|principal engineer|senior": {
+        "p25": 151091,
+        "median": 161179,
+        "p75": 178006,
+        "n": 16
+    },
+    "tsq systems inc|quality analyst|mid": {
+        "p25": 67309,
+        "median": 67309,
+        "p75": 73913,
+        "n": 7
+    },
+    "tsq systems inc|software engineer|mid": {
+        "p25": 84781,
+        "median": 84781,
+        "p75": 84781,
+        "n": 6
+    },
+    "tuba city unified school district no. 15|teacher|mid": {
+        "p25": 54252,
+        "median": 54252,
+        "p75": 59899,
+        "n": 11
+    },
+    "tubman technologies inc.|software developer|mid": {
+        "p25": 82971,
+        "median": 94099,
+        "p75": 105227,
+        "n": 6
+    },
+    "tucson unified school district|teacher|mid": {
+        "p25": 48400,
+        "median": 50400,
+        "p75": 51250,
+        "n": 11
+    },
+    "tufts university|assistant professor|entry": {
+        "p25": 95250,
+        "median": 115000,
+        "p75": 128469,
+        "n": 18
+    },
+    "tufts university|postdoctoral scholar|mid": {
+        "p25": 66948,
+        "median": 69000,
+        "p75": 74814,
+        "n": 7
+    },
+    "turner construction company|assistant engineer|entry": {
+        "p25": 79621,
+        "median": 81375,
+        "p75": 85000,
+        "n": 13
+    },
+    "turner construction company|assistant estimator|entry": {
+        "p25": 80902,
+        "median": 83285,
+        "p75": 93938,
+        "n": 6
+    },
+    "turner construction company|engineer|mid": {
+        "p25": 95439,
+        "median": 101650,
+        "p75": 121893,
+        "n": 13
+    },
+    "turo, inc.|senior software engineer|senior": {
+        "p25": 174494,
+        "median": 180526,
+        "p75": 185937,
+        "n": 7
+    },
+    "turo, inc.|staff software engineer|senior": {
+        "p25": 197650,
+        "median": 211005,
+        "p75": 218292,
+        "n": 6
+    },
+    "tuskegee university|assistant professor|entry": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 75000,
+        "n": 9
+    },
+    "tweta technologies llc|software engineer|mid": {
+        "p25": 75000,
+        "median": 90000,
+        "p75": 95000,
+        "n": 5
+    },
+    "twilio, inc.|senior manager, software engineering (l5)|senior": {
+        "p25": 265930,
+        "median": 267242,
+        "p75": 273915,
+        "n": 5
+    },
+    "twilio, inc.|software engineer (l2)|mid": {
+        "p25": 143300,
+        "median": 153414,
+        "p75": 157119,
+        "n": 19
+    },
+    "twilio, inc.|software engineer (l3)|mid": {
+        "p25": 161770,
+        "median": 177855,
+        "p75": 195528,
+        "n": 42
+    },
+    "twilio, inc.|staff, software engineer (l4)|senior": {
+        "p25": 211999,
+        "median": 225074,
+        "p75": 241164,
+        "n": 31
+    },
+    "twilio, inc.|staff, technical account manager|senior": {
+        "p25": 124029,
+        "median": 133623,
+        "p75": 138437,
+        "n": 6
+    },
+    "twitch interactive, inc.|data scientist iii|senior": {
+        "p25": 183000,
+        "median": 197800,
+        "p75": 221900,
+        "n": 6
+    },
+    "twitch interactive, inc.|software development engineer ii|mid": {
+        "p25": 146244,
+        "median": 160050,
+        "p75": 169990,
+        "n": 12
+    },
+    "twitch interactive, inc.|software development engineer iii|senior": {
+        "p25": 189355,
+        "median": 198000,
+        "p75": 200035,
+        "n": 7
+    },
+    "twitch interactive, inc.|technical business developer iii|senior": {
+        "p25": 162700,
+        "median": 162700,
+        "p75": 162700,
+        "n": 7
+    },
+    "two sigma investments, lp|quantitative  researcher|mid": {
+        "p25": 235000,
+        "median": 235000,
+        "p75": 235000,
+        "n": 5
+    },
+    "two sigma investments, lp|quantitative researcher|mid": {
+        "p25": 220000,
+        "median": 235000,
+        "p75": 246250,
+        "n": 44
+    },
+    "two sigma investments, lp|quantitative software engineer|mid": {
+        "p25": 221250,
+        "median": 235000,
+        "p75": 245000,
+        "n": 10
+    },
+    "two sigma investments, lp|software engineer|mid": {
+        "p25": 193500,
+        "median": 206500,
+        "p75": 245500,
+        "n": 30
+    },
+    "tyler technologies, inc.|senior software engineer|senior": {
+        "p25": 110337,
+        "median": 115607,
+        "p75": 117433,
+        "n": 8
+    },
+    "tyler technologies, inc.|software engineer|mid": {
+        "p25": 88321,
+        "median": 90900,
+        "p75": 103298,
+        "n": 16
+    },
+    "tymon global inc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 29
+    }
+}

@@ -1,0 +1,2960 @@
+{
+    "b.i.g. architecture d.p.c.|architectural designer, tier 2|mid": {
+        "p25": 83640,
+        "median": 87125,
+        "p75": 90000,
+        "n": 5
+    },
+    "b.i.g. architecture d.p.c.|junior designer|entry": {
+        "p25": 69000,
+        "median": 70000,
+        "p75": 70725,
+        "n": 5
+    },
+    "b/e aerospace, inc.|engineer ii, reliability engineering|mid": {
+        "p25": 71594,
+        "median": 77189,
+        "p75": 83845,
+        "n": 7
+    },
+    "b1 it solutions, inc|software developer|mid": {
+        "p25": 104280,
+        "median": 110614,
+        "p75": 122699,
+        "n": 15
+    },
+    "babatek, inc.|programmer analyst|mid": {
+        "p25": 87869,
+        "median": 100775,
+        "p75": 106662,
+        "n": 6
+    },
+    "backbone infrastructure, llc|project engineer|mid": {
+        "p25": 60944,
+        "median": 60944,
+        "p75": 76502,
+        "n": 5
+    },
+    "backoffice associates, llc|senior consultant|senior": {
+        "p25": 99675,
+        "median": 105000,
+        "p75": 105825,
+        "n": 6
+    },
+    "backoffice associates, llc d/b/a syniti|lead data migration consultant|senior": {
+        "p25": 133750,
+        "median": 147500,
+        "p75": 150000,
+        "n": 6
+    },
+    "backoffice associates, llc d/b/a syniti|senior consultant|senior": {
+        "p25": 120000,
+        "median": 130000,
+        "p75": 135000,
+        "n": 5
+    },
+    "bahwan cybertek inc.|software engineer|mid": {
+        "p25": 68000,
+        "median": 68000,
+        "p75": 80000,
+        "n": 29
+    },
+    "bahwan cybertek inc.|systems administrator|mid": {
+        "p25": 67000,
+        "median": 67000,
+        "p75": 71000,
+        "n": 7
+    },
+    "bahwan cybertek inc.|test engineer|mid": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 68000,
+        "n": 5
+    },
+    "bain & company, inc.|associate consultant|entry": {
+        "p25": 112000,
+        "median": 112000,
+        "p75": 112000,
+        "n": 8
+    },
+    "bain & company, inc.|consultant|mid": {
+        "p25": 192000,
+        "median": 192000,
+        "p75": 202000,
+        "n": 37
+    },
+    "bain & company, inc.|manager|senior": {
+        "p25": 212000,
+        "median": 212000,
+        "p75": 212000,
+        "n": 13
+    },
+    "bain & company, inc.|senior associate consultant|mid": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 135000,
+        "n": 6
+    },
+    "bain & company, inc.|senior manager|senior": {
+        "p25": 222000,
+        "median": 222000,
+        "p75": 225750,
+        "n": 8
+    },
+    "baker & mckenzie llp|law clerk|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 235000,
+        "n": 5
+    },
+    "baker tilly advisory group, lp|senior tax associate|mid": {
+        "p25": 91056,
+        "median": 97975,
+        "p75": 101670,
+        "n": 8
+    },
+    "balboa bay partners llc|consultant|mid": {
+        "p25": 116723,
+        "median": 130000,
+        "p75": 135000,
+        "n": 8
+    },
+    "balboa bay partners llc|senior consultant|senior": {
+        "p25": 130853,
+        "median": 140426,
+        "p75": 150000,
+        "n": 6
+    },
+    "ballon stoll p.c.|paralegal|entry": {
+        "p25": 66331,
+        "median": 66331,
+        "p75": 66331,
+        "n": 5
+    },
+    "baltimore city public schools|teacher - esol|mid": {
+        "p25": 75745,
+        "median": 81145,
+        "p75": 86401,
+        "n": 8
+    },
+    "balyasny asset management, l.p.|quantitative researcher|mid": {
+        "p25": 192500,
+        "median": 200000,
+        "p75": 232500,
+        "n": 18
+    },
+    "bancroft a new jersey non profit corporation|rehabilitation counselor|mid": {
+        "p25": 39582,
+        "median": 39582,
+        "p75": 39582,
+        "n": 21
+    },
+    "bank of america n.a.|assistant vice president; production services specialist ii|senior": {
+        "p25": 140750,
+        "median": 149760,
+        "p75": 150003,
+        "n": 8
+    },
+    "bank of america n.a.|assistant vice president; quantitative finance analyst|senior": {
+        "p25": 130000,
+        "median": 135000,
+        "p75": 140000,
+        "n": 21
+    },
+    "bank of america n.a.|assistant vice president; software engineer ii|senior": {
+        "p25": 133750,
+        "median": 147563,
+        "p75": 152250,
+        "n": 17
+    },
+    "bank of america n.a.|assistant vice president; software engineer iii|senior": {
+        "p25": 131797,
+        "median": 148500,
+        "p75": 155228,
+        "n": 14
+    },
+    "bank of america n.a.|associate; global financial crimes specialist|entry": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 225000,
+        "n": 14
+    },
+    "bank of america n.a.|director; quantitative finance manager|senior": {
+        "p25": 175000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 5
+    },
+    "bank of america n.a.|director; senior technology manager|senior": {
+        "p25": 222500,
+        "median": 258000,
+        "p75": 261500,
+        "n": 11
+    },
+    "bank of america n.a.|officer; quantitative mgmt associate|entry": {
+        "p25": 87762,
+        "median": 95000,
+        "p75": 97137,
+        "n": 14
+    },
+    "bank of america n.a.|officer; software engineer ii|mid": {
+        "p25": 110000,
+        "median": 112500,
+        "p75": 118750,
+        "n": 10
+    },
+    "bank of america n.a.|officer; tech analyst program|entry": {
+        "p25": 95000,
+        "median": 95000,
+        "p75": 95000,
+        "n": 28
+    },
+    "bank of america n.a.|senior vice president; senior architect|senior": {
+        "p25": 180272,
+        "median": 182770,
+        "p75": 191250,
+        "n": 8
+    },
+    "bank of america n.a.|senior vice president; senior engineer|senior": {
+        "p25": 161400,
+        "median": 168300,
+        "p75": 169700,
+        "n": 9
+    },
+    "bank of america n.a.|senior vice president; senior technology manager|senior": {
+        "p25": 171796,
+        "median": 180994,
+        "p75": 196375,
+        "n": 24
+    },
+    "bank of america n.a.|vice president; architect|senior": {
+        "p25": 142234,
+        "median": 156000,
+        "p75": 165000,
+        "n": 9
+    },
+    "bank of america n.a.|vice president; data engineer iii|senior": {
+        "p25": 148905,
+        "median": 151115,
+        "p75": 159259,
+        "n": 12
+    },
+    "bank of america n.a.|vice president; delivery lead - technology|senior": {
+        "p25": 151257,
+        "median": 157196,
+        "p75": 162301,
+        "n": 6
+    },
+    "bank of america n.a.|vice president; feature lead - technology|senior": {
+        "p25": 149781,
+        "median": 155688,
+        "p75": 165000,
+        "n": 80
+    },
+    "bank of america n.a.|vice president; infrastructure engineer ii|senior": {
+        "p25": 143837,
+        "median": 146950,
+        "p75": 154000,
+        "n": 8
+    },
+    "bank of america n.a.|vice president; production services specialist ii|senior": {
+        "p25": 134000,
+        "median": 139681,
+        "p75": 146073,
+        "n": 9
+    },
+    "bank of america n.a.|vice president; quantitative finance analyst|senior": {
+        "p25": 139500,
+        "median": 146450,
+        "p75": 156500,
+        "n": 31
+    },
+    "bank of america n.a.|vice president; senior engineer|senior": {
+        "p25": 162750,
+        "median": 170000,
+        "p75": 179991,
+        "n": 11
+    },
+    "bank of america n.a.|vice president; senior technology manager|senior": {
+        "p25": 160000,
+        "median": 179000,
+        "p75": 196500,
+        "n": 11
+    },
+    "bank of america n.a.|vice president; software engineer ii|senior": {
+        "p25": 136000,
+        "median": 148964,
+        "p75": 155688,
+        "n": 37
+    },
+    "bank of america n.a.|vice president; software engineer iii|senior": {
+        "p25": 150000,
+        "median": 157000,
+        "p75": 175500,
+        "n": 129
+    },
+    "bank of america n.a.|vice president; sr quantitative fin analyst|senior": {
+        "p25": 177962,
+        "median": 193425,
+        "p75": 218750,
+        "n": 6
+    },
+    "bank of america n.a.|vice president; sr quantitative finance analyst|senior": {
+        "p25": 163500,
+        "median": 171700,
+        "p75": 177500,
+        "n": 11
+    },
+    "bank of america n.a.|vice president; technology manager|senior": {
+        "p25": 156783,
+        "median": 164000,
+        "p75": 168075,
+        "n": 19
+    },
+    "bank of america n.a.|vice president; technology operations specialist ii|senior": {
+        "p25": 150000,
+        "median": 150400,
+        "p75": 153600,
+        "n": 5
+    },
+    "bank of america n.a.|vice president; technology services lead|senior": {
+        "p25": 148432,
+        "median": 152000,
+        "p75": 164650,
+        "n": 11
+    },
+    "bank of china|associate|entry": {
+        "p25": 69342,
+        "median": 73632,
+        "p75": 79672,
+        "n": 10
+    },
+    "banking soft solutions llc|data architect|senior": {
+        "p25": 89440,
+        "median": 116480,
+        "p75": 132579,
+        "n": 5
+    },
+    "banking soft solutions llc|software programmer|mid": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 126880,
+        "n": 7
+    },
+    "banner health|revenue cycle analytics consultant|mid": {
+        "p25": 79512,
+        "median": 80904,
+        "p75": 82510,
+        "n": 6
+    },
+    "banner medical group|hospitalist|mid": {
+        "p25": 284500,
+        "median": 305000,
+        "p75": 332000,
+        "n": 7
+    },
+    "banner medical group|physician|mid": {
+        "p25": 200000,
+        "median": 232500,
+        "p75": 332000,
+        "n": 10
+    },
+    "banner medical group|primary care physician|mid": {
+        "p25": 211000,
+        "median": 211000,
+        "p75": 220000,
+        "n": 10
+    },
+    "banner medical group|surgical oncology physician|mid": {
+        "p25": 356000,
+        "median": 356000,
+        "p75": 356000,
+        "n": 5
+    },
+    "banner university medical group|hospitalist|mid": {
+        "p25": 269500,
+        "median": 269500,
+        "p75": 269500,
+        "n": 14
+    },
+    "baptist health group|medical technologist|mid": {
+        "p25": 58323,
+        "median": 60278,
+        "p75": 62779,
+        "n": 6
+    },
+    "baptist health south florida, inc.|research associate 3|entry": {
+        "p25": 70000,
+        "median": 70000,
+        "p75": 70000,
+        "n": 11
+    },
+    "barclays capital inc.|vice president - global markets|senior": {
+        "p25": 200000,
+        "median": 220000,
+        "p75": 235000,
+        "n": 22
+    },
+    "barclays services corp.|application developer|mid": {
+        "p25": 168333,
+        "median": 186400,
+        "p75": 214250,
+        "n": 8
+    },
+    "barclays services corp.|assistant vice president|senior": {
+        "p25": 138105,
+        "median": 145000,
+        "p75": 154000,
+        "n": 5
+    },
+    "barclays services corp.|avp, senior java developer|senior": {
+        "p25": 152000,
+        "median": 157477,
+        "p75": 160000,
+        "n": 9
+    },
+    "barclays services corp.|avp, software engineer|mid": {
+        "p25": 165895,
+        "median": 171000,
+        "p75": 181625,
+        "n": 8
+    },
+    "barclays services corp.|business analyst|mid": {
+        "p25": 130000,
+        "median": 145000,
+        "p75": 158740,
+        "n": 7
+    },
+    "barclays services corp.|data engineer|mid": {
+        "p25": 121270,
+        "median": 126700,
+        "p75": 128500,
+        "n": 7
+    },
+    "barclays services corp.|developer|mid": {
+        "p25": 125000,
+        "median": 133560,
+        "p75": 144000,
+        "n": 13
+    },
+    "barclays services corp.|full stack developer|mid": {
+        "p25": 108862,
+        "median": 130000,
+        "p75": 155000,
+        "n": 5
+    },
+    "barclays services corp.|infrastructure engineer|mid": {
+        "p25": 116633,
+        "median": 121125,
+        "p75": 126831,
+        "n": 10
+    },
+    "barclays services corp.|java developer|mid": {
+        "p25": 127942,
+        "median": 133128,
+        "p75": 143250,
+        "n": 8
+    },
+    "barclays services corp.|senior developer|senior": {
+        "p25": 172000,
+        "median": 194000,
+        "p75": 200000,
+        "n": 5
+    },
+    "barclays services corp.|software engineer|mid": {
+        "p25": 120000,
+        "median": 125000,
+        "p75": 148500,
+        "n": 23
+    },
+    "barclays services corp.|software engineer - avp|mid": {
+        "p25": 151250,
+        "median": 161000,
+        "p75": 165014,
+        "n": 10
+    },
+    "barclays services corp.|software engineer - ba4|mid": {
+        "p25": 112543,
+        "median": 113850,
+        "p75": 120000,
+        "n": 9
+    },
+    "barclays services corp.|technology analyst|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 113850,
+        "n": 7
+    },
+    "barclays services llc|data engineer|mid": {
+        "p25": 115000,
+        "median": 120000,
+        "p75": 126000,
+        "n": 5
+    },
+    "barclays services llc|full stack developer|mid": {
+        "p25": 153250,
+        "median": 167000,
+        "p75": 170116,
+        "n": 16
+    },
+    "barclays services llc|software engineer|mid": {
+        "p25": 120000,
+        "median": 139500,
+        "p75": 162750,
+        "n": 6
+    },
+    "barnwell county school district|elementary school teacher|mid": {
+        "p25": 52000,
+        "median": 54080,
+        "p75": 59540,
+        "n": 5
+    },
+    "barton technologies llc|software engineer|mid": {
+        "p25": 93000,
+        "median": 94000,
+        "p75": 106000,
+        "n": 19
+    },
+    "baruch college|assistant professor|entry": {
+        "p25": 99532,
+        "median": 99532,
+        "p75": 155000,
+        "n": 17
+    },
+    "bass pro, llc|solutions delivery manager|senior": {
+        "p25": 131500,
+        "median": 135000,
+        "p75": 138000,
+        "n": 5
+    },
+    "battelle energy alliance, llc|nuclear engineer|mid": {
+        "p25": 126372,
+        "median": 135000,
+        "p75": 140400,
+        "n": 9
+    },
+    "battelle memorial institute|data scientist|mid": {
+        "p25": 124200,
+        "median": 127961,
+        "p75": 149343,
+        "n": 9
+    },
+    "battelle memorial institute|earth scientist (atmospheric science)|mid": {
+        "p25": 123231,
+        "median": 123383,
+        "p75": 123501,
+        "n": 5
+    },
+    "battelle memorial institute|electrical engineer|mid": {
+        "p25": 117292,
+        "median": 130370,
+        "p75": 146162,
+        "n": 21
+    },
+    "battelle memorial institute|materials scientist|mid": {
+        "p25": 117538,
+        "median": 123625,
+        "p75": 134985,
+        "n": 10
+    },
+    "battelle memorial institute|post doctorate research associate (mechanical engineer)|entry": {
+        "p25": 96000,
+        "median": 98595,
+        "p75": 99982,
+        "n": 5
+    },
+    "bay area environmental research institute|research scientist|mid": {
+        "p25": 113386,
+        "median": 130133,
+        "p75": 156894,
+        "n": 10
+    },
+    "bayarde services llc|finance analyst|mid": {
+        "p25": 63000,
+        "median": 63000,
+        "p75": 63000,
+        "n": 7
+    },
+    "baylor college of medicine|assistant professor|entry": {
+        "p25": 93249,
+        "median": 129889,
+        "p75": 192930,
+        "n": 18
+    },
+    "baylor college of medicine|instructor|mid": {
+        "p25": 75000,
+        "median": 77250,
+        "p75": 83500,
+        "n": 23
+    },
+    "baylor college of medicine|postdoctoral associate/fellow|senior": {
+        "p25": 62232,
+        "median": 65000,
+        "p75": 68964,
+        "n": 69
+    },
+    "baylor college of medicine|research assistant i|entry": {
+        "p25": 50000,
+        "median": 50560,
+        "p75": 51683,
+        "n": 5
+    },
+    "baylor college of medicine|research assistant ii|entry": {
+        "p25": 56099,
+        "median": 59104,
+        "p75": 60097,
+        "n": 8
+    },
+    "baylor college of medicine|senior research assistant|mid": {
+        "p25": 65774,
+        "median": 70274,
+        "p75": 72290,
+        "n": 5
+    },
+    "baylor college of medicine|staff scientist|senior": {
+        "p25": 73000,
+        "median": 74992,
+        "p75": 77032,
+        "n": 14
+    },
+    "baylor scott & white health|analytics developer ii|mid": {
+        "p25": 82000,
+        "median": 82002,
+        "p75": 86683,
+        "n": 5
+    },
+    "baylor technologies llc|sr. network engineer|senior": {
+        "p25": 80288,
+        "median": 80288,
+        "p75": 80288,
+        "n": 11
+    },
+    "baylor university|assistant professor|entry": {
+        "p25": 86924,
+        "median": 95430,
+        "p75": 157251,
+        "n": 14
+    },
+    "baylor university|postdoctoral research associate|entry": {
+        "p25": 47500,
+        "median": 54413,
+        "p75": 55619,
+        "n": 9
+    },
+    "baystate medical center, inc.|medical laboratory specialist|mid": {
+        "p25": 83304,
+        "median": 83844,
+        "p75": 84406,
+        "n": 9
+    },
+    "baystate medical practices, inc.|hospitalist|mid": {
+        "p25": 255400,
+        "median": 255400,
+        "p75": 255400,
+        "n": 8
+    },
+    "baystate medical practices, inc.|nocturnist|mid": {
+        "p25": 293300,
+        "median": 293300,
+        "p75": 293300,
+        "n": 5
+    },
+    "bct consulting inc.|programmer analyst|mid": {
+        "p25": 80995,
+        "median": 85000,
+        "p75": 106662,
+        "n": 29
+    },
+    "bct consulting inc.|software developer|mid": {
+        "p25": 79986,
+        "median": 84094,
+        "p75": 95493,
+        "n": 11
+    },
+    "bct consulting inc.|system analyst|mid": {
+        "p25": 81099,
+        "median": 105019,
+        "p75": 105019,
+        "n": 20
+    },
+    "bcvs|automation engineer|mid": {
+        "p25": 72904,
+        "median": 73777,
+        "p75": 74006,
+        "n": 5
+    },
+    "bcvs|manufacturing engineer|mid": {
+        "p25": 68390,
+        "median": 68390,
+        "p75": 77188,
+        "n": 5
+    },
+    "bdo usa, p.c.|assurance manager|senior": {
+        "p25": 116000,
+        "median": 120000,
+        "p75": 124000,
+        "n": 7
+    },
+    "bdo usa, p.c.|senior assurance associate|mid": {
+        "p25": 91750,
+        "median": 99835,
+        "p75": 108000,
+        "n": 12
+    },
+    "bdo usa, p.c.|senior tax associate|mid": {
+        "p25": 97875,
+        "median": 99800,
+        "p75": 104500,
+        "n": 10
+    },
+    "bdo usa, p.c.|tax manager|senior": {
+        "p25": 134400,
+        "median": 136450,
+        "p75": 139625,
+        "n": 6
+    },
+    "beacon hill solutions group llc|senior software developer|senior": {
+        "p25": 114400,
+        "median": 124800,
+        "p75": 128960,
+        "n": 33
+    },
+    "beacon hill solutions group llc|software developer|mid": {
+        "p25": 89720,
+        "median": 106080,
+        "p75": 117520,
+        "n": 27
+    },
+    "beacon hill solutions group llc|software engineer|mid": {
+        "p25": 110240,
+        "median": 110240,
+        "p75": 110240,
+        "n": 6
+    },
+    "beaconbold inc|devops engineer|mid": {
+        "p25": 89476,
+        "median": 98436,
+        "p75": 112986,
+        "n": 8
+    },
+    "beaconfire staffing solutions inc|business analyst|mid": {
+        "p25": 63242,
+        "median": 69160,
+        "p75": 73756,
+        "n": 7
+    },
+    "beaconfire staffing solutions inc|data analyst|mid": {
+        "p25": 68286,
+        "median": 68286,
+        "p75": 68286,
+        "n": 7
+    },
+    "beaconfire staffing solutions inc|java developer|mid": {
+        "p25": 64948,
+        "median": 80995,
+        "p75": 101254,
+        "n": 31
+    },
+    "beaconfire staffing solutions inc.|java developer|mid": {
+        "p25": 80995,
+        "median": 101254,
+        "p75": 101254,
+        "n": 25
+    },
+    "beaconfire staffing solutions inc.|software developer|mid": {
+        "p25": 83917,
+        "median": 94660,
+        "p75": 101920,
+        "n": 10
+    },
+    "bean infosystems llc|data engineer|mid": {
+        "p25": 95035,
+        "median": 96034,
+        "p75": 114264,
+        "n": 8
+    },
+    "bean infosystems llc|database administrator|mid": {
+        "p25": 87173,
+        "median": 87336,
+        "p75": 87500,
+        "n": 18
+    },
+    "bean infosystems llc|software developer|mid": {
+        "p25": 96213,
+        "median": 105997,
+        "p75": 105997,
+        "n": 27
+    },
+    "beckman research institute of the city of hope|postdoctoral fellow|senior": {
+        "p25": 71605,
+        "median": 73223,
+        "p75": 74321,
+        "n": 10
+    },
+    "beckman research institute of the city of hope|research associate|entry": {
+        "p25": 76045,
+        "median": 76409,
+        "p75": 76409,
+        "n": 5
+    },
+    "beckman research institute of the city of hope|staff scientist|senior": {
+        "p25": 80442,
+        "median": 83861,
+        "p75": 88266,
+        "n": 24
+    },
+    "becton, dickinson and company|senior quality engineer|senior": {
+        "p25": 121250,
+        "median": 127500,
+        "p75": 130000,
+        "n": 6
+    },
+    "before you solutions llc|software developer|mid": {
+        "p25": 95113,
+        "median": 105227,
+        "p75": 120000,
+        "n": 7
+    },
+    "before you solutions llc|software engineer|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 100170,
+        "n": 6
+    },
+    "bell info solutions, llc.|software developer|mid": {
+        "p25": 108826,
+        "median": 110000,
+        "p75": 122699,
+        "n": 5
+    },
+    "benecias llc.|data engineer|mid": {
+        "p25": 87750,
+        "median": 93500,
+        "p75": 94000,
+        "n": 6
+    },
+    "bened software services inc.|software engineer|mid": {
+        "p25": 96938,
+        "median": 104377,
+        "p75": 109375,
+        "n": 6
+    },
+    "beneficial tech services, inc|software developer|mid": {
+        "p25": 106558,
+        "median": 106558,
+        "p75": 106558,
+        "n": 5
+    },
+    "benson regional air group, inc|aeronautical scientific technician|mid": {
+        "p25": 52000,
+        "median": 53040,
+        "p75": 54080,
+        "n": 10
+    },
+    "bering strait school district|certified teacher|mid": {
+        "p25": 59490,
+        "median": 73142,
+        "p75": 82980,
+        "n": 15
+    },
+    "bering strait school district|elementary teacher|mid": {
+        "p25": 64752,
+        "median": 73142,
+        "p75": 76858,
+        "n": 8
+    },
+    "berkeley research group, llc|associate|entry": {
+        "p25": 85000,
+        "median": 85500,
+        "p75": 86000,
+        "n": 6
+    },
+    "berkeley research group, llc|senior managing consultant|senior": {
+        "p25": 180000,
+        "median": 187000,
+        "p75": 194000,
+        "n": 6
+    },
+    "berkshire grey inc.|senior software engineer|senior": {
+        "p25": 162500,
+        "median": 166000,
+        "p75": 180000,
+        "n": 7
+    },
+    "berkshire medical center|resident, internal medicine|entry": {
+        "p25": 70461,
+        "median": 70461,
+        "p75": 71498,
+        "n": 7
+    },
+    "bernstein institutional services llc|research associate|entry": {
+        "p25": 105000,
+        "median": 112500,
+        "p75": 135000,
+        "n": 12
+    },
+    "bernstein institutional services llc|senior research associate|mid": {
+        "p25": 161250,
+        "median": 175000,
+        "p75": 175000,
+        "n": 12
+    },
+    "bertie county board of education|elementary school teacher|mid": {
+        "p25": 46675,
+        "median": 52060,
+        "p75": 53840,
+        "n": 7
+    },
+    "beshton software inc|software engineer|mid": {
+        "p25": 106849,
+        "median": 123947,
+        "p75": 147170,
+        "n": 8
+    },
+    "best academy|teacher|mid": {
+        "p25": 63188,
+        "median": 66147,
+        "p75": 68806,
+        "n": 6
+    },
+    "best buy co., inc.|engineering manager|senior": {
+        "p25": 155000,
+        "median": 165525,
+        "p75": 167577,
+        "n": 5
+    },
+    "best buy co., inc.|lead engineer|senior": {
+        "p25": 151242,
+        "median": 161087,
+        "p75": 165325,
+        "n": 14
+    },
+    "best buy co., inc.|senior engineer|senior": {
+        "p25": 156814,
+        "median": 159134,
+        "p75": 162201,
+        "n": 7
+    },
+    "best buy co., inc.|senior qa engineer|senior": {
+        "p25": 138727,
+        "median": 149377,
+        "p75": 159348,
+        "n": 6
+    },
+    "best buy co., inc.|senior software engineer|senior": {
+        "p25": 153256,
+        "median": 158445,
+        "p75": 168068,
+        "n": 11
+    },
+    "best buy co., inc.|software engineer ii|mid": {
+        "p25": 130372,
+        "median": 133998,
+        "p75": 138030,
+        "n": 34
+    },
+    "betacode consulting llc|senior software associate|mid": {
+        "p25": 106197,
+        "median": 115000,
+        "p75": 115000,
+        "n": 24
+    },
+    "beth israel deaconess medical center|postdoctoral fellow|senior": {
+        "p25": 65000,
+        "median": 69000,
+        "p75": 76003,
+        "n": 5
+    },
+    "beth israel deaconess medical center, inc.|resident in general surgery|entry": {
+        "p25": 66602,
+        "median": 66602,
+        "p75": 66602,
+        "n": 5
+    },
+    "beth israel deaconess medical center, inc.|resident in internal medicine|entry": {
+        "p25": 72072,
+        "median": 72072,
+        "p75": 73653,
+        "n": 7
+    },
+    "beth israel deaconess medical center, inc.|resident in pathology|entry": {
+        "p25": 75234,
+        "median": 75234,
+        "p75": 75234,
+        "n": 5
+    },
+    "beth israel deaconess medical center, inc.|staff scientist i|senior": {
+        "p25": 69701,
+        "median": 70553,
+        "p75": 96714,
+        "n": 8
+    },
+    "beyond engineering and testing, llc|construction engineer|mid": {
+        "p25": 64480,
+        "median": 64979,
+        "p75": 65000,
+        "n": 5
+    },
+    "beyondcareer llc|software engineer|mid": {
+        "p25": 54018,
+        "median": 54018,
+        "p75": 54018,
+        "n": 21
+    },
+    "bhatia & co, inc, cpas|financial analyst|mid": {
+        "p25": 92456,
+        "median": 92456,
+        "p75": 94203,
+        "n": 9
+    },
+    "bibb county school district|middle school math teacher|mid": {
+        "p25": 59694,
+        "median": 60982,
+        "p75": 66735,
+        "n": 9
+    },
+    "bilinguals inc.|clinical fellow - speech language pathology|senior": {
+        "p25": 57970,
+        "median": 57970,
+        "p75": 57970,
+        "n": 7
+    },
+    "bill operations llc|senior software engineer|senior": {
+        "p25": 175700,
+        "median": 185400,
+        "p75": 193612,
+        "n": 7
+    },
+    "bintech group llc|azure data engineer|mid": {
+        "p25": 96959,
+        "median": 103916,
+        "p75": 128939,
+        "n": 7
+    },
+    "bio-med services, inc|biomed engineer i|entry": {
+        "p25": 70012,
+        "median": 74588,
+        "p75": 76876,
+        "n": 5
+    },
+    "biocytogen boston corp.|business development engineer|mid": {
+        "p25": 105000,
+        "median": 125000,
+        "p75": 132846,
+        "n": 5
+    },
+    "birlasoft inc|architect|senior": {
+        "p25": 94765,
+        "median": 108514,
+        "p75": 121514,
+        "n": 21
+    },
+    "birlasoft inc|program manager|senior": {
+        "p25": 108680,
+        "median": 109782,
+        "p75": 123521,
+        "n": 7
+    },
+    "birlasoft inc|project manager|senior": {
+        "p25": 90002,
+        "median": 94682,
+        "p75": 98384,
+        "n": 7
+    },
+    "birlasoft inc|senior application developer|senior": {
+        "p25": 91250,
+        "median": 91250,
+        "p75": 91250,
+        "n": 6
+    },
+    "birlasoft inc|senior architect|senior": {
+        "p25": 107109,
+        "median": 119517,
+        "p75": 127192,
+        "n": 11
+    },
+    "birlasoft inc|senior software developer|senior": {
+        "p25": 91250,
+        "median": 91250,
+        "p75": 105227,
+        "n": 5
+    },
+    "birlasoft inc|senior technical lead|senior": {
+        "p25": 94765,
+        "median": 105976,
+        "p75": 118456,
+        "n": 17
+    },
+    "birlasoft inc|sr technical lead|senior": {
+        "p25": 83533,
+        "median": 100984,
+        "p75": 105227,
+        "n": 13
+    },
+    "birlasoft inc|technical lead|senior": {
+        "p25": 94307,
+        "median": 98977,
+        "p75": 104254,
+        "n": 32
+    },
+    "birlasoft inc|technical specialist|mid": {
+        "p25": 90002,
+        "median": 94765,
+        "p75": 105227,
+        "n": 45
+    },
+    "birlasoft solutions, inc.|architect|senior": {
+        "p25": 103210,
+        "median": 107629,
+        "p75": 126755,
+        "n": 16
+    },
+    "birlasoft solutions, inc.|lead architect|senior": {
+        "p25": 135192,
+        "median": 136198,
+        "p75": 136315,
+        "n": 5
+    },
+    "birlasoft solutions, inc.|lead consultant|senior": {
+        "p25": 82831,
+        "median": 85893,
+        "p75": 89579,
+        "n": 6
+    },
+    "birlasoft solutions, inc.|principal consultant|senior": {
+        "p25": 103210,
+        "median": 106059,
+        "p75": 125309,
+        "n": 12
+    },
+    "birlasoft solutions, inc.|program manager|senior": {
+        "p25": 96595,
+        "median": 126589,
+        "p75": 136289,
+        "n": 7
+    },
+    "birlasoft solutions, inc.|senior principal consultant|senior": {
+        "p25": 104166,
+        "median": 125540,
+        "p75": 127754,
+        "n": 5
+    },
+    "birlasoft solutions, inc.|senior technical lead|senior": {
+        "p25": 103210,
+        "median": 105227,
+        "p75": 110793,
+        "n": 28
+    },
+    "birlasoft solutions, inc.|technical lead|senior": {
+        "p25": 100604,
+        "median": 103210,
+        "p75": 108601,
+        "n": 14
+    },
+    "birlasoft solutions, inc.|technical specialist|mid": {
+        "p25": 93745,
+        "median": 103210,
+        "p75": 106605,
+        "n": 7
+    },
+    "bits and binaries inc|software developer|mid": {
+        "p25": 98987,
+        "median": 105227,
+        "p75": 107720,
+        "n": 7
+    },
+    "bitsolutionsus llc|aem developer|mid": {
+        "p25": 94370,
+        "median": 94370,
+        "p75": 94370,
+        "n": 5
+    },
+    "bitsolutionsus llc|software developer|mid": {
+        "p25": 90896,
+        "median": 112923,
+        "p75": 112923,
+        "n": 5
+    },
+    "bitwise inc.|application engineer|mid": {
+        "p25": 90210,
+        "median": 91355,
+        "p75": 94375,
+        "n": 6
+    },
+    "bitwise inc.|data engineer|mid": {
+        "p25": 82534,
+        "median": 92200,
+        "p75": 94370,
+        "n": 9
+    },
+    "bitwise inc.|lead application engineer|senior": {
+        "p25": 106558,
+        "median": 106558,
+        "p75": 107339,
+        "n": 6
+    },
+    "bitwise inc.|lead data engineer|senior": {
+        "p25": 107000,
+        "median": 115400,
+        "p75": 128100,
+        "n": 21
+    },
+    "bitwise inc.|senior application engineer|senior": {
+        "p25": 92750,
+        "median": 95000,
+        "p75": 97500,
+        "n": 7
+    },
+    "bitwise inc.|senior data engineer|senior": {
+        "p25": 106975,
+        "median": 111800,
+        "p75": 125175,
+        "n": 6
+    },
+    "bitwise inc.|sr. application engineer|senior": {
+        "p25": 102400,
+        "median": 106600,
+        "p75": 107600,
+        "n": 9
+    },
+    "bitwise inc.|sr. data engineer|senior": {
+        "p25": 82534,
+        "median": 85176,
+        "p75": 93105,
+        "n": 11
+    },
+    "bj's wholesale club, inc.|lead digital engineer|senior": {
+        "p25": 153300,
+        "median": 156518,
+        "p75": 159142,
+        "n": 5
+    },
+    "black & veatch corporation|associate engineer - electrical|entry": {
+        "p25": 85592,
+        "median": 89939,
+        "p75": 101587,
+        "n": 5
+    },
+    "black & veatch corporation|civil engineer 3|mid": {
+        "p25": 84006,
+        "median": 84635,
+        "p75": 85155,
+        "n": 6
+    },
+    "black & veatch corporation|electrical engineer 1|entry": {
+        "p25": 71334,
+        "median": 80714,
+        "p75": 90454,
+        "n": 6
+    },
+    "black & veatch corporation|electrical engineer 2|mid": {
+        "p25": 70221,
+        "median": 72093,
+        "p75": 79461,
+        "n": 16
+    },
+    "black & veatch corporation|electrical engineer 3|mid": {
+        "p25": 89367,
+        "median": 100257,
+        "p75": 118134,
+        "n": 11
+    },
+    "black & veatch corporation|electrical engineer 4|mid": {
+        "p25": 109033,
+        "median": 115347,
+        "p75": 115627,
+        "n": 9
+    },
+    "black & veatch corporation|project controls sr associate|mid": {
+        "p25": 75234,
+        "median": 75234,
+        "p75": 75234,
+        "n": 7
+    },
+    "black construction corporation|civil engineer|mid": {
+        "p25": 53061,
+        "median": 54200,
+        "p75": 58250,
+        "n": 19
+    },
+    "blackhawk network, inc.|senior software engineer|senior": {
+        "p25": 115414,
+        "median": 125288,
+        "p75": 127878,
+        "n": 6
+    },
+    "blackline systems, inc.|senior software engineer|senior": {
+        "p25": 143873,
+        "median": 161223,
+        "p75": 172628,
+        "n": 8
+    },
+    "blackline systems, inc.|staff software engineer|senior": {
+        "p25": 163550,
+        "median": 176134,
+        "p75": 184558,
+        "n": 5
+    },
+    "blackrock corporation us, inc.|associate|entry": {
+        "p25": 128250,
+        "median": 144700,
+        "p75": 153425,
+        "n": 6
+    },
+    "blackrock financial management, inc.|analyst|mid": {
+        "p25": 82971,
+        "median": 95493,
+        "p75": 109900,
+        "n": 86
+    },
+    "blackrock financial management, inc.|associate|entry": {
+        "p25": 113500,
+        "median": 132035,
+        "p75": 144750,
+        "n": 198
+    },
+    "blackrock financial management, inc.|director|senior": {
+        "p25": 203625,
+        "median": 230000,
+        "p75": 239850,
+        "n": 32
+    },
+    "blackrock financial management, inc.|vice president|senior": {
+        "p25": 154925,
+        "median": 173400,
+        "p75": 189775,
+        "n": 158
+    },
+    "blackrock institutional services, inc.|associate|entry": {
+        "p25": 124375,
+        "median": 131300,
+        "p75": 136400,
+        "n": 8
+    },
+    "blackrock institutional trust company, n.a.|associate|entry": {
+        "p25": 127750,
+        "median": 134100,
+        "p75": 145900,
+        "n": 7
+    },
+    "blackrock institutional trust company, n.a.|director|senior": {
+        "p25": 230000,
+        "median": 230000,
+        "p75": 236075,
+        "n": 6
+    },
+    "blackrock institutional trust company, n.a.|vice president|senior": {
+        "p25": 169700,
+        "median": 170700,
+        "p75": 190100,
+        "n": 11
+    },
+    "blackrock investment management, llc|associate|entry": {
+        "p25": 102000,
+        "median": 114300,
+        "p75": 135000,
+        "n": 25
+    },
+    "blackrock investment management, llc|vice president|senior": {
+        "p25": 158100,
+        "median": 187750,
+        "p75": 200200,
+        "n": 20
+    },
+    "blackstone, inc.|senior associate, credit & insurance|mid": {
+        "p25": 185000,
+        "median": 185000,
+        "p75": 185000,
+        "n": 5
+    },
+    "blend360, llc|senior data scientist|senior": {
+        "p25": 103700,
+        "median": 107962,
+        "p75": 111955,
+        "n": 6
+    },
+    "blizzard entertainment, inc.|senior software engineer|senior": {
+        "p25": 168300,
+        "median": 168446,
+        "p75": 169744,
+        "n": 5
+    },
+    "blizzard entertainment, inc.|software engineer|mid": {
+        "p25": 118331,
+        "median": 122179,
+        "p75": 129979,
+        "n": 9
+    },
+    "block chain solutions inc|sr. software engineer|senior": {
+        "p25": 105500,
+        "median": 105500,
+        "p75": 105500,
+        "n": 7
+    },
+    "block, inc.|business intelligence analyst|mid": {
+        "p25": 149400,
+        "median": 149473,
+        "p75": 167300,
+        "n": 5
+    },
+    "block, inc.|data scientist|mid": {
+        "p25": 179273,
+        "median": 195264,
+        "p75": 206500,
+        "n": 13
+    },
+    "block, inc.|machine learning engineer (modeling)|mid": {
+        "p25": 197836,
+        "median": 225000,
+        "p75": 229253,
+        "n": 8
+    },
+    "block, inc.|software engineer|mid": {
+        "p25": 187843,
+        "median": 210061,
+        "p75": 232366,
+        "n": 68
+    },
+    "bloomberg industry group, inc.|web application architect 1|mid": {
+        "p25": 110000,
+        "median": 120000,
+        "p75": 120000,
+        "n": 5
+    },
+    "bloomberg l.p.|account manager|senior": {
+        "p25": 111966,
+        "median": 111966,
+        "p75": 129896,
+        "n": 5
+    },
+    "bloomberg l.p.|infrastructure engineer|mid": {
+        "p25": 128211,
+        "median": 129293,
+        "p75": 146286,
+        "n": 5
+    },
+    "bloomberg l.p.|machine learning engineer|mid": {
+        "p25": 151819,
+        "median": 151819,
+        "p75": 160805,
+        "n": 23
+    },
+    "bloomberg l.p.|machine learning team leader|mid": {
+        "p25": 186056,
+        "median": 230000,
+        "p75": 255944,
+        "n": 5
+    },
+    "bloomberg l.p.|product analyst|mid": {
+        "p25": 107255,
+        "median": 115731,
+        "p75": 125133,
+        "n": 7
+    },
+    "bloomberg l.p.|product management professional|mid": {
+        "p25": 103979,
+        "median": 123656,
+        "p75": 142253,
+        "n": 7
+    },
+    "bloomberg l.p.|quantitative analyst|mid": {
+        "p25": 132371,
+        "median": 137571,
+        "p75": 142771,
+        "n": 8
+    },
+    "bloomberg l.p.|senior data management professional|senior": {
+        "p25": 94874,
+        "median": 110728,
+        "p75": 113994,
+        "n": 6
+    },
+    "bloomberg l.p.|senior software engineer|senior": {
+        "p25": 151819,
+        "median": 151819,
+        "p75": 160805,
+        "n": 193
+    },
+    "bloomberg l.p.|senior ux designer|senior": {
+        "p25": 151819,
+        "median": 151819,
+        "p75": 160722,
+        "n": 5
+    },
+    "bloomberg l.p.|software engineer|mid": {
+        "p25": 123656,
+        "median": 123656,
+        "p75": 131997,
+        "n": 66
+    },
+    "bloomberg l.p.|team leader|mid": {
+        "p25": 182957,
+        "median": 182957,
+        "p75": 186056,
+        "n": 72
+    },
+    "blue cross and blue shield of alabama|senior application systems analyst/programmer|senior": {
+        "p25": 108826,
+        "median": 112986,
+        "p75": 113178,
+        "n": 5
+    },
+    "blue cross and blue shield of alabama|sr. application systems analyst/programmer|senior": {
+        "p25": 112020,
+        "median": 114031,
+        "p75": 114882,
+        "n": 8
+    },
+    "blue cross and blue shield of florida, inc.|principal it developer|senior": {
+        "p25": 146908,
+        "median": 151955,
+        "p75": 154519,
+        "n": 11
+    },
+    "blue cross and blue shield of florida, inc.|senior it developer|senior": {
+        "p25": 124599,
+        "median": 131025,
+        "p75": 131380,
+        "n": 9
+    },
+    "blue cross blue shield of michigan|application developer iii|senior": {
+        "p25": 114691,
+        "median": 114691,
+        "p75": 114691,
+        "n": 5
+    },
+    "blue cross blue shield of michigan|technology consultant i|entry": {
+        "p25": 127284,
+        "median": 128877,
+        "p75": 132350,
+        "n": 7
+    },
+    "blue cross of idaho health services, inc.|it engineer iii|senior": {
+        "p25": 145696,
+        "median": 149826,
+        "p75": 150703,
+        "n": 6
+    },
+    "blue lotus systems, inc.|software developer|mid": {
+        "p25": 87360,
+        "median": 95680,
+        "p75": 107460,
+        "n": 26
+    },
+    "blue matter consulting llc|consultant|mid": {
+        "p25": 110000,
+        "median": 114363,
+        "p75": 123431,
+        "n": 14
+    },
+    "blue matter consulting llc|senior consultant|senior": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 142000,
+        "n": 5
+    },
+    "blue spire, inc.|lead software engineer|senior": {
+        "p25": 140000,
+        "median": 140000,
+        "p75": 145000,
+        "n": 5
+    },
+    "blue spire, inc.|project manager|senior": {
+        "p25": 120000,
+        "median": 135000,
+        "p75": 142500,
+        "n": 7
+    },
+    "blue spire, inc.|software engineer|mid": {
+        "p25": 85233,
+        "median": 98810,
+        "p75": 123994,
+        "n": 6
+    },
+    "blue yonder, inc.|enterprise technical architect|senior": {
+        "p25": 136136,
+        "median": 146015,
+        "p75": 146015,
+        "n": 5
+    },
+    "blue yonder, inc.|software engineer i|entry": {
+        "p25": 82812,
+        "median": 82954,
+        "p75": 84094,
+        "n": 8
+    },
+    "blue yonder, inc.|staff software engineer|senior": {
+        "p25": 146129,
+        "median": 149781,
+        "p75": 150769,
+        "n": 7
+    },
+    "blue5green llc.|senior salesforce developer|senior": {
+        "p25": 125000,
+        "median": 130000,
+        "p75": 132000,
+        "n": 5
+    },
+    "bluebird medical enterprises llc|critical care paramedic|mid": {
+        "p25": 69363,
+        "median": 70465,
+        "p75": 71294,
+        "n": 13
+    },
+    "bluecross and blueshield association|software engineer iii|senior": {
+        "p25": 124062,
+        "median": 128490,
+        "p75": 132920,
+        "n": 7
+    },
+    "bluecross and blueshield association|technical solutions lead|senior": {
+        "p25": 137014,
+        "median": 137337,
+        "p75": 139652,
+        "n": 5
+    },
+    "bluecross blueshield of tennessee, inc.|eit engineering team lead|senior": {
+        "p25": 114358,
+        "median": 124093,
+        "p75": 124093,
+        "n": 5
+    },
+    "bluelink it services, llc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 7
+    },
+    "bluelink it services, llc|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 14
+    },
+    "bluepearl vet, llc|associate veterinarian emergency clinician|entry": {
+        "p25": 210000,
+        "median": 220000,
+        "p75": 220000,
+        "n": 7
+    },
+    "blueribbon global technologies llc|software developer|mid": {
+        "p25": 85530,
+        "median": 90397,
+        "p75": 91728,
+        "n": 9
+    },
+    "blueridge dynamic solutions llc|software developer|mid": {
+        "p25": 111441,
+        "median": 112923,
+        "p75": 120255,
+        "n": 6
+    },
+    "blueridge dynamic solutions llc|software engineer|mid": {
+        "p25": 117322,
+        "median": 122699,
+        "p75": 122699,
+        "n": 7
+    },
+    "blueridge infotech corp|database administrator|mid": {
+        "p25": 95680,
+        "median": 104000,
+        "p75": 104000,
+        "n": 5
+    },
+    "blupaceus llc|software engineer|mid": {
+        "p25": 95128,
+        "median": 103210,
+        "p75": 109855,
+        "n": 6
+    },
+    "bmr health services, inc.|speech language pathologist|mid": {
+        "p25": 96782,
+        "median": 96782,
+        "p75": 96782,
+        "n": 14
+    },
+    "bmr infotek, inc|software developer|mid": {
+        "p25": 90000,
+        "median": 95000,
+        "p75": 115500,
+        "n": 11
+    },
+    "bmr infotek, inc|software engineer|mid": {
+        "p25": 101520,
+        "median": 106080,
+        "p75": 109824,
+        "n": 6
+    },
+    "bnp paribas|associate|entry": {
+        "p25": 147500,
+        "median": 150000,
+        "p75": 172500,
+        "n": 8
+    },
+    "bnp paribas|director|senior": {
+        "p25": 238750,
+        "median": 250000,
+        "p75": 262000,
+        "n": 8
+    },
+    "bnp paribas|vice president|senior": {
+        "p25": 165000,
+        "median": 176625,
+        "p75": 195312,
+        "n": 8
+    },
+    "bnp paribas rcc inc.|analyst|mid": {
+        "p25": 96500,
+        "median": 100000,
+        "p75": 103000,
+        "n": 7
+    },
+    "bnp paribas rcc inc.|assistant vice president|senior": {
+        "p25": 123900,
+        "median": 140000,
+        "p75": 150000,
+        "n": 23
+    },
+    "bnp paribas rcc inc.|vice president|senior": {
+        "p25": 165000,
+        "median": 185000,
+        "p75": 194209,
+        "n": 39
+    },
+    "bnp paribas securities corp.|analyst|mid": {
+        "p25": 105000,
+        "median": 120000,
+        "p75": 127500,
+        "n": 6
+    },
+    "bnp paribas securities corp.|associate|entry": {
+        "p25": 150000,
+        "median": 175000,
+        "p75": 200000,
+        "n": 35
+    },
+    "bnp paribas securities corp.|director|senior": {
+        "p25": 270500,
+        "median": 282500,
+        "p75": 300000,
+        "n": 8
+    },
+    "bnp paribas securities corp.|vice president|senior": {
+        "p25": 200000,
+        "median": 225000,
+        "p75": 232500,
+        "n": 26
+    },
+    "bns international inc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84490,
+        "p75": 85821,
+        "n": 5
+    },
+    "board of governors of the federal reserve system|economist|mid": {
+        "p25": 170000,
+        "median": 170000,
+        "p75": 170000,
+        "n": 11
+    },
+    "board of regents of the university of nebraska|assistant extension educator|entry": {
+        "p25": 58423,
+        "median": 61808,
+        "p75": 67518,
+        "n": 5
+    },
+    "board of regents of the university of nebraska|assistant professor|entry": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 98500,
+        "n": 68
+    },
+    "board of regents of the university of nebraska|assistant professor of practice|entry": {
+        "p25": 79170,
+        "median": 90500,
+        "p75": 94380,
+        "n": 8
+    },
+    "board of regents of the university of nebraska|lecturer|mid": {
+        "p25": 58833,
+        "median": 62510,
+        "p75": 67830,
+        "n": 9
+    },
+    "board of regents of the university of nebraska|postdoctoral research associate|entry": {
+        "p25": 55000,
+        "median": 59000,
+        "p75": 64204,
+        "n": 24
+    },
+    "board of regents of the university of nebraska|research assistant professor|entry": {
+        "p25": 73875,
+        "median": 80566,
+        "p75": 88870,
+        "n": 16
+    },
+    "board of regents of the university of nebraska|senior research associate|mid": {
+        "p25": 56235,
+        "median": 59947,
+        "p75": 77250,
+        "n": 6
+    },
+    "bodyshopbids, inc.|senior software engineer|senior": {
+        "p25": 163547,
+        "median": 164767,
+        "p75": 174224,
+        "n": 5
+    },
+    "boehringer ingelheim pharmaceuticals, inc.|senior clinical data scientist|senior": {
+        "p25": 138630,
+        "median": 142084,
+        "p75": 152484,
+        "n": 6
+    },
+    "bofa securities, inc.|analyst - gib|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 42
+    },
+    "bofa securities, inc.|analyst - structuring|mid": {
+        "p25": 111250,
+        "median": 115000,
+        "p75": 122500,
+        "n": 6
+    },
+    "bofa securities, inc.|associate - gib|entry": {
+        "p25": 175000,
+        "median": 175000,
+        "p75": 200000,
+        "n": 58
+    },
+    "bofa securities, inc.|associate - quant|entry": {
+        "p25": 145000,
+        "median": 155000,
+        "p75": 175000,
+        "n": 8
+    },
+    "bofa securities, inc.|associate - research|entry": {
+        "p25": 150000,
+        "median": 175000,
+        "p75": 175000,
+        "n": 11
+    },
+    "bofa securities, inc.|associate - trading|entry": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 160000,
+        "n": 5
+    },
+    "bofa securities, inc.|director; investment banker vi|senior": {
+        "p25": 350000,
+        "median": 350000,
+        "p75": 350000,
+        "n": 6
+    },
+    "bofa securities, inc.|director; sr quantitative fin analyst|senior": {
+        "p25": 300000,
+        "median": 300000,
+        "p75": 300000,
+        "n": 5
+    },
+    "bofa securities, inc.|vice president; investment banker ii|senior": {
+        "p25": 275000,
+        "median": 275000,
+        "p75": 275000,
+        "n": 7
+    },
+    "bofa securities, inc.|vice president; quantitative finance analyst|senior": {
+        "p25": 200000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 11
+    },
+    "bofa securities, inc.|vice president; quantitative finance analyst - nr|senior": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 225000,
+        "n": 5
+    },
+    "bofa securities, inc.|vice president; software engineer iii|senior": {
+        "p25": 169991,
+        "median": 179982,
+        "p75": 187791,
+        "n": 15
+    },
+    "bofa securities, inc.|vice president; structurer ii|senior": {
+        "p25": 200000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 5
+    },
+    "bofa securities, inc.|vice president; trader ii|senior": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 6
+    },
+    "bofa securities, inc.|vice president; trading strategist ii|senior": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 6
+    },
+    "boltbench technologies llc|senior software associate|mid": {
+        "p25": 106197,
+        "median": 115000,
+        "p75": 115000,
+        "n": 19
+    },
+    "boomi l.p.|software principal engineer|senior": {
+        "p25": 170115,
+        "median": 177356,
+        "p75": 191223,
+        "n": 12
+    },
+    "boomi l.p.|software senior engineer|senior": {
+        "p25": 129087,
+        "median": 134266,
+        "p75": 136228,
+        "n": 5
+    },
+    "bop llc|software development engineer ii|mid": {
+        "p25": 137022,
+        "median": 152100,
+        "p75": 154275,
+        "n": 6
+    },
+    "bor usga obo augusta university|assistant professor|entry": {
+        "p25": 82730,
+        "median": 119930,
+        "p75": 197546,
+        "n": 36
+    },
+    "bor usga obo augusta university|assistant research scientist|entry": {
+        "p25": 65976,
+        "median": 68000,
+        "p75": 72550,
+        "n": 6
+    },
+    "bor usga obo augusta university|postdoctoral fellow|senior": {
+        "p25": 57790,
+        "median": 58656,
+        "p75": 60395,
+        "n": 14
+    },
+    "bor usga obo augusta university|research associate|entry": {
+        "p25": 47462,
+        "median": 48711,
+        "p75": 50896,
+        "n": 7
+    },
+    "boston children's network specialty physicians, inc|research fellow|senior": {
+        "p25": 76323,
+        "median": 77267,
+        "p75": 78812,
+        "n": 7
+    },
+    "boston consulting group, inc.|ai engineer|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 113693,
+        "n": 9
+    },
+    "boston consulting group, inc.|associate|entry": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 47
+    },
+    "boston consulting group, inc.|consultant|mid": {
+        "p25": 190000,
+        "median": 190000,
+        "p75": 190000,
+        "n": 258
+    },
+    "boston consulting group, inc.|data scientist|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 25
+    },
+    "boston consulting group, inc.|lead data scientist|senior": {
+        "p25": 204900,
+        "median": 204900,
+        "p75": 204900,
+        "n": 10
+    },
+    "boston consulting group, inc.|manager - bcg vantage|senior": {
+        "p25": 126400,
+        "median": 136550,
+        "p75": 137250,
+        "n": 9
+    },
+    "boston consulting group, inc.|partner|mid": {
+        "p25": 268400,
+        "median": 268400,
+        "p75": 268402,
+        "n": 10
+    },
+    "boston consulting group, inc.|principal|senior": {
+        "p25": 252900,
+        "median": 252900,
+        "p75": 252900,
+        "n": 24
+    },
+    "boston consulting group, inc.|project leader|mid": {
+        "p25": 225400,
+        "median": 225400,
+        "p75": 225400,
+        "n": 133
+    },
+    "boston consulting group, inc.|senior ai engineer|senior": {
+        "p25": 164750,
+        "median": 190000,
+        "p75": 190000,
+        "n": 7
+    },
+    "boston consulting group, inc.|senior analyst \u201c bcg vantage|senior": {
+        "p25": 100500,
+        "median": 100500,
+        "p75": 108800,
+        "n": 5
+    },
+    "boston consulting group, inc.|senior data scientist|senior": {
+        "p25": 161500,
+        "median": 168000,
+        "p75": 168000,
+        "n": 8
+    },
+    "boston dynamics ai institute, llc|applied scientist ii|mid": {
+        "p25": 175166,
+        "median": 176167,
+        "p75": 179166,
+        "n": 6
+    },
+    "boston dynamics ai institute, llc|research scientist ii|mid": {
+        "p25": 184350,
+        "median": 186358,
+        "p75": 191055,
+        "n": 8
+    },
+    "boston higashi school, inc.|residential instructor 1|entry": {
+        "p25": 41600,
+        "median": 42120,
+        "p75": 43264,
+        "n": 22
+    },
+    "boston scientific corporation|principal software engineer|senior": {
+        "p25": 131082,
+        "median": 141542,
+        "p75": 141898,
+        "n": 5
+    },
+    "boston scientific corporation|principal systems engineer|senior": {
+        "p25": 144651,
+        "median": 147846,
+        "p75": 147846,
+        "n": 5
+    },
+    "boto3 inc.|software developer|mid": {
+        "p25": 95493,
+        "median": 101920,
+        "p75": 103210,
+        "n": 22
+    },
+    "bowling green state university|assistant professor|entry": {
+        "p25": 71875,
+        "median": 89000,
+        "p75": 96862,
+        "n": 12
+    },
+    "bowman consulting group, ltd.|civil engineer i|entry": {
+        "p25": 66000,
+        "median": 66977,
+        "p75": 74153,
+        "n": 6
+    },
+    "bowman international school|montessori teacher|mid": {
+        "p25": 75890,
+        "median": 81251,
+        "p75": 82557,
+        "n": 6
+    },
+    "box, inc.|senior software engineer|senior": {
+        "p25": 180960,
+        "median": 206315,
+        "p75": 213512,
+        "n": 13
+    },
+    "box, inc.|software engineer|mid": {
+        "p25": 136588,
+        "median": 155605,
+        "p75": 174621,
+        "n": 6
+    },
+    "box, inc.|software engineer iii|senior": {
+        "p25": 160129,
+        "median": 161637,
+        "p75": 180960,
+        "n": 8
+    },
+    "box, inc.|staff software engineer|senior": {
+        "p25": 206315,
+        "median": 206315,
+        "p75": 206315,
+        "n": 10
+    },
+    "bpa international inc|survey researcher|mid": {
+        "p25": 48401,
+        "median": 48401,
+        "p75": 48401,
+        "n": 9
+    },
+    "bradley university|assistant professor|entry": {
+        "p25": 90000,
+        "median": 135000,
+        "p75": 140000,
+        "n": 5
+    },
+    "brains technology solutions, inc|sap functional consultant|mid": {
+        "p25": 88920,
+        "median": 106080,
+        "p75": 111217,
+        "n": 6
+    },
+    "brains technology solutions, inc|software engineer|mid": {
+        "p25": 103688,
+        "median": 111176,
+        "p75": 117821,
+        "n": 27
+    },
+    "brandeis university|assistant professor|entry": {
+        "p25": 95651,
+        "median": 100000,
+        "p75": 120864,
+        "n": 6
+    },
+    "brandeis university|postdoctoral associate|entry": {
+        "p25": 64839,
+        "median": 65614,
+        "p75": 67475,
+        "n": 8
+    },
+    "branta group inc|computer systems analyst|mid": {
+        "p25": 92383,
+        "median": 95648,
+        "p75": 98758,
+        "n": 6
+    },
+    "branta group inc|computer systems analysts|mid": {
+        "p25": 79237,
+        "median": 80267,
+        "p75": 81920,
+        "n": 7
+    },
+    "branta group inc|software engineer|mid": {
+        "p25": 102190,
+        "median": 102357,
+        "p75": 135699,
+        "n": 5
+    },
+    "braven technologies inc|software engineer|mid": {
+        "p25": 93433,
+        "median": 101805,
+        "p75": 112564,
+        "n": 6
+    },
+    "brex inc.|senior software engineer|senior": {
+        "p25": 190486,
+        "median": 195010,
+        "p75": 208114,
+        "n": 8
+    },
+    "brex inc.|software engineer ii|mid": {
+        "p25": 163862,
+        "median": 163862,
+        "p75": 179982,
+        "n": 5
+    },
+    "bricks it solutions inc|software developer|mid": {
+        "p25": 95680,
+        "median": 97760,
+        "p75": 97760,
+        "n": 16
+    },
+    "bridge flair llc|java full stack developer|mid": {
+        "p25": 89929,
+        "median": 94702,
+        "p75": 99621,
+        "n": 8
+    },
+    "bridgeline digital, inc.|web application developer|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 126942,
+        "n": 5
+    },
+    "bridgenexus technologies inc|computer systems engineer|mid": {
+        "p25": 98218,
+        "median": 98218,
+        "p75": 98218,
+        "n": 7
+    },
+    "bridgeport hospital|resident physician in internal medicine|entry": {
+        "p25": 86080,
+        "median": 88950,
+        "p75": 93132,
+        "n": 5
+    },
+    "bridgetown consulting group, inc.|software engineer|mid": {
+        "p25": 76960,
+        "median": 86049,
+        "p75": 101639,
+        "n": 7
+    },
+    "bridgewater associates, lp|investment associate - economic analyst|entry": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 125000,
+        "n": 5
+    },
+    "brigham and women's hospital|clinical fellow|senior": {
+        "p25": 99000,
+        "median": 99000,
+        "p75": 104012,
+        "n": 41
+    },
+    "brigham and women's hospital|investigator|mid": {
+        "p25": 79760,
+        "median": 89449,
+        "p75": 100500,
+        "n": 28
+    },
+    "brigham and women's hospital|research fellow|senior": {
+        "p25": 70000,
+        "median": 71406,
+        "p75": 71750,
+        "n": 59
+    },
+    "brigham and women's hospital|research scientist|mid": {
+        "p25": 71406,
+        "median": 75629,
+        "p75": 80000,
+        "n": 23
+    },
+    "brigham and women's physicians organization, inc|physician|mid": {
+        "p25": 177852,
+        "median": 207064,
+        "p75": 239500,
+        "n": 18
+    },
+    "brigham and women's physicians organization, inc|physician (moonlighter)|mid": {
+        "p25": 208000,
+        "median": 208000,
+        "p75": 208000,
+        "n": 6
+    },
+    "brigham and women's physicians organization, inc|physician moonlighter|mid": {
+        "p25": 208000,
+        "median": 208000,
+        "p75": 208000,
+        "n": 6
+    },
+    "bright star schools|director of analytics|senior": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 125000,
+        "n": 5
+    },
+    "bright vision technologies|software developer|mid": {
+        "p25": 104561,
+        "median": 123656,
+        "p75": 123656,
+        "n": 12
+    },
+    "bright vision technologies|software engineer|mid": {
+        "p25": 106111,
+        "median": 111000,
+        "p75": 123656,
+        "n": 10
+    },
+    "brillfy technology, inc.|software engineer|mid": {
+        "p25": 91250,
+        "median": 112500,
+        "p75": 130000,
+        "n": 6
+    },
+    "brillio, llc|architect|senior": {
+        "p25": 105997,
+        "median": 134971,
+        "p75": 138228,
+        "n": 14
+    },
+    "brillio, llc|associate project manager|mid": {
+        "p25": 83658,
+        "median": 90002,
+        "p75": 94682,
+        "n": 5
+    },
+    "brillio, llc|bi specialist|mid": {
+        "p25": 100183,
+        "median": 125514,
+        "p75": 127590,
+        "n": 7
+    },
+    "brillio, llc|lead engineer|senior": {
+        "p25": 105887,
+        "median": 112923,
+        "p75": 116412,
+        "n": 8
+    },
+    "brillio, llc|lead quality engineer|senior": {
+        "p25": 105986,
+        "median": 105997,
+        "p75": 109512,
+        "n": 11
+    },
+    "brillio, llc|project manager|senior": {
+        "p25": 108098,
+        "median": 118456,
+        "p75": 125377,
+        "n": 9
+    },
+    "brillio, llc|qa architect|senior": {
+        "p25": 118102,
+        "median": 132579,
+        "p75": 136978,
+        "n": 6
+    },
+    "brillio, llc|senior architect|senior": {
+        "p25": 131169,
+        "median": 141055,
+        "p75": 154291,
+        "n": 16
+    },
+    "brillio, llc|senior bi specialist|senior": {
+        "p25": 115929,
+        "median": 118893,
+        "p75": 127972,
+        "n": 7
+    },
+    "brillio, llc|senior data scientist|senior": {
+        "p25": 100068,
+        "median": 109491,
+        "p75": 126370,
+        "n": 6
+    },
+    "brillio, llc|senior engineer|senior": {
+        "p25": 113875,
+        "median": 115000,
+        "p75": 122845,
+        "n": 6
+    },
+    "brillio, llc|senior lead engineer|senior": {
+        "p25": 107728,
+        "median": 112954,
+        "p75": 120343,
+        "n": 14
+    },
+    "brillio, llc|senior lead quality engineer|senior": {
+        "p25": 103418,
+        "median": 114577,
+        "p75": 126075,
+        "n": 9
+    },
+    "brillio, llc|senior software development engineer|senior": {
+        "p25": 99924,
+        "median": 105473,
+        "p75": 111283,
+        "n": 15
+    },
+    "brillio, llc|senior software development lead|senior": {
+        "p25": 105997,
+        "median": 122699,
+        "p75": 126172,
+        "n": 15
+    },
+    "brillio, llc|software development lead|senior": {
+        "p25": 105997,
+        "median": 111234,
+        "p75": 117164,
+        "n": 24
+    },
+    "brillio, llc|software development manager|senior": {
+        "p25": 120858,
+        "median": 126632,
+        "p75": 138181,
+        "n": 8
+    },
+    "brillius technologies inc dba brillius inc|devops engineer|mid": {
+        "p25": 98692,
+        "median": 104150,
+        "p75": 105170,
+        "n": 6
+    },
+    "brillius technologies inc.|devops engineer|mid": {
+        "p25": 95000,
+        "median": 108850,
+        "p75": 112840,
+        "n": 9
+    },
+    "briozon infotech llc|software  developer|mid": {
+        "p25": 105997,
+        "median": 106662,
+        "p75": 106662,
+        "n": 11
+    },
+    "briozon infotech llc|software developer|mid": {
+        "p25": 105981,
+        "median": 105997,
+        "p75": 105997,
+        "n": 6
+    },
+    "bristol-myers squibb company|manager, statistical programming|senior": {
+        "p25": 132925,
+        "median": 133000,
+        "p75": 142000,
+        "n": 9
+    },
+    "bristol-myers squibb company|principal scientist|senior": {
+        "p25": 146938,
+        "median": 154088,
+        "p75": 159900,
+        "n": 6
+    },
+    "bristol-myers squibb company|senior manager, biostatistics|senior": {
+        "p25": 151687,
+        "median": 160726,
+        "p75": 165072,
+        "n": 16
+    },
+    "bristol-myers squibb company|senior manager, clinical data management|senior": {
+        "p25": 149057,
+        "median": 149894,
+        "p75": 152432,
+        "n": 8
+    },
+    "bristol-myers squibb company|senior manager, statistical programming|senior": {
+        "p25": 150421,
+        "median": 158721,
+        "p75": 164400,
+        "n": 8
+    },
+    "bristol-myers squibb company|senior scientist|senior": {
+        "p25": 130000,
+        "median": 136552,
+        "p75": 147332,
+        "n": 18
+    },
+    "broad peak systems inc|software developer|mid": {
+        "p25": 85500,
+        "median": 86000,
+        "p75": 91000,
+        "n": 9
+    },
+    "broadcom corporation|r&d engineer hardware|mid": {
+        "p25": 160638,
+        "median": 164020,
+        "p75": 170435,
+        "n": 11
+    },
+    "broadcom corporation|r&d engineer ic design|mid": {
+        "p25": 160638,
+        "median": 172407,
+        "p75": 203885,
+        "n": 54
+    },
+    "broadcom corporation|r&d engineer software|mid": {
+        "p25": 178131,
+        "median": 183153,
+        "p75": 217500,
+        "n": 13
+    },
+    "broadcom corporation|r&d engineer software quality|mid": {
+        "p25": 167122,
+        "median": 180340,
+        "p75": 182701,
+        "n": 7
+    },
+    "broadrange technologies inc|software engineer|mid": {
+        "p25": 65000,
+        "median": 77000,
+        "p75": 96650,
+        "n": 21
+    },
+    "broadridge financial solutions, inc.|director, software engineering|senior": {
+        "p25": 153046,
+        "median": 153046,
+        "p75": 177986,
+        "n": 5
+    },
+    "broadridge financial solutions, inc.|lead site reliability engineer|senior": {
+        "p25": 126628,
+        "median": 127504,
+        "p75": 149947,
+        "n": 5
+    },
+    "broadridge financial solutions, inc.|lead software engineer|senior": {
+        "p25": 126220,
+        "median": 130345,
+        "p75": 142249,
+        "n": 22
+    },
+    "broadridge financial solutions, inc.|senior lead software engineer|senior": {
+        "p25": 131581,
+        "median": 133078,
+        "p75": 152981,
+        "n": 9
+    },
+    "broadridge financial solutions, inc.|senior software engineer|senior": {
+        "p25": 124735,
+        "median": 131539,
+        "p75": 146078,
+        "n": 14
+    },
+    "brocade communications systems|r&d engineer software quality|mid": {
+        "p25": 117456,
+        "median": 177978,
+        "p75": 194875,
+        "n": 5
+    },
+    "bronxcare health system|attending physician|senior": {
+        "p25": 175000,
+        "median": 213500,
+        "p75": 230625,
+        "n": 8
+    },
+    "bronxcare health system|physician in a post graduate training program|entry": {
+        "p25": 83796,
+        "median": 88741,
+        "p75": 96970,
+        "n": 30
+    },
+    "brookfield asset management llc|vice president|senior": {
+        "p25": 200000,
+        "median": 275000,
+        "p75": 335000,
+        "n": 5
+    },
+    "brookhaven national laboratory|mechanical engineer i|entry": {
+        "p25": 169936,
+        "median": 169998,
+        "p75": 169998,
+        "n": 5
+    },
+    "brookhaven national laboratory|physics associate iii|mid": {
+        "p25": 85000,
+        "median": 90105,
+        "p75": 95000,
+        "n": 8
+    },
+    "brookhaven national laboratory|research associate|entry": {
+        "p25": 78000,
+        "median": 80000,
+        "p75": 86616,
+        "n": 7
+    },
+    "brookhaven national laboratory|research associate biology|entry": {
+        "p25": 74678,
+        "median": 77147,
+        "p75": 81057,
+        "n": 15
+    },
+    "brookhaven national laboratory|research associate chemistry|entry": {
+        "p25": 81995,
+        "median": 82000,
+        "p75": 84978,
+        "n": 14
+    },
+    "brookhaven national laboratory|research associate materials science|entry": {
+        "p25": 79768,
+        "median": 79996,
+        "p75": 80000,
+        "n": 19
+    },
+    "brookhaven national laboratory|research associate physics|entry": {
+        "p25": 81521,
+        "median": 83352,
+        "p75": 83898,
+        "n": 14
+    },
+    "brookhaven national laboratory|research staff 2 computational science|senior": {
+        "p25": 119277,
+        "median": 119997,
+        "p75": 120000,
+        "n": 6
+    },
+    "brookhaven national laboratory|research staff 2 physics|senior": {
+        "p25": 88547,
+        "median": 106579,
+        "p75": 121998,
+        "n": 6
+    },
+    "brookhaven national laboratory|research staff 3|senior": {
+        "p25": 123661,
+        "median": 125000,
+        "p75": 138486,
+        "n": 26
+    },
+    "brookhaven national laboratory|research staff 3 computational|senior": {
+        "p25": 124737,
+        "median": 128481,
+        "p75": 128856,
+        "n": 11
+    },
+    "brookhaven national laboratory|research staff 3 physics|senior": {
+        "p25": 123656,
+        "median": 125840,
+        "p75": 129355,
+        "n": 29
+    },
+    "brookhaven national laboratory|research staff 4|senior": {
+        "p25": 144539,
+        "median": 147160,
+        "p75": 147178,
+        "n": 5
+    },
+    "brookhaven national laboratory|research staff 4 physics|senior": {
+        "p25": 140732,
+        "median": 144144,
+        "p75": 148865,
+        "n": 17
+    },
+    "brookhaven national laboratory|research staff 6 physics|senior": {
+        "p25": 190404,
+        "median": 196102,
+        "p75": 196116,
+        "n": 5
+    },
+    "brookhaven national laboratory|staff electrical engineer|senior": {
+        "p25": 105705,
+        "median": 107912,
+        "p75": 109992,
+        "n": 8
+    },
+    "brookhaven national laboratory|technology engineer|mid": {
+        "p25": 109000,
+        "median": 109000,
+        "p75": 113988,
+        "n": 8
+    },
+    "browder & leguizamon and associates, inc.|structural engineer|mid": {
+        "p25": 82000,
+        "median": 87000,
+        "p75": 87000,
+        "n": 5
+    },
+    "brown brothers harriman & co.|senior systems programmer analyst|senior": {
+        "p25": 150800,
+        "median": 153850,
+        "p75": 164400,
+        "n": 12
+    },
+    "brown brothers harriman & co.|systems programmer analyst|mid": {
+        "p25": 130000,
+        "median": 132300,
+        "p75": 145000,
+        "n": 5
+    },
+    "bryan independent school district|elementary teacher (bilingual)|mid": {
+        "p25": 54537,
+        "median": 54537,
+        "p75": 54537,
+        "n": 7
+    },
+    "bti solutions, inc|network engineer|mid": {
+        "p25": 57408,
+        "median": 62400,
+        "p75": 70824,
+        "n": 13
+    },
+    "buckeye elementary school district|teacher|mid": {
+        "p25": 49992,
+        "median": 50290,
+        "p75": 55188,
+        "n": 6
+    },
+    "buckeye elementary school district no. 33|teacher|mid": {
+        "p25": 45950,
+        "median": 45950,
+        "p75": 49420,
+        "n": 13
+    },
+    "buckeye union school district|elementary teacher - mandarin immersion|mid": {
+        "p25": 57629,
+        "median": 57629,
+        "p75": 57629,
+        "n": 6
+    },
+    "burns & mcdonnell engineering company, inc.|assistant construction manager|mid": {
+        "p25": 111537,
+        "median": 112773,
+        "p75": 113316,
+        "n": 8
+    },
+    "burns & mcdonnell engineering company, inc.|project manager|senior": {
+        "p25": 112774,
+        "median": 118191,
+        "p75": 135861,
+        "n": 10
+    },
+    "burns & mcdonnell engineering company, inc.|senior electrical engineer|senior": {
+        "p25": 125688,
+        "median": 132093,
+        "p75": 144018,
+        "n": 22
+    },
+    "burns & mcdonnell engineering company, inc.|staff electrical engineer|senior": {
+        "p25": 86691,
+        "median": 89525,
+        "p75": 92425,
+        "n": 18
+    },
+    "burns & mcdonnell western enterprises, inc|project manager|senior": {
+        "p25": 127828,
+        "median": 128772,
+        "p75": 137292,
+        "n": 6
+    },
+    "business value intelligence services inc|software engineer|mid": {
+        "p25": 83096,
+        "median": 83096,
+        "p75": 86694,
+        "n": 5
+    },
+    "byte link systems inc|software developer|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 103500,
+        "n": 9
+    },
+    "byte link systems inc|software engineer|mid": {
+        "p25": 84875,
+        "median": 96000,
+        "p75": 104125,
+        "n": 12
+    },
+    "byte wave technologies inc|software developer|mid": {
+        "p25": 90057,
+        "median": 105613,
+        "p75": 136229,
+        "n": 6
+    },
+    "byte wave technologies inc|software engineer|mid": {
+        "p25": 104011,
+        "median": 107030,
+        "p75": 119435,
+        "n": 6
+    },
+    "bytedance inc.|backend software engineer|mid": {
+        "p25": 144000,
+        "median": 157500,
+        "p75": 190364,
+        "n": 34
+    },
+    "bytedance inc.|backend software engineer, global e-commerce|mid": {
+        "p25": 211250,
+        "median": 252000,
+        "p75": 263500,
+        "n": 6
+    },
+    "bytedance inc.|backend software engineer, infrastructure platform|mid": {
+        "p25": 217549,
+        "median": 233079,
+        "p75": 243750,
+        "n": 6
+    },
+    "bytedance inc.|client solutions manager|senior": {
+        "p25": 113650,
+        "median": 137000,
+        "p75": 138000,
+        "n": 7
+    },
+    "bytedance inc.|data analyst|mid": {
+        "p25": 211000,
+        "median": 211000,
+        "p75": 211000,
+        "n": 5
+    },
+    "bytedance inc.|data engineer|mid": {
+        "p25": 135901,
+        "median": 159152,
+        "p75": 225077,
+        "n": 18
+    },
+    "bytedance inc.|data scientist|mid": {
+        "p25": 149189,
+        "median": 177000,
+        "p75": 280000,
+        "n": 35
+    },
+    "bytedance inc.|frontend software engineer|mid": {
+        "p25": 144000,
+        "median": 149500,
+        "p75": 176625,
+        "n": 12
+    },
+    "bytedance inc.|frontend software engineer, global e-commerce|mid": {
+        "p25": 187500,
+        "median": 190243,
+        "p75": 207500,
+        "n": 8
+    },
+    "bytedance inc.|global product marketing manager|senior": {
+        "p25": 221500,
+        "median": 232000,
+        "p75": 237760,
+        "n": 6
+    },
+    "bytedance inc.|machine learning engineer|mid": {
+        "p25": 160225,
+        "median": 228420,
+        "p75": 270600,
+        "n": 56
+    },
+    "bytedance inc.|marketing manager|senior": {
+        "p25": 180000,
+        "median": 230000,
+        "p75": 257863,
+        "n": 15
+    },
+    "bytedance inc.|operations analyst/specialist|mid": {
+        "p25": 82784,
+        "median": 107453,
+        "p75": 132101,
+        "n": 5
+    },
+    "bytedance inc.|product and process manager|senior": {
+        "p25": 190000,
+        "median": 267000,
+        "p75": 267000,
+        "n": 5
+    },
+    "bytedance inc.|product designer|mid": {
+        "p25": 166500,
+        "median": 178000,
+        "p75": 278600,
+        "n": 9
+    },
+    "bytedance inc.|product manager|senior": {
+        "p25": 139298,
+        "median": 204000,
+        "p75": 241250,
+        "n": 44
+    },
+    "bytedance inc.|product manager lead|senior": {
+        "p25": 351300,
+        "median": 380002,
+        "p75": 450000,
+        "n": 7
+    },
+    "bytedance inc.|product marketing manager|senior": {
+        "p25": 189375,
+        "median": 200000,
+        "p75": 230250,
+        "n": 8
+    },
+    "bytedance inc.|research scientist|mid": {
+        "p25": 214940,
+        "median": 252600,
+        "p75": 330000,
+        "n": 35
+    },
+    "bytedance inc.|senior machine learning engineer|senior": {
+        "p25": 214377,
+        "median": 294000,
+        "p75": 318023,
+        "n": 6
+    },
+    "bytedance inc.|senior software engineer|senior": {
+        "p25": 271500,
+        "median": 278000,
+        "p75": 288750,
+        "n": 10
+    },
+    "bytedance inc.|senior software engineer, ads measurement signal|senior": {
+        "p25": 250000,
+        "median": 260000,
+        "p75": 280000,
+        "n": 5
+    },
+    "bytedance inc.|site reliability engineer|mid": {
+        "p25": 144000,
+        "median": 145153,
+        "p75": 146307,
+        "n": 6
+    },
+    "bytedance inc.|software development engineer in test|mid": {
+        "p25": 118166,
+        "median": 123040,
+        "p75": 158500,
+        "n": 10
+    },
+    "bytedance inc.|software engineer|mid": {
+        "p25": 156290,
+        "median": 191000,
+        "p75": 251650,
+        "n": 139
+    },
+    "bytedance inc.|software engineer, ads data|mid": {
+        "p25": 170600,
+        "median": 174072,
+        "p75": 219061,
+        "n": 6
+    },
+    "bytedance inc.|software engineer, cloud native infrastructure|mid": {
+        "p25": 261750,
+        "median": 286000,
+        "p75": 314750,
+        "n": 6
+    },
+    "bytedance inc.|software engineer, global e-commerce customer business|mid": {
+        "p25": 180000,
+        "median": 197500,
+        "p75": 210000,
+        "n": 10
+    },
+    "bytedance inc.|software engineer, global payment|mid": {
+        "p25": 190000,
+        "median": 207500,
+        "p75": 210000,
+        "n": 6
+    },
+    "bytedance inc.|solutions engineer|mid": {
+        "p25": 200000,
+        "median": 212000,
+        "p75": 276000,
+        "n": 5
+    },
+    "bytedance inc.|solutions engineer, ads|mid": {
+        "p25": 170000,
+        "median": 200000,
+        "p75": 203750,
+        "n": 6
+    },
+    "bytedance inc.|talent acquisition partner|mid": {
+        "p25": 121000,
+        "median": 126680,
+        "p75": 130000,
+        "n": 11
+    },
+    "bytedance inc.|test engineer|mid": {
+        "p25": 109799,
+        "median": 116888,
+        "p75": 167500,
+        "n": 7
+    },
+    "byteminds it inc|software developer|mid": {
+        "p25": 90396,
+        "median": 95492,
+        "p75": 105996,
+        "n": 5
+    },
+    "byteware inc|software engineer|mid": {
+        "p25": 106000,
+        "median": 110000,
+        "p75": 129000,
+        "n": 9
+    }
+}

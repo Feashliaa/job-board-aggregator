@@ -1,0 +1,602 @@
+{
+    "z. wang & associates, p.c.|attorney|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 6
+    },
+    "z3 technologies inc|software developer|mid": {
+        "p25": 82971,
+        "median": 83200,
+        "p75": 130250,
+        "n": 5
+    },
+    "z3 technologies inc|software engineer|mid": {
+        "p25": 70678,
+        "median": 74854,
+        "p75": 88743,
+        "n": 14
+    },
+    "zai global inc|software developer|mid": {
+        "p25": 109054,
+        "median": 109283,
+        "p75": 123656,
+        "n": 7
+    },
+    "zapcom group, inc.|software engineer|mid": {
+        "p25": 89100,
+        "median": 90000,
+        "p75": 100010,
+        "n": 11
+    },
+    "zappos.com llc|software development engineer ii|mid": {
+        "p25": 155000,
+        "median": 157600,
+        "p75": 173360,
+        "n": 9
+    },
+    "zaynab satchu, dvm, p.c.|associate veterinarian|entry": {
+        "p25": 91728,
+        "median": 91728,
+        "p75": 91728,
+        "n": 5
+    },
+    "zeb ai, inc.|software engineer|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 7
+    },
+    "zebra technologies corporation|software engineer.advanced|mid": {
+        "p25": 118414,
+        "median": 125881,
+        "p75": 141610,
+        "n": 10
+    },
+    "zebra technologies corporation|software engineer.senior|senior": {
+        "p25": 95923,
+        "median": 97757,
+        "p75": 113164,
+        "n": 15
+    },
+    "zeeco, inc.|project engineer|mid": {
+        "p25": 87875,
+        "median": 94500,
+        "p75": 100000,
+        "n": 6
+    },
+    "zef scientific, inc.|service engineer|mid": {
+        "p25": 96912,
+        "median": 125000,
+        "p75": 140000,
+        "n": 10
+    },
+    "zendesk, inc.|senior software engineer|senior": {
+        "p25": 153856,
+        "median": 175000,
+        "p75": 180045,
+        "n": 11
+    },
+    "zenith infotek, llc|software developer|mid": {
+        "p25": 84094,
+        "median": 95492,
+        "p75": 105996,
+        "n": 5
+    },
+    "zenith services, inc.|software developer|mid": {
+        "p25": 95493,
+        "median": 103210,
+        "p75": 132000,
+        "n": 5
+    },
+    "zensar technologies, inc.|computer programmer|mid": {
+        "p25": 90210,
+        "median": 93454,
+        "p75": 100331,
+        "n": 19
+    },
+    "zensar technologies, inc.|computer systems analyst|mid": {
+        "p25": 93101,
+        "median": 100714,
+        "p75": 125000,
+        "n": 75
+    },
+    "zensar technologies, inc.|computer systems analyst (lead)|senior": {
+        "p25": 112486,
+        "median": 124503,
+        "p75": 150000,
+        "n": 17
+    },
+    "zensar technologies, inc.|computer systems engineer/architect|senior": {
+        "p25": 87647,
+        "median": 107500,
+        "p75": 130684,
+        "n": 18
+    },
+    "zensar technologies, inc.|computer systems engineer/architect (lead)|senior": {
+        "p25": 120000,
+        "median": 160000,
+        "p75": 178000,
+        "n": 12
+    },
+    "zensar technologies, inc.|it project manager|senior": {
+        "p25": 85062,
+        "median": 111175,
+        "p75": 130710,
+        "n": 12
+    },
+    "zensar technologies, inc.|sales engineer (lead)|senior": {
+        "p25": 185000,
+        "median": 185000,
+        "p75": 212659,
+        "n": 5
+    },
+    "zensar technologies, inc.|software developer|mid": {
+        "p25": 105227,
+        "median": 110473,
+        "p75": 116620,
+        "n": 14
+    },
+    "zenspaceit llc|software engineer|mid": {
+        "p25": 78624,
+        "median": 90896,
+        "p75": 96033,
+        "n": 7
+    },
+    "zentech consulting inc|software developer|mid": {
+        "p25": 85493,
+        "median": 100350,
+        "p75": 107728,
+        "n": 12
+    },
+    "zestfinance, inc.|data analyst|mid": {
+        "p25": 95000,
+        "median": 100000,
+        "p75": 105000,
+        "n": 7
+    },
+    "zeus solutions inc|data engineer|mid": {
+        "p25": 65637,
+        "median": 79851,
+        "p75": 89378,
+        "n": 8
+    },
+    "zeus solutions inc|software developer|mid": {
+        "p25": 79851,
+        "median": 103210,
+        "p75": 103210,
+        "n": 16
+    },
+    "zeus solutions inc|software engineer|mid": {
+        "p25": 103210,
+        "median": 105976,
+        "p75": 126589,
+        "n": 17
+    },
+    "zeva technology, llc|wireless field engineer|mid": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 75000,
+        "n": 16
+    },
+    "zifo technologies, inc|research analyst|mid": {
+        "p25": 72000,
+        "median": 85350,
+        "p75": 101500,
+        "n": 54
+    },
+    "zifo technologies, inc|technical analyst|mid": {
+        "p25": 72000,
+        "median": 72000,
+        "p75": 78342,
+        "n": 6
+    },
+    "zifo technologies, inc|technical lead|senior": {
+        "p25": 92500,
+        "median": 122500,
+        "p75": 133750,
+        "n": 6
+    },
+    "zifo technologies, inc|validation specialist|mid": {
+        "p25": 78375,
+        "median": 90000,
+        "p75": 112225,
+        "n": 22
+    },
+    "zifo technologies, inc.|research analyst|mid": {
+        "p25": 72000,
+        "median": 72000,
+        "p75": 79500,
+        "n": 31
+    },
+    "zifo technologies, inc.|technical analyst|mid": {
+        "p25": 72000,
+        "median": 72000,
+        "p75": 72000,
+        "n": 5
+    },
+    "ziksatech, llc|sap consultant|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 111192,
+        "n": 10
+    },
+    "zillow, inc.|senior machine learning engineer|senior": {
+        "p25": 190486,
+        "median": 200000,
+        "p75": 200000,
+        "n": 5
+    },
+    "zillow, inc.|senior product manager|senior": {
+        "p25": 165386,
+        "median": 166916,
+        "p75": 175679,
+        "n": 8
+    },
+    "zillow, inc.|senior software development engineer|senior": {
+        "p25": 190486,
+        "median": 190486,
+        "p75": 206315,
+        "n": 27
+    },
+    "zillow, inc.|software development engineer|mid": {
+        "p25": 137259,
+        "median": 137259,
+        "p75": 164727,
+        "n": 19
+    },
+    "zilpin tech llc|software developer|mid": {
+        "p25": 84094,
+        "median": 98197,
+        "p75": 105997,
+        "n": 5
+    },
+    "zilpin tech llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 8
+    },
+    "zimmer gunsul frasca architects llp|architectural designer (architectural intern)|intern": {
+        "p25": 71760,
+        "median": 81103,
+        "p75": 84739,
+        "n": 9
+    },
+    "zimmer, inc.|engineering manager|senior": {
+        "p25": 120655,
+        "median": 125999,
+        "p75": 125999,
+        "n": 5
+    },
+    "zimmer, inc.|manufacturing engineer ii|mid": {
+        "p25": 79000,
+        "median": 80499,
+        "p75": 84375,
+        "n": 5
+    },
+    "zimmer, inc.|manufacturing senior engineer i|mid": {
+        "p25": 89340,
+        "median": 90922,
+        "p75": 92770,
+        "n": 9
+    },
+    "zimmer, inc.|quality senior engineer i|mid": {
+        "p25": 87154,
+        "median": 89365,
+        "p75": 91571,
+        "n": 11
+    },
+    "zimmer, inc.|senior quality engineer i|mid": {
+        "p25": 91704,
+        "median": 93729,
+        "p75": 93793,
+        "n": 5
+    },
+    "zion cloud solutions llc|business analyst|mid": {
+        "p25": 81307,
+        "median": 81307,
+        "p75": 81307,
+        "n": 14
+    },
+    "zions bancorporation, n.a.|data engineer|mid": {
+        "p25": 107695,
+        "median": 128440,
+        "p75": 136800,
+        "n": 13
+    },
+    "zions bancorporation, n.a.|software engineer|mid": {
+        "p25": 120682,
+        "median": 139152,
+        "p75": 148678,
+        "n": 7
+    },
+    "ziphq, inc.|software engineer|mid": {
+        "p25": 165000,
+        "median": 210000,
+        "p75": 215000,
+        "n": 20
+    },
+    "zipline international inc.|supplier industrialization engineer|mid": {
+        "p25": 155750,
+        "median": 165000,
+        "p75": 180000,
+        "n": 5
+    },
+    "ziprecruiter, inc.|decision scientist ii|mid": {
+        "p25": 138750,
+        "median": 140000,
+        "p75": 144000,
+        "n": 7
+    },
+    "zirlen technologies, inc|information security analyst|mid": {
+        "p25": 93000,
+        "median": 93000,
+        "p75": 99341,
+        "n": 5
+    },
+    "zirlen technologies, inc|servicenow developer|mid": {
+        "p25": 103334,
+        "median": 103334,
+        "p75": 105600,
+        "n": 5
+    },
+    "zllius inc|business analyst|mid": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 75000,
+        "n": 8
+    },
+    "zllius inc|software engineer|mid": {
+        "p25": 86000,
+        "median": 86000,
+        "p75": 86000,
+        "n": 6
+    },
+    "zoetis, inc.|manager i|mid": {
+        "p25": 100090,
+        "median": 101101,
+        "p75": 101101,
+        "n": 5
+    },
+    "zoetis, inc.|senior scientist|senior": {
+        "p25": 84406,
+        "median": 102000,
+        "p75": 102000,
+        "n": 8
+    },
+    "zoom communications, inc.|machine learning engineer|mid": {
+        "p25": 163862,
+        "median": 172419,
+        "p75": 187741,
+        "n": 13
+    },
+    "zoom communications, inc.|research scientist|mid": {
+        "p25": 182980,
+        "median": 191922,
+        "p75": 234510,
+        "n": 10
+    },
+    "zoom communications, inc.|senior software engineer|senior": {
+        "p25": 153695,
+        "median": 154756,
+        "p75": 190486,
+        "n": 17
+    },
+    "zoom communications, inc.|software development engineer|mid": {
+        "p25": 146307,
+        "median": 153301,
+        "p75": 163397,
+        "n": 36
+    },
+    "zoom communications, inc.|software engineer|mid": {
+        "p25": 135408,
+        "median": 153498,
+        "p75": 173277,
+        "n": 32
+    },
+    "zoom communications, inc.|video processing algorithm engineer|mid": {
+        "p25": 169487,
+        "median": 172931,
+        "p75": 172931,
+        "n": 7
+    },
+    "zoominfo technologies, llc|principal software engineer|senior": {
+        "p25": 171276,
+        "median": 197722,
+        "p75": 215999,
+        "n": 6
+    },
+    "zoominfo technologies, llc|senior software engineer|senior": {
+        "p25": 161670,
+        "median": 173671,
+        "p75": 181046,
+        "n": 12
+    },
+    "zoominfo technologies, llc|software engineer iii|senior": {
+        "p25": 152448,
+        "median": 159719,
+        "p75": 166170,
+        "n": 10
+    },
+    "zoox inc.|senior software engineer|senior": {
+        "p25": 210152,
+        "median": 213512,
+        "p75": 220784,
+        "n": 16
+    },
+    "zoox inc.|software engineer|mid": {
+        "p25": 164250,
+        "median": 180960,
+        "p75": 199534,
+        "n": 26
+    },
+    "zoox, inc.|firmware validation engineer|mid": {
+        "p25": 157000,
+        "median": 162000,
+        "p75": 163613,
+        "n": 5
+    },
+    "zoox, inc.|senior software engineer|senior": {
+        "p25": 203500,
+        "median": 210000,
+        "p75": 218000,
+        "n": 15
+    },
+    "zoox, inc.|senior technical program manager|senior": {
+        "p25": 181213,
+        "median": 197000,
+        "p75": 197000,
+        "n": 5
+    },
+    "zoox, inc.|software engineer|mid": {
+        "p25": 169000,
+        "median": 181000,
+        "p75": 194750,
+        "n": 36
+    },
+    "zs associates, inc.|advanced data science manager|senior": {
+        "p25": 223500,
+        "median": 235000,
+        "p75": 254000,
+        "n": 7
+    },
+    "zs associates, inc.|associate principal|senior": {
+        "p25": 252000,
+        "median": 269000,
+        "p75": 275000,
+        "n": 25
+    },
+    "zs associates, inc.|business technology solutions associate|entry": {
+        "p25": 111100,
+        "median": 117000,
+        "p75": 119200,
+        "n": 5
+    },
+    "zs associates, inc.|business technology solutions associate consultant|entry": {
+        "p25": 126325,
+        "median": 132750,
+        "p75": 141275,
+        "n": 62
+    },
+    "zs associates, inc.|business technology solutions consultant|mid": {
+        "p25": 165000,
+        "median": 170000,
+        "p75": 178600,
+        "n": 47
+    },
+    "zs associates, inc.|business technology solutions manager|senior": {
+        "p25": 208375,
+        "median": 218300,
+        "p75": 229375,
+        "n": 26
+    },
+    "zs associates, inc.|decision analytics associate|entry": {
+        "p25": 111875,
+        "median": 121250,
+        "p75": 125300,
+        "n": 8
+    },
+    "zs associates, inc.|decision analytics associate consultant|entry": {
+        "p25": 129500,
+        "median": 134650,
+        "p75": 141950,
+        "n": 20
+    },
+    "zs associates, inc.|decision analytics consultant|mid": {
+        "p25": 163500,
+        "median": 173000,
+        "p75": 180850,
+        "n": 40
+    },
+    "zs associates, inc.|decision analytics manager|senior": {
+        "p25": 216800,
+        "median": 222650,
+        "p75": 232625,
+        "n": 24
+    },
+    "zs associates, inc.|strategy insights & planning manager|senior": {
+        "p25": 216375,
+        "median": 220000,
+        "p75": 225800,
+        "n": 6
+    },
+    "zscaler, inc.|principal software development engineer|senior": {
+        "p25": 223368,
+        "median": 238490,
+        "p75": 245000,
+        "n": 8
+    },
+    "zscaler, inc.|sr. software development engineer|senior": {
+        "p25": 137775,
+        "median": 144799,
+        "p75": 159006,
+        "n": 8
+    },
+    "zscaler, inc.|sr. staff software development engineer|senior": {
+        "p25": 196319,
+        "median": 200973,
+        "p75": 210000,
+        "n": 21
+    },
+    "zscaler, inc.|staff software development engineer|senior": {
+        "p25": 161250,
+        "median": 169275,
+        "p75": 175000,
+        "n": 14
+    },
+    "zuni public school district|public school teacher|mid": {
+        "p25": 57820,
+        "median": 57820,
+        "p75": 57820,
+        "n": 6
+    },
+    "zuora, inc.|principal solution architect|senior": {
+        "p25": 173913,
+        "median": 185005,
+        "p75": 195810,
+        "n": 5
+    },
+    "zurich american insurance company|application subject matter consultant|mid": {
+        "p25": 128235,
+        "median": 133838,
+        "p75": 140000,
+        "n": 5
+    },
+    "zurich american insurance company|business systems analyst|mid": {
+        "p25": 121616,
+        "median": 125000,
+        "p75": 128927,
+        "n": 15
+    },
+    "zurich american insurance company|it advisory solution architect|senior": {
+        "p25": 135000,
+        "median": 143712,
+        "p75": 146000,
+        "n": 5
+    },
+    "zurich american insurance company|lead developer|senior": {
+        "p25": 120351,
+        "median": 123165,
+        "p75": 125000,
+        "n": 5
+    },
+    "zurich american insurance company|project test & quality manager|senior": {
+        "p25": 134634,
+        "median": 134763,
+        "p75": 135000,
+        "n": 5
+    },
+    "zurich american insurance company|software engineer|mid": {
+        "p25": 112000,
+        "median": 120325,
+        "p75": 122373,
+        "n": 5
+    },
+    "zyon digital solutions llc|software developer|mid": {
+        "p25": 78141,
+        "median": 79951,
+        "p75": 79951,
+        "n": 6
+    }
+}

@@ -1,0 +1,4040 @@
+{
+    "i brain solutions llc|it project manager|senior": {
+        "p25": 90001,
+        "median": 90001,
+        "p75": 92341,
+        "n": 15
+    },
+    "i-connect, lc|software developer|mid": {
+        "p25": 90000,
+        "median": 98000,
+        "p75": 105000,
+        "n": 7
+    },
+    "i-link solutions, inc.|software architect|senior": {
+        "p25": 110240,
+        "median": 124800,
+        "p75": 126880,
+        "n": 10
+    },
+    "i-link solutions, inc.|software developer|mid": {
+        "p25": 104000,
+        "median": 122720,
+        "p75": 124800,
+        "n": 25
+    },
+    "i-link solutions, inc.|software engineer|mid": {
+        "p25": 105040,
+        "median": 110240,
+        "p75": 119600,
+        "n": 15
+    },
+    "i-services inc|web software developer|mid": {
+        "p25": 85280,
+        "median": 85280,
+        "p75": 85280,
+        "n": 8
+    },
+    "i5 soft solutions limited|software developer|mid": {
+        "p25": 123656,
+        "median": 123656,
+        "p75": 123656,
+        "n": 6
+    },
+    "ian corporation|construction manager|senior": {
+        "p25": 42328,
+        "median": 42328,
+        "p75": 52049,
+        "n": 7
+    },
+    "ibase operations corp.|engineer|mid": {
+        "p25": 65520,
+        "median": 77760,
+        "p75": 90000,
+        "n": 6
+    },
+    "ibase operations corp.|manager|senior": {
+        "p25": 120000,
+        "median": 133200,
+        "p75": 150000,
+        "n": 13
+    },
+    "ibase operations corp.|senior engineer|senior": {
+        "p25": 90000,
+        "median": 96000,
+        "p75": 110000,
+        "n": 18
+    },
+    "ibase operations corp.|senior manager|senior": {
+        "p25": 141750,
+        "median": 142000,
+        "p75": 150000,
+        "n": 5
+    },
+    "ibase operations corp.|senior specialist|senior": {
+        "p25": 82368,
+        "median": 90660,
+        "p75": 98287,
+        "n": 8
+    },
+    "ibase operations corp.|specialist|mid": {
+        "p25": 83394,
+        "median": 86528,
+        "p75": 86583,
+        "n": 6
+    },
+    "ibase operations corp.|team lead|senior": {
+        "p25": 109468,
+        "median": 117762,
+        "p75": 127500,
+        "n": 10
+    },
+    "ibg llc|sr. software engineer|senior": {
+        "p25": 176000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 5
+    },
+    "ibm corporation|advisory software engineer|mid": {
+        "p25": 169781,
+        "median": 201675,
+        "p75": 226200,
+        "n": 9
+    },
+    "ibm corporation|application architect|senior": {
+        "p25": 110904,
+        "median": 126390,
+        "p75": 150552,
+        "n": 132
+    },
+    "ibm corporation|application consultant|mid": {
+        "p25": 106912,
+        "median": 120088,
+        "p75": 139257,
+        "n": 46
+    },
+    "ibm corporation|application database administrator|mid": {
+        "p25": 91171,
+        "median": 105435,
+        "p75": 110968,
+        "n": 14
+    },
+    "ibm corporation|application developer|mid": {
+        "p25": 98030,
+        "median": 106912,
+        "p75": 120869,
+        "n": 551
+    },
+    "ibm corporation|application programmer|mid": {
+        "p25": 104020,
+        "median": 105019,
+        "p75": 105019,
+        "n": 6
+    },
+    "ibm corporation|associate partner|entry": {
+        "p25": 260970,
+        "median": 263050,
+        "p75": 273833,
+        "n": 5
+    },
+    "ibm corporation|back-end developer|mid": {
+        "p25": 151477,
+        "median": 167357,
+        "p75": 172963,
+        "n": 14
+    },
+    "ibm corporation|business analyst|mid": {
+        "p25": 103511,
+        "median": 122179,
+        "p75": 131330,
+        "n": 31
+    },
+    "ibm corporation|business transformation consultant|mid": {
+        "p25": 109392,
+        "median": 116148,
+        "p75": 122574,
+        "n": 20
+    },
+    "ibm corporation|consultant|mid": {
+        "p25": 104946,
+        "median": 108722,
+        "p75": 123884,
+        "n": 6
+    },
+    "ibm corporation|data architect|senior": {
+        "p25": 121514,
+        "median": 151154,
+        "p75": 158561,
+        "n": 5
+    },
+    "ibm corporation|data engineer|mid": {
+        "p25": 90002,
+        "median": 112424,
+        "p75": 126360,
+        "n": 72
+    },
+    "ibm corporation|data scientist|mid": {
+        "p25": 135108,
+        "median": 169187,
+        "p75": 189295,
+        "n": 34
+    },
+    "ibm corporation|delivery project executive|mid": {
+        "p25": 106870,
+        "median": 121514,
+        "p75": 163631,
+        "n": 11
+    },
+    "ibm corporation|hardware developer|mid": {
+        "p25": 156785,
+        "median": 172622,
+        "p75": 198436,
+        "n": 12
+    },
+    "ibm corporation|industry consultant|mid": {
+        "p25": 110113,
+        "median": 120869,
+        "p75": 128939,
+        "n": 15
+    },
+    "ibm corporation|infrastructure specialist|mid": {
+        "p25": 92279,
+        "median": 99549,
+        "p75": 109429,
+        "n": 23
+    },
+    "ibm corporation|it specialist|mid": {
+        "p25": 100714,
+        "median": 105019,
+        "p75": 123358,
+        "n": 17
+    },
+    "ibm corporation|lead application developer|senior": {
+        "p25": 108799,
+        "median": 121357,
+        "p75": 138330,
+        "n": 6
+    },
+    "ibm corporation|managing consultant|mid": {
+        "p25": 138621,
+        "median": 157883,
+        "p75": 173947,
+        "n": 26
+    },
+    "ibm corporation|onsite technical lead|senior": {
+        "p25": 110083,
+        "median": 126256,
+        "p75": 128512,
+        "n": 6
+    },
+    "ibm corporation|package consultant|mid": {
+        "p25": 100256,
+        "median": 106912,
+        "p75": 129750,
+        "n": 169
+    },
+    "ibm corporation|package solution consultant|mid": {
+        "p25": 92976,
+        "median": 109075,
+        "p75": 129565,
+        "n": 14
+    },
+    "ibm corporation|package specialist|mid": {
+        "p25": 90667,
+        "median": 106974,
+        "p75": 123442,
+        "n": 56
+    },
+    "ibm corporation|product manager|senior": {
+        "p25": 135161,
+        "median": 140000,
+        "p75": 157099,
+        "n": 10
+    },
+    "ibm corporation|program manager|senior": {
+        "p25": 112104,
+        "median": 127932,
+        "p75": 155772,
+        "n": 11
+    },
+    "ibm corporation|project manager|senior": {
+        "p25": 103376,
+        "median": 111665,
+        "p75": 123585,
+        "n": 74
+    },
+    "ibm corporation|qa/test developer|mid": {
+        "p25": 149850,
+        "median": 158047,
+        "p75": 205869,
+        "n": 9
+    },
+    "ibm corporation|quality engineer|mid": {
+        "p25": 87301,
+        "median": 100235,
+        "p75": 103418,
+        "n": 49
+    },
+    "ibm corporation|research scientist|mid": {
+        "p25": 206174,
+        "median": 217025,
+        "p75": 238665,
+        "n": 12
+    },
+    "ibm corporation|salesforce technical architect|senior": {
+        "p25": 194368,
+        "median": 216852,
+        "p75": 221073,
+        "n": 6
+    },
+    "ibm corporation|sap functional consultant|mid": {
+        "p25": 106184,
+        "median": 106184,
+        "p75": 109429,
+        "n": 5
+    },
+    "ibm corporation|senior application developer|senior": {
+        "p25": 102960,
+        "median": 105024,
+        "p75": 118695,
+        "n": 15
+    },
+    "ibm corporation|senior consultant|senior": {
+        "p25": 125000,
+        "median": 134379,
+        "p75": 134379,
+        "n": 13
+    },
+    "ibm corporation|senior data scientist|senior": {
+        "p25": 162583,
+        "median": 176924,
+        "p75": 202344,
+        "n": 9
+    },
+    "ibm corporation|senior developer|senior": {
+        "p25": 107913,
+        "median": 111550,
+        "p75": 127297,
+        "n": 8
+    },
+    "ibm corporation|senior managing consultant|senior": {
+        "p25": 184767,
+        "median": 194735,
+        "p75": 204986,
+        "n": 33
+    },
+    "ibm corporation|senior research scientist|senior": {
+        "p25": 255828,
+        "median": 276453,
+        "p75": 292403,
+        "n": 6
+    },
+    "ibm corporation|senior software developer|senior": {
+        "p25": 189848,
+        "median": 201190,
+        "p75": 231802,
+        "n": 14
+    },
+    "ibm corporation|senior software engineer|senior": {
+        "p25": 139022,
+        "median": 226522,
+        "p75": 260213,
+        "n": 14
+    },
+    "ibm corporation|senior system analyst|senior": {
+        "p25": 102794,
+        "median": 109429,
+        "p75": 109429,
+        "n": 5
+    },
+    "ibm corporation|senior system engineer|senior": {
+        "p25": 103574,
+        "median": 109366,
+        "p75": 121514,
+        "n": 10
+    },
+    "ibm corporation|site reliability engineering professional|mid": {
+        "p25": 151440,
+        "median": 160692,
+        "p75": 206516,
+        "n": 9
+    },
+    "ibm corporation|software developer|mid": {
+        "p25": 163286,
+        "median": 181880,
+        "p75": 199029,
+        "n": 106
+    },
+    "ibm corporation|software development manager|senior": {
+        "p25": 198573,
+        "median": 230204,
+        "p75": 258574,
+        "n": 6
+    },
+    "ibm corporation|software engineer|mid": {
+        "p25": 102003,
+        "median": 102003,
+        "p75": 140632,
+        "n": 76
+    },
+    "ibm corporation|solution architect|senior": {
+        "p25": 143484,
+        "median": 207771,
+        "p75": 240705,
+        "n": 12
+    },
+    "ibm corporation|staff research scientist|senior": {
+        "p25": 237699,
+        "median": 245567,
+        "p75": 258194,
+        "n": 14
+    },
+    "ibm corporation|technical architect|senior": {
+        "p25": 121192,
+        "median": 130208,
+        "p75": 183513,
+        "n": 18
+    },
+    "ibm corporation|technical consultant|mid": {
+        "p25": 108722,
+        "median": 109429,
+        "p75": 113223,
+        "n": 39
+    },
+    "ibm corporation|technical lead|senior": {
+        "p25": 101680,
+        "median": 109429,
+        "p75": 127234,
+        "n": 36
+    },
+    "ibm corporation|technical project manager|senior": {
+        "p25": 109886,
+        "median": 114322,
+        "p75": 124259,
+        "n": 15
+    },
+    "ibm corporation|technical team lead|senior": {
+        "p25": 98664,
+        "median": 107952,
+        "p75": 123192,
+        "n": 18
+    },
+    "ibm corporation|test lead|senior": {
+        "p25": 85525,
+        "median": 96512,
+        "p75": 107656,
+        "n": 12
+    },
+    "ibm corporation|test specialist|mid": {
+        "p25": 72405,
+        "median": 79789,
+        "p75": 101234,
+        "n": 53
+    },
+    "ibrain technologies, inc.|data engineer|mid": {
+        "p25": 84781,
+        "median": 84781,
+        "p75": 105206,
+        "n": 5
+    },
+    "ibs software americas, inc. (f/k/a ibs software services americas, inc.)|lead product engineer|senior": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 83658,
+        "n": 6
+    },
+    "ibs software americas, inc. (f/k/a ibs software services americas, inc.)|lead solution engineer|senior": {
+        "p25": 88150,
+        "median": 88150,
+        "p75": 88150,
+        "n": 8
+    },
+    "ibs software americas, inc. (f/k/a ibs software services americas, inc.)|senior product engineer|senior": {
+        "p25": 61000,
+        "median": 79331,
+        "p75": 79331,
+        "n": 5
+    },
+    "ibs software americas, inc. (f/k/a ibs software services americas, inc.)|senior technical architect|senior": {
+        "p25": 114800,
+        "median": 114800,
+        "p75": 114800,
+        "n": 5
+    },
+    "ibs software americas, inc. (f/k/a ibs software services americas, inc.)|solution architect|senior": {
+        "p25": 101370,
+        "median": 114797,
+        "p75": 114800,
+        "n": 6
+    },
+    "icahn school of medicine at mount sinai|assistant professor|entry": {
+        "p25": 100000,
+        "median": 142000,
+        "p75": 150000,
+        "n": 33
+    },
+    "icahn school of medicine at mount sinai|associate researcher|entry": {
+        "p25": 63166,
+        "median": 68332,
+        "p75": 75344,
+        "n": 6
+    },
+    "icahn school of medicine at mount sinai|associate researcher ii|entry": {
+        "p25": 72500,
+        "median": 75000,
+        "p75": 78000,
+        "n": 5
+    },
+    "icahn school of medicine at mount sinai|associate scientist|entry": {
+        "p25": 81580,
+        "median": 83000,
+        "p75": 85500,
+        "n": 31
+    },
+    "icahn school of medicine at mount sinai|attending physician|senior": {
+        "p25": 225000,
+        "median": 273778,
+        "p75": 319179,
+        "n": 48
+    },
+    "icahn school of medicine at mount sinai|bioinformatician i|entry": {
+        "p25": 80000,
+        "median": 81079,
+        "p75": 82690,
+        "n": 6
+    },
+    "icahn school of medicine at mount sinai|house staff fellow|senior": {
+        "p25": 101250,
+        "median": 105907,
+        "p75": 110565,
+        "n": 6
+    },
+    "icahn school of medicine at mount sinai|house staff, fellow|senior": {
+        "p25": 92774,
+        "median": 94511,
+        "p75": 110565,
+        "n": 5
+    },
+    "icahn school of medicine at mount sinai|house staff, resident|senior": {
+        "p25": 84566,
+        "median": 85916,
+        "p75": 95583,
+        "n": 7
+    },
+    "icahn school of medicine at mount sinai|instructor|mid": {
+        "p25": 85000,
+        "median": 90000,
+        "p75": 100000,
+        "n": 26
+    },
+    "icahn school of medicine at mount sinai|postdoctoral fellow|senior": {
+        "p25": 79205,
+        "median": 80415,
+        "p75": 82788,
+        "n": 35
+    },
+    "icahn school of medicine at mount sinai|senior scientist|senior": {
+        "p25": 87725,
+        "median": 93600,
+        "p75": 106112,
+        "n": 10
+    },
+    "ice data analytics, llc|lead developer|senior": {
+        "p25": 165300,
+        "median": 172650,
+        "p75": 180000,
+        "n": 6
+    },
+    "ice data analytics, llc|senior developer|senior": {
+        "p25": 133000,
+        "median": 142300,
+        "p75": 151600,
+        "n": 6
+    },
+    "ice data analytics, llc|senior financial engineer|senior": {
+        "p25": 107100,
+        "median": 111550,
+        "p75": 124700,
+        "n": 6
+    },
+    "ice data connectivity & feeds inc.|lead developer|senior": {
+        "p25": 151900,
+        "median": 151900,
+        "p75": 151900,
+        "n": 6
+    },
+    "ice data services, inc.|senior developer|senior": {
+        "p25": 147900,
+        "median": 163750,
+        "p75": 172800,
+        "n": 12
+    },
+    "ice mortgage technology, inc.|devops engineer|mid": {
+        "p25": 83600,
+        "median": 83600,
+        "p75": 83600,
+        "n": 12
+    },
+    "ice mortgage technology, inc.|engineer ii|mid": {
+        "p25": 95700,
+        "median": 107100,
+        "p75": 116300,
+        "n": 12
+    },
+    "ice mortgage technology, inc.|engineer, release engineering|mid": {
+        "p25": 105300,
+        "median": 105300,
+        "p75": 116300,
+        "n": 5
+    },
+    "ice mortgage technology, inc.|lead qa engineer|senior": {
+        "p25": 138500,
+        "median": 138500,
+        "p75": 172350,
+        "n": 7
+    },
+    "ice mortgage technology, inc.|principal engineer|senior": {
+        "p25": 173700,
+        "median": 181000,
+        "p75": 206350,
+        "n": 10
+    },
+    "ice mortgage technology, inc.|senior engineer|senior": {
+        "p25": 130800,
+        "median": 141800,
+        "p75": 158700,
+        "n": 25
+    },
+    "ice mortgage technology, inc.|senior qa engineer|senior": {
+        "p25": 101925,
+        "median": 111600,
+        "p75": 131475,
+        "n": 6
+    },
+    "icf resources, llc|energy markets analyst|mid": {
+        "p25": 88230,
+        "median": 92650,
+        "p75": 93600,
+        "n": 5
+    },
+    "icloud technologies corp.|software development engineer in test|mid": {
+        "p25": 82500,
+        "median": 82500,
+        "p75": 87000,
+        "n": 5
+    },
+    "iconix labs inc|oracle database administrator|mid": {
+        "p25": 76378,
+        "median": 87173,
+        "p75": 87173,
+        "n": 5
+    },
+    "iconma llc|data analyst|mid": {
+        "p25": 89154,
+        "median": 96980,
+        "p75": 99840,
+        "n": 14
+    },
+    "icore infotech, inc.|software developer|mid": {
+        "p25": 118737,
+        "median": 120000,
+        "p75": 122700,
+        "n": 8
+    },
+    "icrush technologies llc|software engineer|mid": {
+        "p25": 83866,
+        "median": 92664,
+        "p75": 101556,
+        "n": 24
+    },
+    "ics global soft inc|senior software developer|senior": {
+        "p25": 104218,
+        "median": 105997,
+        "p75": 110843,
+        "n": 11
+    },
+    "ics global soft inc|software developer|mid": {
+        "p25": 78644,
+        "median": 84635,
+        "p75": 90428,
+        "n": 7
+    },
+    "icube technology inc|software developer|mid": {
+        "p25": 84000,
+        "median": 86100,
+        "p75": 97500,
+        "n": 8
+    },
+    "idaho healthcare institute|psychiatric registered nurse (educational preceptor)|mid": {
+        "p25": 101368,
+        "median": 104000,
+        "p75": 104000,
+        "n": 7
+    },
+    "idea helix inc|software developer|mid": {
+        "p25": 97032,
+        "median": 101129,
+        "p75": 105788,
+        "n": 6
+    },
+    "idea tech solutions inc|software engineer|mid": {
+        "p25": 97386,
+        "median": 105997,
+        "p75": 112986,
+        "n": 9
+    },
+    "idexcel inc|full stack developer|mid": {
+        "p25": 97200,
+        "median": 101425,
+        "p75": 110875,
+        "n": 11
+    },
+    "idexcel inc|software developer - .net|mid": {
+        "p25": 122500,
+        "median": 130000,
+        "p75": 141250,
+        "n": 6
+    },
+    "idexcel inc|software engineer|mid": {
+        "p25": 97900,
+        "median": 107500,
+        "p75": 127342,
+        "n": 6
+    },
+    "iflex inc|data engineer|mid": {
+        "p25": 92040,
+        "median": 93350,
+        "p75": 99710,
+        "n": 8
+    },
+    "iflex inc|software developer|mid": {
+        "p25": 105996,
+        "median": 106943,
+        "p75": 112923,
+        "n": 18
+    },
+    "iflowsoft solutions inc|software developer (.net)|mid": {
+        "p25": 106000,
+        "median": 108000,
+        "p75": 112250,
+        "n": 6
+    },
+    "iflowsoft solutions inc|software developer (j2ee)|mid": {
+        "p25": 97500,
+        "median": 102000,
+        "p75": 104250,
+        "n": 6
+    },
+    "igavel, inc.|graphic designer|mid": {
+        "p25": 40250,
+        "median": 40250,
+        "p75": 40250,
+        "n": 7
+    },
+    "iit jobs inc.|software developer|mid": {
+        "p25": 109262,
+        "median": 111530,
+        "p75": 116376,
+        "n": 5
+    },
+    "ikon-tech services llc|software developer|mid": {
+        "p25": 103500,
+        "median": 105997,
+        "p75": 140000,
+        "n": 5
+    },
+    "ilink systems, inc.|software developer|mid": {
+        "p25": 79851,
+        "median": 79851,
+        "p75": 84094,
+        "n": 5
+    },
+    "illinois institute of technology|assistant professor|entry": {
+        "p25": 112500,
+        "median": 122500,
+        "p75": 132500,
+        "n": 6
+    },
+    "illinois state university|assistant professor|entry": {
+        "p25": 76995,
+        "median": 82503,
+        "p75": 92007,
+        "n": 19
+    },
+    "illumina, inc.|staff software engineer|senior": {
+        "p25": 152313,
+        "median": 157581,
+        "p75": 181077,
+        "n": 7
+    },
+    "illumio, inc.|member of technical staff|senior": {
+        "p25": 146307,
+        "median": 146307,
+        "p75": 146307,
+        "n": 10
+    },
+    "ilogic tek , l.l.c|project manager|senior": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 120000,
+        "n": 5
+    },
+    "ilogic, inc.|software engineer|mid": {
+        "p25": 81619,
+        "median": 81619,
+        "p75": 81619,
+        "n": 6
+    },
+    "imc americas, inc.|quantitative trader|mid": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 9
+    },
+    "imc americas, inc.|trader|mid": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 275000,
+        "n": 6
+    },
+    "imcs group inc|software developer|mid": {
+        "p25": 105612,
+        "median": 108825,
+        "p75": 109845,
+        "n": 11
+    },
+    "imdb.com, inc.|software development engineer ii|mid": {
+        "p25": 137259,
+        "median": 137259,
+        "p75": 153110,
+        "n": 10
+    },
+    "impetus technologies, inc.|lead software engineer|senior": {
+        "p25": 113500,
+        "median": 116500,
+        "p75": 132850,
+        "n": 5
+    },
+    "implify inc|validation engineer|mid": {
+        "p25": 91770,
+        "median": 94665,
+        "p75": 96841,
+        "n": 14
+    },
+    "imr soft llc|java developer|mid": {
+        "p25": 100250,
+        "median": 116750,
+        "p75": 126500,
+        "n": 8
+    },
+    "imr soft llc|software developer|mid": {
+        "p25": 98500,
+        "median": 106000,
+        "p75": 115175,
+        "n": 8
+    },
+    "incandescent technologies inc.|software developer|mid": {
+        "p25": 72000,
+        "median": 72000,
+        "p75": 89625,
+        "n": 6
+    },
+    "incedo, inc.|lead data scientist|senior": {
+        "p25": 98134,
+        "median": 114670,
+        "p75": 123531,
+        "n": 7
+    },
+    "incedo, inc.|senior data scientist|senior": {
+        "p25": 107453,
+        "median": 111966,
+        "p75": 114670,
+        "n": 5
+    },
+    "incedo, inc.|senior software engineer|senior": {
+        "p25": 89814,
+        "median": 106662,
+        "p75": 106662,
+        "n": 5
+    },
+    "incedo, inc.|senior technical lead|senior": {
+        "p25": 96330,
+        "median": 106329,
+        "p75": 117265,
+        "n": 10
+    },
+    "incedo, inc.|software engineer|mid": {
+        "p25": 63364,
+        "median": 65729,
+        "p75": 69250,
+        "n": 6
+    },
+    "incedo, inc.|technical architect|senior": {
+        "p25": 124738,
+        "median": 127878,
+        "p75": 131997,
+        "n": 5
+    },
+    "incedo, inc.|technical lead|senior": {
+        "p25": 100453,
+        "median": 112986,
+        "p75": 125174,
+        "n": 11
+    },
+    "incedo, inc.|technical manager|senior": {
+        "p25": 120973,
+        "median": 121867,
+        "p75": 126818,
+        "n": 9
+    },
+    "incept data solutions inc|data governance analyst|mid": {
+        "p25": 93246,
+        "median": 99840,
+        "p75": 110240,
+        "n": 17
+    },
+    "inclusiveness|teacher|mid": {
+        "p25": 46800,
+        "median": 46800,
+        "p75": 46800,
+        "n": 37
+    },
+    "incontact, inc.|lead software engineer|senior": {
+        "p25": 139069,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "indeed, inc.|manager, software engineering|senior": {
+        "p25": 157669,
+        "median": 190486,
+        "p75": 206315,
+        "n": 14
+    },
+    "indeed, inc.|principal software engineer|senior": {
+        "p25": 176750,
+        "median": 211500,
+        "p75": 222250,
+        "n": 6
+    },
+    "indeed, inc.|senior data scientist|senior": {
+        "p25": 150425,
+        "median": 161033,
+        "p75": 180991,
+        "n": 8
+    },
+    "indeed, inc.|senior software engineer|senior": {
+        "p25": 145633,
+        "median": 163862,
+        "p75": 174355,
+        "n": 23
+    },
+    "indeed, inc.|software engineer|mid": {
+        "p25": 109000,
+        "median": 109817,
+        "p75": 137259,
+        "n": 66
+    },
+    "indeed, inc.|staff data scientist|senior": {
+        "p25": 183581,
+        "median": 183581,
+        "p75": 183581,
+        "n": 5
+    },
+    "indeed, inc.|staff software engineer|senior": {
+        "p25": 155709,
+        "median": 177018,
+        "p75": 190486,
+        "n": 18
+    },
+    "independent physicians resource, inc.|hospitalist physician|mid": {
+        "p25": 292656,
+        "median": 320000,
+        "p75": 327600,
+        "n": 9
+    },
+    "independent school district no. 191|special education teacher|mid": {
+        "p25": 46060,
+        "median": 46060,
+        "p75": 46060,
+        "n": 7
+    },
+    "independent school district number 623|special education teacher|mid": {
+        "p25": 66785,
+        "median": 73526,
+        "p75": 86728,
+        "n": 22
+    },
+    "indiana university|acting converting to assistant professor|entry": {
+        "p25": 170000,
+        "median": 174500,
+        "p75": 179000,
+        "n": 8
+    },
+    "indiana university|assistant professor|entry": {
+        "p25": 74460,
+        "median": 98000,
+        "p75": 119250,
+        "n": 51
+    },
+    "indiana university|lecturer|mid": {
+        "p25": 60000,
+        "median": 61709,
+        "p75": 69440,
+        "n": 10
+    },
+    "indiana university|postdoctoral fellow|senior": {
+        "p25": 58177,
+        "median": 67018,
+        "p75": 80796,
+        "n": 11
+    },
+    "indiana university|research associate|entry": {
+        "p25": 58661,
+        "median": 69731,
+        "p75": 71742,
+        "n": 7
+    },
+    "indiana university health care associates, inc.|cardiologist|mid": {
+        "p25": 455000,
+        "median": 485000,
+        "p75": 500000,
+        "n": 6
+    },
+    "indiana university health care associates, inc.|family medicine physician|mid": {
+        "p25": 200000,
+        "median": 215000,
+        "p75": 263750,
+        "n": 6
+    },
+    "indiana university health care associates, inc.|hospitalist|mid": {
+        "p25": 218500,
+        "median": 250000,
+        "p75": 250000,
+        "n": 14
+    },
+    "indiana university health care associates, inc.|internal medicine physician|mid": {
+        "p25": 216000,
+        "median": 230000,
+        "p75": 250000,
+        "n": 7
+    },
+    "indiana university health care associates, inc.|nephrologist|mid": {
+        "p25": 365000,
+        "median": 365000,
+        "p75": 365000,
+        "n": 9
+    },
+    "indiana university health, inc.|medical laboratory scientist|mid": {
+        "p25": 62712,
+        "median": 70720,
+        "p75": 70720,
+        "n": 20
+    },
+    "indiana university health, inc.|physical therapist|mid": {
+        "p25": 85280,
+        "median": 88400,
+        "p75": 92000,
+        "n": 7
+    },
+    "indiana university indianapolis|assistant professor|entry": {
+        "p25": 105000,
+        "median": 112500,
+        "p75": 127513,
+        "n": 24
+    },
+    "indiana university indianapolis|assistant professor of clinical medicine|entry": {
+        "p25": 240240,
+        "median": 251680,
+        "p75": 299520,
+        "n": 15
+    },
+    "indiana university indianapolis|assistant research professor|entry": {
+        "p25": 68117,
+        "median": 79780,
+        "p75": 82425,
+        "n": 28
+    },
+    "indiana university indianapolis|medical fellow|senior": {
+        "p25": 73300,
+        "median": 76100,
+        "p75": 77975,
+        "n": 18
+    },
+    "indiana university indianapolis|medical resident|entry": {
+        "p25": 66500,
+        "median": 66690,
+        "p75": 68756,
+        "n": 15
+    },
+    "indiana university indianapolis|postdoctoral fellow|senior": {
+        "p25": 61008,
+        "median": 62232,
+        "p75": 65768,
+        "n": 37
+    },
+    "indotronix international corporation|application developer|mid": {
+        "p25": 88660,
+        "median": 93080,
+        "p75": 93600,
+        "n": 6
+    },
+    "indotronix international corporation|architect|senior": {
+        "p25": 151840,
+        "median": 166400,
+        "p75": 167440,
+        "n": 5
+    },
+    "indotronix international corporation|java developer|mid": {
+        "p25": 106080,
+        "median": 124800,
+        "p75": 128960,
+        "n": 9
+    },
+    "indotronix international corporation|python developer|mid": {
+        "p25": 114400,
+        "median": 124800,
+        "p75": 124800,
+        "n": 5
+    },
+    "indotronix international corporation|software developer|mid": {
+        "p25": 95000,
+        "median": 95000,
+        "p75": 95000,
+        "n": 21
+    },
+    "indotronix international corporation|software engineer / java developer|mid": {
+        "p25": 104000,
+        "median": 114400,
+        "p75": 114400,
+        "n": 5
+    },
+    "indsoft, inc.|software engineer|mid": {
+        "p25": 104296,
+        "median": 111332,
+        "p75": 116065,
+        "n": 12
+    },
+    "indu llc|information security analyst|mid": {
+        "p25": 101600,
+        "median": 104100,
+        "p75": 104600,
+        "n": 5
+    },
+    "indus usa inc|design engineer|mid": {
+        "p25": 87589,
+        "median": 90615,
+        "p75": 93642,
+        "n": 6
+    },
+    "indus valley consultants, inc.|software developer|mid": {
+        "p25": 95750,
+        "median": 104500,
+        "p75": 111025,
+        "n": 16
+    },
+    "ineight, inc.|software engineer iv|senior": {
+        "p25": 145000,
+        "median": 151424,
+        "p75": 155339,
+        "n": 5
+    },
+    "infinera corporation|senior hardware development engineer|senior": {
+        "p25": 113984,
+        "median": 142527,
+        "p75": 154706,
+        "n": 8
+    },
+    "infinite computer solutions, inc.|application developer|mid": {
+        "p25": 111072,
+        "median": 135000,
+        "p75": 135000,
+        "n": 5
+    },
+    "infinite computer solutions, inc.|application programmer|mid": {
+        "p25": 62618,
+        "median": 90000,
+        "p75": 120000,
+        "n": 7
+    },
+    "infinite computer solutions, inc.|computer programmer|mid": {
+        "p25": 66602,
+        "median": 94000,
+        "p75": 107805,
+        "n": 16
+    },
+    "infinite computer solutions, inc.|computer systems analyst|mid": {
+        "p25": 60341,
+        "median": 60341,
+        "p75": 60341,
+        "n": 10
+    },
+    "infinite computer solutions, inc.|computer systems engineer|mid": {
+        "p25": 58000,
+        "median": 60000,
+        "p75": 65000,
+        "n": 21
+    },
+    "infinite computer solutions, inc.|data analyst|mid": {
+        "p25": 95000,
+        "median": 107500,
+        "p75": 127500,
+        "n": 6
+    },
+    "infinite computer solutions, inc.|data engineer|mid": {
+        "p25": 79424,
+        "median": 90958,
+        "p75": 100000,
+        "n": 15
+    },
+    "infinite computer solutions, inc.|data scientist|mid": {
+        "p25": 67995,
+        "median": 84032,
+        "p75": 88930,
+        "n": 7
+    },
+    "infinite computer solutions, inc.|developer|mid": {
+        "p25": 98862,
+        "median": 110000,
+        "p75": 120000,
+        "n": 5
+    },
+    "infinite computer solutions, inc.|full stack developer|mid": {
+        "p25": 86943,
+        "median": 107746,
+        "p75": 128250,
+        "n": 6
+    },
+    "infinite computer solutions, inc.|program manager|senior": {
+        "p25": 120000,
+        "median": 130000,
+        "p75": 138125,
+        "n": 8
+    },
+    "infinite computer solutions, inc.|project manager|senior": {
+        "p25": 97000,
+        "median": 109782,
+        "p75": 115000,
+        "n": 11
+    },
+    "infinite computer solutions, inc.|qa manager|senior": {
+        "p25": 107000,
+        "median": 122500,
+        "p75": 127956,
+        "n": 8
+    },
+    "infinite computer solutions, inc.|qa tester|mid": {
+        "p25": 50482,
+        "median": 50482,
+        "p75": 55241,
+        "n": 7
+    },
+    "infinite computer solutions, inc.|senior business analyst|senior": {
+        "p25": 122000,
+        "median": 122000,
+        "p75": 122000,
+        "n": 5
+    },
+    "infinite computer solutions, inc.|senior data engineer|senior": {
+        "p25": 128400,
+        "median": 129200,
+        "p75": 130000,
+        "n": 6
+    },
+    "infinite computer solutions, inc.|senior database administrator|senior": {
+        "p25": 117713,
+        "median": 127500,
+        "p75": 135000,
+        "n": 8
+    },
+    "infinite computer solutions, inc.|senior project manager|senior": {
+        "p25": 126000,
+        "median": 127000,
+        "p75": 133250,
+        "n": 6
+    },
+    "infinite computer solutions, inc.|senior software developer|senior": {
+        "p25": 124000,
+        "median": 135000,
+        "p75": 140000,
+        "n": 7
+    },
+    "infinite computer solutions, inc.|senior software engineer|senior": {
+        "p25": 109169,
+        "median": 125000,
+        "p75": 132800,
+        "n": 7
+    },
+    "infinite computer solutions, inc.|senior software test engineer|senior": {
+        "p25": 80016,
+        "median": 90241,
+        "p75": 96088,
+        "n": 6
+    },
+    "infinite computer solutions, inc.|senior technical lead|senior": {
+        "p25": 96000,
+        "median": 105000,
+        "p75": 118500,
+        "n": 13
+    },
+    "infinite computer solutions, inc.|senior technical manager|senior": {
+        "p25": 147500,
+        "median": 150000,
+        "p75": 150000,
+        "n": 7
+    },
+    "infinite computer solutions, inc.|software developer|mid": {
+        "p25": 81733,
+        "median": 105000,
+        "p75": 126150,
+        "n": 27
+    },
+    "infinite computer solutions, inc.|software engineer|mid": {
+        "p25": 77149,
+        "median": 86250,
+        "p75": 118500,
+        "n": 8
+    },
+    "infinite computer solutions, inc.|software quality assurance engineer|mid": {
+        "p25": 81951,
+        "median": 83402,
+        "p75": 87430,
+        "n": 7
+    },
+    "infinite computer solutions, inc.|software test engineer|mid": {
+        "p25": 81494,
+        "median": 83993,
+        "p75": 85051,
+        "n": 9
+    },
+    "infinite computer solutions, inc.|solution architect|senior": {
+        "p25": 111500,
+        "median": 133000,
+        "p75": 150000,
+        "n": 6
+    },
+    "infinite computer solutions, inc.|sr. business analyst|senior": {
+        "p25": 90000,
+        "median": 95000,
+        "p75": 107500,
+        "n": 6
+    },
+    "infinite computer solutions, inc.|sr. software developer|senior": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 114754,
+        "n": 5
+    },
+    "infinite computer solutions, inc.|sr. software engineer|senior": {
+        "p25": 107938,
+        "median": 110000,
+        "p75": 135000,
+        "n": 7
+    },
+    "infinite computer solutions, inc.|sr. technical lead|senior": {
+        "p25": 112543,
+        "median": 120000,
+        "p75": 140000,
+        "n": 5
+    },
+    "infinite computer solutions, inc.|technical architect|senior": {
+        "p25": 133750,
+        "median": 145000,
+        "p75": 160000,
+        "n": 20
+    },
+    "infinite computer solutions, inc.|technical lead|senior": {
+        "p25": 108999,
+        "median": 120000,
+        "p75": 140000,
+        "n": 21
+    },
+    "infinite tek inc|data analyst|mid": {
+        "p25": 127000,
+        "median": 131000,
+        "p75": 135000,
+        "n": 6
+    },
+    "infinity tech group inc.|computer programmer|mid": {
+        "p25": 80995,
+        "median": 80995,
+        "p75": 80995,
+        "n": 5
+    },
+    "info keys inc|data engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 5
+    },
+    "info keys inc|java programmer|mid": {
+        "p25": 77418,
+        "median": 85800,
+        "p75": 85800,
+        "n": 5
+    },
+    "info keys inc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 84094,
+        "n": 26
+    },
+    "info services, llc|software engineer|mid": {
+        "p25": 103708,
+        "median": 108826,
+        "p75": 127826,
+        "n": 15
+    },
+    "info way solutions, llc|computer programmer|mid": {
+        "p25": 101254,
+        "median": 102877,
+        "p75": 103000,
+        "n": 5
+    },
+    "info way solutions, llc|computer programmer/engineer|mid": {
+        "p25": 101254,
+        "median": 114400,
+        "p75": 116480,
+        "n": 5
+    },
+    "info-solutions, inc.|computer programmer|mid": {
+        "p25": 69243,
+        "median": 115000,
+        "p75": 115000,
+        "n": 5
+    },
+    "infobiz systems llc|software developer|mid": {
+        "p25": 97032,
+        "median": 99611,
+        "p75": 105045,
+        "n": 26
+    },
+    "infocepts, llc|architect|senior": {
+        "p25": 122699,
+        "median": 139400,
+        "p75": 142000,
+        "n": 5
+    },
+    "infocepts, llc|senior project lead|senior": {
+        "p25": 128800,
+        "median": 131200,
+        "p75": 131997,
+        "n": 9
+    },
+    "infocognize inc|software developer|mid": {
+        "p25": 113547,
+        "median": 122699,
+        "p75": 122699,
+        "n": 5
+    },
+    "infocons inc|software developer|mid": {
+        "p25": 105206,
+        "median": 105206,
+        "p75": 105206,
+        "n": 30
+    },
+    "infodat international inc.|software developer|mid": {
+        "p25": 86000,
+        "median": 100250,
+        "p75": 106000,
+        "n": 21
+    },
+    "infodrive systems, inc.|software developer|mid": {
+        "p25": 93250,
+        "median": 106000,
+        "p75": 106750,
+        "n": 6
+    },
+    "infogain corporation|architect|senior": {
+        "p25": 115587,
+        "median": 118674,
+        "p75": 136470,
+        "n": 6
+    },
+    "infogain corporation|consultant, development|mid": {
+        "p25": 96480,
+        "median": 97539,
+        "p75": 125500,
+        "n": 7
+    },
+    "infogain corporation|engineering manager|senior": {
+        "p25": 109000,
+        "median": 125000,
+        "p75": 130000,
+        "n": 5
+    },
+    "infogain corporation|senior consultant|senior": {
+        "p25": 97850,
+        "median": 106000,
+        "p75": 111263,
+        "n": 9
+    },
+    "infogain corporation|senior consultant, development|senior": {
+        "p25": 96949,
+        "median": 103657,
+        "p75": 118837,
+        "n": 8
+    },
+    "infogain corporation|senior network engineer i|mid": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 125000,
+        "n": 5
+    },
+    "infogain corporation|technical consultant|mid": {
+        "p25": 94500,
+        "median": 94750,
+        "p75": 98750,
+        "n": 6
+    },
+    "infogain corporation|technology advisor|mid": {
+        "p25": 102995,
+        "median": 105997,
+        "p75": 127000,
+        "n": 5
+    },
+    "infogain corporation|technology lead|senior": {
+        "p25": 100450,
+        "median": 105000,
+        "p75": 107802,
+        "n": 12
+    },
+    "infogain corporation|technology manager|senior": {
+        "p25": 107339,
+        "median": 110460,
+        "p75": 123046,
+        "n": 7
+    },
+    "infomatics corp|software developer|mid": {
+        "p25": 92695,
+        "median": 104207,
+        "p75": 107884,
+        "n": 8
+    },
+    "infomatics technologies inc|software developer|mid": {
+        "p25": 86000,
+        "median": 102000,
+        "p75": 108000,
+        "n": 9
+    },
+    "infomerica, inc.|software developer|mid": {
+        "p25": 99549,
+        "median": 103210,
+        "p75": 103210,
+        "n": 5
+    },
+    "infoneon technologies inc|it consultant (software developer)|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 92581,
+        "n": 7
+    },
+    "infoneon technologies inc|it consultant (software engineer)|mid": {
+        "p25": 83658,
+        "median": 88119,
+        "p75": 92581,
+        "n": 8
+    },
+    "infoneon technologies inc|programmer analyst|mid": {
+        "p25": 77418,
+        "median": 77418,
+        "p75": 77418,
+        "n": 13
+    },
+    "infoneon technologies inc|systems application engineer|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 83658,
+        "n": 7
+    },
+    "informatica llc|lead technical support engineer|senior": {
+        "p25": 95264,
+        "median": 96574,
+        "p75": 107314,
+        "n": 11
+    },
+    "informatica llc|principal software engineer|senior": {
+        "p25": 175528,
+        "median": 177108,
+        "p75": 191711,
+        "n": 7
+    },
+    "informatica llc|principal technical support engineer|senior": {
+        "p25": 120245,
+        "median": 129397,
+        "p75": 135606,
+        "n": 8
+    },
+    "informatica llc|senior software engineer|senior": {
+        "p25": 151994,
+        "median": 155605,
+        "p75": 155605,
+        "n": 8
+    },
+    "informatica llc|senior technical support engineer|senior": {
+        "p25": 70262,
+        "median": 95264,
+        "p75": 96574,
+        "n": 9
+    },
+    "infosmart systems, inc.|programmer analyst|mid": {
+        "p25": 86000,
+        "median": 86000,
+        "p75": 86008,
+        "n": 5
+    },
+    "infostretch corporation|data engineer|mid": {
+        "p25": 101245,
+        "median": 107998,
+        "p75": 125138,
+        "n": 16
+    },
+    "infostretch corporation|operations analyst|mid": {
+        "p25": 66789,
+        "median": 66789,
+        "p75": 66789,
+        "n": 9
+    },
+    "infostretch corporation|software application developer|mid": {
+        "p25": 105999,
+        "median": 111000,
+        "p75": 123657,
+        "n": 20
+    },
+    "infostretch corporation|software engineer|mid": {
+        "p25": 98384,
+        "median": 109512,
+        "p75": 118849,
+        "n": 11
+    },
+    "infosys bpm limited|consultant - business services - us|mid": {
+        "p25": 88130,
+        "median": 88837,
+        "p75": 88837,
+        "n": 5
+    },
+    "infosys limited|architecture consultant 2|mid": {
+        "p25": 82846,
+        "median": 90605,
+        "p75": 93824,
+        "n": 44
+    },
+    "infosys limited|architecture consultant 3|mid": {
+        "p25": 110292,
+        "median": 118456,
+        "p75": 118752,
+        "n": 22
+    },
+    "infosys limited|architecture principal|senior": {
+        "p25": 140795,
+        "median": 144310,
+        "p75": 157560,
+        "n": 5
+    },
+    "infosys limited|associate - business consulting|entry": {
+        "p25": 82056,
+        "median": 88317,
+        "p75": 94494,
+        "n": 25
+    },
+    "infosys limited|associate consultant - us|entry": {
+        "p25": 80371,
+        "median": 83658,
+        "p75": 84531,
+        "n": 40
+    },
+    "infosys limited|associate data scientist|entry": {
+        "p25": 104967,
+        "median": 111966,
+        "p75": 122158,
+        "n": 11
+    },
+    "infosys limited|consultant - 2 - us|mid": {
+        "p25": 103272,
+        "median": 107141,
+        "p75": 109886,
+        "n": 50
+    },
+    "infosys limited|consultant - infrastructure management - us|mid": {
+        "p25": 79456,
+        "median": 84260,
+        "p75": 86424,
+        "n": 25
+    },
+    "infosys limited|digital solution specialist|mid": {
+        "p25": 108898,
+        "median": 118705,
+        "p75": 122179,
+        "n": 34
+    },
+    "infosys limited|digital specialist engineer|mid": {
+        "p25": 88982,
+        "median": 93101,
+        "p75": 100714,
+        "n": 61
+    },
+    "infosys limited|domain consultant 1|entry": {
+        "p25": 82451,
+        "median": 89637,
+        "p75": 93735,
+        "n": 22
+    },
+    "infosys limited|domain consultant 2|mid": {
+        "p25": 86444,
+        "median": 90594,
+        "p75": 96491,
+        "n": 166
+    },
+    "infosys limited|domain consultant 3|mid": {
+        "p25": 109013,
+        "median": 113599,
+        "p75": 116646,
+        "n": 32
+    },
+    "infosys limited|domain project lead 1|senior": {
+        "p25": 80605,
+        "median": 86258,
+        "p75": 89788,
+        "n": 34
+    },
+    "infosys limited|domain project lead 2|senior": {
+        "p25": 99736,
+        "median": 105726,
+        "p75": 112341,
+        "n": 49
+    },
+    "infosys limited|engineering consultant 1|entry": {
+        "p25": 88415,
+        "median": 98197,
+        "p75": 105732,
+        "n": 6
+    },
+    "infosys limited|engineering consultant 2|mid": {
+        "p25": 92019,
+        "median": 98675,
+        "p75": 102419,
+        "n": 28
+    },
+    "infosys limited|engineering consultant 3- aerospace|mid": {
+        "p25": 118559,
+        "median": 125715,
+        "p75": 138923,
+        "n": 11
+    },
+    "infosys limited|engineering project lead 1|senior": {
+        "p25": 98675,
+        "median": 105498,
+        "p75": 112174,
+        "n": 5
+    },
+    "infosys limited|engineering project lead 2|senior": {
+        "p25": 118133,
+        "median": 119392,
+        "p75": 131196,
+        "n": 11
+    },
+    "infosys limited|group project manager - us|senior": {
+        "p25": 125122,
+        "median": 136562,
+        "p75": 146213,
+        "n": 16
+    },
+    "infosys limited|industry principal - us|senior": {
+        "p25": 121929,
+        "median": 125195,
+        "p75": 144082,
+        "n": 8
+    },
+    "infosys limited|infrastructure consultant 1|entry": {
+        "p25": 84260,
+        "median": 85696,
+        "p75": 87744,
+        "n": 39
+    },
+    "infosys limited|infrastructure consultant 2|mid": {
+        "p25": 80288,
+        "median": 84677,
+        "p75": 89586,
+        "n": 155
+    },
+    "infosys limited|infrastructure consultant 2 - network and desktop support|mid": {
+        "p25": 80771,
+        "median": 84822,
+        "p75": 87620,
+        "n": 36
+    },
+    "infosys limited|infrastructure consultant 2- database admin|mid": {
+        "p25": 84989,
+        "median": 87173,
+        "p75": 89398,
+        "n": 9
+    },
+    "infosys limited|infrastructure consultant 2- web admin|mid": {
+        "p25": 71968,
+        "median": 83242,
+        "p75": 88400,
+        "n": 11
+    },
+    "infosys limited|infrastructure consultant 3|mid": {
+        "p25": 79394,
+        "median": 88026,
+        "p75": 100339,
+        "n": 5
+    },
+    "infosys limited|infrastructure project lead 1|senior": {
+        "p25": 76721,
+        "median": 85634,
+        "p75": 90106,
+        "n": 51
+    },
+    "infosys limited|infrastructure project lead 2|senior": {
+        "p25": 107640,
+        "median": 110011,
+        "p75": 118456,
+        "n": 33
+    },
+    "infosys limited|lead analyst - analytics technology|senior": {
+        "p25": 82701,
+        "median": 99237,
+        "p75": 105186,
+        "n": 9
+    },
+    "infosys limited|lead analyst - data science|senior": {
+        "p25": 78852,
+        "median": 91270,
+        "p75": 103272,
+        "n": 15
+    },
+    "infosys limited|lead consultant - 2 - us|senior": {
+        "p25": 125611,
+        "median": 134285,
+        "p75": 143666,
+        "n": 83
+    },
+    "infosys limited|lead consultant - infrastructure management - us|senior": {
+        "p25": 99486,
+        "median": 100911,
+        "p75": 104728,
+        "n": 16
+    },
+    "infosys limited|manager - data science|senior": {
+        "p25": 114962,
+        "median": 118622,
+        "p75": 130738,
+        "n": 19
+    },
+    "infosys limited|package consultant 1|entry": {
+        "p25": 81764,
+        "median": 83657,
+        "p75": 88982,
+        "n": 151
+    },
+    "infosys limited|package consultant 1 - techno functional|mid": {
+        "p25": 92581,
+        "median": 94682,
+        "p75": 94952,
+        "n": 5
+    },
+    "infosys limited|package consultant 2|mid": {
+        "p25": 81099,
+        "median": 86403,
+        "p75": 92581,
+        "n": 319
+    },
+    "infosys limited|package consultant 2 - functional|mid": {
+        "p25": 84448,
+        "median": 92248,
+        "p75": 97261,
+        "n": 43
+    },
+    "infosys limited|package consultant 2 - techno functional|mid": {
+        "p25": 80974,
+        "median": 84115,
+        "p75": 92581,
+        "n": 119
+    },
+    "infosys limited|package consultant 3|mid": {
+        "p25": 103703,
+        "median": 114847,
+        "p75": 120141,
+        "n": 22
+    },
+    "infosys limited|package consultant 3 - functional|mid": {
+        "p25": 106485,
+        "median": 113838,
+        "p75": 120650,
+        "n": 8
+    },
+    "infosys limited|package consultant 3 - techno functional|mid": {
+        "p25": 106204,
+        "median": 109200,
+        "p75": 110655,
+        "n": 12
+    },
+    "infosys limited|package project lead 1|senior": {
+        "p25": 80974,
+        "median": 83658,
+        "p75": 90605,
+        "n": 65
+    },
+    "infosys limited|package project lead 2|senior": {
+        "p25": 100090,
+        "median": 109886,
+        "p75": 118456,
+        "n": 84
+    },
+    "infosys limited|principal - business consulting|senior": {
+        "p25": 125647,
+        "median": 137280,
+        "p75": 142584,
+        "n": 28
+    },
+    "infosys limited|principal - enterprise applications|senior": {
+        "p25": 127088,
+        "median": 138882,
+        "p75": 138882,
+        "n": 13
+    },
+    "infosys limited|principal consultant - infrastructure management - us|senior": {
+        "p25": 119069,
+        "median": 120952,
+        "p75": 124644,
+        "n": 11
+    },
+    "infosys limited|principal consultant - us|senior": {
+        "p25": 121222,
+        "median": 137114,
+        "p75": 138882,
+        "n": 162
+    },
+    "infosys limited|principal technologist|senior": {
+        "p25": 153046,
+        "median": 153046,
+        "p75": 165610,
+        "n": 5
+    },
+    "infosys limited|principal technology architect - us|senior": {
+        "p25": 136136,
+        "median": 137758,
+        "p75": 148678,
+        "n": 15
+    },
+    "infosys limited|process consultant 1|entry": {
+        "p25": 83153,
+        "median": 88753,
+        "p75": 91062,
+        "n": 6
+    },
+    "infosys limited|process consultant 2|mid": {
+        "p25": 87848,
+        "median": 89221,
+        "p75": 96408,
+        "n": 28
+    },
+    "infosys limited|process consultant 3|mid": {
+        "p25": 107650,
+        "median": 112632,
+        "p75": 116054,
+        "n": 6
+    },
+    "infosys limited|process project lead 1|senior": {
+        "p25": 80142,
+        "median": 80152,
+        "p75": 88722,
+        "n": 14
+    },
+    "infosys limited|process project lead 2|senior": {
+        "p25": 99736,
+        "median": 100526,
+        "p75": 110282,
+        "n": 9
+    },
+    "infosys limited|product manager - us|senior": {
+        "p25": 103272,
+        "median": 103875,
+        "p75": 118851,
+        "n": 5
+    },
+    "infosys limited|product technical lead - us|senior": {
+        "p25": 83376,
+        "median": 98924,
+        "p75": 100713,
+        "n": 43
+    },
+    "infosys limited|production support lead - us|senior": {
+        "p25": 90708,
+        "median": 99372,
+        "p75": 104000,
+        "n": 20
+    },
+    "infosys limited|program manager - us|senior": {
+        "p25": 144310,
+        "median": 145246,
+        "p75": 157560,
+        "n": 9
+    },
+    "infosys limited|project manager - 2 - us|senior": {
+        "p25": 126183,
+        "median": 134285,
+        "p75": 143666,
+        "n": 95
+    },
+    "infosys limited|quality engineering lead-us|senior": {
+        "p25": 81037,
+        "median": 83533,
+        "p75": 91894,
+        "n": 136
+    },
+    "infosys limited|senior associate - business consulting|mid": {
+        "p25": 103626,
+        "median": 114213,
+        "p75": 131706,
+        "n": 43
+    },
+    "infosys limited|senior principal - business consulting|senior": {
+        "p25": 130811,
+        "median": 156458,
+        "p75": 159682,
+        "n": 13
+    },
+    "infosys limited|senior product manager - us|senior": {
+        "p25": 124030,
+        "median": 124030,
+        "p75": 127691,
+        "n": 5
+    },
+    "infosys limited|senior project manager - us|senior": {
+        "p25": 124030,
+        "median": 136136,
+        "p75": 138486,
+        "n": 166
+    },
+    "infosys limited|senior technical manager - us|senior": {
+        "p25": 127691,
+        "median": 133109,
+        "p75": 146494,
+        "n": 8
+    },
+    "infosys limited|senior technologist|senior": {
+        "p25": 127878,
+        "median": 129584,
+        "p75": 139152,
+        "n": 28
+    },
+    "infosys limited|senior technology architect - us|senior": {
+        "p25": 102055,
+        "median": 109886,
+        "p75": 119933,
+        "n": 163
+    },
+    "infosys limited|specialist programmer|mid": {
+        "p25": 82986,
+        "median": 85530,
+        "p75": 90210,
+        "n": 74
+    },
+    "infosys limited|technical manager - us|senior": {
+        "p25": 122179,
+        "median": 122179,
+        "p75": 128939,
+        "n": 9
+    },
+    "infosys limited|technical test lead - us|senior": {
+        "p25": 82368,
+        "median": 86341,
+        "p75": 89970,
+        "n": 55
+    },
+    "infosys limited|technology analyst - us|mid": {
+        "p25": 77958,
+        "median": 82534,
+        "p75": 85634,
+        "n": 102
+    },
+    "infosys limited|technology analyst -dx- us|mid": {
+        "p25": 70085,
+        "median": 74100,
+        "p75": 77917,
+        "n": 8
+    },
+    "infosys limited|technology architect - us|senior": {
+        "p25": 103210,
+        "median": 109886,
+        "p75": 118456,
+        "n": 378
+    },
+    "infosys limited|technology consultant 1|entry": {
+        "p25": 80974,
+        "median": 83658,
+        "p75": 88150,
+        "n": 427
+    },
+    "infosys limited|technology consultant 2|mid": {
+        "p25": 81765,
+        "median": 86445,
+        "p75": 92581,
+        "n": 1403
+    },
+    "infosys limited|technology consultant 3|mid": {
+        "p25": 107619,
+        "median": 109886,
+        "p75": 118456,
+        "n": 41
+    },
+    "infosys limited|technology lead - 2 - us|senior": {
+        "p25": 103210,
+        "median": 107141,
+        "p75": 109886,
+        "n": 229
+    },
+    "infosys limited|technology lead - engineering - us|senior": {
+        "p25": 81244,
+        "median": 83865,
+        "p75": 84656,
+        "n": 11
+    },
+    "infosys limited|technology project lead 1|senior": {
+        "p25": 81099,
+        "median": 86798,
+        "p75": 92581,
+        "n": 363
+    },
+    "infosys limited|technology project lead 2|senior": {
+        "p25": 104062,
+        "median": 113797,
+        "p75": 121514,
+        "n": 218
+    },
+    "infosys limited|technology project lead 3|senior": {
+        "p25": 144310,
+        "median": 157560,
+        "p75": 158974,
+        "n": 9
+    },
+    "infosys nova holdings llc|design engineer|mid": {
+        "p25": 108675,
+        "median": 110016,
+        "p75": 115000,
+        "n": 5
+    },
+    "infosys nova holdings llc|technology architect|senior": {
+        "p25": 139749,
+        "median": 157499,
+        "p75": 169999,
+        "n": 8
+    },
+    "infosysnow inc|network engineer|mid": {
+        "p25": 68744,
+        "median": 74672,
+        "p75": 99330,
+        "n": 7
+    },
+    "infotech prism llc|ai/ml engineer|mid": {
+        "p25": 82971,
+        "median": 90958,
+        "p75": 105227,
+        "n": 8
+    },
+    "infotech prism llc|data engineer|mid": {
+        "p25": 97749,
+        "median": 99008,
+        "p75": 108523,
+        "n": 8
+    },
+    "infotech prism llc|software developer|mid": {
+        "p25": 105227,
+        "median": 105227,
+        "p75": 108269,
+        "n": 6
+    },
+    "infotech spectrum, inc|software  developer|mid": {
+        "p25": 109283,
+        "median": 109283,
+        "p75": 109283,
+        "n": 5
+    },
+    "infotran engineers & architects, p.c.|civil engineer|mid": {
+        "p25": 100000,
+        "median": 113833,
+        "p75": 125000,
+        "n": 12
+    },
+    "infoville inc|software developer|mid": {
+        "p25": 100000,
+        "median": 111500,
+        "p75": 126250,
+        "n": 14
+    },
+    "infovision inc.|software engineer|mid": {
+        "p25": 84500,
+        "median": 84500,
+        "p75": 89750,
+        "n": 7
+    },
+    "infovision, inc.|software engineer|mid": {
+        "p25": 98275,
+        "median": 113000,
+        "p75": 125000,
+        "n": 74
+    },
+    "infrapod technologies inc|software developer|mid": {
+        "p25": 84094,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "ingersoll-rand industrial us, inc.|sourcing engineer|mid": {
+        "p25": 89149,
+        "median": 113298,
+        "p75": 113298,
+        "n": 5
+    },
+    "ingram micro inc.|sr. principal, product designer|senior": {
+        "p25": 139477,
+        "median": 150768,
+        "p75": 154627,
+        "n": 6
+    },
+    "inhospital physicians corp|hospitalist/physician|mid": {
+        "p25": 299205,
+        "median": 320400,
+        "p75": 332800,
+        "n": 14
+    },
+    "innocore solutions, inc|senior software engineer|senior": {
+        "p25": 113700,
+        "median": 117000,
+        "p75": 122500,
+        "n": 15
+    },
+    "innominds software inc|software architect|senior": {
+        "p25": 92394,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "innova solutions, inc.|.net developer|mid": {
+        "p25": 112923,
+        "median": 112923,
+        "p75": 112985,
+        "n": 9
+    },
+    "innova solutions, inc.|application architect/ programmer (software developer)|senior": {
+        "p25": 105996,
+        "median": 112954,
+        "p75": 130041,
+        "n": 34
+    },
+    "innova solutions, inc.|application architect/programmer (software developer)|senior": {
+        "p25": 108222,
+        "median": 112985,
+        "p75": 131996,
+        "n": 69
+    },
+    "innova solutions, inc.|application programmer|mid": {
+        "p25": 105227,
+        "median": 123656,
+        "p75": 127878,
+        "n": 5
+    },
+    "innova solutions, inc.|data engineer|mid": {
+        "p25": 105612,
+        "median": 106891,
+        "p75": 120016,
+        "n": 7
+    },
+    "innova solutions, inc.|developer analyst|mid": {
+        "p25": 83927,
+        "median": 90376,
+        "p75": 92164,
+        "n": 14
+    },
+    "innova solutions, inc.|java developer|mid": {
+        "p25": 124321,
+        "median": 124321,
+        "p75": 131601,
+        "n": 5
+    },
+    "innova solutions, inc.|principal software engineer|senior": {
+        "p25": 106563,
+        "median": 119951,
+        "p75": 127321,
+        "n": 14
+    },
+    "innova solutions, inc.|qa analyst|mid": {
+        "p25": 71926,
+        "median": 71926,
+        "p75": 74453,
+        "n": 6
+    },
+    "innova solutions, inc.|senior computer engineer|senior": {
+        "p25": 89128,
+        "median": 89128,
+        "p75": 89128,
+        "n": 6
+    },
+    "innova solutions, inc.|senior software engineer|senior": {
+        "p25": 128127,
+        "median": 134659,
+        "p75": 151819,
+        "n": 18
+    },
+    "innova solutions, inc.|software developer|mid": {
+        "p25": 109845,
+        "median": 117738,
+        "p75": 128237,
+        "n": 18
+    },
+    "innova solutions, inc.|software engineer|mid": {
+        "p25": 105997,
+        "median": 112424,
+        "p75": 122740,
+        "n": 33
+    },
+    "innova solutions, inc.|specialty software engineer|mid": {
+        "p25": 133536,
+        "median": 134347,
+        "p75": 134347,
+        "n": 5
+    },
+    "innova solutions, inc.|technical lead|senior": {
+        "p25": 123708,
+        "median": 138840,
+        "p75": 149019,
+        "n": 6
+    },
+    "innovaccer inc.|senior data analyst|senior": {
+        "p25": 132158,
+        "median": 146740,
+        "p75": 150000,
+        "n": 10
+    },
+    "innovate soft llc|software developer|mid": {
+        "p25": 89195,
+        "median": 96158,
+        "p75": 104296,
+        "n": 8
+    },
+    "innovative consulting solutions llc|software developer|mid": {
+        "p25": 105997,
+        "median": 109283,
+        "p75": 116214,
+        "n": 12
+    },
+    "innovative consulting solutions llc|software engineer|mid": {
+        "p25": 93746,
+        "median": 105997,
+        "p75": 112923,
+        "n": 29
+    },
+    "innovative it solutions inc.|software engineer|mid": {
+        "p25": 100370,
+        "median": 103605,
+        "p75": 106496,
+        "n": 16
+    },
+    "innovise technology inc|software engineer|mid": {
+        "p25": 96912,
+        "median": 100859,
+        "p75": 105399,
+        "n": 6
+    },
+    "inovalon, inc.|senior software development engineer l4|senior": {
+        "p25": 120500,
+        "median": 131000,
+        "p75": 140000,
+        "n": 19
+    },
+    "inovalon, inc.|senior systems development engineer l4|senior": {
+        "p25": 131997,
+        "median": 132000,
+        "p75": 146000,
+        "n": 5
+    },
+    "inovalon, inc.|staff software development engineer l5|senior": {
+        "p25": 138750,
+        "median": 158000,
+        "p75": 165000,
+        "n": 16
+    },
+    "inpatient specialists of california, p.c.|hospitalist physician|mid": {
+        "p25": 278886,
+        "median": 290326,
+        "p75": 303326,
+        "n": 7
+    },
+    "inrika inc|business analyst|mid": {
+        "p25": 95264,
+        "median": 101408,
+        "p75": 115039,
+        "n": 34
+    },
+    "inrika inc|management analyst|mid": {
+        "p25": 85821,
+        "median": 89637,
+        "p75": 94145,
+        "n": 8
+    },
+    "inrix, inc.|software development engineer|mid": {
+        "p25": 126000,
+        "median": 126000,
+        "p75": 140500,
+        "n": 5
+    },
+    "insight global, llc|data analyst|mid": {
+        "p25": 80267,
+        "median": 91135,
+        "p75": 112990,
+        "n": 12
+    },
+    "insight global, llc|data engineer|mid": {
+        "p25": 105461,
+        "median": 113006,
+        "p75": 120520,
+        "n": 16
+    },
+    "insight global, llc|java developer|mid": {
+        "p25": 105996,
+        "median": 112985,
+        "p75": 130540,
+        "n": 9
+    },
+    "insight global, llc|rn float pool ii|mid": {
+        "p25": 76232,
+        "median": 78748,
+        "p75": 85820,
+        "n": 9
+    },
+    "insight global, llc|rn-resource team|mid": {
+        "p25": 77542,
+        "median": 78832,
+        "p75": 86299,
+        "n": 7
+    },
+    "insight global, llc|rn-system resource|mid": {
+        "p25": 98217,
+        "median": 101587,
+        "p75": 113089,
+        "n": 10
+    },
+    "insight global, llc|senior software engineer|senior": {
+        "p25": 128304,
+        "median": 135397,
+        "p75": 137259,
+        "n": 10
+    },
+    "insight global, llc|software engineer|mid": {
+        "p25": 102731,
+        "median": 106693,
+        "p75": 125153,
+        "n": 14
+    },
+    "inspirisys solutions north america, inc.|software quality assurance engineer|mid": {
+        "p25": 86466,
+        "median": 87277,
+        "p75": 94697,
+        "n": 6
+    },
+    "inspirix technologies llc|software engineer|mid": {
+        "p25": 96200,
+        "median": 101920,
+        "p75": 129480,
+        "n": 6
+    },
+    "inspyr solutions, llc|java engineer|mid": {
+        "p25": 122720,
+        "median": 133120,
+        "p75": 135200,
+        "n": 5
+    },
+    "instabase, inc.|software engineer|mid": {
+        "p25": 161363,
+        "median": 168000,
+        "p75": 184250,
+        "n": 7
+    },
+    "institute for cancer research|postdoctoral associate|entry": {
+        "p25": 70430,
+        "median": 74008,
+        "p75": 74008,
+        "n": 7
+    },
+    "institute for musculoskeletal advancement|research fellow - physical therapist|senior": {
+        "p25": 80454,
+        "median": 82409,
+        "p75": 83740,
+        "n": 11
+    },
+    "insurance services office, inc|data engineer|mid": {
+        "p25": 106180,
+        "median": 109860,
+        "p75": 112538,
+        "n": 6
+    },
+    "insurance services office, inc|developer ii|mid": {
+        "p25": 107750,
+        "median": 116200,
+        "p75": 116596,
+        "n": 11
+    },
+    "insurance services office, inc|developer iii|senior": {
+        "p25": 136000,
+        "median": 140000,
+        "p75": 146000,
+        "n": 13
+    },
+    "insurance services office, inc|development manager|senior": {
+        "p25": 162528,
+        "median": 162528,
+        "p75": 167100,
+        "n": 5
+    },
+    "insurance services office, inc|qa analyst ii|mid": {
+        "p25": 114850,
+        "median": 115212,
+        "p75": 117350,
+        "n": 10
+    },
+    "insurance services office, inc|software engineer i|entry": {
+        "p25": 98800,
+        "median": 100000,
+        "p75": 100000,
+        "n": 5
+    },
+    "insurance services office, inc|technical consultant i|entry": {
+        "p25": 152500,
+        "median": 156150,
+        "p75": 158730,
+        "n": 6
+    },
+    "inteca it solutions llc|software developer|mid": {
+        "p25": 102112,
+        "median": 105976,
+        "p75": 105997,
+        "n": 14
+    },
+    "integrated anesthesia associates llc|anesthesiologist|mid": {
+        "p25": 380000,
+        "median": 390000,
+        "p75": 430000,
+        "n": 5
+    },
+    "integrated rehab and physical therapy, pc|exercise physiologist|mid": {
+        "p25": 57000,
+        "median": 57000,
+        "p75": 57000,
+        "n": 6
+    },
+    "integration developer network llc|computer programmer|mid": {
+        "p25": 70470,
+        "median": 70470,
+        "p75": 81765,
+        "n": 10
+    },
+    "integration developer network llc|qa analyst|mid": {
+        "p25": 75587,
+        "median": 75587,
+        "p75": 77834,
+        "n": 5
+    },
+    "integris health, inc.|physician|mid": {
+        "p25": 98280,
+        "median": 150000,
+        "p75": 269576,
+        "n": 24
+    },
+    "intel americas, inc.|field applications engineer|mid": {
+        "p25": 155370,
+        "median": 168958,
+        "p75": 169770,
+        "n": 5
+    },
+    "intel corporation|analog engineer|mid": {
+        "p25": 108160,
+        "median": 128669,
+        "p75": 151091,
+        "n": 67
+    },
+    "intel corporation|application engineer|mid": {
+        "p25": 133104,
+        "median": 147817,
+        "p75": 156359,
+        "n": 24
+    },
+    "intel corporation|component design engineer|mid": {
+        "p25": 108160,
+        "median": 125495,
+        "p75": 151412,
+        "n": 616
+    },
+    "intel corporation|data scientist|mid": {
+        "p25": 117590,
+        "median": 117590,
+        "p75": 129890,
+        "n": 60
+    },
+    "intel corporation|engineering manager|senior": {
+        "p25": 152080,
+        "median": 179229,
+        "p75": 202299,
+        "n": 67
+    },
+    "intel corporation|facilities engineer|mid": {
+        "p25": 95685,
+        "median": 106485,
+        "p75": 110663,
+        "n": 6
+    },
+    "intel corporation|firmware engineer|mid": {
+        "p25": 120400,
+        "median": 136940,
+        "p75": 146245,
+        "n": 21
+    },
+    "intel corporation|gpu software development engineer|mid": {
+        "p25": 157581,
+        "median": 182832,
+        "p75": 182832,
+        "n": 5
+    },
+    "intel corporation|graphics hardware engineer|mid": {
+        "p25": 107598,
+        "median": 134383,
+        "p75": 164008,
+        "n": 120
+    },
+    "intel corporation|graphics software engineer|mid": {
+        "p25": 121451,
+        "median": 137730,
+        "p75": 146245,
+        "n": 49
+    },
+    "intel corporation|hardware engineer|mid": {
+        "p25": 133769,
+        "median": 144501,
+        "p75": 163778,
+        "n": 9
+    },
+    "intel corporation|industrial engineer|mid": {
+        "p25": 92102,
+        "median": 95400,
+        "p75": 108971,
+        "n": 23
+    },
+    "intel corporation|manufacturing engineer|mid": {
+        "p25": 91386,
+        "median": 92581,
+        "p75": 103324,
+        "n": 7
+    },
+    "intel corporation|operations research engineer|mid": {
+        "p25": 83876,
+        "median": 88490,
+        "p75": 97250,
+        "n": 7
+    },
+    "intel corporation|packaging engineer|mid": {
+        "p25": 116186,
+        "median": 123490,
+        "p75": 124090,
+        "n": 79
+    },
+    "intel corporation|process engineer|mid": {
+        "p25": 91564,
+        "median": 112757,
+        "p75": 130291,
+        "n": 845
+    },
+    "intel corporation|product engineer|mid": {
+        "p25": 108901,
+        "median": 122585,
+        "p75": 135501,
+        "n": 80
+    },
+    "intel corporation|product marketing engineer|mid": {
+        "p25": 130458,
+        "median": 148500,
+        "p75": 169770,
+        "n": 5
+    },
+    "intel corporation|program manager technical|senior": {
+        "p25": 111384,
+        "median": 134900,
+        "p75": 166962,
+        "n": 41
+    },
+    "intel corporation|quality reliability engineer|mid": {
+        "p25": 107962,
+        "median": 108971,
+        "p75": 116459,
+        "n": 31
+    },
+    "intel corporation|research scientist|mid": {
+        "p25": 128738,
+        "median": 153540,
+        "p75": 180482,
+        "n": 45
+    },
+    "intel corporation|security researcher|mid": {
+        "p25": 117590,
+        "median": 134240,
+        "p75": 166165,
+        "n": 11
+    },
+    "intel corporation|soc design engineer|mid": {
+        "p25": 181314,
+        "median": 182832,
+        "p75": 202425,
+        "n": 11
+    },
+    "intel corporation|software engineer|mid": {
+        "p25": 118100,
+        "median": 137494,
+        "p75": 161740,
+        "n": 614
+    },
+    "intel corporation|software quality engineer|mid": {
+        "p25": 130457,
+        "median": 136465,
+        "p75": 141419,
+        "n": 6
+    },
+    "intel corporation|system validation engineer|mid": {
+        "p25": 107598,
+        "median": 117083,
+        "p75": 131352,
+        "n": 65
+    },
+    "intel corporation|systems engineer|mid": {
+        "p25": 117137,
+        "median": 131352,
+        "p75": 134437,
+        "n": 10
+    },
+    "intel corporation|test r&d engineer|mid": {
+        "p25": 101358,
+        "median": 118225,
+        "p75": 123490,
+        "n": 10
+    },
+    "intel federal llc|component design engineer|mid": {
+        "p25": 119912,
+        "median": 131352,
+        "p75": 137730,
+        "n": 7
+    },
+    "intelent inc (f.k.a. tesi inc)|clinical sas / statistical programmer|mid": {
+        "p25": 113699,
+        "median": 117299,
+        "p75": 119999,
+        "n": 6
+    },
+    "inteli platforms inc|network engineer|mid": {
+        "p25": 74686,
+        "median": 86029,
+        "p75": 88250,
+        "n": 7
+    },
+    "inteli platforms inc.|network engineer|mid": {
+        "p25": 80303,
+        "median": 86424,
+        "p75": 91322,
+        "n": 50
+    },
+    "inteliroute technologies llc|java developer|mid": {
+        "p25": 96304,
+        "median": 105227,
+        "p75": 112923,
+        "n": 13
+    },
+    "inteliroute technologies llc|java full stack developer|mid": {
+        "p25": 102086,
+        "median": 109283,
+        "p75": 117842,
+        "n": 7
+    },
+    "inteliroute technologies llc|software developer|mid": {
+        "p25": 104223,
+        "median": 113506,
+        "p75": 122236,
+        "n": 8
+    },
+    "inteliroute technologies llc|software engineer|mid": {
+        "p25": 91021,
+        "median": 97032,
+        "p75": 104218,
+        "n": 11
+    },
+    "intelizign solutions llc|application developer/plm consultant|mid": {
+        "p25": 97032,
+        "median": 97032,
+        "p75": 97032,
+        "n": 13
+    },
+    "intellan technologies llc|software developer|mid": {
+        "p25": 105420,
+        "median": 106000,
+        "p75": 106000,
+        "n": 14
+    },
+    "intellativ inc|programmer analyst|mid": {
+        "p25": 101109,
+        "median": 105976,
+        "p75": 110104,
+        "n": 19
+    },
+    "intellect business solutions llc|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 113000,
+        "n": 13
+    },
+    "intellect business solutions llc|software engineer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 14
+    },
+    "intellectt inc|manufacturing engineer|mid": {
+        "p25": 87380,
+        "median": 87713,
+        "p75": 98987,
+        "n": 9
+    },
+    "intellectt inc|quality engineer|mid": {
+        "p25": 82305,
+        "median": 88004,
+        "p75": 97760,
+        "n": 21
+    },
+    "intellectt inc|validation engineer|mid": {
+        "p25": 91322,
+        "median": 93454,
+        "p75": 98727,
+        "n": 7
+    },
+    "intellectt, inc.|manufacturing engineer|mid": {
+        "p25": 93080,
+        "median": 96720,
+        "p75": 100880,
+        "n": 20
+    },
+    "intellectt, inc.|quality engineer|mid": {
+        "p25": 91670,
+        "median": 93600,
+        "p75": 94411,
+        "n": 14
+    },
+    "intellectt, inc.|validation engineer|mid": {
+        "p25": 94120,
+        "median": 101077,
+        "p75": 114826,
+        "n": 18
+    },
+    "intellibee, inc.|software developer|mid": {
+        "p25": 97032,
+        "median": 97032,
+        "p75": 97032,
+        "n": 12
+    },
+    "intelligrated services, llc|software engineer ii|mid": {
+        "p25": 105617,
+        "median": 105836,
+        "p75": 110000,
+        "n": 5
+    },
+    "intelligrated systems, llc|electrical engineer ii|mid": {
+        "p25": 86791,
+        "median": 92209,
+        "p75": 92635,
+        "n": 5
+    },
+    "intelliprise llc|software developer|mid": {
+        "p25": 95250,
+        "median": 95250,
+        "p75": 99645,
+        "n": 6
+    },
+    "intellisoft systems llc|full stack developer|mid": {
+        "p25": 104083,
+        "median": 104083,
+        "p75": 104941,
+        "n": 6
+    },
+    "intellisoft systems llc|java developer|mid": {
+        "p25": 79102,
+        "median": 84999,
+        "p75": 89907,
+        "n": 43
+    },
+    "intellisoft systems llc|software engineer|mid": {
+        "p25": 80499,
+        "median": 90002,
+        "p75": 95000,
+        "n": 5
+    },
+    "intellisoft technologies|software developer, applications|mid": {
+        "p25": 97157,
+        "median": 97160,
+        "p75": 101421,
+        "n": 13
+    },
+    "intellisoft technologies, inc.|software developer|mid": {
+        "p25": 105997,
+        "median": 106000,
+        "p75": 106000,
+        "n": 5
+    },
+    "intelliswift software, inc.|product owner|mid": {
+        "p25": 81973,
+        "median": 114400,
+        "p75": 114400,
+        "n": 5
+    },
+    "intelliswift software, inc.|software developer|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 152131,
+        "n": 5
+    },
+    "intellyk inc.|programmer analyst|mid": {
+        "p25": 73000,
+        "median": 81000,
+        "p75": 81000,
+        "n": 9
+    },
+    "intellyk inc.|software developer|mid": {
+        "p25": 105997,
+        "median": 106000,
+        "p75": 124000,
+        "n": 7
+    },
+    "intensify technologies inc.|software developer|mid": {
+        "p25": 84094,
+        "median": 87495,
+        "p75": 90896,
+        "n": 6
+    },
+    "intent-design ltd|product engineer|mid": {
+        "p25": 95000,
+        "median": 100000,
+        "p75": 102731,
+        "n": 5
+    },
+    "interactive brokers llc|software developer|mid": {
+        "p25": 135000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "interactive communications international, inc.|manager i, software engineering|mid": {
+        "p25": 125424,
+        "median": 125424,
+        "p75": 137358,
+        "n": 6
+    },
+    "interactive communications international, inc.|software engineer ii|mid": {
+        "p25": 108186,
+        "median": 115887,
+        "p75": 119255,
+        "n": 6
+    },
+    "interactive communications international, inc.|software engineer iii|senior": {
+        "p25": 105227,
+        "median": 117897,
+        "p75": 127504,
+        "n": 8
+    },
+    "interactive communications international, inc.|software engineer iv|senior": {
+        "p25": 149760,
+        "median": 149760,
+        "p75": 149760,
+        "n": 5
+    },
+    "intercontinental exchange holdings, inc.|engineer, release engineering|mid": {
+        "p25": 108000,
+        "median": 116500,
+        "p75": 123700,
+        "n": 12
+    },
+    "intercontinental exchange holdings, inc.|engineer, systems engineering|mid": {
+        "p25": 105300,
+        "median": 105300,
+        "p75": 105300,
+        "n": 5
+    },
+    "intercontinental exchange holdings, inc.|lead developer|senior": {
+        "p25": 149800,
+        "median": 149800,
+        "p75": 165675,
+        "n": 16
+    },
+    "intercontinental exchange holdings, inc.|lead qa analyst|senior": {
+        "p25": 112500,
+        "median": 118500,
+        "p75": 118500,
+        "n": 5
+    },
+    "intercontinental exchange holdings, inc.|lead test automation engineer|senior": {
+        "p25": 111300,
+        "median": 118500,
+        "p75": 119034,
+        "n": 6
+    },
+    "intercontinental exchange holdings, inc.|quantitative engineer|mid": {
+        "p25": 107100,
+        "median": 107100,
+        "p75": 107100,
+        "n": 5
+    },
+    "intercontinental exchange holdings, inc.|senior business analyst|senior": {
+        "p25": 101870,
+        "median": 112740,
+        "p75": 127550,
+        "n": 7
+    },
+    "intercontinental exchange holdings, inc.|senior developer|senior": {
+        "p25": 127600,
+        "median": 149800,
+        "p75": 149800,
+        "n": 13
+    },
+    "intercontinental exchange holdings, inc.|senior engineer, network engineering|senior": {
+        "p25": 118200,
+        "median": 128600,
+        "p75": 152425,
+        "n": 6
+    },
+    "intercontinental exchange holdings, inc.|senior java developer|senior": {
+        "p25": 149800,
+        "median": 149800,
+        "p75": 152200,
+        "n": 8
+    },
+    "intercontinental exchange holdings, inc.|senior qa analyst|senior": {
+        "p25": 101000,
+        "median": 101000,
+        "p75": 101000,
+        "n": 5
+    },
+    "intercontinental exchange holdings, inc.|senior quantitative engineer|senior": {
+        "p25": 107100,
+        "median": 107100,
+        "p75": 107100,
+        "n": 7
+    },
+    "intercontinental exchange holdings, inc.|software development engineer in test|mid": {
+        "p25": 83600,
+        "median": 83600,
+        "p75": 83600,
+        "n": 6
+    },
+    "interface rehab, inc.|physical therapist|mid": {
+        "p25": 112320,
+        "median": 112320,
+        "p75": 112320,
+        "n": 6
+    },
+    "international business technologies, inc.|software engineer|mid": {
+        "p25": 79706,
+        "median": 79706,
+        "p75": 79706,
+        "n": 9
+    },
+    "international federation of accountants|principal, iesba|senior": {
+        "p25": 186250,
+        "median": 190000,
+        "p75": 190000,
+        "n": 6
+    },
+    "international foundation for ethics and audit|senior manager, iaasb|senior": {
+        "p25": 150000,
+        "median": 151000,
+        "p75": 165000,
+        "n": 5
+    },
+    "international motors, llc|project engineer|mid": {
+        "p25": 119755,
+        "median": 122221,
+        "p75": 122221,
+        "n": 6
+    },
+    "international software systems inc|software developer|mid": {
+        "p25": 89622,
+        "median": 91374,
+        "p75": 96082,
+        "n": 6
+    },
+    "international spanish language academy|elementary spanish immersion teacher|mid": {
+        "p25": 48590,
+        "median": 48590,
+        "p75": 48590,
+        "n": 6
+    },
+    "international systems technologies inc.|sap sd consultant|mid": {
+        "p25": 90355,
+        "median": 103210,
+        "p75": 114754,
+        "n": 5
+    },
+    "international teachers research & resources (itrr), llc|teacher|mid": {
+        "p25": 64500,
+        "median": 64500,
+        "p75": 64500,
+        "n": 6
+    },
+    "interon it solutions llc|software developer|mid": {
+        "p25": 79315,
+        "median": 106922,
+        "p75": 122673,
+        "n": 6
+    },
+    "intersystems corporation|core development program|mid": {
+        "p25": 125000,
+        "median": 125000,
+        "p75": 125000,
+        "n": 5
+    },
+    "intersystems corporation|quality development engineer|mid": {
+        "p25": 99668,
+        "median": 100000,
+        "p75": 101037,
+        "n": 6
+    },
+    "intersystems corporation|senior developer|senior": {
+        "p25": 122970,
+        "median": 127804,
+        "p75": 132917,
+        "n": 5
+    },
+    "intertek testing services na, inc.|engineer|mid": {
+        "p25": 69250,
+        "median": 72500,
+        "p75": 75787,
+        "n": 10
+    },
+    "intertek testing services na, inc.|project engineer|mid": {
+        "p25": 87500,
+        "median": 93750,
+        "p75": 108750,
+        "n": 10
+    },
+    "intone networks, inc.|principal statistical programmer|senior": {
+        "p25": 118750,
+        "median": 132500,
+        "p75": 135000,
+        "n": 6
+    },
+    "intone networks, inc.|senior statistical programmer|senior": {
+        "p25": 101750,
+        "median": 111000,
+        "p75": 125500,
+        "n": 6
+    },
+    "intone networks, inc.|software developer|mid": {
+        "p25": 113414,
+        "median": 123828,
+        "p75": 124750,
+        "n": 6
+    },
+    "intraedge, inc.|senior software engineer|senior": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 10
+    },
+    "intraedge, inc.|software engineer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 111072,
+        "n": 123
+    },
+    "intraedge, inc.|sr. software engineer|senior": {
+        "p25": 111072,
+        "median": 130187,
+        "p75": 133536,
+        "n": 9
+    },
+    "intraedge, inc.|technical project manager|senior": {
+        "p25": 93538,
+        "median": 93538,
+        "p75": 110000,
+        "n": 25
+    },
+    "intrinsic innovation llc|software engineer|mid": {
+        "p25": 175000,
+        "median": 182000,
+        "p75": 186000,
+        "n": 7
+    },
+    "intuit inc.|data scientist|mid": {
+        "p25": 121505,
+        "median": 134636,
+        "p75": 144832,
+        "n": 8
+    },
+    "intuit inc.|fraud and risk analyst|mid": {
+        "p25": 110648,
+        "median": 123676,
+        "p75": 123677,
+        "n": 9
+    },
+    "intuit inc.|manager, ai science|senior": {
+        "p25": 220000,
+        "median": 220000,
+        "p75": 220000,
+        "n": 5
+    },
+    "intuit inc.|manager, business data analytics|senior": {
+        "p25": 187279,
+        "median": 202140,
+        "p75": 223070,
+        "n": 7
+    },
+    "intuit inc.|manager, data science|senior": {
+        "p25": 192287,
+        "median": 205380,
+        "p75": 213295,
+        "n": 7
+    },
+    "intuit inc.|manager, product design|senior": {
+        "p25": 191134,
+        "median": 197767,
+        "p75": 218845,
+        "n": 6
+    },
+    "intuit inc.|manager, product management|senior": {
+        "p25": 230000,
+        "median": 249310,
+        "p75": 255445,
+        "n": 12
+    },
+    "intuit inc.|manager, software engineering|senior": {
+        "p25": 226120,
+        "median": 226120,
+        "p75": 248643,
+        "n": 40
+    },
+    "intuit inc.|principal product manager|senior": {
+        "p25": 223743,
+        "median": 223743,
+        "p75": 237000,
+        "n": 20
+    },
+    "intuit inc.|principal software engineer|senior": {
+        "p25": 251451,
+        "median": 255193,
+        "p75": 255193,
+        "n": 19
+    },
+    "intuit inc.|product designer|mid": {
+        "p25": 122803,
+        "median": 129702,
+        "p75": 138491,
+        "n": 8
+    },
+    "intuit inc.|product manager|senior": {
+        "p25": 123850,
+        "median": 126000,
+        "p75": 126000,
+        "n": 7
+    },
+    "intuit inc.|senior ai scientist|senior": {
+        "p25": 166913,
+        "median": 177504,
+        "p75": 180782,
+        "n": 10
+    },
+    "intuit inc.|senior business data analyst|senior": {
+        "p25": 130092,
+        "median": 135900,
+        "p75": 139700,
+        "n": 10
+    },
+    "intuit inc.|senior data scientist|senior": {
+        "p25": 140468,
+        "median": 147639,
+        "p75": 167091,
+        "n": 42
+    },
+    "intuit inc.|senior fraud and risk analyst|senior": {
+        "p25": 141261,
+        "median": 148380,
+        "p75": 148380,
+        "n": 21
+    },
+    "intuit inc.|senior product designer|senior": {
+        "p25": 140959,
+        "median": 143818,
+        "p75": 150296,
+        "n": 15
+    },
+    "intuit inc.|senior product manager|senior": {
+        "p25": 156335,
+        "median": 156335,
+        "p75": 157701,
+        "n": 14
+    },
+    "intuit inc.|senior software engineer|senior": {
+        "p25": 152027,
+        "median": 163778,
+        "p75": 182127,
+        "n": 98
+    },
+    "intuit inc.|senior staff product manager|senior": {
+        "p25": 216718,
+        "median": 222500,
+        "p75": 225000,
+        "n": 14
+    },
+    "intuit inc.|senior staff software engineer|senior": {
+        "p25": 228709,
+        "median": 234020,
+        "p75": 242193,
+        "n": 28
+    },
+    "intuit inc.|senior technical data analyst|senior": {
+        "p25": 131758,
+        "median": 137131,
+        "p75": 148790,
+        "n": 8
+    },
+    "intuit inc.|software engineer|mid": {
+        "p25": 126880,
+        "median": 137291,
+        "p75": 150516,
+        "n": 65
+    },
+    "intuit inc.|staff business data analyst|senior": {
+        "p25": 165000,
+        "median": 172215,
+        "p75": 177784,
+        "n": 17
+    },
+    "intuit inc.|staff data scientist|senior": {
+        "p25": 173242,
+        "median": 180508,
+        "p75": 196229,
+        "n": 36
+    },
+    "intuit inc.|staff financial analyst|senior": {
+        "p25": 162926,
+        "median": 162926,
+        "p75": 162926,
+        "n": 7
+    },
+    "intuit inc.|staff fraud and risk analyst|senior": {
+        "p25": 167723,
+        "median": 173736,
+        "p75": 175624,
+        "n": 13
+    },
+    "intuit inc.|staff product designer|senior": {
+        "p25": 180586,
+        "median": 183280,
+        "p75": 186007,
+        "n": 7
+    },
+    "intuit inc.|staff product manager|senior": {
+        "p25": 179171,
+        "median": 180000,
+        "p75": 190412,
+        "n": 38
+    },
+    "intuit inc.|staff software engineer|senior": {
+        "p25": 186216,
+        "median": 205980,
+        "p75": 214907,
+        "n": 55
+    },
+    "intuit inc.|staff technical program manager|senior": {
+        "p25": 171855,
+        "median": 179221,
+        "p75": 193485,
+        "n": 8
+    },
+    "intuites llc|software developer|mid": {
+        "p25": 104577,
+        "median": 105976,
+        "p75": 106000,
+        "n": 12
+    },
+    "intuitive surgical operations, inc.|manufacturing engineer|mid": {
+        "p25": 110422,
+        "median": 121400,
+        "p75": 131846,
+        "n": 7
+    },
+    "intuitive surgical operations, inc.|mechanical engineer|mid": {
+        "p25": 123145,
+        "median": 143592,
+        "p75": 155043,
+        "n": 6
+    },
+    "intuitive surgical operations, inc.|quality engineer|mid": {
+        "p25": 125661,
+        "median": 138410,
+        "p75": 140846,
+        "n": 11
+    },
+    "intuitive surgical operations, inc.|software engineer|mid": {
+        "p25": 147753,
+        "median": 161000,
+        "p75": 180400,
+        "n": 7
+    },
+    "intuitive surgical operations, inc.|supplier engineer|mid": {
+        "p25": 120800,
+        "median": 142293,
+        "p75": 146000,
+        "n": 5
+    },
+    "intupoint, inc.|computer programmer analyst|mid": {
+        "p25": 85000,
+        "median": 106700,
+        "p75": 106700,
+        "n": 5
+    },
+    "intupoint, inc.|software developer|mid": {
+        "p25": 120000,
+        "median": 132000,
+        "p75": 133000,
+        "n": 5
+    },
+    "invences inc|5g system engineer|mid": {
+        "p25": 80288,
+        "median": 80288,
+        "p75": 80288,
+        "n": 9
+    },
+    "invertis it solutions llc|software engineer|mid": {
+        "p25": 85155,
+        "median": 105997,
+        "p75": 105997,
+        "n": 7
+    },
+    "investcloud, inc.|senior software developer|senior": {
+        "p25": 170325,
+        "median": 170325,
+        "p75": 170325,
+        "n": 5
+    },
+    "invicktus inc|software developer|mid": {
+        "p25": 106000,
+        "median": 107000,
+        "p75": 112000,
+        "n": 27
+    },
+    "invictech inc.|java developer|mid": {
+        "p25": 86424,
+        "median": 98300,
+        "p75": 98300,
+        "n": 5
+    },
+    "invincible tech systems inc.|software developer|mid": {
+        "p25": 83325,
+        "median": 84094,
+        "p75": 89382,
+        "n": 30
+    },
+    "invixon technologies, inc.|software developer|mid": {
+        "p25": 109300,
+        "median": 109300,
+        "p75": 109300,
+        "n": 5
+    },
+    "involgixs inc|software developer|mid": {
+        "p25": 103209,
+        "median": 104603,
+        "p75": 108118,
+        "n": 6
+    },
+    "invoteck, inc.|software engineer|mid": {
+        "p25": 88088,
+        "median": 95492,
+        "p75": 95493,
+        "n": 5
+    },
+    "ioasiz inc|network engineer|mid": {
+        "p25": 83668,
+        "median": 87360,
+        "p75": 87401,
+        "n": 8
+    },
+    "ioasiz inc|software developer|mid": {
+        "p25": 83423,
+        "median": 85727,
+        "p75": 97141,
+        "n": 6
+    },
+    "ionic technologies llc|data analyst|mid": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 90000,
+        "n": 5
+    },
+    "iowa physicians clinic medical foundation|hospitalist|mid": {
+        "p25": 267280,
+        "median": 267280,
+        "p75": 267280,
+        "n": 7
+    },
+    "iowa state university of science and technology|ames laboratory scientist i|entry": {
+        "p25": 78625,
+        "median": 80000,
+        "p75": 82617,
+        "n": 7
+    },
+    "iowa state university of science and technology|assistant professor|entry": {
+        "p25": 95000,
+        "median": 98361,
+        "p75": 108525,
+        "n": 22
+    },
+    "iowa state university of science and technology|assistant teaching professor|entry": {
+        "p25": 62210,
+        "median": 65000,
+        "p75": 93558,
+        "n": 11
+    },
+    "iowa state university of science and technology|postdoctoral research associate|entry": {
+        "p25": 58656,
+        "median": 58935,
+        "p75": 63074,
+        "n": 30
+    },
+    "iowa state university of science and technology|research scientist ii|mid": {
+        "p25": 60884,
+        "median": 65348,
+        "p75": 67768,
+        "n": 12
+    },
+    "iowa state university of science and technology|veterinary resident|entry": {
+        "p25": 50000,
+        "median": 50000,
+        "p75": 50000,
+        "n": 5
+    },
+    "ip heights llc|it project manager|senior": {
+        "p25": 90001,
+        "median": 90001,
+        "p75": 90001,
+        "n": 22
+    },
+    "ipolarity llc|software developer|mid": {
+        "p25": 104925,
+        "median": 109283,
+        "p75": 122766,
+        "n": 40
+    },
+    "ipolarity llc|software engineer|mid": {
+        "p25": 89830,
+        "median": 90001,
+        "p75": 93371,
+        "n": 6
+    },
+    "ipolarity llc|systems engineer|mid": {
+        "p25": 94681,
+        "median": 94681,
+        "p75": 94681,
+        "n": 8
+    },
+    "iq-consulting llc|software engineer|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 5
+    },
+    "iquadra information services llc|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 12
+    },
+    "iqubetechnologies inc|software developer|mid": {
+        "p25": 95493,
+        "median": 99673,
+        "p75": 112060,
+        "n": 26
+    },
+    "iquest solutions corp.|software engineer|mid": {
+        "p25": 85321,
+        "median": 90896,
+        "p75": 90896,
+        "n": 11
+    },
+    "iqvia inc.|consultant|mid": {
+        "p25": 119000,
+        "median": 130000,
+        "p75": 134319,
+        "n": 7
+    },
+    "iqvia inc.|engagement manager|senior": {
+        "p25": 157199,
+        "median": 157243,
+        "p75": 194995,
+        "n": 5
+    },
+    "iqvia inc.|engagement manager, tech|mid": {
+        "p25": 150000,
+        "median": 155221,
+        "p75": 163937,
+        "n": 5
+    },
+    "iqvia inc.|senior consultant|senior": {
+        "p25": 149996,
+        "median": 155440,
+        "p75": 163778,
+        "n": 12
+    },
+    "iqvia inc.|senior software development engineer|senior": {
+        "p25": 123402,
+        "median": 132638,
+        "p75": 139569,
+        "n": 6
+    },
+    "iqvia inc.|staff architect|senior": {
+        "p25": 138868,
+        "median": 157440,
+        "p75": 174626,
+        "n": 9
+    },
+    "iqvia rds inc.|associate principal statistical programmer|senior": {
+        "p25": 137206,
+        "median": 148544,
+        "p75": 154836,
+        "n": 6
+    },
+    "iqvia rds inc.|principal statistical programmer|senior": {
+        "p25": 140000,
+        "median": 156263,
+        "p75": 160000,
+        "n": 11
+    },
+    "iqvia rds inc.|senior statistical programmer|senior": {
+        "p25": 126272,
+        "median": 139614,
+        "p75": 145000,
+        "n": 13
+    },
+    "iredell-statesville schools|elementary school ec teacher|mid": {
+        "p25": 47050,
+        "median": 47050,
+        "p75": 47050,
+        "n": 6
+    },
+    "iredell-statesville schools|math teacher|mid": {
+        "p25": 46110,
+        "median": 46110,
+        "p75": 46110,
+        "n": 10
+    },
+    "iris infotech, inc|aem developer|mid": {
+        "p25": 83000,
+        "median": 83000,
+        "p75": 90210,
+        "n": 5
+    },
+    "iris software, inc|business data analyst|mid": {
+        "p25": 96402,
+        "median": 110728,
+        "p75": 114241,
+        "n": 6
+    },
+    "iris software, inc|it project/delivery manager|senior": {
+        "p25": 128250,
+        "median": 136500,
+        "p75": 162750,
+        "n": 7
+    },
+    "iris software, inc|java developer|mid": {
+        "p25": 112000,
+        "median": 113000,
+        "p75": 113000,
+        "n": 5
+    },
+    "iris software, inc|senior java developer|senior": {
+        "p25": 119000,
+        "median": 120000,
+        "p75": 129000,
+        "n": 15
+    },
+    "iris software, inc|software developer|mid": {
+        "p25": 110000,
+        "median": 120000,
+        "p75": 130000,
+        "n": 38
+    },
+    "iris software, inc|software engineer|mid": {
+        "p25": 120000,
+        "median": 125000,
+        "p75": 133750,
+        "n": 6
+    },
+    "ironclad, inc.|senior software engineer|senior": {
+        "p25": 180000,
+        "median": 185000,
+        "p75": 190000,
+        "n": 5
+    },
+    "isaac school district no. 5|teacher|mid": {
+        "p25": 53246,
+        "median": 53750,
+        "p75": 56566,
+        "n": 5
+    },
+    "isite technologies inc.|business analyst|mid": {
+        "p25": 70096,
+        "median": 94910,
+        "p75": 104467,
+        "n": 15
+    },
+    "isite technologies inc.|software developer|mid": {
+        "p25": 106137,
+        "median": 109740,
+        "p75": 120972,
+        "n": 6
+    },
+    "isn software corporation|software engineer|mid": {
+        "p25": 159000,
+        "median": 159000,
+        "p75": 159000,
+        "n": 6
+    },
+    "isolve technology inc|data engineer|mid": {
+        "p25": 97100,
+        "median": 97100,
+        "p75": 112930,
+        "n": 5
+    },
+    "isolve technology inc|software developer|mid": {
+        "p25": 113000,
+        "median": 122700,
+        "p75": 130000,
+        "n": 5
+    },
+    "isolve technology inc|software engineer|mid": {
+        "p25": 105206,
+        "median": 105206,
+        "p75": 105300,
+        "n": 5
+    },
+    "ispace, inc.|data scientist|mid": {
+        "p25": 112000,
+        "median": 112000,
+        "p75": 112000,
+        "n": 6
+    },
+    "ispace, inc.|software developer|mid": {
+        "p25": 100589,
+        "median": 106178,
+        "p75": 120500,
+        "n": 6
+    },
+    "isteer inc|software developer|mid": {
+        "p25": 84500,
+        "median": 87250,
+        "p75": 90000,
+        "n": 10
+    },
+    "istream solutions, inc.|software engineer|mid": {
+        "p25": 130000,
+        "median": 133536,
+        "p75": 141596,
+        "n": 11
+    },
+    "it america, inc.|software developer|mid": {
+        "p25": 105997,
+        "median": 108118,
+        "p75": 112475,
+        "n": 10
+    },
+    "it automation, llc|software engineer|mid": {
+        "p25": 73653,
+        "median": 73653,
+        "p75": 73653,
+        "n": 7
+    },
+    "it crats inc|software developer|mid": {
+        "p25": 105998,
+        "median": 106000,
+        "p75": 106000,
+        "n": 7
+    },
+    "it giant solutions inc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 6
+    },
+    "it hub inc|software developer|mid": {
+        "p25": 105300,
+        "median": 105997,
+        "p75": 112923,
+        "n": 5
+    },
+    "it minds, llc|software engineer|mid": {
+        "p25": 105227,
+        "median": 105227,
+        "p75": 105997,
+        "n": 5
+    },
+    "it people corporation|software engineer|mid": {
+        "p25": 104190,
+        "median": 109272,
+        "p75": 124820,
+        "n": 6
+    },
+    "it resources, inc.|.net developer|mid": {
+        "p25": 96138,
+        "median": 107765,
+        "p75": 112793,
+        "n": 6
+    },
+    "it resources, inc.|java developer|mid": {
+        "p25": 105997,
+        "median": 108826,
+        "p75": 126090,
+        "n": 13
+    },
+    "it ridge technologies llc|software developer|mid": {
+        "p25": 103210,
+        "median": 104603,
+        "p75": 106519,
+        "n": 8
+    },
+    "it ridge technologies llc|software engineer|mid": {
+        "p25": 86923,
+        "median": 101234,
+        "p75": 101234,
+        "n": 5
+    },
+    "it rysources inc|software developer|mid": {
+        "p25": 80807,
+        "median": 105591,
+        "p75": 114754,
+        "n": 20
+    },
+    "it trailblazers llc|software developer|mid": {
+        "p25": 97157,
+        "median": 105976,
+        "p75": 112029,
+        "n": 5
+    },
+    "it vertex inc|software developer|mid": {
+        "p25": 113880,
+        "median": 122720,
+        "p75": 122720,
+        "n": 9
+    },
+    "it workforce inc|software developer|mid": {
+        "p25": 83267,
+        "median": 84999,
+        "p75": 98306,
+        "n": 20
+    },
+    "itc infotech (usa), inc.|computer systems engineer|mid": {
+        "p25": 99070,
+        "median": 99070,
+        "p75": 110183,
+        "n": 5
+    },
+    "itc infotech (usa), inc.|computer systems engineer/architect|senior": {
+        "p25": 88150,
+        "median": 90002,
+        "p75": 99070,
+        "n": 9
+    },
+    "itc infotech (usa), inc.|it consultant|mid": {
+        "p25": 91675,
+        "median": 97000,
+        "p75": 108098,
+        "n": 7
+    },
+    "itc infotech (usa), inc.|lead consultant|senior": {
+        "p25": 89539,
+        "median": 96668,
+        "p75": 110577,
+        "n": 12
+    },
+    "itc infotech (usa), inc.|solution architect|senior": {
+        "p25": 110527,
+        "median": 110527,
+        "p75": 129713,
+        "n": 5
+    },
+    "itech us, inc.|programmer analyst|mid": {
+        "p25": 83589,
+        "median": 84000,
+        "p75": 92976,
+        "n": 7
+    },
+    "itech us, inc.|software  engineer|mid": {
+        "p25": 100744,
+        "median": 105227,
+        "p75": 117601,
+        "n": 7
+    },
+    "itech us, inc.|software developer|mid": {
+        "p25": 98500,
+        "median": 103605,
+        "p75": 105997,
+        "n": 9
+    },
+    "itech us, inc.|software engineer|mid": {
+        "p25": 107150,
+        "median": 113547,
+        "p75": 121000,
+        "n": 11
+    },
+    "itech us, inc.|systems administrator|mid": {
+        "p25": 80350,
+        "median": 86300,
+        "p75": 101421,
+        "n": 5
+    },
+    "itek info inc|application developer|mid": {
+        "p25": 112250,
+        "median": 115500,
+        "p75": 126000,
+        "n": 20
+    },
+    "itek info inc|software automation tester|mid": {
+        "p25": 92000,
+        "median": 98000,
+        "p75": 111000,
+        "n": 10
+    },
+    "itek info inc|software engineer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 113000,
+        "n": 18
+    },
+    "itg technologies inc|software developer|mid": {
+        "p25": 98790,
+        "median": 104593,
+        "p75": 106820,
+        "n": 8
+    },
+    "itis pro group llc|software developer|mid": {
+        "p25": 103542,
+        "median": 106558,
+        "p75": 108826,
+        "n": 5
+    },
+    "itk engineering llc|sr software engineer|senior": {
+        "p25": 132350,
+        "median": 135705,
+        "p75": 139867,
+        "n": 5
+    },
+    "itlize global llc.|computer programmer|mid": {
+        "p25": 80766,
+        "median": 80995,
+        "p75": 91941,
+        "n": 12
+    },
+    "itlize global llc.|software developer|mid": {
+        "p25": 88124,
+        "median": 95492,
+        "p75": 95909,
+        "n": 12
+    },
+    "itprofound, inc.|computer systems analyst|mid": {
+        "p25": 82014,
+        "median": 94057,
+        "p75": 95664,
+        "n": 6
+    },
+    "itprofound, inc.|software developer|mid": {
+        "p25": 84448,
+        "median": 85904,
+        "p75": 97406,
+        "n": 8
+    },
+    "itprofound, inc.|software development engineer in testing|mid": {
+        "p25": 89211,
+        "median": 92560,
+        "p75": 93600,
+        "n": 7
+    },
+    "itron, inc.|principal software engineer|senior": {
+        "p25": 205466,
+        "median": 205466,
+        "p75": 205504,
+        "n": 5
+    },
+    "itspurs, inc.|programmer analyst|mid": {
+        "p25": 71000,
+        "median": 74250,
+        "p75": 79450,
+        "n": 6
+    },
+    "itstac, llc|data engineer|mid": {
+        "p25": 68349,
+        "median": 71864,
+        "p75": 87776,
+        "n": 12
+    },
+    "itstac, llc|software programmer|mid": {
+        "p25": 75899,
+        "median": 83283,
+        "p75": 91582,
+        "n": 15
+    },
+    "itsutra inc.|management analyst|mid": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 75000,
+        "n": 5
+    },
+    "ittechnica inc|devops engineer|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 87714,
+        "n": 6
+    },
+    "itvision360, inc.|software developer|mid": {
+        "p25": 85530,
+        "median": 93028,
+        "p75": 104629,
+        "n": 6
+    },
+    "itvision360, inc.|software engineer|mid": {
+        "p25": 107728,
+        "median": 112923,
+        "p75": 112923,
+        "n": 6
+    },
+    "itvorks inc|data engineer|mid": {
+        "p25": 72000,
+        "median": 72000,
+        "p75": 86000,
+        "n": 5
+    },
+    "iu health care associates|assistant professor of clinical medicine|entry": {
+        "p25": 240240,
+        "median": 251680,
+        "p75": 299520,
+        "n": 15
+    },
+    "ixl learning, inc.|software engineer|mid": {
+        "p25": 98500,
+        "median": 130250,
+        "p75": 140000,
+        "n": 15
+    },
+    "ixmules llc|software developer|mid": {
+        "p25": 84095,
+        "median": 84100,
+        "p75": 84100,
+        "n": 6
+    },
+    "izeal, inc|java developer|mid": {
+        "p25": 97157,
+        "median": 97157,
+        "p75": 123656,
+        "n": 5
+    }
+}

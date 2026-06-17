@@ -1,0 +1,2096 @@
+{
+    "l brands service company, llc|senior applications developer|senior": {
+        "p25": 120598,
+        "median": 120973,
+        "p75": 120973,
+        "n": 7
+    },
+    "l&t technology services limited|automotive engineer|mid": {
+        "p25": 103000,
+        "median": 103000,
+        "p75": 108000,
+        "n": 5
+    },
+    "l&t technology services limited|business development director|senior": {
+        "p25": 119318,
+        "median": 144000,
+        "p75": 179500,
+        "n": 6
+    },
+    "l&t technology services limited|chemical process engineer|mid": {
+        "p25": 91000,
+        "median": 91517,
+        "p75": 92763,
+        "n": 6
+    },
+    "l&t technology services limited|controls engineer|mid": {
+        "p25": 90000,
+        "median": 90125,
+        "p75": 95000,
+        "n": 5
+    },
+    "l&t technology services limited|database administrator|mid": {
+        "p25": 80205,
+        "median": 81000,
+        "p75": 90000,
+        "n": 9
+    },
+    "l&t technology services limited|design engineer|mid": {
+        "p25": 79000,
+        "median": 85000,
+        "p75": 90938,
+        "n": 79
+    },
+    "l&t technology services limited|electrical design engineer|mid": {
+        "p25": 74500,
+        "median": 80000,
+        "p75": 85405,
+        "n": 5
+    },
+    "l&t technology services limited|electrical engineer|mid": {
+        "p25": 92733,
+        "median": 94640,
+        "p75": 103156,
+        "n": 35
+    },
+    "l&t technology services limited|electronics engineer|mid": {
+        "p25": 94538,
+        "median": 98415,
+        "p75": 101617,
+        "n": 8
+    },
+    "l&t technology services limited|hardware engineer|mid": {
+        "p25": 91250,
+        "median": 92248,
+        "p75": 99000,
+        "n": 13
+    },
+    "l&t technology services limited|industrial designer|mid": {
+        "p25": 78500,
+        "median": 86756,
+        "p75": 90778,
+        "n": 14
+    },
+    "l&t technology services limited|industrial engineer|mid": {
+        "p25": 80617,
+        "median": 86138,
+        "p75": 89469,
+        "n": 37
+    },
+    "l&t technology services limited|information management analyst|mid": {
+        "p25": 78083,
+        "median": 80589,
+        "p75": 86725,
+        "n": 24
+    },
+    "l&t technology services limited|manufacturing engineer|mid": {
+        "p25": 83845,
+        "median": 89000,
+        "p75": 94102,
+        "n": 21
+    },
+    "l&t technology services limited|mechanical design engineer|mid": {
+        "p25": 85883,
+        "median": 91250,
+        "p75": 100225,
+        "n": 48
+    },
+    "l&t technology services limited|mechanical engineer|mid": {
+        "p25": 85914,
+        "median": 91775,
+        "p75": 97398,
+        "n": 80
+    },
+    "l&t technology services limited|program manager|senior": {
+        "p25": 92500,
+        "median": 101962,
+        "p75": 108000,
+        "n": 11
+    },
+    "l&t technology services limited|project manager|senior": {
+        "p25": 97816,
+        "median": 103162,
+        "p75": 110612,
+        "n": 14
+    },
+    "l&t technology services limited|sales director|senior": {
+        "p25": 128586,
+        "median": 128586,
+        "p75": 168958,
+        "n": 5
+    },
+    "l&t technology services limited|software developer|mid": {
+        "p25": 92500,
+        "median": 95696,
+        "p75": 105206,
+        "n": 49
+    },
+    "l&t technology services limited|software developer, systems software|mid": {
+        "p25": 94307,
+        "median": 96073,
+        "p75": 105000,
+        "n": 5
+    },
+    "l&t technology services limited|software engineer|mid": {
+        "p25": 86506,
+        "median": 98497,
+        "p75": 106142,
+        "n": 8
+    },
+    "l&t technology services limited|software engineer & tester|mid": {
+        "p25": 83036,
+        "median": 93000,
+        "p75": 113000,
+        "n": 25
+    },
+    "l&t technology services limited|test engineer|mid": {
+        "p25": 82992,
+        "median": 95840,
+        "p75": 116049,
+        "n": 23
+    },
+    "l&t technology services limited|validation engineer|mid": {
+        "p25": 87610,
+        "median": 93496,
+        "p75": 95000,
+        "n": 5
+    },
+    "l&t technology services llc|manufacturing engineer|mid": {
+        "p25": 88878,
+        "median": 89063,
+        "p75": 89874,
+        "n": 5
+    },
+    "l&t technology services llc|mechanical engineer|mid": {
+        "p25": 99000,
+        "median": 100298,
+        "p75": 133000,
+        "n": 5
+    },
+    "l&t technology services llc|network engineer|mid": {
+        "p25": 113714,
+        "median": 118800,
+        "p75": 123000,
+        "n": 9
+    },
+    "l&t technology services llc|software developer|mid": {
+        "p25": 93894,
+        "median": 103000,
+        "p75": 105663,
+        "n": 11
+    },
+    "l&t technology services llc|software engineer & tester|mid": {
+        "p25": 88504,
+        "median": 103418,
+        "p75": 103854,
+        "n": 6
+    },
+    "l&t technology services llc|system engineer|mid": {
+        "p25": 98000,
+        "median": 98000,
+        "p75": 98000,
+        "n": 10
+    },
+    "l-h battery company, inc.|engineer i|entry": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 75000,
+        "n": 5
+    },
+    "labminds staffing and recruiting, llc|medical technologist|mid": {
+        "p25": 62400,
+        "median": 66560,
+        "p75": 72800,
+        "n": 17
+    },
+    "laboratory corporation of america|medical laboratory technologist|mid": {
+        "p25": 56014,
+        "median": 56014,
+        "p75": 60112,
+        "n": 5
+    },
+    "laboratory corporation of america holdings|it senior technical specialist|senior": {
+        "p25": 148244,
+        "median": 159583,
+        "p75": 160269,
+        "n": 7
+    },
+    "laboratory corporation of america holdings|medical laboratory technologist|mid": {
+        "p25": 57200,
+        "median": 71760,
+        "p75": 76960,
+        "n": 5
+    },
+    "laboratory corporation of america holdings|senior programmer analyst|senior": {
+        "p25": 101358,
+        "median": 116397,
+        "p75": 120765,
+        "n": 5
+    },
+    "laboratory corporation of america holdings|senior qa analyst|senior": {
+        "p25": 87298,
+        "median": 100984,
+        "p75": 106517,
+        "n": 9
+    },
+    "laboratory corporation of america holdings|senior software engineer|senior": {
+        "p25": 134004,
+        "median": 138289,
+        "p75": 147792,
+        "n": 6
+    },
+    "laboratory corporation of america holdings|technologist|mid": {
+        "p25": 47216,
+        "median": 51625,
+        "p75": 55057,
+        "n": 7
+    },
+    "lafayette college|assistant professor|entry": {
+        "p25": 84000,
+        "median": 92000,
+        "p75": 93012,
+        "n": 7
+    },
+    "lafayette kidney care, llc|physician - nephrologist|mid": {
+        "p25": 350000,
+        "median": 350000,
+        "p75": 350000,
+        "n": 6
+    },
+    "lahey clinic, inc.|hospitalist|mid": {
+        "p25": 189232,
+        "median": 228114,
+        "p75": 260374,
+        "n": 6
+    },
+    "lak software solutions, inc.|pega certified senior system architect|senior": {
+        "p25": 133536,
+        "median": 155000,
+        "p75": 170000,
+        "n": 5
+    },
+    "lakes international language academy|spanish immersion teacher|mid": {
+        "p25": 41475,
+        "median": 44977,
+        "p75": 54753,
+        "n": 16
+    },
+    "lakeshore global corporation|project engineer|mid": {
+        "p25": 62379,
+        "median": 62379,
+        "p75": 62500,
+        "n": 5
+    },
+    "lakshmi pt consultants, p.c., dba hands on physical therapy|physical therapist|mid": {
+        "p25": 114000,
+        "median": 114000,
+        "p75": 114000,
+        "n": 6
+    },
+    "lam research corporation|electrical engineer|mid": {
+        "p25": 124357,
+        "median": 128149,
+        "p75": 131747,
+        "n": 9
+    },
+    "lam research corporation|field process engineer|mid": {
+        "p25": 121492,
+        "median": 130291,
+        "p75": 132646,
+        "n": 6
+    },
+    "lam research corporation|field service engineer|mid": {
+        "p25": 88696,
+        "median": 103438,
+        "p75": 132386,
+        "n": 8
+    },
+    "lam research corporation|manufacturing engineer|mid": {
+        "p25": 120182,
+        "median": 123365,
+        "p75": 123365,
+        "n": 5
+    },
+    "lam research corporation|mechanical engineer|mid": {
+        "p25": 118810,
+        "median": 133640,
+        "p75": 158001,
+        "n": 16
+    },
+    "lam research corporation|process engineer|mid": {
+        "p25": 112757,
+        "median": 137093,
+        "p75": 150062,
+        "n": 64
+    },
+    "lam research corporation|product engineer|mid": {
+        "p25": 137093,
+        "median": 144664,
+        "p75": 158018,
+        "n": 25
+    },
+    "lam research corporation|program/project manager|senior": {
+        "p25": 104270,
+        "median": 121841,
+        "p75": 134612,
+        "n": 8
+    },
+    "lam research corporation|rf engineer|mid": {
+        "p25": 124842,
+        "median": 124842,
+        "p75": 150259,
+        "n": 5
+    },
+    "lam research corporation|technical program manager|senior": {
+        "p25": 119860,
+        "median": 132288,
+        "p75": 151694,
+        "n": 11
+    },
+    "lamar university|assistant professor|entry": {
+        "p25": 78500,
+        "median": 98195,
+        "p75": 120000,
+        "n": 5
+    },
+    "lambdanets services llc|application analyst|mid": {
+        "p25": 69555,
+        "median": 69555,
+        "p75": 69555,
+        "n": 6
+    },
+    "lambdanets services llc|computer programmer|mid": {
+        "p25": 64272,
+        "median": 64272,
+        "p75": 68005,
+        "n": 7
+    },
+    "lambdanets services llc|programmer analyst|mid": {
+        "p25": 64272,
+        "median": 64272,
+        "p75": 68005,
+        "n": 7
+    },
+    "lambent technologies, llc|software developer|mid": {
+        "p25": 84340,
+        "median": 85000,
+        "p75": 85150,
+        "n": 6
+    },
+    "lands' end, inc.|applications engineer|mid": {
+        "p25": 128823,
+        "median": 130894,
+        "p75": 130894,
+        "n": 5
+    },
+    "langan engineering and environmental services, llc|civil engineer|mid": {
+        "p25": 72500,
+        "median": 74000,
+        "p75": 78500,
+        "n": 13
+    },
+    "langan engineering and environmental services, llc|environmental engineer|mid": {
+        "p25": 76125,
+        "median": 79487,
+        "p75": 81743,
+        "n": 6
+    },
+    "langan engineering and environmental services, llc|geotechnical engineer|mid": {
+        "p25": 74750,
+        "median": 80750,
+        "p75": 89737,
+        "n": 28
+    },
+    "largeton  inc|software developer|mid": {
+        "p25": 105300,
+        "median": 109150,
+        "p75": 114500,
+        "n": 6
+    },
+    "latentview analytics corporation|associate|entry": {
+        "p25": 125000,
+        "median": 146856,
+        "p75": 148699,
+        "n": 13
+    },
+    "latentview analytics corporation|bi developer|mid": {
+        "p25": 132929,
+        "median": 152422,
+        "p75": 159936,
+        "n": 8
+    },
+    "latentview analytics corporation|consultant|mid": {
+        "p25": 129820,
+        "median": 148699,
+        "p75": 148699,
+        "n": 44
+    },
+    "latentview analytics corporation|data engineer|mid": {
+        "p25": 137259,
+        "median": 155605,
+        "p75": 172931,
+        "n": 24
+    },
+    "latham & watkins llp|associate|entry": {
+        "p25": 225000,
+        "median": 235000,
+        "p75": 235000,
+        "n": 29
+    },
+    "latham & watkins llp|attorney|mid": {
+        "p25": 247500,
+        "median": 310000,
+        "p75": 365000,
+        "n": 59
+    },
+    "latitude ai, llc|senior software engineer|senior": {
+        "p25": 174000,
+        "median": 183420,
+        "p75": 199543,
+        "n": 17
+    },
+    "latitude ai, llc|software engineer ii|mid": {
+        "p25": 146000,
+        "median": 170465,
+        "p75": 172931,
+        "n": 10
+    },
+    "launch it corp|software developer|mid": {
+        "p25": 84760,
+        "median": 86466,
+        "p75": 86466,
+        "n": 5
+    },
+    "launch technical workforce solutions|scientific technician|mid": {
+        "p25": 54080,
+        "median": 54080,
+        "p75": 58240,
+        "n": 5
+    },
+    "launch technical workforce solutions llc|aircraft mechanic|mid": {
+        "p25": 58136,
+        "median": 62400,
+        "p75": 67366,
+        "n": 12
+    },
+    "lawrence berkeley national laboratory|computer systems engineer 3|mid": {
+        "p25": 168804,
+        "median": 171636,
+        "p75": 179601,
+        "n": 16
+    },
+    "lawrence berkeley national laboratory|postdoc|mid": {
+        "p25": 73452,
+        "median": 78534,
+        "p75": 103404,
+        "n": 26
+    },
+    "lawrence berkeley national laboratory|scientific engineering associate|entry": {
+        "p25": 94800,
+        "median": 94800,
+        "p75": 95028,
+        "n": 5
+    },
+    "lawrence livermore national security, llc|member of technical staff|senior": {
+        "p25": 159987,
+        "median": 162323,
+        "p75": 172800,
+        "n": 5
+    },
+    "lawrence livermore national security, llc|postdoctoral research staff|senior": {
+        "p25": 123360,
+        "median": 128916,
+        "p75": 128916,
+        "n": 23
+    },
+    "lawrence livermore national security, llc|research scientist|mid": {
+        "p25": 180000,
+        "median": 181485,
+        "p75": 189044,
+        "n": 17
+    },
+    "lawrence livermore national security, llc|research scientist (computer scientist)|mid": {
+        "p25": 189240,
+        "median": 208084,
+        "p75": 214378,
+        "n": 11
+    },
+    "lawrence livermore national security, llc|research scientist (physicist)|mid": {
+        "p25": 187638,
+        "median": 194123,
+        "p75": 204132,
+        "n": 9
+    },
+    "lawrence technological university|assistant professor|entry": {
+        "p25": 84000,
+        "median": 87500,
+        "p75": 90000,
+        "n": 13
+    },
+    "lazard freres & co. llc|associate|entry": {
+        "p25": 185000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 11
+    },
+    "lbv consulting services llc|software developer|mid": {
+        "p25": 100797,
+        "median": 105997,
+        "p75": 112923,
+        "n": 21
+    },
+    "lead it corporation|software developer|mid": {
+        "p25": 81083,
+        "median": 88025,
+        "p75": 94224,
+        "n": 14
+    },
+    "lead it corporation|software engineer|mid": {
+        "p25": 85950,
+        "median": 90625,
+        "p75": 99705,
+        "n": 14
+    },
+    "learnbeyond consulting, llc.|java developer|mid": {
+        "p25": 80413,
+        "median": 83325,
+        "p75": 105997,
+        "n": 5
+    },
+    "learnbeyond consulting, llc.|software developer|mid": {
+        "p25": 87146,
+        "median": 95524,
+        "p75": 105528,
+        "n": 8
+    },
+    "ledgerhub, inc.|software engineer|mid": {
+        "p25": 101108,
+        "median": 101108,
+        "p75": 101108,
+        "n": 11
+    },
+    "lee county school district|early childhood education teacher|mid": {
+        "p25": 54250,
+        "median": 54500,
+        "p75": 55500,
+        "n": 7
+    },
+    "lee county school district|elementary school teacher|mid": {
+        "p25": 47000,
+        "median": 58000,
+        "p75": 62500,
+        "n": 5
+    },
+    "legend solutions llc|software developer|mid": {
+        "p25": 92091,
+        "median": 100798,
+        "p75": 106819,
+        "n": 6
+    },
+    "lego construction co.|construction manager|senior": {
+        "p25": 83575,
+        "median": 87472,
+        "p75": 100693,
+        "n": 11
+    },
+    "lehigh university|assistant professor|entry": {
+        "p25": 88500,
+        "median": 102000,
+        "p75": 111500,
+        "n": 11
+    },
+    "lek consulting llc|consultant|mid": {
+        "p25": 185000,
+        "median": 185000,
+        "p75": 185000,
+        "n": 6
+    },
+    "leland stanford jr. univ/slac national accelerator lab|associate scientist|entry": {
+        "p25": 118000,
+        "median": 118250,
+        "p75": 125269,
+        "n": 10
+    },
+    "leland stanford jr. univ/slac national accelerator lab|project scientist|mid": {
+        "p25": 104083,
+        "median": 105292,
+        "p75": 117646,
+        "n": 7
+    },
+    "leland stanford jr. univ/slac national accelerator lab|research associate|entry": {
+        "p25": 78853,
+        "median": 79383,
+        "p75": 81745,
+        "n": 18
+    },
+    "leland stanford jr. univ/slac national accelerator lab|staff engineer 2|senior": {
+        "p25": 116000,
+        "median": 130000,
+        "p75": 130000,
+        "n": 21
+    },
+    "leland stanford jr. univ/slac national accelerator lab|staff engineer 3|senior": {
+        "p25": 140000,
+        "median": 155000,
+        "p75": 155738,
+        "n": 15
+    },
+    "leland stanford jr. univ/slac national accelerator lab|staff scientist|senior": {
+        "p25": 148000,
+        "median": 148000,
+        "p75": 148000,
+        "n": 9
+    },
+    "lendingclub bank national association|senior software engineer|senior": {
+        "p25": 186150,
+        "median": 205000,
+        "p75": 207000,
+        "n": 7
+    },
+    "lenora systems, inc|computer systems analyst|mid": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 95500,
+        "n": 16
+    },
+    "lenora systems, inc|computer systems engineer|mid": {
+        "p25": 108100,
+        "median": 108100,
+        "p75": 108100,
+        "n": 14
+    },
+    "lenora systems, inc|software engineer|mid": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 122700,
+        "n": 5
+    },
+    "ler techforce, llc|calibration engineer|mid": {
+        "p25": 88400,
+        "median": 89960,
+        "p75": 93600,
+        "n": 13
+    },
+    "ler techforce, llc|senior calibration engineer|senior": {
+        "p25": 103438,
+        "median": 110240,
+        "p75": 112000,
+        "n": 7
+    },
+    "ler techforce, llc|senior test engineer|senior": {
+        "p25": 106891,
+        "median": 109688,
+        "p75": 121721,
+        "n": 6
+    },
+    "ler techforce, llc|test engineer|mid": {
+        "p25": 87662,
+        "median": 89000,
+        "p75": 91875,
+        "n": 6
+    },
+    "level 3 communications llc|lead software developer|senior": {
+        "p25": 119608,
+        "median": 122813,
+        "p75": 129001,
+        "n": 5
+    },
+    "lex nimble solutions inc|java developer|mid": {
+        "p25": 92414,
+        "median": 97546,
+        "p75": 106615,
+        "n": 6
+    },
+    "lex nimble solutions inc|programmer analyst|mid": {
+        "p25": 79747,
+        "median": 79747,
+        "p75": 91042,
+        "n": 5
+    },
+    "lex nimble solutions inc.|java developer|mid": {
+        "p25": 92400,
+        "median": 111779,
+        "p75": 112986,
+        "n": 9
+    },
+    "lexington county school district one|world language teacher - elementary school spanish immersion|mid": {
+        "p25": 55196,
+        "median": 56724,
+        "p75": 65761,
+        "n": 6
+    },
+    "lexington county school district one|world language teacher - high school spanish|mid": {
+        "p25": 56336,
+        "median": 65961,
+        "p75": 67805,
+        "n": 5
+    },
+    "lexington county school district one|world language teacher - middle school spanish|mid": {
+        "p25": 61977,
+        "median": 74823,
+        "p75": 82363,
+        "n": 6
+    },
+    "lexisnexis risk data management llc|consulting software engineer|mid": {
+        "p25": 138687,
+        "median": 141647,
+        "p75": 154082,
+        "n": 6
+    },
+    "lexisnexis risk data management llc|senior software engineer ii|senior": {
+        "p25": 115181,
+        "median": 115181,
+        "p75": 118659,
+        "n": 5
+    },
+    "lexisnexis risk solutions fl, inc.|consulting/principal software engineer|senior": {
+        "p25": 135136,
+        "median": 145000,
+        "p75": 146645,
+        "n": 5
+    },
+    "lexisnexis risk solutions fl, inc.|manager software engineering|senior": {
+        "p25": 164320,
+        "median": 170000,
+        "p75": 172448,
+        "n": 12
+    },
+    "lexisnexis risk solutions fl, inc.|quality test engineer iii|senior": {
+        "p25": 118320,
+        "median": 118900,
+        "p75": 122645,
+        "n": 6
+    },
+    "lexisnexis risk solutions fl, inc.|senior software engineer i|mid": {
+        "p25": 107633,
+        "median": 108211,
+        "p75": 113863,
+        "n": 7
+    },
+    "lexisnexis risk solutions fl, inc.|senior software engineer ii|senior": {
+        "p25": 116905,
+        "median": 120000,
+        "p75": 128000,
+        "n": 9
+    },
+    "lexisnexis risk solutions fl, inc.|senior technical consultant|senior": {
+        "p25": 122760,
+        "median": 153978,
+        "p75": 165000,
+        "n": 5
+    },
+    "lexisnexis risk solutions fl, inc.|software engineer iii|senior": {
+        "p25": 100025,
+        "median": 103000,
+        "p75": 106862,
+        "n": 26
+    },
+    "lexisnexis risk solutions fl, inc.|software engineering lead|senior": {
+        "p25": 143005,
+        "median": 149215,
+        "p75": 154944,
+        "n": 8
+    },
+    "lexisnexis risk solutions inc.|senior software engineer ii|senior": {
+        "p25": 116589,
+        "median": 124600,
+        "p75": 127418,
+        "n": 7
+    },
+    "lexisnexis risk solutions inc.|software engineer iii|senior": {
+        "p25": 97000,
+        "median": 98950,
+        "p75": 100900,
+        "n": 6
+    },
+    "lexisnexis risk solutions, inc.|data scientist ii|mid": {
+        "p25": 90000,
+        "median": 90000,
+        "p75": 95791,
+        "n": 11
+    },
+    "lexisnexis risk solutions, inc.|senior data scientist i|mid": {
+        "p25": 110000,
+        "median": 112613,
+        "p75": 121174,
+        "n": 5
+    },
+    "lexisnexis risk solutions, inc.|senior software engineer|senior": {
+        "p25": 128874,
+        "median": 128874,
+        "p75": 128874,
+        "n": 5
+    },
+    "lexisnexis risk solutions, inc.|senior software engineer ii|senior": {
+        "p25": 111394,
+        "median": 115432,
+        "p75": 121130,
+        "n": 10
+    },
+    "lexisnexis risk solutions, inc.|software engineer iii|senior": {
+        "p25": 99239,
+        "median": 100872,
+        "p75": 102133,
+        "n": 8
+    },
+    "lexisnexis risk solutions, inc.|software engineering lead|senior": {
+        "p25": 123000,
+        "median": 136368,
+        "p75": 136368,
+        "n": 5
+    },
+    "lgc global, inc.|civil engineer|mid": {
+        "p25": 70720,
+        "median": 92000,
+        "p75": 115000,
+        "n": 9
+    },
+    "lgc global, inc.|project engineer|mid": {
+        "p25": 62379,
+        "median": 62379,
+        "p75": 62469,
+        "n": 6
+    },
+    "liberty mutual group inc.|actuary|mid": {
+        "p25": 168646,
+        "median": 170500,
+        "p75": 172200,
+        "n": 5
+    },
+    "liberty mutual group inc.|analyst ii, data science|mid": {
+        "p25": 133100,
+        "median": 133100,
+        "p75": 137946,
+        "n": 5
+    },
+    "liberty mutual group inc.|asst dir, data science (stp)|mid": {
+        "p25": 129059,
+        "median": 149531,
+        "p75": 165143,
+        "n": 10
+    },
+    "liberty mutual technology group inc.|manager, engineering|senior": {
+        "p25": 159301,
+        "median": 159301,
+        "p75": 159301,
+        "n": 5
+    },
+    "liberty mutual technology group inc.|princ software engineer|mid": {
+        "p25": 151674,
+        "median": 159300,
+        "p75": 172744,
+        "n": 28
+    },
+    "liberty mutual technology group inc.|senior data engineer|senior": {
+        "p25": 130879,
+        "median": 140860,
+        "p75": 162658,
+        "n": 6
+    },
+    "liberty mutual technology group inc.|software engineer|mid": {
+        "p25": 105997,
+        "median": 112900,
+        "p75": 125700,
+        "n": 5
+    },
+    "liberty mutual technology group inc.|solutions engineer, software|mid": {
+        "p25": 167822,
+        "median": 183100,
+        "p75": 191350,
+        "n": 11
+    },
+    "liberty mutual technology group inc.|sr software engineer|senior": {
+        "p25": 139402,
+        "median": 149240,
+        "p75": 153540,
+        "n": 22
+    },
+    "libsys, inc|software developer|mid": {
+        "p25": 106000,
+        "median": 106600,
+        "p75": 115000,
+        "n": 5
+    },
+    "lifeline nursing solutions, llc|registered nurse (intensive care unit)|mid": {
+        "p25": 72155,
+        "median": 82576,
+        "p75": 82576,
+        "n": 5
+    },
+    "lifeline nursing solutions, llc|registered nurse (medical surgical unit)|mid": {
+        "p25": 72155,
+        "median": 72155,
+        "p75": 76170,
+        "n": 5
+    },
+    "lifespan physician group inc.|anesthesiologist|mid": {
+        "p25": 400000,
+        "median": 400000,
+        "p75": 420000,
+        "n": 5
+    },
+    "light & wonder, inc.|senior advanced business systems analyst|senior": {
+        "p25": 143964,
+        "median": 150875,
+        "p75": 153083,
+        "n": 5
+    },
+    "lilax technologies,inc|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "limelightlogic inc.|data engineer|mid": {
+        "p25": 75962,
+        "median": 75962,
+        "p75": 82763,
+        "n": 9
+    },
+    "limelightlogic inc.|full stack java developer|mid": {
+        "p25": 94931,
+        "median": 95493,
+        "p75": 123656,
+        "n": 5
+    },
+    "limelightlogic inc.|software developer|mid": {
+        "p25": 83761,
+        "median": 95493,
+        "p75": 116662,
+        "n": 10
+    },
+    "limsons it services llc|software developer|mid": {
+        "p25": 100214,
+        "median": 102357,
+        "p75": 104603,
+        "n": 7
+    },
+    "lincare inc.|operations analyst|mid": {
+        "p25": 69962,
+        "median": 70990,
+        "p75": 74085,
+        "n": 5
+    },
+    "lincoln national corporation|analyst, application development|mid": {
+        "p25": 91645,
+        "median": 92435,
+        "p75": 94370,
+        "n": 5
+    },
+    "lincoln national corporation|sr. analyst, application development|senior": {
+        "p25": 136014,
+        "median": 139090,
+        "p75": 149947,
+        "n": 9
+    },
+    "linkedin corporation|associate product manager|mid": {
+        "p25": 119000,
+        "median": 120350,
+        "p75": 121701,
+        "n": 6
+    },
+    "linkedin corporation|data insights \u201c tech sr associate|mid": {
+        "p25": 132101,
+        "median": 145654,
+        "p75": 164403,
+        "n": 5
+    },
+    "linkedin corporation|insights program manager|senior": {
+        "p25": 131268,
+        "median": 139506,
+        "p75": 157667,
+        "n": 6
+    },
+    "linkedin corporation|manager strategic finance|senior": {
+        "p25": 150000,
+        "median": 152000,
+        "p75": 171454,
+        "n": 5
+    },
+    "linkedin corporation|manager, software engineering|senior": {
+        "p25": 208361,
+        "median": 219819,
+        "p75": 237260,
+        "n": 32
+    },
+    "linkedin corporation|manager, software engineering, machine learning|senior": {
+        "p25": 237120,
+        "median": 248794,
+        "p75": 248794,
+        "n": 5
+    },
+    "linkedin corporation|manager, software engineering, systems infrastructure|senior": {
+        "p25": 218317,
+        "median": 255445,
+        "p75": 255445,
+        "n": 9
+    },
+    "linkedin corporation|manager, strategic finance|senior": {
+        "p25": 152000,
+        "median": 154336,
+        "p75": 175348,
+        "n": 5
+    },
+    "linkedin corporation|product designer|mid": {
+        "p25": 119000,
+        "median": 119000,
+        "p75": 123000,
+        "n": 10
+    },
+    "linkedin corporation|product manager|senior": {
+        "p25": 150000,
+        "median": 150426,
+        "p75": 152213,
+        "n": 19
+    },
+    "linkedin corporation|sales operations associate|entry": {
+        "p25": 98664,
+        "median": 103000,
+        "p75": 106339,
+        "n": 6
+    },
+    "linkedin corporation|software engineer|mid": {
+        "p25": 123914,
+        "median": 137259,
+        "p75": 151545,
+        "n": 72
+    },
+    "linkedin corporation|software engineer, data science|mid": {
+        "p25": 128398,
+        "median": 136634,
+        "p75": 148699,
+        "n": 5
+    },
+    "linkedin corporation|software engineer, machine learning|mid": {
+        "p25": 139000,
+        "median": 152566,
+        "p75": 172931,
+        "n": 32
+    },
+    "linkedin corporation|software engineer, systems infrastructure|mid": {
+        "p25": 138756,
+        "median": 139000,
+        "p75": 172931,
+        "n": 44
+    },
+    "linkedin corporation|sr data scientist|senior": {
+        "p25": 141170,
+        "median": 158642,
+        "p75": 180128,
+        "n": 13
+    },
+    "linkedin corporation|sr data scientist, ml/ai|senior": {
+        "p25": 167107,
+        "median": 170000,
+        "p75": 180128,
+        "n": 9
+    },
+    "linkedin corporation|sr engineer, site reliability|senior": {
+        "p25": 129000,
+        "median": 129000,
+        "p75": 199534,
+        "n": 5
+    },
+    "linkedin corporation|sr insights analyst|senior": {
+        "p25": 124000,
+        "median": 128000,
+        "p75": 138984,
+        "n": 5
+    },
+    "linkedin corporation|sr product manager|senior": {
+        "p25": 178000,
+        "median": 179171,
+        "p75": 184000,
+        "n": 5
+    },
+    "linkedin corporation|sr software engineer|senior": {
+        "p25": 147000,
+        "median": 151819,
+        "p75": 180960,
+        "n": 122
+    },
+    "linkedin corporation|sr software engineer, data science|senior": {
+        "p25": 151830,
+        "median": 159494,
+        "p75": 171211,
+        "n": 6
+    },
+    "linkedin corporation|sr software engineer, machine learning|senior": {
+        "p25": 172231,
+        "median": 180710,
+        "p75": 190942,
+        "n": 14
+    },
+    "linkedin corporation|sr software engineer, systems infrastructure|senior": {
+        "p25": 170000,
+        "median": 170000,
+        "p75": 170000,
+        "n": 13
+    },
+    "linkedin corporation|sr. associate strategic finance|mid": {
+        "p25": 119765,
+        "median": 125101,
+        "p75": 136005,
+        "n": 10
+    },
+    "linkedin corporation|sr. product designer|senior": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "linkedin corporation|sr. software engineer|senior": {
+        "p25": 153000,
+        "median": 179079,
+        "p75": 187574,
+        "n": 110
+    },
+    "linkedin corporation|sr. software engineer, machine learning|senior": {
+        "p25": 170000,
+        "median": 188027,
+        "p75": 199534,
+        "n": 56
+    },
+    "linkedin corporation|sr. software engineer, systems infrastructure|senior": {
+        "p25": 164000,
+        "median": 170000,
+        "p75": 199534,
+        "n": 131
+    },
+    "linkedin corporation|sr. staff software engineer, systems infrastructure|senior": {
+        "p25": 233000,
+        "median": 264514,
+        "p75": 264514,
+        "n": 9
+    },
+    "linkedin corporation|staff data scientist|senior": {
+        "p25": 175250,
+        "median": 191803,
+        "p75": 204224,
+        "n": 10
+    },
+    "linkedin corporation|staff engineer, site reliability|senior": {
+        "p25": 197593,
+        "median": 219835,
+        "p75": 226158,
+        "n": 6
+    },
+    "linkedin corporation|staff software engineer|senior": {
+        "p25": 202337,
+        "median": 216666,
+        "p75": 226158,
+        "n": 85
+    },
+    "linkedin corporation|staff software engineer, machine learning|senior": {
+        "p25": 213524,
+        "median": 225102,
+        "p75": 226158,
+        "n": 26
+    },
+    "linkedin corporation|staff software engineer, systems infrastructure|senior": {
+        "p25": 207000,
+        "median": 226158,
+        "p75": 226158,
+        "n": 60
+    },
+    "linkedin corporation|staff technical program manager|senior": {
+        "p25": 179171,
+        "median": 179171,
+        "p75": 179171,
+        "n": 7
+    },
+    "linkedin corporation|strategic operations lead, ai data operations|senior": {
+        "p25": 157554,
+        "median": 184710,
+        "p75": 207000,
+        "n": 48
+    },
+    "linklaters llp|associate|entry": {
+        "p25": 223778,
+        "median": 225000,
+        "p75": 251250,
+        "n": 6
+    },
+    "linklaters llp|senior us associate|mid": {
+        "p25": 390000,
+        "median": 390000,
+        "p75": 390000,
+        "n": 5
+    },
+    "linklaters llp|us associate|entry": {
+        "p25": 225000,
+        "median": 260000,
+        "p75": 260000,
+        "n": 28
+    },
+    "linkpro technologies inc|network engineer|mid": {
+        "p25": 80288,
+        "median": 87776,
+        "p75": 113714,
+        "n": 11
+    },
+    "linq global group llc|software developer|mid": {
+        "p25": 124592,
+        "median": 124592,
+        "p75": 133536,
+        "n": 5
+    },
+    "litmus7 systems consulting inc|lead consultant|senior": {
+        "p25": 147000,
+        "median": 155000,
+        "p75": 163750,
+        "n": 10
+    },
+    "litmus7 systems consulting inc|senior technical consultant|senior": {
+        "p25": 132500,
+        "median": 142000,
+        "p75": 150000,
+        "n": 15
+    },
+    "litmus7 systems consulting inc|technical consultant|mid": {
+        "p25": 120000,
+        "median": 129000,
+        "p75": 135000,
+        "n": 9
+    },
+    "little scholars of arkansas|math teacher|mid": {
+        "p25": 45580,
+        "median": 45580,
+        "p75": 46380,
+        "n": 7
+    },
+    "little scholars of arkansas|science teacher|mid": {
+        "p25": 45580,
+        "median": 45580,
+        "p75": 49870,
+        "n": 5
+    },
+    "livemindz services inc|data engineer|mid": {
+        "p25": 73154,
+        "median": 84094,
+        "p75": 84094,
+        "n": 15
+    },
+    "livemindz services inc|software developer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 98446,
+        "n": 15
+    },
+    "living the language, llc|childcare director|senior": {
+        "p25": 41558,
+        "median": 43493,
+        "p75": 43493,
+        "n": 6
+    },
+    "llx solutions, llc|statistician ii|mid": {
+        "p25": 99065,
+        "median": 132002,
+        "p75": 133395,
+        "n": 8
+    },
+    "lmi, inc.|software engineer|mid": {
+        "p25": 146900,
+        "median": 146900,
+        "p75": 226000,
+        "n": 5
+    },
+    "lnk international, inc.|pharmaceutical chemist - quality control|mid": {
+        "p25": 63500,
+        "median": 64250,
+        "p75": 65000,
+        "n": 16
+    },
+    "lnw gaming, inc.|advanced software engineer|mid": {
+        "p25": 114947,
+        "median": 117269,
+        "p75": 128164,
+        "n": 8
+    },
+    "lnw gaming, inc.|manager, software engineering|senior": {
+        "p25": 129913,
+        "median": 140400,
+        "p75": 144650,
+        "n": 7
+    },
+    "lnw gaming, inc.|senior advanced software engineer|senior": {
+        "p25": 134849,
+        "median": 136750,
+        "p75": 139050,
+        "n": 9
+    },
+    "locally compact, inc.|data scientist|mid": {
+        "p25": 150000,
+        "median": 151000,
+        "p75": 160000,
+        "n": 5
+    },
+    "logging-in.com, llc|software developer|mid": {
+        "p25": 90500,
+        "median": 98000,
+        "p75": 118000,
+        "n": 7
+    },
+    "logic loops, llc|devops engineer|mid": {
+        "p25": 86601,
+        "median": 91124,
+        "p75": 102029,
+        "n": 6
+    },
+    "logic loops, llc|software developer|mid": {
+        "p25": 105612,
+        "median": 105997,
+        "p75": 109283,
+        "n": 7
+    },
+    "logic loops, llc|software development engineer in test (sdet)|mid": {
+        "p25": 82347,
+        "median": 82368,
+        "p75": 83533,
+        "n": 11
+    },
+    "logic planet, inc.|software developer|mid": {
+        "p25": 98982,
+        "median": 105748,
+        "p75": 108247,
+        "n": 8
+    },
+    "logicroute llc|software developer|mid": {
+        "p25": 86549,
+        "median": 86549,
+        "p75": 86549,
+        "n": 7
+    },
+    "logicroute llc|software engineer|mid": {
+        "p25": 86549,
+        "median": 86549,
+        "p75": 89929,
+        "n": 8
+    },
+    "logisoft technologies, inc.|software developer|mid": {
+        "p25": 101821,
+        "median": 114473,
+        "p75": 123656,
+        "n": 14
+    },
+    "logistic solutions, inc.|software engineer|mid": {
+        "p25": 81120,
+        "median": 97760,
+        "p75": 97760,
+        "n": 5
+    },
+    "loma linda - inland empire consortium for healthcare education|resident physician|entry": {
+        "p25": 80474,
+        "median": 83683,
+        "p75": 83683,
+        "n": 19
+    },
+    "lonestar hospital medicine associates, p.a.|hospitalist physician|mid": {
+        "p25": 232897,
+        "median": 260426,
+        "p75": 287955,
+        "n": 6
+    },
+    "lorhan corporation inc.|java developer|mid": {
+        "p25": 88316,
+        "median": 98300,
+        "p75": 102159,
+        "n": 7
+    },
+    "lorhan corporation inc.|software developer|mid": {
+        "p25": 89746,
+        "median": 105997,
+        "p75": 109212,
+        "n": 7
+    },
+    "lorhan corporation inc.|software engineer|mid": {
+        "p25": 101285,
+        "median": 112923,
+        "p75": 112923,
+        "n": 6
+    },
+    "lorshi systems llc|software developer|mid": {
+        "p25": 104920,
+        "median": 107945,
+        "p75": 109283,
+        "n": 12
+    },
+    "lorvenk technologies llc|java developer|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 118000,
+        "n": 5
+    },
+    "lorvenk technologies llc|software developer|mid": {
+        "p25": 106000,
+        "median": 110000,
+        "p75": 114754,
+        "n": 9
+    },
+    "lorvish technologies inc|software developer|mid": {
+        "p25": 84416,
+        "median": 95295,
+        "p75": 105221,
+        "n": 6
+    },
+    "los angeles unified school district|teacher|mid": {
+        "p25": 68965,
+        "median": 68965,
+        "p75": 69304,
+        "n": 18
+    },
+    "louisiana children's medical center|emergency department rn|mid": {
+        "p25": 68432,
+        "median": 68432,
+        "p75": 68432,
+        "n": 7
+    },
+    "louisiana children's medical center|float pool rn|mid": {
+        "p25": 65416,
+        "median": 68432,
+        "p75": 68432,
+        "n": 7
+    },
+    "louisiana children's medical center|operating room rn|mid": {
+        "p25": 68432,
+        "median": 68432,
+        "p75": 68432,
+        "n": 5
+    },
+    "louisiana state university and a&m college|assistant professor|entry": {
+        "p25": 87550,
+        "median": 101200,
+        "p75": 132000,
+        "n": 33
+    },
+    "louisiana state university and a&m college|instructor|mid": {
+        "p25": 54581,
+        "median": 58410,
+        "p75": 67426,
+        "n": 5
+    },
+    "louisiana state university and a&m college|postdoctoral researcher|mid": {
+        "p25": 55000,
+        "median": 55113,
+        "p75": 59839,
+        "n": 13
+    },
+    "louisiana state university health sciences center new orleans|assistant professor|entry": {
+        "p25": 115000,
+        "median": 130000,
+        "p75": 130000,
+        "n": 6
+    },
+    "louisiana state university health sciences center new orleans|postdoctoral fellow|senior": {
+        "p25": 61844,
+        "median": 64356,
+        "p75": 66492,
+        "n": 5
+    },
+    "lowe's companies, inc.|director, software engineering|senior": {
+        "p25": 154669,
+        "median": 154669,
+        "p75": 155688,
+        "n": 5
+    },
+    "lowe's companies, inc.|lead data engineer|senior": {
+        "p25": 130021,
+        "median": 130021,
+        "p75": 130021,
+        "n": 8
+    },
+    "lowe's companies, inc.|lead software engineer|senior": {
+        "p25": 133536,
+        "median": 134347,
+        "p75": 134347,
+        "n": 81
+    },
+    "lowe's companies, inc.|senior data engineer|senior": {
+        "p25": 129937,
+        "median": 130021,
+        "p75": 130021,
+        "n": 19
+    },
+    "lowe's companies, inc.|senior engineer, information security|senior": {
+        "p25": 103210,
+        "median": 109886,
+        "p75": 118456,
+        "n": 5
+    },
+    "lowe's companies, inc.|senior infrastructure engineer|senior": {
+        "p25": 103210,
+        "median": 103210,
+        "p75": 103210,
+        "n": 5
+    },
+    "lowe's companies, inc.|senior manager, software engineering|senior": {
+        "p25": 154669,
+        "median": 155688,
+        "p75": 155688,
+        "n": 33
+    },
+    "lowe's companies, inc.|senior software engineer|senior": {
+        "p25": 133536,
+        "median": 134347,
+        "p75": 134347,
+        "n": 128
+    },
+    "lowe's companies, inc.|software engineer|mid": {
+        "p25": 112424,
+        "median": 112986,
+        "p75": 112986,
+        "n": 68
+    },
+    "loyola marymount university|assistant professor|entry": {
+        "p25": 90780,
+        "median": 94500,
+        "p75": 159636,
+        "n": 12
+    },
+    "loyola university chicago|assistant professor|entry": {
+        "p25": 84808,
+        "median": 88246,
+        "p75": 148750,
+        "n": 12
+    },
+    "lpl financial llc|avp tech, software dev test qe|entry": {
+        "p25": 148024,
+        "median": 151013,
+        "p75": 157852,
+        "n": 6
+    },
+    "lpl financial llc|avp tech, software development|entry": {
+        "p25": 160000,
+        "median": 168920,
+        "p75": 175440,
+        "n": 33
+    },
+    "lpl financial llc|senior engineer, software developer|senior": {
+        "p25": 130388,
+        "median": 134930,
+        "p75": 136552,
+        "n": 9
+    },
+    "lpl financial llc|sr engineer, software dev|senior": {
+        "p25": 127921,
+        "median": 129383,
+        "p75": 135809,
+        "n": 8
+    },
+    "lpl financial llc|vp, software development manager|senior": {
+        "p25": 183339,
+        "median": 186564,
+        "p75": 207017,
+        "n": 6
+    },
+    "ls solutions, inc.|software validation engineer|mid": {
+        "p25": 83750,
+        "median": 93500,
+        "p75": 103000,
+        "n": 20
+    },
+    "ls solutions, inc.|validation engineer|mid": {
+        "p25": 84000,
+        "median": 92000,
+        "p75": 99000,
+        "n": 32
+    },
+    "lsi corporation|r&d engineer firmware|mid": {
+        "p25": 149760,
+        "median": 150530,
+        "p75": 152131,
+        "n": 5
+    },
+    "lsi corporation|r&d engineer ic design|mid": {
+        "p25": 167667,
+        "median": 199637,
+        "p75": 204901,
+        "n": 21
+    },
+    "lsu agricultural center|assistant professor|entry": {
+        "p25": 92650,
+        "median": 95000,
+        "p75": 98562,
+        "n": 11
+    },
+    "lsu agricultural center|research associate specialist|entry": {
+        "p25": 41199,
+        "median": 47135,
+        "p75": 53524,
+        "n": 8
+    },
+    "lsu health sciences center - shreveport|assistant professor|entry": {
+        "p25": 125000,
+        "median": 185000,
+        "p75": 392500,
+        "n": 10
+    },
+    "lsu health sciences center - shreveport|assistant professor - clinical|entry": {
+        "p25": 250000,
+        "median": 282400,
+        "p75": 344040,
+        "n": 17
+    },
+    "lsu health sciences center - shreveport|assistant professor -clinical|entry": {
+        "p25": 216116,
+        "median": 330000,
+        "p75": 361111,
+        "n": 12
+    },
+    "lsu health sciences center - shreveport|instructor - clinical|mid": {
+        "p25": 166000,
+        "median": 166000,
+        "p75": 166000,
+        "n": 6
+    },
+    "ltimindtree limited|associate principal - architecture|senior": {
+        "p25": 106251,
+        "median": 132480,
+        "p75": 165071,
+        "n": 14
+    },
+    "ltimindtree limited|associate principal - data engineering|senior": {
+        "p25": 101109,
+        "median": 149040,
+        "p75": 149040,
+        "n": 5
+    },
+    "ltimindtree limited|associate principal - software engineering|senior": {
+        "p25": 108673,
+        "median": 122820,
+        "p75": 161460,
+        "n": 6
+    },
+    "ltimindtree limited|computer and information systems manager|senior": {
+        "p25": 149812,
+        "median": 166691,
+        "p75": 169915,
+        "n": 7
+    },
+    "ltimindtree limited|computer network architect|senior": {
+        "p25": 109819,
+        "median": 116168,
+        "p75": 128960,
+        "n": 12
+    },
+    "ltimindtree limited|computer network support specialist|mid": {
+        "p25": 70824,
+        "median": 85654,
+        "p75": 91582,
+        "n": 126
+    },
+    "ltimindtree limited|computer network support specialists|mid": {
+        "p25": 64958,
+        "median": 75691,
+        "p75": 85654,
+        "n": 25
+    },
+    "ltimindtree limited|computer programmer|mid": {
+        "p25": 79799,
+        "median": 85530,
+        "p75": 98301,
+        "n": 43
+    },
+    "ltimindtree limited|computer system analyst|mid": {
+        "p25": 97497,
+        "median": 109619,
+        "p75": 122281,
+        "n": 28
+    },
+    "ltimindtree limited|computer systems analyst|mid": {
+        "p25": 96200,
+        "median": 104727,
+        "p75": 115800,
+        "n": 266
+    },
+    "ltimindtree limited|computer systems analysts|mid": {
+        "p25": 92571,
+        "median": 104177,
+        "p75": 115342,
+        "n": 58
+    },
+    "ltimindtree limited|computer systems engineer/architect|senior": {
+        "p25": 90002,
+        "median": 108098,
+        "p75": 115800,
+        "n": 424
+    },
+    "ltimindtree limited|computer systems engineer/architects|mid": {
+        "p25": 83658,
+        "median": 91270,
+        "p75": 98760,
+        "n": 13
+    },
+    "ltimindtree limited|computer systems engineers/architect|senior": {
+        "p25": 108975,
+        "median": 113900,
+        "p75": 117883,
+        "n": 24
+    },
+    "ltimindtree limited|computer systems engineers/architects|mid": {
+        "p25": 86799,
+        "median": 99050,
+        "p75": 115800,
+        "n": 106
+    },
+    "ltimindtree limited|data scientist|mid": {
+        "p25": 103910,
+        "median": 115253,
+        "p75": 119925,
+        "n": 26
+    },
+    "ltimindtree limited|database administrator|mid": {
+        "p25": 87173,
+        "median": 96189,
+        "p75": 121287,
+        "n": 36
+    },
+    "ltimindtree limited|information security analyst|mid": {
+        "p25": 94683,
+        "median": 103200,
+        "p75": 116542,
+        "n": 9
+    },
+    "ltimindtree limited|information technology project manager|senior": {
+        "p25": 90002,
+        "median": 109000,
+        "p75": 122185,
+        "n": 275
+    },
+    "ltimindtree limited|information technology project managers|mid": {
+        "p25": 84947,
+        "median": 105881,
+        "p75": 117950,
+        "n": 54
+    },
+    "ltimindtree limited|management analyst|mid": {
+        "p25": 90573,
+        "median": 103904,
+        "p75": 115212,
+        "n": 52
+    },
+    "ltimindtree limited|management analysts|mid": {
+        "p25": 90241,
+        "median": 94494,
+        "p75": 103709,
+        "n": 15
+    },
+    "ltimindtree limited|network and computer system administrator|mid": {
+        "p25": 86768,
+        "median": 103880,
+        "p75": 107924,
+        "n": 11
+    },
+    "ltimindtree limited|network and computer systems administrator|mid": {
+        "p25": 86933,
+        "median": 106596,
+        "p75": 120843,
+        "n": 76
+    },
+    "ltimindtree limited|network and computer systems administrators|mid": {
+        "p25": 83730,
+        "median": 87776,
+        "p75": 101444,
+        "n": 23
+    },
+    "ltimindtree limited|operations research analyst|mid": {
+        "p25": 67188,
+        "median": 73027,
+        "p75": 79917,
+        "n": 6
+    },
+    "ltimindtree limited|sales engineer|mid": {
+        "p25": 117218,
+        "median": 131872,
+        "p75": 145706,
+        "n": 11
+    },
+    "ltimindtree limited|sales manager|senior": {
+        "p25": 148595,
+        "median": 172629,
+        "p75": 182811,
+        "n": 6
+    },
+    "ltimindtree limited|senior software engineer|senior": {
+        "p25": 103000,
+        "median": 104000,
+        "p75": 104000,
+        "n": 5
+    },
+    "ltimindtree limited|senior specialist - architecture|senior": {
+        "p25": 98857,
+        "median": 121493,
+        "p75": 141250,
+        "n": 16
+    },
+    "ltimindtree limited|senior specialist - business analysis|senior": {
+        "p25": 99247,
+        "median": 125000,
+        "p75": 138950,
+        "n": 7
+    },
+    "ltimindtree limited|senior specialist - data engineering|senior": {
+        "p25": 105903,
+        "median": 120000,
+        "p75": 137500,
+        "n": 15
+    },
+    "ltimindtree limited|senior specialist - package implementation|senior": {
+        "p25": 88483,
+        "median": 105997,
+        "p75": 137000,
+        "n": 17
+    },
+    "ltimindtree limited|senior specialist - program & project management|senior": {
+        "p25": 86413,
+        "median": 95181,
+        "p75": 108315,
+        "n": 6
+    },
+    "ltimindtree limited|senior specialist - quality engineering|senior": {
+        "p25": 78166,
+        "median": 78166,
+        "p75": 85051,
+        "n": 21
+    },
+    "ltimindtree limited|senior specialist - software engineering|senior": {
+        "p25": 112424,
+        "median": 129833,
+        "p75": 140000,
+        "n": 26
+    },
+    "ltimindtree limited|senior specialist - system management|senior": {
+        "p25": 95076,
+        "median": 111103,
+        "p75": 122500,
+        "n": 8
+    },
+    "ltimindtree limited|senior specialist \u201c industrial iot|senior": {
+        "p25": 112407,
+        "median": 140000,
+        "p75": 143750,
+        "n": 6
+    },
+    "ltimindtree limited|software developer|mid": {
+        "p25": 103542,
+        "median": 110406,
+        "p75": 125318,
+        "n": 475
+    },
+    "ltimindtree limited|software developers|mid": {
+        "p25": 103293,
+        "median": 109642,
+        "p75": 119708,
+        "n": 58
+    },
+    "ltimindtree limited|software quality assurance analyst and tester|mid": {
+        "p25": 86923,
+        "median": 99736,
+        "p75": 109534,
+        "n": 162
+    },
+    "ltimindtree limited|software quality assurance analysts and tester|mid": {
+        "p25": 83943,
+        "median": 94640,
+        "p75": 100859,
+        "n": 22
+    },
+    "ltimindtree limited|software quality assurance analysts and testers|mid": {
+        "p25": 83647,
+        "median": 99518,
+        "p75": 104100,
+        "n": 42
+    },
+    "ltimindtree limited|specialist - architecture|mid": {
+        "p25": 97583,
+        "median": 105997,
+        "p75": 120000,
+        "n": 11
+    },
+    "ltimindtree limited|specialist - business analysis|mid": {
+        "p25": 89024,
+        "median": 120000,
+        "p75": 130000,
+        "n": 5
+    },
+    "ltimindtree limited|specialist - data engineering|mid": {
+        "p25": 88811,
+        "median": 97646,
+        "p75": 111625,
+        "n": 28
+    },
+    "ltimindtree limited|specialist - quality engineering|mid": {
+        "p25": 78166,
+        "median": 78166,
+        "p75": 88327,
+        "n": 19
+    },
+    "ltimindtree limited|specialist - software engineering|mid": {
+        "p25": 91936,
+        "median": 104498,
+        "p75": 114318,
+        "n": 24
+    },
+    "ltimindtree limited|specialist - system management|mid": {
+        "p25": 100714,
+        "median": 110000,
+        "p75": 115000,
+        "n": 13
+    },
+    "lucent systems inc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "lucid software inc.|senior software engineer i|mid": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 140500,
+        "n": 5
+    },
+    "lucid software inc.|software engineer ii|mid": {
+        "p25": 111300,
+        "median": 115750,
+        "p75": 123950,
+        "n": 8
+    },
+    "lucid technologies inc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 5
+    },
+    "lucid usa, inc.|software engineer|mid": {
+        "p25": 130250,
+        "median": 142933,
+        "p75": 149302,
+        "n": 7
+    },
+    "lucid usa, inc.|sr. engineer, exterior trim|senior": {
+        "p25": 130374,
+        "median": 142854,
+        "p75": 142854,
+        "n": 5
+    },
+    "lucid usa, inc.|sr. global supply manager|senior": {
+        "p25": 121798,
+        "median": 125840,
+        "p75": 132146,
+        "n": 10
+    },
+    "lucid usa, inc.|sr. manufacturing engineer|senior": {
+        "p25": 123198,
+        "median": 125840,
+        "p75": 125840,
+        "n": 10
+    },
+    "lucid usa, inc.|sr. technical program manager|senior": {
+        "p25": 144144,
+        "median": 144144,
+        "p75": 149145,
+        "n": 5
+    },
+    "lululemon usa inc.|engineer ii|mid": {
+        "p25": 143775,
+        "median": 147441,
+        "p75": 157536,
+        "n": 7
+    },
+    "lululemon usa inc.|senior engineer i|mid": {
+        "p25": 163862,
+        "median": 164000,
+        "p75": 174500,
+        "n": 5
+    },
+    "lululemon usa inc.|senior engineer ii|senior": {
+        "p25": 180229,
+        "median": 185000,
+        "p75": 189017,
+        "n": 15
+    },
+    "lumen it services llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 89195,
+        "n": 6
+    },
+    "lumera inc|software developer|mid": {
+        "p25": 90500,
+        "median": 91645,
+        "p75": 112986,
+        "n": 13
+    },
+    "lumi minds inc|software developer|mid": {
+        "p25": 88000,
+        "median": 88000,
+        "p75": 88000,
+        "n": 5
+    },
+    "luminova infotech llc|software engineer|mid": {
+        "p25": 84094,
+        "median": 85384,
+        "p75": 90896,
+        "n": 7
+    },
+    "luxoft usa, inc.|java developer|mid": {
+        "p25": 117500,
+        "median": 120000,
+        "p75": 125000,
+        "n": 7
+    },
+    "luxoft usa, inc.|software developer|mid": {
+        "p25": 114661,
+        "median": 127822,
+        "p75": 135000,
+        "n": 10
+    },
+    "lxr infotech inc|software developer|mid": {
+        "p25": 103210,
+        "median": 103210,
+        "p75": 103210,
+        "n": 5
+    },
+    "lycee francais de chicago|primary school teacher|mid": {
+        "p25": 68919,
+        "median": 68919,
+        "p75": 68919,
+        "n": 6
+    },
+    "lyft, inc.|business systems engineer|mid": {
+        "p25": 138000,
+        "median": 138000,
+        "p75": 138000,
+        "n": 7
+    },
+    "lyft, inc.|data scientist|mid": {
+        "p25": 128000,
+        "median": 128199,
+        "p75": 148000,
+        "n": 28
+    },
+    "lyft, inc.|engineering manager|senior": {
+        "p25": 161000,
+        "median": 180000,
+        "p75": 191750,
+        "n": 7
+    },
+    "lyft, inc.|product manager|senior": {
+        "p25": 164000,
+        "median": 176000,
+        "p75": 178000,
+        "n": 7
+    },
+    "lyft, inc.|software engineer|mid": {
+        "p25": 131000,
+        "median": 148000,
+        "p75": 176000,
+        "n": 52
+    },
+    "lynxtech group llc|cloud data analyst|mid": {
+        "p25": 96772,
+        "median": 120245,
+        "p75": 135033,
+        "n": 7
+    }
+}

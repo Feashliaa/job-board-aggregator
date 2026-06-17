@@ -1,0 +1,3320 @@
+{
+    "u people technologies llc|software programmer|mid": {
+        "p25": 75166,
+        "median": 81140,
+        "p75": 84281,
+        "n": 8
+    },
+    "u.s. bank national association|application systems administrator|mid": {
+        "p25": 107629,
+        "median": 117156,
+        "p75": 125605,
+        "n": 6
+    },
+    "u.s. bank national association|automation engineer|mid": {
+        "p25": 115463,
+        "median": 119288,
+        "p75": 122741,
+        "n": 15
+    },
+    "u.s. bank national association|data analytics|mid": {
+        "p25": 109377,
+        "median": 122638,
+        "p75": 130762,
+        "n": 19
+    },
+    "u.s. bank national association|data scientist|mid": {
+        "p25": 122711,
+        "median": 136179,
+        "p75": 142143,
+        "n": 6
+    },
+    "u.s. bank national association|digital product manager|senior": {
+        "p25": 122938,
+        "median": 125642,
+        "p75": 133371,
+        "n": 10
+    },
+    "u.s. bank national association|lead software engineer|senior": {
+        "p25": 141898,
+        "median": 149781,
+        "p75": 156000,
+        "n": 65
+    },
+    "u.s. bank national association|principal engineer|senior": {
+        "p25": 149781,
+        "median": 149781,
+        "p75": 150911,
+        "n": 10
+    },
+    "u.s. bank national association|product manager|senior": {
+        "p25": 126879,
+        "median": 138508,
+        "p75": 145879,
+        "n": 8
+    },
+    "u.s. bank national association|quantitative model analyst|mid": {
+        "p25": 105269,
+        "median": 118759,
+        "p75": 139082,
+        "n": 20
+    },
+    "u.s. bank national association|reliability engineer|mid": {
+        "p25": 116294,
+        "median": 127878,
+        "p75": 134830,
+        "n": 16
+    },
+    "u.s. bank national association|senior application architect|senior": {
+        "p25": 131223,
+        "median": 141277,
+        "p75": 154712,
+        "n": 6
+    },
+    "u.s. bank national association|senior software engineer|senior": {
+        "p25": 127065,
+        "median": 132318,
+        "p75": 148447,
+        "n": 275
+    },
+    "u.s. bank national association|software engineer|mid": {
+        "p25": 108113,
+        "median": 121446,
+        "p75": 127878,
+        "n": 263
+    },
+    "u.s. bank national association|software engineering manager|senior": {
+        "p25": 133110,
+        "median": 144689,
+        "p75": 154376,
+        "n": 26
+    },
+    "u.s. bank national association|sr. software engineer|senior": {
+        "p25": 129042,
+        "median": 140761,
+        "p75": 152131,
+        "n": 13
+    },
+    "u.s. bank national association|technical product manager|senior": {
+        "p25": 126185,
+        "median": 141149,
+        "p75": 147297,
+        "n": 5
+    },
+    "u.s. hi-tech solutions, inc.|computer systems analyst|mid": {
+        "p25": 79320,
+        "median": 90060,
+        "p75": 100800,
+        "n": 8
+    },
+    "u.s. hi-tech solutions, inc.|software developer|mid": {
+        "p25": 84120,
+        "median": 84120,
+        "p75": 106020,
+        "n": 11
+    },
+    "u.s. law shield, llc|project manager|senior": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 113000,
+        "n": 5
+    },
+    "uber freight us llc|software engineer iii|senior": {
+        "p25": 147996,
+        "median": 166409,
+        "p75": 185832,
+        "n": 6
+    },
+    "uber freight us llc|sr. software engineer|senior": {
+        "p25": 182340,
+        "median": 182709,
+        "p75": 195589,
+        "n": 13
+    },
+    "uber technologies, inc.|applied scientist|mid": {
+        "p25": 143000,
+        "median": 163500,
+        "p75": 173350,
+        "n": 6
+    },
+    "uber technologies, inc.|data analyst, tech|entry": {
+        "p25": 152300,
+        "median": 152500,
+        "p75": 156000,
+        "n": 5
+    },
+    "uber technologies, inc.|data scientist, tech|entry": {
+        "p25": 144800,
+        "median": 145250,
+        "p75": 155850,
+        "n": 11
+    },
+    "uber technologies, inc.|machine learning engineer|mid": {
+        "p25": 184875,
+        "median": 191800,
+        "p75": 197525,
+        "n": 6
+    },
+    "uber technologies, inc.|manager, central operations|senior": {
+        "p25": 157375,
+        "median": 160100,
+        "p75": 160200,
+        "n": 10
+    },
+    "uber technologies, inc.|manager, engineering|senior": {
+        "p25": 243275,
+        "median": 254400,
+        "p75": 264075,
+        "n": 18
+    },
+    "uber technologies, inc.|product manager|senior": {
+        "p25": 170000,
+        "median": 176000,
+        "p75": 184900,
+        "n": 15
+    },
+    "uber technologies, inc.|regional operations manager|senior": {
+        "p25": 116500,
+        "median": 118950,
+        "p75": 130825,
+        "n": 14
+    },
+    "uber technologies, inc.|scientist, tech|entry": {
+        "p25": 157200,
+        "median": 165000,
+        "p75": 170400,
+        "n": 27
+    },
+    "uber technologies, inc.|senior product manager|senior": {
+        "p25": 208875,
+        "median": 213600,
+        "p75": 221775,
+        "n": 6
+    },
+    "uber technologies, inc.|senior software engineer|senior": {
+        "p25": 217600,
+        "median": 235500,
+        "p75": 235500,
+        "n": 39
+    },
+    "uber technologies, inc.|software engineer|mid": {
+        "p25": 168350,
+        "median": 179100,
+        "p75": 188000,
+        "n": 199
+    },
+    "uber technologies, inc.|sr applications developer|senior": {
+        "p25": 190175,
+        "median": 201550,
+        "p75": 204500,
+        "n": 10
+    },
+    "uber technologies, inc.|sr manager, engineering|senior": {
+        "p25": 274200,
+        "median": 283200,
+        "p75": 294900,
+        "n": 9
+    },
+    "uber technologies, inc.|sr scientist, tech|mid": {
+        "p25": 185300,
+        "median": 189850,
+        "p75": 194850,
+        "n": 14
+    },
+    "uber technologies, inc.|sr software engineer|senior": {
+        "p25": 203800,
+        "median": 207750,
+        "p75": 220000,
+        "n": 170
+    },
+    "uber technologies, inc.|sr staff engineer|senior": {
+        "p25": 274200,
+        "median": 285200,
+        "p75": 296900,
+        "n": 9
+    },
+    "uber technologies, inc.|sr strategy & planning associate|mid": {
+        "p25": 141150,
+        "median": 143600,
+        "p75": 145000,
+        "n": 5
+    },
+    "uber technologies, inc.|sr technical program manager|senior": {
+        "p25": 215900,
+        "median": 215900,
+        "p75": 215900,
+        "n": 5
+    },
+    "uber technologies, inc.|sr. software engineer|senior": {
+        "p25": 220100,
+        "median": 220100,
+        "p75": 235500,
+        "n": 9
+    },
+    "uber technologies, inc.|staff scientist, tech|senior": {
+        "p25": 219400,
+        "median": 229800,
+        "p75": 236500,
+        "n": 5
+    },
+    "uber technologies, inc.|staff software engineer|senior": {
+        "p25": 238875,
+        "median": 248900,
+        "p75": 259100,
+        "n": 62
+    },
+    "uber technologies, inc.|staff software engineer, tlm|senior": {
+        "p25": 247550,
+        "median": 249300,
+        "p75": 253650,
+        "n": 7
+    },
+    "uber technologies, inc.|strategic operations manager|senior": {
+        "p25": 112275,
+        "median": 117100,
+        "p75": 120187,
+        "n": 8
+    },
+    "ubs business solutions us llc|associate director, engineer|senior": {
+        "p25": 144525,
+        "median": 150000,
+        "p75": 156250,
+        "n": 12
+    },
+    "ubs business solutions us llc|associate director, infrastructure engineer|senior": {
+        "p25": 140000,
+        "median": 141000,
+        "p75": 144500,
+        "n": 5
+    },
+    "ubs business solutions us llc|associate director, software engineer|senior": {
+        "p25": 137400,
+        "median": 145000,
+        "p75": 157100,
+        "n": 35
+    },
+    "ubs business solutions us llc|associate director, tech engineer|senior": {
+        "p25": 130650,
+        "median": 135300,
+        "p75": 155500,
+        "n": 11
+    },
+    "ubs business solutions us llc|associate director, tech support analyst|senior": {
+        "p25": 121500,
+        "median": 127750,
+        "p75": 138000,
+        "n": 8
+    },
+    "ubs business solutions us llc|associate director, tech support specialist|senior": {
+        "p25": 125000,
+        "median": 132000,
+        "p75": 135750,
+        "n": 15
+    },
+    "ubs business solutions us llc|authorized officer, software engineer|mid": {
+        "p25": 120000,
+        "median": 120000,
+        "p75": 121200,
+        "n": 5
+    },
+    "ubs business solutions us llc|authorized officer, tech support analyst|entry": {
+        "p25": 109000,
+        "median": 112000,
+        "p75": 115000,
+        "n": 13
+    },
+    "ubs business solutions us llc|director, software engineer|senior": {
+        "p25": 161500,
+        "median": 175000,
+        "p75": 179500,
+        "n": 6
+    },
+    "ubs business solutions us llc|director, tech delivery manager|senior": {
+        "p25": 151300,
+        "median": 161000,
+        "p75": 174500,
+        "n": 5
+    },
+    "ubs securities llc|associate director, investment banking associate|senior": {
+        "p25": 175000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 5
+    },
+    "ubs securities llc|associate director, quantitative analyst|senior": {
+        "p25": 160000,
+        "median": 160000,
+        "p75": 170000,
+        "n": 7
+    },
+    "uchicago argonne llc|nuclear engineer|mid": {
+        "p25": 90063,
+        "median": 90063,
+        "p75": 90063,
+        "n": 6
+    },
+    "uchicago argonne llc|postdoctoral appointee|mid": {
+        "p25": 69564,
+        "median": 70758,
+        "p75": 70758,
+        "n": 19
+    },
+    "uchicago argonne, llc|energy systems analyst|mid": {
+        "p25": 91254,
+        "median": 102374,
+        "p75": 109922,
+        "n": 6
+    },
+    "uchicago argonne, llc|postdoctoral appointee|mid": {
+        "p25": 70758,
+        "median": 70758,
+        "p75": 70758,
+        "n": 18
+    },
+    "ucovy connects inc|software developer|mid": {
+        "p25": 92144,
+        "median": 97386,
+        "p75": 104280,
+        "n": 6
+    },
+    "ucovy connects inc|software developer in test|mid": {
+        "p25": 90397,
+        "median": 97386,
+        "p75": 97386,
+        "n": 5
+    },
+    "ucsf medical center|clinical laboratory scientist|mid": {
+        "p25": 141939,
+        "median": 141939,
+        "p75": 148387,
+        "n": 7
+    },
+    "ues professional solutions, llc|staff engineer|senior": {
+        "p25": 60000,
+        "median": 65000,
+        "p75": 65270,
+        "n": 5
+    },
+    "uintah basin healthcare|medical technologist|mid": {
+        "p25": 67891,
+        "median": 69004,
+        "p75": 72066,
+        "n": 6
+    },
+    "uipath, inc.|senior software engineer|senior": {
+        "p25": 181896,
+        "median": 215036,
+        "p75": 222000,
+        "n": 5
+    },
+    "uipath, inc.|software engineer|mid": {
+        "p25": 149818,
+        "median": 155300,
+        "p75": 167269,
+        "n": 6
+    },
+    "ukg inc.|lead software engineer|senior": {
+        "p25": 139886,
+        "median": 151815,
+        "p75": 154214,
+        "n": 8
+    },
+    "ukg inc.|principal software engineer|senior": {
+        "p25": 155992,
+        "median": 175754,
+        "p75": 177803,
+        "n": 6
+    },
+    "ukiah unified school district|special education teacher|mid": {
+        "p25": 65367,
+        "median": 80359,
+        "p75": 88715,
+        "n": 6
+    },
+    "uline, inc.|sr. software developer|senior": {
+        "p25": 132125,
+        "median": 135000,
+        "p75": 136250,
+        "n": 11
+    },
+    "ultimate care inc.|rn case manager|senior": {
+        "p25": 76793,
+        "median": 81328,
+        "p75": 81328,
+        "n": 8
+    },
+    "ultimus solutions inc|software engineer|mid": {
+        "p25": 64709,
+        "median": 65208,
+        "p75": 82867,
+        "n": 13
+    },
+    "umass memorial medical group, inc.|radiologist|mid": {
+        "p25": 399988,
+        "median": 400000,
+        "p75": 400000,
+        "n": 6
+    },
+    "underwriters laboratories inc.|research scientist iii|senior": {
+        "p25": 114000,
+        "median": 115000,
+        "p75": 119542,
+        "n": 5
+    },
+    "unibyte systems llc|senior software associate|mid": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 27
+    },
+    "unicon pharma inc|cqv engineer|mid": {
+        "p25": 88462,
+        "median": 88462,
+        "p75": 91770,
+        "n": 5
+    },
+    "unicon pharma inc|validation engineer|mid": {
+        "p25": 88826,
+        "median": 92810,
+        "p75": 96813,
+        "n": 18
+    },
+    "unicon sciences inc|validation engineer|mid": {
+        "p25": 90750,
+        "median": 91717,
+        "p75": 97635,
+        "n": 8
+    },
+    "unicorn technologies,llc|java developer|mid": {
+        "p25": 105250,
+        "median": 112950,
+        "p75": 113000,
+        "n": 5
+    },
+    "unicorn technologies,llc|software developer|mid": {
+        "p25": 105232,
+        "median": 105250,
+        "p75": 105250,
+        "n": 6
+    },
+    "unified school district 457|public school teacher|mid": {
+        "p25": 47000,
+        "median": 47000,
+        "p75": 47000,
+        "n": 30
+    },
+    "unified school district 480, liberal|elementary school teacher|mid": {
+        "p25": 53357,
+        "median": 56494,
+        "p75": 59631,
+        "n": 8
+    },
+    "unified school district 480, liberal|special education teacher|mid": {
+        "p25": 55166,
+        "median": 55413,
+        "p75": 57774,
+        "n": 6
+    },
+    "unify solutions inc|software developer|mid": {
+        "p25": 90251,
+        "median": 98000,
+        "p75": 106000,
+        "n": 13
+    },
+    "unigo, inc|software engineer|mid": {
+        "p25": 80600,
+        "median": 90480,
+        "p75": 98920,
+        "n": 6
+    },
+    "unikon it inc|qa analyst|mid": {
+        "p25": 82368,
+        "median": 82368,
+        "p75": 83470,
+        "n": 5
+    },
+    "unikon it inc|software developer|mid": {
+        "p25": 103210,
+        "median": 105997,
+        "p75": 109200,
+        "n": 25
+    },
+    "unikpros inc|software developer|mid": {
+        "p25": 68598,
+        "median": 68598,
+        "p75": 68598,
+        "n": 5
+    },
+    "unikpros inc|software engineer|mid": {
+        "p25": 85363,
+        "median": 87880,
+        "p75": 90397,
+        "n": 6
+    },
+    "union pacific railroad company|associate systems engineer|entry": {
+        "p25": 125847,
+        "median": 127553,
+        "p75": 132177,
+        "n": 12
+    },
+    "union pacific railroad company|systems engineer|mid": {
+        "p25": 138591,
+        "median": 140604,
+        "p75": 141500,
+        "n": 9
+    },
+    "uniplus consultants, inc.|software developer|mid": {
+        "p25": 122699,
+        "median": 122699,
+        "p75": 122699,
+        "n": 7
+    },
+    "uniquelogicsolutions inc.|software developer|mid": {
+        "p25": 80413,
+        "median": 80413,
+        "p75": 87651,
+        "n": 17
+    },
+    "unisoft solutions llc|senior software developer|senior": {
+        "p25": 105997,
+        "median": 107037,
+        "p75": 107037,
+        "n": 5
+    },
+    "unisoft solutions llc|software developer|mid": {
+        "p25": 98732,
+        "median": 107890,
+        "p75": 111722,
+        "n": 6
+    },
+    "united cerebral palsy associations of nys, inc.|rehabilitation counselor|mid": {
+        "p25": 38334,
+        "median": 38740,
+        "p75": 40284,
+        "n": 6
+    },
+    "united consulting group ltd.|civil engineer|mid": {
+        "p25": 76502,
+        "median": 76502,
+        "p75": 92040,
+        "n": 5
+    },
+    "united global professional services inc|software developer|mid": {
+        "p25": 107411,
+        "median": 107890,
+        "p75": 110000,
+        "n": 5
+    },
+    "united health centers of the san joaquin valley|dentist|mid": {
+        "p25": 180000,
+        "median": 185000,
+        "p75": 190000,
+        "n": 15
+    },
+    "united health services hospitals, inc.|physician|mid": {
+        "p25": 70995,
+        "median": 74204,
+        "p75": 91530,
+        "n": 10
+    },
+    "united healthcare services, inc.|senior data analyst|senior": {
+        "p25": 96909,
+        "median": 101150,
+        "p75": 110739,
+        "n": 13
+    },
+    "united it solutions, inc|software developer|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 110750,
+        "n": 16
+    },
+    "united parcel service general services co.|lead software development engineer|senior": {
+        "p25": 155000,
+        "median": 165000,
+        "p75": 165300,
+        "n": 7
+    },
+    "united parcel service general services co.|senior software development engineer|senior": {
+        "p25": 136250,
+        "median": 140100,
+        "p75": 144000,
+        "n": 26
+    },
+    "united parcel service general services, co.|senior software development engineer|senior": {
+        "p25": 125068,
+        "median": 133903,
+        "p75": 140070,
+        "n": 19
+    },
+    "united pharma technologies, inc.|validation engineer|mid": {
+        "p25": 94733,
+        "median": 103074,
+        "p75": 114400,
+        "n": 16
+    },
+    "united services automobile association|data engineer i|entry": {
+        "p25": 128234,
+        "median": 130343,
+        "p75": 133934,
+        "n": 35
+    },
+    "united services automobile association|data engineer lead|senior": {
+        "p25": 162552,
+        "median": 179225,
+        "p75": 187567,
+        "n": 5
+    },
+    "united services automobile association|data engineer senior|senior": {
+        "p25": 147500,
+        "median": 153587,
+        "p75": 158871,
+        "n": 21
+    },
+    "united services automobile association|infrastructure engineer i|entry": {
+        "p25": 125000,
+        "median": 126557,
+        "p75": 130896,
+        "n": 8
+    },
+    "united services automobile association|software engineer i|entry": {
+        "p25": 124042,
+        "median": 129621,
+        "p75": 137000,
+        "n": 75
+    },
+    "united services automobile association|software engineer ii|mid": {
+        "p25": 100738,
+        "median": 102721,
+        "p75": 111192,
+        "n": 10
+    },
+    "united services automobile association|software engineer lead|senior": {
+        "p25": 164955,
+        "median": 171814,
+        "p75": 185787,
+        "n": 12
+    },
+    "united services automobile association|software engineer senior|senior": {
+        "p25": 148594,
+        "median": 155327,
+        "p75": 163478,
+        "n": 53
+    },
+    "united wholesale mortgage, llc|database developer|mid": {
+        "p25": 102974,
+        "median": 105000,
+        "p75": 105000,
+        "n": 8
+    },
+    "united wholesale mortgage, llc|front end developer|mid": {
+        "p25": 110000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 7
+    },
+    "united wholesale mortgage, llc|qa analyst|mid": {
+        "p25": 89375,
+        "median": 93500,
+        "p75": 97250,
+        "n": 6
+    },
+    "united wholesale mortgage, llc|quality engineer|mid": {
+        "p25": 110000,
+        "median": 115000,
+        "p75": 115000,
+        "n": 9
+    },
+    "united wholesale mortgage, llc|senior quality engineer|senior": {
+        "p25": 127500,
+        "median": 135000,
+        "p75": 135850,
+        "n": 7
+    },
+    "united wholesale mortgage, llc|senior software developer|senior": {
+        "p25": 130000,
+        "median": 135000,
+        "p75": 140000,
+        "n": 29
+    },
+    "united wholesale mortgage, llc|software developer|mid": {
+        "p25": 105000,
+        "median": 110000,
+        "p75": 115000,
+        "n": 35
+    },
+    "unity technologies sf|senior machine learning engineer|senior": {
+        "p25": 217500,
+        "median": 230000,
+        "p75": 230000,
+        "n": 5
+    },
+    "unity technologies sf|senior software engineer|senior": {
+        "p25": 153000,
+        "median": 170000,
+        "p75": 220000,
+        "n": 9
+    },
+    "unity technologies sf|software engineer|mid": {
+        "p25": 111000,
+        "median": 112000,
+        "p75": 112000,
+        "n": 5
+    },
+    "uniuni logistics inc.|marketing & operations analyst|mid": {
+        "p25": 53237,
+        "median": 60174,
+        "p75": 60174,
+        "n": 8
+    },
+    "univ of wi system/eau claire|assistant professor|entry": {
+        "p25": 68000,
+        "median": 76450,
+        "p75": 90000,
+        "n": 9
+    },
+    "univ of wi system/la crosse|assistant professor|entry": {
+        "p25": 62000,
+        "median": 67500,
+        "p75": 83500,
+        "n": 11
+    },
+    "univ of wi system/platteville|assistant professor|entry": {
+        "p25": 74750,
+        "median": 78348,
+        "p75": 80897,
+        "n": 12
+    },
+    "univ of wi system/river falls|assistant professor|entry": {
+        "p25": 73250,
+        "median": 80000,
+        "p75": 87500,
+        "n": 6
+    },
+    "univ of wi system/superior|assistant professor|entry": {
+        "p25": 62000,
+        "median": 83500,
+        "p75": 105000,
+        "n": 6
+    },
+    "universal processing, llc|processing analyst|mid": {
+        "p25": 52707,
+        "median": 65000,
+        "p75": 65000,
+        "n": 5
+    },
+    "universal processing, llc|technology implementation specialist|mid": {
+        "p25": 73070,
+        "median": 73070,
+        "p75": 75816,
+        "n": 5
+    },
+    "universal technology systems and associates llc|rf engineer|mid": {
+        "p25": 83000,
+        "median": 83000,
+        "p75": 83750,
+        "n": 6
+    },
+    "universidad politecnica de puerto rico, inc.|associate professor|entry": {
+        "p25": 47870,
+        "median": 47870,
+        "p75": 58560,
+        "n": 5
+    },
+    "universities space research association|scientist, earth sciences|mid": {
+        "p25": 101222,
+        "median": 113568,
+        "p75": 113568,
+        "n": 6
+    },
+    "university at albany, state university of new york|assistant professor|entry": {
+        "p25": 100000,
+        "median": 110000,
+        "p75": 119000,
+        "n": 7
+    },
+    "university community hospital, inc.|medical laboratory scientist ii|mid": {
+        "p25": 71489,
+        "median": 79892,
+        "p75": 84364,
+        "n": 17
+    },
+    "university community hospital, inc.|medical resident|entry": {
+        "p25": 58739,
+        "median": 66716,
+        "p75": 69402,
+        "n": 44
+    },
+    "university corporation for atmospheric research|project scientist i|entry": {
+        "p25": 104250,
+        "median": 105300,
+        "p75": 105900,
+        "n": 6
+    },
+    "university medical center, inc.|medical technologist|mid": {
+        "p25": 72633,
+        "median": 76759,
+        "p75": 79485,
+        "n": 12
+    },
+    "university of alabama health services foundation, pc|assistant professor|entry": {
+        "p25": 181502,
+        "median": 224993,
+        "p75": 284173,
+        "n": 42
+    },
+    "university of alaska|assistant professor|entry": {
+        "p25": 113006,
+        "median": 122002,
+        "p75": 131996,
+        "n": 8
+    },
+    "university of alaska|post doctoral fellow|senior": {
+        "p25": 64168,
+        "median": 66996,
+        "p75": 72113,
+        "n": 13
+    },
+    "university of arkansas for medical sciences|assistant professor|entry": {
+        "p25": 231000,
+        "median": 267569,
+        "p75": 350000,
+        "n": 53
+    },
+    "university of arkansas for medical sciences|assistant staff scientist|senior": {
+        "p25": 60489,
+        "median": 62962,
+        "p75": 66351,
+        "n": 7
+    },
+    "university of arkansas for medical sciences|associate professor|entry": {
+        "p25": 252767,
+        "median": 325534,
+        "p75": 435522,
+        "n": 6
+    },
+    "university of arkansas for medical sciences|fellow physician|senior": {
+        "p25": 67044,
+        "median": 68720,
+        "p75": 73068,
+        "n": 17
+    },
+    "university of arkansas for medical sciences|post doctoral fellow|senior": {
+        "p25": 55164,
+        "median": 58910,
+        "p75": 62232,
+        "n": 8
+    },
+    "university of arkansas for medical sciences|resident physician|entry": {
+        "p25": 61281,
+        "median": 61281,
+        "p75": 61281,
+        "n": 19
+    },
+    "university of arkansas for medical sciences|resident/fellow physician|senior": {
+        "p25": 61281,
+        "median": 61281,
+        "p75": 61281,
+        "n": 11
+    },
+    "university of arkansas system division of agriculture|assistant professor|entry": {
+        "p25": 92447,
+        "median": 93475,
+        "p75": 99181,
+        "n": 8
+    },
+    "university of arkansas system division of agriculture|postdoctoral fellow|senior": {
+        "p25": 49316,
+        "median": 60000,
+        "p75": 62427,
+        "n": 7
+    },
+    "university of arkansas system division of agriculture|program associate|entry": {
+        "p25": 48672,
+        "median": 50066,
+        "p75": 53851,
+        "n": 5
+    },
+    "university of california at santa barbara|assistant professor|entry": {
+        "p25": 112725,
+        "median": 134950,
+        "p75": 176000,
+        "n": 16
+    },
+    "university of california at santa barbara|postdoctoral scholar|mid": {
+        "p25": 71510,
+        "median": 74281,
+        "p75": 77327,
+        "n": 33
+    },
+    "university of california at santa barbara|project scientist|mid": {
+        "p25": 80100,
+        "median": 85500,
+        "p75": 96150,
+        "n": 10
+    },
+    "university of california, agriculture and natural resources|assistant cooperative extension advisor|entry": {
+        "p25": 92400,
+        "median": 96600,
+        "p75": 99950,
+        "n": 11
+    },
+    "university of california, berkeley|applications programmer|mid": {
+        "p25": 136700,
+        "median": 142858,
+        "p75": 151662,
+        "n": 6
+    },
+    "university of california, berkeley|assistant professor|entry": {
+        "p25": 119200,
+        "median": 135650,
+        "p75": 145800,
+        "n": 32
+    },
+    "university of california, berkeley|assistant project scientist|entry": {
+        "p25": 85000,
+        "median": 89000,
+        "p75": 97375,
+        "n": 20
+    },
+    "university of california, berkeley|assistant researcher|entry": {
+        "p25": 96979,
+        "median": 100900,
+        "p75": 102700,
+        "n": 7
+    },
+    "university of california, berkeley|lecturer|mid": {
+        "p25": 79887,
+        "median": 88022,
+        "p75": 109424,
+        "n": 14
+    },
+    "university of california, berkeley|postdoctoral scholar employee|mid": {
+        "p25": 74281,
+        "median": 76899,
+        "p75": 80034,
+        "n": 86
+    },
+    "university of california, berkeley|staff research associate|senior": {
+        "p25": 66538,
+        "median": 72003,
+        "p75": 104328,
+        "n": 5
+    },
+    "university of california, davis|assistant professor|entry": {
+        "p25": 116175,
+        "median": 130150,
+        "p75": 186275,
+        "n": 32
+    },
+    "university of california, davis|assistant project scientist|entry": {
+        "p25": 80800,
+        "median": 84950,
+        "p75": 90892,
+        "n": 34
+    },
+    "university of california, davis|postdoctoral scholar|mid": {
+        "p25": 69209,
+        "median": 71769,
+        "p75": 77179,
+        "n": 53
+    },
+    "university of california, davis|veterinarian|mid": {
+        "p25": 129320,
+        "median": 133750,
+        "p75": 140000,
+        "n": 5
+    },
+    "university of california, irvine|assistant professor|entry": {
+        "p25": 114250,
+        "median": 127000,
+        "p75": 135925,
+        "n": 28
+    },
+    "university of california, irvine|assistant project scientist|entry": {
+        "p25": 78000,
+        "median": 80800,
+        "p75": 85000,
+        "n": 18
+    },
+    "university of california, irvine|associate specialist|entry": {
+        "p25": 75825,
+        "median": 77850,
+        "p75": 79200,
+        "n": 10
+    },
+    "university of california, irvine|health sciences assistant clinical professor|entry": {
+        "p25": 140700,
+        "median": 149700,
+        "p75": 197000,
+        "n": 5
+    },
+    "university of california, irvine|postdoctoral scholar|mid": {
+        "p25": 70884,
+        "median": 74425,
+        "p75": 77030,
+        "n": 23
+    },
+    "university of california, los angeles|applications programmer|mid": {
+        "p25": 136831,
+        "median": 140345,
+        "p75": 151193,
+        "n": 8
+    },
+    "university of california, los angeles|assistant adjunct professor|entry": {
+        "p25": 93500,
+        "median": 112950,
+        "p75": 165475,
+        "n": 6
+    },
+    "university of california, los angeles|assistant professor|entry": {
+        "p25": 130000,
+        "median": 141400,
+        "p75": 148700,
+        "n": 29
+    },
+    "university of california, los angeles|assistant project scientist|entry": {
+        "p25": 78000,
+        "median": 80800,
+        "p75": 82100,
+        "n": 39
+    },
+    "university of california, los angeles|assistant researcher|entry": {
+        "p25": 92250,
+        "median": 98750,
+        "p75": 101800,
+        "n": 6
+    },
+    "university of california, los angeles|associate project scientist|entry": {
+        "p25": 90100,
+        "median": 93300,
+        "p75": 96650,
+        "n": 7
+    },
+    "university of california, los angeles|health sciences assistant clinical professor|entry": {
+        "p25": 200900,
+        "median": 260000,
+        "p75": 277000,
+        "n": 7
+    },
+    "university of california, los angeles|health sciences clinical instructor|mid": {
+        "p25": 97487,
+        "median": 144400,
+        "p75": 265750,
+        "n": 10
+    },
+    "university of california, los angeles|postdoctoral scholar|mid": {
+        "p25": 71769,
+        "median": 74712,
+        "p75": 77580,
+        "n": 52
+    },
+    "university of california, los angeles|staff research associate|senior": {
+        "p25": 62681,
+        "median": 65270,
+        "p75": 76699,
+        "n": 12
+    },
+    "university of california, merced|assistant professor|entry": {
+        "p25": 101100,
+        "median": 127000,
+        "p75": 127000,
+        "n": 5
+    },
+    "university of california, merced|postdoctoral scholar|mid": {
+        "p25": 69849,
+        "median": 71769,
+        "p75": 71769,
+        "n": 10
+    },
+    "university of california, san diego|assistant professor|entry": {
+        "p25": 113850,
+        "median": 143900,
+        "p75": 166700,
+        "n": 11
+    },
+    "university of california, san diego|assistant project scientist|entry": {
+        "p25": 80800,
+        "median": 82100,
+        "p75": 85225,
+        "n": 48
+    },
+    "university of california, san diego|postdoctoral scholar-employee|mid": {
+        "p25": 74281,
+        "median": 75543,
+        "p75": 80000,
+        "n": 57
+    },
+    "university of california, san diego|research data analyst p3|mid": {
+        "p25": 92664,
+        "median": 92664,
+        "p75": 92664,
+        "n": 5
+    },
+    "university of california, san diego|staff research associate 3|senior": {
+        "p25": 77804,
+        "median": 80178,
+        "p75": 84286,
+        "n": 8
+    },
+    "university of california, san diego|staff research associate 4|senior": {
+        "p25": 75992,
+        "median": 79054,
+        "p75": 85558,
+        "n": 5
+    },
+    "university of california, san diego|staff research associate iii|senior": {
+        "p25": 73337,
+        "median": 78975,
+        "p75": 80965,
+        "n": 14
+    },
+    "university of california, san diego|staff research associate iv|senior": {
+        "p25": 82257,
+        "median": 83907,
+        "p75": 88766,
+        "n": 6
+    },
+    "university of california, san francisco|assistant professional researcher|entry": {
+        "p25": 90200,
+        "median": 93400,
+        "p75": 99100,
+        "n": 23
+    },
+    "university of california, san francisco|assistant professor|entry": {
+        "p25": 171250,
+        "median": 186960,
+        "p75": 271666,
+        "n": 10
+    },
+    "university of california, san francisco|assistant researcher|entry": {
+        "p25": 91800,
+        "median": 95700,
+        "p75": 97700,
+        "n": 7
+    },
+    "university of california, san francisco|assistant specialist|entry": {
+        "p25": 64700,
+        "median": 68300,
+        "p75": 68300,
+        "n": 9
+    },
+    "university of california, san francisco|associate specialist|entry": {
+        "p25": 76500,
+        "median": 80700,
+        "p75": 85000,
+        "n": 50
+    },
+    "university of california, san francisco|full specialist|mid": {
+        "p25": 93200,
+        "median": 93200,
+        "p75": 96050,
+        "n": 7
+    },
+    "university of california, san francisco|health sciences assistant clinical professor|entry": {
+        "p25": 357100,
+        "median": 363000,
+        "p75": 363300,
+        "n": 5
+    },
+    "university of california, san francisco|postdoctoral scholar|mid": {
+        "p25": 74425,
+        "median": 77030,
+        "p75": 80034,
+        "n": 114
+    },
+    "university of california, san francisco|specialist|mid": {
+        "p25": 90000,
+        "median": 93200,
+        "p75": 98900,
+        "n": 41
+    },
+    "university of california, san francisco|visiting assistant professor|entry": {
+        "p25": 357100,
+        "median": 357100,
+        "p75": 359325,
+        "n": 8
+    },
+    "university of california, santa cruz|assistant professor|entry": {
+        "p25": 115500,
+        "median": 130500,
+        "p75": 149300,
+        "n": 9
+    },
+    "university of california, santa cruz|assistant project scientist|entry": {
+        "p25": 85900,
+        "median": 86400,
+        "p75": 93700,
+        "n": 9
+    },
+    "university of california, santa cruz|postdoctoral scholar|mid": {
+        "p25": 73119,
+        "median": 79881,
+        "p75": 81418,
+        "n": 7
+    },
+    "university of central florida|assistant professor|entry": {
+        "p25": 92700,
+        "median": 108000,
+        "p75": 115000,
+        "n": 33
+    },
+    "university of central missouri|assistant professor|entry": {
+        "p25": 64319,
+        "median": 95173,
+        "p75": 96346,
+        "n": 10
+    },
+    "university of chicago|postdoctoral scholar|mid": {
+        "p25": 63417,
+        "median": 65597,
+        "p75": 74375,
+        "n": 26
+    },
+    "university of cincinnati|assistant professor|entry": {
+        "p25": 78987,
+        "median": 103500,
+        "p75": 162612,
+        "n": 24
+    },
+    "university of cincinnati|assistant professor - educator|entry": {
+        "p25": 79500,
+        "median": 82674,
+        "p75": 94214,
+        "n": 5
+    },
+    "university of cincinnati|assistant professor of clinical|entry": {
+        "p25": 94744,
+        "median": 129667,
+        "p75": 129667,
+        "n": 9
+    },
+    "university of cincinnati|postdoctoral fellow|senior": {
+        "p25": 58762,
+        "median": 61000,
+        "p75": 63305,
+        "n": 6
+    },
+    "university of cincinnati|research associate|entry": {
+        "p25": 59869,
+        "median": 67375,
+        "p75": 96106,
+        "n": 11
+    },
+    "university of cincinnati medical center, llc|medical resident|entry": {
+        "p25": 74693,
+        "median": 77688,
+        "p75": 81587,
+        "n": 12
+    },
+    "university of cincinnati physicians, inc.|physician|mid": {
+        "p25": 93069,
+        "median": 129667,
+        "p75": 129667,
+        "n": 15
+    },
+    "university of colorado denver|assistant professor|entry": {
+        "p25": 80267,
+        "median": 172224,
+        "p75": 195520,
+        "n": 37
+    },
+    "university of colorado denver|associate professor|entry": {
+        "p25": 130291,
+        "median": 133690,
+        "p75": 190549,
+        "n": 5
+    },
+    "university of colorado denver|fellow|senior": {
+        "p25": 69722,
+        "median": 69722,
+        "p75": 69722,
+        "n": 6
+    },
+    "university of colorado denver|post doctoral fellow|senior": {
+        "p25": 53539,
+        "median": 60278,
+        "p75": 68869,
+        "n": 12
+    },
+    "university of colorado denver|research associate|entry": {
+        "p25": 60590,
+        "median": 60590,
+        "p75": 68869,
+        "n": 9
+    },
+    "university of colorado denver|research services sr. professional|senior": {
+        "p25": 58057,
+        "median": 60278,
+        "p75": 63455,
+        "n": 8
+    },
+    "university of colorado health|hospitalist|mid": {
+        "p25": 240000,
+        "median": 240000,
+        "p75": 240000,
+        "n": 6
+    },
+    "university of connecticut|assistant professor|entry": {
+        "p25": 104806,
+        "median": 111875,
+        "p75": 124781,
+        "n": 14
+    },
+    "university of connecticut|assistant research professor|entry": {
+        "p25": 66000,
+        "median": 74900,
+        "p75": 80000,
+        "n": 19
+    },
+    "university of connecticut|postdoctoral research associate|entry": {
+        "p25": 61568,
+        "median": 62919,
+        "p75": 65000,
+        "n": 40
+    },
+    "university of connecticut health center|assistant professor|entry": {
+        "p25": 113806,
+        "median": 155000,
+        "p75": 237738,
+        "n": 8
+    },
+    "university of connecticut health center|instructor|mid": {
+        "p25": 68000,
+        "median": 68000,
+        "p75": 68568,
+        "n": 7
+    },
+    "university of connecticut health center|postdoctoral fellow|senior": {
+        "p25": 61008,
+        "median": 61800,
+        "p75": 68964,
+        "n": 13
+    },
+    "university of delaware|assistant professor|entry": {
+        "p25": 94115,
+        "median": 108539,
+        "p75": 128926,
+        "n": 30
+    },
+    "university of detroit mercy|clinical assistant professor|entry": {
+        "p25": 86000,
+        "median": 97000,
+        "p75": 104000,
+        "n": 8
+    },
+    "university of florida|assistant professor|entry": {
+        "p25": 95000,
+        "median": 99318,
+        "p75": 125247,
+        "n": 58
+    },
+    "university of florida|assistant scientist|entry": {
+        "p25": 68504,
+        "median": 74334,
+        "p75": 83132,
+        "n": 16
+    },
+    "university of florida|biological scientist ii|mid": {
+        "p25": 50640,
+        "median": 53090,
+        "p75": 54540,
+        "n": 6
+    },
+    "university of florida|biological scientist iii|senior": {
+        "p25": 62400,
+        "median": 63636,
+        "p75": 70337,
+        "n": 10
+    },
+    "university of florida|clinical assistant professor|entry": {
+        "p25": 210240,
+        "median": 230000,
+        "p75": 312207,
+        "n": 98
+    },
+    "university of florida|clinical associate professor|entry": {
+        "p25": 180000,
+        "median": 328000,
+        "p75": 375000,
+        "n": 9
+    },
+    "university of florida|clinical professor|mid": {
+        "p25": 339854,
+        "median": 449709,
+        "p75": 452209,
+        "n": 7
+    },
+    "university of florida|data management analyst ii|mid": {
+        "p25": 73433,
+        "median": 77250,
+        "p75": 77506,
+        "n": 7
+    },
+    "university of florida|data management analyst iii|senior": {
+        "p25": 83200,
+        "median": 85000,
+        "p75": 89767,
+        "n": 5
+    },
+    "university of florida|lecturer|mid": {
+        "p25": 64500,
+        "median": 73178,
+        "p75": 98613,
+        "n": 12
+    },
+    "university of florida|postdoctoral associate|entry": {
+        "p25": 61006,
+        "median": 62232,
+        "p75": 66492,
+        "n": 20
+    },
+    "university of florida|research assistant professor|entry": {
+        "p25": 75000,
+        "median": 82500,
+        "p75": 90000,
+        "n": 6
+    },
+    "university of florida|research assistant scientist|entry": {
+        "p25": 77958,
+        "median": 95404,
+        "p75": 100035,
+        "n": 8
+    },
+    "university of florida|resident|entry": {
+        "p25": 66137,
+        "median": 74765,
+        "p75": 76340,
+        "n": 7
+    },
+    "university of georgia|assistant professor|entry": {
+        "p25": 98000,
+        "median": 102665,
+        "p75": 120000,
+        "n": 17
+    },
+    "university of georgia|lecturer|mid": {
+        "p25": 103000,
+        "median": 105000,
+        "p75": 105000,
+        "n": 5
+    },
+    "university of georgia|post doctoral research associate|entry": {
+        "p25": 57000,
+        "median": 66406,
+        "p75": 71225,
+        "n": 13
+    },
+    "university of georgia|postdoctoral research associate|entry": {
+        "p25": 59280,
+        "median": 63000,
+        "p75": 68000,
+        "n": 13
+    },
+    "university of georgia; oge|assistant professor|entry": {
+        "p25": 90000,
+        "median": 96500,
+        "p75": 108750,
+        "n": 26
+    },
+    "university of georgia; oge|lecturer|mid": {
+        "p25": 59280,
+        "median": 65000,
+        "p75": 79000,
+        "n": 10
+    },
+    "university of georgia; oge|postdoctoral research associate|entry": {
+        "p25": 60000,
+        "median": 66240,
+        "p75": 69680,
+        "n": 10
+    },
+    "university of georgia; oge|senior research associate|mid": {
+        "p25": 62781,
+        "median": 71440,
+        "p75": 74880,
+        "n": 6
+    },
+    "university of hawaii|assistant professor|entry": {
+        "p25": 94000,
+        "median": 104784,
+        "p75": 127008,
+        "n": 33
+    },
+    "university of houston|assistant professor|entry": {
+        "p25": 93975,
+        "median": 107025,
+        "p75": 121625,
+        "n": 42
+    },
+    "university of houston|postdoctoral fellow|senior": {
+        "p25": 53750,
+        "median": 58042,
+        "p75": 63208,
+        "n": 24
+    },
+    "university of houston|research assistant professor|entry": {
+        "p25": 69857,
+        "median": 72035,
+        "p75": 78750,
+        "n": 8
+    },
+    "university of houston system|assistant professor|entry": {
+        "p25": 67000,
+        "median": 85000,
+        "p75": 99999,
+        "n": 13
+    },
+    "university of idaho|assistant professor|entry": {
+        "p25": 79721,
+        "median": 88750,
+        "p75": 94988,
+        "n": 12
+    },
+    "university of illinois|assistant professor|entry": {
+        "p25": 89917,
+        "median": 119230,
+        "p75": 143208,
+        "n": 54
+    },
+    "university of illinois|clinical assistant professor|entry": {
+        "p25": 102399,
+        "median": 132500,
+        "p75": 145000,
+        "n": 6
+    },
+    "university of illinois|postdoctoral research associate|entry": {
+        "p25": 54045,
+        "median": 59586,
+        "p75": 64420,
+        "n": 36
+    },
+    "university of illinois|research scientist|mid": {
+        "p25": 71136,
+        "median": 75000,
+        "p75": 85987,
+        "n": 9
+    },
+    "university of illinois|research software engineer|mid": {
+        "p25": 86717,
+        "median": 87662,
+        "p75": 93350,
+        "n": 5
+    },
+    "university of illinois|teaching assistant professor|entry": {
+        "p25": 88780,
+        "median": 102500,
+        "p75": 121750,
+        "n": 12
+    },
+    "university of illinois chicago|assistant professor|entry": {
+        "p25": 100000,
+        "median": 117500,
+        "p75": 140710,
+        "n": 20
+    },
+    "university of illinois chicago|postdoctoral research associate|entry": {
+        "p25": 61200,
+        "median": 63960,
+        "p75": 65000,
+        "n": 13
+    },
+    "university of illinois chicago|research assistant professor|entry": {
+        "p25": 65000,
+        "median": 72828,
+        "p75": 92000,
+        "n": 9
+    },
+    "university of illinois chicago|research specialist|mid": {
+        "p25": 59772,
+        "median": 65000,
+        "p75": 72665,
+        "n": 15
+    },
+    "university of illinois chicago|visiting research assistant professor|entry": {
+        "p25": 63960,
+        "median": 73333,
+        "p75": 77000,
+        "n": 13
+    },
+    "university of illinois chicago|visiting research specialist|mid": {
+        "p25": 59731,
+        "median": 62101,
+        "p75": 63739,
+        "n": 8
+    },
+    "university of iowa|clinical assistant professor|entry": {
+        "p25": 300000,
+        "median": 359264,
+        "p75": 370042,
+        "n": 5
+    },
+    "university of kentucky|assistant professor|entry": {
+        "p25": 89000,
+        "median": 98273,
+        "p75": 175000,
+        "n": 41
+    },
+    "university of kentucky|assistant professor of neurology|entry": {
+        "p25": 250000,
+        "median": 250000,
+        "p75": 250000,
+        "n": 6
+    },
+    "university of kentucky|postdoctoral scholar|mid": {
+        "p25": 58660,
+        "median": 61218,
+        "p75": 62629,
+        "n": 14
+    },
+    "university of kentucky|scientist i.|entry": {
+        "p25": 55099,
+        "median": 55245,
+        "p75": 56599,
+        "n": 10
+    },
+    "university of kentucky|scientist ii.|mid": {
+        "p25": 66502,
+        "median": 68220,
+        "p75": 70065,
+        "n": 8
+    },
+    "university of louisiana at lafayette|assistant professor|entry": {
+        "p25": 73375,
+        "median": 86750,
+        "p75": 92250,
+        "n": 6
+    },
+    "university of louisville|assistant professor|entry": {
+        "p25": 105888,
+        "median": 124470,
+        "p75": 247977,
+        "n": 39
+    },
+    "university of louisville|research scientist|mid": {
+        "p25": 62000,
+        "median": 63284,
+        "p75": 65000,
+        "n": 8
+    },
+    "university of louisville physicians, inc.|physician|mid": {
+        "p25": 171621,
+        "median": 239200,
+        "p75": 239200,
+        "n": 21
+    },
+    "university of maryland baltimore|assistant professor|entry": {
+        "p25": 118400,
+        "median": 173776,
+        "p75": 227500,
+        "n": 16
+    },
+    "university of maryland baltimore|clinical assistant professor|entry": {
+        "p25": 136615,
+        "median": 149207,
+        "p75": 167377,
+        "n": 6
+    },
+    "university of maryland baltimore|postdoctoral fellow|senior": {
+        "p25": 63003,
+        "median": 66360,
+        "p75": 71536,
+        "n": 32
+    },
+    "university of maryland baltimore|research associate|entry": {
+        "p25": 72330,
+        "median": 78000,
+        "p75": 80422,
+        "n": 18
+    },
+    "university of maryland college park|assistant professor|entry": {
+        "p25": 99288,
+        "median": 112676,
+        "p75": 173816,
+        "n": 16
+    },
+    "university of maryland college park|assistant research professor|entry": {
+        "p25": 84966,
+        "median": 94961,
+        "p75": 115276,
+        "n": 7
+    },
+    "university of maryland college park|assistant research scientist|entry": {
+        "p25": 79227,
+        "median": 100000,
+        "p75": 107336,
+        "n": 13
+    },
+    "university of maryland college park|faculty specialist|mid": {
+        "p25": 69265,
+        "median": 78686,
+        "p75": 109014,
+        "n": 8
+    },
+    "university of maryland college park|post-doctoral associate|entry": {
+        "p25": 61965,
+        "median": 68508,
+        "p75": 78630,
+        "n": 32
+    },
+    "university of maryland college park|visiting assistant research scientist|entry": {
+        "p25": 84572,
+        "median": 102000,
+        "p75": 110000,
+        "n": 5
+    },
+    "university of maryland, baltimore county|assistant professor|entry": {
+        "p25": 88000,
+        "median": 100000,
+        "p75": 117250,
+        "n": 16
+    },
+    "university of maryland, baltimore county|assistant research scientist|entry": {
+        "p25": 84853,
+        "median": 97819,
+        "p75": 101643,
+        "n": 14
+    },
+    "university of maryland, college park|assistant professor|entry": {
+        "p25": 114457,
+        "median": 115000,
+        "p75": 132000,
+        "n": 11
+    },
+    "university of maryland, college park|assistant research professor|entry": {
+        "p25": 97000,
+        "median": 100229,
+        "p75": 101595,
+        "n": 7
+    },
+    "university of maryland, college park|assistant research scientist|entry": {
+        "p25": 88302,
+        "median": 97888,
+        "p75": 107474,
+        "n": 6
+    },
+    "university of maryland, college park|postdoctoral associate|entry": {
+        "p25": 67000,
+        "median": 78592,
+        "p75": 83340,
+        "n": 13
+    },
+    "university of massachusetts amherst|post doctoral research associate|entry": {
+        "p25": 61845,
+        "median": 65000,
+        "p75": 69071,
+        "n": 10
+    },
+    "university of massachusetts boston|assistant professor|entry": {
+        "p25": 85652,
+        "median": 93000,
+        "p75": 94000,
+        "n": 14
+    },
+    "university of massachusetts chan medical school|instructor|mid": {
+        "p25": 75911,
+        "median": 76000,
+        "p75": 81199,
+        "n": 12
+    },
+    "university of massachusetts chan medical school|post doctoral associate|entry": {
+        "p25": 61770,
+        "median": 65424,
+        "p75": 67110,
+        "n": 12
+    },
+    "university of massachusetts chan medical school|postdoctoral associate|entry": {
+        "p25": 61428,
+        "median": 64356,
+        "p75": 66492,
+        "n": 19
+    },
+    "university of massachusetts chan medical school|research associate iii|mid": {
+        "p25": 49906,
+        "median": 50000,
+        "p75": 63037,
+        "n": 7
+    },
+    "university of massachusetts chan medical school|resident physician|entry": {
+        "p25": 80384,
+        "median": 87112,
+        "p75": 87112,
+        "n": 12
+    },
+    "university of massachusetts chan medical school|senior research scientist|senior": {
+        "p25": 73320,
+        "median": 76810,
+        "p75": 84575,
+        "n": 10
+    },
+    "university of massachusetts lowell|assistant professor|entry": {
+        "p25": 106497,
+        "median": 107460,
+        "p75": 110000,
+        "n": 5
+    },
+    "university of massachusetts lowell|postdoctoral research associate|entry": {
+        "p25": 58500,
+        "median": 58685,
+        "p75": 60467,
+        "n": 6
+    },
+    "university of massachusetts lowell|research scientist|mid": {
+        "p25": 73837,
+        "median": 78976,
+        "p75": 84634,
+        "n": 6
+    },
+    "university of miami|assistant professor|entry": {
+        "p25": 99415,
+        "median": 115627,
+        "p75": 196126,
+        "n": 15
+    },
+    "university of miami|assistant professor of clinical|entry": {
+        "p25": 236549,
+        "median": 265000,
+        "p75": 325000,
+        "n": 31
+    },
+    "university of miami|assistant scientist|entry": {
+        "p25": 72946,
+        "median": 75000,
+        "p75": 81689,
+        "n": 21
+    },
+    "university of miami|associate scientist|entry": {
+        "p25": 87550,
+        "median": 88000,
+        "p75": 90000,
+        "n": 5
+    },
+    "university of miami|post doctoral associate|entry": {
+        "p25": 62913,
+        "median": 65000,
+        "p75": 69482,
+        "n": 27
+    },
+    "university of miami|research associate 1|entry": {
+        "p25": 45822,
+        "median": 54434,
+        "p75": 54995,
+        "n": 5
+    },
+    "university of michigan|assistant professor|entry": {
+        "p25": 98000,
+        "median": 127781,
+        "p75": 136591,
+        "n": 61
+    },
+    "university of michigan|assistant research scientist|entry": {
+        "p25": 84112,
+        "median": 90000,
+        "p75": 98928,
+        "n": 19
+    },
+    "university of michigan|clinical assistant professor|entry": {
+        "p25": 181875,
+        "median": 201285,
+        "p75": 271496,
+        "n": 20
+    },
+    "university of michigan|clinical instructor|mid": {
+        "p25": 96430,
+        "median": 98134,
+        "p75": 104977,
+        "n": 12
+    },
+    "university of michigan|clinical research coordinator intermediate|mid": {
+        "p25": 65944,
+        "median": 68529,
+        "p75": 70652,
+        "n": 6
+    },
+    "university of michigan|leo lecturer i|entry": {
+        "p25": 51001,
+        "median": 56870,
+        "p75": 58825,
+        "n": 16
+    },
+    "university of michigan|leo lecturer iii|senior": {
+        "p25": 74685,
+        "median": 78160,
+        "p75": 96020,
+        "n": 8
+    },
+    "university of michigan|postdoctoral research fellow|senior": {
+        "p25": 61144,
+        "median": 63000,
+        "p75": 65640,
+        "n": 194
+    },
+    "university of michigan|research area specialist associate|entry": {
+        "p25": 48235,
+        "median": 49000,
+        "p75": 55000,
+        "n": 5
+    },
+    "university of michigan|research area specialist intermediate|mid": {
+        "p25": 64501,
+        "median": 65872,
+        "p75": 68625,
+        "n": 8
+    },
+    "university of michigan|research assistant professor|entry": {
+        "p25": 79622,
+        "median": 85201,
+        "p75": 85384,
+        "n": 9
+    },
+    "university of michigan|research investigator|mid": {
+        "p25": 70000,
+        "median": 72197,
+        "p75": 77288,
+        "n": 53
+    },
+    "university of michigan|research lab specialist associate|entry": {
+        "p25": 47003,
+        "median": 49144,
+        "p75": 53320,
+        "n": 14
+    },
+    "university of michigan|research lab specialist intermediate|mid": {
+        "p25": 58693,
+        "median": 61004,
+        "p75": 63725,
+        "n": 22
+    },
+    "university of michigan|research lab specialist senior|senior": {
+        "p25": 68000,
+        "median": 71365,
+        "p75": 73554,
+        "n": 12
+    },
+    "university of michigan|statistician senior|senior": {
+        "p25": 70166,
+        "median": 82009,
+        "p75": 84460,
+        "n": 5
+    },
+    "university of minnesota|assistant professor|entry": {
+        "p25": 81000,
+        "median": 102556,
+        "p75": 125000,
+        "n": 75
+    },
+    "university of minnesota|post doctoral associate|entry": {
+        "p25": 56202,
+        "median": 61008,
+        "p75": 63120,
+        "n": 5
+    },
+    "university of minnesota|post-doctoral associate|entry": {
+        "p25": 56397,
+        "median": 59560,
+        "p75": 61323,
+        "n": 14
+    },
+    "university of minnesota|postdoctoral associate|entry": {
+        "p25": 60252,
+        "median": 61842,
+        "p75": 65000,
+        "n": 38
+    },
+    "university of minnesota|research professional 5|mid": {
+        "p25": 68640,
+        "median": 70000,
+        "p75": 75000,
+        "n": 9
+    },
+    "university of minnesota|researcher 5|mid": {
+        "p25": 61872,
+        "median": 71490,
+        "p75": 79676,
+        "n": 10
+    },
+    "university of mississippi|postdoctoral research associate|entry": {
+        "p25": 53024,
+        "median": 56551,
+        "p75": 60000,
+        "n": 6
+    },
+    "university of mississippi|research scientist|mid": {
+        "p25": 61850,
+        "median": 67275,
+        "p75": 70000,
+        "n": 5
+    },
+    "university of mississippi medical center|assistant professor|entry": {
+        "p25": 120000,
+        "median": 130000,
+        "p75": 233000,
+        "n": 9
+    },
+    "university of mississippi medical center|assistant professor of anesthesiology|entry": {
+        "p25": 373119,
+        "median": 387000,
+        "p75": 388875,
+        "n": 6
+    },
+    "university of mississippi medical center|assistant professor of medicine|entry": {
+        "p25": 251117,
+        "median": 252672,
+        "p75": 350000,
+        "n": 13
+    },
+    "university of mississippi medical center|assistant professor of neurology|entry": {
+        "p25": 260000,
+        "median": 275000,
+        "p75": 297651,
+        "n": 5
+    },
+    "university of mississippi medical center|assistant professor of pediatrics|entry": {
+        "p25": 228041,
+        "median": 249679,
+        "p75": 251961,
+        "n": 8
+    },
+    "university of mississippi medical center|instructor|mid": {
+        "p25": 68964,
+        "median": 74088,
+        "p75": 96100,
+        "n": 11
+    },
+    "university of nebraska medical center|assistant professor|entry": {
+        "p25": 80432,
+        "median": 102500,
+        "p75": 110925,
+        "n": 14
+    },
+    "university of nebraska medical center|epidemiologist|mid": {
+        "p25": 65447,
+        "median": 68691,
+        "p75": 71851,
+        "n": 8
+    },
+    "university of nebraska medical center|house officer 4|mid": {
+        "p25": 72760,
+        "median": 72760,
+        "p75": 72760,
+        "n": 7
+    },
+    "university of nebraska medical center|house officer 5|mid": {
+        "p25": 75307,
+        "median": 75307,
+        "p75": 75307,
+        "n": 7
+    },
+    "university of nebraska medical center|instructor|mid": {
+        "p25": 57651,
+        "median": 60742,
+        "p75": 64628,
+        "n": 15
+    },
+    "university of nebraska medical center|postdoctoral research associate|entry": {
+        "p25": 52881,
+        "median": 55661,
+        "p75": 60252,
+        "n": 12
+    },
+    "university of new mexico|assistant professor|entry": {
+        "p25": 78470,
+        "median": 126247,
+        "p75": 229618,
+        "n": 42
+    },
+    "university of new mexico|research assistant professor|entry": {
+        "p25": 78679,
+        "median": 80000,
+        "p75": 86889,
+        "n": 5
+    },
+    "university of north carolina at chapel hill|assistant professor|entry": {
+        "p25": 95000,
+        "median": 103000,
+        "p75": 133000,
+        "n": 17
+    },
+    "university of north carolina at chapel hill|assistant professor/nominated assistant professor|entry": {
+        "p25": 91000,
+        "median": 110000,
+        "p75": 126250,
+        "n": 10
+    },
+    "university of north carolina at chapel hill|assistant professor/nominated asst. professor|entry": {
+        "p25": 99000,
+        "median": 110000,
+        "p75": 115500,
+        "n": 5
+    },
+    "university of north carolina at chapel hill|clinical assistant professor|entry": {
+        "p25": 153858,
+        "median": 185000,
+        "p75": 220000,
+        "n": 9
+    },
+    "university of north carolina at chapel hill|postdoctoral research associate|entry": {
+        "p25": 65746,
+        "median": 68964,
+        "p75": 74100,
+        "n": 19
+    },
+    "university of north carolina at chapel hill|research assistant professor|entry": {
+        "p25": 66312,
+        "median": 72600,
+        "p75": 112635,
+        "n": 7
+    },
+    "university of north carolina at chapel hill|research associate|entry": {
+        "p25": 64281,
+        "median": 68480,
+        "p75": 74473,
+        "n": 20
+    },
+    "university of north carolina at charlotte|assistant professor|entry": {
+        "p25": 95000,
+        "median": 100000,
+        "p75": 118000,
+        "n": 17
+    },
+    "university of north carolina at charlotte|postdoctoral fellow|senior": {
+        "p25": 60000,
+        "median": 60000,
+        "p75": 61884,
+        "n": 5
+    },
+    "university of north carolina wilmington|assistant professor|entry": {
+        "p25": 69000,
+        "median": 76850,
+        "p75": 97250,
+        "n": 16
+    },
+    "university of north dakota|assistant professor|entry": {
+        "p25": 70000,
+        "median": 73000,
+        "p75": 77000,
+        "n": 9
+    },
+    "university of north florida|assistant professor|entry": {
+        "p25": 76397,
+        "median": 82254,
+        "p75": 105197,
+        "n": 16
+    },
+    "university of north texas|assistant professor|entry": {
+        "p25": 74375,
+        "median": 79587,
+        "p75": 97200,
+        "n": 20
+    },
+    "university of north texas|lecturer|mid": {
+        "p25": 60809,
+        "median": 63430,
+        "p75": 70666,
+        "n": 6
+    },
+    "university of north texas|postdoctoral research associate|entry": {
+        "p25": 53978,
+        "median": 60000,
+        "p75": 62150,
+        "n": 7
+    },
+    "university of notre dame du lac|assistant professor|entry": {
+        "p25": 117012,
+        "median": 127000,
+        "p75": 172000,
+        "n": 23
+    },
+    "university of notre dame du lac|assistant research professor|entry": {
+        "p25": 72862,
+        "median": 72862,
+        "p75": 73861,
+        "n": 5
+    },
+    "university of notre dame du lac|postdoctoral research associate|entry": {
+        "p25": 62076,
+        "median": 62886,
+        "p75": 65010,
+        "n": 6
+    },
+    "university of notre dame du lac|research scientist|mid": {
+        "p25": 65000,
+        "median": 65508,
+        "p75": 70442,
+        "n": 5
+    },
+    "university of oklahoma|assistant professor|entry": {
+        "p25": 82000,
+        "median": 92000,
+        "p75": 100783,
+        "n": 41
+    },
+    "university of oklahoma|lecturer|mid": {
+        "p25": 52000,
+        "median": 65000,
+        "p75": 100000,
+        "n": 15
+    },
+    "university of oklahoma|postdoctoral research associate|entry": {
+        "p25": 50682,
+        "median": 55000,
+        "p75": 62878,
+        "n": 13
+    },
+    "university of oklahoma|research scientist|mid": {
+        "p25": 79498,
+        "median": 86678,
+        "p75": 90337,
+        "n": 8
+    },
+    "university of oklahoma health sciences center|assistant professor|entry": {
+        "p25": 237206,
+        "median": 269578,
+        "p75": 320852,
+        "n": 36
+    },
+    "university of oklahoma health sciences center|postdoctoral fellow|senior": {
+        "p25": 64356,
+        "median": 65934,
+        "p75": 67000,
+        "n": 10
+    },
+    "university of oklahoma health sciences center|postdoctoral research fellow|senior": {
+        "p25": 61008,
+        "median": 61008,
+        "p75": 61999,
+        "n": 17
+    },
+    "university of oklahoma health sciences center|staff scientist|senior": {
+        "p25": 66830,
+        "median": 71250,
+        "p75": 72500,
+        "n": 6
+    },
+    "university of oregon|assistant professor|entry": {
+        "p25": 84121,
+        "median": 88000,
+        "p75": 152500,
+        "n": 11
+    },
+    "university of oregon|research associate|entry": {
+        "p25": 63024,
+        "median": 66492,
+        "p75": 78438,
+        "n": 5
+    },
+    "university of pittsburgh|assistant professor|entry": {
+        "p25": 93020,
+        "median": 102540,
+        "p75": 132500,
+        "n": 47
+    },
+    "university of pittsburgh|assistant professor of radiology|entry": {
+        "p25": 119995,
+        "median": 119995,
+        "p75": 119995,
+        "n": 5
+    },
+    "university of pittsburgh|associate professor|entry": {
+        "p25": 133140,
+        "median": 149247,
+        "p75": 155000,
+        "n": 5
+    },
+    "university of pittsburgh|data scientist|mid": {
+        "p25": 50680,
+        "median": 81882,
+        "p75": 85000,
+        "n": 5
+    },
+    "university of pittsburgh|laboratory research technician|mid": {
+        "p25": 39615,
+        "median": 40475,
+        "p75": 47536,
+        "n": 10
+    },
+    "university of pittsburgh|postdoctoral associate|entry": {
+        "p25": 61254,
+        "median": 63654,
+        "p75": 67353,
+        "n": 79
+    },
+    "university of pittsburgh|research assistant professor|entry": {
+        "p25": 72097,
+        "median": 80000,
+        "p75": 94374,
+        "n": 25
+    },
+    "university of pittsburgh|research instructor|mid": {
+        "p25": 65491,
+        "median": 73500,
+        "p75": 79000,
+        "n": 15
+    },
+    "university of pittsburgh|research scientist|mid": {
+        "p25": 60827,
+        "median": 62400,
+        "p75": 67348,
+        "n": 18
+    },
+    "university of pittsburgh|senior research scientist|senior": {
+        "p25": 76250,
+        "median": 80170,
+        "p75": 89610,
+        "n": 6
+    },
+    "university of pittsburgh|senior research specialist|senior": {
+        "p25": 50250,
+        "median": 52156,
+        "p75": 54497,
+        "n": 6
+    },
+    "university of pittsburgh|teaching assistant professor|entry": {
+        "p25": 63250,
+        "median": 65500,
+        "p75": 72394,
+        "n": 8
+    },
+    "university of pittsburgh physicians|assistant professor of anesthesiology|entry": {
+        "p25": 114886,
+        "median": 193169,
+        "p75": 301900,
+        "n": 5
+    },
+    "university of pittsburgh physicians|emergency medicine physician|mid": {
+        "p25": 132619,
+        "median": 285000,
+        "p75": 285000,
+        "n": 6
+    },
+    "university of pittsburgh physicians|hospitalist|mid": {
+        "p25": 261000,
+        "median": 337500,
+        "p75": 346500,
+        "n": 11
+    },
+    "university of rochester|assistant professor|entry": {
+        "p25": 100000,
+        "median": 115000,
+        "p75": 158000,
+        "n": 29
+    },
+    "university of rochester|assistant professor of medicine|entry": {
+        "p25": 216000,
+        "median": 300000,
+        "p75": 300000,
+        "n": 5
+    },
+    "university of rochester|glide team registered nurse 2 inpatient|mid": {
+        "p25": 86278,
+        "median": 91124,
+        "p75": 94286,
+        "n": 88
+    },
+    "university of rochester|medical technologist ii|mid": {
+        "p25": 68000,
+        "median": 68000,
+        "p75": 70000,
+        "n": 5
+    },
+    "university of rochester|postdoctoral associate|entry": {
+        "p25": 57500,
+        "median": 60000,
+        "p75": 61982,
+        "n": 11
+    },
+    "university of rochester|research assistant professor|entry": {
+        "p25": 60000,
+        "median": 62500,
+        "p75": 70694,
+        "n": 7
+    },
+    "university of rochester|staff scientist|senior": {
+        "p25": 60000,
+        "median": 60000,
+        "p75": 62750,
+        "n": 11
+    },
+    "university of south florida|advanced research scientist|mid": {
+        "p25": 64154,
+        "median": 65320,
+        "p75": 68160,
+        "n": 6
+    },
+    "university of south florida|assistant professor|entry": {
+        "p25": 91981,
+        "median": 115615,
+        "p75": 130000,
+        "n": 56
+    },
+    "university of south florida|assistant professor of instruction|entry": {
+        "p25": 60000,
+        "median": 78795,
+        "p75": 90372,
+        "n": 7
+    },
+    "university of south florida|postdoctoral scholar research|mid": {
+        "p25": 60896,
+        "median": 62678,
+        "p75": 66089,
+        "n": 6
+    },
+    "university of south florida|postdoctoral scholar, research|mid": {
+        "p25": 56560,
+        "median": 61504,
+        "p75": 63017,
+        "n": 6
+    },
+    "university of south florida|research associate|entry": {
+        "p25": 60996,
+        "median": 63627,
+        "p75": 71000,
+        "n": 7
+    },
+    "university of st. thomas|assistant professor|entry": {
+        "p25": 77500,
+        "median": 102500,
+        "p75": 150787,
+        "n": 6
+    },
+    "university of texas health science center at san antonio|assistant professor|entry": {
+        "p25": 104000,
+        "median": 115500,
+        "p75": 121000,
+        "n": 6
+    },
+    "university of texas health science center at san antonio|assistant professor/clinical|entry": {
+        "p25": 165082,
+        "median": 230000,
+        "p75": 249634,
+        "n": 11
+    },
+    "university of texas health science center at san antonio|assistant professor/research|entry": {
+        "p25": 68750,
+        "median": 77625,
+        "p75": 85000,
+        "n": 10
+    },
+    "university of texas health science center at san antonio|clinical fellow|senior": {
+        "p25": 81086,
+        "median": 81086,
+        "p75": 81086,
+        "n": 6
+    },
+    "university of texas health science center at san antonio|postdoctoral research fellow|senior": {
+        "p25": 61620,
+        "median": 65640,
+        "p75": 68481,
+        "n": 11
+    },
+    "university of texas health science center at san antonio|research scientist|mid": {
+        "p25": 61978,
+        "median": 65000,
+        "p75": 67742,
+        "n": 12
+    },
+    "university of texas medical branch|assistant professor|entry": {
+        "p25": 117497,
+        "median": 240000,
+        "p75": 335000,
+        "n": 19
+    },
+    "university of texas medical branch|assistant professor, ntt, clinical|entry": {
+        "p25": 440000,
+        "median": 450000,
+        "p75": 450000,
+        "n": 5
+    },
+    "university of texas medical branch|biostatistician|mid": {
+        "p25": 71946,
+        "median": 72500,
+        "p75": 88179,
+        "n": 5
+    },
+    "university of texas medical branch|postdoctoral fellow|senior": {
+        "p25": 61884,
+        "median": 62652,
+        "p75": 64356,
+        "n": 5
+    },
+    "university of texas medical branch|research associate|entry": {
+        "p25": 41356,
+        "median": 46450,
+        "p75": 52026,
+        "n": 6
+    },
+    "university of texas medical branch|research scientist|mid": {
+        "p25": 63550,
+        "median": 68000,
+        "p75": 69817,
+        "n": 9
+    },
+    "university of utah|assistant professor|entry": {
+        "p25": 102037,
+        "median": 125066,
+        "p75": 182474,
+        "n": 36
+    },
+    "university of utah|assistant professor (clinical)|entry": {
+        "p25": 226600,
+        "median": 290000,
+        "p75": 300000,
+        "n": 9
+    },
+    "university of utah|associate professor|entry": {
+        "p25": 232625,
+        "median": 340000,
+        "p75": 392500,
+        "n": 6
+    },
+    "university of utah|post doc research associate|entry": {
+        "p25": 70432,
+        "median": 71829,
+        "p75": 75240,
+        "n": 6
+    },
+    "university of utah|postdoc research associate|entry": {
+        "p25": 65477,
+        "median": 77024,
+        "p75": 85280,
+        "n": 6
+    },
+    "university of utah|postdoctoral research associate|entry": {
+        "p25": 62689,
+        "median": 65000,
+        "p75": 70248,
+        "n": 15
+    },
+    "university of utah|research assistant professor|entry": {
+        "p25": 95000,
+        "median": 100000,
+        "p75": 115000,
+        "n": 9
+    },
+    "university of utah|research associate|entry": {
+        "p25": 58360,
+        "median": 80000,
+        "p75": 85280,
+        "n": 17
+    },
+    "university of vermont health network medical group, inc.|attending physician|senior": {
+        "p25": 310755,
+        "median": 348766,
+        "p75": 445464,
+        "n": 13
+    },
+    "university of vermont medical health network medical group, inc.|attending physician|senior": {
+        "p25": 215000,
+        "median": 267500,
+        "p75": 305000,
+        "n": 6
+    },
+    "university of virginia physicians group|assistant professor|entry": {
+        "p25": 123075,
+        "median": 176350,
+        "p75": 260250,
+        "n": 8
+    },
+    "university of washington|acting assistant professor|entry": {
+        "p25": 105444,
+        "median": 112008,
+        "p75": 124308,
+        "n": 9
+    },
+    "university of washington|acting instructor|mid": {
+        "p25": 78250,
+        "median": 87762,
+        "p75": 94461,
+        "n": 34
+    },
+    "university of washington|assistant professor|entry": {
+        "p25": 106197,
+        "median": 122130,
+        "p75": 140004,
+        "n": 50
+    },
+    "university of washington|assistant professor without tenure|entry": {
+        "p25": 209928,
+        "median": 245004,
+        "p75": 313500,
+        "n": 23
+    },
+    "university of washington|assistant teaching professor|entry": {
+        "p25": 89100,
+        "median": 105300,
+        "p75": 108000,
+        "n": 6
+    },
+    "university of washington|fellow|senior": {
+        "p25": 88960,
+        "median": 94569,
+        "p75": 97176,
+        "n": 6
+    },
+    "university of washington|postdoctoral scholar|mid": {
+        "p25": 70012,
+        "median": 76491,
+        "p75": 80652,
+        "n": 43
+    },
+    "university of washington|research assistant professor|entry": {
+        "p25": 114252,
+        "median": 120000,
+        "p75": 125004,
+        "n": 5
+    },
+    "university of washington|research scientist/engineer 3|mid": {
+        "p25": 80586,
+        "median": 83004,
+        "p75": 90696,
+        "n": 6
+    },
+    "university of washington|resident|entry": {
+        "p25": 76689,
+        "median": 78660,
+        "p75": 84672,
+        "n": 10
+    },
+    "university of west florida|assistant professor|entry": {
+        "p25": 84262,
+        "median": 90000,
+        "p75": 97250,
+        "n": 14
+    },
+    "university of wisconsin system|assistant professor|entry": {
+        "p25": 107951,
+        "median": 120000,
+        "p75": 145000,
+        "n": 65
+    },
+    "university of wisconsin system|research associate-postdegree trainee|entry": {
+        "p25": 59536,
+        "median": 61428,
+        "p75": 67890,
+        "n": 39
+    },
+    "university of wisconsin system|research specialist|mid": {
+        "p25": 48420,
+        "median": 50137,
+        "p75": 51943,
+        "n": 6
+    },
+    "university of wisconsin system|researcher i|entry": {
+        "p25": 65000,
+        "median": 70000,
+        "p75": 70706,
+        "n": 7
+    },
+    "university of wisconsin system|scientist i|entry": {
+        "p25": 67000,
+        "median": 72000,
+        "p75": 74042,
+        "n": 45
+    },
+    "university of wisconsin system|scientist ii|mid": {
+        "p25": 72613,
+        "median": 80000,
+        "p75": 89476,
+        "n": 15
+    },
+    "university of wisconsin system|scientist iii|senior": {
+        "p25": 97928,
+        "median": 124926,
+        "p75": 132755,
+        "n": 6
+    },
+    "university of wisconsin-milwaukee|assistant professor|entry": {
+        "p25": 94552,
+        "median": 97706,
+        "p75": 132166,
+        "n": 11
+    },
+    "university of wyoming|assistant professor|entry": {
+        "p25": 63000,
+        "median": 69590,
+        "p75": 82499,
+        "n": 5
+    },
+    "university of wyoming|post doctoral research associate|entry": {
+        "p25": 55654,
+        "median": 63999,
+        "p75": 65900,
+        "n": 6
+    },
+    "university physicians & surgeons, inc.|endocrinologist|mid": {
+        "p25": 239200,
+        "median": 244400,
+        "p75": 249600,
+        "n": 6
+    },
+    "university radiology associates, llp|clinical assistant professor|entry": {
+        "p25": 340101,
+        "median": 340101,
+        "p75": 390101,
+        "n": 5
+    },
+    "university settlement society of new york|clinical social worker|mid": {
+        "p25": 69330,
+        "median": 76502,
+        "p75": 78234,
+        "n": 6
+    },
+    "unm hospital|rn inpatient iii|senior": {
+        "p25": 67017,
+        "median": 67017,
+        "p75": 67017,
+        "n": 6
+    },
+    "unmc physicians|physician|mid": {
+        "p25": 172500,
+        "median": 214467,
+        "p75": 272525,
+        "n": 23
+    },
+    "unum group|software engineer ii|mid": {
+        "p25": 110510,
+        "median": 117123,
+        "p75": 152131,
+        "n": 5
+    },
+    "uofl health - louisville, inc.|medical technologist|mid": {
+        "p25": 64153,
+        "median": 72876,
+        "p75": 75060,
+        "n": 7
+    },
+    "uofl health - louisville, inc.|medical technologist i|entry": {
+        "p25": 66643,
+        "median": 73028,
+        "p75": 76599,
+        "n": 15
+    },
+    "uofl health - louisville, inc.|registered respiratory therapist ii|mid": {
+        "p25": 67225,
+        "median": 67225,
+        "p75": 67225,
+        "n": 5
+    },
+    "up2date technology solutions llc|software developer|mid": {
+        "p25": 91520,
+        "median": 101920,
+        "p75": 118560,
+        "n": 9
+    },
+    "upmc altoona|hospitalist|mid": {
+        "p25": 300000,
+        "median": 300000,
+        "p75": 300000,
+        "n": 8
+    },
+    "upmc medical education|resident - anesthesiology|entry": {
+        "p25": 68895,
+        "median": 71307,
+        "p75": 72554,
+        "n": 7
+    },
+    "upmc medical education|resident - family medicine|entry": {
+        "p25": 68895,
+        "median": 71307,
+        "p75": 72003,
+        "n": 26
+    },
+    "upmc medical education|resident - general surgery|entry": {
+        "p25": 68895,
+        "median": 68895,
+        "p75": 68895,
+        "n": 9
+    },
+    "upmc medical education|resident - internal medicine|entry": {
+        "p25": 68895,
+        "median": 71307,
+        "p75": 72003,
+        "n": 56
+    },
+    "upmc medical education|resident - neurology|entry": {
+        "p25": 68895,
+        "median": 68895,
+        "p75": 71307,
+        "n": 7
+    },
+    "upmc medical education|resident - pediatrics|entry": {
+        "p25": 68895,
+        "median": 68895,
+        "p75": 68895,
+        "n": 12
+    },
+    "upmc presbyterian shadyside|athletic trainer|mid": {
+        "p25": 45000,
+        "median": 45500,
+        "p75": 49500,
+        "n": 5
+    },
+    "upmc presbyterian shadyside|software engineer - senior|senior": {
+        "p25": 130908,
+        "median": 141560,
+        "p75": 142283,
+        "n": 5
+    },
+    "ups worldwide forwarding, inc.|senior software development engineer|senior": {
+        "p25": 118740,
+        "median": 120000,
+        "p75": 120048,
+        "n": 5
+    },
+    "upstart network, inc.|senior software engineer|senior": {
+        "p25": 182900,
+        "median": 182900,
+        "p75": 192500,
+        "n": 22
+    },
+    "upstart network, inc.|software engineer|mid": {
+        "p25": 147350,
+        "median": 158700,
+        "p75": 167100,
+        "n": 11
+    },
+    "upstate cerebral palsy, inc.|habilitation specialist|mid": {
+        "p25": 39145,
+        "median": 39145,
+        "p75": 39145,
+        "n": 25
+    },
+    "urbahn architects pllc|architectural designer|mid": {
+        "p25": 68535,
+        "median": 75587,
+        "p75": 81016,
+        "n": 6
+    },
+    "us army defense language institute foreign language center|foreign language instructor|mid": {
+        "p25": 64180,
+        "median": 84383,
+        "p75": 85840,
+        "n": 49
+    },
+    "us virgin islands department o education|special education teacher|mid": {
+        "p25": 46920,
+        "median": 46920,
+        "p75": 46920,
+        "n": 6
+    },
+    "usa healthcare management, llc|assistant professor of pediatrics|entry": {
+        "p25": 247500,
+        "median": 250000,
+        "p75": 250000,
+        "n": 8
+    },
+    "usa waste-management resources, llc|senior engineer, software|senior": {
+        "p25": 118336,
+        "median": 120897,
+        "p75": 129894,
+        "n": 5
+    },
+    "usacs medical group ltd.|emergency medicine physician|mid": {
+        "p25": 312000,
+        "median": 384800,
+        "p75": 426400,
+        "n": 15
+    },
+    "usacs medical group ltd.|hospitalist physician|mid": {
+        "p25": 260000,
+        "median": 266240,
+        "p75": 280800,
+        "n": 5
+    },
+    "usacs medical group ltd.|physician (hospitalist)|mid": {
+        "p25": 270400,
+        "median": 280800,
+        "p75": 291200,
+        "n": 43
+    },
+    "usacs medical group of texas, pllc|hospitalist|mid": {
+        "p25": 235040,
+        "median": 235040,
+        "p75": 235040,
+        "n": 5
+    },
+    "usacs medical group of texas, pllc|physician (emergency medicine)|mid": {
+        "p25": 313248,
+        "median": 332800,
+        "p75": 332800,
+        "n": 7
+    },
+    "usd 501, topeka public schools|special education teacher|mid": {
+        "p25": 59900,
+        "median": 60150,
+        "p75": 62425,
+        "n": 10
+    },
+    "usd 501, topeka public schools|special education teacher - elementary|mid": {
+        "p25": 58900,
+        "median": 61400,
+        "p75": 67400,
+        "n": 5
+    },
+    "usd 501, topeka public schools|special education teacher - secondary|mid": {
+        "p25": 61400,
+        "median": 62400,
+        "p75": 65000,
+        "n": 7
+    },
+    "ust global inc|architect i - cloud infrastructure services|senior": {
+        "p25": 95742,
+        "median": 95742,
+        "p75": 95742,
+        "n": 5
+    },
+    "ust global inc|architect i - enterprise solutions|senior": {
+        "p25": 94000,
+        "median": 111800,
+        "p75": 135000,
+        "n": 7
+    },
+    "ust global inc|architect i - software testing|senior": {
+        "p25": 94917,
+        "median": 99890,
+        "p75": 106433,
+        "n": 40
+    },
+    "ust global inc|architect i \u201c software testing|mid": {
+        "p25": 98080,
+        "median": 110000,
+        "p75": 115000,
+        "n": 5
+    },
+    "ust global inc|architect ii - enterprise solutions|senior": {
+        "p25": 116116,
+        "median": 120000,
+        "p75": 165000,
+        "n": 5
+    },
+    "ust global inc|architect ii - software testing|senior": {
+        "p25": 103340,
+        "median": 121779,
+        "p75": 126268,
+        "n": 5
+    },
+    "ust global inc|consultant i|entry": {
+        "p25": 98069,
+        "median": 102815,
+        "p75": 110000,
+        "n": 11
+    },
+    "ust global inc|consultant ii|mid": {
+        "p25": 123181,
+        "median": 136544,
+        "p75": 140421,
+        "n": 6
+    },
+    "ust global inc|delivery manager i|mid": {
+        "p25": 126669,
+        "median": 135200,
+        "p75": 152175,
+        "n": 11
+    },
+    "ust global inc|delivery manager ii|senior": {
+        "p25": 146680,
+        "median": 147345,
+        "p75": 154999,
+        "n": 5
+    },
+    "ust global inc|developer ii - software engineering|mid": {
+        "p25": 86113,
+        "median": 89710,
+        "p75": 95139,
+        "n": 15
+    },
+    "ust global inc|developer iii - software engineering|senior": {
+        "p25": 88992,
+        "median": 96055,
+        "p75": 110199,
+        "n": 20
+    },
+    "ust global inc|lead i - cloud infrastructure services|senior": {
+        "p25": 63375,
+        "median": 73297,
+        "p75": 88250,
+        "n": 8
+    },
+    "ust global inc|lead i - semiconductor product validation|senior": {
+        "p25": 99985,
+        "median": 109000,
+        "p75": 125000,
+        "n": 5
+    },
+    "ust global inc|lead i - software engineering|senior": {
+        "p25": 90000,
+        "median": 100000,
+        "p75": 113797,
+        "n": 69
+    },
+    "ust global inc|lead i - software testing|senior": {
+        "p25": 89533,
+        "median": 98750,
+        "p75": 109250,
+        "n": 18
+    },
+    "ust global inc|lead ii - cloud infrastructure services|senior": {
+        "p25": 74000,
+        "median": 83000,
+        "p75": 86542,
+        "n": 11
+    },
+    "ust global inc|lead ii - devops engineering|senior": {
+        "p25": 95000,
+        "median": 101890,
+        "p75": 124500,
+        "n": 14
+    },
+    "ust global inc|lead ii - product management|senior": {
+        "p25": 95750,
+        "median": 95750,
+        "p75": 100100,
+        "n": 5
+    },
+    "ust global inc|lead ii - production support|senior": {
+        "p25": 113797,
+        "median": 115000,
+        "p75": 120000,
+        "n": 9
+    },
+    "ust global inc|lead ii - semiconductor s/w product development|senior": {
+        "p25": 86466,
+        "median": 87447,
+        "p75": 100000,
+        "n": 5
+    },
+    "ust global inc|lead ii - software engineering|senior": {
+        "p25": 95000,
+        "median": 105152,
+        "p75": 119674,
+        "n": 135
+    },
+    "ust global inc|lead ii - software testing|senior": {
+        "p25": 92000,
+        "median": 101323,
+        "p75": 115930,
+        "n": 30
+    },
+    "ust global inc|lead ii \u2013 software engineering|senior": {
+        "p25": 113797,
+        "median": 122868,
+        "p75": 143978,
+        "n": 5
+    },
+    "ust global inc|lead ii \u201c software engineering|senior": {
+        "p25": 99375,
+        "median": 106629,
+        "p75": 116597,
+        "n": 12
+    },
+    "ust global inc|product manager i|mid": {
+        "p25": 107429,
+        "median": 120819,
+        "p75": 123656,
+        "n": 11
+    },
+    "ust global inc|product manager ii|senior": {
+        "p25": 104827,
+        "median": 120000,
+        "p75": 144492,
+        "n": 7
+    },
+    "ust global inc|project manager i|mid": {
+        "p25": 98280,
+        "median": 108098,
+        "p75": 130000,
+        "n": 25
+    },
+    "ust global inc|project manager ii|senior": {
+        "p25": 108708,
+        "median": 115500,
+        "p75": 131950,
+        "n": 39
+    },
+    "ust global inc|software architect i|mid": {
+        "p25": 106995,
+        "median": 114500,
+        "p75": 132300,
+        "n": 21
+    },
+    "ust global inc|software architect ii|senior": {
+        "p25": 112000,
+        "median": 123552,
+        "p75": 137259,
+        "n": 25
+    },
+    "ust global inc|software solution architect i|mid": {
+        "p25": 135384,
+        "median": 140515,
+        "p75": 151777,
+        "n": 17
+    },
+    "ust global inc|software solution architect ii|senior": {
+        "p25": 150121,
+        "median": 165035,
+        "p75": 167116,
+        "n": 5
+    },
+    "ust global inc|solution architect i - cloud infrastructure services|senior": {
+        "p25": 119600,
+        "median": 137197,
+        "p75": 153514,
+        "n": 8
+    },
+    "ust global inc|specialist i - cloud infrastructure services|mid": {
+        "p25": 97091,
+        "median": 99000,
+        "p75": 104000,
+        "n": 11
+    },
+    "ust global inc|specialist i - devops engineering|mid": {
+        "p25": 106319,
+        "median": 120852,
+        "p75": 147500,
+        "n": 11
+    },
+    "ust global inc|specialist i - software engineering|mid": {
+        "p25": 105227,
+        "median": 110240,
+        "p75": 129667,
+        "n": 121
+    },
+    "ust global inc|specialist i \u201c software engineering|entry": {
+        "p25": 92580,
+        "median": 99965,
+        "p75": 103599,
+        "n": 7
+    },
+    "ust global inc|specialist ii - cloud infrastructure services|mid": {
+        "p25": 104763,
+        "median": 114830,
+        "p75": 145396,
+        "n": 6
+    },
+    "ust global inc|specialist ii - product support|mid": {
+        "p25": 122500,
+        "median": 122500,
+        "p75": 132500,
+        "n": 5
+    },
+    "ust global inc|specialist ii - software engineering|mid": {
+        "p25": 106583,
+        "median": 117760,
+        "p75": 135197,
+        "n": 27
+    },
+    "ust healthproof inc.|lead i - software engineering|senior": {
+        "p25": 85696,
+        "median": 87507,
+        "p75": 100714,
+        "n": 8
+    },
+    "ust healthproof inc.|lead ii - software engineering|senior": {
+        "p25": 100178,
+        "median": 100714,
+        "p75": 100714,
+        "n": 6
+    },
+    "ust healthproof inc.|specialist i - software engineering|mid": {
+        "p25": 97414,
+        "median": 105997,
+        "p75": 111219,
+        "n": 8
+    },
+    "ustring solutions llc|computer programmer|mid": {
+        "p25": 85550,
+        "median": 85550,
+        "p75": 85550,
+        "n": 23
+    },
+    "ustring solutions llc|software engineer|mid": {
+        "p25": 75000,
+        "median": 75000,
+        "p75": 85550,
+        "n": 5
+    },
+    "ut southwestern medical center|assistant instructor|entry": {
+        "p25": 68973,
+        "median": 71210,
+        "p75": 81187,
+        "n": 14
+    },
+    "ut southwestern medical center|assistant professor|entry": {
+        "p25": 134725,
+        "median": 201000,
+        "p75": 400000,
+        "n": 36
+    },
+    "ut southwestern medical center|clinical fellow|senior": {
+        "p25": 83617,
+        "median": 83617,
+        "p75": 84726,
+        "n": 8
+    },
+    "ut southwestern medical center|instructor|mid": {
+        "p25": 70000,
+        "median": 74900,
+        "p75": 82400,
+        "n": 29
+    },
+    "ut southwestern medical center|postdoctoral researcher|mid": {
+        "p25": 62433,
+        "median": 66492,
+        "p75": 70000,
+        "n": 80
+    },
+    "ut southwestern medical center|research associate|entry": {
+        "p25": 53166,
+        "median": 57174,
+        "p75": 60281,
+        "n": 22
+    },
+    "ut southwestern medical center|research scientist|mid": {
+        "p25": 66890,
+        "median": 70261,
+        "p75": 72000,
+        "n": 22
+    },
+    "ut southwestern medical center|senior research associate|mid": {
+        "p25": 60000,
+        "median": 67498,
+        "p75": 74000,
+        "n": 12
+    },
+    "ut southwestern medical center|senior research scientist|senior": {
+        "p25": 70000,
+        "median": 77250,
+        "p75": 81314,
+        "n": 7
+    },
+    "ut southwestern medical center|sr. research associate|mid": {
+        "p25": 63031,
+        "median": 65281,
+        "p75": 66976,
+        "n": 8
+    },
+    "ut southwestern medical center, office of international affairs|postdoctoral researcher|mid": {
+        "p25": 66492,
+        "median": 66492,
+        "p75": 68000,
+        "n": 5
+    },
+    "utah state university|assistant professor|entry": {
+        "p25": 73500,
+        "median": 86000,
+        "p75": 100225,
+        "n": 31
+    },
+    "utile inc.|designer|mid": {
+        "p25": 61000,
+        "median": 71000,
+        "p75": 73000,
+        "n": 5
+    },
+    "uynite, inc|application developer|mid": {
+        "p25": 87000,
+        "median": 87000,
+        "p75": 87000,
+        "n": 5
+    }
+}

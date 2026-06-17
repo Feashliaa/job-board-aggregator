@@ -1,0 +1,2348 @@
+{
+    "f5, inc.|consultant ii|mid": {
+        "p25": 140292,
+        "median": 144941,
+        "p75": 146000,
+        "n": 5
+    },
+    "f5, inc.|engineer i|entry": {
+        "p25": 115000,
+        "median": 115000,
+        "p75": 117587,
+        "n": 6
+    },
+    "f5, inc.|engineer ii|mid": {
+        "p25": 120000,
+        "median": 131989,
+        "p75": 141564,
+        "n": 18
+    },
+    "f5, inc.|engineer iii|senior": {
+        "p25": 143712,
+        "median": 147290,
+        "p75": 167475,
+        "n": 11
+    },
+    "f5, inc.|principal engineer|senior": {
+        "p25": 195604,
+        "median": 199751,
+        "p75": 215649,
+        "n": 6
+    },
+    "f5, inc.|principal product manager|senior": {
+        "p25": 222000,
+        "median": 240000,
+        "p75": 251664,
+        "n": 5
+    },
+    "f5, inc.|senior engineer|senior": {
+        "p25": 173831,
+        "median": 184800,
+        "p75": 196650,
+        "n": 9
+    },
+    "f5, inc.|senior software engineer|senior": {
+        "p25": 194497,
+        "median": 195000,
+        "p75": 198750,
+        "n": 6
+    },
+    "f5, inc.|software engineer iii|senior": {
+        "p25": 163000,
+        "median": 176224,
+        "p75": 192500,
+        "n": 7
+    },
+    "factory mutual insurance company|senior software engineer|senior": {
+        "p25": 130790,
+        "median": 130790,
+        "p75": 132467,
+        "n": 19
+    },
+    "factset research systems inc.|lead software engineer|senior": {
+        "p25": 145000,
+        "median": 150000,
+        "p75": 160000,
+        "n": 17
+    },
+    "factset research systems inc.|principal software engineer|senior": {
+        "p25": 181250,
+        "median": 185000,
+        "p75": 188750,
+        "n": 6
+    },
+    "factset research systems inc.|senior software engineer|senior": {
+        "p25": 125000,
+        "median": 135000,
+        "p75": 145000,
+        "n": 13
+    },
+    "factset research systems inc.|software engineer|mid": {
+        "p25": 110000,
+        "median": 125000,
+        "p75": 125000,
+        "n": 5
+    },
+    "family health center of marshfield, inc.|dentist|mid": {
+        "p25": 215000,
+        "median": 215000,
+        "p75": 230000,
+        "n": 5
+    },
+    "family healthcare network|dentist|mid": {
+        "p25": 200000,
+        "median": 210000,
+        "p75": 223000,
+        "n": 13
+    },
+    "family healthcare network|physician - internist|mid": {
+        "p25": 285206,
+        "median": 285206,
+        "p75": 315000,
+        "n": 5
+    },
+    "family healthcare network|physician - pediatrician|mid": {
+        "p25": 245000,
+        "median": 277387,
+        "p75": 294267,
+        "n": 5
+    },
+    "farmers group, inc.|agile developer team member|mid": {
+        "p25": 128251,
+        "median": 138749,
+        "p75": 149029,
+        "n": 50
+    },
+    "farmers group, inc.|lead system architect|senior": {
+        "p25": 185404,
+        "median": 191580,
+        "p75": 202922,
+        "n": 6
+    },
+    "fast enterprises, llc|implementation analyst|mid": {
+        "p25": 104705,
+        "median": 130000,
+        "p75": 139235,
+        "n": 19
+    },
+    "fast n friendly, llc|restaurant operation manager|senior": {
+        "p25": 48000,
+        "median": 49234,
+        "p75": 49234,
+        "n": 15
+    },
+    "fatpipe technologies inc|software developer|mid": {
+        "p25": 92812,
+        "median": 107638,
+        "p75": 112952,
+        "n": 12
+    },
+    "faxianit inc|software developer|mid": {
+        "p25": 97385,
+        "median": 98883,
+        "p75": 108076,
+        "n": 5
+    },
+    "fayette physician network, inc.|hospitalist|mid": {
+        "p25": 316570,
+        "median": 334800,
+        "p75": 342150,
+        "n": 19
+    },
+    "federal express corporation|application architect|senior": {
+        "p25": 112299,
+        "median": 117977,
+        "p75": 128735,
+        "n": 11
+    },
+    "federal express corporation|business intelligence analyst ii|mid": {
+        "p25": 94266,
+        "median": 96663,
+        "p75": 108619,
+        "n": 8
+    },
+    "federal express corporation|business planning advisor|mid": {
+        "p25": 78458,
+        "median": 95454,
+        "p75": 98572,
+        "n": 8
+    },
+    "federal express corporation|business product advisor|mid": {
+        "p25": 104426,
+        "median": 109886,
+        "p75": 114771,
+        "n": 11
+    },
+    "federal express corporation|business product analyst iii|senior": {
+        "p25": 78458,
+        "median": 94647,
+        "p75": 102398,
+        "n": 21
+    },
+    "federal express corporation|category manager ii|senior": {
+        "p25": 81914,
+        "median": 88897,
+        "p75": 95980,
+        "n": 6
+    },
+    "federal express corporation|cyber security advisor|mid": {
+        "p25": 109528,
+        "median": 124436,
+        "p75": 124446,
+        "n": 6
+    },
+    "federal express corporation|data analyst advisor|mid": {
+        "p25": 117574,
+        "median": 119205,
+        "p75": 122837,
+        "n": 20
+    },
+    "federal express corporation|data scientist|mid": {
+        "p25": 53861,
+        "median": 56659,
+        "p75": 89050,
+        "n": 7
+    },
+    "federal express corporation|data scientist advisor|mid": {
+        "p25": 119205,
+        "median": 121628,
+        "p75": 132538,
+        "n": 20
+    },
+    "federal express corporation|digital marketing advisor|mid": {
+        "p25": 96491,
+        "median": 103963,
+        "p75": 116064,
+        "n": 17
+    },
+    "federal express corporation|domain architect|senior": {
+        "p25": 102741,
+        "median": 119498,
+        "p75": 142780,
+        "n": 26
+    },
+    "federal express corporation|engineer|mid": {
+        "p25": 79835,
+        "median": 79914,
+        "p75": 79914,
+        "n": 8
+    },
+    "federal express corporation|engineering specialist advisor|mid": {
+        "p25": 98903,
+        "median": 102117,
+        "p75": 104785,
+        "n": 6
+    },
+    "federal express corporation|engineering specialist iii|senior": {
+        "p25": 99125,
+        "median": 104894,
+        "p75": 108618,
+        "n": 5
+    },
+    "federal express corporation|full stack developer advisor|mid": {
+        "p25": 115482,
+        "median": 116397,
+        "p75": 127878,
+        "n": 115
+    },
+    "federal express corporation|full stack developer i|entry": {
+        "p25": 76044,
+        "median": 76604,
+        "p75": 76627,
+        "n": 6
+    },
+    "federal express corporation|full stack developer ii|mid": {
+        "p25": 80942,
+        "median": 85030,
+        "p75": 89981,
+        "n": 28
+    },
+    "federal express corporation|full stack developer iii|senior": {
+        "p25": 95680,
+        "median": 103775,
+        "p75": 106691,
+        "n": 113
+    },
+    "federal express corporation|manager it|senior": {
+        "p25": 122014,
+        "median": 149178,
+        "p75": 157737,
+        "n": 28
+    },
+    "federal express corporation|marketing data science advisor|mid": {
+        "p25": 98082,
+        "median": 116334,
+        "p75": 129245,
+        "n": 23
+    },
+    "federal express corporation|marketing data science fellow|senior": {
+        "p25": 111170,
+        "median": 125274,
+        "p75": 154934,
+        "n": 8
+    },
+    "federal express corporation|marketing specialist advisor|mid": {
+        "p25": 96491,
+        "median": 101670,
+        "p75": 119205,
+        "n": 5
+    },
+    "federal express corporation|operations research advisor|mid": {
+        "p25": 108098,
+        "median": 108098,
+        "p75": 119205,
+        "n": 7
+    },
+    "federal express corporation|operations research scientist i|entry": {
+        "p25": 99598,
+        "median": 113704,
+        "p75": 117400,
+        "n": 5
+    },
+    "federal express corporation|pgh engineer iii|senior": {
+        "p25": 91879,
+        "median": 93633,
+        "p75": 108300,
+        "n": 6
+    },
+    "federal express corporation|product management advisor|mid": {
+        "p25": 96491,
+        "median": 112312,
+        "p75": 124494,
+        "n": 15
+    },
+    "federal express corporation|product management principal|senior": {
+        "p25": 133336,
+        "median": 138715,
+        "p75": 153435,
+        "n": 7
+    },
+    "federal express corporation|product manager|senior": {
+        "p25": 81172,
+        "median": 91538,
+        "p75": 95689,
+        "n": 11
+    },
+    "federal express corporation|program management advisor|mid": {
+        "p25": 84313,
+        "median": 107770,
+        "p75": 115064,
+        "n": 15
+    },
+    "federal express corporation|project manager i|mid": {
+        "p25": 87590,
+        "median": 87590,
+        "p75": 91416,
+        "n": 5
+    },
+    "federal express corporation|revenue science advisor|mid": {
+        "p25": 82784,
+        "median": 103667,
+        "p75": 114478,
+        "n": 50
+    },
+    "federal express corporation|revenue science fellow|senior": {
+        "p25": 97593,
+        "median": 132150,
+        "p75": 141720,
+        "n": 22
+    },
+    "federal express corporation|scrum master advisor|mid": {
+        "p25": 105946,
+        "median": 109886,
+        "p75": 129709,
+        "n": 5
+    },
+    "federal express corporation|senior business systems analyst|senior": {
+        "p25": 105953,
+        "median": 115482,
+        "p75": 157508,
+        "n": 7
+    },
+    "federal express corporation|senior cyber security analyst|senior": {
+        "p25": 106804,
+        "median": 106804,
+        "p75": 122470,
+        "n": 5
+    },
+    "federal express corporation|senior data analyst|senior": {
+        "p25": 96491,
+        "median": 96491,
+        "p75": 98530,
+        "n": 9
+    },
+    "federal express corporation|senior revenue science analyst|senior": {
+        "p25": 82784,
+        "median": 93775,
+        "p75": 101015,
+        "n": 20
+    },
+    "federal express corporation|software engineer advisor|mid": {
+        "p25": 115482,
+        "median": 115482,
+        "p75": 127878,
+        "n": 46
+    },
+    "federal express corporation|software engineer iii|senior": {
+        "p25": 100122,
+        "median": 105997,
+        "p75": 120437,
+        "n": 26
+    },
+    "federal express corporation|software quality engineer advisor|mid": {
+        "p25": 100000,
+        "median": 104166,
+        "p75": 106354,
+        "n": 5
+    },
+    "federal express corporation|solutions advisor|mid": {
+        "p25": 104333,
+        "median": 110628,
+        "p75": 114664,
+        "n": 5
+    },
+    "federal express corporation|solutions architect|senior": {
+        "p25": 109886,
+        "median": 109886,
+        "p75": 127000,
+        "n": 13
+    },
+    "federal express corporation|sr operations research advisor|senior": {
+        "p25": 111759,
+        "median": 119205,
+        "p75": 129862,
+        "n": 7
+    },
+    "federal express corporation|sr revenue science analyst|senior": {
+        "p25": 80766,
+        "median": 92755,
+        "p75": 99600,
+        "n": 12
+    },
+    "federal express corporation|sr. business systems analyst|senior": {
+        "p25": 96424,
+        "median": 115482,
+        "p75": 115482,
+        "n": 5
+    },
+    "federal express corporation|sr. cyber security analyst|senior": {
+        "p25": 105608,
+        "median": 111874,
+        "p75": 119432,
+        "n": 6
+    },
+    "federal express corporation|sr. data analyst|senior": {
+        "p25": 81286,
+        "median": 88888,
+        "p75": 96828,
+        "n": 6
+    },
+    "federal express corporation|sr. data scientist|senior": {
+        "p25": 99173,
+        "median": 105541,
+        "p75": 119465,
+        "n": 7
+    },
+    "federal express corporation|sr. revenue science analyst|senior": {
+        "p25": 82784,
+        "median": 91317,
+        "p75": 98222,
+        "n": 16
+    },
+    "federal express corporation|technical advisor|mid": {
+        "p25": 115482,
+        "median": 116397,
+        "p75": 117950,
+        "n": 9
+    },
+    "federal express corporation|technical principal|senior": {
+        "p25": 124488,
+        "median": 135304,
+        "p75": 135304,
+        "n": 10
+    },
+    "federal home loan mortgage corporation|agile development senior|senior": {
+        "p25": 126182,
+        "median": 149781,
+        "p75": 149781,
+        "n": 19
+    },
+    "federal home loan mortgage corporation|agile development tech lead|senior": {
+        "p25": 153926,
+        "median": 153926,
+        "p75": 153926,
+        "n": 5
+    },
+    "federal home loan mortgage corporation|agile development, senior|senior": {
+        "p25": 120999,
+        "median": 120999,
+        "p75": 126182,
+        "n": 7
+    },
+    "federal home loan mortgage corporation|agile development, sr|senior": {
+        "p25": 126182,
+        "median": 149760,
+        "p75": 149781,
+        "n": 9
+    },
+    "federal home loan mortgage corporation|agile development, sr.|senior": {
+        "p25": 126182,
+        "median": 126182,
+        "p75": 126183,
+        "n": 6
+    },
+    "federal home loan mortgage corporation|development senior|senior": {
+        "p25": 124999,
+        "median": 129500,
+        "p75": 132350,
+        "n": 9
+    },
+    "federal home loan mortgage corporation|financial model development professional a|mid": {
+        "p25": 104400,
+        "median": 104400,
+        "p75": 104400,
+        "n": 6
+    },
+    "federal home loan mortgage corporation|quantitative analytics professional a|mid": {
+        "p25": 104999,
+        "median": 111488,
+        "p75": 114899,
+        "n": 5
+    },
+    "federal home loan mortgage corporation|quantitative analytics senior|senior": {
+        "p25": 114999,
+        "median": 114999,
+        "p75": 128045,
+        "n": 13
+    },
+    "federal national mortgage association|enterprise data - data engineering - senior associate|mid": {
+        "p25": 149000,
+        "median": 149000,
+        "p75": 149000,
+        "n": 7
+    },
+    "federal reserve bank of cleveland|research economist|mid": {
+        "p25": 165485,
+        "median": 165485,
+        "p75": 171579,
+        "n": 5
+    },
+    "federal soft systems inc.|software developer|mid": {
+        "p25": 80413,
+        "median": 83325,
+        "p75": 85123,
+        "n": 54
+    },
+    "fedex dataworks, inc.|data analyst iii|senior": {
+        "p25": 98451,
+        "median": 104333,
+        "p75": 106330,
+        "n": 6
+    },
+    "fedex dataworks, inc.|data engineer ii|mid": {
+        "p25": 78884,
+        "median": 85047,
+        "p75": 86436,
+        "n": 6
+    },
+    "fedex dataworks, inc.|data engineer iii|senior": {
+        "p25": 105180,
+        "median": 120000,
+        "p75": 125387,
+        "n": 24
+    },
+    "fedex dataworks, inc.|data engineer lead|senior": {
+        "p25": 127691,
+        "median": 142000,
+        "p75": 153445,
+        "n": 21
+    },
+    "fedex dataworks, inc.|data scientist iii|senior": {
+        "p25": 109168,
+        "median": 120120,
+        "p75": 132991,
+        "n": 14
+    },
+    "fedex dataworks, inc.|data scientist lead|senior": {
+        "p25": 119205,
+        "median": 123552,
+        "p75": 149219,
+        "n": 21
+    },
+    "fedex dataworks, inc.|manager engineering|senior": {
+        "p25": 99986,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "fedex dataworks, inc.|platform engineer lead|senior": {
+        "p25": 134336,
+        "median": 135304,
+        "p75": 145978,
+        "n": 10
+    },
+    "fedex dataworks, inc.|product manager lead|senior": {
+        "p25": 137300,
+        "median": 145000,
+        "p75": 153218,
+        "n": 7
+    },
+    "fedex dataworks, inc.|software engineer iii|senior": {
+        "p25": 105997,
+        "median": 117163,
+        "p75": 129600,
+        "n": 24
+    },
+    "fedex dataworks, inc.|software engineer lead|senior": {
+        "p25": 115482,
+        "median": 122158,
+        "p75": 148036,
+        "n": 16
+    },
+    "fedex freight, inc.|advisor - operations research|mid": {
+        "p25": 119205,
+        "median": 124300,
+        "p75": 125000,
+        "n": 5
+    },
+    "fedex freight, inc.|advisor-full stack developer|mid": {
+        "p25": 134805,
+        "median": 137563,
+        "p75": 148876,
+        "n": 7
+    },
+    "fedex freight, inc.|full stack developer iii|senior": {
+        "p25": 109924,
+        "median": 116106,
+        "p75": 122659,
+        "n": 7
+    },
+    "fedex freight, inc.|operations research scientist iii|senior": {
+        "p25": 108098,
+        "median": 120833,
+        "p75": 121035,
+        "n": 5
+    },
+    "fedex logistics, inc.|software developer advisor|mid": {
+        "p25": 115482,
+        "median": 115482,
+        "p75": 124240,
+        "n": 5
+    },
+    "fedex logistics, inc.|software developer iii|senior": {
+        "p25": 110531,
+        "median": 115482,
+        "p75": 115638,
+        "n": 8
+    },
+    "fehr & peers|transportation planner|mid": {
+        "p25": 72895,
+        "median": 76000,
+        "p75": 80750,
+        "n": 8
+    },
+    "fei.com, inc.|application developer|mid": {
+        "p25": 103887,
+        "median": 110160,
+        "p75": 125010,
+        "n": 7
+    },
+    "fei.com, inc.|quality assurance analyst|mid": {
+        "p25": 88770,
+        "median": 95484,
+        "p75": 97660,
+        "n": 5
+    },
+    "fei.com, inc.|systems analyst|mid": {
+        "p25": 122890,
+        "median": 133276,
+        "p75": 135504,
+        "n": 9
+    },
+    "fenwick & west, llp|associate|entry": {
+        "p25": 246250,
+        "median": 310000,
+        "p75": 392500,
+        "n": 10
+    },
+    "fermi forward discovery group, llc|associate scientist|entry": {
+        "p25": 85300,
+        "median": 86299,
+        "p75": 99361,
+        "n": 20
+    },
+    "fermi forward discovery group, llc|research associate|entry": {
+        "p25": 66700,
+        "median": 66705,
+        "p75": 71656,
+        "n": 26
+    },
+    "fermi forward discovery group, llc|staff engineer i|senior": {
+        "p25": 84900,
+        "median": 84905,
+        "p75": 84905,
+        "n": 10
+    },
+    "fetch rewards, llc|data analyst|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 115000,
+        "n": 7
+    },
+    "fev north america, inc.|project engineer|mid": {
+        "p25": 81300,
+        "median": 82876,
+        "p75": 88786,
+        "n": 5
+    },
+    "fev north america, inc.|senior project engineer|senior": {
+        "p25": 93595,
+        "median": 96427,
+        "p75": 99154,
+        "n": 8
+    },
+    "fev north america, inc.|team leader|mid": {
+        "p25": 105700,
+        "median": 107161,
+        "p75": 117832,
+        "n": 5
+    },
+    "fidelis software solutions inc|software developer|mid": {
+        "p25": 102206,
+        "median": 106000,
+        "p75": 108826,
+        "n": 14
+    },
+    "fidelis software solutions inc|systems engineer|mid": {
+        "p25": 84000,
+        "median": 85000,
+        "p75": 93000,
+        "n": 25
+    },
+    "fidelity brokerage services llc d/b/a fidelity investments|director, advanced data analytics and insights|senior": {
+        "p25": 138715,
+        "median": 151247,
+        "p75": 153904,
+        "n": 10
+    },
+    "fidelity brokerage services llc d/b/a fidelity investments|director, product management|senior": {
+        "p25": 120807,
+        "median": 129440,
+        "p75": 142995,
+        "n": 8
+    },
+    "fidelity brokerage services llc d/b/a fidelity investments|senior manager, advanced data analytics and insights|senior": {
+        "p25": 124223,
+        "median": 132775,
+        "p75": 137696,
+        "n": 10
+    },
+    "fidelity investments institutional operations company d/b/a fidelity investments|principal software engineer/developer|senior": {
+        "p25": 125537,
+        "median": 127878,
+        "p75": 127878,
+        "n": 5
+    },
+    "fidelity technology group, llc|director, architecture|senior": {
+        "p25": 146499,
+        "median": 149781,
+        "p75": 164486,
+        "n": 8
+    },
+    "fidelity technology group, llc|director, data engineering|senior": {
+        "p25": 149781,
+        "median": 153733,
+        "p75": 164486,
+        "n": 5
+    },
+    "fidelity technology group, llc|director, full stack engineering|senior": {
+        "p25": 150280,
+        "median": 164486,
+        "p75": 164486,
+        "n": 10
+    },
+    "fidelity technology group, llc|director, software engineering|senior": {
+        "p25": 149781,
+        "median": 157612,
+        "p75": 164486,
+        "n": 10
+    },
+    "fidelity technology group, llc|principal cloud engineer|senior": {
+        "p25": 127878,
+        "median": 141170,
+        "p75": 141170,
+        "n": 7
+    },
+    "fidelity technology group, llc|principal front end developer|senior": {
+        "p25": 127878,
+        "median": 127878,
+        "p75": 127878,
+        "n": 5
+    },
+    "fidelity technology group, llc|principal full stack engineer|senior": {
+        "p25": 127878,
+        "median": 132173,
+        "p75": 141170,
+        "n": 26
+    },
+    "fidelity technology group, llc|principal mobile developer|senior": {
+        "p25": 127878,
+        "median": 127878,
+        "p75": 136718,
+        "n": 7
+    },
+    "fidelity technology group, llc|principal software engineer/developer|senior": {
+        "p25": 127878,
+        "median": 138324,
+        "p75": 141170,
+        "n": 92
+    },
+    "fidelity technology group, llc|principal systems analyst|senior": {
+        "p25": 120198,
+        "median": 120853,
+        "p75": 127054,
+        "n": 5
+    },
+    "fidelity technology group, llc|senior cloud engineer|senior": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 114873,
+        "n": 6
+    },
+    "fidelity technology group, llc|senior data engineer|senior": {
+        "p25": 109262,
+        "median": 117832,
+        "p75": 117832,
+        "n": 10
+    },
+    "fidelity technology group, llc|senior front end developer|senior": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 12
+    },
+    "fidelity technology group, llc|senior full stack engineer|senior": {
+        "p25": 105997,
+        "median": 109845,
+        "p75": 117832,
+        "n": 37
+    },
+    "fidelity technology group, llc|senior manager, product management|senior": {
+        "p25": 126240,
+        "median": 129709,
+        "p75": 141170,
+        "n": 5
+    },
+    "fidelity technology group, llc|senior mobile developer|senior": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 112986,
+        "n": 8
+    },
+    "fidelity technology group, llc|senior software engineer/developer|senior": {
+        "p25": 105997,
+        "median": 109262,
+        "p75": 117832,
+        "n": 115
+    },
+    "fidelity technology group, llc|software engineer/developer|mid": {
+        "p25": 84094,
+        "median": 87032,
+        "p75": 94515,
+        "n": 10
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|cloud engineer|mid": {
+        "p25": 84094,
+        "median": 87495,
+        "p75": 94515,
+        "n": 8
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|digital assets engineer|mid": {
+        "p25": 84094,
+        "median": 84094,
+        "p75": 86387,
+        "n": 7
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, architecture|senior": {
+        "p25": 151195,
+        "median": 161741,
+        "p75": 164486,
+        "n": 37
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, cloud engineering|senior": {
+        "p25": 156998,
+        "median": 161741,
+        "p75": 164486,
+        "n": 18
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, data engineering|senior": {
+        "p25": 141541,
+        "median": 154305,
+        "p75": 160555,
+        "n": 18
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, data science|senior": {
+        "p25": 148762,
+        "median": 161803,
+        "p75": 169541,
+        "n": 5
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, full stack engineering|senior": {
+        "p25": 153041,
+        "median": 161741,
+        "p75": 164486,
+        "n": 52
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, it product management|senior": {
+        "p25": 136479,
+        "median": 141250,
+        "p75": 155921,
+        "n": 18
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, product management|senior": {
+        "p25": 136136,
+        "median": 141864,
+        "p75": 150509,
+        "n": 9
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, quant development|senior": {
+        "p25": 172744,
+        "median": 179982,
+        "p75": 189592,
+        "n": 5
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, site reliability engineering|senior": {
+        "p25": 150057,
+        "median": 152882,
+        "p75": 160025,
+        "n": 6
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|director, software engineering|senior": {
+        "p25": 149781,
+        "median": 161741,
+        "p75": 164486,
+        "n": 65
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|full stack engineer|mid": {
+        "p25": 84094,
+        "median": 91346,
+        "p75": 94515,
+        "n": 57
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal architect|senior": {
+        "p25": 132724,
+        "median": 141275,
+        "p75": 155937,
+        "n": 11
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal cloud engineer|senior": {
+        "p25": 128172,
+        "median": 141170,
+        "p75": 151325,
+        "n": 38
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal data engineer|senior": {
+        "p25": 125705,
+        "median": 135674,
+        "p75": 141170,
+        "n": 72
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal data modeler|senior": {
+        "p25": 132938,
+        "median": 133997,
+        "p75": 139211,
+        "n": 6
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal database administrator|senior": {
+        "p25": 110531,
+        "median": 122240,
+        "p75": 127249,
+        "n": 16
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal database developer|senior": {
+        "p25": 116624,
+        "median": 124084,
+        "p75": 125119,
+        "n": 9
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal digital assets engineer|senior": {
+        "p25": 139002,
+        "median": 141170,
+        "p75": 141372,
+        "n": 8
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal front end developer|senior": {
+        "p25": 132083,
+        "median": 141170,
+        "p75": 147628,
+        "n": 6
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal full stack engineer|senior": {
+        "p25": 131412,
+        "median": 141170,
+        "p75": 149781,
+        "n": 182
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal it data analyst|senior": {
+        "p25": 112929,
+        "median": 118477,
+        "p75": 119078,
+        "n": 5
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal mobile developer|senior": {
+        "p25": 127878,
+        "median": 141170,
+        "p75": 149781,
+        "n": 9
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal qa engineer|senior": {
+        "p25": 113878,
+        "median": 117726,
+        "p75": 124226,
+        "n": 7
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal site reliability engineer|senior": {
+        "p25": 121263,
+        "median": 132781,
+        "p75": 136921,
+        "n": 15
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal software engineer|senior": {
+        "p25": 129042,
+        "median": 129055,
+        "p75": 131813,
+        "n": 10
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal software engineer in test|senior": {
+        "p25": 121700,
+        "median": 129038,
+        "p75": 130396,
+        "n": 8
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal software engineer/developer|senior": {
+        "p25": 125429,
+        "median": 132080,
+        "p75": 141170,
+        "n": 263
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal systems analyst|senior": {
+        "p25": 116624,
+        "median": 121263,
+        "p75": 127433,
+        "n": 29
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal systems engineer|senior": {
+        "p25": 122583,
+        "median": 128173,
+        "p75": 132605,
+        "n": 18
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal, cloud engineer|senior": {
+        "p25": 140150,
+        "median": 147044,
+        "p75": 157248,
+        "n": 8
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal, data engineer|senior": {
+        "p25": 125119,
+        "median": 132781,
+        "p75": 138965,
+        "n": 9
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|principal, full stack engineer|senior": {
+        "p25": 132781,
+        "median": 141170,
+        "p75": 148662,
+        "n": 19
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior cloud engineer|senior": {
+        "p25": 105997,
+        "median": 112923,
+        "p75": 116709,
+        "n": 26
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior data engineer|senior": {
+        "p25": 112923,
+        "median": 116709,
+        "p75": 117832,
+        "n": 56
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior database administrator|senior": {
+        "p25": 87240,
+        "median": 88389,
+        "p75": 89336,
+        "n": 6
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior digital assets engineer|senior": {
+        "p25": 122970,
+        "median": 122970,
+        "p75": 125029,
+        "n": 5
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior front end developer|senior": {
+        "p25": 112923,
+        "median": 112923,
+        "p75": 116709,
+        "n": 21
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior full stack engineer|senior": {
+        "p25": 105997,
+        "median": 112923,
+        "p75": 117832,
+        "n": 236
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior it data analyst|senior": {
+        "p25": 103501,
+        "median": 103501,
+        "p75": 110063,
+        "n": 7
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior manager, data science|senior": {
+        "p25": 106771,
+        "median": 125922,
+        "p75": 144903,
+        "n": 6
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior manager, it product management|senior": {
+        "p25": 122514,
+        "median": 127569,
+        "p75": 136320,
+        "n": 8
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior manager, product management|senior": {
+        "p25": 118035,
+        "median": 126068,
+        "p75": 128928,
+        "n": 8
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior mobile developer|senior": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 110604,
+        "n": 15
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior qa engineer|senior": {
+        "p25": 98114,
+        "median": 105997,
+        "p75": 112923,
+        "n": 5
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior quantitative developer|senior": {
+        "p25": 100547,
+        "median": 125237,
+        "p75": 142771,
+        "n": 5
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior site reliability engineer|senior": {
+        "p25": 106298,
+        "median": 107807,
+        "p75": 115548,
+        "n": 6
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior software engineer|senior": {
+        "p25": 112923,
+        "median": 112923,
+        "p75": 116709,
+        "n": 5
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior software engineer in test|senior": {
+        "p25": 106875,
+        "median": 114847,
+        "p75": 116709,
+        "n": 10
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior software engineer/developer|senior": {
+        "p25": 108826,
+        "median": 116709,
+        "p75": 117832,
+        "n": 339
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior systems analyst|senior": {
+        "p25": 98114,
+        "median": 105693,
+        "p75": 106917,
+        "n": 37
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior systems engineer|senior": {
+        "p25": 101911,
+        "median": 105997,
+        "p75": 113391,
+        "n": 26
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|senior systems services and support analyst|senior": {
+        "p25": 95717,
+        "median": 100924,
+        "p75": 104894,
+        "n": 6
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|software engineer/developer|mid": {
+        "p25": 84094,
+        "median": 94182,
+        "p75": 95493,
+        "n": 25
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|vice president, architecture|senior": {
+        "p25": 162427,
+        "median": 170616,
+        "p75": 172744,
+        "n": 10
+    },
+    "fidelity technology group, llc d/b/a fidelity investments|vice president, full stack engineering|senior": {
+        "p25": 156998,
+        "median": 161741,
+        "p75": 161741,
+        "n": 9
+    },
+    "fidelity workplace investing llc d/b/a fidelity investments|principal software engineer/developer|senior": {
+        "p25": 122682,
+        "median": 125409,
+        "p75": 125429,
+        "n": 5
+    },
+    "field operations llc|landscape architectural and urban designer|mid": {
+        "p25": 87000,
+        "median": 89000,
+        "p75": 90500,
+        "n": 7
+    },
+    "fifth third bank, national association|lead data engineer|senior": {
+        "p25": 124435,
+        "median": 130000,
+        "p75": 130000,
+        "n": 5
+    },
+    "fifth third bank, national association|lead software engineer|senior": {
+        "p25": 120000,
+        "median": 127000,
+        "p75": 130500,
+        "n": 13
+    },
+    "fifth third bank, national association|senior quantitative analyst|senior": {
+        "p25": 105880,
+        "median": 106700,
+        "p75": 120938,
+        "n": 7
+    },
+    "figma, inc.|data scientist|mid": {
+        "p25": 163800,
+        "median": 190000,
+        "p75": 195000,
+        "n": 5
+    },
+    "figma, inc.|software engineer|mid": {
+        "p25": 198955,
+        "median": 210420,
+        "p75": 235964,
+        "n": 32
+    },
+    "finalcover llc|back-end programmer|mid": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 90000,
+        "n": 5
+    },
+    "financial industry regulatory authority, inc.|lead developer|senior": {
+        "p25": 173763,
+        "median": 173763,
+        "p75": 175427,
+        "n": 10
+    },
+    "financial industry regulatory authority, inc.|lead software engineer|senior": {
+        "p25": 150758,
+        "median": 173763,
+        "p75": 175427,
+        "n": 5
+    },
+    "financial industry regulatory authority, inc.|senior developer|senior": {
+        "p25": 148221,
+        "median": 148221,
+        "p75": 148221,
+        "n": 5
+    },
+    "financial industry regulatory authority, inc.|senior developer in test|senior": {
+        "p25": 134654,
+        "median": 139880,
+        "p75": 139880,
+        "n": 6
+    },
+    "finitetek inc|senior software engineer|senior": {
+        "p25": 97063,
+        "median": 99673,
+        "p75": 102955,
+        "n": 6
+    },
+    "finitetek inc|software developer|mid": {
+        "p25": 97157,
+        "median": 97157,
+        "p75": 99133,
+        "n": 11
+    },
+    "finovax technologies inc.|business intelligence analyst|mid": {
+        "p25": 69160,
+        "median": 75961,
+        "p75": 129890,
+        "n": 6
+    },
+    "finsoft consultants, inc.|software developer|mid": {
+        "p25": 109300,
+        "median": 123700,
+        "p75": 146850,
+        "n": 7
+    },
+    "fint solutions inc|software engineer|mid": {
+        "p25": 109730,
+        "median": 119007,
+        "p75": 126942,
+        "n": 6
+    },
+    "fintek solutions llc|software developer|mid": {
+        "p25": 81000,
+        "median": 81000,
+        "p75": 91000,
+        "n": 7
+    },
+    "fiori technology solutions, inc.|dft engineer|mid": {
+        "p25": 97000,
+        "median": 97000,
+        "p75": 97500,
+        "n": 7
+    },
+    "fiori technology solutions, inc.|physical design engineer|mid": {
+        "p25": 97250,
+        "median": 98000,
+        "p75": 98000,
+        "n": 6
+    },
+    "firefly pros, inc.|business analyst|mid": {
+        "p25": 82763,
+        "median": 82763,
+        "p75": 93482,
+        "n": 11
+    },
+    "fireworks.ai, inc.|software engineer|mid": {
+        "p25": 150000,
+        "median": 198000,
+        "p75": 227500,
+        "n": 10
+    },
+    "first choice health corp|exercise physiologist|mid": {
+        "p25": 64480,
+        "median": 64480,
+        "p75": 79040,
+        "n": 5
+    },
+    "first citizens bank and trust co.|business systems analyst iii|senior": {
+        "p25": 120619,
+        "median": 127754,
+        "p75": 131695,
+        "n": 11
+    },
+    "first citizens bank and trust co.|lead software engineer|senior": {
+        "p25": 128325,
+        "median": 134514,
+        "p75": 146876,
+        "n": 35
+    },
+    "first citizens bank and trust co.|senior business systems analyst|senior": {
+        "p25": 134336,
+        "median": 141040,
+        "p75": 160090,
+        "n": 12
+    },
+    "first citizens bank and trust co.|senior software engineer|senior": {
+        "p25": 121779,
+        "median": 129445,
+        "p75": 150899,
+        "n": 20
+    },
+    "first citizens bank and trust co.|software engineer consultant|mid": {
+        "p25": 155937,
+        "median": 157248,
+        "p75": 184827,
+        "n": 11
+    },
+    "first citizens bank and trust co.|software engineer ii|mid": {
+        "p25": 123741,
+        "median": 126443,
+        "p75": 134771,
+        "n": 7
+    },
+    "first citizens bank and trust co.|sr. software engineer|senior": {
+        "p25": 134514,
+        "median": 139747,
+        "p75": 150080,
+        "n": 5
+    },
+    "first citizens bank and trust co.|technical lead|senior": {
+        "p25": 132973,
+        "median": 151590,
+        "p75": 183410,
+        "n": 8
+    },
+    "first cloud inc|software developer|mid": {
+        "p25": 84094,
+        "median": 87495,
+        "p75": 96402,
+        "n": 8
+    },
+    "first cloud inc|software engineer|mid": {
+        "p25": 80818,
+        "median": 92248,
+        "p75": 112424,
+        "n": 10
+    },
+    "first cloud tech inc.|software engineer|mid": {
+        "p25": 99000,
+        "median": 110000,
+        "p75": 110000,
+        "n": 5
+    },
+    "first commonwealth dental llc|general dentist|mid": {
+        "p25": 149760,
+        "median": 149760,
+        "p75": 166400,
+        "n": 5
+    },
+    "first consulting group, llc.|network engineer|mid": {
+        "p25": 86424,
+        "median": 110032,
+        "p75": 115585,
+        "n": 7
+    },
+    "first hand management resources, llc|physical therapist|mid": {
+        "p25": 77979,
+        "median": 77979,
+        "p75": 77979,
+        "n": 11
+    },
+    "first horizon bank|it consultant senior|senior": {
+        "p25": 116293,
+        "median": 123445,
+        "p75": 134805,
+        "n": 5
+    },
+    "first national bank of omaha|sr. developer, technology|senior": {
+        "p25": 123634,
+        "median": 129375,
+        "p75": 130662,
+        "n": 7
+    },
+    "first object inc|sap po and cpi consultant|mid": {
+        "p25": 108500,
+        "median": 108500,
+        "p75": 108500,
+        "n": 5
+    },
+    "first object inc|software developer|mid": {
+        "p25": 102331,
+        "median": 105997,
+        "p75": 105997,
+        "n": 6
+    },
+    "first solar, inc.|engineer- development ii|mid": {
+        "p25": 105602,
+        "median": 105602,
+        "p75": 105602,
+        "n": 10
+    },
+    "first solar, inc.|engineer- manufacturing i|entry": {
+        "p25": 67429,
+        "median": 67517,
+        "p75": 67517,
+        "n": 6
+    },
+    "first tek, inc.|programmer analyst|mid": {
+        "p25": 89710,
+        "median": 95576,
+        "p75": 103729,
+        "n": 10
+    },
+    "firstnet global llc|java developer|mid": {
+        "p25": 85888,
+        "median": 92580,
+        "p75": 103828,
+        "n": 6
+    },
+    "firstnet global llc|software engineer|mid": {
+        "p25": 83657,
+        "median": 83657,
+        "p75": 90136,
+        "n": 7
+    },
+    "fis management services, llc|development manager|senior": {
+        "p25": 118526,
+        "median": 127504,
+        "p75": 143440,
+        "n": 6
+    },
+    "fis management services, llc|development manager senior|senior": {
+        "p25": 132500,
+        "median": 132500,
+        "p75": 156984,
+        "n": 5
+    },
+    "fis management services, llc|it architect|senior": {
+        "p25": 127656,
+        "median": 128125,
+        "p75": 133281,
+        "n": 6
+    },
+    "fis management services, llc|it architect senior|senior": {
+        "p25": 135385,
+        "median": 148083,
+        "p75": 169820,
+        "n": 22
+    },
+    "fis management services, llc|it architect specialist|senior": {
+        "p25": 152097,
+        "median": 152487,
+        "p75": 187574,
+        "n": 10
+    },
+    "fis management services, llc|programmer analyst ii|mid": {
+        "p25": 102001,
+        "median": 118072,
+        "p75": 118072,
+        "n": 5
+    },
+    "fis management services, llc|programmer analyst senior|senior": {
+        "p25": 118352,
+        "median": 119198,
+        "p75": 130356,
+        "n": 21
+    },
+    "fis management services, llc|programmer analyst specialist|mid": {
+        "p25": 123956,
+        "median": 131473,
+        "p75": 135389,
+        "n": 16
+    },
+    "fis management services, llc|software engineer ii|mid": {
+        "p25": 105211,
+        "median": 123600,
+        "p75": 131211,
+        "n": 14
+    },
+    "fis management services, llc|software engineer senior|senior": {
+        "p25": 116584,
+        "median": 120840,
+        "p75": 136600,
+        "n": 47
+    },
+    "fis management services, llc|software engineer specialist|mid": {
+        "p25": 136728,
+        "median": 144649,
+        "p75": 154919,
+        "n": 39
+    },
+    "fis management services, llc|staff software development engineer|senior": {
+        "p25": 150219,
+        "median": 189100,
+        "p75": 189100,
+        "n": 6
+    },
+    "fis management services, llc|systems administrator specialist|mid": {
+        "p25": 139860,
+        "median": 140998,
+        "p75": 147159,
+        "n": 12
+    },
+    "fis management services, llc|technology business consultant senior|senior": {
+        "p25": 114733,
+        "median": 121251,
+        "p75": 159826,
+        "n": 12
+    },
+    "fiserv solutions, llc|devops engineer|mid": {
+        "p25": 131893,
+        "median": 136113,
+        "p75": 136113,
+        "n": 5
+    },
+    "fiserv solutions, llc|quality assurance engineering - advisor i|entry": {
+        "p25": 109777,
+        "median": 118414,
+        "p75": 118414,
+        "n": 12
+    },
+    "fiserv solutions, llc|senior software engineer|senior": {
+        "p25": 153486,
+        "median": 174035,
+        "p75": 176851,
+        "n": 19
+    },
+    "fiserv solutions, llc|software development engineering - advisor i|entry": {
+        "p25": 133327,
+        "median": 141118,
+        "p75": 157018,
+        "n": 56
+    },
+    "fiserv solutions, llc|software development engineering - advisor ii|mid": {
+        "p25": 136061,
+        "median": 149760,
+        "p75": 157051,
+        "n": 32
+    },
+    "fiserv solutions, llc|software development engineering - sr professional i|mid": {
+        "p25": 127797,
+        "median": 130231,
+        "p75": 138431,
+        "n": 6
+    },
+    "fiserv solutions, llc|software development engineering - sr professional ii|senior": {
+        "p25": 120891,
+        "median": 127433,
+        "p75": 128827,
+        "n": 20
+    },
+    "fiserv solutions, llc|software development engineering \u201c advisor i|entry": {
+        "p25": 138070,
+        "median": 144918,
+        "p75": 165623,
+        "n": 7
+    },
+    "fiserv solutions, llc|staff engineer|senior": {
+        "p25": 150080,
+        "median": 156270,
+        "p75": 184827,
+        "n": 5
+    },
+    "fiserv solutions, llc|systems engineering - advisor i|entry": {
+        "p25": 108514,
+        "median": 123531,
+        "p75": 123531,
+        "n": 5
+    },
+    "fitch ratings, inc.|associate director|senior": {
+        "p25": 156012,
+        "median": 166400,
+        "p75": 186850,
+        "n": 6
+    },
+    "fiunex inc|electrical engineer|mid": {
+        "p25": 74000,
+        "median": 74500,
+        "p75": 85174,
+        "n": 6
+    },
+    "five rings llc|quantitative researcher|mid": {
+        "p25": 300000,
+        "median": 300000,
+        "p75": 300000,
+        "n": 7
+    },
+    "fives dyag corporation|controls engineer|mid": {
+        "p25": 87308,
+        "median": 95930,
+        "p75": 103834,
+        "n": 7
+    },
+    "flair tech solutions inc|software engineer|mid": {
+        "p25": 93357,
+        "median": 99325,
+        "p75": 110635,
+        "n": 10
+    },
+    "flatiron health, inc.|software engineer|mid": {
+        "p25": 127091,
+        "median": 131997,
+        "p75": 143115,
+        "n": 7
+    },
+    "flexera global, inc.|software developer|mid": {
+        "p25": 96687,
+        "median": 103375,
+        "p75": 108500,
+        "n": 18
+    },
+    "flexera global, inc.|software engineer|mid": {
+        "p25": 103500,
+        "median": 106000,
+        "p75": 106000,
+        "n": 24
+    },
+    "flexport, inc.|senior software engineer|senior": {
+        "p25": 209028,
+        "median": 216837,
+        "p75": 220000,
+        "n": 6
+    },
+    "flexport, inc.|software engineer|mid": {
+        "p25": 144550,
+        "median": 150000,
+        "p75": 175000,
+        "n": 11
+    },
+    "flexton, inc|java developer|mid": {
+        "p25": 126693,
+        "median": 126693,
+        "p75": 126693,
+        "n": 10
+    },
+    "flextrade systems, inc.|senior software developer|senior": {
+        "p25": 137000,
+        "median": 145000,
+        "p75": 179000,
+        "n": 5
+    },
+    "flextrade systems, inc.|software developer|mid": {
+        "p25": 105000,
+        "median": 107000,
+        "p75": 128500,
+        "n": 6
+    },
+    "florida atlantic university|assistant professor|entry": {
+        "p25": 80000,
+        "median": 80000,
+        "p75": 97000,
+        "n": 13
+    },
+    "florida gulf coast university|assistant professor|entry": {
+        "p25": 67500,
+        "median": 70000,
+        "p75": 86500,
+        "n": 15
+    },
+    "florida gulf coast university|instructor i|entry": {
+        "p25": 53280,
+        "median": 61152,
+        "p75": 67398,
+        "n": 7
+    },
+    "florida hospital healthcare partners, inc.|interventional cardiologist|mid": {
+        "p25": 486250,
+        "median": 600000,
+        "p75": 650000,
+        "n": 6
+    },
+    "florida hospital healthcare partners, inc.|physician|mid": {
+        "p25": 266250,
+        "median": 315000,
+        "p75": 360000,
+        "n": 6
+    },
+    "florida hospital medical group, inc.|physician|mid": {
+        "p25": 400000,
+        "median": 459698,
+        "p75": 575000,
+        "n": 12
+    },
+    "florida hospital ocala, inc.|medical laboratory scientist ii|mid": {
+        "p25": 60528,
+        "median": 66872,
+        "p75": 74994,
+        "n": 11
+    },
+    "florida institute of technology|assistant professor|entry": {
+        "p25": 86295,
+        "median": 97000,
+        "p75": 105086,
+        "n": 12
+    },
+    "florida international university|assistant professor|entry": {
+        "p25": 96367,
+        "median": 105000,
+        "p75": 118750,
+        "n": 18
+    },
+    "florida international university|postdoctoral associate|entry": {
+        "p25": 56534,
+        "median": 61884,
+        "p75": 62759,
+        "n": 5
+    },
+    "florida polytechnic university|assistant professor|entry": {
+        "p25": 88000,
+        "median": 88000,
+        "p75": 89500,
+        "n": 6
+    },
+    "florida power & light company|principal it architect|senior": {
+        "p25": 157375,
+        "median": 168930,
+        "p75": 175000,
+        "n": 7
+    },
+    "florida power & light company|principal it programmer analyst|senior": {
+        "p25": 147615,
+        "median": 149781,
+        "p75": 149835,
+        "n": 8
+    },
+    "floyd valley healthcare|medical technologist|mid": {
+        "p25": 61068,
+        "median": 61068,
+        "p75": 62316,
+        "n": 5
+    },
+    "fluor enterprises, inc.|associate project controls specialist ii|entry": {
+        "p25": 81262,
+        "median": 84298,
+        "p75": 84298,
+        "n": 6
+    },
+    "fluor enterprises, inc.|construction engineer|mid": {
+        "p25": 85927,
+        "median": 95195,
+        "p75": 99934,
+        "n": 6
+    },
+    "fmr llc d/b/a fidelity investments|it audit manager|senior": {
+        "p25": 103772,
+        "median": 105514,
+        "p75": 106995,
+        "n": 9
+    },
+    "fol management llc|senior software engineer|senior": {
+        "p25": 229690,
+        "median": 230000,
+        "p75": 264756,
+        "n": 7
+    },
+    "food and drug administration|visiting associate|entry": {
+        "p25": 129759,
+        "median": 132638,
+        "p75": 133692,
+        "n": 26
+    },
+    "food and drug administration|visiting scientist|mid": {
+        "p25": 98962,
+        "median": 104807,
+        "p75": 133252,
+        "n": 11
+    },
+    "forage technology corporation|software engineer|mid": {
+        "p25": 150000,
+        "median": 153301,
+        "p75": 155605,
+        "n": 5
+    },
+    "ford motor company|battery control software application engineer|mid": {
+        "p25": 101527,
+        "median": 117520,
+        "p75": 120349,
+        "n": 6
+    },
+    "ford motor company|data engineer|mid": {
+        "p25": 115922,
+        "median": 131740,
+        "p75": 139552,
+        "n": 22
+    },
+    "ford motor company|data product manager|senior": {
+        "p25": 124470,
+        "median": 136629,
+        "p75": 145050,
+        "n": 9
+    },
+    "ford motor company|data scientist|mid": {
+        "p25": 97140,
+        "median": 113580,
+        "p75": 129978,
+        "n": 28
+    },
+    "ford motor company|embedded software engineer|mid": {
+        "p25": 117812,
+        "median": 125460,
+        "p75": 132350,
+        "n": 15
+    },
+    "ford motor company|full stack data engineer|mid": {
+        "p25": 125085,
+        "median": 136804,
+        "p75": 146442,
+        "n": 50
+    },
+    "ford motor company|full stack software engineer|mid": {
+        "p25": 120349,
+        "median": 131130,
+        "p75": 132350,
+        "n": 9
+    },
+    "ford motor company|functional safety engineer|mid": {
+        "p25": 96720,
+        "median": 96720,
+        "p75": 109680,
+        "n": 5
+    },
+    "ford motor company|manufacturing engineer|mid": {
+        "p25": 90415,
+        "median": 99991,
+        "p75": 106501,
+        "n": 6
+    },
+    "ford motor company|mbs software engineer|mid": {
+        "p25": 133536,
+        "median": 138486,
+        "p75": 155709,
+        "n": 5
+    },
+    "ford motor company|platform software engineer|mid": {
+        "p25": 132422,
+        "median": 144535,
+        "p75": 148056,
+        "n": 40
+    },
+    "ford motor company|product design engineer|mid": {
+        "p25": 126240,
+        "median": 131130,
+        "p75": 131130,
+        "n": 5
+    },
+    "ford motor company|product development engineer|mid": {
+        "p25": 110310,
+        "median": 124050,
+        "p75": 131130,
+        "n": 29
+    },
+    "ford motor company|product manager|senior": {
+        "p25": 110188,
+        "median": 131130,
+        "p75": 140723,
+        "n": 11
+    },
+    "ford motor company|research engineer|mid": {
+        "p25": 119910,
+        "median": 126240,
+        "p75": 140917,
+        "n": 7
+    },
+    "ford motor company|senior software engineer|senior": {
+        "p25": 121852,
+        "median": 136011,
+        "p75": 156135,
+        "n": 32
+    },
+    "ford motor company|software engineer|mid": {
+        "p25": 114135,
+        "median": 132350,
+        "p75": 141240,
+        "n": 87
+    },
+    "ford motor company|software validation engineer|mid": {
+        "p25": 96930,
+        "median": 102981,
+        "p75": 106330,
+        "n": 7
+    },
+    "ford motor credit company llc|analytics scientist|mid": {
+        "p25": 83158,
+        "median": 83158,
+        "p75": 93900,
+        "n": 5
+    },
+    "ford motor credit company llc|software engineer|mid": {
+        "p25": 131130,
+        "median": 134971,
+        "p75": 150060,
+        "n": 13
+    },
+    "formagrid, inc.|software engineer|mid": {
+        "p25": 180000,
+        "median": 200000,
+        "p75": 253000,
+        "n": 5
+    },
+    "forsys inc.|software engineer|mid": {
+        "p25": 86000,
+        "median": 86000,
+        "p75": 86000,
+        "n": 8
+    },
+    "forte construction corp|project engineer|mid": {
+        "p25": 75000,
+        "median": 83000,
+        "p75": 90000,
+        "n": 13
+    },
+    "forthright soft inc.|software developer|mid": {
+        "p25": 90792,
+        "median": 90792,
+        "p75": 90792,
+        "n": 29
+    },
+    "forthright soft inc.|software engineer|mid": {
+        "p25": 90792,
+        "median": 90792,
+        "p75": 90792,
+        "n": 11
+    },
+    "fortinet, inc.|dev ops engineer|mid": {
+        "p25": 145000,
+        "median": 150758,
+        "p75": 164359,
+        "n": 5
+    },
+    "fortinet, inc.|principal software development engineer|senior": {
+        "p25": 195000,
+        "median": 200720,
+        "p75": 202326,
+        "n": 10
+    },
+    "fortinet, inc.|software development engineer|mid": {
+        "p25": 135000,
+        "median": 150000,
+        "p75": 172931,
+        "n": 41
+    },
+    "fortinet, inc.|software development qa engineer|mid": {
+        "p25": 135000,
+        "median": 135440,
+        "p75": 140000,
+        "n": 10
+    },
+    "fortinet, inc.|software qa engineer|mid": {
+        "p25": 123647,
+        "median": 128539,
+        "p75": 135074,
+        "n": 8
+    },
+    "fortinet, inc.|staff software development engineer|senior": {
+        "p25": 168750,
+        "median": 194353,
+        "p75": 240000,
+        "n": 16
+    },
+    "fortinet, inc.|staff software development qa engineer|senior": {
+        "p25": 154796,
+        "median": 154796,
+        "p75": 165422,
+        "n": 5
+    },
+    "fortinet, inc.|technical account manager|senior": {
+        "p25": 119038,
+        "median": 122824,
+        "p75": 131421,
+        "n": 11
+    },
+    "fortinet, inc.|technical support engineer|mid": {
+        "p25": 84677,
+        "median": 86965,
+        "p75": 115856,
+        "n": 17
+    },
+    "fortisview llc|software developer|mid": {
+        "p25": 115606,
+        "median": 130457,
+        "p75": 164013,
+        "n": 6
+    },
+    "fortrea inc.|principal statistical programmer|senior": {
+        "p25": 125694,
+        "median": 125694,
+        "p75": 131497,
+        "n": 8
+    },
+    "fourth technologies inc|software developer|mid": {
+        "p25": 84875,
+        "median": 97050,
+        "p75": 116875,
+        "n": 8
+    },
+    "fourth technologies inc.|software developer|mid": {
+        "p25": 89250,
+        "median": 90000,
+        "p75": 100125,
+        "n": 6
+    },
+    "fox cable network services, llc|senior data engineer|senior": {
+        "p25": 170000,
+        "median": 170000,
+        "p75": 175000,
+        "n": 5
+    },
+    "fox cable network services, llc|senior salesforce developer|senior": {
+        "p25": 155167,
+        "median": 157571,
+        "p75": 158919,
+        "n": 5
+    },
+    "fox rehabilitation physical, occupational and speech therapy services, l.l.c.|physical therapist|mid": {
+        "p25": 93470,
+        "median": 94477,
+        "p75": 96500,
+        "n": 6
+    },
+    "foxconn assembly llc|process engineer|mid": {
+        "p25": 70013,
+        "median": 70013,
+        "p75": 70013,
+        "n": 5
+    },
+    "fpt usa corporation|software engineer|mid": {
+        "p25": 91190,
+        "median": 93252,
+        "p75": 95040,
+        "n": 10
+    },
+    "fractal analytics, inc.|principal consultant|senior": {
+        "p25": 162538,
+        "median": 174770,
+        "p75": 193606,
+        "n": 6
+    },
+    "fractal analytics, inc.|senior consultant|senior": {
+        "p25": 81223,
+        "median": 91270,
+        "p75": 95731,
+        "n": 6
+    },
+    "fractal analytics, inc.|senior data scientist|senior": {
+        "p25": 103900,
+        "median": 114887,
+        "p75": 120277,
+        "n": 7
+    },
+    "framingham state university|assistant professor|entry": {
+        "p25": 87750,
+        "median": 96000,
+        "p75": 105808,
+        "n": 6
+    },
+    "franciscan health system|hospitalist|mid": {
+        "p25": 275000,
+        "median": 306000,
+        "p75": 306009,
+        "n": 5
+    },
+    "franciscan missionaries of our lady health system, inc.|hospitalist (internist)|mid": {
+        "p25": 318420,
+        "median": 318420,
+        "p75": 341718,
+        "n": 20
+    },
+    "fred hutchinson cancer center|postdoctoral research fellow|senior": {
+        "p25": 77976,
+        "median": 77976,
+        "p75": 78687,
+        "n": 20
+    },
+    "fred hutchinson cancer center|research technician ii|mid": {
+        "p25": 61289,
+        "median": 63960,
+        "p75": 66002,
+        "n": 8
+    },
+    "fred hutchinson cancer center|staff scientist|senior": {
+        "p25": 93075,
+        "median": 110805,
+        "p75": 126955,
+        "n": 6
+    },
+    "freedom debt relief llc|software engineer|mid": {
+        "p25": 142000,
+        "median": 156000,
+        "p75": 158000,
+        "n": 5
+    },
+    "freshfields us llp|associate|entry": {
+        "p25": 225000,
+        "median": 260000,
+        "p75": 260000,
+        "n": 9
+    },
+    "freudenberg-nok general partnership|senior application engineer|senior": {
+        "p25": 92527,
+        "median": 105321,
+        "p75": 134772,
+        "n": 6
+    },
+    "freyr,inc.|regulatory affairs analyst|mid": {
+        "p25": 72742,
+        "median": 73140,
+        "p75": 95425,
+        "n": 7
+    },
+    "fridley public schools independent school district 14|teacher, continuous building substitute|mid": {
+        "p25": 62400,
+        "median": 62400,
+        "p75": 65520,
+        "n": 13
+    },
+    "fried, frank, harris, shriver & jacobson llp|associate attorney|entry": {
+        "p25": 247500,
+        "median": 330000,
+        "p75": 377500,
+        "n": 12
+    },
+    "friendly consultants inc|sqa engineer|mid": {
+        "p25": 91894,
+        "median": 91894,
+        "p75": 92000,
+        "n": 17
+    },
+    "frontage laboratories, inc.|scientist|mid": {
+        "p25": 65333,
+        "median": 66607,
+        "p75": 76983,
+        "n": 18
+    },
+    "frontier airlines|captain|mid": {
+        "p25": 456497,
+        "median": 460044,
+        "p75": 463590,
+        "n": 6
+    },
+    "frontier airlines|first officer|mid": {
+        "p25": 246979,
+        "median": 246979,
+        "p75": 246979,
+        "n": 15
+    },
+    "frontier communications parent, inc.|engr, software iv|senior": {
+        "p25": 127504,
+        "median": 134971,
+        "p75": 134971,
+        "n": 5
+    },
+    "frontier communications parent, inc.|engr, software sr|senior": {
+        "p25": 142280,
+        "median": 149781,
+        "p75": 149781,
+        "n": 8
+    },
+    "frontier it solutions inc|software developer|mid": {
+        "p25": 105146,
+        "median": 106000,
+        "p75": 106558,
+        "n": 5
+    },
+    "frontier schools, inc.|mathematics teacher|mid": {
+        "p25": 46670,
+        "median": 63500,
+        "p75": 66875,
+        "n": 8
+    },
+    "frontier technologies, llc|software engineer|mid": {
+        "p25": 102000,
+        "median": 110500,
+        "p75": 113000,
+        "n": 6
+    },
+    "frost bank|software engineer iii|senior": {
+        "p25": 137025,
+        "median": 149968,
+        "p75": 152512,
+        "n": 5
+    },
+    "fsv payment systems, inc.|software engineer|mid": {
+        "p25": 99184,
+        "median": 102119,
+        "p75": 105300,
+        "n": 6
+    },
+    "fti, llc|director|senior": {
+        "p25": 132597,
+        "median": 160000,
+        "p75": 190000,
+        "n": 11
+    },
+    "fti, llc|managing director|senior": {
+        "p25": 260000,
+        "median": 280000,
+        "p75": 336000,
+        "n": 7
+    },
+    "fti, llc|senior consultant|senior": {
+        "p25": 113250,
+        "median": 115000,
+        "p75": 132000,
+        "n": 8
+    },
+    "fti, llc|senior director|senior": {
+        "p25": 200000,
+        "median": 254000,
+        "p75": 272500,
+        "n": 7
+    },
+    "fttny llc|trader|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 175000,
+        "n": 9
+    },
+    "fuge technologies, inc.|software developer|mid": {
+        "p25": 91176,
+        "median": 113412,
+        "p75": 114400,
+        "n": 6
+    },
+    "fujitsu network communications, inc.|software development engineer|mid": {
+        "p25": 105479,
+        "median": 127878,
+        "p75": 151273,
+        "n": 11
+    },
+    "fujitsu north america, inc.|computer software engineer applications|mid": {
+        "p25": 98987,
+        "median": 116397,
+        "p75": 120598,
+        "n": 5
+    },
+    "fujitsu north america, inc.|computer software engineer, applications|mid": {
+        "p25": 102752,
+        "median": 114691,
+        "p75": 126017,
+        "n": 99
+    },
+    "fujitsu north america, inc.|database administrators|mid": {
+        "p25": 97413,
+        "median": 100854,
+        "p75": 101441,
+        "n": 7
+    },
+    "fusion global solutions llc|software engineer|mid": {
+        "p25": 108500,
+        "median": 110000,
+        "p75": 112250,
+        "n": 10
+    },
+    "fusion life sciences technologies llc|manufacturing engineer|mid": {
+        "p25": 96980,
+        "median": 104000,
+        "p75": 106600,
+        "n": 12
+    },
+    "fusion life sciences technologies llc|quality engineer|mid": {
+        "p25": 93600,
+        "median": 94640,
+        "p75": 110656,
+        "n": 14
+    },
+    "fusion life sciences technologies llc|sr. quality engineer|senior": {
+        "p25": 94848,
+        "median": 94848,
+        "p75": 120640,
+        "n": 5
+    },
+    "fusion life sciences technologies llc|validation engineer|mid": {
+        "p25": 91520,
+        "median": 98800,
+        "p75": 122304,
+        "n": 8
+    },
+    "future promise educational services inc|teacher|mid": {
+        "p25": 54000,
+        "median": 55000,
+        "p75": 56430,
+        "n": 21
+    },
+    "future promise educational services, inc|teacher|mid": {
+        "p25": 54000,
+        "median": 54000,
+        "p75": 56000,
+        "n": 9
+    },
+    "fuyao glass america inc.|maintenance engineer|mid": {
+        "p25": 78000,
+        "median": 78139,
+        "p75": 79567,
+        "n": 5
+    },
+    "fuyao glass america, inc.|data analyst|mid": {
+        "p25": 60000,
+        "median": 60127,
+        "p75": 61939,
+        "n": 6
+    }
+}

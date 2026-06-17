@@ -1,0 +1,986 @@
+{
+    "q2 software, inc.|senior software engineer|senior": {
+        "p25": 139051,
+        "median": 153468,
+        "p75": 155709,
+        "n": 6
+    },
+    "q4 designs llc|executive vice president - merchandising and global sourcing|senior": {
+        "p25": 200000,
+        "median": 200000,
+        "p75": 200000,
+        "n": 6
+    },
+    "q9 software llc|software developer|mid": {
+        "p25": 105750,
+        "median": 108000,
+        "p75": 115835,
+        "n": 16
+    },
+    "qc inspect international llc|agricultural inspector|mid": {
+        "p25": 29349,
+        "median": 33779,
+        "p75": 33779,
+        "n": 5
+    },
+    "qcworldfruit limited liability company|quality control coordinator|mid": {
+        "p25": 48880,
+        "median": 49920,
+        "p75": 57408,
+        "n": 5
+    },
+    "qima us llc|agricultural inspector|mid": {
+        "p25": 29349,
+        "median": 29349,
+        "p75": 33779,
+        "n": 21
+    },
+    "qorvo us, inc.|sr. design engineer|senior": {
+        "p25": 112614,
+        "median": 128422,
+        "p75": 134078,
+        "n": 5
+    },
+    "qps, llc|research scientist|mid": {
+        "p25": 87843,
+        "median": 88500,
+        "p75": 92300,
+        "n": 13
+    },
+    "qsource group inc|software developer|mid": {
+        "p25": 79851,
+        "median": 84094,
+        "p75": 84094,
+        "n": 5
+    },
+    "quadpro it inc|software developer|mid": {
+        "p25": 95500,
+        "median": 95500,
+        "p75": 95500,
+        "n": 5
+    },
+    "quadrant technologies llc|computer systems analyst|mid": {
+        "p25": 89440,
+        "median": 100714,
+        "p75": 113797,
+        "n": 185
+    },
+    "quadrant technologies llc|software engineer|mid": {
+        "p25": 117203,
+        "median": 121274,
+        "p75": 149240,
+        "n": 50
+    },
+    "quadyster|software engineer|mid": {
+        "p25": 96013,
+        "median": 96013,
+        "p75": 99003,
+        "n": 6
+    },
+    "qualcomm atheros, inc.|asics engineer|mid": {
+        "p25": 124197,
+        "median": 133834,
+        "p75": 143471,
+        "n": 6
+    },
+    "qualcomm atheros, inc.|senior asics engineer|senior": {
+        "p25": 151091,
+        "median": 151091,
+        "p75": 151091,
+        "n": 9
+    },
+    "qualcomm atheros, inc.|senior rfic design engineer|senior": {
+        "p25": 151091,
+        "median": 151091,
+        "p75": 151091,
+        "n": 6
+    },
+    "qualcomm atheros, inc.|senior software engineer|senior": {
+        "p25": 132183,
+        "median": 132183,
+        "p75": 138452,
+        "n": 21
+    },
+    "qualcomm atheros, inc.|senior staff asics engineer|senior": {
+        "p25": 204901,
+        "median": 204901,
+        "p75": 204901,
+        "n": 5
+    },
+    "qualcomm atheros, inc.|senior staff software applications engineer|senior": {
+        "p25": 181734,
+        "median": 181734,
+        "p75": 184797,
+        "n": 5
+    },
+    "qualcomm atheros, inc.|senior staff software engineer|senior": {
+        "p25": 193024,
+        "median": 196409,
+        "p75": 198384,
+        "n": 9
+    },
+    "qualcomm atheros, inc.|senior systems engineer|senior": {
+        "p25": 128898,
+        "median": 135245,
+        "p75": 151091,
+        "n": 7
+    },
+    "qualcomm atheros, inc.|senior systems test engineer|senior": {
+        "p25": 119400,
+        "median": 122800,
+        "p75": 128533,
+        "n": 7
+    },
+    "qualcomm atheros, inc.|software engineer|mid": {
+        "p25": 123217,
+        "median": 132183,
+        "p75": 136451,
+        "n": 11
+    },
+    "qualcomm atheros, inc.|staff asics engineer|senior": {
+        "p25": 178006,
+        "median": 178006,
+        "p75": 178006,
+        "n": 5
+    },
+    "qualcomm atheros, inc.|staff hardware engineer|senior": {
+        "p25": 178006,
+        "median": 178006,
+        "p75": 178006,
+        "n": 5
+    },
+    "qualcomm atheros, inc.|staff software applications engineer|senior": {
+        "p25": 150095,
+        "median": 150095,
+        "p75": 150714,
+        "n": 5
+    },
+    "qualcomm atheros, inc.|staff software engineer|senior": {
+        "p25": 159744,
+        "median": 160800,
+        "p75": 161181,
+        "n": 17
+    },
+    "qualcomm atheros, inc.|staff systems engineer|senior": {
+        "p25": 162442,
+        "median": 178006,
+        "p75": 178006,
+        "n": 13
+    },
+    "qualcomm atheros, inc.|staff systems test engineer|senior": {
+        "p25": 143258,
+        "median": 145038,
+        "p75": 150704,
+        "n": 10
+    },
+    "qualcomm incorporated|senior it data scientist|senior": {
+        "p25": 116958,
+        "median": 116958,
+        "p75": 116958,
+        "n": 7
+    },
+    "qualcomm incorporated|senior it software developer|senior": {
+        "p25": 124633,
+        "median": 126880,
+        "p75": 133641,
+        "n": 7
+    },
+    "qualcomm incorporated|senior staff systems analyst|senior": {
+        "p25": 140800,
+        "median": 140800,
+        "p75": 140800,
+        "n": 9
+    },
+    "qualcomm incorporated|staff it software developer|senior": {
+        "p25": 146077,
+        "median": 152027,
+        "p75": 152027,
+        "n": 11
+    },
+    "qualcomm incorporated|staff systems analyst|senior": {
+        "p25": 117478,
+        "median": 120037,
+        "p75": 120037,
+        "n": 6
+    },
+    "qualcomm innovation center, inc.|camera software engineer|mid": {
+        "p25": 115276,
+        "median": 117799,
+        "p75": 125240,
+        "n": 6
+    },
+    "qualcomm innovation center, inc.|senior camera software engineer|senior": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 130187,
+        "n": 9
+    },
+    "qualcomm innovation center, inc.|senior software engineer|senior": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 127753,
+        "n": 24
+    },
+    "qualcomm innovation center, inc.|senior staff software engineer|senior": {
+        "p25": 177154,
+        "median": 179510,
+        "p75": 183811,
+        "n": 6
+    },
+    "qualcomm innovation center, inc.|senior staff/manager camera software engineer|senior": {
+        "p25": 177154,
+        "median": 177154,
+        "p75": 184974,
+        "n": 5
+    },
+    "qualcomm innovation center, inc.|software engineer|mid": {
+        "p25": 112321,
+        "median": 112321,
+        "p75": 113769,
+        "n": 10
+    },
+    "qualcomm innovation center, inc.|staff camera software engineer|senior": {
+        "p25": 152027,
+        "median": 152027,
+        "p75": 152027,
+        "n": 7
+    },
+    "qualcomm innovation center, inc.|staff software engineer|senior": {
+        "p25": 146665,
+        "median": 152027,
+        "p75": 152140,
+        "n": 12
+    },
+    "qualcomm technologies, inc.|asics engineer|mid": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 119434,
+        "n": 84
+    },
+    "qualcomm technologies, inc.|camera engineer|mid": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 119434,
+        "n": 28
+    },
+    "qualcomm technologies, inc.|camera software engineer|mid": {
+        "p25": 122398,
+        "median": 126880,
+        "p75": 126880,
+        "n": 6
+    },
+    "qualcomm technologies, inc.|cellular system test engineer|mid": {
+        "p25": 99505,
+        "median": 99505,
+        "p75": 99906,
+        "n": 29
+    },
+    "qualcomm technologies, inc.|cellular technologies software engineer|mid": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 126880,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|cpu engineer|mid": {
+        "p25": 108160,
+        "median": 125495,
+        "p75": 151091,
+        "n": 35
+    },
+    "qualcomm technologies, inc.|gpu engineer|mid": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 119434,
+        "n": 47
+    },
+    "qualcomm technologies, inc.|gpu software engineer|mid": {
+        "p25": 118278,
+        "median": 124386,
+        "p75": 126880,
+        "n": 12
+    },
+    "qualcomm technologies, inc.|hardware engineer|mid": {
+        "p25": 108766,
+        "median": 109274,
+        "p75": 109274,
+        "n": 18
+    },
+    "qualcomm technologies, inc.|machine learning engineer|mid": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 126880,
+        "n": 30
+    },
+    "qualcomm technologies, inc.|modem software engineer|mid": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 126880,
+        "n": 11
+    },
+    "qualcomm technologies, inc.|modem technologies engineer|mid": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 151091,
+        "n": 16
+    },
+    "qualcomm technologies, inc.|modem technologies software engineer|mid": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 134588,
+        "n": 7
+    },
+    "qualcomm technologies, inc.|multimedia systems engineer|mid": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 119434,
+        "n": 11
+    },
+    "qualcomm technologies, inc.|packaging engineer|mid": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 119434,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|principal cpu engineer|senior": {
+        "p25": 211900,
+        "median": 211900,
+        "p75": 225500,
+        "n": 7
+    },
+    "qualcomm technologies, inc.|program manager|senior": {
+        "p25": 126400,
+        "median": 126400,
+        "p75": 141086,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|senior asics engineer|senior": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 119434,
+        "n": 99
+    },
+    "qualcomm technologies, inc.|senior camera engineer|senior": {
+        "p25": 119434,
+        "median": 122500,
+        "p75": 128898,
+        "n": 41
+    },
+    "qualcomm technologies, inc.|senior camera software engineer|senior": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 130187,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|senior cellular system test engineer|senior": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 126880,
+        "n": 51
+    },
+    "qualcomm technologies, inc.|senior cellular technologies engineer|senior": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 122500,
+        "n": 19
+    },
+    "qualcomm technologies, inc.|senior cellular technologies software engineer|senior": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 130187,
+        "n": 16
+    },
+    "qualcomm technologies, inc.|senior cpu engineer|senior": {
+        "p25": 122500,
+        "median": 151091,
+        "p75": 151091,
+        "n": 61
+    },
+    "qualcomm technologies, inc.|senior dsp architecture and design engineer|senior": {
+        "p25": 123317,
+        "median": 127200,
+        "p75": 128049,
+        "n": 11
+    },
+    "qualcomm technologies, inc.|senior gpu engineer|senior": {
+        "p25": 133600,
+        "median": 133600,
+        "p75": 153045,
+        "n": 51
+    },
+    "qualcomm technologies, inc.|senior gpu software engineer|senior": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 126880,
+        "n": 13
+    },
+    "qualcomm technologies, inc.|senior hardware engineer|senior": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 119434,
+        "n": 30
+    },
+    "qualcomm technologies, inc.|senior machine learning engineer|senior": {
+        "p25": 140800,
+        "median": 140800,
+        "p75": 159100,
+        "n": 37
+    },
+    "qualcomm technologies, inc.|senior machine learning researcher engineer|senior": {
+        "p25": 150500,
+        "median": 159100,
+        "p75": 159100,
+        "n": 17
+    },
+    "qualcomm technologies, inc.|senior modem software engineer|senior": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 129360,
+        "n": 10
+    },
+    "qualcomm technologies, inc.|senior modem technologies engineer|senior": {
+        "p25": 119500,
+        "median": 128000,
+        "p75": 151091,
+        "n": 37
+    },
+    "qualcomm technologies, inc.|senior modem technologies software engineer|senior": {
+        "p25": 126880,
+        "median": 128000,
+        "p75": 133130,
+        "n": 20
+    },
+    "qualcomm technologies, inc.|senior multimedia systems engineer|senior": {
+        "p25": 122500,
+        "median": 122500,
+        "p75": 127298,
+        "n": 14
+    },
+    "qualcomm technologies, inc.|senior packaging engineer|senior": {
+        "p25": 127200,
+        "median": 128049,
+        "p75": 128898,
+        "n": 6
+    },
+    "qualcomm technologies, inc.|senior pmic design engineer|senior": {
+        "p25": 119434,
+        "median": 127171,
+        "p75": 151091,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|senior ppt systems engineer|senior": {
+        "p25": 119434,
+        "median": 122500,
+        "p75": 122500,
+        "n": 9
+    },
+    "qualcomm technologies, inc.|senior program manager|senior": {
+        "p25": 148850,
+        "median": 154400,
+        "p75": 154400,
+        "n": 10
+    },
+    "qualcomm technologies, inc.|senior rfic design engineer|senior": {
+        "p25": 119434,
+        "median": 127200,
+        "p75": 127200,
+        "n": 10
+    },
+    "qualcomm technologies, inc.|senior software applications engineer|senior": {
+        "p25": 120684,
+        "median": 123900,
+        "p75": 126880,
+        "n": 17
+    },
+    "qualcomm technologies, inc.|senior software engineer|senior": {
+        "p25": 126880,
+        "median": 126880,
+        "p75": 126942,
+        "n": 89
+    },
+    "qualcomm technologies, inc.|senior staff asics engineer|senior": {
+        "p25": 166941,
+        "median": 166941,
+        "p75": 171537,
+        "n": 35
+    },
+    "qualcomm technologies, inc.|senior staff camera engineer|senior": {
+        "p25": 179000,
+        "median": 179000,
+        "p75": 191950,
+        "n": 11
+    },
+    "qualcomm technologies, inc.|senior staff cellular system test engineer|senior": {
+        "p25": 177154,
+        "median": 177154,
+        "p75": 177154,
+        "n": 14
+    },
+    "qualcomm technologies, inc.|senior staff cellular technologies software engineer|senior": {
+        "p25": 177154,
+        "median": 178077,
+        "p75": 179000,
+        "n": 6
+    },
+    "qualcomm technologies, inc.|senior staff cpu engineer|senior": {
+        "p25": 179000,
+        "median": 179000,
+        "p75": 204901,
+        "n": 39
+    },
+    "qualcomm technologies, inc.|senior staff dsp architecture and design engineer|senior": {
+        "p25": 180400,
+        "median": 180400,
+        "p75": 180400,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|senior staff gpu engineer|senior": {
+        "p25": 192025,
+        "median": 195200,
+        "p75": 207825,
+        "n": 24
+    },
+    "qualcomm technologies, inc.|senior staff hardware engineer|senior": {
+        "p25": 166941,
+        "median": 166941,
+        "p75": 166941,
+        "n": 7
+    },
+    "qualcomm technologies, inc.|senior staff modem software engineer|senior": {
+        "p25": 177154,
+        "median": 179000,
+        "p75": 180493,
+        "n": 8
+    },
+    "qualcomm technologies, inc.|senior staff modem technologies engineer|senior": {
+        "p25": 187000,
+        "median": 187000,
+        "p75": 206250,
+        "n": 19
+    },
+    "qualcomm technologies, inc.|senior staff modem technologies software engineer|senior": {
+        "p25": 177154,
+        "median": 187000,
+        "p75": 187000,
+        "n": 9
+    },
+    "qualcomm technologies, inc.|senior staff multimedia systems engineer|senior": {
+        "p25": 176000,
+        "median": 179000,
+        "p75": 179000,
+        "n": 8
+    },
+    "qualcomm technologies, inc.|senior staff packaging engineer|senior": {
+        "p25": 169000,
+        "median": 180400,
+        "p75": 180400,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|senior staff software applications engineer|senior": {
+        "p25": 177154,
+        "median": 183153,
+        "p75": 185560,
+        "n": 8
+    },
+    "qualcomm technologies, inc.|senior staff software engineer|senior": {
+        "p25": 177154,
+        "median": 177154,
+        "p75": 177891,
+        "n": 29
+    },
+    "qualcomm technologies, inc.|senior staff/manager asics engineer|senior": {
+        "p25": 166941,
+        "median": 166941,
+        "p75": 169000,
+        "n": 7
+    },
+    "qualcomm technologies, inc.|senior staff/manager camera engineer|senior": {
+        "p25": 184400,
+        "median": 184400,
+        "p75": 184400,
+        "n": 6
+    },
+    "qualcomm technologies, inc.|senior staff/manager cpu engineer|senior": {
+        "p25": 184400,
+        "median": 184400,
+        "p75": 184400,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|senior systems engineer|senior": {
+        "p25": 126532,
+        "median": 128898,
+        "p75": 151091,
+        "n": 8
+    },
+    "qualcomm technologies, inc.|senior systems test engineer|senior": {
+        "p25": 107000,
+        "median": 121440,
+        "p75": 126880,
+        "n": 22
+    },
+    "qualcomm technologies, inc.|senior video systems/hardware architecture engineer|senior": {
+        "p25": 119434,
+        "median": 122500,
+        "p75": 127298,
+        "n": 14
+    },
+    "qualcomm technologies, inc.|software engineer|mid": {
+        "p25": 112321,
+        "median": 112321,
+        "p75": 114837,
+        "n": 59
+    },
+    "qualcomm technologies, inc.|staff asics engineer|senior": {
+        "p25": 140000,
+        "median": 143187,
+        "p75": 143187,
+        "n": 80
+    },
+    "qualcomm technologies, inc.|staff camera engineer|senior": {
+        "p25": 143187,
+        "median": 148300,
+        "p75": 178006,
+        "n": 24
+    },
+    "qualcomm technologies, inc.|staff cellular system test engineer|senior": {
+        "p25": 152027,
+        "median": 152027,
+        "p75": 152027,
+        "n": 34
+    },
+    "qualcomm technologies, inc.|staff cellular technologies engineer|senior": {
+        "p25": 148300,
+        "median": 152506,
+        "p75": 152506,
+        "n": 12
+    },
+    "qualcomm technologies, inc.|staff cellular technologies software engineer|senior": {
+        "p25": 152027,
+        "median": 152027,
+        "p75": 157581,
+        "n": 11
+    },
+    "qualcomm technologies, inc.|staff cpu engineer|senior": {
+        "p25": 148300,
+        "median": 178006,
+        "p75": 178006,
+        "n": 54
+    },
+    "qualcomm technologies, inc.|staff dsp architecture and design engineer|senior": {
+        "p25": 138600,
+        "median": 154000,
+        "p75": 154000,
+        "n": 13
+    },
+    "qualcomm technologies, inc.|staff gpu engineer|senior": {
+        "p25": 151000,
+        "median": 161800,
+        "p75": 182200,
+        "n": 37
+    },
+    "qualcomm technologies, inc.|staff gpu software engineer|senior": {
+        "p25": 152027,
+        "median": 152027,
+        "p75": 156405,
+        "n": 10
+    },
+    "qualcomm technologies, inc.|staff hardware applications engineer|senior": {
+        "p25": 141986,
+        "median": 143187,
+        "p75": 145516,
+        "n": 8
+    },
+    "qualcomm technologies, inc.|staff hardware engineer|senior": {
+        "p25": 143187,
+        "median": 143187,
+        "p75": 143187,
+        "n": 24
+    },
+    "qualcomm technologies, inc.|staff machine learning engineer|senior": {
+        "p25": 155213,
+        "median": 158400,
+        "p75": 161131,
+        "n": 19
+    },
+    "qualcomm technologies, inc.|staff machine learning researcher engineer|senior": {
+        "p25": 179000,
+        "median": 179000,
+        "p75": 199534,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|staff modem software engineer|senior": {
+        "p25": 152027,
+        "median": 152027,
+        "p75": 152027,
+        "n": 17
+    },
+    "qualcomm technologies, inc.|staff modem technologies engineer|senior": {
+        "p25": 155000,
+        "median": 155000,
+        "p75": 184355,
+        "n": 22
+    },
+    "qualcomm technologies, inc.|staff modem technologies software engineer|senior": {
+        "p25": 152027,
+        "median": 155000,
+        "p75": 157581,
+        "n": 26
+    },
+    "qualcomm technologies, inc.|staff multimedia systems engineer|senior": {
+        "p25": 148300,
+        "median": 148300,
+        "p75": 152506,
+        "n": 5
+    },
+    "qualcomm technologies, inc.|staff packaging engineer|senior": {
+        "p25": 144000,
+        "median": 149000,
+        "p75": 154000,
+        "n": 8
+    },
+    "qualcomm technologies, inc.|staff product manager|senior": {
+        "p25": 195189,
+        "median": 196574,
+        "p75": 205000,
+        "n": 11
+    },
+    "qualcomm technologies, inc.|staff program manager|senior": {
+        "p25": 171200,
+        "median": 171200,
+        "p75": 181314,
+        "n": 9
+    },
+    "qualcomm technologies, inc.|staff rfic design engineer|senior": {
+        "p25": 148000,
+        "median": 151000,
+        "p75": 154000,
+        "n": 6
+    },
+    "qualcomm technologies, inc.|staff software applications engineer|senior": {
+        "p25": 121160,
+        "median": 130400,
+        "p75": 151544,
+        "n": 14
+    },
+    "qualcomm technologies, inc.|staff software engineer|senior": {
+        "p25": 152027,
+        "median": 152027,
+        "p75": 152027,
+        "n": 44
+    },
+    "qualcomm technologies, inc.|staff systems engineer|senior": {
+        "p25": 140228,
+        "median": 143187,
+        "p75": 143187,
+        "n": 8
+    },
+    "qualcomm technologies, inc.|staff systems test engineer|senior": {
+        "p25": 123132,
+        "median": 152027,
+        "p75": 157581,
+        "n": 12
+    },
+    "qualcomm technologies, inc.|staff video systems/hardware architecture engineer|senior": {
+        "p25": 143187,
+        "median": 148300,
+        "p75": 178006,
+        "n": 16
+    },
+    "qualcomm technologies, inc.|systems engineer|mid": {
+        "p25": 113286,
+        "median": 115123,
+        "p75": 119434,
+        "n": 11
+    },
+    "qualcomm technologies, inc.|systems test engineer|mid": {
+        "p25": 99505,
+        "median": 99505,
+        "p75": 99705,
+        "n": 19
+    },
+    "qualcomm technologies, inc.|video systems/hardware architecture engineer|mid": {
+        "p25": 119434,
+        "median": 119434,
+        "p75": 119434,
+        "n": 5
+    },
+    "quality consulting, inc.|software developer|mid": {
+        "p25": 85000,
+        "median": 101000,
+        "p75": 123760,
+        "n": 9
+    },
+    "qualsoft inc|software developer|mid": {
+        "p25": 86133,
+        "median": 91645,
+        "p75": 97157,
+        "n": 6
+    },
+    "qualtrics, llc|machine learning engineer|mid": {
+        "p25": 195000,
+        "median": 230000,
+        "p75": 235000,
+        "n": 5
+    },
+    "qualtrics, llc|manager, software engineering|senior": {
+        "p25": 214500,
+        "median": 218500,
+        "p75": 239500,
+        "n": 5
+    },
+    "qualtrics, llc|product manager|senior": {
+        "p25": 166500,
+        "median": 185000,
+        "p75": 207000,
+        "n": 9
+    },
+    "qualtrics, llc|software engineer|mid": {
+        "p25": 152750,
+        "median": 160500,
+        "p75": 187000,
+        "n": 54
+    },
+    "qualtrics, llc|systems engineer|mid": {
+        "p25": 153500,
+        "median": 165500,
+        "p75": 180500,
+        "n": 6
+    },
+    "qualys, inc.|senior database reliability engineer|senior": {
+        "p25": 130000,
+        "median": 133640,
+        "p75": 135282,
+        "n": 7
+    },
+    "quantbot technologies, lp|data analyst|mid": {
+        "p25": 95000,
+        "median": 120000,
+        "p75": 145000,
+        "n": 5
+    },
+    "quantum integrators group llc|software developer|mid": {
+        "p25": 84500,
+        "median": 107100,
+        "p75": 107100,
+        "n": 5
+    },
+    "quartet llc|software engineer|mid": {
+        "p25": 98100,
+        "median": 103000,
+        "p75": 106500,
+        "n": 7
+    },
+    "quber, inc.|software developer|mid": {
+        "p25": 79040,
+        "median": 86320,
+        "p75": 88920,
+        "n": 14
+    },
+    "qubitz tech sysytems llc|software developer|mid": {
+        "p25": 106080,
+        "median": 106080,
+        "p75": 106080,
+        "n": 12
+    },
+    "quebec solutions inc|software developer|mid": {
+        "p25": 103308,
+        "median": 105997,
+        "p75": 107728,
+        "n": 8
+    },
+    "quest diagnostics incorporated|clinical laboratory scientist|mid": {
+        "p25": 79768,
+        "median": 87776,
+        "p75": 87776,
+        "n": 27
+    },
+    "quest global services- n.a., inc.|mechanical engineer|mid": {
+        "p25": 71170,
+        "median": 82341,
+        "p75": 86551,
+        "n": 6
+    },
+    "quest global services- n.a., inc.|senior engineer|senior": {
+        "p25": 84094,
+        "median": 85862,
+        "p75": 87500,
+        "n": 9
+    },
+    "quest global services- n.a., inc.|senior lead engineer|senior": {
+        "p25": 88895,
+        "median": 115500,
+        "p75": 129500,
+        "n": 7
+    },
+    "quest global services- n.a., inc.|software developer|mid": {
+        "p25": 77067,
+        "median": 87808,
+        "p75": 95731,
+        "n": 16
+    },
+    "quest global services- n.a., inc.|software engineer|mid": {
+        "p25": 75920,
+        "median": 84094,
+        "p75": 109911,
+        "n": 22
+    },
+    "quest global services- n.a., inc.|technical architect|senior": {
+        "p25": 113714,
+        "median": 144312,
+        "p75": 179961,
+        "n": 6
+    },
+    "quest it solutions inc|software developer|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 93538,
+        "n": 5
+    },
+    "quiddity infotech, llc|software developer|mid": {
+        "p25": 84094,
+        "median": 112923,
+        "p75": 122699,
+        "n": 9
+    },
+    "quiddity infotech, llc|software engineer|mid": {
+        "p25": 103209,
+        "median": 112923,
+        "p75": 112923,
+        "n": 5
+    },
+    "quinn david & associates, llc|software developer/implemenation consultant|mid": {
+        "p25": 104000,
+        "median": 114400,
+        "p75": 124800,
+        "n": 9
+    },
+    "quinn emanuel urquhart & sullivan, llp|associate|entry": {
+        "p25": 225000,
+        "median": 235000,
+        "p75": 297500,
+        "n": 10
+    },
+    "quinnox, inc.|sr. software developer|senior": {
+        "p25": 100375,
+        "median": 104500,
+        "p75": 126500,
+        "n": 14
+    },
+    "quora, inc.|software engineer|mid": {
+        "p25": 169158,
+        "median": 172931,
+        "p75": 192417,
+        "n": 15
+    },
+    "qvalfocus inc.|validation engineer|mid": {
+        "p25": 83975,
+        "median": 92000,
+        "p75": 93750,
+        "n": 18
+    },
+    "qwest corporation|lead software engineer|senior": {
+        "p25": 125716,
+        "median": 127123,
+        "p75": 129755,
+        "n": 8
+    }
+}

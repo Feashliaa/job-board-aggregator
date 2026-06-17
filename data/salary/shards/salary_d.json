@@ -1,0 +1,2906 @@
+{
+    "d. e. shaw & co., l.p.|associate|entry": {
+        "p25": 157500,
+        "median": 160000,
+        "p75": 175000,
+        "n": 8
+    },
+    "d. e. shaw & co., l.p.|quantitative analyst|mid": {
+        "p25": 250000,
+        "median": 262500,
+        "p75": 312500,
+        "n": 8
+    },
+    "d. e. shaw research, llc|member of the technical staff|senior": {
+        "p25": 231500,
+        "median": 369000,
+        "p75": 544750,
+        "n": 6
+    },
+    "d2sol, inc.|curam developer|mid": {
+        "p25": 138750,
+        "median": 147500,
+        "p75": 160000,
+        "n": 20
+    },
+    "d2sol, inc.|curam etl developer|mid": {
+        "p25": 113000,
+        "median": 130000,
+        "p75": 145000,
+        "n": 5
+    },
+    "d2sol, inc.|senior curam developer|senior": {
+        "p25": 167500,
+        "median": 170000,
+        "p75": 178750,
+        "n": 8
+    },
+    "da vinci software solutions llc|senior software developer|senior": {
+        "p25": 135000,
+        "median": 145000,
+        "p75": 146868,
+        "n": 5
+    },
+    "daikin comfort technologies manufacturing, l.p.|design engineer|mid": {
+        "p25": 81572,
+        "median": 85103,
+        "p75": 87848,
+        "n": 6
+    },
+    "dako resources, llc|telematics test engineer|mid": {
+        "p25": 153384,
+        "median": 163633,
+        "p75": 166332,
+        "n": 6
+    },
+    "dallas independent school district|elementary bilingual teacher|mid": {
+        "p25": 66500,
+        "median": 74000,
+        "p75": 74270,
+        "n": 286
+    },
+    "dallas independent school district|elementary special education teacher|mid": {
+        "p25": 62000,
+        "median": 62000,
+        "p75": 62500,
+        "n": 21
+    },
+    "dallas independent school district|high school  math teacher|mid": {
+        "p25": 70000,
+        "median": 70270,
+        "p75": 73000,
+        "n": 9
+    },
+    "dallas independent school district|high school  science teacher|mid": {
+        "p25": 63490,
+        "median": 70000,
+        "p75": 70135,
+        "n": 7
+    },
+    "dallas independent school district|high school math teacher|mid": {
+        "p25": 62000,
+        "median": 65000,
+        "p75": 70000,
+        "n": 24
+    },
+    "dallas independent school district|high school science teacher|mid": {
+        "p25": 62000,
+        "median": 62500,
+        "p75": 70270,
+        "n": 9
+    },
+    "dallas independent school district|high school special education teacher|mid": {
+        "p25": 62000,
+        "median": 62000,
+        "p75": 62000,
+        "n": 5
+    },
+    "dallas independent school district|middle school math teacher|mid": {
+        "p25": 62000,
+        "median": 70000,
+        "p75": 70270,
+        "n": 15
+    },
+    "dallas independent school district|middle school special education teacher|mid": {
+        "p25": 62000,
+        "median": 62000,
+        "p75": 62500,
+        "n": 9
+    },
+    "daman, inc.|software developer|mid": {
+        "p25": 135000,
+        "median": 135000,
+        "p75": 140704,
+        "n": 8
+    },
+    "damian consulting inc|software developer|mid": {
+        "p25": 108118,
+        "median": 110874,
+        "p75": 123656,
+        "n": 8
+    },
+    "damian consulting inc|software engineer|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 83658,
+        "n": 7
+    },
+    "dana-farber cancer institute|clinical fellow|senior": {
+        "p25": 92207,
+        "median": 101816,
+        "p75": 105066,
+        "n": 8
+    },
+    "dana-farber cancer institute|computational biologist|mid": {
+        "p25": 79309,
+        "median": 80543,
+        "p75": 81999,
+        "n": 5
+    },
+    "dana-farber cancer institute|instructor (scientist)|mid": {
+        "p25": 89999,
+        "median": 91799,
+        "p75": 93849,
+        "n": 8
+    },
+    "dana-farber cancer institute|research fellow|senior": {
+        "p25": 73999,
+        "median": 75999,
+        "p75": 76384,
+        "n": 115
+    },
+    "dana-farber cancer institute|research technician|mid": {
+        "p25": 48712,
+        "median": 49439,
+        "p75": 50557,
+        "n": 7
+    },
+    "dana-farber cancer institute|scientist i|entry": {
+        "p25": 83635,
+        "median": 89369,
+        "p75": 89999,
+        "n": 7
+    },
+    "dana-farber cancer institute|scientist ii|mid": {
+        "p25": 85000,
+        "median": 99621,
+        "p75": 104499,
+        "n": 10
+    },
+    "danbury hospital|resident physician - internal medicine|entry": {
+        "p25": 79030,
+        "median": 79030,
+        "p75": 79030,
+        "n": 10
+    },
+    "danta infotech llc|software developer|mid": {
+        "p25": 81500,
+        "median": 85000,
+        "p75": 85264,
+        "n": 7
+    },
+    "darlington county school district|elementary school teacher|mid": {
+        "p25": 59968,
+        "median": 63268,
+        "p75": 64347,
+        "n": 5
+    },
+    "darlington county school district|secondary science teacher|mid": {
+        "p25": 54994,
+        "median": 66075,
+        "p75": 84770,
+        "n": 5
+    },
+    "dartmouth-hitchcock clinic|hospitalist|mid": {
+        "p25": 62566,
+        "median": 62566,
+        "p75": 62566,
+        "n": 5
+    },
+    "dassault systemes americas corp|industry process consultant|mid": {
+        "p25": 115459,
+        "median": 132159,
+        "p75": 140146,
+        "n": 6
+    },
+    "dassault systemes americas corp|simulia r&d software engineering manager|senior": {
+        "p25": 123563,
+        "median": 129057,
+        "p75": 131623,
+        "n": 5
+    },
+    "data concepts, llc|software developer|mid": {
+        "p25": 118000,
+        "median": 120000,
+        "p75": 131206,
+        "n": 5
+    },
+    "data s solutions llc|software developer|mid": {
+        "p25": 112424,
+        "median": 123656,
+        "p75": 126090,
+        "n": 9
+    },
+    "data solutions inc|software developer|mid": {
+        "p25": 105976,
+        "median": 109262,
+        "p75": 112923,
+        "n": 9
+    },
+    "data solutions inc.|software developer|mid": {
+        "p25": 105997,
+        "median": 112986,
+        "p75": 122834,
+        "n": 11
+    },
+    "data systems integration group, inc.|software developer|mid": {
+        "p25": 96000,
+        "median": 107000,
+        "p75": 110000,
+        "n": 10
+    },
+    "databricks, inc.|delivery solutions architect|senior": {
+        "p25": 144851,
+        "median": 153317,
+        "p75": 163966,
+        "n": 9
+    },
+    "databricks, inc.|member of technical staff|senior": {
+        "p25": 226158,
+        "median": 226158,
+        "p75": 243000,
+        "n": 5
+    },
+    "databricks, inc.|resident solutions architect|mid": {
+        "p25": 154341,
+        "median": 163831,
+        "p75": 182608,
+        "n": 20
+    },
+    "databricks, inc.|software engineer|mid": {
+        "p25": 140000,
+        "median": 142200,
+        "p75": 164637,
+        "n": 112
+    },
+    "databricks, inc.|solutions architect|senior": {
+        "p25": 132340,
+        "median": 139443,
+        "p75": 148272,
+        "n": 31
+    },
+    "databricks, inc.|specialist solutions architect|senior": {
+        "p25": 151788,
+        "median": 163550,
+        "p75": 172931,
+        "n": 11
+    },
+    "databricks, inc.|sr. delivery solutions engineer|senior": {
+        "p25": 126818,
+        "median": 134971,
+        "p75": 145642,
+        "n": 5
+    },
+    "databricks, inc.|sr. software engineer|senior": {
+        "p25": 166962,
+        "median": 190243,
+        "p75": 199534,
+        "n": 64
+    },
+    "databricks, inc.|sr. solutions architect|senior": {
+        "p25": 154731,
+        "median": 163550,
+        "p75": 166962,
+        "n": 21
+    },
+    "databricks, inc.|sr. solutions consultant|senior": {
+        "p25": 151263,
+        "median": 155709,
+        "p75": 164148,
+        "n": 6
+    },
+    "databricks, inc.|sr. solutions engineer|senior": {
+        "p25": 123895,
+        "median": 125694,
+        "p75": 128472,
+        "n": 11
+    },
+    "databricks, inc.|sr. specialist solutions architect|senior": {
+        "p25": 157000,
+        "median": 189592,
+        "p75": 199534,
+        "n": 7
+    },
+    "databricks, inc.|sr. technical solutions engineer|senior": {
+        "p25": 139261,
+        "median": 140294,
+        "p75": 147585,
+        "n": 6
+    },
+    "databricks, inc.|staff software engineer|senior": {
+        "p25": 199981,
+        "median": 217672,
+        "p75": 226153,
+        "n": 18
+    },
+    "databricks, inc.|staff technical solutions engineer|senior": {
+        "p25": 149781,
+        "median": 153389,
+        "p75": 161912,
+        "n": 6
+    },
+    "datacloud technologies llc|software developer|mid": {
+        "p25": 107037,
+        "median": 107037,
+        "p75": 107333,
+        "n": 32
+    },
+    "datadog, inc.|manager i, engineering|mid": {
+        "p25": 232000,
+        "median": 240000,
+        "p75": 253000,
+        "n": 13
+    },
+    "datadog, inc.|product manager ii|senior": {
+        "p25": 170000,
+        "median": 170000,
+        "p75": 170000,
+        "n": 5
+    },
+    "datadog, inc.|senior product designer|senior": {
+        "p25": 185000,
+        "median": 185000,
+        "p75": 190000,
+        "n": 9
+    },
+    "datadog, inc.|senior software engineer|senior": {
+        "p25": 220500,
+        "median": 235000,
+        "p75": 247000,
+        "n": 31
+    },
+    "datadog, inc.|software engineer ii|mid": {
+        "p25": 155000,
+        "median": 168400,
+        "p75": 190000,
+        "n": 25
+    },
+    "dataeconomy, inc.|data engineer|mid": {
+        "p25": 85000,
+        "median": 97609,
+        "p75": 114465,
+        "n": 8
+    },
+    "dataeconomy, inc.|senior data engineer|senior": {
+        "p25": 130977,
+        "median": 140000,
+        "p75": 140000,
+        "n": 7
+    },
+    "dataeconomy, inc.|senior software engineer|senior": {
+        "p25": 134160,
+        "median": 134347,
+        "p75": 135000,
+        "n": 8
+    },
+    "dataedge consulting, inc.|applications software developer|mid": {
+        "p25": 113000,
+        "median": 113000,
+        "p75": 113000,
+        "n": 6
+    },
+    "dataedge consulting, inc.|sap functional analyst|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 6
+    },
+    "dataedge, inc|software developer|mid": {
+        "p25": 100099,
+        "median": 106000,
+        "p75": 110000,
+        "n": 64
+    },
+    "dataedge, inc|systems analyst|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 106000,
+        "n": 5
+    },
+    "dataexon llc|software developer|mid": {
+        "p25": 101000,
+        "median": 105000,
+        "p75": 125000,
+        "n": 5
+    },
+    "datafactz, llc|programmer analyst|mid": {
+        "p25": 87000,
+        "median": 99000,
+        "p75": 104000,
+        "n": 5
+    },
+    "dataflake llc|software developer|mid": {
+        "p25": 105997,
+        "median": 121451,
+        "p75": 123656,
+        "n": 29
+    },
+    "dataflake llc|software engineer|mid": {
+        "p25": 95139,
+        "median": 103916,
+        "p75": 122699,
+        "n": 20
+    },
+    "dataformix technologies,inc|data engineer|mid": {
+        "p25": 73070,
+        "median": 73070,
+        "p75": 92040,
+        "n": 9
+    },
+    "datafortune inc.|software developer|mid": {
+        "p25": 82971,
+        "median": 82971,
+        "p75": 82971,
+        "n": 5
+    },
+    "datalore technologies, inc.|java developer|mid": {
+        "p25": 109262,
+        "median": 109272,
+        "p75": 115694,
+        "n": 6
+    },
+    "datalore technologies, inc.|software developer|mid": {
+        "p25": 96366,
+        "median": 105996,
+        "p75": 112923,
+        "n": 5
+    },
+    "datamatics global services inc|software developer|mid": {
+        "p25": 101129,
+        "median": 105227,
+        "p75": 105227,
+        "n": 7
+    },
+    "datametrics software systems, inc|systems engineer|mid": {
+        "p25": 83658,
+        "median": 89076,
+        "p75": 92581,
+        "n": 12
+    },
+    "datanormus llc|data engineer|mid": {
+        "p25": 95035,
+        "median": 96500,
+        "p75": 109300,
+        "n": 5
+    },
+    "datanormus llc|java developer|mid": {
+        "p25": 75000,
+        "median": 80000,
+        "p75": 80000,
+        "n": 5
+    },
+    "datanormus llc|software engineer|mid": {
+        "p25": 105759,
+        "median": 120498,
+        "p75": 129303,
+        "n": 6
+    },
+    "datanova technologies inc|it consultant (software developer)|mid": {
+        "p25": 85530,
+        "median": 85530,
+        "p75": 92581,
+        "n": 11
+    },
+    "datanova technologies inc|it consultant (software engineer)|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 88119,
+        "n": 11
+    },
+    "datanova technologies inc|programmer analyst|mid": {
+        "p25": 77418,
+        "median": 77418,
+        "p75": 85530,
+        "n": 15
+    },
+    "datanova technologies inc|systems application engineer|mid": {
+        "p25": 83658,
+        "median": 83658,
+        "p75": 83658,
+        "n": 6
+    },
+    "datapattern llc|data scientist|mid": {
+        "p25": 98155,
+        "median": 98155,
+        "p75": 98155,
+        "n": 5
+    },
+    "dataquad inc.|data engineer|mid": {
+        "p25": 90000,
+        "median": 102000,
+        "p75": 102500,
+        "n": 5
+    },
+    "dataquest corp|software developer|mid": {
+        "p25": 106475,
+        "median": 110240,
+        "p75": 110240,
+        "n": 5
+    },
+    "dataquest corp|software engineer|mid": {
+        "p25": 101200,
+        "median": 107411,
+        "p75": 126100,
+        "n": 13
+    },
+    "datasenseit llc|data engineer|mid": {
+        "p25": 91644,
+        "median": 96033,
+        "p75": 100547,
+        "n": 13
+    },
+    "datasenseit llc|software developer|mid": {
+        "p25": 84094,
+        "median": 100921,
+        "p75": 117748,
+        "n": 6
+    },
+    "dataserv inc|software engineer|mid": {
+        "p25": 106558,
+        "median": 112986,
+        "p75": 112986,
+        "n": 5
+    },
+    "datasparx llc|software developer|mid": {
+        "p25": 105500,
+        "median": 105500,
+        "p75": 105875,
+        "n": 6
+    },
+    "datassay inc.|software engineer|mid": {
+        "p25": 79900,
+        "median": 90400,
+        "p75": 111650,
+        "n": 7
+    },
+    "datastack technologies llc|java developer|mid": {
+        "p25": 96366,
+        "median": 100630,
+        "p75": 105227,
+        "n": 5
+    },
+    "datastack technologies llc|software developer|mid": {
+        "p25": 88088,
+        "median": 100630,
+        "p75": 105996,
+        "n": 17
+    },
+    "datastack technologies llc|software engineer|mid": {
+        "p25": 86195,
+        "median": 93361,
+        "p75": 106704,
+        "n": 8
+    },
+    "datasync, inc.|business analyst|mid": {
+        "p25": 67142,
+        "median": 68494,
+        "p75": 88129,
+        "n": 9
+    },
+    "datatron technologies inc|software engineer|mid": {
+        "p25": 84094,
+        "median": 95045,
+        "p75": 105997,
+        "n": 6
+    },
+    "datics inc|dotnet developer|mid": {
+        "p25": 84437,
+        "median": 90896,
+        "p75": 95211,
+        "n": 10
+    },
+    "datson360, llc|business analyst|mid": {
+        "p25": 67995,
+        "median": 91509,
+        "p75": 99486,
+        "n": 6
+    },
+    "david oppenheimer & company i, llc|quality controller|mid": {
+        "p25": 61672,
+        "median": 61734,
+        "p75": 62811,
+        "n": 6
+    },
+    "davis polk & wardwell llp|attorney|mid": {
+        "p25": 225000,
+        "median": 260000,
+        "p75": 310000,
+        "n": 39
+    },
+    "davis polk & wardwell llp|foreign legal associate|entry": {
+        "p25": 225000,
+        "median": 247500,
+        "p75": 272500,
+        "n": 8
+    },
+    "davis polk & wardwell llp|legal consultant|mid": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 18
+    },
+    "davis school district|elementary dual language immersion teacher (spanish)|mid": {
+        "p25": 58369,
+        "median": 62148,
+        "p75": 67596,
+        "n": 6
+    },
+    "davita, inc.|technical lead, software development|senior": {
+        "p25": 122117,
+        "median": 131602,
+        "p75": 134014,
+        "n": 9
+    },
+    "dayton osteopathic hospital|medical technologist|mid": {
+        "p25": 60841,
+        "median": 62171,
+        "p75": 63585,
+        "n": 11
+    },
+    "db global technology, inc.|analyst|mid": {
+        "p25": 85000,
+        "median": 85000,
+        "p75": 88300,
+        "n": 29
+    },
+    "db global technology, inc.|assistant vice president|senior": {
+        "p25": 130000,
+        "median": 140000,
+        "p75": 140575,
+        "n": 119
+    },
+    "db global technology, inc.|associate|entry": {
+        "p25": 110000,
+        "median": 115000,
+        "p75": 116725,
+        "n": 33
+    },
+    "db global technology, inc.|vice president|senior": {
+        "p25": 155112,
+        "median": 162400,
+        "p75": 174562,
+        "n": 26
+    },
+    "db usa core corporation|analyst|mid": {
+        "p25": 64062,
+        "median": 68250,
+        "p75": 96528,
+        "n": 14
+    },
+    "db usa core corporation|assistant vice president|senior": {
+        "p25": 114225,
+        "median": 124150,
+        "p75": 144250,
+        "n": 76
+    },
+    "db usa core corporation|associate|entry": {
+        "p25": 95000,
+        "median": 100547,
+        "p75": 115000,
+        "n": 17
+    },
+    "db usa core corporation|director|senior": {
+        "p25": 210000,
+        "median": 220000,
+        "p75": 230000,
+        "n": 6
+    },
+    "db usa core corporation|vice president|senior": {
+        "p25": 140000,
+        "median": 155000,
+        "p75": 185000,
+        "n": 37
+    },
+    "dc group, inc.|field service engineer|mid": {
+        "p25": 79250,
+        "median": 90000,
+        "p75": 104750,
+        "n": 16
+    },
+    "de lage landen financial services, inc.|agile engineer-3|mid": {
+        "p25": 140268,
+        "median": 146078,
+        "p75": 146078,
+        "n": 5
+    },
+    "deaconess hospital, inc.|hospitalist|mid": {
+        "p25": 330000,
+        "median": 330000,
+        "p75": 330000,
+        "n": 7
+    },
+    "debevoise & plimpton llp|associate attorney|entry": {
+        "p25": 291250,
+        "median": 377500,
+        "p75": 435000,
+        "n": 20
+    },
+    "debevoise & plimpton llp|law clerk|entry": {
+        "p25": 225000,
+        "median": 225000,
+        "p75": 225000,
+        "n": 6
+    },
+    "decatur memorial hospital|hospitalist|mid": {
+        "p25": 312000,
+        "median": 312000,
+        "p75": 312000,
+        "n": 6
+    },
+    "dechen consulting group inc|software developer|mid": {
+        "p25": 97032,
+        "median": 97032,
+        "p75": 102190,
+        "n": 5
+    },
+    "dechert llp|associate|entry": {
+        "p25": 235000,
+        "median": 310000,
+        "p75": 390000,
+        "n": 17
+    },
+    "decision six inc|java developer|mid": {
+        "p25": 101280,
+        "median": 103210,
+        "p75": 110848,
+        "n": 8
+    },
+    "decision six inc|software developer|mid": {
+        "p25": 105206,
+        "median": 105206,
+        "p75": 105403,
+        "n": 12
+    },
+    "decofrut inc|quality control supervisor|mid": {
+        "p25": 52145,
+        "median": 52977,
+        "p75": 52977,
+        "n": 61
+    },
+    "dedicated senior medical centers of florida, llc|primary care physician|mid": {
+        "p25": 191339,
+        "median": 202238,
+        "p75": 239600,
+        "n": 7
+    },
+    "deebecon inc|software engineer|mid": {
+        "p25": 88597,
+        "median": 97000,
+        "p75": 103927,
+        "n": 23
+    },
+    "deel us llc|software engineer|mid": {
+        "p25": 164820,
+        "median": 210000,
+        "p75": 217500,
+        "n": 6
+    },
+    "deemsys inc|software developer|mid": {
+        "p25": 102627,
+        "median": 103163,
+        "p75": 110250,
+        "n": 10
+    },
+    "deer valley unified school district 97|teacher|mid": {
+        "p25": 56246,
+        "median": 58452,
+        "p75": 60418,
+        "n": 10
+    },
+    "deere & company|senior software engineer|senior": {
+        "p25": 123600,
+        "median": 129210,
+        "p75": 135791,
+        "n": 49
+    },
+    "deere & company|software engineer|mid": {
+        "p25": 100000,
+        "median": 110000,
+        "p75": 128617,
+        "n": 39
+    },
+    "deere & company|staff software engineer|senior": {
+        "p25": 134100,
+        "median": 140000,
+        "p75": 143000,
+        "n": 21
+    },
+    "delicatessen services company llc|oracle applications developer|mid": {
+        "p25": 120250,
+        "median": 128750,
+        "p75": 135750,
+        "n": 8
+    },
+    "dell marketing l.p.|senior advisor, product marketing|senior": {
+        "p25": 151690,
+        "median": 162783,
+        "p75": 165916,
+        "n": 6
+    },
+    "dell marketing l.p.|software engineer 1|entry": {
+        "p25": 104488,
+        "median": 113400,
+        "p75": 113400,
+        "n": 9
+    },
+    "dell marketing l.p.|software engineer 2|mid": {
+        "p25": 124200,
+        "median": 126486,
+        "p75": 139949,
+        "n": 7
+    },
+    "dell products l.p.|advisor, project/program management|mid": {
+        "p25": 97200,
+        "median": 97200,
+        "p75": 100443,
+        "n": 5
+    },
+    "dell products l.p.|consultant, product management|mid": {
+        "p25": 187353,
+        "median": 201159,
+        "p75": 210000,
+        "n": 11
+    },
+    "dell products l.p.|principal systems development engineer|senior": {
+        "p25": 151840,
+        "median": 165548,
+        "p75": 180000,
+        "n": 5
+    },
+    "dell products l.p.|senior advisor, demand planning|senior": {
+        "p25": 131478,
+        "median": 133500,
+        "p75": 137322,
+        "n": 7
+    },
+    "dell products l.p.|senior advisor, product management|senior": {
+        "p25": 166241,
+        "median": 170004,
+        "p75": 175771,
+        "n": 13
+    },
+    "dell products l.p.|software engineer 2|mid": {
+        "p25": 117936,
+        "median": 124924,
+        "p75": 141120,
+        "n": 9
+    },
+    "dell products l.p.|software principal engineer|senior": {
+        "p25": 176358,
+        "median": 183313,
+        "p75": 199999,
+        "n": 29
+    },
+    "dell products l.p.|software senior engineer|senior": {
+        "p25": 154408,
+        "median": 170000,
+        "p75": 176500,
+        "n": 15
+    },
+    "dell products l.p.|software senior principal engineer|senior": {
+        "p25": 202583,
+        "median": 213375,
+        "p75": 234999,
+        "n": 14
+    },
+    "dell usa l.p.|advisor, data science|mid": {
+        "p25": 157000,
+        "median": 166400,
+        "p75": 169411,
+        "n": 7
+    },
+    "dell usa l.p.|consultant, data engineering|mid": {
+        "p25": 165417,
+        "median": 170486,
+        "p75": 182722,
+        "n": 5
+    },
+    "dell usa l.p.|consultant, data science|mid": {
+        "p25": 179200,
+        "median": 189053,
+        "p75": 210058,
+        "n": 9
+    },
+    "dell usa l.p.|consultant, product management - it|mid": {
+        "p25": 161745,
+        "median": 169648,
+        "p75": 170369,
+        "n": 11
+    },
+    "dell usa l.p.|principal software engineer - it|senior": {
+        "p25": 138605,
+        "median": 146127,
+        "p75": 157477,
+        "n": 38
+    },
+    "dell usa l.p.|principal software engineer \u2013 it|senior": {
+        "p25": 130602,
+        "median": 140258,
+        "p75": 149174,
+        "n": 5
+    },
+    "dell usa l.p.|quality principal engineer|senior": {
+        "p25": 134536,
+        "median": 141130,
+        "p75": 161500,
+        "n": 5
+    },
+    "dell usa l.p.|senior advisor, data engineering|senior": {
+        "p25": 152256,
+        "median": 161770,
+        "p75": 163634,
+        "n": 8
+    },
+    "dell usa l.p.|senior advisor, data science|senior": {
+        "p25": 185000,
+        "median": 187000,
+        "p75": 187650,
+        "n": 5
+    },
+    "dell usa l.p.|senior analyst, data science|senior": {
+        "p25": 135437,
+        "median": 137355,
+        "p75": 137857,
+        "n": 6
+    },
+    "dell usa l.p.|senior consultant, it architecture|senior": {
+        "p25": 214643,
+        "median": 215973,
+        "p75": 230596,
+        "n": 5
+    },
+    "dell usa l.p.|senior principal software engineer - it|senior": {
+        "p25": 161760,
+        "median": 166873,
+        "p75": 170726,
+        "n": 26
+    },
+    "dell usa l.p.|senior software engineer - it|senior": {
+        "p25": 126121,
+        "median": 128672,
+        "p75": 130985,
+        "n": 7
+    },
+    "deloitte & touche llp|advisory consultant|mid": {
+        "p25": 75733,
+        "median": 92796,
+        "p75": 100700,
+        "n": 21
+    },
+    "deloitte & touche llp|advisory manager|senior": {
+        "p25": 137862,
+        "median": 144789,
+        "p75": 162579,
+        "n": 120
+    },
+    "deloitte & touche llp|advisory senior consultant|senior": {
+        "p25": 96678,
+        "median": 103875,
+        "p75": 119496,
+        "n": 136
+    },
+    "deloitte & touche llp|advisory senior manager|senior": {
+        "p25": 159682,
+        "median": 184743,
+        "p75": 196408,
+        "n": 41
+    },
+    "deloitte & touche llp|advisory specialist leader|mid": {
+        "p25": 144789,
+        "median": 147753,
+        "p75": 151704,
+        "n": 10
+    },
+    "deloitte & touche llp|advisory specialist master|mid": {
+        "p25": 136879,
+        "median": 151403,
+        "p75": 174803,
+        "n": 50
+    },
+    "deloitte & touche llp|advisory specialist senior|senior": {
+        "p25": 112403,
+        "median": 115554,
+        "p75": 119496,
+        "n": 14
+    },
+    "deloitte & touche llp|audit & assurance analytics specialist manager|senior": {
+        "p25": 136640,
+        "median": 149200,
+        "p75": 158406,
+        "n": 18
+    },
+    "deloitte & touche llp|audit & assurance analytics specialist senior|senior": {
+        "p25": 86918,
+        "median": 91270,
+        "p75": 104300,
+        "n": 24
+    },
+    "deloitte & touche llp|audit & assurance analytics specialist senior assistant|mid": {
+        "p25": 61539,
+        "median": 87094,
+        "p75": 88991,
+        "n": 6
+    },
+    "deloitte & touche llp|audit & assurance analytics specialist senior manager|senior": {
+        "p25": 156818,
+        "median": 169177,
+        "p75": 185784,
+        "n": 6
+    },
+    "deloitte & touche llp|audit & assurance ara manager|senior": {
+        "p25": 117915,
+        "median": 117915,
+        "p75": 119372,
+        "n": 8
+    },
+    "deloitte & touche llp|audit & assurance assistant|entry": {
+        "p25": 61526,
+        "median": 71136,
+        "p75": 79498,
+        "n": 155
+    },
+    "deloitte & touche llp|audit & assurance in-charge|senior": {
+        "p25": 74693,
+        "median": 83100,
+        "p75": 94100,
+        "n": 127
+    },
+    "deloitte & touche llp|audit & assurance manager|senior": {
+        "p25": 114650,
+        "median": 123200,
+        "p75": 141378,
+        "n": 137
+    },
+    "deloitte & touche llp|audit & assurance senior|senior": {
+        "p25": 78978,
+        "median": 85862,
+        "p75": 94973,
+        "n": 138
+    },
+    "deloitte & touche llp|audit & assurance senior assistant|mid": {
+        "p25": 62400,
+        "median": 71136,
+        "p75": 79498,
+        "n": 106
+    },
+    "deloitte & touche llp|audit & assurance senior consultant|senior": {
+        "p25": 98946,
+        "median": 108493,
+        "p75": 119496,
+        "n": 17
+    },
+    "deloitte & touche llp|audit & assurance senior manager|senior": {
+        "p25": 111571,
+        "median": 148450,
+        "p75": 163867,
+        "n": 28
+    },
+    "deloitte & touche llp|data scientist|mid": {
+        "p25": 69160,
+        "median": 82763,
+        "p75": 114200,
+        "n": 7
+    },
+    "deloitte & touche llp|lead software engineer|senior": {
+        "p25": 121363,
+        "median": 137259,
+        "p75": 156400,
+        "n": 7
+    },
+    "deloitte & touche llp|manager|senior": {
+        "p25": 145153,
+        "median": 159400,
+        "p75": 170925,
+        "n": 90
+    },
+    "deloitte & touche llp|senior consultant|senior": {
+        "p25": 106995,
+        "median": 119993,
+        "p75": 136831,
+        "n": 46
+    },
+    "deloitte & touche llp|senior manager|senior": {
+        "p25": 183997,
+        "median": 196900,
+        "p75": 217450,
+        "n": 19
+    },
+    "deloitte & touche llp|senior solution delivery lead|senior": {
+        "p25": 99341,
+        "median": 103709,
+        "p75": 104042,
+        "n": 13
+    },
+    "deloitte & touche llp|senior solution delivery manager|senior": {
+        "p25": 154232,
+        "median": 173097,
+        "p75": 180107,
+        "n": 6
+    },
+    "deloitte & touche llp|solution consultant|mid": {
+        "p25": 71130,
+        "median": 74953,
+        "p75": 76544,
+        "n": 6
+    },
+    "deloitte & touche llp|solution delivery advisor|mid": {
+        "p25": 75442,
+        "median": 83678,
+        "p75": 92726,
+        "n": 5
+    },
+    "deloitte & touche llp|solution delivery manager|senior": {
+        "p25": 137496,
+        "median": 138871,
+        "p75": 140525,
+        "n": 8
+    },
+    "deloitte & touche llp|solution manager|senior": {
+        "p25": 134161,
+        "median": 144789,
+        "p75": 158700,
+        "n": 15
+    },
+    "deloitte & touche llp|solution senior consultant|senior": {
+        "p25": 94619,
+        "median": 99237,
+        "p75": 112350,
+        "n": 31
+    },
+    "deloitte & touche llp|specialist master|mid": {
+        "p25": 147035,
+        "median": 149531,
+        "p75": 185800,
+        "n": 7
+    },
+    "deloitte consulting llp|consultant|mid": {
+        "p25": 78015,
+        "median": 95232,
+        "p75": 123392,
+        "n": 214
+    },
+    "deloitte consulting llp|manager|senior": {
+        "p25": 137686,
+        "median": 167050,
+        "p75": 188729,
+        "n": 902
+    },
+    "deloitte consulting llp|managing director|senior": {
+        "p25": 210787,
+        "median": 271107,
+        "p75": 306666,
+        "n": 12
+    },
+    "deloitte consulting llp|principal|senior": {
+        "p25": 213889,
+        "median": 261248,
+        "p75": 421100,
+        "n": 7
+    },
+    "deloitte consulting llp|product architect|senior": {
+        "p25": 110308,
+        "median": 130127,
+        "p75": 169350,
+        "n": 6
+    },
+    "deloitte consulting llp|project delivery analyst|mid": {
+        "p25": 75108,
+        "median": 77813,
+        "p75": 84606,
+        "n": 27
+    },
+    "deloitte consulting llp|project delivery lead|senior": {
+        "p25": 171888,
+        "median": 184852,
+        "p75": 192000,
+        "n": 22
+    },
+    "deloitte consulting llp|project delivery manager|senior": {
+        "p25": 139050,
+        "median": 150300,
+        "p75": 160700,
+        "n": 177
+    },
+    "deloitte consulting llp|project delivery senior analyst|senior": {
+        "p25": 92432,
+        "median": 100000,
+        "p75": 107828,
+        "n": 87
+    },
+    "deloitte consulting llp|project delivery specialist|mid": {
+        "p25": 111363,
+        "median": 126000,
+        "p75": 137600,
+        "n": 527
+    },
+    "deloitte consulting llp|project delivery specialist ii|mid": {
+        "p25": 124592,
+        "median": 136900,
+        "p75": 147800,
+        "n": 11
+    },
+    "deloitte consulting llp|senior consultant|senior": {
+        "p25": 105206,
+        "median": 128200,
+        "p75": 156225,
+        "n": 755
+    },
+    "deloitte consulting llp|senior engineer|senior": {
+        "p25": 121190,
+        "median": 143300,
+        "p75": 146700,
+        "n": 6
+    },
+    "deloitte consulting llp|senior engineering management specialist|senior": {
+        "p25": 129600,
+        "median": 135471,
+        "p75": 147835,
+        "n": 6
+    },
+    "deloitte consulting llp|senior manager|senior": {
+        "p25": 197787,
+        "median": 214800,
+        "p75": 237141,
+        "n": 289
+    },
+    "deloitte consulting llp|senior solution architect|senior": {
+        "p25": 166749,
+        "median": 170700,
+        "p75": 193054,
+        "n": 7
+    },
+    "deloitte consulting llp|senior solution manager|senior": {
+        "p25": 167925,
+        "median": 177000,
+        "p75": 192591,
+        "n": 10
+    },
+    "deloitte consulting llp|senior solution specialist|senior": {
+        "p25": 112923,
+        "median": 126971,
+        "p75": 137100,
+        "n": 496
+    },
+    "deloitte consulting llp|solution analyst|mid": {
+        "p25": 75600,
+        "median": 83000,
+        "p75": 84547,
+        "n": 31
+    },
+    "deloitte consulting llp|solution architect|senior": {
+        "p25": 137842,
+        "median": 146400,
+        "p75": 154676,
+        "n": 146
+    },
+    "deloitte consulting llp|solution manager|senior": {
+        "p25": 137842,
+        "median": 145900,
+        "p75": 153700,
+        "n": 133
+    },
+    "deloitte consulting llp|solution specialist|mid": {
+        "p25": 90625,
+        "median": 103100,
+        "p75": 109381,
+        "n": 371
+    },
+    "deloitte consulting llp|specialist leader|mid": {
+        "p25": 194535,
+        "median": 211857,
+        "p75": 234075,
+        "n": 124
+    },
+    "deloitte consulting llp|specialist master|mid": {
+        "p25": 154981,
+        "median": 182500,
+        "p75": 196500,
+        "n": 405
+    },
+    "deloitte consulting llp|specialist senior|senior": {
+        "p25": 132891,
+        "median": 162700,
+        "p75": 176200,
+        "n": 152
+    },
+    "deloitte consulting llp|studio senior|senior": {
+        "p25": 134867,
+        "median": 139300,
+        "p75": 142200,
+        "n": 5
+    },
+    "deloitte consulting llp|studio staff|senior": {
+        "p25": 79897,
+        "median": 98797,
+        "p75": 112025,
+        "n": 10
+    },
+    "deloitte consulting llp|tech architect|mid": {
+        "p25": 156998,
+        "median": 207500,
+        "p75": 218000,
+        "n": 9
+    },
+    "deloitte consulting llp|technical delivery master|mid": {
+        "p25": 147550,
+        "median": 156998,
+        "p75": 166700,
+        "n": 15
+    },
+    "deloitte llp|manager, strategic services|senior": {
+        "p25": 139339,
+        "median": 149510,
+        "p75": 159682,
+        "n": 6
+    },
+    "deloitte llp|senior consultant, strategic services|senior": {
+        "p25": 98410,
+        "median": 102856,
+        "p75": 128464,
+        "n": 6
+    },
+    "deloitte services lp|lead application developer|senior": {
+        "p25": 105227,
+        "median": 112923,
+        "p75": 138000,
+        "n": 9
+    },
+    "deloitte services lp|lead devops engineer|senior": {
+        "p25": 109283,
+        "median": 136349,
+        "p75": 150000,
+        "n": 8
+    },
+    "deloitte services lp|manager, application architecture|senior": {
+        "p25": 146903,
+        "median": 156351,
+        "p75": 167150,
+        "n": 16
+    },
+    "deloitte services lp|manager, solution architecture|senior": {
+        "p25": 150381,
+        "median": 153203,
+        "p75": 154230,
+        "n": 8
+    },
+    "deloitte tax llp|software engineer, lead|senior": {
+        "p25": 114442,
+        "median": 122699,
+        "p75": 131999,
+        "n": 14
+    },
+    "deloitte tax llp|software engineer, manager|senior": {
+        "p25": 145070,
+        "median": 152500,
+        "p75": 156954,
+        "n": 30
+    },
+    "deloitte tax llp|tax consultant|mid": {
+        "p25": 61526,
+        "median": 71136,
+        "p75": 79499,
+        "n": 342
+    },
+    "deloitte tax llp|tax manager|senior": {
+        "p25": 113901,
+        "median": 138944,
+        "p75": 149781,
+        "n": 210
+    },
+    "deloitte tax llp|tax senior|senior": {
+        "p25": 78978,
+        "median": 94973,
+        "p75": 101670,
+        "n": 366
+    },
+    "deloitte tax llp|tax senior manager|senior": {
+        "p25": 152148,
+        "median": 197000,
+        "p75": 229800,
+        "n": 45
+    },
+    "deloitte touche tohmatsu services, llc|manager, software solutions specialist|senior": {
+        "p25": 150222,
+        "median": 152480,
+        "p75": 158772,
+        "n": 6
+    },
+    "deloitte transactions and business analytics llp|advisory manager|senior": {
+        "p25": 124749,
+        "median": 149467,
+        "p75": 167129,
+        "n": 12
+    },
+    "deloitte transactions and business analytics llp|advisory senior consultant|senior": {
+        "p25": 87464,
+        "median": 91270,
+        "p75": 96034,
+        "n": 7
+    },
+    "deloitte transactions and business analytics llp|manager|senior": {
+        "p25": 129756,
+        "median": 147483,
+        "p75": 161975,
+        "n": 10
+    },
+    "deloitte transactions and business analytics llp|senior consultant|senior": {
+        "p25": 115007,
+        "median": 120906,
+        "p75": 126028,
+        "n": 6
+    },
+    "delphic software solutions inc|sr. software developer|senior": {
+        "p25": 123000,
+        "median": 123000,
+        "p75": 126090,
+        "n": 5
+    },
+    "delta air lines, inc.|senior software development engineer|senior": {
+        "p25": 148431,
+        "median": 152131,
+        "p75": 154548,
+        "n": 13
+    },
+    "delta air lines, inc.|senior software development engineer in test|senior": {
+        "p25": 131725,
+        "median": 136841,
+        "p75": 141925,
+        "n": 8
+    },
+    "delta air lines, inc.|senior systems engineer|senior": {
+        "p25": 134875,
+        "median": 143710,
+        "p75": 147420,
+        "n": 8
+    },
+    "delta air lines, inc.|software development engineer|mid": {
+        "p25": 125000,
+        "median": 127504,
+        "p75": 130707,
+        "n": 9
+    },
+    "delta dental insurance company|senior software engineer|senior": {
+        "p25": 132549,
+        "median": 140480,
+        "p75": 146772,
+        "n": 12
+    },
+    "delta dental of california|senior software engineer|senior": {
+        "p25": 159095,
+        "median": 162014,
+        "p75": 167430,
+        "n": 7
+    },
+    "delta dental of michigan, inc.|senior software designer/implementer|senior": {
+        "p25": 118250,
+        "median": 129000,
+        "p75": 130000,
+        "n": 6
+    },
+    "delta electronics (americas) ltd.|member of r&d staff|senior": {
+        "p25": 130988,
+        "median": 131144,
+        "p75": 131144,
+        "n": 7
+    },
+    "delta global services llc|sap consultant|mid": {
+        "p25": 103210,
+        "median": 105997,
+        "p75": 105997,
+        "n": 27
+    },
+    "delta system &software, inc.|sap  consultant|mid": {
+        "p25": 105997,
+        "median": 106288,
+        "p75": 109845,
+        "n": 10
+    },
+    "delta system &software, inc.|sap consultant|mid": {
+        "p25": 99668,
+        "median": 105997,
+        "p75": 106137,
+        "n": 24
+    },
+    "dematic corp.|controls engineer|mid": {
+        "p25": 90827,
+        "median": 103230,
+        "p75": 107598,
+        "n": 9
+    },
+    "dematic corp.|software engineer|mid": {
+        "p25": 94164,
+        "median": 102357,
+        "p75": 109565,
+        "n": 15
+    },
+    "denken solutions, inc.|data engineer|mid": {
+        "p25": 96200,
+        "median": 104000,
+        "p75": 111945,
+        "n": 11
+    },
+    "denken solutions, inc.|software engineer|mid": {
+        "p25": 106080,
+        "median": 106080,
+        "p75": 106080,
+        "n": 9
+    },
+    "denso international america, inc.|manager, engineering|senior": {
+        "p25": 171269,
+        "median": 184215,
+        "p75": 191912,
+        "n": 8
+    },
+    "dental dreams llc|dentist|mid": {
+        "p25": 113442,
+        "median": 115146,
+        "p75": 120614,
+        "n": 6
+    },
+    "dental dreams pllc|dentist|mid": {
+        "p25": 114696,
+        "median": 122085,
+        "p75": 123157,
+        "n": 6
+    },
+    "dental health associates of texas, pc|dentist|mid": {
+        "p25": 155250,
+        "median": 158000,
+        "p75": 160000,
+        "n": 6
+    },
+    "denver public schools district 1|ela-s elementary teacher|mid": {
+        "p25": 55257,
+        "median": 74070,
+        "p75": 84774,
+        "n": 62
+    },
+    "denver public schools district 1|elementary ela-s teacher|mid": {
+        "p25": 55257,
+        "median": 58979,
+        "p75": 72678,
+        "n": 12
+    },
+    "denver public schools district 1|mathematics secondary teacher|mid": {
+        "p25": 60697,
+        "median": 73861,
+        "p75": 88787,
+        "n": 9
+    },
+    "denver public schools district 1|science secondary teacher|mid": {
+        "p25": 83054,
+        "median": 90750,
+        "p75": 97822,
+        "n": 8
+    },
+    "denver public schools district 1|secondary math teacher|mid": {
+        "p25": 55257,
+        "median": 55257,
+        "p75": 55257,
+        "n": 5
+    },
+    "denver public schools district 1|special education elementary teacher|mid": {
+        "p25": 63244,
+        "median": 64273,
+        "p75": 65302,
+        "n": 6
+    },
+    "depaul university|assistant professor|entry": {
+        "p25": 79873,
+        "median": 104050,
+        "p75": 128426,
+        "n": 6
+    },
+    "dept of medicine medical service group at suny-hsc at syracuse, inc.|clinical assistant professor|entry": {
+        "p25": 195101,
+        "median": 195101,
+        "p75": 206643,
+        "n": 20
+    },
+    "desidea corporation|programmer analyst|mid": {
+        "p25": 120600,
+        "median": 122400,
+        "p75": 125100,
+        "n": 6
+    },
+    "design workshop, inc.|landscape designer|mid": {
+        "p25": 66250,
+        "median": 68000,
+        "p75": 70000,
+        "n": 14
+    },
+    "desimone consulting engineering d.p.c|senior project engineer|senior": {
+        "p25": 107760,
+        "median": 110042,
+        "p75": 110042,
+        "n": 6
+    },
+    "desmata inc|software engineer|mid": {
+        "p25": 79040,
+        "median": 85280,
+        "p75": 85280,
+        "n": 7
+    },
+    "destin it solutions inc|software developer|mid": {
+        "p25": 109262,
+        "median": 109262,
+        "p75": 113000,
+        "n": 5
+    },
+    "destin it solutions inc|software engineer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 105997,
+        "n": 6
+    },
+    "detroit engineered products, inc.|project engineer|mid": {
+        "p25": 75093,
+        "median": 86205,
+        "p75": 92560,
+        "n": 6
+    },
+    "deutsche bank new york branch|analyst|mid": {
+        "p25": 87072,
+        "median": 100000,
+        "p75": 103750,
+        "n": 6
+    },
+    "deutsche bank new york branch|assistant vice president|senior": {
+        "p25": 125528,
+        "median": 126838,
+        "p75": 136400,
+        "n": 5
+    },
+    "deutsche bank new york branch|associate|entry": {
+        "p25": 105000,
+        "median": 113169,
+        "p75": 140000,
+        "n": 5
+    },
+    "deutsche bank new york branch|vice president|senior": {
+        "p25": 175000,
+        "median": 205000,
+        "p75": 210000,
+        "n": 9
+    },
+    "deutsche bank securities, inc.|analyst|mid": {
+        "p25": 110000,
+        "median": 110000,
+        "p75": 117500,
+        "n": 75
+    },
+    "deutsche bank securities, inc.|associate|entry": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 175000,
+        "n": 61
+    },
+    "deutsche bank securities, inc.|director|senior": {
+        "p25": 300000,
+        "median": 300000,
+        "p75": 316000,
+        "n": 9
+    },
+    "deutsche bank securities, inc.|vice president|senior": {
+        "p25": 200000,
+        "median": 210000,
+        "p75": 240000,
+        "n": 25
+    },
+    "deutsche bank trust company americas|analyst|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 7
+    },
+    "devansh lab werks inc|clinical data analyst|mid": {
+        "p25": 67995,
+        "median": 67995,
+        "p75": 78395,
+        "n": 5
+    },
+    "devansh lab werks inc|clinical data engineer|mid": {
+        "p25": 52042,
+        "median": 67995,
+        "p75": 67995,
+        "n": 9
+    },
+    "devbytes inc|software developer|mid": {
+        "p25": 88875,
+        "median": 104200,
+        "p75": 111250,
+        "n": 10
+    },
+    "devcare solutions limited|software developer|mid": {
+        "p25": 101975,
+        "median": 111000,
+        "p75": 121000,
+        "n": 12
+    },
+    "devfi, inc.|software developer|mid": {
+        "p25": 105799,
+        "median": 111415,
+        "p75": 126250,
+        "n": 16
+    },
+    "devoir software solutions llc|computer programmer|mid": {
+        "p25": 68500,
+        "median": 78000,
+        "p75": 78900,
+        "n": 11
+    },
+    "devoir software solutions llc|computer programmer/engineer|mid": {
+        "p25": 76050,
+        "median": 76600,
+        "p75": 80932,
+        "n": 6
+    },
+    "dexian, llc|software engineer 4|mid": {
+        "p25": 112954,
+        "median": 131997,
+        "p75": 135006,
+        "n": 11
+    },
+    "dfs corporate services llc|aarc - senior data science analyst|senior": {
+        "p25": 88000,
+        "median": 93974,
+        "p75": 93974,
+        "n": 5
+    },
+    "dfs corporate services llc|application engineer|mid": {
+        "p25": 106558,
+        "median": 106558,
+        "p75": 108012,
+        "n": 146
+    },
+    "dfs corporate services llc|data engineer|mid": {
+        "p25": 96928,
+        "median": 112986,
+        "p75": 125153,
+        "n": 19
+    },
+    "dfs corporate services llc|expert application engineer|mid": {
+        "p25": 148949,
+        "median": 148971,
+        "p75": 155282,
+        "n": 15
+    },
+    "dfs corporate services llc|infrastructure engineer|mid": {
+        "p25": 106558,
+        "median": 106558,
+        "p75": 106558,
+        "n": 13
+    },
+    "dfs corporate services llc|manager application engineering|senior": {
+        "p25": 137758,
+        "median": 137758,
+        "p75": 149965,
+        "n": 16
+    },
+    "dfs corporate services llc|manager data engineering|senior": {
+        "p25": 137818,
+        "median": 142736,
+        "p75": 148579,
+        "n": 6
+    },
+    "dfs corporate services llc|manager software engineering|senior": {
+        "p25": 112965,
+        "median": 150519,
+        "p75": 153878,
+        "n": 17
+    },
+    "dfs corporate services llc|principal application architect|senior": {
+        "p25": 150912,
+        "median": 152000,
+        "p75": 152000,
+        "n": 10
+    },
+    "dfs corporate services llc|principal application engineer|senior": {
+        "p25": 148949,
+        "median": 148971,
+        "p75": 151939,
+        "n": 90
+    },
+    "dfs corporate services llc|principal data engineer|senior": {
+        "p25": 133146,
+        "median": 145579,
+        "p75": 148987,
+        "n": 6
+    },
+    "dfs corporate services llc|principal infrastructure engineer|senior": {
+        "p25": 148949,
+        "median": 148949,
+        "p75": 148971,
+        "n": 9
+    },
+    "dfs corporate services llc|principal product owner|senior": {
+        "p25": 133182,
+        "median": 133183,
+        "p75": 138715,
+        "n": 5
+    },
+    "dfs corporate services llc|senior associate application engineer|mid": {
+        "p25": 85363,
+        "median": 86000,
+        "p75": 106558,
+        "n": 35
+    },
+    "dfs corporate services llc|senior manager software engineering|senior": {
+        "p25": 148949,
+        "median": 148949,
+        "p75": 157018,
+        "n": 11
+    },
+    "dfs services llc|principal data science|senior": {
+        "p25": 130000,
+        "median": 137008,
+        "p75": 138715,
+        "n": 9
+    },
+    "dgn technologies, inc|computer programmer|mid": {
+        "p25": 101254,
+        "median": 101470,
+        "p75": 115000,
+        "n": 5
+    },
+    "dhanu global enterprises, incorporation|software development engineer in test|mid": {
+        "p25": 81765,
+        "median": 108971,
+        "p75": 127878,
+        "n": 5
+    },
+    "dia associates llc|business intelligence analyst|mid": {
+        "p25": 100000,
+        "median": 105000,
+        "p75": 120000,
+        "n": 9
+    },
+    "diaspark, inc.|computer application programmer|mid": {
+        "p25": 89300,
+        "median": 89300,
+        "p75": 89300,
+        "n": 5
+    },
+    "diaspark, inc.|computer systems application engineer|mid": {
+        "p25": 90003,
+        "median": 90003,
+        "p75": 90003,
+        "n": 7
+    },
+    "diaspark, inc.|it manager|senior": {
+        "p25": 90050,
+        "median": 90050,
+        "p75": 90050,
+        "n": 5
+    },
+    "diaspark, inc.|programmer analyst|mid": {
+        "p25": 85200,
+        "median": 85200,
+        "p75": 85500,
+        "n": 87
+    },
+    "diaspark, inc.|software developer|mid": {
+        "p25": 95500,
+        "median": 95500,
+        "p75": 95500,
+        "n": 90
+    },
+    "diaspark, inc.|web application developer|mid": {
+        "p25": 90050,
+        "median": 90050,
+        "p75": 90050,
+        "n": 26
+    },
+    "diaspark, inc.|web application engineer|mid": {
+        "p25": 90050,
+        "median": 90050,
+        "p75": 90050,
+        "n": 25
+    },
+    "didi research america, llc|senior software engineer|senior": {
+        "p25": 155075,
+        "median": 158797,
+        "p75": 172827,
+        "n": 8
+    },
+    "digipulse technologies, inc.|data engineer|mid": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 140000,
+        "n": 5
+    },
+    "digipulse technologies, inc.|qa automation tester|mid": {
+        "p25": 125500,
+        "median": 130000,
+        "p75": 132000,
+        "n": 18
+    },
+    "digipulse technologies, inc.|qa automation tester (software engineer in test)|mid": {
+        "p25": 130000,
+        "median": 130000,
+        "p75": 132000,
+        "n": 18
+    },
+    "digipulse technologies, inc.|software developer|mid": {
+        "p25": 130000,
+        "median": 145000,
+        "p75": 150000,
+        "n": 45
+    },
+    "digipulse technologies, inc.|software developer (full stack engineer)|mid": {
+        "p25": 138000,
+        "median": 145000,
+        "p75": 150000,
+        "n": 11
+    },
+    "digipulse technologies, inc.|software quality assurance engineer (qa automation tester)|mid": {
+        "p25": 121750,
+        "median": 127250,
+        "p75": 136875,
+        "n": 6
+    },
+    "digital global solutions inc.|software engineer|mid": {
+        "p25": 107000,
+        "median": 107000,
+        "p75": 107000,
+        "n": 10
+    },
+    "digital itechnology llc|systems engineer|mid": {
+        "p25": 79040,
+        "median": 86028,
+        "p75": 93184,
+        "n": 5
+    },
+    "digital masters inc|software developer|mid": {
+        "p25": 123000,
+        "median": 123000,
+        "p75": 123000,
+        "n": 14
+    },
+    "digital mobile innovations, llc|senior software engineer|senior": {
+        "p25": 101883,
+        "median": 105000,
+        "p75": 107500,
+        "n": 7
+    },
+    "digital scripts, inc.|software developer|mid": {
+        "p25": 104863,
+        "median": 109262,
+        "p75": 118849,
+        "n": 11
+    },
+    "digitalis inc|software developer|mid": {
+        "p25": 97666,
+        "median": 103210,
+        "p75": 108763,
+        "n": 7
+    },
+    "digitaltree llc|systems engineer|mid": {
+        "p25": 75000,
+        "median": 80000,
+        "p75": 88045,
+        "n": 10
+    },
+    "digitek software inc|software developer|mid": {
+        "p25": 111612,
+        "median": 120973,
+        "p75": 138289,
+        "n": 11
+    },
+    "dignity health|clinical laboratory scientist|mid": {
+        "p25": 99320,
+        "median": 99320,
+        "p75": 99320,
+        "n": 8
+    },
+    "diligent group llc|software developer|mid": {
+        "p25": 120432,
+        "median": 122720,
+        "p75": 123240,
+        "n": 8
+    },
+    "dillon school district four|high school teacher|mid": {
+        "p25": 63750,
+        "median": 63750,
+        "p75": 64687,
+        "n": 6
+    },
+    "dimension consulting inc.|oracle erp functional analyst|mid": {
+        "p25": 106000,
+        "median": 106000,
+        "p75": 120141,
+        "n": 5
+    },
+    "dimensional fund advisors lp|associate, investment analytics and data|entry": {
+        "p25": 95000,
+        "median": 98000,
+        "p75": 100000,
+        "n": 5
+    },
+    "dimensions it solutions llc|software developer|mid": {
+        "p25": 105529,
+        "median": 105998,
+        "p75": 108826,
+        "n": 12
+    },
+    "diocese of wheeling-charleston|catholic priest|mid": {
+        "p25": 32490,
+        "median": 34341,
+        "p75": 35895,
+        "n": 6
+    },
+    "directv, llc|principal, it software engineer 1|senior": {
+        "p25": 164426,
+        "median": 164753,
+        "p75": 170982,
+        "n": 6
+    },
+    "discord, inc.|senior data scientist|senior": {
+        "p25": 235000,
+        "median": 235000,
+        "p75": 271317,
+        "n": 7
+    },
+    "discord, inc.|senior software engineer|senior": {
+        "p25": 230000,
+        "median": 239256,
+        "p75": 256003,
+        "n": 5
+    },
+    "discover products inc|lead data science analyst|senior": {
+        "p25": 116334,
+        "median": 116334,
+        "p75": 116334,
+        "n": 35
+    },
+    "discover products inc|manager data science|senior": {
+        "p25": 136136,
+        "median": 136136,
+        "p75": 138715,
+        "n": 5
+    },
+    "discover products inc|modeler|mid": {
+        "p25": 102856,
+        "median": 103000,
+        "p75": 103000,
+        "n": 5
+    },
+    "discover products inc|principal data science|senior": {
+        "p25": 138715,
+        "median": 138715,
+        "p75": 139298,
+        "n": 33
+    },
+    "discover products inc|principal product owner|senior": {
+        "p25": 106163,
+        "median": 124322,
+        "p75": 134879,
+        "n": 11
+    },
+    "discover products inc|senior data science analyst|senior": {
+        "p25": 88000,
+        "median": 93974,
+        "p75": 93974,
+        "n": 12
+    },
+    "discover products inc|senior manager data science|senior": {
+        "p25": 133182,
+        "median": 138715,
+        "p75": 150500,
+        "n": 8
+    },
+    "discover products inc|senior modeler|senior": {
+        "p25": 125000,
+        "median": 128398,
+        "p75": 138715,
+        "n": 5
+    },
+    "discover products inc.|lead data science analyst|senior": {
+        "p25": 105500,
+        "median": 105500,
+        "p75": 105500,
+        "n": 9
+    },
+    "discover products inc.|principal data science|senior": {
+        "p25": 135874,
+        "median": 135874,
+        "p75": 140626,
+        "n": 6
+    },
+    "discover products inc.|senior data science analyst|senior": {
+        "p25": 88000,
+        "median": 88000,
+        "p75": 96928,
+        "n": 5
+    },
+    "discovery analytics inc|data analyst|mid": {
+        "p25": 92000,
+        "median": 92000,
+        "p75": 128000,
+        "n": 5
+    },
+    "discovery analytics inc|software programmer|mid": {
+        "p25": 90210,
+        "median": 92000,
+        "p75": 92000,
+        "n": 13
+    },
+    "discovery communications, llc|senior software engineer|senior": {
+        "p25": 137000,
+        "median": 160805,
+        "p75": 190486,
+        "n": 11
+    },
+    "dish network llc|engineer ii - software|mid": {
+        "p25": 102274,
+        "median": 102274,
+        "p75": 102274,
+        "n": 7
+    },
+    "dish network llc|senior engineer - software|senior": {
+        "p25": 117021,
+        "median": 117021,
+        "p75": 117021,
+        "n": 5
+    },
+    "dish network llc|senior software test engineer|senior": {
+        "p25": 96250,
+        "median": 96250,
+        "p75": 96703,
+        "n": 7
+    },
+    "dish network llc|staff engineer - software|senior": {
+        "p25": 126339,
+        "median": 139443,
+        "p75": 139443,
+        "n": 9
+    },
+    "dish network llc|staff engineer \u201c software|senior": {
+        "p25": 142314,
+        "median": 142314,
+        "p75": 142314,
+        "n": 5
+    },
+    "dish network, llc|senior engineer-software|senior": {
+        "p25": 117021,
+        "median": 117021,
+        "p75": 119657,
+        "n": 6
+    },
+    "dish wireless llc|senior rf engineer|senior": {
+        "p25": 102586,
+        "median": 112798,
+        "p75": 112944,
+        "n": 5
+    },
+    "dish wireless, llc|data scientist ii|mid": {
+        "p25": 95347,
+        "median": 95347,
+        "p75": 97453,
+        "n": 6
+    },
+    "dish wireless, llc|rf engineer ii|mid": {
+        "p25": 104166,
+        "median": 104853,
+        "p75": 106693,
+        "n": 6
+    },
+    "dish wireless, llc|senior engineer-wireless|senior": {
+        "p25": 117021,
+        "median": 117021,
+        "p75": 136843,
+        "n": 5
+    },
+    "dishchiibikoh community school|public school teacher|mid": {
+        "p25": 42125,
+        "median": 43250,
+        "p75": 44000,
+        "n": 6
+    },
+    "disney entertainment & sports llc|lead software engineer|senior": {
+        "p25": 176134,
+        "median": 176400,
+        "p75": 182950,
+        "n": 5
+    },
+    "disney entertainment & sports llc|senior software engineer|senior": {
+        "p25": 165223,
+        "median": 182775,
+        "p75": 183026,
+        "n": 5
+    },
+    "disney parks technology services co., llc|senior software engineer|senior": {
+        "p25": 154247,
+        "median": 157773,
+        "p75": 161334,
+        "n": 11
+    },
+    "district 742 community schools|spanish immersion teacher (elementary)|mid": {
+        "p25": 49141,
+        "median": 49141,
+        "p75": 49141,
+        "n": 5
+    },
+    "district of columbia public schools|elementary teacher|mid": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 65000,
+        "n": 63
+    },
+    "district of columbia public schools|secondary  teacher|mid": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 65000,
+        "n": 20
+    },
+    "district of columbia public schools|secondary teacher|mid": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 65000,
+        "n": 50
+    },
+    "district of columbia public schools|special education teacher|mid": {
+        "p25": 65000,
+        "median": 65000,
+        "p75": 65000,
+        "n": 11
+    },
+    "distyl ai, inc.|ai engineer|mid": {
+        "p25": 160000,
+        "median": 180000,
+        "p75": 195000,
+        "n": 7
+    },
+    "diversified services network, inc.|embedded software engineer|mid": {
+        "p25": 108160,
+        "median": 108160,
+        "p75": 151840,
+        "n": 5
+    },
+    "divine it services, llc.|software engineer|mid": {
+        "p25": 110000,
+        "median": 114400,
+        "p75": 124000,
+        "n": 5
+    },
+    "dizer corp|computer programmer analyst|mid": {
+        "p25": 87515,
+        "median": 106700,
+        "p75": 106700,
+        "n": 6
+    },
+    "dizer corp|power platform developer|mid": {
+        "p25": 76960,
+        "median": 83200,
+        "p75": 95680,
+        "n": 5
+    },
+    "dk crown holdings inc.|lead software engineer|senior": {
+        "p25": 135960,
+        "median": 135960,
+        "p75": 157248,
+        "n": 5
+    },
+    "dk crown holdings inc.|senior data engineer|senior": {
+        "p25": 131685,
+        "median": 137700,
+        "p75": 140130,
+        "n": 5
+    },
+    "dk crown holdings inc.|senior software engineer|senior": {
+        "p25": 122970,
+        "median": 131082,
+        "p75": 131082,
+        "n": 14
+    },
+    "dk crown holdings inc.|software engineer|mid": {
+        "p25": 113718,
+        "median": 124189,
+        "p75": 133428,
+        "n": 14
+    },
+    "dla piper llp (us)|associate|entry": {
+        "p25": 233000,
+        "median": 275000,
+        "p75": 320000,
+        "n": 9
+    },
+    "docusign inc.|lead software engineer|senior": {
+        "p25": 218650,
+        "median": 226158,
+        "p75": 240200,
+        "n": 18
+    },
+    "docusign inc.|lead technical program manager|senior": {
+        "p25": 197750,
+        "median": 202000,
+        "p75": 221300,
+        "n": 7
+    },
+    "docusign inc.|manager, engineering|senior": {
+        "p25": 195710,
+        "median": 203197,
+        "p75": 229600,
+        "n": 8
+    },
+    "docusign inc.|senior software engineer|senior": {
+        "p25": 180710,
+        "median": 187574,
+        "p75": 195373,
+        "n": 33
+    },
+    "docusign inc.|software engineer|mid": {
+        "p25": 149240,
+        "median": 161637,
+        "p75": 176612,
+        "n": 59
+    },
+    "docusign inc.|sr. product manager|senior": {
+        "p25": 162884,
+        "median": 173638,
+        "p75": 173638,
+        "n": 6
+    },
+    "docusign inc.|sr. software engineer|senior": {
+        "p25": 185598,
+        "median": 202802,
+        "p75": 214975,
+        "n": 39
+    },
+    "docusign, inc.|lead software engineer|senior": {
+        "p25": 195915,
+        "median": 212202,
+        "p75": 217038,
+        "n": 6
+    },
+    "docusign, inc.|manager, software engineering|senior": {
+        "p25": 200526,
+        "median": 206937,
+        "p75": 233474,
+        "n": 6
+    },
+    "docusign, inc.|senior software engineer|senior": {
+        "p25": 180960,
+        "median": 199534,
+        "p75": 213512,
+        "n": 10
+    },
+    "docusign, inc.|software engineer|mid": {
+        "p25": 134664,
+        "median": 140000,
+        "p75": 172931,
+        "n": 14
+    },
+    "docusign, inc.|sr. software engineer|senior": {
+        "p25": 180100,
+        "median": 180710,
+        "p75": 180960,
+        "n": 18
+    },
+    "dolby laboratories, inc.|senior engineer|senior": {
+        "p25": 150117,
+        "median": 160783,
+        "p75": 172931,
+        "n": 5
+    },
+    "dollar general corporation|lead software engineer|senior": {
+        "p25": 122317,
+        "median": 127878,
+        "p75": 136458,
+        "n": 8
+    },
+    "dollar general corporation|senior software engineer|senior": {
+        "p25": 116438,
+        "median": 116438,
+        "p75": 122682,
+        "n": 5
+    },
+    "dominion energy technical solutions, inc.|engineer|mid": {
+        "p25": 95992,
+        "median": 103996,
+        "p75": 112090,
+        "n": 6
+    },
+    "domino technologies, inc.|software architect|senior": {
+        "p25": 80000,
+        "median": 100000,
+        "p75": 121000,
+        "n": 5
+    },
+    "domino technologies, inc.|software developer|mid": {
+        "p25": 84094,
+        "median": 92394,
+        "p75": 92500,
+        "n": 5
+    },
+    "domino's pizza, inc.|software quality engineer ii|mid": {
+        "p25": 92250,
+        "median": 93500,
+        "p75": 95500,
+        "n": 6
+    },
+    "donald danforth plant science center|research scientist|mid": {
+        "p25": 61473,
+        "median": 67552,
+        "p75": 76398,
+        "n": 8
+    },
+    "donato technologies inc|data engineer|mid": {
+        "p25": 105996,
+        "median": 105997,
+        "p75": 106470,
+        "n": 8
+    },
+    "donato technologies inc|software developer|mid": {
+        "p25": 105997,
+        "median": 105997,
+        "p75": 109845,
+        "n": 21
+    },
+    "donato technologies inc|software development engineer in test (sdet)|mid": {
+        "p25": 88035,
+        "median": 92196,
+        "p75": 96418,
+        "n": 10
+    },
+    "donato technologies inc|software engineer|mid": {
+        "p25": 105227,
+        "median": 105997,
+        "p75": 112923,
+        "n": 25
+    },
+    "dongguk university los angeles|acupuncturist|mid": {
+        "p25": 49421,
+        "median": 49421,
+        "p75": 52686,
+        "n": 5
+    },
+    "doordash, inc.|associate, finance & strategy|entry": {
+        "p25": 97300,
+        "median": 102400,
+        "p75": 102400,
+        "n": 5
+    },
+    "doordash, inc.|data scientist|mid": {
+        "p25": 164350,
+        "median": 178000,
+        "p75": 178400,
+        "n": 7
+    },
+    "doordash, inc.|data scientist, analytics|mid": {
+        "p25": 161450,
+        "median": 178800,
+        "p75": 183940,
+        "n": 19
+    },
+    "doordash, inc.|engineering manager|senior": {
+        "p25": 212295,
+        "median": 228000,
+        "p75": 242788,
+        "n": 11
+    },
+    "doordash, inc.|machine learning engineer|mid": {
+        "p25": 164207,
+        "median": 185869,
+        "p75": 197400,
+        "n": 22
+    },
+    "doordash, inc.|manager, new verticals|senior": {
+        "p25": 158642,
+        "median": 160000,
+        "p75": 160000,
+        "n": 5
+    },
+    "doordash, inc.|product manager|senior": {
+        "p25": 179300,
+        "median": 188000,
+        "p75": 225571,
+        "n": 15
+    },
+    "doordash, inc.|senior data scientist|senior": {
+        "p25": 214168,
+        "median": 216800,
+        "p75": 216800,
+        "n": 7
+    },
+    "doordash, inc.|senior manager, strategy & operations|senior": {
+        "p25": 180000,
+        "median": 180000,
+        "p75": 182250,
+        "n": 6
+    },
+    "doordash, inc.|senior software engineer|senior": {
+        "p25": 188000,
+        "median": 190486,
+        "p75": 206315,
+        "n": 5
+    },
+    "doordash, inc.|software engineer|mid": {
+        "p25": 153600,
+        "median": 180055,
+        "p75": 195821,
+        "n": 302
+    },
+    "doordash, inc.|software engineer - data|mid": {
+        "p25": 153600,
+        "median": 170893,
+        "p75": 197995,
+        "n": 5
+    },
+    "doordash, inc.|software engineer, machine learning|mid": {
+        "p25": 141330,
+        "median": 182357,
+        "p75": 196935,
+        "n": 8
+    },
+    "doordash, inc.|technical program manager|senior": {
+        "p25": 228000,
+        "median": 228000,
+        "p75": 228000,
+        "n": 5
+    },
+    "dorchester school district two|high school science teacher|mid": {
+        "p25": 55984,
+        "median": 59765,
+        "p75": 61649,
+        "n": 5
+    },
+    "dot it solutions inc|software developer|mid": {
+        "p25": 85321,
+        "median": 95493,
+        "p75": 95493,
+        "n": 19
+    },
+    "dotcom team llc|software engineer|mid": {
+        "p25": 98075,
+        "median": 106000,
+        "p75": 115750,
+        "n": 28
+    },
+    "dougherty county school district|special education teacher|mid": {
+        "p25": 56290,
+        "median": 56290,
+        "p75": 62403,
+        "n": 11
+    },
+    "douglas unified school district no. 27|teacher|mid": {
+        "p25": 41740,
+        "median": 42921,
+        "p75": 45909,
+        "n": 20
+    },
+    "dove schools, inc.|computer teacher|mid": {
+        "p25": 43370,
+        "median": 43370,
+        "p75": 44500,
+        "n": 5
+    },
+    "dove schools, inc.|math teacher|mid": {
+        "p25": 43370,
+        "median": 43370,
+        "p75": 43370,
+        "n": 9
+    },
+    "dove schools, inc.|science teacher|mid": {
+        "p25": 43370,
+        "median": 43370,
+        "p75": 44225,
+        "n": 11
+    },
+    "dow jones and company, inc.|principal software engineer|senior": {
+        "p25": 161200,
+        "median": 168862,
+        "p75": 176277,
+        "n": 6
+    },
+    "dpr construction, a general partnership|project engineer (civil/construction)|mid": {
+        "p25": 83512,
+        "median": 87360,
+        "p75": 92934,
+        "n": 37
+    },
+    "dpr construction, a general partnership|project manager (civil/construction)|senior": {
+        "p25": 100173,
+        "median": 111519,
+        "p75": 128206,
+        "n": 18
+    },
+    "dr. dental of connecticut pc|general dentist|mid": {
+        "p25": 182364,
+        "median": 208000,
+        "p75": 246675,
+        "n": 8
+    },
+    "dracs consulting group inc|software developer|mid": {
+        "p25": 92201,
+        "median": 105227,
+        "p75": 108601,
+        "n": 10
+    },
+    "dracs consulting group inc|software engineer|mid": {
+        "p25": 105227,
+        "median": 105227,
+        "p75": 107603,
+        "n": 20
+    },
+    "dream venture labs inc.|finance fellow|senior": {
+        "p25": 79112,
+        "median": 115086,
+        "p75": 115731,
+        "n": 7
+    },
+    "dream venture labs inc.|molecular biology fellow|senior": {
+        "p25": 85841,
+        "median": 85841,
+        "p75": 91977,
+        "n": 5
+    },
+    "drexel university|assistant professor|entry": {
+        "p25": 97229,
+        "median": 102411,
+        "p75": 107250,
+        "n": 10
+    },
+    "drishticon inc|software developer|mid": {
+        "p25": 106420,
+        "median": 118200,
+        "p75": 124100,
+        "n": 7
+    },
+    "dropbox, inc.|data scientist|mid": {
+        "p25": 153948,
+        "median": 187000,
+        "p75": 187425,
+        "n": 8
+    },
+    "dropbox, inc.|engineering manager|senior": {
+        "p25": 233800,
+        "median": 248643,
+        "p75": 255325,
+        "n": 9
+    },
+    "dropbox, inc.|software engineer|mid": {
+        "p25": 163600,
+        "median": 191300,
+        "p75": 197200,
+        "n": 32
+    },
+    "drw holdings, llc|quantitative researcher|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 200000,
+        "n": 7
+    },
+    "drw holdings, llc|software developer|mid": {
+        "p25": 150000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 7
+    },
+    "drw holdings, llc|software engineer|mid": {
+        "p25": 125000,
+        "median": 150000,
+        "p75": 150000,
+        "n": 5
+    },
+    "dssc consulting, llc.|java developer|mid": {
+        "p25": 99840,
+        "median": 104000,
+        "p75": 114400,
+        "n": 5
+    },
+    "dublin city schools|elementary school teacher|mid": {
+        "p25": 48928,
+        "median": 51192,
+        "p75": 64195,
+        "n": 5
+    },
+    "dubois regional medical center|registered nurse|mid": {
+        "p25": 63544,
+        "median": 64147,
+        "p75": 71468,
+        "n": 5
+    },
+    "dubois regional medical center|registered nurse \u201c critical care float|mid": {
+        "p25": 64417,
+        "median": 66102,
+        "p75": 70366,
+        "n": 16
+    },
+    "dubois regional medical center|registered nurse \u201c critical care float pool|mid": {
+        "p25": 64708,
+        "median": 68328,
+        "p75": 69264,
+        "n": 5
+    },
+    "dubois regional medical center|registered nurse \u201c emergency department|mid": {
+        "p25": 63544,
+        "median": 64885,
+        "p75": 67548,
+        "n": 12
+    },
+    "dubois regional medical center (d/b/a penn highlands dubois)|registered nurse - critical care float pool|mid": {
+        "p25": 64911,
+        "median": 67329,
+        "p75": 71697,
+        "n": 8
+    },
+    "dubois regional medical center (d/b/a penn highlands dubois)|registered nurse - critical care float unit|mid": {
+        "p25": 63788,
+        "median": 64875,
+        "p75": 66419,
+        "n": 8
+    },
+    "dubois regional medical center (d/b/a penn highlands dubois)|registered nurse - emergency department|mid": {
+        "p25": 67371,
+        "median": 68328,
+        "p75": 71468,
+        "n": 5
+    },
+    "duke university|assistant professor|entry": {
+        "p25": 116325,
+        "median": 150540,
+        "p75": 226500,
+        "n": 42
+    },
+    "duke university|assistant research professor|entry": {
+        "p25": 69999,
+        "median": 85000,
+        "p75": 90000,
+        "n": 5
+    },
+    "duke university|associate in research|entry": {
+        "p25": 54995,
+        "median": 59044,
+        "p75": 69500,
+        "n": 9
+    },
+    "duke university|biostatistician ii|mid": {
+        "p25": 91334,
+        "median": 96950,
+        "p75": 99327,
+        "n": 7
+    },
+    "duke university|instructor|mid": {
+        "p25": 55177,
+        "median": 59655,
+        "p75": 59655,
+        "n": 5
+    },
+    "duke university|postdoctoral associate|entry": {
+        "p25": 63951,
+        "median": 65138,
+        "p75": 69104,
+        "n": 72
+    },
+    "duke university|research associate senior|mid": {
+        "p25": 75254,
+        "median": 76554,
+        "p75": 77854,
+        "n": 14
+    },
+    "duke university|research associate sr|mid": {
+        "p25": 75254,
+        "median": 75254,
+        "p75": 75254,
+        "n": 10
+    },
+    "duke university|research associate, senior|mid": {
+        "p25": 73490,
+        "median": 75254,
+        "p75": 75254,
+        "n": 8
+    },
+    "duke university|research associate, sr.|mid": {
+        "p25": 73981,
+        "median": 75254,
+        "p75": 75254,
+        "n": 10
+    },
+    "duke university|research scholar|mid": {
+        "p25": 68435,
+        "median": 68699,
+        "p75": 70660,
+        "n": 10
+    },
+    "duke university|research scientist|mid": {
+        "p25": 84247,
+        "median": 84994,
+        "p75": 88408,
+        "n": 6
+    },
+    "duke university health system|fellow|senior": {
+        "p25": 78600,
+        "median": 80160,
+        "p75": 85272,
+        "n": 10
+    },
+    "duke university health system|resident|entry": {
+        "p25": 69996,
+        "median": 72720,
+        "p75": 77142,
+        "n": 15
+    },
+    "dulles engineering, inc|staff engineer|senior": {
+        "p25": 71906,
+        "median": 71906,
+        "p75": 71906,
+        "n": 8
+    },
+    "duolingo, inc.|software engineer|mid": {
+        "p25": 159100,
+        "median": 161000,
+        "p75": 198900,
+        "n": 9
+    },
+    "duolingo, inc.|software engineer, data engineering|mid": {
+        "p25": 135000,
+        "median": 144700,
+        "p75": 146100,
+        "n": 7
+    },
+    "durham community charter school|elementary school teacher|mid": {
+        "p25": 56839,
+        "median": 60770,
+        "p75": 64674,
+        "n": 6
+    },
+    "durham public schools|elementary school teacher|mid": {
+        "p25": 59180,
+        "median": 59650,
+        "p75": 63602,
+        "n": 5
+    },
+    "dvi technologies, inc.|software engineer|mid": {
+        "p25": 74000,
+        "median": 74500,
+        "p75": 75000,
+        "n": 6
+    },
+    "dws investment management americas, inc.|analyst|mid": {
+        "p25": 100000,
+        "median": 100000,
+        "p75": 100000,
+        "n": 5
+    },
+    "dxc technology services llc|associate manager software engineering|mid": {
+        "p25": 106894,
+        "median": 122000,
+        "p75": 140000,
+        "n": 9
+    },
+    "dxc technology services llc|manager software engineering|senior": {
+        "p25": 127986,
+        "median": 128900,
+        "p75": 137664,
+        "n": 10
+    },
+    "dxc technology services llc|sr analyst i software engineering|mid": {
+        "p25": 97850,
+        "median": 99117,
+        "p75": 104558,
+        "n": 6
+    },
+    "dxu llc|designer|mid": {
+        "p25": 62000,
+        "median": 69326,
+        "p75": 72000,
+        "n": 5
+    },
+    "dynamic software consultants, inc|software developer|mid": {
+        "p25": 79851,
+        "median": 79851,
+        "p75": 112923,
+        "n": 5
+    }
+}
