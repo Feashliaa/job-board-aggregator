@@ -2,7 +2,7 @@
 
 ![Job Board Aggregator - table view with salary and ATS data](docs/screenshot-table.png)
 
-Automated job board aggregating 1,000,000+ positions from 20,000+ companies across six major ATS platforms. Updated daily via GitHub Actions.
+Automated job board aggregating 1,000,000+ positions from 20,000+ companies across seven major ATS platforms. Updated daily via GitHub Actions.
 
 ## Live Site
 
@@ -10,7 +10,7 @@ Automated job board aggregating 1,000,000+ positions from 20,000+ companies acro
 
 ## Features
 
-- **Multi-platform scraping**: Greenhouse, Lever, Ashby, BambooHR, and Workday APIs scraped in parallel using `concurrent.futures`
+- **Multi-platform scraping**: Greenhouse, Lever, Ashby, BambooHR, iCIMs, Paylocity, and Workday APIs scraped in parallel using `concurrent.futures`
 - **Progressive loading**: Chunked gzip data loaded via Web Workers for fast initial render
 - **Advanced filtering**: Filter by title, company, location, ATS platform, experience level, and exclude keywords. Toggle remote-only, hide recruiter postings, or hide already-applied jobs
 - **Job tier classification**: Automatic skill-level tagging (intern/entry/mid/senior) using weighted keyword scoring on job titles
