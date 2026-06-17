@@ -104,11 +104,16 @@ def merge_job_data():
 
     if stale_count > 0:
         print(f"Dropped {stale_count:,} stale jobs (>30 days old)")
-
-    # New scrape always wins on duplicates
+    
+    # New scrape always wins on duplicates; preserve first_seen across runs
     for job in new_jobs:
         key = get_dedup_key(job)
         if key:
+            existing = merged.get(key)
+            if existing:
+                job["first_seen"] = existing.get("first_seen") or existing.get("scraped_at")
+            else:
+                job["first_seen"] = job.get("scraped_at")
             merged[key] = job
 
     final_jobs = list(merged.values())

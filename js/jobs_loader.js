@@ -12,16 +12,21 @@ import { enableMap } from "./map_view.js";
 export async function fetchAndDecompress(url) {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`Failed to load ${url}`);
+
     const blob = await response.blob();
     const ds = new DecompressionStream('gzip');
-    const text = await new Response(blob.stream().pipeThrough(ds)).blob().then(b => b.text());
+
+    const text = await new Response(blob.stream().pipeThrough(ds))
+        .blob()
+        .then(b => b.text());
+
     return JSON.parse(text);
 }
 
 /**
- * Load jobs progressively: first chunk on main thread, rest via worker.
- * @param {Object} app - App instance with allJobs, filteredJobs, render(), refilter()
- * @param {string} basePath - Directory containing manifest and chunks
+ * Fetch and decompress a single gzipped JSON file.
+ * @param {string} url - Path to the .json.gz file
+ * @returns {Promise<Array>} Parsed JSON array
  */
 export async function loadJobsProgressive(app, basePath = './data/chunks') {
     const base_url = new URL(basePath, location.href).href;
@@ -30,7 +35,7 @@ export async function loadJobsProgressive(app, basePath = './data/chunks') {
         return res.json();
     });
 
-    // First chunk on main thread — renders immediately
+    // Render First Chunk on main thread instantly
     const firstChunk = await fetchAndDecompress(`${base_url}/${manifest.chunks[0]}`);
     app.allJobs = firstChunk;
     app.filteredJobs = firstChunk;
@@ -38,32 +43,47 @@ export async function loadJobsProgressive(app, basePath = './data/chunks') {
     app.render();
 
     if (manifest.chunks.length <= 1) {
-        enableMap();
+        app.isFullyLoaded = true;
+        document.querySelector('.job-table thead')?.classList.remove('sorting-locked');
         return;
     }
 
-    // Remaining chunks via web worker
-    const worker = new Worker('./js/chunk_worker.js');
+    const worker = new Worker('./js/chunk_worker.js', { type: 'module' });
+    app.sortWorker = worker;
     let pending = manifest.chunks.length - 1;
 
-    worker.onmessage = ({ data: jobs }) => {
-        app.allJobs.push(...jobs);
-        app.refilter();
-        app.render();
-        updateStats(app.allJobs, manifest.last_updated);
-        if (--pending === 0) {
-            worker.terminate();
-            enableMap();
+    worker.onmessage = ({ data }) => {
+        if (data.type === 'CHUNK_LOADED') {
+            // Add new jobs to the main thread arrays
+            app.allJobs.push(...data.jobsChunk);
+
+            // Re-run filters and render dynamically as data streams in
+            app.refilter();
+            updateStats(app.allJobs, manifest.last_updated);
+
+            if (--pending === 0) {
+                app.isFullyLoaded = true;
+                document.querySelector('.job-table thead')?.classList.remove('sorting-locked');
+                console.log("All chunks successfully loaded.");
+            }
+        }
+
+        if (data.type === 'SORTED') {
+            app.sortedJobs = data.sortedJobs;
+            app.virtualFilteredCount = data.sortedJobs.length;
+            if (app.sortLoader?.hide) app.sortLoader.hide();
+            app.isSorting = false;
+            app.render();
+        }
+        if (data.type === 'SORT_ERROR') {
+            console.error('Worker sort failed:', data.message);
+            if (app.sortLoader?.hide) app.sortLoader.hide();
+            app.isSorting = false;
         }
     };
 
-    worker.onerror = (err) => {
-        console.error('Chunk worker error:', err);
-        worker.terminate();
-    }
-
     manifest.chunks.slice(1).forEach(chunk => {
-        worker.postMessage(`${base_url}/${chunk}`);
+        worker.postMessage({ type: 'FETCH_CHUNK', url: `${base_url}/${chunk}` });
     });
 }
 

@@ -1,6 +1,6 @@
 import requests, threading, json, random, time, re, os, gzip, argparse, html
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import unquote
 from geolocation import build_lookup, lookup_location
@@ -31,6 +31,7 @@ PAYLOCITY_NAMES = {}
 # one requests.Session per worker thread, with a capped connection pool
 _paylocity_local = threading.local()
 
+
 def load_paylocity(filepath):
     """Paylocity clean file is [{guid, name, jobs}, ...], not a flat slug list.
     Returns a set of GUIDs and fills PAYLOCITY_NAMES (guid -> name)."""
@@ -60,6 +61,7 @@ def _paylocity_session():
         s.mount("https://", adapter)
         _paylocity_local.session = s
     return s
+
 
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -403,6 +405,26 @@ def fetch_company_jobs_lever(slug):
     return slug, [], None
 
 
+def _parse_workday_posted_on(text):
+    """Convert Workday's relative string (e.g. 'Posted 2 Days Ago') to an ISO date."""
+    if not text or not isinstance(text, str):
+        return None
+    t = text.strip().lower()
+    today = datetime.now(timezone.utc).date()
+    if "today" in t:
+        return today.isoformat()
+    m = re.search(r"(\d+)\s+day", t)
+    if m:
+        return (today - timedelta(days=int(m.group(1)))).isoformat()
+    m = re.search(r"(\d+)\s+week", t)
+    if m:
+        return (today - timedelta(weeks=int(m.group(1)))).isoformat()
+    m = re.search(r"(\d+)\s+month", t)
+    if m:
+        return (today - timedelta(days=int(m.group(1)) * 30)).isoformat()
+    return None
+
+
 def fetch_company_jobs_workday(slug):
     """
     slug format: "company|wd#|site_id" e.g. "kohls|wd1|kohlscareers"
@@ -484,6 +506,7 @@ def fetch_company_jobs_workday(slug):
                         "remote": remote,
                         "coords": coords,
                         "url": f"{base_url}/{site_id}{job_path}",
+                        "updated_at": _parse_workday_posted_on(job.get("postedOn")),
                         "is_recruiter": is_recruiter_company(company),
                         "ats": "Workday",
                         "skill_level": job_tier_classification(job.get("title", "")),
@@ -531,8 +554,11 @@ def fetch_company_jobs_icims(slug):
         ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
         normalized = []
-        for loc in root.findall(".//s:url/s:loc", ns):
-            job_url = loc.text.strip() if loc.text else ""
+        for url_el in root.findall(".//s:url", ns):
+            loc_el = url_el.find("s:loc", ns)
+            if loc_el is None:
+                continue
+            job_url = loc_el.text.strip() if loc_el.text else ""
             if (
                 not job_url
                 or "/jobs/" not in job_url
@@ -547,6 +573,13 @@ def fetch_company_jobs_icims(slug):
             else:
                 continue
 
+            lastmod_el = url_el.find("s:lastmod", ns)
+            updated_at = (
+                lastmod_el.text.strip()
+                if lastmod_el is not None and lastmod_el.text
+                else None
+            )
+
             remote, coords = False, None
             normalized.append(
                 {
@@ -557,6 +590,7 @@ def fetch_company_jobs_icims(slug):
                     "remote": remote,
                     "coords": coords,
                     "url": job_url,
+                    "updated_at": updated_at,
                     "is_recruiter": is_recruiter_company(slug),
                     "ats": "iCIMS",
                     "skill_level": job_tier_classification(title),
@@ -607,13 +641,13 @@ def fetch_company_jobs_paylocity(slug):
             _paylocity_local.session = None
             session = _paylocity_session()
             if attempt < max_retries:
-                time.sleep((2 ** attempt) + random.uniform(1.0, 2.0))
+                time.sleep((2**attempt) + random.uniform(1.0, 2.0))
                 continue
             print(f"Error fetching Paylocity for {slug}: {e}")
             return slug, [], None
         if response.status_code in (429, 503, 502):
             if attempt < max_retries:
-                time.sleep((2 ** attempt) + random.uniform(1.0, 2.0))
+                time.sleep((2**attempt) + random.uniform(1.0, 2.0))
                 continue
             return slug, [], response.status_code
         if response.status_code != 200:
@@ -928,6 +962,8 @@ def save_results(all_companies, active_companies, all_jobs):
         "remote",
         "coords",
         "salary",
+        "updated_at",
+        "first_seen",
     }
 
     slim_jobs = [

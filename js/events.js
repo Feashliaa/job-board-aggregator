@@ -43,7 +43,11 @@ export function setupEventListeners(app) {
         const column = app.columns[index];
         if (column && column.sortable) {
             th.style.cursor = 'pointer';
-            th.addEventListener('click', () => app.handleSort(column.key));
+            th.addEventListener('click', () => {
+                if (!app.isFullyLoaded) return;
+
+                app.handleSort(column.key);
+            });
         }
     });
 

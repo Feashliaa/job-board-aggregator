@@ -14,7 +14,7 @@ export function createColumns() {
         {
             key: 'salary',
             label: 'Salary (est.)',
-            sortable: false,
+            sortable: true,
             render: job => {
                 const s = job.salary;
                 if (!s?.median) return '<span class="text-muted">—</span>';
@@ -51,6 +51,22 @@ export function createColumns() {
                 return url
                     ? `<a href="${escape(url)}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary">Apply</a>`
                     : 'N/A';
+            }
+        },
+        {
+            key: 'posted',
+            label: 'Posted',
+            sortable: true,
+            render: job => {
+                const raw = job.updated_at || job.first_seen;
+                if (!raw) return '<span class="text-muted">—</span>';
+                const d = new Date(raw);
+                if (isNaN(d.getTime())) return '<span class="text-muted">—</span>';
+                const days = Math.floor((Date.now() - d) / 86400000);
+                if (days === 0) return 'Today';
+                if (days === 1) return 'Yesterday';
+                if (days < 30) return `${days}d ago`;
+                return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
             }
         },
         {

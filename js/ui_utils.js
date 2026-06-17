@@ -121,3 +121,23 @@ export function parseSalary(salaryString) {
 
     return { min, max };
 }
+
+export function updateSortIndicators(columns, sortState) {
+    const headers = document.querySelectorAll('.job-table thead th');
+
+    headers.forEach((th, index) => {
+        th.classList.remove('sorted-asc', 'sorted-desc');
+        // Add a "clicking disabled" utility class to the whole header row
+        th.parentElement.classList.add('sort-locked');
+
+        const column = columns[index];
+        if (column && column.key === sortState.key) {
+            th.classList.add(sortState.direction === 'asc' ? 'sorted-asc' : 'sorted-desc');
+        }
+    });
+
+    // Remove the lock class after 350ms
+    setTimeout(() => {
+        headers[0]?.parentElement?.classList.remove('sort-locked');
+    }, 350);
+}
