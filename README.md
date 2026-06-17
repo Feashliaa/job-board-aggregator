@@ -17,7 +17,7 @@ Automated job board aggregating 1,000,000+ positions from 20,000+ companies acro
 - **Application tracking**: Mark jobs as saved, applied, or ignored with batch update support via localStorage
 - **URL state sync**: Filter/sort/page state persisted in the URL for shareable/bookmarkable searches
 - **Responsive design**: Desktop table view with card-based mobile layout
-- **Automated pipeline**: Daily GitHub Actions workflow: scrape → merge with existing data → commit chunks → create release
+- **Automated pipeline**: Daily GitHub Actions workflow: fetch existing data → scrape → merge → push chunks to the data-live branch → create release
 - **Interactive heatmap**: Map view showing job density by location
 
 ![Map view with job density heatmap and filtering](docs/screenshot-map.png)
@@ -44,7 +44,7 @@ js/
 ├── jobs_loader.js      # Progressive chunk loading + Web Worker orchestration
 ├── chunk_worker.js     # Web Worker for gzip decompression
 ├── filters.js          # Filter logic with regex matching
-├── sorting.js          # Client-side sort with alpha/numeric handling
+├── sort_logic.js       # Client-side sort with alpha/numeric handling
 ├── renderer.js         # Table/card rendering with pagination
 ├── storage.js          # localStorage wrapper for application tracking
 ├── columns.js          # Column definitions and custom renderers
@@ -53,19 +53,23 @@ js/
 └── ui_utils.js         # Toast notifications, HTML escaping, utilities
 
 data/
-├── jobs_manifest.json  # Chunk index with metadata
-├── jobs_chunk_*.json.gz# Gzipped job data (~25k jobs per chunk)
-└── *_companies.json    # Company lists per ATS platform
+├── *_companies.json    # Company lists per ATS platform (tracked on main)
+├── salary/             # Salary lookup table, sharded a-z (static input)
+├── locations.json      # Geolocation lookup
+└── trends/daily.jsonl  # Append-only daily trend history
+
+# Chunked job data (jobs_chunk_*.json.gz + jobs_manifest.json) is NOT on main.
+# It is force-pushed to the orphan `data-live` branch each run and served from there.
 ```
 
 ## Data Pipeline
 
-1. **Scrape**: `scraper.py` fetches jobs from all five ATS APIs concurrently (30 workers per platform, 10 for BambooHR to respect rate limits)
+1. **Scrape**: `scraper.py` fetches jobs from all seven ATS APIs concurrently (30 workers per platform, 10 for BambooHR to respect rate limits)
 2. **Classify**: Each job is tagged with a skill level based on title keywords and flagged if posted by a recruiting agency
 3. **Clean**: Jobs missing titles, URLs, or company info are dropped
 4. **Chunk**: Results are split into ~25k-job gzipped chunks with a manifest file
 5. **Merge**: `merge_data.py` deduplicates against existing data and prunes jobs older than 30 days
-6. **Deploy**: GitHub Actions commits updated chunks and creates a tagged release
+6. **Deploy**: GitHub Actions commits the trend snapshot to main, force-pushes regenerated chunks to the data-live branch, and creates a tagged release. The frontend fetches chunks from data-live via raw.githubusercontent, keeping main code-only.
    
 ## Company Discovery
 
