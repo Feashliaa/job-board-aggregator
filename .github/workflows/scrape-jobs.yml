@@ -14,11 +14,13 @@ jobs:
       # Pull the existing chunk data from the data-live branch into the working
       # tree so merge_data.py can read yesterday's jobs and merge into them.
       # Without this, load_chunks("data") finds nothing and the merge discards
-      # all accumulated history, collapsing the dataset to just today's scrape.
+      # all accumulated history, collapsing the dataset
+
       - name: Fetch existing data from data-live
         run: |
           git fetch origin data-live
           git checkout origin/data-live -- data/chunks data/metadata.json
+          git reset -- data/chunks data/metadata.json
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -150,11 +152,10 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add data/trends/daily.jsonl
           git diff --staged --quiet || git commit -m "Trend snapshot $(date +'%Y-%m-%d')"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push origin main
 
       # Heavy regenerated data goes to the force-overwritten data-live branch.
-      # salary is NOT here: it lives on main as static input the scraper reads.
       - name: Push regenerated data to data-live
         run: |
           git checkout --orphan data-live-tmp
