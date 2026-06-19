@@ -427,6 +427,11 @@ thead.sorting-locked th,
     opacity: 0.5;
 }
 
+.job-table thead th.sortable:hover {
+    background: #9dddf0;
+    cursor: pointer;
+}
+
 
 /* Desktop stripes */
 .table-striped-desktop>tbody>tr:nth-of-type(odd)>td {

@@ -29,6 +29,10 @@ export async function fetchAndDecompress(url) {
  * @returns {Promise<Array>} Parsed JSON array
  */
 export async function loadJobsProgressive(app, basePath = 'https://raw.githubusercontent.com/Feashliaa/job-board-aggregator/data-live/data/chunks') {
+
+
+    document.querySelector('.job-table thead')?.classList.add('sorting-locked');
+    
     const base_url = new URL(basePath, location.href).href;
     const manifest = await fetch(`${base_url}/jobs_manifest.json`).then(res => {
         if (!res.ok) throw new Error('Failed to load jobs manifest');
@@ -45,6 +49,7 @@ export async function loadJobsProgressive(app, basePath = 'https://raw.githubuse
     if (manifest.chunks.length <= 1) {
         app.isFullyLoaded = true;
         document.querySelector('.job-table thead')?.classList.remove('sorting-locked');
+        enableMap();
         return;
     }
 
@@ -64,6 +69,7 @@ export async function loadJobsProgressive(app, basePath = 'https://raw.githubuse
             if (--pending === 0) {
                 app.isFullyLoaded = true;
                 document.querySelector('.job-table thead')?.classList.remove('sorting-locked');
+                enableMap();
                 console.log("All chunks successfully loaded.");
             }
         }

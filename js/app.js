@@ -165,13 +165,10 @@ class JobBoardApp {
     }
 
     sortOnMainThread() {
-        // fallback for single-chunk datasets where no worker exists
-        import('./sort_logic.js').then(({ sortJobs }) => {
-            this.sortedJobs = applySorting([...this.filteredJobs], this.sortState);
-            this.virtualFilteredCount = this.sortedJobs.length;
-            this.currentPage = 1;
-            this.render();
-        });
+        this.sortedJobs = sortJobs([...this.filteredJobs], this.sortState);
+        this.virtualFilteredCount = this.sortedJobs.length;
+        this.currentPage = 1;
+        this.render();
     }
 
     // ── Pagination ───────────────────────────────────────────
