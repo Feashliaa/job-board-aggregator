@@ -11,10 +11,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Pull the existing chunk data from the data-live branch into the working
-      # tree so merge_data.py can read yesterday's jobs and merge into them.
+      # Pull yesterday's chunk data from the job-board-data repo into the working
+      # tree so merge_data.py can read existing jobs and merge into them.
       # Without this, load_chunks("data") finds nothing and the merge discards
-      # all accumulated history, collapsing the dataset
+      # all accumulated history, collapsing the dataset.
 
       - name: Fetch existing data from data repo
         run: |
@@ -63,7 +63,8 @@ jobs:
           COMPANIES=$(jq '. | length' scripts/output/active_companies.json)
           RECRUITER=$(jq -r '.recruiter_jobs' scripts/output/metadata.json)
 
-          jq -n \
+          # -c forces compact single-line output so daily.jsonl stays valid JSONL
+          jq -nc \
             --arg date "$DATE" \
             --argjson total_jobs "$(jq -r '.total_jobs' data/metadata.json)" \
             --argjson active_companies "$COMPANIES" \
@@ -138,7 +139,7 @@ jobs:
             **Total Jobs:** ${{ steps.metadata.outputs.jobs }}  
             **Active Companies:** ${{ steps.metadata.outputs.companies }}  
             **Last Updated:** ${{ steps.metadata.outputs.date }}
-            The chunked job data is served from the `data-live` branch.
+            The chunked job data is served from the `job-board-data` repo via GitHub Pages.
           files: |
             scripts/output/all_jobs.json.gz
             scripts/output/active_companies.json
@@ -158,6 +159,7 @@ jobs:
 
       - name: Check for platform anomalies
         id: anomaly
+        continue-on-error: true
         run: python scripts/check_anomalies.py
 
       - name: Open issue on anomaly
@@ -169,7 +171,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Heavy regenerated data goes to the force-overwritten data-live branch.
+      # Heavy regenerated data is force-pushed to the job-board-data repo,
+      # which serves the chunks over GitHub Pages.
       - name: Push regenerated data to data repo
         run: |
           git clone https://x-access-token:${DATA_REPO_TOKEN}@github.com/Feashliaa/job-board-data.git data-repo

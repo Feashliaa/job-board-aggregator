@@ -14,17 +14,20 @@ from pathlib import Path
 
 TRENDS_FILE = Path("data/trends/daily.jsonl")
 LOOKBACK_DAYS = 7
-THRESHOLD_STDDEVS  = 3
-MIN_DAYS = 5 
+THRESHOLD_STDDEVS = 3
+MIN_DAYS = 5
 
 
 def load_history():
-    lines = TRENDS_FILE.read_text().strip().splitlines()
-    rows = [json.loads(line) for line in lines if line.strip()]
-    # Dedup by date, keep last entry per date (handles manual re-runs)
+    rows = []
+    with open(TRENDS_FILE, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                rows.append(json.loads(line))
     by_date = {}
-    for row in rows:
-        by_date[row["date"]] = row
+    for r in rows:
+        by_date[r["date"]] = r
     return [by_date[d] for d in sorted(by_date)]
 
 
@@ -57,7 +60,7 @@ def main():
             continue
 
         standard_score = (today_count - mean) / stdev
-        if abs(standard_score) > THRESHOLD_STDDEVS :
+        if abs(standard_score) > THRESHOLD_STDDEVS:
             direction = "SPIKE" if standard_score > 0 else "DROP"
             anomalies.append(
                 f"{platform}: {direction}, {today_count} vs {round(mean)} mean "
