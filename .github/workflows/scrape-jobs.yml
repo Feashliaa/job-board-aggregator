@@ -178,10 +178,11 @@ jobs:
           git clone https://x-access-token:${DATA_REPO_TOKEN}@github.com/Feashliaa/job-board-data.git data-repo
           cd data-repo
           git checkout --orphan fresh
-          rm -rf data/chunks
+          git rm -rf . > /dev/null 2>&1 || true
           mkdir -p data/chunks
           cp -r ../data/chunks/* data/chunks/
           cp ../data/metadata.json data/metadata.json
+          cp ../data/README.md README.md
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add -A
