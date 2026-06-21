@@ -1480,27 +1480,6 @@
   }
 }
 {
-  "date": "2026-06-17",
-  "total_jobs": 705547,
-  "active_companies": 30272,
-  "recruiter_jobs": 12152,
-  "by_platform": {
-    "greenhouse": 167914,
-    "ashby": 38088,
-    "bamboohr": 48255,
-    "lever": 57991,
-    "workday": 163910,
-    "icims": 165741,
-    "paylocity": 109099
-  },
-  "by_tier": {
-    "intern": 7131,
-    "entry": 84196,
-    "mid": 445648,
-    "senior": 214023
-  }
-}
-{
   "date": "2026-06-19",
   "total_jobs": 1476937,
   "active_companies": 30249,
