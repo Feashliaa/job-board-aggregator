@@ -16,11 +16,12 @@ jobs:
       # Without this, load_chunks("data") finds nothing and the merge discards
       # all accumulated history, collapsing the dataset
 
-      - name: Fetch existing data from data-live
+      - name: Fetch existing data from data repo
         run: |
-          git fetch origin data-live
-          git checkout origin/data-live -- data/chunks data/metadata.json
-          git reset -- data/chunks data/metadata.json
+          git clone --depth 1 https://github.com/Feashliaa/job-board-data.git prev-data
+          mkdir -p data/chunks
+          cp -r prev-data/data/chunks/* data/chunks/ 2>/dev/null || true
+          cp prev-data/data/metadata.json data/metadata.json 2>/dev/null || true
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -169,13 +170,21 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Heavy regenerated data goes to the force-overwritten data-live branch.
-      - name: Push regenerated data to data-live
+      - name: Push regenerated data to data repo
         run: |
-          git checkout --orphan data-live-tmp
-          git add -f data/chunks/ data/metadata.json
+          git clone https://x-access-token:${DATA_REPO_TOKEN}@github.com/Feashliaa/job-board-data.git data-repo
+          cd data-repo
+          git checkout --orphan fresh
+          rm -rf data/chunks
+          mkdir -p data/chunks
+          cp -r ../data/chunks/* data/chunks/
+          cp ../data/metadata.json data/metadata.json
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add -A
           git commit -m "Data snapshot $(date +'%Y-%m-%d %H:%M UTC')"
-          git branch -D data-live 2>/dev/null || true
-          git branch -m data-live
-          git push -f origin data-live
+          git branch -D main 2>/dev/null || true
+          git branch -m main
+          git push -f origin main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}

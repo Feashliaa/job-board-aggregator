@@ -28,19 +28,19 @@ export async function fetchAndDecompress(url) {
  * @param {string} url - Path to the .json.gz file
  * @returns {Promise<Array>} Parsed JSON array
  */
-export async function loadJobsProgressive(app, basePath = 'https://raw.githubusercontent.com/Feashliaa/job-board-aggregator/data-live/data/chunks') {
-
-
+export async function loadJobsProgressive(app, basePath = 'https://feashliaa.github.io/job-board-data/data/chunks') {
     document.querySelector('.job-table thead')?.classList.add('sorting-locked');
-    
-    const base_url = new URL(basePath, location.href).href;
-    const manifest = await fetch(`${base_url}/jobs_manifest.json`).then(res => {
+
+    const base_url = basePath;
+
+    const manifest = await fetch(`${base_url}/jobs_manifest.json?t=${Date.now()}`).then(res => {
         if (!res.ok) throw new Error('Failed to load jobs manifest');
         return res.json();
     });
 
-    // Render First Chunk on main thread instantly
-    const firstChunk = await fetchAndDecompress(`${base_url}/${manifest.chunks[0]}`);
+    const v = encodeURIComponent(manifest.last_updated);
+
+    const firstChunk = await fetchAndDecompress(`${base_url}/${manifest.chunks[0]}?v=${v}`);
     app.allJobs = firstChunk;
     app.filteredJobs = firstChunk;
     updateStats(app.allJobs, manifest.last_updated);
@@ -59,13 +59,9 @@ export async function loadJobsProgressive(app, basePath = 'https://raw.githubuse
 
     worker.onmessage = ({ data }) => {
         if (data.type === 'CHUNK_LOADED') {
-            // Add new jobs to the main thread arrays
             app.allJobs.push(...data.jobsChunk);
-
-            // Re-run filters and render dynamically as data streams in
             app.refilter();
             updateStats(app.allJobs, manifest.last_updated);
-
             if (--pending === 0) {
                 app.isFullyLoaded = true;
                 document.querySelector('.job-table thead')?.classList.remove('sorting-locked');
@@ -73,7 +69,6 @@ export async function loadJobsProgressive(app, basePath = 'https://raw.githubuse
                 console.log("All chunks successfully loaded.");
             }
         }
-
         if (data.type === 'SORTED') {
             app.sortedJobs = data.sortedJobs;
             app.virtualFilteredCount = data.sortedJobs.length;
@@ -89,7 +84,7 @@ export async function loadJobsProgressive(app, basePath = 'https://raw.githubuse
     };
 
     manifest.chunks.slice(1).forEach(chunk => {
-        worker.postMessage({ type: 'FETCH_CHUNK', url: `${base_url}/${chunk}` });
+        worker.postMessage({ type: 'FETCH_CHUNK', url: `${base_url}/${chunk}?v=${v}` });
     });
 }
 
