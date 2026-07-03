@@ -39,7 +39,7 @@ SAMPLES = {
 
     "Lever":      (fetch_company_jobs_lever,      ["hermeus", "wyetechllc"]),
 
-    "Workday":    (fetch_company_jobs_workday,    ["kohls|wd1|kohlscareers","2020companies|wd1|external_careers"]),
+    "Workday":    (fetch_company_jobs_workday,    ["abbott|wd5|abbottcareers","accenture|wd1|accenturecareers"]),
 
     "iCIMS":      (fetch_company_jobs_icims,      ["orange", "libertymutual"]),
 
