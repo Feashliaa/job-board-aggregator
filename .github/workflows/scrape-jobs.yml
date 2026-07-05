@@ -170,16 +170,14 @@ jobs:
             --body "${{ steps.anomaly.outputs.report }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Heavy regenerated data is force-pushed to the job-board-data repo,
-      # which serves the chunks over GitHub Pages.
       - name: Push regenerated data to data repo
         run: |
           git clone https://x-access-token:${DATA_REPO_TOKEN}@github.com/Feashliaa/job-board-data.git data-repo
           cd data-repo
           git checkout --orphan fresh
           git rm -rf . > /dev/null 2>&1 || true
-          mkdir -p data/chunks
+          mkdir -p data/chunks .github
+          cp -r ../.github/data-repo-workflows .github/workflows
           cp -r ../data/chunks/* data/chunks/
           cp ../data/metadata.json data/metadata.json
           cp ../data/README.md README.md
