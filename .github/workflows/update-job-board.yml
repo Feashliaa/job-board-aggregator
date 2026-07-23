@@ -1,0 +1,65 @@
+name: Update personal job board
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 16 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: personal-job-board-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape selected Greenhouse companies
+        run: python scripts/scraper.py --source automated
+
+      - name: Build small static site
+        run: python scripts/build_site.py
+
+      - name: Enforce published-site size budget
+        run: |
+          SIZE_BYTES=$(du -sb site | cut -f1)
+          LIMIT_BYTES=$((100 * 1024 * 1024))
+          echo "Site size: ${SIZE_BYTES} bytes"
+          test "${SIZE_BYTES}" -le "${LIMIT_BYTES}"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

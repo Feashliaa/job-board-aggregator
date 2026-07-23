@@ -6,6 +6,15 @@ from urllib.parse import unquote
 from geolocation import build_lookup, lookup_location
 from requests.adapters import HTTPAdapter
 
+from personal_config import (
+    COMPANY_BLOCKLIST,
+    GREENHOUSE_FILE_NAME,
+    MAX_PUBLISHED_JOBS,
+    TITLE_TERMS,
+    US_LOCATION_PATTERNS,
+    US_STATE_ABBREVIATIONS,
+)
+
 # ============================================================
 # CONFIGURATION
 # ============================================================
@@ -861,6 +870,46 @@ def job_tier_classification(title):
     else:
         return "mid"
 
+## ---------------------------------------------------------
+## ________  CUSTOM - TEMP  FUNCTIONS
+
+def is_us_location(location):
+    """Keep only explicit U.S. locations or U.S.-remote roles."""
+    text = (location or "").strip().lower()
+
+    if any(pattern in text for pattern in US_LOCATION_PATTERNS):
+        return True
+
+    # Examples matched: "Boston, MA", "New York, NY", "Austin, TX"
+    state_match = re.search(r"(?:,|\s)\s*([A-Z]{2})(?:\s|$|,)", location or "")
+    return bool(state_match and state_match.group(1) in US_STATE_ABBREVIATIONS)
+
+
+def matches_title(title):
+    """No filtering while TITLE_TERMS is empty."""
+    if not TITLE_TERMS:
+        return True
+    title_lower = (title or "").lower()
+    return any(term.lower() in title_lower for term in TITLE_TERMS)
+
+
+def keep_personal_job(job):
+    company = (job.get("company") or job.get("company_slug") or "").lower()
+    title = job.get("title") or ""
+    location = job.get("location") or ""
+
+    return (
+        company not in COMPANY_BLOCKLIST
+        and not job.get("is_recruiter", False)
+        and is_us_location(location)
+        and matches_title(title)
+    )
+
+
+## ---------------------------------------------------------
+
+
+
 
 # ============================================================
 # DEAD SLUG CACHE
@@ -900,7 +949,22 @@ def save_results(all_companies, active_companies, all_jobs):
     print("=" * 80 + "\n")
 
     original_count = len(all_jobs)
+    # all_jobs = clean_job_data(all_jobs)
     all_jobs = clean_job_data(all_jobs)
+    all_jobs = [job for job in all_jobs if keep_personal_job(job)]
+    all_jobs.sort(
+        key=lambda job: (
+            (job.get("updated_at") or ""),
+            (job.get("company") or "").lower(),
+            (job.get("title") or "").lower(),
+        ),
+        reverse=True,
+    )
+    all_jobs = all_jobs[:MAX_PUBLISHED_JOBS]
+    print(f"Personal U.S. jobs retained: {len(all_jobs):,}")
+
+
+
     cleaned_count = original_count - len(all_jobs)
     print(f"Removed {cleaned_count:,} invalid jobs (blank/not specified titles)")
 
@@ -1038,36 +1102,54 @@ def main():
     print("=" * 80)
 
     # Load existing companies
-    greenhouse_companies = load_companies(GREENHOUSE_FILE)
-    ashby_companies = load_companies(ASHBY_FILE)
-    bamboohr_companies = load_companies(BAMBOOHR_FILE)
-    lever_companies = load_companies(LEVER_FILE)
-    workday_companies = load_companies(WORKDAY_FILE)
-    icims_companies = load_companies(ICIMS_FILE)
-    paylocity_companies = load_paylocity(PAYLOCITY_FILE)
+    # greenhouse_companies = load_companies(GREENHOUSE_FILE)
+    # ashby_companies = load_companies(ASHBY_FILE)
+    # bamboohr_companies = load_companies(BAMBOOHR_FILE)
+    # lever_companies = load_companies(LEVER_FILE)
+    # workday_companies = load_companies(WORKDAY_FILE)
+    # icims_companies = load_companies(ICIMS_FILE)
+    # paylocity_companies = load_paylocity(PAYLOCITY_FILE)
+    # if (
+    #         not greenhouse_companies
+    #         and not ashby_companies
+    #         and not bamboohr_companies
+    #         and not lever_companies
+    #         and not workday_companies
+    #         and not icims_companies
+    #         and not paylocity_companies
+    #     ):
+    #         print("Exiting - no companies loaded!")
+    #         return
 
-    if (
-        not greenhouse_companies
-        and not ashby_companies
-        and not bamboohr_companies
-        and not lever_companies
-        and not workday_companies
-        and not icims_companies
-        and not paylocity_companies
-    ):
-        print("Exiting - no companies loaded!")
+
+    ## ------------------------------------------------------
+    #___Personal implementation: only the small Greenhouse list.
+    personal_greenhouse_file = os.path.join(ROOT_DIR, "data", GREENHOUSE_FILE_NAME)
+    greenhouse_companies = load_companies(personal_greenhouse_file)
+    if not greenhouse_companies:
+        print("Exiting - no Greenhouse companies loaded!")
         return
+    ## ------------------------------------------------------
 
-    # Define all platform jobs
+    
+
+    # # Define all platform jobs
+    # platforms = [
+    #     (greenhouse_companies, fetch_company_jobs_greenhouse, "GREENHOUSE"),
+    #     (ashby_companies, fetch_company_jobs_ashby, "ASHBY"),
+    #     (bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR"),
+    #     (lever_companies, fetch_company_jobs_lever, "LEVER"),
+    #     (workday_companies, fetch_company_jobs_workday, "WORKDAY"),
+    #     (icims_companies, fetch_company_jobs_icims, "iCIMS"),
+    #     (paylocity_companies, fetch_company_jobs_paylocity, "PAYLOCITY"),
+    # ]
+
     platforms = [
-        (greenhouse_companies, fetch_company_jobs_greenhouse, "GREENHOUSE"),
-        (ashby_companies, fetch_company_jobs_ashby, "ASHBY"),
-        (bamboohr_companies, fetch_company_jobs_bamboohr, "BAMBOOHR"),
-        (lever_companies, fetch_company_jobs_lever, "LEVER"),
-        (workday_companies, fetch_company_jobs_workday, "WORKDAY"),
-        (icims_companies, fetch_company_jobs_icims, "iCIMS"),
-        (paylocity_companies, fetch_company_jobs_paylocity, "PAYLOCITY"),
-    ]
+    (greenhouse_companies, fetch_company_jobs_greenhouse, "GREENHOUSE"),
+        ]
+    
+
+
 
     # Run all platforms concurrently
     all_active_companies = {}
@@ -1089,15 +1171,18 @@ def main():
             )
 
     # Combine all company sets for total count
-    all_companies = (
-        greenhouse_companies
-        | ashby_companies
-        | bamboohr_companies
-        | lever_companies
-        | workday_companies
-        | icims_companies
-        | paylocity_companies
-    )
+    # all_companies = (
+    #     greenhouse_companies
+    #     | ashby_companies
+    #     | bamboohr_companies
+    #     | lever_companies
+    #     | workday_companies
+    #     | icims_companies
+    #     | paylocity_companies
+    # )
+
+
+    all_companies = greenhouse_companies
 
     save_results(all_companies, all_active_companies, all_jobs)
 
